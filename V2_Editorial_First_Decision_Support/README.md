@@ -1,4 +1,4 @@
-# Manuscript Requirements Checker
+# V2_Editorial_First_Decision_Support
 
 A tool that analyzes academic manuscripts against editorial requirements using OpenAI's GPT models.
 
