@@ -99,7 +99,7 @@ Rigorous aims to transform scientific publishing by addressing fundamental ineff
 
 This repository contains various tools and solutions addressing these challenges:
 
-- `AI-Deskreject/`: AI-powered desk rejection tool for initial manuscript screening
+- `V2_Editorial_First_Decision_Support/`: AI-powered tool for initial manuscript screening and editorial first decision support
 - More components coming soon...
 
 ## Contributing
