@@ -1,6 +1,6 @@
 # Rigorous
 
-A comprehensive suite of tools aimed at revolutionizing scientific publishing by making it more transparent, cost-effective, and higher quality.
+An integrated suite of tools engineered to revolutionize scientific publishing by enhancing transparency, reducing costs, improving quality, accelerating publication timelines, and ensuring rigorous peer and AI review.
 
 ## Mission
 
