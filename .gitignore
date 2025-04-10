@@ -1,6 +1,10 @@
 # Environment variables
 .env
 
+# Manuscripts
+manuscripts/
+analysis_results/
+
 # Python
 __pycache__/
 *.py[cod]
