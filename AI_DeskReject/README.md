@@ -1,4 +1,4 @@
-# 📄 Subproject Overview
+# 📄 AI DeskReject Overview
 
 This subproject implements a tool that leverages a Large Language Model (LLM) to automate editorial compliance checks for academic manuscripts.
 
