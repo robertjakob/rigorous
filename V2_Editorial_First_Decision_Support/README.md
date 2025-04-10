@@ -1,4 +1,4 @@
-# V2_Editorial_First_Decision_Support
+# V2 - Editorial First Decision Support
 
 A tool that analyzes academic manuscripts against editorial requirements using OpenAI's GPT models.
 
