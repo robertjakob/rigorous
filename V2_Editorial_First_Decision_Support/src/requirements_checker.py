@@ -3,7 +3,7 @@ from pdf_parser import PDFParser
 from openai_client import OpenAIClient
 
 class RequirementsChecker:
-    """A class to orchestrate the manuscript requirements checking process."""
+    """A class to check manuscript requirements using OpenAI's GPT model."""
     
     def __init__(self, api_key: str = None):
         """
@@ -13,29 +13,43 @@ class RequirementsChecker:
             api_key (str, optional): OpenAI API key
         """
         self.openai_client = OpenAIClient(api_key)
-        
-    def analyze_manuscript(self, pdf_path: str, requirements: List[str]) -> Dict[str, Any]:
+    
+    def check_manuscript(self, pdf_path: str, requirements: List[str]) -> Dict[str, Any]:
         """
-        Analyze a manuscript against the given requirements.
+        Check if a manuscript meets the given requirements.
         
         Args:
-            pdf_path (str): Path to the manuscript PDF file
-            requirements (List[str]): List of editorial requirements to check
+            pdf_path (str): Path to the PDF manuscript
+            requirements (List[str]): List of requirements to check
             
         Returns:
             Dict[str, Any]: Analysis results
         """
-        # Extract text from PDF
+        # Parse PDF with structure preservation
         pdf_parser = PDFParser(pdf_path)
-        try:
-            manuscript_text = pdf_parser.extract_text()
-        finally:
-            pdf_parser.close()
-            
-        # Analyze requirements using OpenAI
-        analysis_results = self.openai_client.check_requirements(manuscript_text, requirements)
+        manuscript_text = pdf_parser.extract_text()
         
-        return analysis_results
+        # Get sections for better context
+        sections = pdf_parser.detect_sections()
+        
+        # Calculate word count
+        word_count = len(manuscript_text.split())
+        
+        # Add metadata and section information to the text
+        structured_text = f"""Document Metadata:
+Word Count: {word_count} words
+
+Document Structure:
+"""
+        for section, content in sections.items():
+            section_text = ' '.join(content)
+            section_word_count = len(section_text.split())
+            structured_text += f"\n{section} ({section_word_count} words):\n{section_text}\n"
+        
+        # Check requirements using OpenAI
+        analysis = self.openai_client.check_requirements(structured_text, requirements)
+        
+        return analysis
     
     def format_results(self, results: Dict[str, Any]) -> str:
         """
@@ -54,8 +68,7 @@ class RequirementsChecker:
         for req_analysis in results["requirements_analysis"]:
             output.append(f"Requirement: {req_analysis['requirement']}")
             output.append(f"Status: {'✓ Met' if req_analysis['is_met'] else '✗ Not Met'}")
-            if not req_analysis['is_met']:
-                output.append(f"Evidence: {req_analysis['evidence']}")
+            output.append(f"Evidence: {req_analysis['evidence']}")
             output.append(f"Explanation: {req_analysis['explanation']}\n")
             
         # Format desk rejection recommendation

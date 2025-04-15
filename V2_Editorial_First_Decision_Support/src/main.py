@@ -48,7 +48,7 @@ def analyze_manuscript(checker: RequirementsChecker, pdf_path: str, requirements
         base_name = os.path.splitext(os.path.basename(pdf_path))[0]
         
         # Analyze manuscript
-        results = checker.analyze_manuscript(pdf_path, requirements)
+        results = checker.check_manuscript(pdf_path, requirements)
         
         # Format results
         formatted_results = checker.format_results(results)
