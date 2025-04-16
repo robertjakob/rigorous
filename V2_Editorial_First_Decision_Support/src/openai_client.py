@@ -14,7 +14,17 @@ class OpenAIClient:
         Args:
             api_key (str, optional): OpenAI API key. If not provided, will try to load from environment.
         """
+        # Try to load .env from the current directory
         load_dotenv()
+        
+        # If API key is not found, try to load from parent directory
+        if not os.getenv("OPENAI_API_KEY"):
+            # Get the path to the parent directory (two levels up from this file)
+            parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+            env_path = os.path.join(parent_dir, ".env")
+            if os.path.exists(env_path):
+                load_dotenv(env_path)
+        
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("OpenAI API key is required")
@@ -41,96 +51,84 @@ class OpenAIClient:
             response = self.client.chat.completions.create(
                 model="gpt-3.5-turbo",  # Using standard model instead of 16k for cost efficiency
                 messages=[
-                    {"role": "system", "content": "You are an expert manuscript reviewer. Analyze manuscripts against requirements. Be strict and thorough. Only mark requirements as met with clear evidence. Provide specific quotes and exact numbers when applicable."},
+                    {"role": "system", "content": "You are an expert manuscript reviewer. Analyze manuscripts against requirements. Be strict and thorough. Only mark requirements as met with clear evidence. Provide specific quotes and exact numbers when applicable. Always respond with valid JSON."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.3,
                 max_tokens=1000  # Limit response length
             )
             
-            return self._parse_response(response.choices[0].message.content)
+            response_content = response.choices[0].message.content
+            print(f"OpenAI Response: {response_content}")  # Debug print
+            
+            return self._parse_response(response_content)
             
         except Exception as e:
             raise Exception(f"Failed to analyze manuscript: {str(e)}")
     
     def _create_analysis_prompt(self, manuscript_text: str, requirements: List[str]) -> str:
-        """Create the prompt for the GPT model."""
-        return f"""Analyze this manuscript against these requirements. For each requirement:
-1. Mark as met ONLY with clear evidence from the text
-2. For quantitative requirements (e.g., word count, DPI), provide exact numbers
-3. For structural requirements (e.g., sections, formatting), quote specific examples
-4. For missing requirements, mark as NOT MET and state "Requirement not found in manuscript"
-5. Be consistent: if something is not found, it should be marked as NOT MET
+        """
+        Create a prompt for the requirements analysis.
+        
+        Args:
+            manuscript_text (str): The manuscript text
+            requirements (List[str]): List of requirements to check
+            
+        Returns:
+            str: Formatted prompt for the OpenAI API
+        """
+        requirements_section = "\n".join([f"{i+1}. {req}" for i, req in enumerate(requirements)])
+        
+        return f"""Please analyze the following manuscript against these requirements:
 
-Requirements:
-{chr(10).join(f'- {req}' for req in requirements)}
+{requirements_section}
 
-Manuscript:
+For each requirement:
+1. Determine if it is met (YES/NO)
+2. Provide evidence from the text
+3. Give a brief explanation
+
+Manuscript text:
 {manuscript_text}
 
-Format response as JSON:
+Please format your response as a JSON object with the following structure:
 {{
     "requirements_analysis": [
         {{
-            "requirement": "requirement text",
-            "is_met": true/false,
-            "evidence": "REQUIRED: For met requirements - quote the relevant text or provide exact numbers. For unmet requirements - state 'Requirement not found in manuscript'",
-            "explanation": "Detailed explanation with specific references. For met requirements - explain what was found. For unmet requirements - explain what was missing."
+            "requirement": "<requirement text>",
+            "is_met": <true/false>,
+            "evidence": "<specific evidence from the text>",
+            "explanation": "<brief explanation>"
         }}
     ],
     "desk_rejection_recommendation": {{
-        "should_reject": true/false,
-        "justification": "Detailed explanation with specific references to unmet requirements"
+        "should_reject": <true/false>,
+        "justification": "<detailed explanation of the recommendation>"
     }}
 }}"""
 
     def _parse_response(self, response: str) -> Dict[str, Any]:
-        """Parse the GPT response into a structured format."""
+        """
+        Parse the OpenAI API response into a structured format.
+        
+        Args:
+            response (str): Raw response from the API
+            
+        Returns:
+            Dict[str, Any]: Parsed response
+        """
         try:
-            # Find the JSON part of the response
-            start_idx = response.find('{')
-            end_idx = response.rfind('}') + 1
-            if start_idx == -1 or end_idx == 0:
-                raise ValueError("No JSON found in response")
+            # Remove code block markers if present
+            cleaned_response = response.strip()
+            if cleaned_response.startswith("```"):
+                cleaned_response = cleaned_response.split("\n", 1)[1]  # Remove first line
+            if cleaned_response.endswith("```"):
+                cleaned_response = cleaned_response.rsplit("\n", 1)[0]  # Remove last line
+            if cleaned_response.startswith("json"):
+                cleaned_response = cleaned_response.split("\n", 1)[1]  # Remove "json" line
             
-            json_str = response[start_idx:end_idx]
-            parsed_response = json.loads(json_str)
-            
-            # Ensure all required fields are present
-            if "requirements_analysis" not in parsed_response:
-                raise ValueError("Missing requirements_analysis in response")
-                
-            if "desk_rejection_recommendation" not in parsed_response:
-                raise ValueError("Missing desk_rejection_recommendation in response")
-                
-            # Ensure each requirement has all required fields
-            for req in parsed_response["requirements_analysis"]:
-                if "requirement" not in req:
-                    req["requirement"] = "Unknown requirement"
-                if "is_met" not in req:
-                    req["is_met"] = False
-                if "evidence" not in req:
-                    req["evidence"] = "No evidence provided"
-                if "explanation" not in req:
-                    req["explanation"] = "No explanation provided"
-            
-            # Ensure desk rejection recommendation has all required fields
-            rejection = parsed_response["desk_rejection_recommendation"]
-            if "should_reject" not in rejection:
-                rejection["should_reject"] = False
-            if "justification" not in rejection:
-                rejection["justification"] = "No justification provided"
-            
-            return parsed_response
-            
-        except Exception as e:
-            print(f"Warning: Failed to parse response as JSON: {str(e)}")
-            print("Raw response:", response)
-            # Return a default structure if parsing fails
-            return {
-                "requirements_analysis": [],
-                "desk_rejection_recommendation": {
-                    "should_reject": False,
-                    "justification": "Failed to parse response"
-                }
-            } 
+            return json.loads(cleaned_response)
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse JSON: {str(e)}")  # Debug print
+            print(f"Response content: {response}")  # Debug print
+            raise Exception("Failed to parse OpenAI response as JSON") 
