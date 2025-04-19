@@ -1,0 +1,65 @@
+{
+  "ratings": {
+    "originality": {
+      "score": 8,
+      "justification": "The use of deep learning for BMI estimation from smartphone camera images on a large-scale dataset is innovative."
+    },
+    "significance": {
+      "score": 7,
+      "justification": "The study addresses the practical application of BMI estimation in real-world scenarios, such as telehealth services and emergency medical situations."
+    },
+    "technical_quality": {
+      "score": 9,
+      "justification": "The methodology is technically sound, utilizing deep learning and image processing techniques effectively."
+    },
+    "clarity": {
+      "score": 8,
+      "justification": "The manuscript is generally well-written and clear, presenting the methods and results effectively."
+    },
+    "related_work": {
+      "score": 7,
+      "justification": "The related work section provides a good overview of existing research in BMI estimation from images."
+    },
+    "results": {
+      "score": 8,
+      "justification": "The results are detailed and supported by performance metrics on various datasets, demonstrating the effectiveness of the proposed approach."
+    },
+    "relevance": {
+      "score": 9,
+      "justification": "The study is highly relevant to the field of digital health interventions and has practical implications for remote health monitoring."
+    },
+    "ethics": {
+      "score": 8,
+      "justification": "The study does not raise any major ethical concerns, as it focuses on technology for health assessment."
+    }
+  },
+  "major_remarks": [
+    "Further discussion on the limitations of the approach and datasets used is needed.",
+    "Clarify the specific deep learning models and techniques employed for BMI estimation."
+  ],
+  "minor_remarks": [
+    "Proofread the manuscript for minor grammatical errors.",
+    "Provide more context on the CLAID framework used for deployment on mobile devices."
+  ],
+  "concrete_suggestions": [
+    "Include a section on limitations and future directions to enhance the completeness of the study.",
+    "Explicitly mention the deep learning architecture and algorithms used in the methodology section."
+  ],
+  "recommendation": "major_revision",
+  "summary": "The manuscript presents an innovative approach to BMI estimation using deep learning on smartphone images. While technically sound and clear, further details on methodologies and discussions on limitations are necessary for improvement.",
+  "agent_info": {
+    "role": "Language and Clarity Expert",
+    "expertise": [
+      "Scientific Writing",
+      "Grammar",
+      "Clarity",
+      "Style"
+    ],
+    "focus_areas": [
+      "Writing Quality",
+      "Clarity of Expression",
+      "Grammar and Style",
+      "Figure and Table Clarity"
+    ]
+  }
+}

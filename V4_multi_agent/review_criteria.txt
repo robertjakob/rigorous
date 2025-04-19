@@ -1,0 +1,55 @@
+Technical and Methodology Review:
+- Research question clarity and definition
+- Methodology detail and appropriateness
+- Data analysis rigor and statistical methods
+- Results presentation and support
+- Technical implementation quality
+- Reproducibility of methods
+- Experimental design soundness
+
+Domain and Field Review:
+- Scientific contribution significance
+- Novelty of findings
+- Advancement of field knowledge
+- Practical applications
+- Target audience relevance
+- Knowledge gap addressing
+- Field-specific methodology
+
+Impact and Significance:
+- Scientific impact
+- Practical implications
+- Field advancement
+- Target audience relevance
+- Knowledge gap addressing
+- Future research directions
+- Application potential
+
+Ethical Considerations:
+- Research ethics compliance
+- Informed consent documentation
+- Animal welfare (if applicable)
+- Data handling and storage
+- Privacy concerns
+- Data availability
+- Ethical implications
+
+General Review:
+- Manuscript structure
+- Writing clarity
+- Technical terminology
+- Figure and table clarity
+- Reference accuracy
+- Overall presentation
+- Scientific writing standards
+
+Please provide:
+1. An overall assessment of the manuscript
+2. Major points that need to be addressed
+3. Minor points for improvement
+4. Specific strengths of the work
+5. Specific weaknesses that should be addressed
+6. A clear recommendation (Accept, Minor Revision, Major Revision, or Reject)
+7. Specific suggestions for improvement
+
+Format your response as a structured review that addresses each of these points systematically. 
