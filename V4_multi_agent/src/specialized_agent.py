@@ -83,28 +83,40 @@ Paper text:
 {paper_text[:8000]}  # Limit text length to avoid token limits
 
 Provide your review in the following JSON format:
-{{
-    "ratings": {{
-        "technical_quality": {{"score": <1-10>, "justification": "<text>"}},
-        "methodology": {{"score": <1-10>, "justification": "<text>"}},
-        "innovation": {{"score": <1-10>, "justification": "<text>"}},
-        "clarity": {{"score": <1-10>, "justification": "<text>"}}
-    }},
-    "analysis": {{
-        "strengths": ["List of strengths"],
-        "weaknesses": ["List of weaknesses"],
-        "improvements": ["Suggested improvements"]
-    }},
-    "recommendations": {{
-        "critical_issues": ["Critical issues found"],
-        "suggestions": ["Detailed suggestions"],
-        "references": ["Relevant references"]
-    }},
-    "summary": "Overall summary of the review",
-    "recommendation": "accept/minor_revision/major_revision/reject"
-}}
+{
+    "strengths": [
+        {
+            "point": "Specific strength identified",
+            "location": "Section/paragraph where this strength appears",
+            "explanation": "Detailed explanation of why this is a strength",
+            "impact": "How this strength contributes to the paper's quality"
+        }
+    ],
+    "weaknesses": [
+        {
+            "point": "Specific weakness identified",
+            "location": "Section/paragraph where this weakness appears",
+            "explanation": "Detailed explanation of why this is a weakness",
+            "impact": "How this weakness affects the paper's quality"
+        }
+    ],
+    "improvements": [
+        {
+            "area": "Specific area needing improvement",
+            "current_state": "Description of the current state",
+            "suggestion": "Detailed, actionable suggestion for improvement",
+            "example": "Specific example or reference to support the suggestion",
+            "expected_impact": "How this improvement would enhance the paper"
+        }
+    ],
+    "summary": {
+        "overall_assessment": "Overall assessment of the paper from your expertise perspective",
+        "key_points": ["Key points that need attention"],
+        "priority_improvements": ["Most important improvements to address first"]
+    }
+}
 
-Ensure your response is valid JSON and includes all required fields."""
+Ensure your response is valid JSON and includes all required fields. Provide specific, detailed feedback with concrete examples and actionable suggestions."""
 
         try:
             response = self.client.analyze_manuscript(paper_text, {
