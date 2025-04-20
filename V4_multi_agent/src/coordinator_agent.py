@@ -49,7 +49,14 @@ Provide a comprehensive synthesis in the following JSON format:
         "synergies": ["List of synergies between domains"]
     }},
     "comprehensive_assessment": {{
-        "overall_quality": 0,
+        "ratings": {{
+            "technical_quality": {{"score": <1-10>, "justification": "text"}},
+            "methodology": {{"score": <1-10>, "justification": "text"}},
+            "innovation": {{"score": <1-10>, "justification": "text"}},
+            "clarity": {{"score": <1-10>, "justification": "text"}},
+            "ethics": {{"score": <1-10>, "justification": "text"}},
+            "impact": {{"score": <1-10>, "justification": "text"}}
+        }},
         "key_strengths": ["List of key strengths"],
         "key_weaknesses": ["List of key weaknesses"],
         "critical_issues": ["List of critical issues"]

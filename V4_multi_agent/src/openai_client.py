@@ -1,139 +1,113 @@
 import os
-import json
-import re
 from typing import Dict, Any
 from openai import OpenAI
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
+import json
+import re
 
 class OpenAIClient:
-    """A class to handle interactions with the OpenAI API for peer review."""
+    """Client for interacting with OpenAI's API."""
     
     def __init__(self):
-        """Initialize the OpenAI client with API key from environment."""
-        load_dotenv()
+        """Initialize the OpenAI client."""
+        # Load environment variables from .env file
+        env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+        print(f"\nLooking for .env file at: {env_path}")
+        print(f"File exists: {os.path.exists(env_path)}")
+        
+        # Try to load the .env file
+        if load_dotenv(env_path):
+            print("Successfully loaded .env file")
+        else:
+            print("Failed to load .env file")
+        
+        # Get API key
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
-            raise ValueError("OpenAI API key not found in environment variables")
-        self.client = OpenAI(api_key=api_key)
-        
-    def _clean_json_string(self, json_str: str) -> str:
-        """Clean up common JSON formatting issues.
-        
-        Args:
-            json_str (str): The JSON string to clean
-            
-        Returns:
-            str: The cleaned JSON string
-        """
-        # Remove trailing commas in objects and arrays
-        json_str = re.sub(r',(\s*[}\]])', r'\1', json_str)
-        
-        # Remove any text before the first { and after the last }
-        start_idx = json_str.find('{')
-        end_idx = json_str.rfind('}') + 1
-        if start_idx >= 0 and end_idx > start_idx:
-            json_str = json_str[start_idx:end_idx]
-        
-        return json_str
-        
-    def analyze_manuscript(self, manuscript_text: str, criteria: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Analyze a manuscript using GPT-3.5-turbo.
-        
-        Args:
-            manuscript_text (str): The text content of the manuscript
-            criteria (Dict[str, Any]): The review criteria to use
-            
-        Returns:
-            Dict[str, Any]: The analysis results
-        """
-        prompt = self._create_review_prompt(manuscript_text, criteria)
+            raise ValueError("OPENAI_API_KEY not found in environment variables")
+        else:
+            # Mask most of the API key for security
+            masked_key = f"{api_key[:7]}...{api_key[-4:]}"
+            print(f"Found API key: {masked_key}")
         
         try:
+            self.client = OpenAI(api_key=api_key)
+            print("Successfully initialized OpenAI client")
+        except Exception as e:
+            raise ValueError(f"Failed to initialize OpenAI client: {str(e)}")
+    
+    def _extract_json_from_text(self, text: str) -> Dict[str, Any]:
+        """Extract JSON from text that might contain other content."""
+        # Find the first { and last } to extract the JSON object
+        start = text.find('{')
+        end = text.rfind('}')
+        
+        if start == -1 or end == -1:
+            return {"error": "No JSON found in response"}
+        
+        json_str = text[start:end+1]
+        
+        # Clean up common JSON formatting issues
+        json_str = re.sub(r',(\s*[}\]])', r'\1', json_str)  # Remove trailing commas
+        json_str = re.sub(r'\\n\s*', ' ', json_str)  # Remove newlines
+        json_str = re.sub(r'\s+', ' ', json_str)  # Normalize whitespace
+        
+        try:
+            return json.loads(json_str)
+        except json.JSONDecodeError as e:
+            return {
+                "error": "Failed to parse JSON",
+                "details": str(e),
+                "raw_text": text
+            }
+    
+    def analyze_manuscript(self, content: str, params: Dict[str, Any]) -> Dict[str, Any]:
+        """Analyze manuscript content using OpenAI's API."""
+        try:
+            # Print request details for debugging
+            print(f"\nMaking API call with model: {params.get('model', 'gpt-3.5-turbo')}")
+            print(f"Task: {params.get('task', 'unknown')}")
+            
+            # Construct the messages for the chat completion
+            messages = [
+                {
+                    "role": "system",
+                    "content": (
+                        f"You are an {params.get('role', 'expert scientific editor')}. "
+                        "Your response must be a valid JSON object. "
+                        "Do not include any text outside the JSON object. "
+                        "Do not use markdown formatting. "
+                        "Ensure all property names and string values are properly quoted."
+                    )
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"{params.get('prompt', '')}\n\n"
+                        "Remember to return ONLY a valid JSON object with no additional text.\n\n"
+                        f"Content:\n{content}"
+                    )
+                }
+            ]
+            
+            # Make the API call
             response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",  # Using GPT-3.5-turbo for testing
-                messages=[
-                    {"role": "system", "content": """You are an expert peer reviewer for scientific manuscripts. 
-Your task is to provide detailed, constructive feedback using the specified criteria.
-IMPORTANT: You must format your entire response as a valid JSON object.
-Do not include any text outside the JSON object.
-All property names must be enclosed in double quotes.
-All string values must be enclosed in double quotes.
-Use square brackets for arrays.
-Use proper JSON syntax for nested objects.
-Do not use trailing commas."""},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.7,
-                max_tokens=2000  # Reduced token limit for GPT-3.5-turbo
+                model=params.get('model', 'gpt-3.5-turbo'),
+                messages=messages,
+                temperature=0.3,
+                response_format={"type": "json_object"}  # Request JSON response
             )
             
-            # Parse the response into the expected format
-            review_text = response.choices[0].message.content
-            try:
-                # Clean and parse the JSON
-                cleaned_json = self._clean_json_string(review_text)
-                return json.loads(cleaned_json)
-            except Exception as e:
-                print(f"Error parsing review response: {e}")
-                print(f"Raw response: {review_text}")
-                print(f"Cleaned JSON: {cleaned_json}")
-                return {
-                    "error": "Failed to parse review response",
-                    "raw_response": review_text
-                }
+            # Extract and parse the response
+            response_text = response.choices[0].message.content
+            return self._extract_json_from_text(response_text)
+            
         except Exception as e:
-            print(f"Error calling OpenAI API: {e}")
             return {
-                "error": "Failed to get review from OpenAI",
-                "details": str(e)
-            }
-            
-    def _create_review_prompt(self, manuscript_text: str, criteria: Dict[str, Any]) -> str:
-        """
-        Create a prompt for the review request.
-        
-        Args:
-            manuscript_text (str): The text content of the manuscript
-            criteria (Dict[str, Any]): The review criteria to use
-            
-        Returns:
-            str: The formatted prompt
-        """
-        return f"""IMPORTANT: Your response must be a single, valid JSON object. Do not include any text outside the JSON.
-All property names and string values must be enclosed in double quotes.
-Do not use trailing commas in objects or arrays.
-
-Review the following manuscript according to these criteria:
-
-{json.dumps(criteria, indent=2)}
-
-Manuscript text:
-{manuscript_text[:4000]}  # Further limit text length for GPT-3.5-turbo
-
-Provide your review as a JSON object with exactly this structure:
-{{
-    "ratings": {{
-        "originality": {{"score": <1-10>, "justification": "text"}},
-        "significance": {{"score": <1-10>, "justification": "text"}},
-        "technical_quality": {{"score": <1-10>, "justification": "text"}},
-        "clarity": {{"score": <1-10>, "justification": "text"}},
-        "related_work": {{"score": <1-10>, "justification": "text"}},
-        "results": {{"score": <1-10>, "justification": "text"}},
-        "relevance": {{"score": <1-10>, "justification": "text"}},
-        "ethics": {{"score": <1-10>, "justification": "text"}}
-    }},
-    "major_remarks": ["remark1", "remark2"],
-    "minor_remarks": ["remark1", "remark2"],
-    "concrete_suggestions": ["suggestion1", "suggestion2"],
-    "recommendation": "accept/minor_revision/major_revision/reject",
-    "summary": "overall summary of the review"
-}}
-
-Remember:
-1. Your entire response must be a single JSON object
-2. All property names must be in double quotes
-3. All string values must be in double quotes
-4. Use square brackets for arrays
-5. Do not include any text outside the JSON object
-6. Do not use trailing commas in objects or arrays""" 
+                "error": f"API call failed: {str(e)}",
+                "details": {
+                    "model": params.get('model', 'gpt-3.5-turbo'),
+                    "role": params.get('role', 'expert scientific editor'),
+                    "exception": str(e)
+                }
+            } 
