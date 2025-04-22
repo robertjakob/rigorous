@@ -25,6 +25,16 @@ class ClarityConcisenessAgent(BaseReviewerAgent):
         9. Readability
         10. Information density
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Key message clarity
+        - Introduction: Background conciseness
+        - Literature Review: Synthesis clarity
+        - Methodology: Process description
+        - Results: Finding presentation
+        - Discussion: Argument clarity
+        - Conclusion: Message conciseness
+        - Technical Content: Jargon explanation
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +54,9 @@ class ClarityConcisenessAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "technical"
+                "focus": str  # "language_simplicity", "jargon", "wordiness", "sentence_length", "paragraph_length", "voice", "redundancy", "ambiguity", "readability", "information_density"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +74,9 @@ class ClarityConcisenessAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances clarity and conciseness.
         """
         
         try:

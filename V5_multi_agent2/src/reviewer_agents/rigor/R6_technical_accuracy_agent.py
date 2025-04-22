@@ -25,6 +25,17 @@ class TechnicalAccuracyAgent(BaseReviewerAgent):
         9. Complexity analysis
         10. Technical documentation
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Technical approach summary
+        - Introduction: Technical framework overview
+        - Methodology: Technical methods description
+        - Mathematical Framework: Derivation presentation
+        - Algorithm Description: Implementation details
+        - Technical Analysis: Complexity and efficiency
+        - Results: Technical findings presentation
+        - Discussion: Technical implications
+        - Conclusion: Technical significance summary
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +55,9 @@ class TechnicalAccuracyAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "methodology", "mathematical_framework", "algorithm_description", "technical_analysis", "results", "discussion", "conclusion"
+                "focus": str  # "derivations", "algorithms", "terminology", "equations", "completeness", "consistency", "implementation", "edge_cases", "complexity", "documentation"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +75,9 @@ class TechnicalAccuracyAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances technical accuracy.
         """
         
         try:

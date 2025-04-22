@@ -1,35 +1,76 @@
 {
-  "impact_significance_score": 9,
+  "impact_significance_score": 8,
   "critical_remarks": [
     {
       "category": "field_influence",
-      "location": "Abstract",
-      "issue": "The study presents a significant advancement in the field of BMI estimation from smartphone camera images by utilizing a large-scale real-world dataset, surpassing the limitations of previous studies with smaller datasets.",
-      "severity": "high",
-      "impact": "This significantly enhances the credibility and applicability of the research findings in the field of digital health interventions."
+      "location": "Introduction",
+      "issue": "The introduction lacks a clear statement on how this research will influence the field of digital health interventions.",
+      "severity": "medium",
+      "impact": "This affects the clarity of the research's contribution to the field."
     },
     {
       "category": "implications",
-      "location": "Results on external datasets",
-      "issue": "The discrepancy in performance on the face-only VIP Attribute dataset compared to the original authors raises concerns about the model's generalizability across diverse datasets.",
+      "location": "Discussion",
+      "issue": "The discussion section does not thoroughly explore the broader implications of the findings beyond BMI estimation.",
       "severity": "medium",
-      "impact": "This may limit the practical applicability of the model in scenarios with varying image characteristics."
+      "impact": "This limits the understanding of the potential impact of the research."
+    },
+    {
+      "category": "applications",
+      "location": "Results",
+      "issue": "The practical applications of the research could be more explicitly linked to real-world scenarios and benefits.",
+      "severity": "medium",
+      "impact": "This reduces the clarity on how the research can be practically implemented."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
-      "improved_version": "Participants self-reported their height at the onset of the fitness program.",
-      "explanation": "Improves clarity and conciseness.",
-      "location": "Dataset section"
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Clarifies the sentence structure for better readability and comprehension.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "field_influence"
+    },
+    {
+      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
+      "improved_version": "Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.",
+      "explanation": "Enhances clarity and conciseness in presenting the research findings.",
+      "location": "Results",
+      "category": "results",
+      "focus": "field_influence"
+    },
+    {
+      "original_text": "To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.",
+      "improved_version": "To bridge the gap in small datasets, we utilize deep learning models trained on a comprehensive real-world dataset comprising over 84,000 full-body images from 25,353 individuals.",
+      "explanation": "Provides a more descriptive and engaging presentation of the dataset size and research approach.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "field_influence"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.",
+      "explanation": "Enhances the emphasis on the model's generalizability and performance on unseen data.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "future_research"
+    },
+    {
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Additionally, our research offers valuable insights for remote weight estimation in telemedicine consultations.",
+      "explanation": "Strengthens the statement on the practical implications of the research.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "applications"
     }
   ],
   "detailed_feedback": {
-    "field_influence": "The study's contribution to the field of digital health interventions is substantial, providing a novel approach to BMI estimation using smartphone images on a large-scale dataset. This has the potential to influence future research directions and applications in telehealth services and emergency medical scenarios.",
-    "broader_implications": "The findings have broader implications for remote health monitoring and weight estimation, highlighting the importance of image perspectives in accurate BMI estimation. The comparison of different image perspectives within a homogeneous dataset offers valuable insights for practical applications.",
-    "future_research_impact": "The study's emphasis on large-scale real-world datasets and diverse image perspectives opens avenues for future research in improving BMI estimation accuracy and generalizability. Further research could focus on refining models for different demographic groups and exploring additional image filtering techniques.",
-    "practical_applications": "The practical applications of the research are significant, particularly in telehealth services and remote health monitoring where direct measurements of height and weight are challenging. The deployment of algorithms on mobile devices using the CLAID framework showcases the potential for real-time BMI estimation in various healthcare settings.",
-    "policy_implications": "From a policy perspective, the study underscores the importance of leveraging digital health interventions for rapid weight assessment and remote monitoring. Policymakers could consider integrating AI-based tools for BMI estimation in healthcare systems to enhance efficiency and accuracy."
+    "field_influence": "The research presents a significant contribution to the field of digital health interventions by introducing a novel approach to BMI estimation from smartphone images using deep learning on a large-scale real-world dataset.",
+    "broader_implications": "The findings have broader implications for telehealth services, emergency medical scenarios, and remote health monitoring, offering a digital, real-time solution for weight assessment.",
+    "future_research_impact": "The study's focus on different image perspectives and the evaluation on external datasets pave the way for future research on optimizing BMI estimation models for diverse applications and datasets.",
+    "practical_applications": "The research showcases practical applications in image filtering, BMI estimation, and mobile deployment, demonstrating the potential for real-world implementation in healthcare settings.",
+    "policy_implications": "The study's findings can inform policies related to digital health interventions, telemedicine, and remote monitoring, highlighting the importance of accurate and efficient weight estimation methods."
   },
-  "summary": "The study on BMI estimation from smartphone camera images using a large-scale real-world dataset makes a significant contribution to the field of digital health interventions. While the research offers valuable insights and practical applications, there are concerns regarding the model's generalizability across diverse datasets. Future research directions could focus on refining models for different demographic groups and improving generalizability."
+  "summary": "The research demonstrates a significant contribution to the field of digital health interventions through innovative BMI estimation from smartphone images. While the study presents valuable insights and practical applications, improvements are needed in clearly articulating the field influence, broader implications, and practical relevance of the findings."
 }

@@ -25,6 +25,16 @@ class StatisticalRigorAgent(BaseReviewerAgent):
         9. Missing data handling
         10. Outlier treatment
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Statistical approach summary
+        - Introduction: Statistical framework overview
+        - Methodology: Statistical methods description
+        - Data Preparation: Assumption checks, data cleaning
+        - Analysis: Statistical test implementation
+        - Results: Statistical findings presentation
+        - Discussion: Statistical interpretation
+        - Conclusion: Statistical significance summary
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +54,9 @@ class StatisticalRigorAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "methodology", "data_preparation", "analysis", "results", "discussion", "conclusion"
+                "focus": str  # "test_selection", "assumptions", "sample_size", "multiple_comparisons", "effect_size", "confidence_intervals", "p_value", "power", "missing_data", "outliers"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +74,9 @@ class StatisticalRigorAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances statistical rigor.
         """
         
         try:

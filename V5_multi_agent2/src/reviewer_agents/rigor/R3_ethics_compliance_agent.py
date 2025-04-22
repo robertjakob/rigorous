@@ -20,6 +20,16 @@ class EthicsComplianceAgent(BaseReviewerAgent):
         4. Research integrity
         5. Adherence to ethical guidelines
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Ethical statement, compliance summary
+        - Introduction: Research ethics framework, compliance approach
+        - Methodology: Ethical procedures, consent process
+        - Data Collection: Privacy measures, protection protocols
+        - Analysis: Integrity measures, bias prevention
+        - Results: Ethical presentation, privacy maintenance
+        - Discussion: Ethical implications, compliance reflection
+        - Conclusion: Ethical summary, compliance assurance
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -39,7 +49,9 @@ class EthicsComplianceAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "methodology", "data_collection", "analysis", "results", "discussion", "conclusion"
+                "focus": str  # "conflicts", "privacy", "consent", "integrity", "guidelines"
             }}],
             
             "detailed_feedback": {{
@@ -52,6 +64,9 @@ class EthicsComplianceAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances ethical compliance and research standards.
         """
         
         try:

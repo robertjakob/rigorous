@@ -20,6 +20,16 @@ class DataCodeAvailabilityAgent(BaseReviewerAgent):
         4. Access restrictions justification
         5. Reproducibility support
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Data/code availability statement
+        - Introduction: Research transparency approach
+        - Methodology: Data collection details, code implementation
+        - Data Description: Dataset structure, access methods
+        - Code Documentation: Implementation details, usage instructions
+        - Results: Data presentation, code results
+        - Discussion: Reproducibility considerations
+        - Conclusion: Availability summary, access information
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -39,7 +49,9 @@ class DataCodeAvailabilityAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "methodology", "data_description", "code_documentation", "results", "discussion", "conclusion"
+                "focus": str  # "data_sharing", "code_availability", "documentation", "restrictions", "reproducibility"
             }}],
             
             "detailed_feedback": {{
@@ -52,6 +64,9 @@ class DataCodeAvailabilityAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances data and code availability.
         """
         
         try:

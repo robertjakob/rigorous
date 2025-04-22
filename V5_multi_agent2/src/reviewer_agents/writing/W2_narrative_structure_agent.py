@@ -25,6 +25,16 @@ class NarrativeStructureAgent(BaseReviewerAgent):
         9. Visual element integration
         10. Reader engagement
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Research narrative overview
+        - Introduction: Research context and flow
+        - Literature Review: Evidence synthesis
+        - Methodology: Process description
+        - Results: Finding presentation
+        - Discussion: Argument development
+        - Conclusion: Research story closure
+        - Figures/Tables: Visual narrative
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +54,9 @@ class NarrativeStructureAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "figures_tables"
+                "focus": str  # "narrative_coherence", "logical_progression", "transitions", "paragraph_organization", "topic_sentences", "evidence_integration", "conclusion_alignment", "hypothesis_tracking", "visual_integration", "reader_engagement"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +74,9 @@ class NarrativeStructureAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the narrative structure.
         """
         
         try:
