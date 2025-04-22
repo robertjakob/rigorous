@@ -1,0 +1,65 @@
+{
+  "inclusive_language_score": 7,
+  "critical_remarks": [
+    {
+      "category": "gender_neutrality",
+      "location": "Abstract",
+      "issue": "The text uses predominantly male names in the author list, lacking gender diversity.",
+      "severity": "medium",
+      "impact": "Excludes representation of gender diversity in the authorship."
+    },
+    {
+      "category": "cultural_sensitivity",
+      "location": "Introduction",
+      "issue": "The study lacks acknowledgment of cultural variations in body weight perception and measurement.",
+      "severity": "medium",
+      "impact": "Neglects the influence of cultural factors on body image and health."
+    },
+    {
+      "category": "disability_inclusion",
+      "location": "Methodology",
+      "issue": "The text does not address considerations for individuals with disabilities in image capturing or BMI estimation.",
+      "severity": "medium",
+      "impact": "Excludes individuals with disabilities from the discussion on BMI estimation."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "Frederik Rajiv Manichand",
+      "improved_version": "Frederik Rajiv Manichand and Jane Doe",
+      "explanation": "Adding a female name enhances gender diversity in authorship.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "gender_neutrality"
+    },
+    {
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily focused on datasets of up to 7,211 full-body images or 14,500 facial images, potentially limiting the diversity of body types and features.",
+      "explanation": "Highlighting the potential limitation in dataset diversity encourages future research to consider a broader range of body types.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "Participants received instructions to have another person take their picture from a distance in a front-facing, full-body position.",
+      "improved_version": "Participants were instructed to have another person take their picture from a distance in a front-facing, full-body position, considering diverse body postures and abilities.",
+      "explanation": "Including considerations for diverse body postures and abilities promotes inclusivity for individuals with disabilities.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "disability_inclusion"
+    }
+  ],
+  "detailed_feedback": {
+    "gender_neutral_language": "The text generally uses gender-neutral language, avoiding gender-specific pronouns and titles.",
+    "cultural_sensitivity": "The study acknowledges the importance of diverse datasets but could benefit from explicit recognition of cultural influences on body weight perception.",
+    "age_appropriate_terminology": "The text uses appropriate terminology related to age and does not contain ageist language.",
+    "disability_inclusive_language": "Considerations for individuals with disabilities are lacking, such as in image capturing instructions.",
+    "socioeconomic_sensitivity": "The study does not address socioeconomic factors related to body weight or BMI estimation.",
+    "geographic_inclusivity": "The study mentions datasets but does not explicitly discuss geographic inclusivity.",
+    "professional_title_usage": "Professional titles are used appropriately for the authors and affiliations.",
+    "stereotypes": "The text avoids stereotypes related to body weight or BMI estimation.",
+    "identity_language": "The text uses person-first language in discussing participants and individuals.",
+    "historical_context": "The study does not delve into historical context related to body weight perception or BMI estimation."
+  },
+  "summary": "The text demonstrates good gender-neutral language usage but lacks diversity in authorship representation. It could improve by acknowledging cultural influences on body weight perception, considering individuals with disabilities in methodology, and addressing potential dataset limitations. Overall, the study provides a solid foundation but has room for enhancement in inclusivity and sensitivity."
+}

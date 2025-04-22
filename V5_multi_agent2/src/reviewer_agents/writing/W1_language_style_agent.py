@@ -25,6 +25,16 @@ class LanguageStyleAgent(BaseReviewerAgent):
         9. Conjunction usage
         10. Academic writing conventions
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Conciseness and clarity
+        - Introduction: Academic tone and flow
+        - Literature Review: Citation language
+        - Methodology: Technical description
+        - Results: Data presentation
+        - Discussion: Argument structure
+        - Conclusion: Summary language
+        - References: Citation format
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +54,9 @@ class LanguageStyleAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "references"
+                "focus": str  # "grammar", "spelling", "punctuation", "sentence_structure", "verb_tense", "subject_verb", "articles", "prepositions", "conjunctions", "academic_conventions"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +74,9 @@ class LanguageStyleAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the language and style.
         """
         
         try:

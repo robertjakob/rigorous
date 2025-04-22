@@ -25,6 +25,17 @@ class ConsistencyAgent(BaseReviewerAgent):
         9. Table-text alignment
         10. Supplementary material consistency
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Consistency with main text
+        - Introduction: Alignment with methodology
+        - Literature Review: Citation consistency
+        - Methodology: Methods-results alignment
+        - Results: Results-conclusions alignment
+        - Discussion: Interpretation consistency
+        - Conclusion: Overall coherence
+        - Figures/Tables: Text alignment
+        - Supplementary: Main text consistency
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +55,9 @@ class ConsistencyAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "figures_tables", "supplementary"
+                "focus": str  # "methods_results", "results_conclusions", "logical_flow", "terminology", "hypothesis", "interpretation", "citations", "figures", "tables", "supplementary"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +75,9 @@ class ConsistencyAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances logical coherence and consistency.
         """
         
         try:

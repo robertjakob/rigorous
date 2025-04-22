@@ -1,35 +1,45 @@
 {
-  "originality_contribution_score": 9,
+  "originality_contribution_score": 8,
   "critical_remarks": [
     {
       "category": "novelty",
-      "location": "Abstract",
-      "issue": "The novelty of using deep learning on a significantly larger real-world dataset for BMI estimation is not explicitly highlighted in the abstract.",
+      "location": "Introduction",
+      "issue": "Lack of clear identification of the specific novel aspects of the research approach.",
       "severity": "medium",
-      "impact": "This may lead to a lack of immediate recognition of the unique approach taken in the research."
+      "impact": "May lead to ambiguity regarding the unique contributions of the study."
     },
     {
-      "category": "comparison",
-      "location": "Related Work",
-      "issue": "The comparison of the proposed approach with existing literature is limited to a few studies, potentially missing out on a more comprehensive comparison.",
+      "category": "contribution",
+      "location": "Results",
+      "issue": "Limited discussion on the practical implications and real-world applications of the findings.",
       "severity": "medium",
-      "impact": "This may weaken the context of the research within the existing body of knowledge."
+      "impact": "Reduces the clarity on how the research can be applied in telehealth or emergency scenarios."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset.",
-      "improved_version": "An automatic image filtering strategy based on posture clustering and person detection is introduced to curate the real-world dataset effectively.",
-      "explanation": "Improved readability and clarity.",
-      "location": "Abstract"
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Existing computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Improves clarity and readability by rephrasing the sentence for better flow.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "novelty"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model showcases robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite no prior training on this specific dataset.",
+      "explanation": "Enhances clarity and precision in conveying the model's generalizability.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "advancement"
     }
   ],
   "detailed_feedback": {
-    "novelty_assessment": "The research demonstrates novelty by utilizing a significantly larger real-world dataset for BMI estimation using deep learning, which surpasses the dataset sizes of previous studies. The approach of automatic image filtering based on posture clustering adds a unique dimension to the research.",
-    "contribution_analysis": "The research makes a unique contribution by providing a comprehensive evaluation of BMI estimation from smartphone camera images on a large-scale real-world dataset. The introduction of different image perspectives and the comparison of their performance adds value to the field.",
-    "verification_status": "The verification of novelty claims is partially successful, with robust generalization demonstrated on unseen datasets. However, the direct comparison with existing literature could be more extensive to strengthen the verification.",
-    "comparative_analysis": "The comparative analysis with existing literature showcases the advancements made in utilizing larger datasets and exploring different image perspectives for BMI estimation. However, a more detailed comparison with a wider range of studies could enhance the analysis.",
-    "advancement_evaluation": "The research significantly advances knowledge in the field of BMI estimation by providing insights into the impact of image perspectives on accuracy, demonstrating the applicability of the approach in real-world scenarios, and offering open-source contributions for training and deployment."
+    "novelty_assessment": "The research introduces a novel approach of BMI estimation from smartphone camera images using a significantly larger real-world dataset, which surpasses the limitations of previous studies with smaller datasets.",
+    "contribution_analysis": "The study contributes by providing a comprehensive evaluation of BMI estimation from smartphone images, introducing an automatic image filtering strategy, and demonstrating the real-world applicability of the approach.",
+    "verification_status": "The claims of novelty are well-supported through the detailed methodology description, results presentation, and comparison with existing literature, showcasing advancements over previous studies.",
+    "comparative_analysis": "The study effectively compares different image perspectives for BMI estimation within a homogeneous dataset, providing valuable insights into the impact of various views on weight predictions.",
+    "advancement_evaluation": "The research significantly advances the field by demonstrating the feasibility of BMI estimation from smartphone images, showcasing strong generalizability, and providing open-source contributions for further research and application development."
   },
-  "summary": "The research demonstrates significant originality and contribution to the field by utilizing a large-scale real-world dataset for BMI estimation and introducing novel image filtering strategies. While the verification of novelty claims and the comparison with existing literature could be further strengthened, the advancements made in knowledge, particularly in the context of image perspectives and real-world applicability, are commendable."
+  "summary": "The research demonstrates a high level of originality and contribution to the field through a novel approach to BMI estimation from smartphone images. While some sections could benefit from clearer identification of novelty and more in-depth discussion on practical implications, the study effectively verifies its claims, compares well with existing literature, and significantly advances knowledge in the field."
 }

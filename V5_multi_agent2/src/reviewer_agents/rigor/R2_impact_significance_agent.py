@@ -20,6 +20,15 @@ class ImpactSignificanceAgent(BaseReviewerAgent):
         4. Practical applications
         5. Policy implications
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Impact statement, significance highlights
+        - Introduction: Research importance, field relevance
+        - Literature Review: Gap impact, field advancement
+        - Methodology: Innovation potential, scalability
+        - Results: Key findings impact, practical value
+        - Discussion: Broader implications, future directions
+        - Conclusion: Impact summary, application potential
+
         Text to analyze: {text}
         Field context: {json.dumps(field_context, indent=2)}
 
@@ -39,7 +48,9 @@ class ImpactSignificanceAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion"
+                "focus": str  # "field_influence", "implications", "future_research", "applications", "policy"
             }}],
             
             "detailed_feedback": {{
@@ -52,6 +63,9 @@ class ImpactSignificanceAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the research impact and significance.
         """
         
         try:

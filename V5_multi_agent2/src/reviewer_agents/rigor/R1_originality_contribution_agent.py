@@ -20,6 +20,15 @@ class OriginalityContributionAgent(BaseReviewerAgent):
         4. Comparison with existing literature
         5. Advancement of knowledge
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Clarity of novelty statement, contribution highlights
+        - Introduction: Research gap identification, novelty claims
+        - Literature Review: Comparison with existing work, gap analysis
+        - Methodology: Novel approach description, innovation details
+        - Results: Contribution presentation, advancement demonstration
+        - Discussion: Impact assessment, future implications
+        - Conclusion: Contribution summary, field advancement
+
         Text to analyze: {text}
         Field context: {json.dumps(field_context, indent=2)}
 
@@ -39,7 +48,9 @@ class OriginalityContributionAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion"
+                "focus": str  # "novelty", "contribution", "verification", "comparison", "advancement"
             }}],
             
             "detailed_feedback": {{
@@ -52,6 +63,9 @@ class OriginalityContributionAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the research.
         """
         
         try:

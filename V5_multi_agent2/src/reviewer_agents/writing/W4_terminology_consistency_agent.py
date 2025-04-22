@@ -25,6 +25,16 @@ class TerminologyConsistencyAgent(BaseReviewerAgent):
         9. Cross-reference consistency
         10. Definition consistency
 
+        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Abstract: Term introduction
+        - Introduction: Field terminology
+        - Literature Review: Citation terms
+        - Methodology: Technical terms
+        - Results: Variable names
+        - Discussion: Term usage
+        - Conclusion: Term consistency
+        - Equations: Notation style
+
         Text to analyze: {text}
         Research type: {research_type}
 
@@ -44,7 +54,9 @@ class TerminologyConsistencyAgent(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str  # Where to apply this change
+                "location": str,  # Where to apply this change
+                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "equations"
+                "focus": str  # "term_usage", "notation", "acronyms", "variable_naming", "unit_notation", "abbreviations", "technical_terms", "field_terminology", "cross_references", "definitions"
             }}],
             
             "detailed_feedback": {{
@@ -62,6 +74,9 @@ class TerminologyConsistencyAgent(BaseReviewerAgent):
             
             "summary": str  # Overall assessment paragraph
         }}
+
+        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances terminology consistency.
         """
         
         try:
