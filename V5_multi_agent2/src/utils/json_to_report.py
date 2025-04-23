@@ -80,33 +80,136 @@ def format_detailed_feedback(feedback: Dict[str, str]) -> str:
     return "\n\n".join(formatted_feedback)
 
 
+def get_score_field(agent_name: str) -> str:
+    """Get the appropriate score field name for each agent type."""
+    score_fields = {
+        # Section agents
+        'S1': 'title_keywords_score',
+        'S2': 'abstract_score',
+        'S3': 'introduction_score',
+        'S4': 'literature_review_score',
+        'S5': 'methodology_score',
+        'S6': 'results_score',
+        'S7': 'discussion_score',
+        'S8': 'conclusion_score',
+        'S9': 'references_score',
+        'S10': 'supplementary_materials_score',
+        
+        # Rigor agents
+        'R1': 'originality_contribution_score',
+        'R2': 'impact_significance_score',
+        'R3': 'ethics_compliance_score',
+        'R4': 'data_code_availability_score',
+        'R5': 'statistical_rigor_score',
+        'R6': 'technical_accuracy_score',
+        'R7': 'consistency_score',
+        
+        # Writing agents
+        'W1': 'language_style_score',
+        'W2': 'narrative_structure_score',
+        'W3': 'clarity_conciseness_score',
+        'W4': 'terminology_consistency_score',
+        'W5': 'inclusive_language_score',
+        'W6': 'citation_formatting_score',
+        'W7': 'target_audience_score',
+        'W8': 'visual_presentation_score'
+    }
+    return score_fields.get(agent_name, 'score')
+
+
 def generate_agent_report(agent_name: str, agent_data: Dict[str, Any]) -> str:
     """Generate a report for a specific agent."""
     # Extract the score based on agent type
-    score_key = None
-    for key in agent_data.keys():
-        if key.endswith('_score'):
-            score_key = key
-            break
-    
-    score = agent_data.get(score_key, "N/A")
-    score_name = score_key.replace('_score', '').replace('_', ' ').title() if score_key else "Overall"
+    score_field = get_score_field(agent_name)
+    score = agent_data.get(score_field, "N/A")
     
     # Format the report
     report = [
-        f"# {agent_name} Report",
-        f"\n## {score_name} Score: {score}/10",
-        "\n## Summary",
+        f"### Score: {score}/10",
+        "\n### Summary",
         agent_data.get('summary', "No summary provided."),
-        "\n## Critical Remarks",
+        "\n### Critical Remarks",
         format_critical_remarks(agent_data.get('critical_remarks', [])),
-        "\n## Improvement Suggestions",
+        "\n### Improvement Suggestions",
         format_improvement_suggestions(agent_data.get('improvement_suggestions', [])),
-        "\n## Detailed Feedback",
+        "\n### Detailed Feedback",
         format_detailed_feedback(agent_data.get('detailed_feedback', {}))
     ]
     
     return "\n".join(report)
+
+
+def get_agent_type(agent_name: str) -> str:
+    """Get the descriptive type of an agent based on its name."""
+    agent_types = {
+        # Section agents
+        "S1": "Title and Keywords",
+        "S2": "Abstract",
+        "S3": "Introduction",
+        "S4": "Literature Review",
+        "S5": "Methodology",
+        "S6": "Results",
+        "S7": "Discussion",
+        "S8": "Conclusion",
+        "S9": "References",
+        "S10": "Supplementary Materials",
+        
+        # Rigor agents
+        "R1": "Originality and Contribution",
+        "R2": "Impact and Significance",
+        "R3": "Ethics and Compliance",
+        "R4": "Data and Code Availability",
+        "R5": "Statistical Rigor",
+        "R6": "Technical Accuracy",
+        "R7": "Consistency",
+        
+        # Writing agents
+        "W1": "Language and Style",
+        "W2": "Narrative and Structure",
+        "W3": "Clarity and Conciseness",
+        "W4": "Terminology Consistency",
+        "W5": "Inclusive Language",
+        "W6": "Citation Formatting",
+        "W7": "Target Audience Alignment",
+        "W8": "Visual Presentation"
+    }
+    
+    return agent_types.get(agent_name, "Unknown")
+
+
+def generate_table_of_contents(data: Dict[str, Any]) -> str:
+    """Generate a table of contents with anchor links."""
+    toc = [
+        "## Table of Contents",
+        "- [Overall Assessment](#overall-assessment)",
+        "- [Agent Reports](#agent-reports)",
+        "  - [Section-Specific Agents (S1-S10)](#section-specific-agents-s1-s10)",
+    ]
+    
+    # Add section agents
+    for i in range(1, 11):
+        agent_name = f"S{i}"
+        if agent_name in data:
+            agent_type = get_agent_type(agent_name)
+            toc.append(f"    - [{agent_name} - {agent_type}](#s{i}---{agent_type.lower().replace(' ', '-')})")
+    
+    # Add rigor agents
+    toc.append("  - [Rigor Agents (R1-R7)](#rigor-agents-r1-r7)")
+    for i in range(1, 8):
+        agent_name = f"R{i}"
+        if agent_name in data:
+            agent_type = get_agent_type(agent_name)
+            toc.append(f"    - [{agent_name} - {agent_type}](#r{i}---{agent_type.lower().replace(' ', '-')})")
+    
+    # Add writing agents
+    toc.append("  - [Writing Agents (W1-W8)](#writing-agents-w1-w8)")
+    for i in range(1, 9):
+        agent_name = f"W{i}"
+        if agent_name in data:
+            agent_type = get_agent_type(agent_name)
+            toc.append(f"    - [{agent_name} - {agent_type}](#w{i}---{agent_type.lower().replace(' ', '-')})")
+    
+    return "\n".join(toc)
 
 
 def generate_overall_report(data: Dict[str, Any]) -> str:
@@ -114,29 +217,56 @@ def generate_overall_report(data: Dict[str, Any]) -> str:
     # Calculate average scores
     scores = []
     for agent_name, agent_data in data.items():
-        for key, value in agent_data.items():
-            if key.endswith('_score') and isinstance(value, (int, float)):
-                scores.append(value)
+        if isinstance(agent_data, dict):
+            score_field = get_score_field(agent_name)
+            score = agent_data.get(score_field, 0)
+            if isinstance(score, (int, float)):
+                scores.append(score)
     
     avg_score = sum(scores) / len(scores) if scores else 0
     
     # Count total critical remarks and improvement suggestions
-    total_critical_remarks = sum(len(agent_data.get('critical_remarks', [])) for agent_data in data.values())
-    total_improvement_suggestions = sum(len(agent_data.get('improvement_suggestions', [])) for agent_data in data.values())
+    total_critical_remarks = sum(len(agent_data.get('critical_remarks', [])) for agent_data in data.values() if isinstance(agent_data, dict))
+    total_improvement_suggestions = sum(len(agent_data.get('improvement_suggestions', [])) for agent_data in data.values() if isinstance(agent_data, dict))
     
     # Generate the overall report
     report = [
         "# Manuscript Review Report",
         f"\nGenerated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-        f"\n## Overall Assessment",
+        "\n",
+        generate_table_of_contents(data),
+        "\n## Overall Assessment",
         f"\nThe manuscript received an average score of {avg_score:.2f}/10 across all evaluation criteria.",
         f"A total of {total_critical_remarks} critical remarks and {total_improvement_suggestions} improvement suggestions were identified.",
         "\n## Agent Reports",
+        "\n### Section-Specific Agents (S1-S10)",
     ]
     
-    # Add individual agent reports
-    for agent_name, agent_data in data.items():
-        report.append(f"\n\n{generate_agent_report(agent_name, agent_data)}")
+    # Add section agent reports
+    for i in range(1, 11):
+        agent_name = f"S{i}"
+        if agent_name in data and isinstance(data[agent_name], dict):
+            agent_type = get_agent_type(agent_name)
+            report.append(f"\n## {agent_name} - {agent_type}")
+            report.append(generate_agent_report(agent_name, data[agent_name]))
+    
+    # Add rigor agent reports
+    report.append("\n### Rigor Agents (R1-R7)")
+    for i in range(1, 8):
+        agent_name = f"R{i}"
+        if agent_name in data and isinstance(data[agent_name], dict):
+            agent_type = get_agent_type(agent_name)
+            report.append(f"\n## {agent_name} - {agent_type}")
+            report.append(generate_agent_report(agent_name, data[agent_name]))
+    
+    # Add writing agent reports
+    report.append("\n### Writing Agents (W1-W8)")
+    for i in range(1, 9):
+        agent_name = f"W{i}"
+        if agent_name in data and isinstance(data[agent_name], dict):
+            agent_type = get_agent_type(agent_name)
+            report.append(f"\n## {agent_name} - {agent_type}")
+            report.append(generate_agent_report(agent_name, data[agent_name]))
     
     return "\n".join(report)
 

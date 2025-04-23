@@ -1,0 +1,117 @@
+{
+  "discussion_score": 7,
+  "critical_remarks": [
+    {
+      "category": "interpretation",
+      "location": "Results on the proprietary dataset using different image perspectives",
+      "issue": "Lack of in-depth analysis on why full-body perspective yields the best performance",
+      "severity": "medium",
+      "impact": "Reduces clarity and depth of result interpretation"
+    },
+    {
+      "category": "limitations",
+      "location": "Limitations",
+      "issue": "Limited discussion on the potential biases introduced by self-reported height and weight labels",
+      "severity": "medium",
+      "impact": "Affects the reliability and validity of the dataset"
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
+      "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, which consists of real-world data only, using full-torso images.",
+      "explanation": "Adding clarity by specifying that the hold-out test dataset comprises real-world data only.",
+      "location": "Results section",
+      "category": "interpretation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+      "improved_version": "Our findings suggest that torso-up images achieve performance comparable to full-body images with a Mean Absolute Percentage Error (MAPE) of 9%, whereas face-only images exhibit lower accuracy with an MAPE of 11%.",
+      "explanation": "Enhancing the depth of the comparison between different image perspectives.",
+      "location": "Results section",
+      "category": "interpretation",
+      "focus": "depth"
+    },
+    {
+      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+      "improved_version": "Participants self-reported their height at the initiation of the fitness program.",
+      "explanation": "Improving clarity and conciseness of the description.",
+      "location": "Dataset description",
+      "category": "interpretation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model exhibits robust generalizability to unseen data, exemplified by achieving a Mean Absolute Percentage Error (MAPE) of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this dataset.",
+      "explanation": "Enhancing clarity by specifying the metric and dataset used for evaluation.",
+      "location": "Discussion section",
+      "category": "interpretation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "We want to highlight, that our model was trained solely on the real-world dataset containing images with highly variable quality, lighting, and posture conditions.",
+      "improved_version": "It is important to note that our model was exclusively trained on the real-world dataset, which includes images with diverse quality, lighting, and posture conditions.",
+      "explanation": "Providing a clearer emphasis on the training dataset characteristics.",
+      "location": "Discussion section",
+      "category": "interpretation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.",
+      "explanation": "Enhancing the significance of the implications discussed.",
+      "location": "Discussion section",
+      "category": "implications",
+      "focus": "implications"
+    },
+    {
+      "original_text": "We also provide the source code for the application itself, enabling the deployment of our approach in real-world scenarios.",
+      "improved_version": "Additionally, we offer the source code for the application, facilitating the implementation of our approach in real-world settings.",
+      "explanation": "Improving clarity and conciseness in describing the availability of the source code.",
+      "location": "Practical Implications",
+      "category": "implications",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.",
+      "improved_version": "There is a notable gender imbalance in the training dataset, with 49% female, 9% male, and 42% not disclosing their gender.",
+      "explanation": "Enhancing clarity and precision in describing the dataset composition.",
+      "location": "Limitations",
+      "category": "limitations",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.",
+      "improved_version": "This discrepancy can be partially attributed to the substantial disparities between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.",
+      "explanation": "Providing a clearer explanation for the observed performance difference.",
+      "location": "Discussion section",
+      "category": "interpretation",
+      "focus": "depth"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model showcases robust generalizability to unseen data, exemplified by achieving a Mean Absolute Percentage Error (MAPE) of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this dataset.",
+      "explanation": "Enhancing clarity by specifying the metric and dataset used for evaluation.",
+      "location": "Discussion section",
+      "category": "interpretation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+      "improved_version": "Our findings suggest that torso-up images achieve performance comparable to full-body images with a Mean Absolute Percentage Error (MAPE) of 9%, whereas face-only images exhibit lower accuracy with an MAPE of 11%.",
+      "explanation": "Enhancing the depth of the comparison between different image perspectives.",
+      "location": "Results section",
+      "category": "interpretation",
+      "focus": "depth"
+    }
+  ],
+  "detailed_feedback": {
+    "interpretation_analysis": "The interpretation of the results is generally clear, but could benefit from more in-depth analysis on why certain perspectives perform better than others.",
+    "research_alignment": "The discussion aligns well with the research questions, especially in evaluating BMI estimation from different image perspectives.",
+    "limitations_analysis": "The limitations discussion is somewhat limited, particularly in addressing potential biases introduced by self-reported height and weight labels.",
+    "implications_analysis": "The theoretical and practical implications are well-discussed, highlighting the significance of the findings for telemedicine and remote weight estimation.",
+    "critical_evaluation": "The discussion provides a comprehensive evaluation of the results, but could improve by addressing the limitations in more detail and providing clearer explanations for discrepancies in performance."
+  },
+  "summary": "The discussion section provides a thorough analysis of the results, aligning well with the research questions and offering valuable insights for practical applications. However, there are areas that could be improved, such as providing more in-depth analysis on result interpretation, addressing potential biases in the dataset, and enhancing the clarity and depth of the discussion on limitations and implications."
+}
