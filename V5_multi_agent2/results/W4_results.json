@@ -4,62 +4,118 @@
     {
       "category": "term_usage",
       "location": "Abstract",
-      "issue": "Inconsistency in the usage of 'BMI estimation' and 'weight estimation' throughout the abstract.",
+      "issue": "Inconsistency in using 'BMI estimation' and 'weight estimation' interchangeably.",
       "severity": "medium",
-      "impact": "Confusion for readers due to the interchangeable use of terms."
+      "impact": "Confusion for readers regarding the specific focus of the study."
     },
     {
       "category": "variable_naming",
       "location": "Methodology",
-      "issue": "Lack of consistent variable naming conventions for body keypoints and clustering results.",
-      "severity": "high",
-      "impact": "Difficulty in understanding and replicating the methodology."
+      "issue": "Inconsistent variable naming conventions for image perspectives (e.g., 'full-body', 'torso-up', 'face-only').",
+      "severity": "medium",
+      "impact": "May lead to confusion in understanding the methodology and results."
     },
     {
-      "category": "unit_notation",
-      "location": "Results",
-      "issue": "Inconsistent unit notation for MAE, with BMI units, kg, and lbs used interchangeably.",
-      "severity": "medium",
-      "impact": "Confusion in interpreting and comparing results."
+      "category": "definition",
+      "location": "Introduction",
+      "issue": "Lack of clear definition for 'MAPE' (Mean Absolute Percentage Error) and 'MAE' (Mean Absolute Error).",
+      "severity": "low",
+      "impact": "Readers unfamiliar with these terms may struggle to follow the results."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...",
-      "improved_version": "Estimating Body Mass Index (BMI) from camera images facilitates rapid BMI assessment...",
-      "explanation": "Consistently using 'BMI assessment' instead of 'weight assessment' aligns with the focus on BMI estimation.",
+      "original_text": "Estimating Body Mass Index (BMI) from camera images",
+      "improved_version": "Estimating Body Weight from camera images",
+      "explanation": "Consistent use of 'Body Weight' aligns with the subsequent discussion on weight estimation.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "term_usage"
     },
     {
-      "original_text": "We introduce an automatic image filtering strategy based on posture clustering...",
-      "improved_version": "We introduce an automatic image filtering strategy based on posture clustering...",
-      "explanation": "Maintaining consistent variable naming conventions enhances clarity and readability.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "variable_naming"
+      "original_text": "we present a comprehensive evaluation of BMI estimation from smartphone camera images",
+      "improved_version": "we present a comprehensive evaluation of weight estimation from smartphone camera images",
+      "explanation": "Maintains consistency with the revised term 'Body Weight' introduced earlier.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "term_usage"
     },
     {
-      "original_text": "MAE of 3.66 BMI units and 10.38 kg.",
-      "improved_version": "MAE of 3.66 BMI units and 10.38 kg.",
-      "explanation": "Consistently using a single unit notation for MAE improves readability and interpretation.",
+      "original_text": "we achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset",
+      "improved_version": "we achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, representing the percentage difference between the predicted and actual BMI values.",
+      "explanation": "Provides a clear definition of MAPE for readers unfamiliar with the term.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "definition"
+    },
+    {
+      "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets",
+      "improved_version": "We also assess our model\u2019s generalizability on two additional external benchmark datasets",
+      "explanation": "Consistent use of 'assess' instead of 'evaluate' for clarity and uniformity.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "we train deep learning models on a large-scale, real-world dataset",
+      "improved_version": "we train deep learning models on a large-scale, proprietary, real-world dataset",
+      "explanation": "Adding 'proprietary' clarifies the ownership and origin of the dataset for transparency.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "The limited dataset size may restrict the model\u2019s ability to learn complex patterns",
+      "improved_version": "The limited dataset size may restrict the model\u2019s ability to learn complex patterns and generalize to diverse body types.",
+      "explanation": "Expanding on the impact of dataset size on model performance for better understanding.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images",
+      "improved_version": "Our results indicate that torso-up images deliver performance similar to full-body images, suggesting their potential as a viable alternative.",
+      "explanation": "Providing additional context and implications of the findings for clarity.",
       "location": "Results",
       "category": "results",
-      "focus": "unit_notation"
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "We demonstrate the real-world applicability of our BMI estimation approach",
+      "improved_version": "We demonstrate the real-world applicability of our weight estimation approach",
+      "explanation": "Consistent use of 'weight estimation' aligns with the study's focus on estimating weight from images.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "we provide the code for training, deployment, and the mobile applications",
+      "improved_version": "we provide the code for training, deployment, and the mobile applications as open-source contributions",
+      "explanation": "Clarifying that the code is shared as open-source contributions for transparency.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.",
+      "improved_version": "We partitioned the dataset into training, test, and validation sets with proportions of 75%, 15%, and 10% respectively.",
+      "explanation": "Enhances clarity and formalizes the process of dataset partitioning.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "term_usage"
     }
   ],
   "detailed_feedback": {
-    "term_usage_consistency": "The text generally maintains consistency in technical terms like 'BMI estimation' and 'image filtering strategy.' However, there are instances of interchangeability between 'BMI estimation' and 'weight estimation.'",
-    "notation_consistency": "Notation consistency is generally maintained, with proper use of mathematical symbols and equations.",
-    "acronym_usage": "Acronyms like 'MAPE' and 'MAE' are consistently used and defined throughout the text.",
-    "variable_naming_consistency": "Variable naming conventions are mostly consistent, but there are instances where clarity could be improved, especially in the methodology section.",
-    "unit_notation_consistency": "Unit notation consistency is maintained for the most part, but there are instances of using different units interchangeably.",
-    "abbreviation_consistency": "Abbreviations are used consistently, such as 'ETH Z \u00a8urich' and 'MAE.'",
-    "technical_term_consistency": "Technical terms related to image processing and deep learning are used consistently throughout the text.",
-    "field_terminology": "Field-specific terminology related to BMI estimation and computer vision is appropriately used and explained.",
-    "cross_reference_consistency": "Cross-references are consistent and help in connecting different sections of the text effectively.",
-    "definition_consistency": "Definitions of terms like 'MAE' and 'MAPE' are provided consistently and help in understanding the results."
+    "term_usage_consistency": "The text demonstrates overall good consistency in term usage, with a few instances of interchangeability between 'BMI' and 'weight' that can be improved for clarity.",
+    "notation_consistency": "Notation consistency is maintained throughout the text, with clear and consistent use of mathematical symbols and equations.",
+    "acronym_usage": "Acronyms like 'MAPE' and 'MAE' are used consistently but lack clear definitions in some instances, impacting reader understanding.",
+    "variable_naming_consistency": "Variable naming conventions are generally consistent, but there are instances of inconsistency in naming image perspectives.",
+    "unit_notation_consistency": "Unit notation consistency is maintained, with clear representation of units in measurements and results.",
+    "abbreviation_consistency": "Abbreviations are used sparingly and consistently throughout the text, enhancing readability and understanding.",
+    "technical_term_consistency": "Technical terms related to deep learning and image processing are used accurately and consistently, contributing to the overall technical clarity of the text.",
+    "field_terminology": "The field-specific terminology is appropriate and consistent, aligning with the domain of digital health interventions and image-based weight estimation.",
+    "cross_reference_consistency": "Cross-references are used effectively to connect different sections of the text, enhancing the flow and coherence of the research.",
+    "definition_consistency": "Definitions are provided for key terms like 'MAPE' and 'MAE', but there are instances where clearer definitions could improve reader comprehension."
   },
-  "summary": "The text demonstrates a good level of terminology consistency overall, with minor issues in term usage, variable naming, and unit notation. Improvements in these areas can enhance clarity and readability for readers. Maintaining consistent terminology and notation throughout the text will improve the overall quality of the research."
+  "summary": "The text demonstrates a good level of terminology consistency overall, with minor issues in term usage, variable naming, and definition clarity. Improvements in these areas, along with maintaining the existing consistency in notation, acronyms, and technical terms, will enhance the overall coherence and readability of the research."
 }

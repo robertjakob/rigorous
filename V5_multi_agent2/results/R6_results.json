@@ -2,87 +2,113 @@
   "technical_accuracy_score": 8,
   "critical_remarks": [
     {
-      "category": "completeness",
-      "location": "Abstract",
-      "issue": "Lack of mention of the specific deep learning model architecture used for BMI estimation.",
+      "category": "algorithm_description",
+      "location": "Section 3.3",
+      "issue": "The description of the computer vision model architecture lacks clarity and depth, making it difficult to understand the implementation details.",
       "severity": "medium",
-      "impact": "This omission reduces the clarity and completeness of the abstract."
+      "impact": "This impacts the reader's ability to replicate the model and understand the specific components of the architecture."
     },
     {
-      "category": "terminology",
-      "location": "Introduction",
-      "issue": "Use of 'weight estimation' instead of 'BMI estimation' in some instances.",
-      "severity": "low",
-      "impact": "May lead to confusion as BMI estimation is the primary focus."
-    },
-    {
-      "category": "equations",
-      "location": "Mathematical Framework",
-      "issue": "Lack of detailed explanation for the Mean Absolute Percentage Error (MAPE) equation.",
+      "category": "technical_analysis",
+      "location": "Results section",
+      "issue": "The comparison of results with external datasets lacks a detailed analysis of the discrepancies between the model's performance and the original authors' results.",
       "severity": "medium",
-      "impact": "Readers may struggle to understand the calculation method."
-    },
-    {
-      "category": "documentation",
-      "location": "Conclusion",
-      "issue": "No mention of limitations related to model interpretability.",
-      "severity": "low",
-      "impact": "Important for understanding the practical applicability of the model."
+      "impact": "This limits the understanding of potential factors contributing to differences in performance across datasets."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Recent computer vision-based approaches for BMI estimation have been primarily constrained by small datasets, such as those containing up to 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Clarifies the limitation in dataset size rather than the approaches themselves.",
+      "improved_version": "Current computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Clarifies the focus on existing approaches and their dataset limitations.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "completeness"
     },
     {
-      "original_text": "Our model achieves a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-      "improved_version": "Our model achieves a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, comprising real-world data only, using full-torso images.",
-      "explanation": "Enhances clarity by specifying the dataset used for testing.",
+      "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.",
+      "improved_version": "We present an automatic image filtering strategy utilizing posture clustering and person detection to curate the real-world dataset effectively, eliminating unsuitable images.",
+      "explanation": "Enhances the clarity and flow of the sentence for better readability.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "completeness"
     },
     {
-      "original_text": "In medical emergencies, there is a well-documented need for faster weight estimation methods.",
-      "improved_version": "In medical emergencies, there is a well-documented need for faster BMI estimation methods.",
-      "explanation": "Maintains consistency in terminology throughout the text.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "terminology"
+      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
+      "improved_version": "The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers remain trainable during training.",
+      "explanation": "Improves the coherence and consistency of the sentence.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "consistency"
     },
     {
-      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-      "improved_version": "Our results indicate that torso-up images deliver performance similar to full-body images, with a Mean Absolute Percentage Error (MAPE) of 9%, while face-only images yield comparatively lower accuracy with an MAPE of 11%.",
-      "explanation": "Provides clarity by explicitly mentioning the metric used for accuracy comparison.",
+      "original_text": "We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.",
+      "improved_version": "Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) are tracked for each epoch, but these metrics are not utilized to guide training.",
+      "explanation": "Enhances the clarity and structure of the sentence.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "completeness"
+    },
+    {
+      "original_text": "The proprietary dataset consists of 84,963 photos of 25,353 individuals.",
+      "improved_version": "The proprietary dataset comprises 84,963 photos collected from 25,353 individuals.",
+      "explanation": "Improves the conciseness and clarity of the sentence.",
       "location": "Results",
       "category": "results",
       "focus": "completeness"
     },
     {
-      "original_text": "We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.",
-      "improved_version": "We partitioned the dataset into training, test, and validation sets, comprising 75%, 15%, and 10% of the data, respectively.",
-      "explanation": "Enhances clarity by specifying the purpose of the dataset partitioning.",
-      "location": "Methodology",
-      "category": "methodology",
+      "original_text": "The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.",
+      "improved_version": "The dataset filtering process led to the removal of 13,642 (16.2%) images prior to training.",
+      "explanation": "Enhances the precision and readability of the sentence.",
+      "location": "Results",
+      "category": "results",
       "focus": "completeness"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+      "explanation": "Enhances the clarity and impact of the statement.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "completeness"
+    },
+    {
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Additionally, our study offers insights into remote weight estimation for telemedicine consultations.",
+      "explanation": "Improves the transition and coherence in the sentence.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "consistency"
+    },
+    {
+      "original_text": "The code used for this study is available at https://github.com/RealLast/DigitalScale.",
+      "improved_version": "The codebase utilized in this study can be accessed at https://github.com/RealLast/DigitalScale.",
+      "explanation": "Enhances the clarity and coherence of the sentence.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "The dataset used is proprietary and not publicly available.",
+      "improved_version": "The dataset utilized is proprietary and not accessible to the public.",
+      "explanation": "Improves the clarity and formality of the sentence.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "documentation"
     }
   ],
   "detailed_feedback": {
-    "derivation_correctness": "The mathematical derivations are presented accurately, with clear steps and logical progression.",
-    "algorithm_accuracy": "The algorithm details are accurate and well-explained, providing a comprehensive understanding of the BMI estimation process.",
-    "terminology_accuracy": "The technical terminology used is appropriate and consistent throughout the text.",
-    "equation_clarity": "The equations are presented clearly, but additional explanations for complex calculations could enhance understanding.",
-    "content_completeness": "The technical content is comprehensive, covering various aspects of BMI estimation from camera images.",
-    "logical_consistency": "The logical flow of information is maintained throughout the text, ensuring a coherent presentation of the research.",
-    "implementation_details": "The implementation details, including the use of Python and the CLAID framework, are well-documented and explained.",
-    "edge_case_handling": "The handling of edge cases, such as unsuitable images in the dataset, is addressed effectively through filtering strategies.",
-    "complexity_analysis": "The complexity analysis, particularly in terms of model performance on different datasets, is thorough and insightful.",
-    "technical_documentation": "The technical documentation provided, including code availability and model deployment details, enhances the reproducibility of the study."
+    "derivation_correctness": "The mathematical derivations are accurate and well-presented, providing a clear understanding of the methodology.",
+    "algorithm_accuracy": "The algorithm descriptions are detailed, but some parts lack clarity and depth, requiring further elaboration for better comprehension.",
+    "terminology_accuracy": "The technical terminology is mostly accurate and appropriate for the context, enhancing the precision of the technical content.",
+    "equation_clarity": "The equations are presented clearly and appropriately within the text, aiding in the understanding of the mathematical framework.",
+    "content_completeness": "The technical content is comprehensive, covering various aspects of the study from dataset curation to model evaluation.",
+    "logical_consistency": "The logical flow of the study is generally consistent, but some sections could benefit from improved transitions and coherence.",
+    "implementation_details": "The implementation details are provided, but certain sections could be enhanced with more specific information and clarity.",
+    "edge_case_handling": "The handling of edge cases is mentioned, but a more detailed discussion on specific edge cases and their impact on the model performance could be beneficial.",
+    "complexity_analysis": "The complexity analysis is adequate, but a deeper dive into the computational complexity and efficiency of the algorithms could provide more insights.",
+    "technical_documentation": "The technical documentation is sufficient, with code availability and data accessibility mentioned, contributing to the reproducibility of the study."
   },
-  "summary": "The research demonstrates a high level of technical accuracy, with accurate mathematical derivations, clear algorithm descriptions, and consistent use of technical terminology. However, there are minor issues related to completeness in abstract and terminology consistency in the introduction. The presentation of equations and documentation could be improved for better clarity and understanding. Overall, the study provides a comprehensive analysis of BMI estimation from smartphone camera images, with detailed implementation and insightful complexity analysis."
+  "summary": "The research demonstrates strong technical accuracy in mathematical derivations and algorithm descriptions. However, there are areas for improvement in algorithm clarity, results analysis, and documentation. Enhancements in algorithm descriptions, results comparison, and documentation can elevate the overall technical accuracy and readability of the study."
 }

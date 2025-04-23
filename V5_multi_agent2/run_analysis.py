@@ -1,31 +1,54 @@
 import os
 import json
-from PyPDF2 import PdfReader
+from src.utils.pdf_parser import PDFParser
 from src.reviewer_agents.controller_agent import ControllerAgent
 from src.core.config import DEFAULT_MODEL
 
 def process_pdf(pdf_path):
-    """Process PDF and extract text."""
-    reader = PdfReader(pdf_path)
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text() + "\n"
-    return text
+    """Process PDF and extract text, figures, and tables."""
+    parser = PDFParser(pdf_path)
+    
+    # Extract all components
+    text = parser.extract_text()
+    metadata = parser.get_metadata()
+    images = parser.extract_images()
+    tables = parser.extract_tables()
+    
+    return {
+        'text': text,
+        'metadata': metadata,
+        'images': images,
+        'tables': tables
+    }
 
 def main():
     # Process the manuscript
     manuscript_path = "manuscripts/DigitalScale___Paper.pdf"
-    manuscript_text = process_pdf(manuscript_path)
+    manuscript_data = process_pdf(manuscript_path)
     
     # Initialize controller agent
     controller = ControllerAgent(model=DEFAULT_MODEL)
     
     # Run the analysis
-    results = controller.run_analysis(manuscript_text)
+    results = controller.run_analysis(
+        text=manuscript_data['text'],
+        metadata=manuscript_data['metadata'],
+        images=manuscript_data['images'],
+        tables=manuscript_data['tables']
+    )
     
     # Save results
     output_dir = "results"
     os.makedirs(output_dir, exist_ok=True)
+    
+    # Save manuscript data for reference
+    manuscript_data_file = os.path.join(output_dir, "manuscript_data.json")
+    with open(manuscript_data_file, "w") as f:
+        # Convert image data to base64 for JSON serialization
+        manuscript_json = manuscript_data.copy()
+        for img in manuscript_json['images']:
+            img['image_data'] = None  # Remove binary image data for JSON
+        json.dump(manuscript_json, f, indent=2)
     
     # Save individual agent results
     for agent_name, result in results.items():

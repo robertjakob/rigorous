@@ -4,118 +4,47 @@
     {
       "category": "jargon",
       "location": "Abstract",
-      "issue": "Complex terms like 'Mean Absolute Percentage Error (MAPE)' may not be easily understood by all readers.",
+      "issue": "The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.",
       "severity": "medium",
-      "impact": "May hinder comprehension for non-experts."
+      "impact": "It creates a barrier for readers unfamiliar with the terminology."
     },
     {
       "category": "wordiness",
       "location": "Introduction",
-      "issue": "The introduction contains redundant information about the importance of BMI estimation.",
+      "issue": "The introduction contains redundant information about the importance of BMI estimation, which could be more concise.",
       "severity": "low",
-      "impact": "Adds unnecessary length and repetition."
-    },
-    {
-      "category": "redundancy",
-      "location": "Methodology",
-      "issue": "Repetitive explanation of the filtering process using different terms.",
-      "severity": "medium",
-      "impact": "Causes confusion and redundancy."
+      "impact": "It increases the length of the introduction without adding significant value."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
-      "improved_version": "Estimating BMI from camera images enables quick weight assessment in challenging scenarios.",
-      "explanation": "Simplifies the language and removes redundancy.",
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Most recent BMI estimation approaches focus on datasets with limited sizes, such as 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Simplifying the sentence structure and removing unnecessary details improves readability and conciseness.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Current BMI estimation methods mainly use datasets with around 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Streamlines the sentence and improves readability.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "wordiness"
     },
     {
       "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-      "improved_version": "This study evaluates BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
-      "explanation": "Reduces wordiness and improves clarity.",
+      "improved_version": "We evaluate BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
+      "explanation": "Streamlining the description of the dataset and study focus enhances clarity and conciseness.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.",
-      "improved_version": "We implement an automated image filtering strategy to curate the dataset by excluding unsuitable images.",
-      "explanation": "Simplifies the explanation and removes redundant details.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "redundancy"
-    },
-    {
-      "original_text": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes.",
-      "improved_version": "High BMI is linked to chronic diseases like cardiovascular diseases, cancer, and diabetes.",
-      "explanation": "Reduces complexity and improves readability.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Traditionally, the calculation of BMI requires measuring a person\u2019s weight and height using scales and a stadiometer.",
-      "improved_version": "BMI calculation traditionally involves measuring weight and height with scales and a stadiometer.",
-      "explanation": "Streamlines the sentence for better comprehension.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-      "improved_version": "Torso-up images perform similarly to full-body images (9% MAPE), while face-only images are less accurate (11% MAPE).",
-      "explanation": "Clarifies the comparison and reduces redundancy.",
-      "location": "Results",
-      "category": "results",
-      "focus": "redundancy"
-    },
-    {
-      "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
-      "improved_version": "Our model's generalizability is tested on two external benchmark datasets: Celeb-FBI and VIP-Attribute, with MAPE values of 23.64% and 25.21%.",
-      "explanation": "Simplifies the sentence structure and improves clarity.",
-      "location": "Results",
-      "category": "results",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "The network is a DenseNet Convolutional Neural Network (CNN).",
-      "improved_version": "The network is a DenseNet CNN.",
-      "explanation": "Reduces unnecessary repetition and complexity.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
-      "improved_version": "The Densenet201 model is pre-trained on ImageNet, with all layers left trainable during training.",
-      "explanation": "Simplifies the sentence structure for better flow.",
-      "location": "Methodology",
-      "category": "methodology",
       "focus": "wordiness"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The text uses technical terms and complex language that may hinder understanding for non-experts. Simplifying the terminology and using clearer language would enhance clarity.",
-    "jargon_usage": "The text contains jargon like 'Mean Absolute Percentage Error (MAPE)' that may not be familiar to all readers. Explaining technical terms or using simpler alternatives would improve comprehension.",
-    "wordiness": "Some sentences are wordy and could be streamlined for better readability. Removing redundant phrases and unnecessary details would enhance conciseness.",
-    "sentence_length": "The text contains both long and short sentences. Balancing sentence length for better flow and readability is recommended.",
-    "paragraph_length": "Paragraphs vary in length, impacting the flow and organization of information. Ensuring consistent paragraph length would improve readability.",
-    "active_passive_voice": "The text predominantly uses active voice, which is clear and direct. Maintaining this voice would enhance clarity and engagement.",
-    "redundancy": "There are instances of redundant information and repetitive explanations throughout the text. Removing redundancies would improve conciseness and clarity.",
-    "ambiguity": "The text is generally clear, but some sections could benefit from clearer explanations or examples to avoid ambiguity.",
-    "readability": "The text is generally readable but could be improved by simplifying complex terms, reducing wordiness, and ensuring consistent sentence and paragraph lengths.",
-    "information_density": "The text contains a high level of technical information, which may be overwhelming for non-experts. Balancing technical details with clear explanations would enhance information density."
+    "language_simplicity": "The text uses technical terms and complex sentence structures that may be challenging for non-experts to understand. Simplifying the language and sentence construction can improve clarity.",
+    "jargon_usage": "The text includes jargon like 'MAPE' and 'deep learning' without adequate explanation, making it difficult for readers unfamiliar with the field to follow along. Providing definitions or simplifying the terminology can enhance comprehension.",
+    "wordiness": "Certain sections contain redundant information or elaborate descriptions that could be condensed without losing essential content. Removing unnecessary details and streamlining sentences can improve conciseness.",
+    "sentence_length": "Some sentences are overly long and complex, making it harder for readers to follow the ideas presented. Breaking down long sentences into shorter, more digestible ones can enhance readability.",
+    "paragraph_length": "Paragraphs vary in length, with some being too lengthy and dense. Breaking down dense paragraphs into shorter, focused ones can improve readability and help readers navigate the text more easily.",
+    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice can enhance clarity and make the writing more dynamic.",
+    "redundancy": "Certain sections repeat information or use redundant phrases that could be eliminated without losing meaning. Removing redundancies can streamline the text and improve overall clarity.",
+    "ambiguity": "Some sentences or phrases may be ambiguous or open to interpretation, leading to potential confusion for readers. Clarifying ambiguous statements and providing more explicit explanations can enhance understanding.",
+    "readability": "Overall, the text is moderately readable but could benefit from simplifying language, breaking down complex sentences, and organizing content into more digestible chunks. Improving readability can enhance engagement and comprehension.",
+    "information_density": "The text contains a high level of information density, with complex concepts and technical details presented in a dense manner. Balancing information density with clarity and conciseness is crucial to ensure readers can grasp the content effectively."
   },
-  "summary": "The text demonstrates a good level of clarity but could benefit from simplifying technical terms, reducing wordiness, and removing redundancies. Improving sentence and paragraph lengths, as well as maintaining a consistent voice, would enhance overall readability and comprehension."
+  "summary": "The text demonstrates moderate clarity and conciseness but could benefit from simplifying language, reducing jargon, and streamlining sentence structures. Improving readability, reducing redundancy, and enhancing information density are key areas for enhancing the overall quality of the research."
 }

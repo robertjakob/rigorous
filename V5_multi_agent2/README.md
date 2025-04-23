@@ -1,123 +1,149 @@
-# Multi-Agent Academic Paper Review System
+# V5 Multi-Agent Manuscript Review System
 
-A comprehensive system for automated academic paper review using specialized AI agents.
+A sophisticated multi-agent system for comprehensive scientific manuscript review, leveraging GPT models to evaluate various aspects of research quality, writing, and presentation.
 
-## Project Structure
+## Overview
 
-```
-V5_multi_agent2/
-├── src/
-│   ├── reviewer_agents/
-│   │   ├── rigor/           # Scientific rigor agents (R1-R7)
-│   │   └── writing/         # Writing and presentation agents (W1-W4)
-│   ├── agents/
-│   │   └── base/            # Base agent classes and utilities
-│   ├── config/              # Configuration files
-│   ├── utils/               # Utility functions
-│   └── main.py              # Main entry point
-├── manuscripts/             # Directory for PDF manuscripts to be analyzed
-├── requirements.txt         # Project dependencies
-└── README.md               # This file
-```
+This system employs a team of specialized AI agents to perform thorough manuscript reviews, each focusing on specific aspects of research quality and presentation. The system is designed to provide detailed, structured feedback that helps authors improve their manuscripts.
 
-## Agent Categories
+## Agent Structure
 
-### 1. Scientific Rigor Agents (R1-R7)
+### Research Quality Agents (R1-R7)
 
-These agents evaluate the scientific quality and rigor of the research:
+1. **R1 - Originality & Contribution Agent**
+   - Evaluates research novelty and contributions
+   - Assesses advancement of knowledge
+   - Verifies claims of innovation
 
-- **R1: Methodology Agent**
-  - Focus: Research design, methodology, and approach
-  - Evaluates: Study design, methods, procedures, and research approach
+2. **R2 - Impact & Significance Agent**
+   - Analyzes field influence
+   - Evaluates broader implications
+   - Assesses practical applications
 
-- **R2: Impact & Significance Agent**
-  - Focus: Research impact and significance
-  - Evaluates: Scientific contribution, field influence, and practical implications
+3. **R3 - Ethics & Compliance Agent**
+   - Reviews ethical considerations
+   - Checks research integrity
+   - Evaluates consent procedures
 
-- **R3: Ethics & Compliance Agent**
-  - Focus: Ethical considerations and research standards
-  - Evaluates: Conflicts of interest, data privacy, consent procedures, research integrity
+4. **R4 - Data & Code Availability Agent**
+   - Assesses data sharing practices
+   - Evaluates code availability
+   - Reviews reproducibility
 
-- **R4: Data & Code Availability Agent**
-  - Focus: Data and code sharing practices
-  - Evaluates: Data availability, code repository, documentation, reproducibility
+5. **R5 - Statistical Rigor Agent**
+   - Analyzes statistical methods
+   - Evaluates sample size justification
+   - Reviews statistical reporting
 
-- **R5: Statistical Rigor Agent**
-  - Focus: Statistical methods and analysis
-  - Evaluates: Statistical test selection, assumptions, sample size, power analysis
+6. **R6 - Technical Accuracy Agent**
+   - Verifies technical details
+   - Checks mathematical derivations
+   - Evaluates algorithm descriptions
 
-- **R6: Technical Accuracy Agent**
-  - Focus: Technical content and derivations
-  - Evaluates: Mathematical correctness, algorithm efficiency, technical terminology
+7. **R7 - Consistency Agent**
+   - Ensures internal consistency
+   - Verifies cross-references
+   - Checks terminology usage
 
-- **R7: Consistency Agent**
-  - Focus: Overall consistency and coherence
-  - Evaluates: Internal consistency, logical flow, cross-references
+### Writing & Presentation Agents (W1-W8)
 
-### 2. Writing and Presentation Agents (W1-W4)
+1. **W1 - Language Style Agent**
+   - Evaluates writing style
+   - Checks grammar and clarity
+   - Assesses academic tone
 
-These agents evaluate the writing quality and presentation of the research:
+2. **W2 - Narrative Structure Agent**
+   - Analyzes logical flow
+   - Evaluates section organization
+   - Checks argument coherence
 
-- **W1: Language & Style Agent**
-  - Focus: Language quality and writing style
-  - Evaluates: Grammar, vocabulary, tone, academic writing conventions
+3. **W3 - Clarity & Conciseness Agent**
+   - Reviews sentence structure
+   - Evaluates paragraph organization
+   - Checks for redundancy
 
-- **W2: Narrative & Structure Agent**
-  - Focus: Paper structure and narrative flow
-  - Evaluates: Organization, logical flow, section transitions, argument structure
+4. **W4 - Terminology Consistency Agent**
+   - Ensures consistent terminology
+   - Checks acronym usage
+   - Verifies field-specific terms
 
-- **W3: Clarity & Conciseness Agent**
-  - Focus: Writing clarity and conciseness
-  - Evaluates: Readability, sentence structure, paragraph organization, clarity
+5. **W5 - Inclusive Language Agent**
+   - Evaluates language inclusivity
+   - Checks for bias
+   - Assesses accessibility
 
-- **W4: Terminology Consistency Agent**
-  - Focus: Terminology and notation consistency
-  - Evaluates: Term usage, notation consistency, definition clarity
+6. **W6 - Citation Formatting Agent**
+   - Verifies citation style
+   - Checks reference list
+   - Evaluates in-text citations
+
+7. **W7 - Target Audience Agent**
+   - Assesses audience alignment
+   - Evaluates technical depth
+   - Checks field-specific conventions
+
+8. **W8 - Visual Presentation Agent**
+   - Reviews figure quality
+   - Evaluates table formatting
+   - Checks visual elements
 
 ## Features
 
-- Comprehensive manuscript analysis across multiple dimensions
-- Specialized agents for different aspects of academic writing and research
-- Structured feedback in JSON format
-- Configurable review criteria
-- Support for different research types
-- Error handling and logging
-- PDF manuscript processing
+- **Comprehensive Analysis**: Each agent provides detailed feedback on specific aspects of the manuscript
+- **Structured Output**: Results are provided in a clear, organized format
+- **Actionable Feedback**: Each evaluation includes specific improvement suggestions
+- **Automated Report Generation**: Creates a detailed markdown report combining all agent feedback
+- **Error Handling**: Robust error handling and recovery mechanisms
+- **Configurable**: Easy to modify agent parameters and evaluation criteria
 
 ## Usage
 
-1. Place your manuscript PDF in the `manuscripts/` directory
-2. Run the main script to initiate the review process
-3. Receive comprehensive feedback from all specialized agents
+1. **Setup**
+   ```bash
+   # Clone the repository
+   git clone https://github.com/yourusername/rigorous.git
+   cd rigorous/V5_multi_agent2
+
+   # Install dependencies
+   pip install -r requirements.txt
+   ```
+
+2. **Running Analysis**
+   ```bash
+   # Run the analysis on a manuscript
+   python run_analysis.py
+   ```
+
+3. **Generating Reports**
+   ```bash
+   # Generate a comprehensive report
+   ./scripts/generate_report.sh
+   ```
+
+## Output
+
+The system generates several types of output:
+
+1. **Individual Agent Results**: JSON files containing detailed feedback from each agent
+2. **Combined Results**: A comprehensive JSON file combining all agent feedback
+3. **Manuscript Report**: A well-formatted markdown report with all findings and suggestions
+
+## Configuration
+
+- Model selection can be configured in `config.py`
+- Agent parameters can be adjusted in individual agent files
+- Report generation settings can be modified in `src/utils/json_to_report.py`
 
 ## Requirements
 
 - Python 3.8+
-- Dependencies listed in requirements.txt
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-## Configuration
-
-The system can be configured through the files in the `config/` directory:
-- Agent configurations
-- Review criteria
-- Output formats
-- Model settings
-
-## Output Format
-
-Each agent provides:
-- Comprehensive score (1-10)
-- Critical remarks
-- Improvement suggestions
-- Detailed feedback
-- Summary of findings
+- OpenAI API access
+- Required Python packages (see requirements.txt)
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
