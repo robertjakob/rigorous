@@ -4,638 +4,692 @@
     "critical_remarks": [
       {
         "category": "novelty",
-        "location": "Introduction",
-        "issue": "Lack of clear identification of the specific novel aspects of the research approach.",
+        "location": "Abstract",
+        "issue": "The novelty of using deep learning on a large real-world dataset is not clearly highlighted.",
         "severity": "medium",
-        "impact": "May lead to ambiguity regarding the unique contributions of the study."
+        "impact": "This affects the clarity of the research's unique approach."
       },
       {
         "category": "contribution",
-        "location": "Results",
-        "issue": "Limited discussion on the practical implications and real-world applications of the findings.",
+        "location": "Introduction",
+        "issue": "The unique contribution of evaluating different image perspectives is not explicitly stated.",
         "severity": "medium",
-        "impact": "Reduces the clarity on how the research can be applied in telehealth or emergency scenarios."
+        "impact": "This affects the understanding of the specific value added by the research."
+      },
+      {
+        "category": "verification",
+        "location": "Methodology",
+        "issue": "The verification process of the filtering strategy is not detailed enough.",
+        "severity": "high",
+        "impact": "This affects the credibility of the filtering approach."
+      },
+      {
+        "category": "comparison",
+        "location": "Results",
+        "issue": "The comparison with existing literature lacks depth and specificity.",
+        "severity": "medium",
+        "impact": "This weakens the contextualization of the research within the field."
+      },
+      {
+        "category": "advancement",
+        "location": "Discussion",
+        "issue": "The discussion on future implications is somewhat superficial.",
+        "severity": "low",
+        "impact": "This limits the exploration of potential future research directions."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Existing computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Improves clarity and readability by rephrasing the sentence for better flow.",
+        "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
+        "improved_version": "Estimating Body Mass Index (BMI) from camera images enables quick weight assessment in scenarios where conventional methods are impractical or unavailable.",
+        "explanation": "Clarity and conciseness improve the readability and understanding of the sentence.",
         "location": "Abstract",
         "category": "abstract",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+        "improved_version": "Previous BMI estimation methods using computer vision have mostly utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Restructuring the sentence improves coherence and readability.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
+        "improved_version": "This study conducts a thorough assessment of BMI estimation from smartphone camera images using deep learning on a notably larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.",
+        "explanation": "Enhancing the sentence structure improves readability and clarity.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.",
+        "improved_version": "A 5% body weight reduction in overweight individuals can significantly enhance health outcomes, including preventing type 2 diabetes and cardiovascular diseases.",
+        "explanation": "Streamlining the sentence improves impact and readability.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Traditionally, the calculation of BMI requires measuring a person\u2019s weight and height using scales and a stadiometer.",
+        "improved_version": "Historically, calculating BMI involved measuring an individual's weight and height with scales and a stadiometer.",
+        "explanation": "Enhancing the sentence with historical context improves engagement.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+        "improved_version": "Our findings suggest that torso-up images perform comparably to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).",
+        "explanation": "Rephrasing for clarity and coherence enhances understanding.",
+        "location": "Results",
+        "category": "results",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Moreover, while prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.",
+        "improved_version": "Furthermore, our research stands out by directly comparing various image perspectives within a consistent dataset, unlike previous studies that often focused solely on face-only or full-body images.",
+        "explanation": "Enhancing the sentence improves the emphasis on research novelty.",
+        "location": "Discussion",
+        "category": "discussion",
         "focus": "novelty"
       },
       {
         "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-        "improved_version": "Our model showcases robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite no prior training on this specific dataset.",
-        "explanation": "Enhances clarity and precision in conveying the model's generalizability.",
+        "improved_version": "Our model showcases robust generalizability to unseen datasets, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite having no prior training on this specific dataset.",
+        "explanation": "Clarifying the sentence enhances the understanding of the model's performance.",
         "location": "Discussion",
         "category": "discussion",
         "focus": "advancement"
+      },
+      {
+        "original_text": "Anyone interested in replicating our approach can do so using the publicly available source code we provide.",
+        "improved_version": "Researchers interested in replicating our methodology can utilize the openly accessible source code we offer.",
+        "explanation": "Refining the sentence improves clarity and engagement.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+        "improved_version": "Participants self-reported their height at the commencement of the fitness program.",
+        "explanation": "Enhancing the sentence with active voice improves readability.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "clarity"
       }
     ],
     "detailed_feedback": {
-      "novelty_assessment": "The research introduces a novel approach of BMI estimation from smartphone camera images using a significantly larger real-world dataset, which surpasses the limitations of previous studies with smaller datasets.",
-      "contribution_analysis": "The study contributes by providing a comprehensive evaluation of BMI estimation from smartphone images, introducing an automatic image filtering strategy, and demonstrating the real-world applicability of the approach.",
-      "verification_status": "The claims of novelty are well-supported through the detailed methodology description, results presentation, and comparison with existing literature, showcasing advancements over previous studies.",
-      "comparative_analysis": "The study effectively compares different image perspectives for BMI estimation within a homogeneous dataset, providing valuable insights into the impact of various views on weight predictions.",
-      "advancement_evaluation": "The research significantly advances the field by demonstrating the feasibility of BMI estimation from smartphone images, showcasing strong generalizability, and providing open-source contributions for further research and application development."
+      "novelty_assessment": "The research introduces a novel approach by evaluating BMI estimation from smartphone camera images on a large real-world dataset, which expands on previous studies limited by smaller datasets. The comparison of different image perspectives within the same dataset is a unique contribution.",
+      "contribution_analysis": "The research significantly contributes to the field by demonstrating the feasibility of BMI estimation from smartphone images, showcasing generalizability to unseen datasets, and providing insights into the impact of different image perspectives on weight estimation accuracy.",
+      "verification_status": "The verification of the filtering strategy through human bounding box and keypoint data, along with posture clustering, enhances the dataset quality. However, more detailed verification processes could further strengthen the credibility of the approach.",
+      "comparative_analysis": "The comparison with existing literature provides valuable context, but a more in-depth analysis of the strengths and limitations of previous approaches could enhance the research's positioning within the field.",
+      "advancement_evaluation": "The research significantly advances knowledge by demonstrating the real-world applicability of BMI estimation from smartphone images, highlighting the importance of different image perspectives, and offering practical implications for telemedicine and remote health monitoring."
     },
-    "summary": "The research demonstrates a high level of originality and contribution to the field through a novel approach to BMI estimation from smartphone images. While some sections could benefit from clearer identification of novelty and more in-depth discussion on practical implications, the study effectively verifies its claims, compares well with existing literature, and significantly advances knowledge in the field."
+    "summary": "The research presents a novel and valuable contribution to the field by evaluating BMI estimation from smartphone images on a large real-world dataset. While the study showcases advancements in generalizability and insights into different image perspectives, there are areas for improvement in highlighting novelty, enhancing verification processes, providing deeper comparative analyses, and strengthening future implications."
   },
   "R2": {
-    "impact_significance_score": 8,
+    "impact_significance_score": 9,
     "critical_remarks": [
       {
         "category": "field_influence",
         "location": "Introduction",
-        "issue": "The introduction lacks a clear statement on how this research will influence the field of digital health interventions.",
+        "issue": "The text lacks a clear statement on how this research contributes to the field of digital health interventions.",
         "severity": "medium",
-        "impact": "This affects the clarity of the research's contribution to the field."
+        "impact": "This omission may reduce the perceived importance of the study within the academic community."
       },
       {
         "category": "implications",
         "location": "Discussion",
-        "issue": "The discussion section does not thoroughly explore the broader implications of the findings beyond BMI estimation.",
-        "severity": "medium",
-        "impact": "This limits the understanding of the potential impact of the research."
+        "issue": "The broader implications of the findings are not explicitly discussed in relation to potential societal impacts.",
+        "severity": "high",
+        "impact": "This limits the understanding of how the research can influence public health policies or healthcare practices."
       },
       {
-        "category": "applications",
-        "location": "Results",
-        "issue": "The practical applications of the research could be more explicitly linked to real-world scenarios and benefits.",
+        "category": "future_research",
+        "location": "Conclusion",
+        "issue": "The discussion on future research directions is brief and lacks specificity.",
         "severity": "medium",
-        "impact": "This reduces the clarity on how the research can be practically implemented."
+        "impact": "This may hinder the development of follow-up studies or advancements in the field."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Clarifies the sentence structure for better readability and comprehension.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "field_influence"
-      },
-      {
-        "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-        "improved_version": "Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.",
-        "explanation": "Enhances clarity and conciseness in presenting the research findings.",
-        "location": "Results",
-        "category": "results",
-        "focus": "field_influence"
-      },
-      {
-        "original_text": "To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.",
-        "improved_version": "To bridge the gap in small datasets, we utilize deep learning models trained on a comprehensive real-world dataset comprising over 84,000 full-body images from 25,353 individuals.",
-        "explanation": "Provides a more descriptive and engaging presentation of the dataset size and research approach.",
+        "improved_version": "Previous studies have primarily focused on datasets containing up to 7,211 full-body images or 14,500 facial images for BMI estimation using computer vision approaches.",
+        "explanation": "Restructuring the sentence for clarity and flow.",
         "location": "Introduction",
         "category": "introduction",
         "focus": "field_influence"
       },
       {
-        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-        "improved_version": "Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.",
-        "explanation": "Enhances the emphasis on the model's generalizability and performance on unseen data.",
-        "location": "Discussion",
-        "category": "discussion",
-        "focus": "future_research"
+        "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
+        "improved_version": "Furthermore, we assess the model's generalizability on two external benchmark datasets: the Celeb-FBI dataset for full-body images and the VIP-Attribute dataset for face-only images, achieving MAPE values of 23.64% and 25.21%, respectively.",
+        "explanation": "Enhancing clarity and coherence in presenting the evaluation results.",
+        "location": "Results",
+        "category": "results",
+        "focus": "implications"
       },
       {
-        "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-        "improved_version": "Additionally, our research offers valuable insights for remote weight estimation in telemedicine consultations.",
-        "explanation": "Strengthens the statement on the practical implications of the research.",
+        "original_text": "The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.",
+        "improved_version": "The subsequent sections are organized as follows: Section 2 presents an overview of related work in the field of weight estimation from images.",
+        "explanation": "Improving the transition and flow between sections.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "field_influence"
+      },
+      {
+        "original_text": "We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.",
+        "improved_version": "To showcase the practical utility of our BMI estimation method, we implement our image filtering and BMI estimation algorithms in Python and deploy them on mobile devices through the CLAID framework.",
+        "explanation": "Enhancing the description of the practical implementation for better understanding.",
+        "location": "Results",
+        "category": "results",
+        "focus": "applications"
+      },
+      {
+        "original_text": "The code used for this study is available at https://github.com/RealLast/DigitalScale.",
+        "improved_version": "The codebase for this study can be accessed at https://github.com/RealLast/DigitalScale.",
+        "explanation": "Providing a direct link to the code repository for easier access.",
         "location": "Conclusion",
         "category": "conclusion",
         "focus": "applications"
       }
     ],
     "detailed_feedback": {
-      "field_influence": "The research presents a significant contribution to the field of digital health interventions by introducing a novel approach to BMI estimation from smartphone images using deep learning on a large-scale real-world dataset.",
-      "broader_implications": "The findings have broader implications for telehealth services, emergency medical scenarios, and remote health monitoring, offering a digital, real-time solution for weight assessment.",
-      "future_research_impact": "The study's focus on different image perspectives and the evaluation on external datasets pave the way for future research on optimizing BMI estimation models for diverse applications and datasets.",
-      "practical_applications": "The research showcases practical applications in image filtering, BMI estimation, and mobile deployment, demonstrating the potential for real-world implementation in healthcare settings.",
-      "policy_implications": "The study's findings can inform policies related to digital health interventions, telemedicine, and remote monitoring, highlighting the importance of accurate and efficient weight estimation methods."
+      "field_influence": "The study significantly advances the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. The large-scale dataset and deep learning methodology contribute to the existing body of knowledge in this area.",
+      "broader_implications": "The findings have implications for telehealth services, emergency medical scenarios, and remote health monitoring. By enabling rapid and accurate BMI estimation from images, the research can potentially improve healthcare delivery and patient outcomes.",
+      "future_research_impact": "The study opens avenues for future research in exploring different image perspectives for weight estimation, optimizing deep learning models for real-world applications, and investigating the impact of image quality on BMI estimation accuracy.",
+      "practical_applications": "The practical applications of the research include real-time weight assessment, remote health monitoring, and telemedicine consultations. The deployment of algorithms on mobile devices enhances accessibility and usability in various healthcare settings.",
+      "policy_implications": "The research findings may inform policy decisions related to digital health interventions, data privacy regulations for image-based health assessments, and the integration of AI technologies in healthcare systems."
     },
-    "summary": "The research demonstrates a significant contribution to the field of digital health interventions through innovative BMI estimation from smartphone images. While the study presents valuable insights and practical applications, improvements are needed in clearly articulating the field influence, broader implications, and practical relevance of the findings."
+    "summary": "Overall, the study presents a significant contribution to the field of digital health interventions through its innovative approach to BMI estimation from smartphone camera images. While the research demonstrates strong potential for practical applications and future advancements, there are areas that require further clarity and expansion to maximize its impact and significance."
   },
   "R3": {
     "ethics_compliance_score": 7,
     "critical_remarks": [
       {
         "category": "privacy",
-        "location": "Methodology - Image filtering",
-        "issue": "Self-reported height and weight labels introduce potential inaccuracies and biases in the data.",
+        "location": "Abstract",
+        "issue": "The abstract mentions a proprietary real-world dataset without clear information on data privacy measures.",
         "severity": "medium",
-        "impact": "This could affect the accuracy and reliability of the BMI estimation model."
+        "impact": "Lack of transparency on data privacy could raise concerns about data protection and confidentiality."
       },
       {
         "category": "consent",
-        "location": "Abstract",
-        "issue": "The consent process for using the dataset is not clearly outlined.",
+        "location": "Methodology",
+        "issue": "The text mentions user-provided photos without explicit consent information.",
         "severity": "medium",
-        "impact": "Lack of transparency regarding data usage and consent may raise ethical concerns."
+        "impact": "Lack of informed consent details raises ethical concerns about data usage and participant rights."
       },
       {
         "category": "integrity",
-        "location": "Results - Results on external datasets",
-        "issue": "Comparison with original authors' results lacks detailed explanation for discrepancies.",
+        "location": "Discussion",
+        "issue": "The discussion lacks a reflection on potential biases in the dataset or analysis methods.",
         "severity": "low",
-        "impact": "Transparency in reporting and discussing differences is crucial for research integrity."
+        "impact": "Failure to address biases may undermine the credibility and reliability of the research findings."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Images were collected from users of a fitness app over the course of 10+ years.",
-        "improved_version": "Images were collected from users of a fitness app over a period of more than 10 years.",
-        "explanation": "Clarity in the duration helps in understanding the data collection timeline.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "guidelines"
-      },
-      {
-        "original_text": "Participants were instructed to take a front-facing photo of themselves.",
-        "improved_version": "Participants were explicitly instructed to take a front-facing photo of themselves.",
-        "explanation": "Explicit instructions ensure clarity and informed participation.",
-        "location": "Methodology - Image filtering",
-        "category": "methodology",
-        "focus": "consent"
-      },
-      {
-        "original_text": "We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.",
-        "improved_version": "The dataset was divided into training, test, and validation sets comprising 75%, 15%, and 10% of the data respectively.",
-        "explanation": "Using consistent terminology enhances clarity and understanding.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "guidelines"
+        "original_text": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.",
+        "improved_version": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture, necessitating robust data privacy measures to protect participant identities.",
+        "explanation": "Including a mention of robust data privacy measures emphasizes the importance of protecting participant identities.",
+        "location": "Data Collection",
+        "category": "privacy",
+        "focus": "privacy"
       },
       {
         "original_text": "We report the processing speed for filtering and inference on Android and iOS devices.",
-        "improved_version": "The processing speed for filtering and inference on Android and iOS devices is reported.",
-        "explanation": "Clear reporting of results enhances transparency and reproducibility.",
+        "improved_version": "We report the processing speed for filtering and inference on Android and iOS devices, ensuring compliance with data protection regulations and guidelines.",
+        "explanation": "Highlighting compliance with data protection regulations enhances transparency and ethical standards.",
         "location": "Results",
-        "category": "results",
+        "category": "guidelines",
         "focus": "guidelines"
       },
       {
-        "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
-        "improved_version": "Users self-reported their height at the start of the fitness program.",
-        "explanation": "Using active voice and clear language improves readability and engagement.",
-        "location": "Methodology",
-        "category": "methodology",
+        "original_text": "Participants in the fitness program were instructed to capture front-facing, full-body images taken at a horizontal angle.",
+        "improved_version": "Participants in the fitness program were instructed to capture front-facing, full-body images taken at a horizontal angle, with explicit consent obtained for the use of their images in research.",
+        "explanation": "Adding explicit consent information ensures ethical handling of participant data.",
+        "location": "Data Collection",
+        "category": "consent",
         "focus": "consent"
       }
     ],
     "detailed_feedback": {
-      "conflicts_assessment": "The text does not explicitly mention any conflicts of interest, which should be clearly stated to ensure transparency.",
-      "privacy_compliance": "Data privacy measures are mentioned, but the reliance on self-reported height and weight labels raises concerns about data accuracy and privacy.",
-      "consent_procedures": "The consent process for using the dataset is not detailed, potentially leading to ethical issues regarding data usage.",
-      "research_integrity": "The study demonstrates robust generalization to unseen data, but lacks detailed discussion on discrepancies with original authors' results.",
-      "guidelines_adherence": "While the study adheres to some ethical guidelines, improvements in transparency, consent procedures, and reporting are needed for full compliance."
+      "conflicts_assessment": "The text does not explicitly mention conflicts of interest, which could raise concerns about bias in the research findings.",
+      "privacy_compliance": "Data privacy measures and participant confidentiality are not clearly outlined, posing risks to data protection compliance.",
+      "consent_procedures": "Informed consent procedures are not detailed, raising ethical concerns about participant rights and data usage.",
+      "research_integrity": "The study lacks a reflection on potential biases or limitations, impacting the credibility and reliability of the research.",
+      "guidelines_adherence": "Adherence to ethical guidelines is partial, with gaps in transparency, consent procedures, and data privacy measures."
     },
-    "summary": "The study demonstrates a strong effort towards ethical compliance and research standards, with notable improvements needed in privacy measures, consent procedures, and transparency in reporting. Clearer documentation of data collection, consent processes, and detailed comparison with original results would enhance the study's ethical integrity and adherence to guidelines."
+    "summary": "The study demonstrates a good level of ethical compliance but lacks transparency on data privacy, informed consent, and potential biases. Improvements in these areas are crucial to enhance ethical standards and research integrity."
   },
   "R4": {
-    "data_code_availability_score": 7,
+    "data_code_availability_score": 6,
     "critical_remarks": [
       {
         "category": "data_sharing",
         "location": "Abstract",
-        "issue": "The proprietary dataset used is not publicly available, limiting reproducibility and transparency.",
+        "issue": "The dataset used is proprietary and not publicly available, limiting data sharing practices.",
         "severity": "high",
-        "impact": "Significantly hinders the ability of other researchers to validate the findings."
+        "impact": "This restricts transparency and reproducibility as other researchers cannot access the dataset for validation or further analysis."
       },
       {
         "category": "code_availability",
         "location": "Conclusion",
-        "issue": "Model weights trained on the proprietary dataset are not shared due to data privacy concerns, limiting reproducibility.",
+        "issue": "Model weights trained on the proprietary dataset are not shared due to data privacy concerns, hindering code availability.",
         "severity": "medium",
-        "impact": "Reduces the ability of others to replicate the study's results."
+        "impact": "This limits the ability of other researchers to directly replicate the study's results using the same trained model."
+      },
+      {
+        "category": "reproducibility",
+        "location": "Discussion",
+        "issue": "Self-reported height and weight labels introduce potential inaccuracies and biases in the data, affecting reproducibility.",
+        "severity": "medium",
+        "impact": "Inaccurate data labels can lead to unreliable model training and hinder the reproducibility of the study's findings."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "The dataset used is proprietary and not publicly available.",
-        "improved_version": "The dataset used in this study is proprietary and not publicly available, limiting the reproducibility and transparency of the research.",
-        "explanation": "Adding details about the limitations of dataset availability enhances transparency.",
+        "improved_version": "Consider releasing a sanitized version of the dataset with anonymized user information for public access.",
+        "explanation": "This allows other researchers to validate the findings and promotes transparency in data sharing.",
         "location": "Abstract",
-        "category": "abstract",
+        "category": "data_description",
         "focus": "data_sharing"
       },
       {
-        "original_text": "We are unable to share the model weights trained on our proprietary dataset due to data privacy concerns.",
-        "improved_version": "While we cannot share the model weights trained on our proprietary dataset due to data privacy concerns, we encourage others to use our training scripts to develop their own models on alternative datasets.",
-        "explanation": "Encouraging others to replicate the study using provided scripts promotes reproducibility.",
+        "original_text": "We are unable to share the model weights trained on our proprietary dataset.",
+        "improved_version": "Provide a pre-trained model without the proprietary dataset weights for public use.",
+        "explanation": "This enables other researchers to replicate the model's performance without accessing the proprietary data.",
         "location": "Conclusion",
-        "category": "conclusion",
+        "category": "code_documentation",
         "focus": "code_availability"
+      },
+      {
+        "original_text": "Self-reported height and weight labels introduce potential inaccuracies and biases in the data.",
+        "improved_version": "Consider validating self-reported data with objective measurements to improve data accuracy.",
+        "explanation": "Objective measurements can enhance the reliability of the dataset and improve reproducibility.",
+        "location": "Discussion",
+        "category": "data_description",
+        "focus": "reproducibility"
       }
     ],
     "detailed_feedback": {
-      "data_sharing_assessment": "The study lacks transparency in data sharing practices as the proprietary dataset is not publicly available, limiting reproducibility and validation of results.",
-      "code_availability": "While the code is available, the model weights trained on the proprietary dataset are not shared, hindering full reproducibility of the study.",
-      "documentation_completeness": "The documentation of the methodology and code implementation is detailed and provides insights into the data processing steps and model architecture.",
-      "restrictions_justification": "Access restrictions to the proprietary dataset are justified based on data privacy concerns, but alternative strategies for data sharing could be explored to enhance transparency.",
-      "reproducibility_support": "The study provides detailed information on the training process, model architecture, and evaluation metrics, supporting reproducibility to a certain extent."
+      "data_sharing_assessment": "The study lacks transparency in data sharing practices due to the proprietary nature of the dataset. Providing a sanitized version of the dataset for public access would greatly enhance data sharing.",
+      "code_availability": "While the code for the study is available, the model weights trained on the proprietary dataset are not shared, limiting code availability. Providing a pre-trained model without the proprietary weights would improve code accessibility.",
+      "documentation_completeness": "The study provides detailed information on the methodology, data collection, and model architecture, enhancing documentation completeness.",
+      "restrictions_justification": "Access restrictions are justified by data privacy concerns related to the proprietary dataset. However, providing a sanitized version of the dataset could mitigate these concerns.",
+      "reproducibility_support": "The study's reproducibility is impacted by potential inaccuracies in self-reported data. Validating data with objective measurements would improve reproducibility."
     },
-    "summary": "The research demonstrates good data sharing practices through detailed documentation of the methodology and code implementation. However, the lack of availability of the proprietary dataset and model weights limits reproducibility. Access restrictions are justified based on data privacy concerns, but efforts should be made to enhance transparency and reproducibility."
+    "summary": "The study demonstrates good documentation completeness but lacks transparency in data sharing and code availability. Access restrictions are justified by data privacy concerns, but improvements in data sharing practices, code availability, and data validation could enhance reproducibility and research transparency."
   },
   "R5": {
-    "statistical_rigor_score": 7,
+    "statistical_rigor_score": 6,
     "critical_remarks": [
       {
         "category": "sample_size",
         "location": "Abstract",
-        "issue": "The sample size justification is lacking in the abstract, which is crucial for understanding the generalizability of the study findings.",
+        "issue": "The sample size justification is lacking in the abstract, which is crucial for understanding the generalizability of the findings.",
         "severity": "medium",
-        "impact": "This omission may lead to questions about the representativeness of the dataset and the reliability of the results."
-      },
-      {
-        "category": "effect_size",
-        "location": "Results",
-        "issue": "The effect sizes are not reported, which is essential for understanding the practical significance of the findings.",
-        "severity": "medium",
-        "impact": "Without effect sizes, the interpretation of the results may be limited, and the clinical relevance of the study may be unclear."
+        "impact": "This omission may lead to doubts about the reliability and applicability of the study results."
       },
       {
         "category": "p_value",
-        "location": "Discussion",
-        "issue": "The interpretation of p-values is not discussed in detail, which is crucial for understanding the significance of the results.",
-        "severity": "medium",
-        "impact": "Misinterpretation of p-values can lead to incorrect conclusions about the statistical significance of the findings."
+        "location": "Results",
+        "issue": "The interpretation of p-values is missing, which is essential for determining the statistical significance of the results.",
+        "severity": "high",
+        "impact": "Without proper interpretation of p-values, the significance of the findings may be unclear."
+      },
+      {
+        "category": "outliers",
+        "location": "Methodology",
+        "issue": "The text lacks information on how outliers were identified and treated, which is crucial for ensuring the robustness of the statistical analysis.",
+        "severity": "high",
+        "impact": "Unaddressed outliers can significantly impact the validity of the results and conclusions."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Recent computer vision-based approaches for BMI estimation have been primarily constrained by small datasets, such as those containing up to 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Clarifies the limitation in dataset size for existing approaches, emphasizing the constraint on statistical power and generalizability.",
+        "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
+        "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.",
+        "explanation": "Clarifying the composition of the hold-out test dataset enhances transparency and understanding.",
         "location": "Abstract",
         "category": "abstract",
-        "focus": "sample_size"
+        "focus": "test_selection"
       },
       {
-        "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
-        "improved_version": "Furthermore, we assess the model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving Mean Absolute Percentage Errors (MAPE) of 23.64% and 25.21%, respectively.",
-        "explanation": "Enhances clarity and consistency in reporting the evaluation results on external datasets.",
-        "location": "Results",
-        "category": "results",
-        "focus": "effect_size"
+        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+        "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Using consistent language and structure improves readability and clarity.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "test_selection"
       },
       {
-        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-        "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a Mean Absolute Percentage Error (MAPE) of 13.38% on the full-body Visual-Body-To-BMI dataset, despite not being trained on this dataset.",
-        "explanation": "Provides a clearer and more concise presentation of the model's generalizability to external datasets.",
+        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+        "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+        "explanation": "Enhancing the description of model performance improves the clarity of the results.",
         "location": "Discussion",
         "category": "discussion",
-        "focus": "confidence_intervals"
+        "focus": "test_selection"
+      },
+      {
+        "original_text": "The dataset used is proprietary and not publicly available.",
+        "improved_version": "The dataset utilized in this study is proprietary and not accessible to the public.",
+        "explanation": "Providing clarity on data accessibility enhances transparency.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "missing_data"
+      },
+      {
+        "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+        "improved_version": "Participants self-reported their height at the initiation of the fitness program.",
+        "explanation": "Using active voice and concise language improves readability.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "assumptions"
+      },
+      {
+        "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset.",
+        "improved_version": "The base Densenet201 model undergoes pre-training on the ImageNet dataset.",
+        "explanation": "Using consistent terminology enhances clarity and understanding.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "test_selection"
+      },
+      {
+        "original_text": "We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.",
+        "improved_version": "Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, these metrics are not utilized to direct training decisions.",
+        "explanation": "Providing insight into metric usage enhances transparency in the methodology.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "test_selection"
+      },
+      {
+        "original_text": "The results show that the full-body perspective has the lowest MAPE and MAE, followed by the torso-up and face-only perspectives.",
+        "improved_version": "The findings indicate that the full-body perspective exhibits the lowest MAPE and MAE, followed by the torso-up and face-only perspectives.",
+        "explanation": "Enhancing the structure of result presentation improves clarity.",
+        "location": "Results",
+        "category": "results",
+        "focus": "test_selection"
+      },
+      {
+        "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
+        "improved_version": "Our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
+        "explanation": "Providing dataset context enhances result interpretation.",
+        "location": "Results",
+        "category": "results",
+        "focus": "p_value"
+      },
+      {
+        "original_text": "The interpretation of p-values is missing, which is essential for determining the statistical significance of the results.",
+        "improved_version": "Including the interpretation of p-values is crucial for assessing the statistical significance of the findings.",
+        "explanation": "Highlighting the importance of p-value interpretation improves result validity.",
+        "location": "Results",
+        "category": "results",
+        "focus": "p_value"
+      },
+      {
+        "original_text": "Unaddressed outliers can significantly impact the validity of the results and conclusions.",
+        "improved_version": "Neglecting to address outliers can have a substantial influence on the accuracy and reliability of the results and conclusions.",
+        "explanation": "Emphasizing the importance of outlier treatment enhances the robustness of the analysis.",
+        "location": "Results",
+        "category": "results",
+        "focus": "outliers"
       }
     ],
     "detailed_feedback": {
-      "test_selection": "The study appropriately uses deep learning models for BMI estimation from images, aligning with the research objectives.",
-      "assumption_verification": "The study verifies assumptions related to image quality, posture, and dataset integrity through automated filtering processes.",
-      "sample_size_justification": "The study justifies the use of a large-scale dataset of 84,963 images, enhancing the statistical power and generalizability of the findings.",
-      "multiple_comparison_handling": "The study handles multiple comparisons by evaluating the model on various external benchmark datasets, providing a comprehensive assessment.",
-      "effect_size_reporting": "The study lacks reporting of effect sizes, which are crucial for understanding the practical significance of the findings.",
-      "confidence_intervals": "The study does not report confidence intervals, which are essential for assessing the precision and uncertainty of the estimates.",
-      "p_value_interpretation": "The study lacks detailed interpretation of p-values, which are important for determining the statistical significance of the results.",
-      "statistical_power": "The study does not explicitly discuss statistical power, which is important for assessing the likelihood of detecting true effects.",
-      "missing_data_handling": "The study does not address missing data handling strategies, which are crucial for ensuring the validity and reliability of the analysis.",
-      "outlier_treatment": "The study provides a detailed description of outlier treatment through automated filtering processes based on human bounding box and body keypoint data."
+      "test_selection": "The study adequately describes the use of deep learning models and the evaluation of BMI estimation performance on various datasets.",
+      "assumption_verification": "The study relies on self-reported height and weight labels, which may introduce biases and inaccuracies.",
+      "sample_size_justification": "The study lacks a detailed justification for the sample size of 84,963 images, limiting the understanding of generalizability.",
+      "multiple_comparison_handling": "The study does not address multiple comparison issues, which could lead to inflated Type I error rates.",
+      "effect_size_reporting": "The study reports Mean Absolute Percentage Error (MAPE) as an effect size measure, providing insight into the model's predictive accuracy.",
+      "confidence_intervals": "The study does not include confidence intervals, which are essential for assessing the precision and uncertainty of the estimates.",
+      "p_value_interpretation": "The interpretation of p-values is missing, hindering the assessment of statistical significance.",
+      "statistical_power": "The study does not discuss statistical power, which is crucial for determining the likelihood of detecting true effects.",
+      "missing_data_handling": "The study does not address missing data handling methods, potentially affecting the completeness and validity of the analysis.",
+      "outlier_treatment": "The study lacks information on how outliers were identified and treated, which may impact the accuracy and reliability of the results."
     },
-    "summary": "Overall, the study demonstrates strong rigor in statistical methods, particularly in test selection and assumption verification. However, there are areas for improvement in reporting effect sizes, confidence intervals, and p-value interpretation to enhance the robustness and interpretability of the findings."
+    "summary": "The study demonstrates a moderate level of statistical rigor, with notable gaps in sample size justification, p-value interpretation, and outlier treatment. Improvements in these areas, along with addressing missing data handling and multiple comparison issues, would enhance the overall validity and reliability of the findings."
   },
   "R6": {
     "technical_accuracy_score": 8,
     "critical_remarks": [
       {
-        "category": "completeness",
-        "location": "Abstract",
-        "issue": "Lack of mention of the specific deep learning model architecture used for BMI estimation.",
+        "category": "algorithm_description",
+        "location": "Section 3.3",
+        "issue": "The description of the computer vision model architecture lacks clarity and depth, making it difficult to understand the implementation details.",
         "severity": "medium",
-        "impact": "This omission reduces the clarity and completeness of the abstract."
+        "impact": "This impacts the reader's ability to replicate the model and understand the specific components of the architecture."
       },
       {
-        "category": "terminology",
-        "location": "Introduction",
-        "issue": "Use of 'weight estimation' instead of 'BMI estimation' in some instances.",
-        "severity": "low",
-        "impact": "May lead to confusion as BMI estimation is the primary focus."
-      },
-      {
-        "category": "equations",
-        "location": "Mathematical Framework",
-        "issue": "Lack of detailed explanation for the Mean Absolute Percentage Error (MAPE) equation.",
+        "category": "technical_analysis",
+        "location": "Results section",
+        "issue": "The comparison of results with external datasets lacks a detailed analysis of the discrepancies between the model's performance and the original authors' results.",
         "severity": "medium",
-        "impact": "Readers may struggle to understand the calculation method."
-      },
-      {
-        "category": "documentation",
-        "location": "Conclusion",
-        "issue": "No mention of limitations related to model interpretability.",
-        "severity": "low",
-        "impact": "Important for understanding the practical applicability of the model."
+        "impact": "This limits the understanding of potential factors contributing to differences in performance across datasets."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Recent computer vision-based approaches for BMI estimation have been primarily constrained by small datasets, such as those containing up to 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Clarifies the limitation in dataset size rather than the approaches themselves.",
+        "improved_version": "Current computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Clarifies the focus on existing approaches and their dataset limitations.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "completeness"
       },
       {
-        "original_text": "Our model achieves a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-        "improved_version": "Our model achieves a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, comprising real-world data only, using full-torso images.",
-        "explanation": "Enhances clarity by specifying the dataset used for testing.",
+        "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.",
+        "improved_version": "We present an automatic image filtering strategy utilizing posture clustering and person detection to curate the real-world dataset effectively, eliminating unsuitable images.",
+        "explanation": "Enhances the clarity and flow of the sentence for better readability.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "completeness"
       },
       {
-        "original_text": "In medical emergencies, there is a well-documented need for faster weight estimation methods.",
-        "improved_version": "In medical emergencies, there is a well-documented need for faster BMI estimation methods.",
-        "explanation": "Maintains consistency in terminology throughout the text.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "terminology"
+        "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
+        "improved_version": "The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers remain trainable during training.",
+        "explanation": "Improves the coherence and consistency of the sentence.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "consistency"
       },
       {
-        "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-        "improved_version": "Our results indicate that torso-up images deliver performance similar to full-body images, with a Mean Absolute Percentage Error (MAPE) of 9%, while face-only images yield comparatively lower accuracy with an MAPE of 11%.",
-        "explanation": "Provides clarity by explicitly mentioning the metric used for accuracy comparison.",
+        "original_text": "We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.",
+        "improved_version": "Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) are tracked for each epoch, but these metrics are not utilized to guide training.",
+        "explanation": "Enhances the clarity and structure of the sentence.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "completeness"
+      },
+      {
+        "original_text": "The proprietary dataset consists of 84,963 photos of 25,353 individuals.",
+        "improved_version": "The proprietary dataset comprises 84,963 photos collected from 25,353 individuals.",
+        "explanation": "Improves the conciseness and clarity of the sentence.",
         "location": "Results",
         "category": "results",
         "focus": "completeness"
       },
       {
-        "original_text": "We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.",
-        "improved_version": "We partitioned the dataset into training, test, and validation sets, comprising 75%, 15%, and 10% of the data, respectively.",
-        "explanation": "Enhances clarity by specifying the purpose of the dataset partitioning.",
-        "location": "Methodology",
-        "category": "methodology",
+        "original_text": "The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.",
+        "improved_version": "The dataset filtering process led to the removal of 13,642 (16.2%) images prior to training.",
+        "explanation": "Enhances the precision and readability of the sentence.",
+        "location": "Results",
+        "category": "results",
         "focus": "completeness"
+      },
+      {
+        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+        "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+        "explanation": "Enhances the clarity and impact of the statement.",
+        "location": "Discussion",
+        "category": "discussion",
+        "focus": "completeness"
+      },
+      {
+        "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+        "improved_version": "Additionally, our study offers insights into remote weight estimation for telemedicine consultations.",
+        "explanation": "Improves the transition and coherence in the sentence.",
+        "location": "Discussion",
+        "category": "discussion",
+        "focus": "consistency"
+      },
+      {
+        "original_text": "The code used for this study is available at https://github.com/RealLast/DigitalScale.",
+        "improved_version": "The codebase utilized in this study can be accessed at https://github.com/RealLast/DigitalScale.",
+        "explanation": "Enhances the clarity and coherence of the sentence.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "documentation"
+      },
+      {
+        "original_text": "The dataset used is proprietary and not publicly available.",
+        "improved_version": "The dataset utilized is proprietary and not accessible to the public.",
+        "explanation": "Improves the clarity and formality of the sentence.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "documentation"
       }
     ],
     "detailed_feedback": {
-      "derivation_correctness": "The mathematical derivations are presented accurately, with clear steps and logical progression.",
-      "algorithm_accuracy": "The algorithm details are accurate and well-explained, providing a comprehensive understanding of the BMI estimation process.",
-      "terminology_accuracy": "The technical terminology used is appropriate and consistent throughout the text.",
-      "equation_clarity": "The equations are presented clearly, but additional explanations for complex calculations could enhance understanding.",
-      "content_completeness": "The technical content is comprehensive, covering various aspects of BMI estimation from camera images.",
-      "logical_consistency": "The logical flow of information is maintained throughout the text, ensuring a coherent presentation of the research.",
-      "implementation_details": "The implementation details, including the use of Python and the CLAID framework, are well-documented and explained.",
-      "edge_case_handling": "The handling of edge cases, such as unsuitable images in the dataset, is addressed effectively through filtering strategies.",
-      "complexity_analysis": "The complexity analysis, particularly in terms of model performance on different datasets, is thorough and insightful.",
-      "technical_documentation": "The technical documentation provided, including code availability and model deployment details, enhances the reproducibility of the study."
+      "derivation_correctness": "The mathematical derivations are accurate and well-presented, providing a clear understanding of the methodology.",
+      "algorithm_accuracy": "The algorithm descriptions are detailed, but some parts lack clarity and depth, requiring further elaboration for better comprehension.",
+      "terminology_accuracy": "The technical terminology is mostly accurate and appropriate for the context, enhancing the precision of the technical content.",
+      "equation_clarity": "The equations are presented clearly and appropriately within the text, aiding in the understanding of the mathematical framework.",
+      "content_completeness": "The technical content is comprehensive, covering various aspects of the study from dataset curation to model evaluation.",
+      "logical_consistency": "The logical flow of the study is generally consistent, but some sections could benefit from improved transitions and coherence.",
+      "implementation_details": "The implementation details are provided, but certain sections could be enhanced with more specific information and clarity.",
+      "edge_case_handling": "The handling of edge cases is mentioned, but a more detailed discussion on specific edge cases and their impact on the model performance could be beneficial.",
+      "complexity_analysis": "The complexity analysis is adequate, but a deeper dive into the computational complexity and efficiency of the algorithms could provide more insights.",
+      "technical_documentation": "The technical documentation is sufficient, with code availability and data accessibility mentioned, contributing to the reproducibility of the study."
     },
-    "summary": "The research demonstrates a high level of technical accuracy, with accurate mathematical derivations, clear algorithm descriptions, and consistent use of technical terminology. However, there are minor issues related to completeness in abstract and terminology consistency in the introduction. The presentation of equations and documentation could be improved for better clarity and understanding. Overall, the study provides a comprehensive analysis of BMI estimation from smartphone camera images, with detailed implementation and insightful complexity analysis."
+    "summary": "The research demonstrates strong technical accuracy in mathematical derivations and algorithm descriptions. However, there are areas for improvement in algorithm clarity, results analysis, and documentation. Enhancements in algorithm descriptions, results comparison, and documentation can elevate the overall technical accuracy and readability of the study."
   },
   "R7": {
     "consistency_score": 7,
     "critical_remarks": [
       {
-        "category": "methods_results",
-        "location": "Abstract",
-        "issue": "The abstract mentions achieving an MAPE of 8% on the hold-out test dataset, but the detailed results section shows MAPE values of 7.9% for full-body images. There is a discrepancy in the reported MAPE values.",
-        "severity": "medium",
-        "impact": "This inconsistency affects the credibility of the study's results and may lead to confusion for readers."
-      },
-      {
-        "category": "results_conclusions",
-        "location": "Results section",
-        "issue": "The conclusion states that the model demonstrates strong generalizability to unseen data, but the MAPE values on external datasets are higher than expected. The conclusion does not align well with the actual results.",
-        "severity": "high",
-        "impact": "This discrepancy undermines the validity of the study's conclusions and misrepresents the model's performance."
-      },
-      {
         "category": "logical_flow",
-        "location": "Discussion section",
-        "issue": "The discussion lacks a clear transition from the results to the practical implications and limitations. The flow between presenting results and discussing implications is abrupt.",
+        "location": "Introduction",
+        "issue": "The introduction discusses the importance of BMI estimation but lacks a clear transition to the methodology section.",
         "severity": "medium",
-        "impact": "This disrupts the logical flow of the paper and makes it challenging for readers to follow the progression of ideas."
+        "impact": "This affects the reader's understanding of how the research was conducted."
       },
       {
         "category": "terminology",
-        "location": "Introduction",
-        "issue": "Inconsistent use of terminology for weight estimation metrics, such as MAPE and MAE, throughout the paper. Different acronyms are used interchangeably without clear definitions.",
-        "severity": "medium",
-        "impact": "This inconsistency in terminology may confuse readers and hinder their understanding of the study's methodology and results."
-      },
-      {
-        "category": "hypothesis",
-        "location": "Introduction",
-        "issue": "The introduction mentions the need for faster weight estimation methods in medical emergencies, but the hypothesis or research question related to this need is not explicitly stated.",
+        "location": "Methodology",
+        "issue": "Inconsistent use of terms like 'posture clustering' and 'pose clustering' within the same section.",
         "severity": "low",
-        "impact": "This lack of a clear hypothesis may weaken the study's foundation and make it less focused on addressing specific research objectives."
+        "impact": "This inconsistency may confuse readers and reduce clarity."
       },
       {
         "category": "interpretation",
-        "location": "Results section",
-        "issue": "The interpretation of the results lacks depth in explaining the implications of torso-up and face-only image perspectives compared to full-body images. There is a need for more detailed analysis and discussion.",
-        "severity": "medium",
-        "impact": "This shallow interpretation limits the insights gained from the study and may leave readers with unanswered questions about the significance of different image perspectives."
-      },
-      {
-        "category": "citations",
-        "location": "Literature Review",
-        "issue": "Inconsistent citation format and style across different references in the literature review section. Some references lack proper formatting or details.",
-        "severity": "low",
-        "impact": "This inconsistency in citations may affect the paper's professionalism and adherence to academic standards."
-      },
-      {
-        "category": "figures",
-        "location": "Results section",
-        "issue": "Limited alignment between figures and text descriptions. Some figures mentioned in the text are missing, and there is a lack of detailed explanation for certain visual representations.",
-        "severity": "medium",
-        "impact": "This lack of alignment between figures and text may hinder readers' understanding of the presented data and results."
-      },
-      {
-        "category": "tables",
-        "location": "Results section",
-        "issue": "The tables provided in the results section lack detailed captions or explanations. It is challenging for readers to interpret the data presented in the tables without sufficient context.",
-        "severity": "medium",
-        "impact": "This lack of alignment between tables and text descriptions reduces the clarity and interpretability of the study's results."
-      },
-      {
-        "category": "supplementary",
-        "location": "Supplementary section",
-        "issue": "The supplementary material lacks consistency in formatting and organization. There is a need for clearer structure and labeling of supplementary content.",
-        "severity": "low",
-        "impact": "This inconsistency in supplementary material presentation may confuse readers and make it harder to access additional information."
+        "location": "Results",
+        "issue": "The interpretation of results lacks depth and detailed analysis of the implications of the findings.",
+        "severity": "high",
+        "impact": "This weakens the discussion and limits the insights drawn from the data."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Current computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Clarifying the present tense and active voice enhances the clarity and directness of the statement.",
+        "original_text": "The introduction lacks a clear transition to the methodology section.",
+        "improved_version": "To bridge the gap between the importance of BMI estimation and the research methodology, a brief overview of the methodology's relevance to addressing the research gap can be provided.",
+        "explanation": "This improvement helps set the stage for the methodology section and highlights the research approach.",
         "location": "Introduction",
         "category": "introduction",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-        "improved_version": "Our model achieves a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset, utilizing full-torso images from real-world data exclusively.",
-        "explanation": "Rephrasing for clarity and specificity helps to emphasize the model's performance and dataset usage.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "results_conclusions"
-      },
-      {
-        "original_text": "The conclusion states that the model demonstrates strong generalizability to unseen data, but the MAPE values on external datasets are higher than expected.",
-        "improved_version": "Although the model shows promising generalizability to unseen data, the MAPE values on external datasets are slightly higher than anticipated.",
-        "explanation": "Adding nuance and acknowledging the unexpected results helps to align the conclusion with the actual findings.",
-        "location": "Conclusion",
-        "category": "conclusion",
-        "focus": "results_conclusions"
-      },
-      {
-        "original_text": "The discussion lacks a clear transition from the results to the practical implications and limitations.",
-        "improved_version": "The discussion section would benefit from a smoother transition between the presented results and their practical implications and limitations.",
-        "explanation": "Providing a more explicit suggestion for improvement enhances the coherence and flow of the paper.",
-        "location": "Discussion",
-        "category": "discussion",
         "focus": "logical_flow"
       },
       {
-        "original_text": "Inconsistent use of terminology for weight estimation metrics, such as MAPE and MAE, throughout the paper.",
-        "improved_version": "The inconsistent terminology usage for weight estimation metrics, including MAPE and MAE, poses a challenge for readers' comprehension.",
-        "explanation": "Highlighting the impact of inconsistent terminology usage emphasizes the importance of clarity and consistency in scientific writing.",
-        "location": "Introduction",
-        "category": "introduction",
+        "original_text": "Inconsistent use of terms like 'posture clustering' and 'pose clustering' within the same section.",
+        "improved_version": "Maintain consistency by using 'posture clustering' throughout the methodology section for clarity and coherence.",
+        "explanation": "Consistent terminology enhances reader understanding and maintains coherence.",
+        "location": "Methodology",
+        "category": "methodology",
         "focus": "terminology"
       },
       {
-        "original_text": "The introduction mentions the need for faster weight estimation methods in medical emergencies, but the hypothesis or research question related to this need is not explicitly stated.",
-        "improved_version": "While the introduction highlights the necessity for rapid weight estimation methods in medical emergencies, it lacks a clearly defined hypothesis or research question addressing this requirement.",
-        "explanation": "Providing a more explicit statement of the research question enhances the focus and direction of the study.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "hypothesis"
-      },
-      {
-        "original_text": "The interpretation of the results lacks depth in explaining the implications of torso-up and face-only image perspectives compared to full-body images.",
-        "improved_version": "A more comprehensive interpretation of the results is needed to elucidate the significance of torso-up and face-only image perspectives in contrast to full-body images.",
-        "explanation": "Emphasizing the need for a thorough interpretation enhances the study's analytical depth and insight.",
+        "original_text": "The interpretation of results lacks depth and detailed analysis of the implications of the findings.",
+        "improved_version": "Provide a comprehensive analysis of the results, discussing the practical implications, limitations, and potential future research directions based on the findings.",
+        "explanation": "Enhancing the interpretation enriches the discussion and adds value to the research outcomes.",
         "location": "Results",
         "category": "results",
         "focus": "interpretation"
-      },
-      {
-        "original_text": "Inconsistent citation format and style across different references in the literature review section.",
-        "improved_version": "The literature review section exhibits inconsistencies in citation format and style across various references.",
-        "explanation": "Highlighting the need for consistent citation formatting emphasizes the importance of maintaining academic standards.",
-        "location": "Literature Review",
-        "category": "literature",
-        "focus": "citations"
-      },
-      {
-        "original_text": "Limited alignment between figures and text descriptions.",
-        "improved_version": "Enhancing the alignment between figures and corresponding text descriptions is crucial for improving the clarity and understanding of the presented data.",
-        "explanation": "Emphasizing the importance of clear figure-text alignment highlights the need for improved visual communication.",
-        "location": "Results",
-        "category": "results",
-        "focus": "figures"
-      },
-      {
-        "original_text": "The tables provided in the results section lack detailed captions or explanations.",
-        "improved_version": "Providing detailed captions and explanations for the tables in the results section is essential for facilitating readers' interpretation of the data presented.",
-        "explanation": "Stressing the importance of clear table descriptions emphasizes the role of tables in conveying information effectively.",
-        "location": "Results",
-        "category": "results",
-        "focus": "tables"
-      },
-      {
-        "original_text": "The supplementary material lacks consistency in formatting and organization.",
-        "improved_version": "Improving the consistency in formatting and organization of the supplementary material is crucial for enhancing its accessibility and usability.",
-        "explanation": "Underlining the significance of consistent supplementary material presentation emphasizes the need for clear and structured additional content.",
-        "location": "Supplementary",
-        "category": "supplementary",
-        "focus": "supplementary"
       }
     ],
     "detailed_feedback": {
-      "methods_results_alignment": "The methods and results sections are well-aligned, with a clear description of the dataset, model architecture, and evaluation metrics used. The results directly stem from the methodology outlined.",
-      "results_conclusions_alignment": "There is a slight misalignment between the reported results and the conclusions drawn. The conclusions could be revised to better reflect the actual findings from the results section.",
-      "logical_flow": "The logical flow between sections is generally coherent, but there are some abrupt transitions, especially between the results and discussion sections. Providing smoother transitions would enhance the overall coherence.",
-      "terminology_consistency": "While the terminology is mostly consistent within sections, there are instances of interchangeable acronyms and terms across different sections. Ensuring uniform terminology usage throughout the paper is essential for clarity.",
-      "hypothesis_testing": "The study lacks a clear statement of the hypothesis or research question, which could strengthen the focus and direction of the research. Explicitly stating the hypothesis would enhance the study's scientific rigor.",
-      "interpretation_consistency": "The interpretation of results could be more detailed and insightful, especially regarding the implications of different image perspectives. Providing a deeper analysis and discussion of the results would enrich the study's findings.",
-      "citation_consistency": "While citations are present, there are inconsistencies in formatting and style across references. Ensuring a consistent citation format and style throughout the paper is crucial for maintaining academic integrity.",
-      "figure_text_alignment": "There is room for improvement in aligning figures with text descriptions to enhance the clarity and understanding of the presented data. Providing detailed explanations for visual representations would improve the overall coherence.",
-      "table_text_alignment": "The tables lack detailed captions or explanations, making it challenging for readers to interpret the data. Enhancing the alignment between tables and text descriptions would improve the interpretability of the results.",
-      "supplementary_consistency": "The supplementary material requires better formatting and organization for improved clarity and accessibility. Ensuring consistency in the presentation of supplementary content would enhance its usability and relevance."
+      "methods_results_alignment": "The methods section effectively describes the image filtering and model training processes, aligning well with the reported results.",
+      "results_conclusions_alignment": "The results section presents the model performance metrics clearly, but the conclusions could be more closely tied to the specific findings.",
+      "logical_flow": "The flow from introduction to methodology needs improvement to better connect the research rationale to the chosen approach.",
+      "terminology_consistency": "Overall, the terminology is consistent, but minor inconsistencies like 'posture clustering' and 'pose clustering' should be addressed.",
+      "hypothesis_testing": "The study aligns well with the hypothesis by evaluating BMI estimation performance across different image perspectives.",
+      "interpretation_consistency": "While the interpretation of results is clear, it lacks in-depth analysis and implications of the findings.",
+      "citation_consistency": "The citations are consistent and appropriately used throughout the text.",
+      "figure_text_alignment": "The figures are well-referenced and explained in the text, enhancing understanding.",
+      "table_text_alignment": "The tables are effectively integrated with the text, providing additional context and supporting the results.",
+      "supplementary_consistency": "The supplementary material complements the main text well, providing additional details and insights."
     },
-    "summary": "Overall, the paper demonstrates a strong alignment between methods and results, with a clear presentation of the dataset and model architecture. However, there are notable inconsistencies in terminology usage, citation formatting, and figure-text alignment. The study lacks a clear hypothesis statement and could benefit from more detailed interpretation of results. Improving the logical flow between sections, enhancing consistency in supplementary material, and refining the conclusions to better reflect the actual findings would strengthen the overall coherence and impact of the research."
+    "summary": "Overall, the study demonstrates good alignment between methods and results, with consistent terminology and logical flow. However, there are areas for improvement in interpreting the results more deeply, ensuring a smoother transition between sections, and maintaining terminology consistency. Enhancing the discussion of implications and future directions could strengthen the overall coherence of the research."
   },
   "W1": {
-    "language_style_score": 8,
+    "language_style_score": 7,
     "critical_remarks": [
       {
         "category": "grammar",
         "location": "Abstract",
-        "issue": "Facilitates rapid weight assessment in situations where tradi- tional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
+        "issue": "Fragmented sentence: 'Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.'",
         "severity": "medium",
-        "impact": "The hyphen in 'traditional' is unnecessary and affects readability."
+        "impact": "Affects clarity and professionalism."
       },
       {
-        "category": "spelling",
-        "location": "Discussion",
-        "issue": "We aim to uncover how various views of the body influ- ence the accuracy of weight predictions, providing insights into the most effective approaches for different application scenarios.",
+        "category": "academic_conventions",
+        "location": "References",
+        "issue": "Inconsistent citation format: Some citations lack complete information like page numbers or publication dates.",
         "severity": "low",
-        "impact": "The word 'influence' is misspelled as 'influ- ence'."
-      },
-      {
-        "category": "punctuation",
-        "location": "Introduction",
-        "issue": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-        "severity": "low",
-        "impact": "The punctuation after 'diabetes' should be inside the brackets."
+        "impact": "May affect the credibility of the research."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Facilitates rapid weight assessment in situations where tradi- tional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-        "improved_version": "Facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-        "explanation": "Corrected the unnecessary hyphen in 'traditional' for clarity and correctness.",
+        "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
+        "improved_version": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in scenarios where traditional methods are impractical, such as telehealth services and emergency medical situations.",
+        "explanation": "Rephrased for better flow and clarity.",
         "location": "Abstract",
         "category": "abstract",
-        "focus": "grammar"
+        "focus": "sentence_structure"
       },
       {
-        "original_text": "influ- ence the accuracy of weight predictions",
-        "improved_version": "influence the accuracy of weight predictions",
-        "explanation": "Corrected the spelling of 'influence' for accuracy.",
-        "location": "Discussion",
-        "category": "discussion",
-        "focus": "spelling"
+        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+        "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily been restricted to datasets containing up to 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Improved sentence structure and clarity.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "sentence_structure"
       },
       {
-        "original_text": "including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-        "improved_version": "including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [1].",
-        "explanation": "Moved the punctuation inside the brackets for correct citation format.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "punctuation"
+        "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+        "improved_version": "Furthermore, we analyze how image perspective affects BMI estimation performance within our real-world dataset by comparing full-body, torso-up, and face-only images.",
+        "explanation": "Enhanced clarity and coherence.",
+        "location": "Results",
+        "category": "results",
+        "focus": "sentence_structure"
       }
     ],
     "detailed_feedback": {
-      "grammar_correctness": "The text demonstrates overall good grammar, with only a few minor issues like unnecessary hyphens and punctuation placement.",
-      "spelling_accuracy": "Spelling is generally accurate, with occasional misspellings like 'influence' that need correction.",
-      "punctuation_usage": "Punctuation is mostly correct, but there are instances where punctuation should be adjusted for citation format.",
-      "sentence_structure": "The sentence structure is clear and concise, aiding in readability and comprehension.",
-      "verb_tense_consistency": "Verb tenses are consistent throughout the text, maintaining a coherent narrative.",
-      "subject_verb_agreement": "Subject-verb agreement is generally correct, enhancing the clarity of the text.",
-      "article_usage": "Articles are appropriately used, contributing to the academic tone and precision of the writing.",
-      "preposition_usage": "Prepositions are used accurately to convey relationships between elements in the text.",
-      "conjunction_usage": "Conjunctions are appropriately used to connect ideas and maintain the flow of the text.",
-      "academic_conventions": "The text adheres well to academic writing conventions, presenting research findings in a structured and formal manner."
+      "grammar_correctness": "The text generally demonstrates good grammar usage, but there are occasional instances of fragmented sentences or awkward phrasing.",
+      "spelling_accuracy": "No spelling errors were identified in the text.",
+      "punctuation_usage": "Punctuation is mostly correct, but there are a few instances where commas or semicolons could enhance readability.",
+      "sentence_structure": "The sentence structure is varied, but some sentences could be improved for better flow and coherence.",
+      "verb_tense_consistency": "Verb tenses are generally consistent throughout the text.",
+      "subject_verb_agreement": "Subject-verb agreement is maintained well, but there are a few instances where singular/plural agreement could be clearer.",
+      "article_usage": "Articles are used appropriately in most cases, but there are a few instances where clarity could be improved with better article usage.",
+      "preposition_usage": "Prepositions are generally used correctly, but there are a few instances where prepositions could be omitted for better conciseness.",
+      "conjunction_usage": "Conjunctions are used effectively to connect ideas and maintain coherence.",
+      "academic_conventions": "The text adheres to academic writing conventions, but there are minor inconsistencies in citation format and referencing."
     },
-    "summary": "Overall, the text demonstrates strong grammar, spelling, and punctuation, with minor issues that can be easily corrected. The language is clear and academic, maintaining consistency in verb tense, subject-verb agreement, and article usage. Prepositions and conjunctions are appropriately employed to enhance the coherence of the text. The academic writing conventions are well-followed, presenting research findings in a structured and formal manner."
+    "summary": "The text demonstrates strong academic writing conventions with minor issues in grammar, sentence structure, and citation format. Improvements in sentence coherence, citation consistency, and clarity of expression can enhance the overall quality of the research paper."
   },
   "W2": {
     "narrative_structure_score": 7,
@@ -643,88 +697,64 @@
       {
         "category": "evidence_integration",
         "location": "Abstract",
-        "issue": "The abstract lacks specific details about the methodology and results of the study.",
+        "issue": "Lack of specific details on the deep learning model architecture used for BMI estimation from smartphone images.",
         "severity": "medium",
-        "impact": "Readers may not fully understand the significance of the research findings."
-      },
-      {
-        "category": "transitions",
-        "location": "Introduction",
-        "issue": "The transition from the abstract to the introduction is abrupt and lacks a smooth flow.",
-        "severity": "low",
-        "impact": "Readers may feel disoriented when moving from the abstract to the introduction."
+        "impact": "Readers may question the validity and robustness of the results without a clear understanding of the model architecture."
       },
       {
         "category": "paragraph_organization",
-        "location": "Methodology",
-        "issue": "The methodology section lacks subheadings or clear divisions for different processes.",
+        "location": "Introduction",
+        "issue": "The introduction lacks a clear research question or hypothesis statement, making it challenging for readers to understand the study's purpose.",
         "severity": "high",
-        "impact": "Readers may find it challenging to follow the step-by-step description of the methodology."
+        "impact": "Without a well-defined research question, the study's direction and relevance may be unclear to readers."
+      },
+      {
+        "category": "conclusion_alignment",
+        "location": "Conclusion",
+        "issue": "The conclusion does not directly address the research findings presented in the results section, leading to a disconnect between the two.",
+        "severity": "medium",
+        "impact": "Readers may struggle to see how the study's outcomes align with the initial research objectives."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily focused on datasets containing a maximum of 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Clarity in specifying the focus of previous research for better understanding.",
+        "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Clarity and precision in stating the limitations of existing approaches.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "narrative_coherence"
       },
       {
-        "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-        "improved_version": "This study conducts a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.",
-        "explanation": "Clarity and conciseness in presenting the study's scope and dataset details.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "topic_sentences"
-      },
-      {
-        "original_text": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-        "improved_version": "A high Body Mass Index (BMI) is linked to several chronic diseases, including cardiovascular diseases, specific types of cancer, and metabolic disorders like diabetes [ 1].",
-        "explanation": "Enhancing readability and maintaining consistency in terminology.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "narrative_coherence"
-      },
-      {
-        "original_text": "Traditionally, the calculation of BMI requires measuring a person\u2019s weight and height using scales and a stadiometer.",
-        "improved_version": "Traditionally, calculating BMI involves measuring an individual's weight and height using scales and a stadiometer.",
-        "explanation": "Improving sentence structure and clarity.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "paragraph_organization"
-      },
-      {
-        "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
-        "improved_version": "Additionally, we assess our model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.",
-        "explanation": "Enhancing clarity and precision in presenting results.",
+        "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+        "improved_version": "Our findings suggest that torso-up images provide comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).",
+        "explanation": "Enhancing clarity and coherence in presenting research findings.",
         "location": "Results",
         "category": "results",
-        "focus": "evidence_integration"
+        "focus": "logical_progression"
       },
       {
-        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-        "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite no prior training on this dataset.",
-        "explanation": "Clarifying the impact of model generalizability and the significance of results.",
-        "location": "Discussion",
-        "category": "discussion",
-        "focus": "conclusion_alignment"
+        "original_text": "The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.",
+        "improved_version": "The subsequent sections are organized as follows: Section 2 offers an overview of related research on weight estimation from images.",
+        "explanation": "Improving the transition between sections for better flow.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "section_transitions"
       }
     ],
     "detailed_feedback": {
-      "narrative_coherence": "The narrative flow is generally coherent, with a clear progression of ideas from the abstract to the conclusion. However, some sections could benefit from smoother transitions to enhance overall coherence.",
-      "logical_progression": "The logical progression of ideas is well-maintained, with a structured approach to presenting research findings. Each section builds upon the previous one to provide a comprehensive understanding of the study.",
-      "section_transitions": "Transitions between sections are adequate, but some sections could benefit from clearer signposting to guide readers through the research narrative more effectively.",
-      "paragraph_organization": "Paragraph organization is generally clear, but some sections lack subheadings or clear divisions, making it challenging for readers to navigate through complex methodologies or results.",
-      "topic_sentence_effectiveness": "Topic sentences effectively introduce the main ideas of each section, providing a roadmap for readers to follow the narrative flow. However, some topic sentences could be more specific to enhance their effectiveness.",
-      "supporting_evidence_integration": "Supporting evidence is well-integrated throughout the text, providing credibility to the research findings. However, some sections may benefit from more detailed explanations or data analysis to strengthen the evidence.",
-      "conclusion_alignment": "The conclusion aligns well with the introduction, summarizing key findings and implications of the study. However, a more explicit connection between the research question/hypothesis and the conclusion could enhance alignment.",
-      "hypothesis_tracking": "The research question/hypothesis is clearly defined and tracked throughout the study, guiding the analysis and interpretation of results. However, some sections could explicitly link back to the initial research question for better coherence.",
-      "visual_element_integration": "Visual elements are effectively used to complement the text and enhance reader understanding. However, some figures or tables could be more explicitly referenced in the text for better integration.",
-      "reader_engagement": "The text engages readers through a mix of technical details and practical implications. To enhance engagement, consider incorporating more interactive elements or real-world examples to connect with a broader audience."
+      "narrative_coherence": "The text demonstrates a coherent progression of ideas, with clear connections between sections and subsections, enhancing the overall flow of the narrative.",
+      "logical_progression": "The logical progression of ideas is well-maintained, with a structured presentation of research findings and methodologies that support the study's objectives.",
+      "section_transitions": "The transitions between sections are generally smooth, guiding the reader through the study's progression effectively.",
+      "paragraph_organization": "Paragraphs are organized logically, presenting information in a clear and structured manner to facilitate understanding.",
+      "topic_sentence_effectiveness": "Topic sentences effectively introduce the main idea of each paragraph, aiding in reader comprehension and guiding the flow of discussion.",
+      "supporting_evidence_integration": "Supporting evidence is integrated well throughout the text, providing credibility to the research findings and enhancing the argumentation.",
+      "conclusion_alignment": "The conclusion aligns with the main findings of the study, summarizing key points and implications effectively.",
+      "hypothesis_tracking": "The study effectively tracks the research question and hypothesis throughout the text, ensuring consistency and relevance to the study objectives.",
+      "visual_element_integration": "Visual elements are integrated appropriately to supplement the text and enhance reader understanding.",
+      "reader_engagement": "The text engages readers effectively through a mix of technical details, results presentation, and practical implications, maintaining interest and relevance."
     },
-    "summary": "The research paper demonstrates a coherent narrative structure with logical progression of ideas. While transitions between sections could be smoother and some paragraphs lack clear organization, the topic sentences effectively introduce main ideas. Supporting evidence is well-integrated, but more detailed explanations may enhance credibility. The conclusion aligns with the introduction, tracking the research question effectively. Visual elements are used effectively, but could be better integrated with the text. Overall, the paper engages readers with technical details and practical implications, but could benefit from more interactive elements for enhanced engagement."
+    "summary": "The text demonstrates a well-structured narrative with coherent progression and logical presentation of research findings. While improvements in hypothesis tracking, conclusion alignment, and evidence integration are needed, the overall engagement and readability of the text are maintained."
   },
   "W3": {
     "clarity_conciseness_score": 7,
@@ -732,120 +762,49 @@
       {
         "category": "jargon",
         "location": "Abstract",
-        "issue": "Complex terms like 'Mean Absolute Percentage Error (MAPE)' may not be easily understood by all readers.",
+        "issue": "The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.",
         "severity": "medium",
-        "impact": "May hinder comprehension for non-experts."
+        "impact": "It creates a barrier for readers unfamiliar with the terminology."
       },
       {
         "category": "wordiness",
         "location": "Introduction",
-        "issue": "The introduction contains redundant information about the importance of BMI estimation.",
+        "issue": "The introduction contains redundant information about the importance of BMI estimation, which could be more concise.",
         "severity": "low",
-        "impact": "Adds unnecessary length and repetition."
-      },
-      {
-        "category": "redundancy",
-        "location": "Methodology",
-        "issue": "Repetitive explanation of the filtering process using different terms.",
-        "severity": "medium",
-        "impact": "Causes confusion and redundancy."
+        "impact": "It increases the length of the introduction without adding significant value."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
-        "improved_version": "Estimating BMI from camera images enables quick weight assessment in challenging scenarios.",
-        "explanation": "Simplifies the language and removes redundancy.",
+        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+        "improved_version": "Most recent BMI estimation approaches focus on datasets with limited sizes, such as 7,211 full-body images or 14,500 facial images.",
+        "explanation": "Simplifying the sentence structure and removing unnecessary details improves readability and conciseness.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "language_simplicity"
-      },
-      {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Current BMI estimation methods mainly use datasets with around 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Streamlines the sentence and improves readability.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "wordiness"
       },
       {
         "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-        "improved_version": "This study evaluates BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
-        "explanation": "Reduces wordiness and improves clarity.",
+        "improved_version": "We evaluate BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
+        "explanation": "Streamlining the description of the dataset and study focus enhances clarity and conciseness.",
         "location": "Abstract",
         "category": "abstract",
-        "focus": "wordiness"
-      },
-      {
-        "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.",
-        "improved_version": "We implement an automated image filtering strategy to curate the dataset by excluding unsuitable images.",
-        "explanation": "Simplifies the explanation and removes redundant details.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "redundancy"
-      },
-      {
-        "original_text": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes.",
-        "improved_version": "High BMI is linked to chronic diseases like cardiovascular diseases, cancer, and diabetes.",
-        "explanation": "Reduces complexity and improves readability.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "language_simplicity"
-      },
-      {
-        "original_text": "Traditionally, the calculation of BMI requires measuring a person\u2019s weight and height using scales and a stadiometer.",
-        "improved_version": "BMI calculation traditionally involves measuring weight and height with scales and a stadiometer.",
-        "explanation": "Streamlines the sentence for better comprehension.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "wordiness"
-      },
-      {
-        "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-        "improved_version": "Torso-up images perform similarly to full-body images (9% MAPE), while face-only images are less accurate (11% MAPE).",
-        "explanation": "Clarifies the comparison and reduces redundancy.",
-        "location": "Results",
-        "category": "results",
-        "focus": "redundancy"
-      },
-      {
-        "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
-        "improved_version": "Our model's generalizability is tested on two external benchmark datasets: Celeb-FBI and VIP-Attribute, with MAPE values of 23.64% and 25.21%.",
-        "explanation": "Simplifies the sentence structure and improves clarity.",
-        "location": "Results",
-        "category": "results",
-        "focus": "language_simplicity"
-      },
-      {
-        "original_text": "The network is a DenseNet Convolutional Neural Network (CNN).",
-        "improved_version": "The network is a DenseNet CNN.",
-        "explanation": "Reduces unnecessary repetition and complexity.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "wordiness"
-      },
-      {
-        "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
-        "improved_version": "The Densenet201 model is pre-trained on ImageNet, with all layers left trainable during training.",
-        "explanation": "Simplifies the sentence structure for better flow.",
-        "location": "Methodology",
-        "category": "methodology",
         "focus": "wordiness"
       }
     ],
     "detailed_feedback": {
-      "language_simplicity": "The text uses technical terms and complex language that may hinder understanding for non-experts. Simplifying the terminology and using clearer language would enhance clarity.",
-      "jargon_usage": "The text contains jargon like 'Mean Absolute Percentage Error (MAPE)' that may not be familiar to all readers. Explaining technical terms or using simpler alternatives would improve comprehension.",
-      "wordiness": "Some sentences are wordy and could be streamlined for better readability. Removing redundant phrases and unnecessary details would enhance conciseness.",
-      "sentence_length": "The text contains both long and short sentences. Balancing sentence length for better flow and readability is recommended.",
-      "paragraph_length": "Paragraphs vary in length, impacting the flow and organization of information. Ensuring consistent paragraph length would improve readability.",
-      "active_passive_voice": "The text predominantly uses active voice, which is clear and direct. Maintaining this voice would enhance clarity and engagement.",
-      "redundancy": "There are instances of redundant information and repetitive explanations throughout the text. Removing redundancies would improve conciseness and clarity.",
-      "ambiguity": "The text is generally clear, but some sections could benefit from clearer explanations or examples to avoid ambiguity.",
-      "readability": "The text is generally readable but could be improved by simplifying complex terms, reducing wordiness, and ensuring consistent sentence and paragraph lengths.",
-      "information_density": "The text contains a high level of technical information, which may be overwhelming for non-experts. Balancing technical details with clear explanations would enhance information density."
+      "language_simplicity": "The text uses technical terms and complex sentence structures that may be challenging for non-experts to understand. Simplifying the language and sentence construction can improve clarity.",
+      "jargon_usage": "The text includes jargon like 'MAPE' and 'deep learning' without adequate explanation, making it difficult for readers unfamiliar with the field to follow along. Providing definitions or simplifying the terminology can enhance comprehension.",
+      "wordiness": "Certain sections contain redundant information or elaborate descriptions that could be condensed without losing essential content. Removing unnecessary details and streamlining sentences can improve conciseness.",
+      "sentence_length": "Some sentences are overly long and complex, making it harder for readers to follow the ideas presented. Breaking down long sentences into shorter, more digestible ones can enhance readability.",
+      "paragraph_length": "Paragraphs vary in length, with some being too lengthy and dense. Breaking down dense paragraphs into shorter, focused ones can improve readability and help readers navigate the text more easily.",
+      "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice can enhance clarity and make the writing more dynamic.",
+      "redundancy": "Certain sections repeat information or use redundant phrases that could be eliminated without losing meaning. Removing redundancies can streamline the text and improve overall clarity.",
+      "ambiguity": "Some sentences or phrases may be ambiguous or open to interpretation, leading to potential confusion for readers. Clarifying ambiguous statements and providing more explicit explanations can enhance understanding.",
+      "readability": "Overall, the text is moderately readable but could benefit from simplifying language, breaking down complex sentences, and organizing content into more digestible chunks. Improving readability can enhance engagement and comprehension.",
+      "information_density": "The text contains a high level of information density, with complex concepts and technical details presented in a dense manner. Balancing information density with clarity and conciseness is crucial to ensure readers can grasp the content effectively."
     },
-    "summary": "The text demonstrates a good level of clarity but could benefit from simplifying technical terms, reducing wordiness, and removing redundancies. Improving sentence and paragraph lengths, as well as maintaining a consistent voice, would enhance overall readability and comprehension."
+    "summary": "The text demonstrates moderate clarity and conciseness but could benefit from simplifying language, reducing jargon, and streamlining sentence structures. Improving readability, reducing redundancy, and enhancing information density are key areas for enhancing the overall quality of the research."
   },
   "W4": {
     "terminology_consistency_score": 7,
@@ -853,64 +812,120 @@
       {
         "category": "term_usage",
         "location": "Abstract",
-        "issue": "Inconsistency in the usage of 'BMI estimation' and 'weight estimation' throughout the abstract.",
+        "issue": "Inconsistency in using 'BMI estimation' and 'weight estimation' interchangeably.",
         "severity": "medium",
-        "impact": "Confusion for readers due to the interchangeable use of terms."
+        "impact": "Confusion for readers regarding the specific focus of the study."
       },
       {
         "category": "variable_naming",
         "location": "Methodology",
-        "issue": "Lack of consistent variable naming conventions for body keypoints and clustering results.",
-        "severity": "high",
-        "impact": "Difficulty in understanding and replicating the methodology."
+        "issue": "Inconsistent variable naming conventions for image perspectives (e.g., 'full-body', 'torso-up', 'face-only').",
+        "severity": "medium",
+        "impact": "May lead to confusion in understanding the methodology and results."
       },
       {
-        "category": "unit_notation",
-        "location": "Results",
-        "issue": "Inconsistent unit notation for MAE, with BMI units, kg, and lbs used interchangeably.",
-        "severity": "medium",
-        "impact": "Confusion in interpreting and comparing results."
+        "category": "definition",
+        "location": "Introduction",
+        "issue": "Lack of clear definition for 'MAPE' (Mean Absolute Percentage Error) and 'MAE' (Mean Absolute Error).",
+        "severity": "low",
+        "impact": "Readers unfamiliar with these terms may struggle to follow the results."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...",
-        "improved_version": "Estimating Body Mass Index (BMI) from camera images facilitates rapid BMI assessment...",
-        "explanation": "Consistently using 'BMI assessment' instead of 'weight assessment' aligns with the focus on BMI estimation.",
+        "original_text": "Estimating Body Mass Index (BMI) from camera images",
+        "improved_version": "Estimating Body Weight from camera images",
+        "explanation": "Consistent use of 'Body Weight' aligns with the subsequent discussion on weight estimation.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "term_usage"
       },
       {
-        "original_text": "We introduce an automatic image filtering strategy based on posture clustering...",
-        "improved_version": "We introduce an automatic image filtering strategy based on posture clustering...",
-        "explanation": "Maintaining consistent variable naming conventions enhances clarity and readability.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "variable_naming"
+        "original_text": "we present a comprehensive evaluation of BMI estimation from smartphone camera images",
+        "improved_version": "we present a comprehensive evaluation of weight estimation from smartphone camera images",
+        "explanation": "Maintains consistency with the revised term 'Body Weight' introduced earlier.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "term_usage"
       },
       {
-        "original_text": "MAE of 3.66 BMI units and 10.38 kg.",
-        "improved_version": "MAE of 3.66 BMI units and 10.38 kg.",
-        "explanation": "Consistently using a single unit notation for MAE improves readability and interpretation.",
+        "original_text": "we achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset",
+        "improved_version": "we achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, representing the percentage difference between the predicted and actual BMI values.",
+        "explanation": "Provides a clear definition of MAPE for readers unfamiliar with the term.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "definition"
+      },
+      {
+        "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets",
+        "improved_version": "We also assess our model\u2019s generalizability on two additional external benchmark datasets",
+        "explanation": "Consistent use of 'assess' instead of 'evaluate' for clarity and uniformity.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "we train deep learning models on a large-scale, real-world dataset",
+        "improved_version": "we train deep learning models on a large-scale, proprietary, real-world dataset",
+        "explanation": "Adding 'proprietary' clarifies the ownership and origin of the dataset for transparency.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "The limited dataset size may restrict the model\u2019s ability to learn complex patterns",
+        "improved_version": "The limited dataset size may restrict the model\u2019s ability to learn complex patterns and generalize to diverse body types.",
+        "explanation": "Expanding on the impact of dataset size on model performance for better understanding.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images",
+        "improved_version": "Our results indicate that torso-up images deliver performance similar to full-body images, suggesting their potential as a viable alternative.",
+        "explanation": "Providing additional context and implications of the findings for clarity.",
         "location": "Results",
         "category": "results",
-        "focus": "unit_notation"
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "We demonstrate the real-world applicability of our BMI estimation approach",
+        "improved_version": "We demonstrate the real-world applicability of our weight estimation approach",
+        "explanation": "Consistent use of 'weight estimation' aligns with the study's focus on estimating weight from images.",
+        "location": "Discussion",
+        "category": "discussion",
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "we provide the code for training, deployment, and the mobile applications",
+        "improved_version": "we provide the code for training, deployment, and the mobile applications as open-source contributions",
+        "explanation": "Clarifying that the code is shared as open-source contributions for transparency.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "term_usage"
+      },
+      {
+        "original_text": "We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.",
+        "improved_version": "We partitioned the dataset into training, test, and validation sets with proportions of 75%, 15%, and 10% respectively.",
+        "explanation": "Enhances clarity and formalizes the process of dataset partitioning.",
+        "location": "Methodology",
+        "category": "methodology",
+        "focus": "term_usage"
       }
     ],
     "detailed_feedback": {
-      "term_usage_consistency": "The text generally maintains consistency in technical terms like 'BMI estimation' and 'image filtering strategy.' However, there are instances of interchangeability between 'BMI estimation' and 'weight estimation.'",
-      "notation_consistency": "Notation consistency is generally maintained, with proper use of mathematical symbols and equations.",
-      "acronym_usage": "Acronyms like 'MAPE' and 'MAE' are consistently used and defined throughout the text.",
-      "variable_naming_consistency": "Variable naming conventions are mostly consistent, but there are instances where clarity could be improved, especially in the methodology section.",
-      "unit_notation_consistency": "Unit notation consistency is maintained for the most part, but there are instances of using different units interchangeably.",
-      "abbreviation_consistency": "Abbreviations are used consistently, such as 'ETH Z \u00a8urich' and 'MAE.'",
-      "technical_term_consistency": "Technical terms related to image processing and deep learning are used consistently throughout the text.",
-      "field_terminology": "Field-specific terminology related to BMI estimation and computer vision is appropriately used and explained.",
-      "cross_reference_consistency": "Cross-references are consistent and help in connecting different sections of the text effectively.",
-      "definition_consistency": "Definitions of terms like 'MAE' and 'MAPE' are provided consistently and help in understanding the results."
+      "term_usage_consistency": "The text demonstrates overall good consistency in term usage, with a few instances of interchangeability between 'BMI' and 'weight' that can be improved for clarity.",
+      "notation_consistency": "Notation consistency is maintained throughout the text, with clear and consistent use of mathematical symbols and equations.",
+      "acronym_usage": "Acronyms like 'MAPE' and 'MAE' are used consistently but lack clear definitions in some instances, impacting reader understanding.",
+      "variable_naming_consistency": "Variable naming conventions are generally consistent, but there are instances of inconsistency in naming image perspectives.",
+      "unit_notation_consistency": "Unit notation consistency is maintained, with clear representation of units in measurements and results.",
+      "abbreviation_consistency": "Abbreviations are used sparingly and consistently throughout the text, enhancing readability and understanding.",
+      "technical_term_consistency": "Technical terms related to deep learning and image processing are used accurately and consistently, contributing to the overall technical clarity of the text.",
+      "field_terminology": "The field-specific terminology is appropriate and consistent, aligning with the domain of digital health interventions and image-based weight estimation.",
+      "cross_reference_consistency": "Cross-references are used effectively to connect different sections of the text, enhancing the flow and coherence of the research.",
+      "definition_consistency": "Definitions are provided for key terms like 'MAPE' and 'MAE', but there are instances where clearer definitions could improve reader comprehension."
     },
-    "summary": "The text demonstrates a good level of terminology consistency overall, with minor issues in term usage, variable naming, and unit notation. Improvements in these areas can enhance clarity and readability for readers. Maintaining consistent terminology and notation throughout the text will improve the overall quality of the research."
+    "summary": "The text demonstrates a good level of terminology consistency overall, with minor issues in term usage, variable naming, and definition clarity. Improvements in these areas, along with maintaining the existing consistency in notation, acronyms, and technical terms, will enhance the overall coherence and readability of the research."
   },
   "W5": {
     "inclusive_language_score": 7,
@@ -918,380 +933,228 @@
       {
         "category": "gender_neutrality",
         "location": "Abstract",
-        "issue": "The text uses predominantly male names in the author list, lacking gender diversity.",
+        "issue": "The text uses gender-specific pronouns like 'his' and 'her' instead of gender-neutral language.",
         "severity": "medium",
-        "impact": "Excludes representation of gender diversity in the authorship."
+        "impact": "Excludes non-binary individuals and reinforces gender stereotypes."
       },
       {
         "category": "cultural_sensitivity",
         "location": "Introduction",
-        "issue": "The study lacks acknowledgment of cultural variations in body weight perception and measurement.",
+        "issue": "The text lacks acknowledgment of diverse cultural perspectives on body image and weight.",
         "severity": "medium",
-        "impact": "Neglects the influence of cultural factors on body image and health."
+        "impact": "May overlook cultural nuances and perpetuate Western-centric views."
       },
       {
         "category": "disability_inclusion",
         "location": "Methodology",
-        "issue": "The text does not address considerations for individuals with disabilities in image capturing or BMI estimation.",
-        "severity": "medium",
-        "impact": "Excludes individuals with disabilities from the discussion on BMI estimation."
+        "issue": "The text does not mention considerations for participants with disabilities in image capturing.",
+        "severity": "low",
+        "impact": "Excludes individuals with disabilities from the study."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Frederik Rajiv Manichand",
-        "improved_version": "Frederik Rajiv Manichand and Jane Doe",
-        "explanation": "Adding a female name enhances gender diversity in authorship.",
-        "location": "Abstract",
-        "category": "abstract",
+        "original_text": "his or her estimate of body weight",
+        "improved_version": "their estimate of body weight",
+        "explanation": "Using 'their' is gender-neutral and inclusive of all genders.",
+        "location": "Introduction",
+        "category": "introduction",
         "focus": "gender_neutrality"
       },
       {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily focused on datasets of up to 7,211 full-body images or 14,500 facial images, potentially limiting the diversity of body types and features.",
-        "explanation": "Highlighting the potential limitation in dataset diversity encourages future research to consider a broader range of body types.",
+        "original_text": "Western-centric views",
+        "improved_version": "diverse cultural perspectives",
+        "explanation": "Acknowledging diverse cultural perspectives avoids bias towards Western norms.",
         "location": "Introduction",
         "category": "introduction",
         "focus": "cultural_sensitivity"
       },
       {
-        "original_text": "Participants received instructions to have another person take their picture from a distance in a front-facing, full-body position.",
-        "improved_version": "Participants were instructed to have another person take their picture from a distance in a front-facing, full-body position, considering diverse body postures and abilities.",
-        "explanation": "Including considerations for diverse body postures and abilities promotes inclusivity for individuals with disabilities.",
+        "original_text": "participants received instructions to have another person take their picture",
+        "improved_version": "participants received instructions for image capturing",
+        "explanation": "Avoids assumptions about participants' abilities to follow instructions.",
         "location": "Methodology",
         "category": "methodology",
         "focus": "disability_inclusion"
       }
     ],
     "detailed_feedback": {
-      "gender_neutral_language": "The text generally uses gender-neutral language, avoiding gender-specific pronouns and titles.",
-      "cultural_sensitivity": "The study acknowledges the importance of diverse datasets but could benefit from explicit recognition of cultural influences on body weight perception.",
-      "age_appropriate_terminology": "The text uses appropriate terminology related to age and does not contain ageist language.",
-      "disability_inclusive_language": "Considerations for individuals with disabilities are lacking, such as in image capturing instructions.",
-      "socioeconomic_sensitivity": "The study does not address socioeconomic factors related to body weight or BMI estimation.",
-      "geographic_inclusivity": "The study mentions datasets but does not explicitly discuss geographic inclusivity.",
-      "professional_title_usage": "Professional titles are used appropriately for the authors and affiliations.",
-      "stereotypes": "The text avoids stereotypes related to body weight or BMI estimation.",
-      "identity_language": "The text uses person-first language in discussing participants and individuals.",
-      "historical_context": "The study does not delve into historical context related to body weight perception or BMI estimation."
+      "gender_neutral_language": "The text should consistently use gender-neutral language to be inclusive of all genders.",
+      "cultural_sensitivity": "Consider incorporating discussions on diverse cultural perspectives related to body image and weight.",
+      "age_appropriate_terminology": "Ensure the terminology used is appropriate and respectful towards individuals of all ages.",
+      "disability_inclusive_language": "Include considerations for participants with disabilities in all aspects of the study.",
+      "socioeconomic_sensitivity": "Address any potential biases related to socioeconomic status in the study design and interpretation.",
+      "geographic_inclusivity": "Acknowledge the geographic diversity of participants and how it may impact the study outcomes.",
+      "professional_title_usage": "Use professional titles consistently and respectfully throughout the text.",
+      "stereotypes": "Avoid reinforcing stereotypes related to body image, weight, and health.",
+      "identity_language": "Consider using person-first language to prioritize individuals over their characteristics.",
+      "historical_context": "Be mindful of the historical context surrounding body image research and its implications."
     },
-    "summary": "The text demonstrates good gender-neutral language usage but lacks diversity in authorship representation. It could improve by acknowledging cultural influences on body weight perception, considering individuals with disabilities in methodology, and addressing potential dataset limitations. Overall, the study provides a solid foundation but has room for enhancement in inclusivity and sensitivity."
+    "summary": "Overall, the text shows good progress in inclusivity but could benefit from more consistent gender-neutral language, cultural sensitivity, and disability inclusion. Improvements in these areas would enhance the study's impact and relevance to diverse populations."
   },
   "W6": {
     "citation_formatting_score": 7,
     "critical_remarks": [
       {
         "category": "in_text_format",
-        "location": "Abstract",
-        "issue": "Inconsistent citation style for author names.",
+        "location": "Introduction",
+        "issue": "Missing in-text citation for the statement 'Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.'",
         "severity": "medium",
-        "impact": "Affects the overall professionalism and consistency of the citations."
+        "impact": "Affects the credibility of the information presented."
       },
       {
         "category": "reference_format",
         "location": "References",
-        "issue": "Incomplete reference details, missing page numbers for articles.",
+        "issue": "Reference list lacks proper formatting with inconsistent spacing and alignment.",
         "severity": "high",
-        "impact": "Lacks crucial information for readers to locate the exact source."
-      },
-      {
-        "category": "style_consistency",
-        "location": "Introduction",
-        "issue": "Inconsistent formatting of citations, some in brackets and some in superscript.",
-        "severity": "medium",
-        "impact": "Creates confusion and disrupts the flow of the text."
-      },
-      {
-        "category": "reference_completeness",
-        "location": "Methodology",
-        "issue": "Lack of detailed information on the methodology citations.",
-        "severity": "medium",
-        "impact": "Readers may not be able to replicate the study without complete methodology details."
+        "impact": "Reduces the readability and professionalism of the document."
       },
       {
         "category": "doi_format",
-        "location": "Results",
-        "issue": "Inconsistent DOI formatting, some with 'doi:' prefix and some without.",
-        "severity": "medium",
-        "impact": "Inconsistency in DOI presentation may lead to errors in accessing sources."
-      },
-      {
-        "category": "author_format",
-        "location": "Discussion",
-        "issue": "Author names not consistently formatted with first name initials or full names.",
-        "severity": "medium",
-        "impact": "Lack of consistency in author name formatting affects the professionalism of the citations."
-      },
-      {
-        "category": "date_format",
-        "location": "Conclusion",
-        "issue": "Variability in date formatting, some in full year and some in year only.",
-        "severity": "low",
-        "impact": "Minor inconsistency in date formatting, but can be improved for uniformity."
-      },
-      {
-        "category": "journal_format",
         "location": "References",
-        "issue": "Journal names inconsistently formatted with or without italics.",
+        "issue": "Some references lack DOI or URL information.",
         "severity": "medium",
-        "impact": "Inconsistent journal name formatting affects the visual appeal and professionalism of the references."
-      },
-      {
-        "category": "volume_format",
-        "location": "References",
-        "issue": "Volume and issue numbers not consistently separated or formatted.",
-        "severity": "medium",
-        "impact": "Lack of uniformity in volume and issue number presentation can confuse readers."
-      },
-      {
-        "category": "cross_reference",
-        "location": "Results",
-        "issue": "Lack of cross-referencing between results and methodology sections.",
-        "severity": "low",
-        "impact": "Cross-referencing can enhance the coherence and clarity of the research flow."
-      }
-    ],
-    "improvement_suggestions": [
-      {
-        "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images. In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-        "improved_version": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images. In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-        "explanation": "Maintaining consistency in the presentation of dataset details enhances readability and professionalism.",
-        "location": "Abstract",
-        "category": "abstract",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-        "improved_version": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes (Larsson & Burgess, 2021).",
-        "explanation": "Improving in-text citation format by including author names and publication year for clarity and completeness.",
-        "location": "Introduction",
-        "category": "introduction",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Jin et al. (2022) [ 5] show state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
-        "improved_version": "Jin et al. (2022) demonstrated state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
-        "explanation": "Maintaining consistent citation style by using 'demonstrated' instead of 'show'.",
-        "location": "Literature Review",
-        "category": "literature",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.",
-        "improved_version": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture (Majmudar et al., 2022).",
-        "explanation": "Enhancing in-text citation by including author names and publication year for clarity and completeness.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-        "improved_version": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all (Jiang & Guo, 2019).",
-        "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-        "location": "Discussion",
-        "category": "discussion",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "The proprietary dataset consists of 84,963 photos of 25,353 individuals.",
-        "improved_version": "The proprietary dataset consists of 84,963 photos of 25,353 individuals (Jiang & Guo, 2019).",
-        "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-        "location": "Results",
-        "category": "results",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Notably, this performance is comparable to that of the original authors, who reported a MAPE of 12.50% [ 8] while training on portions of the dataset and testing on the remaining parts.",
-        "improved_version": "Notably, this performance is comparable to that of the original authors, who reported a MAPE of 12.50% while training on portions of the dataset and testing on the remaining parts (Jiang & Guo, 2019).",
-        "explanation": "Enhancing citation clarity by including author names and publication year for proper attribution.",
-        "location": "Conclusion",
-        "category": "conclusion",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-        "improved_version": "Our work also provides insights for remote weight estimation during telemedicine consultations (Wells et al., 2017).",
-        "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-        "location": "Conclusion",
-        "category": "conclusion",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "In this Section, we discuss the practical implications of our findings and highlight the limitations of our study.",
-        "improved_version": "In this Section, we discuss the practical implications of our findings and highlight the limitations of our study (Wells et al., 2022).",
-        "explanation": "Improving in-text citation format by including author names and publication year for clarity and completeness.",
-        "location": "Discussion",
-        "category": "discussion",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "The optimal number of clusters was determined to be 4 using the elbow criterion (see Figure 9b).",
-        "improved_version": "The optimal number of clusters was determined to be 4 using the elbow criterion (Jin et al., 2022).",
-        "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Inspecting the first two clusters, we observed that they both corresponded to the most common pose in the dataset: standing upright in a frontal position.",
-        "improved_version": "Inspecting the first two clusters, we observed that they both corresponded to the most common pose in the dataset: standing upright in a frontal position (Jin et al., 2022).",
-        "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-        "location": "Methodology",
-        "category": "methodology",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-        "improved_version": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units (Jin et al., 2022).",
-        "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-        "location": "Results",
-        "category": "results",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "On the Celeb-FBI dataset, our model achieves a MAPE of 23.64% and an MAE of 6.12 BMI units.",
-        "improved_version": "On the Celeb-FBI dataset, our model achieves a MAPE of 23.64% and an MAE of 6.12 BMI units (Debnath et al., 2024).",
-        "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-        "location": "Results",
-        "category": "results",
-        "focus": "in_text_format"
-      },
-      {
-        "original_text": "Our model achieves a MAPE of 25.21% and an MAE of 7.81 BMI units.",
-        "improved_version": "Our model achieves a MAPE of 25.21% and an MAE of 7.81 BMI units (Dantcheva et al., 2018).",
-        "explanation": "Improving citation clarity by including author names and publication year for proper attribution.",
-        "location": "Results",
-        "category": "results",
-        "focus": "in_text_format"
-      }
-    ],
-    "detailed_feedback": {
-      "in_text_citation_format": "The in-text citation format should be consistent throughout the text, ensuring that author names, publication years, and page numbers are appropriately included for clarity and completeness.",
-      "reference_list_format": "The reference list should follow a standardized format with complete details for each source, including author names, publication years, article titles, journal names, volume/issue numbers, and page numbers.",
-      "citation_style_consistency": "Maintaining consistency in citation style, whether in-text or in the reference list, enhances the professionalism and readability of the research paper.",
-      "reference_completeness": "Complete and detailed references are essential for readers to locate and verify the sources cited in the text, ensuring transparency and credibility.",
-      "doi_url_formatting": "Consistent formatting of DOIs and URLs is crucial for easy access to the referenced sources, ensuring accuracy and reliability.",
-      "author_name_formatting": "Author names should be consistently formatted with first name initials or full names as per the chosen citation style guide, ensuring uniformity and professionalism.",
-      "publication_date_formatting": "Publication dates should be consistently presented in the same format throughout the text, whether in full year or year only, for clarity and uniformity.",
-      "journal_name_formatting": "Journal names should be consistently formatted with or without italics as per the chosen citation style guide, ensuring visual consistency and professionalism.",
-      "volume_issue_page_formatting": "Volume and issue numbers should be consistently separated and formatted for each reference, providing clear information for readers to locate the sources.",
-      "cross_reference_accuracy": "Cross-referencing between sections, such as results and methodology, enhances the coherence and flow of the research paper, ensuring clarity and logical progression."
-    },
-    "summary": "The document shows good adherence to citation formatting standards, but there are notable areas for improvement. In-text citations should be consistent and complete, with proper author names and publication years. The reference list requires more detailed information, including page numbers and complete journal details. Ensuring uniformity in citation style, author name formatting, and publication date presentation is crucial for professionalism and readability. Cross-referencing accuracy and DOI/URL formatting should also be enhanced for accessibility and reliability."
-  },
-  "W7": {
-    "audience_alignment_score": 7,
-    "critical_remarks": [
-      {
-        "category": "terminology",
-        "location": "Abstract",
-        "issue": "The abbreviation 'MAPE' is used without prior explanation, assuming audience familiarity with the term.",
-        "severity": "medium",
-        "impact": "May confuse readers unfamiliar with the abbreviation, leading to reduced comprehension."
-      },
-      {
-        "category": "formality",
-        "location": "Introduction",
-        "issue": "Contractions like 'can't' and 'won't' are used, which may lower the formality of the writing.",
-        "severity": "low",
-        "impact": "Slight impact on the professional tone of the text."
+        "impact": "Reduces the accessibility and traceability of the sources."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-        "improved_version": "Recent computer vision-based approaches for Body Mass Index (BMI) estimation have primarily been constrained by datasets comprising up to 7,211 full-body images or 14,500 facial images.",
-        "explanation": "Explicitly defining 'BMI' on first mention enhances clarity and aids audience understanding.",
-        "location": "Abstract",
-        "category": "terminology",
-        "focus": "terminology"
+        "improved_version": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images (Jin et al., 2022).",
+        "explanation": "Adding an in-text citation improves the credibility and allows readers to trace the source.",
+        "location": "Introduction",
+        "category": "Introduction",
+        "focus": "in_text_format"
       },
       {
-        "original_text": "In medical emergencies, there is a well-documented need for faster weight estimation methods.",
-        "improved_version": "During medical emergencies, there is a documented necessity for expedited weight estimation techniques.",
-        "explanation": "Enhances formality and professionalism in the writing.",
-        "location": "Introduction",
-        "category": "formality",
-        "focus": "formality"
+        "original_text": "Jin et al. (2022) show state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
+        "improved_version": "Jin et al. (2022) demonstrated state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
+        "explanation": "Using 'demonstrated' instead of 'show' adds clarity and professionalism to the statement.",
+        "location": "Literature Review",
+        "category": "Literature Review",
+        "focus": "style_consistency"
+      },
+      {
+        "original_text": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach, 2024.",
+        "improved_version": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach.",
+        "explanation": "Remove the unnecessary publication year from the reference.",
+        "location": "References",
+        "category": "References",
+        "focus": "reference_format"
       }
     ],
     "detailed_feedback": {
-      "technical_depth": "The text demonstrates a high level of technical depth by discussing deep learning models, image processing techniques, and dataset curation methods in detail.",
-      "terminology_usage": "Field-specific terminology is appropriately used, such as 'Mean Absolute Percentage Error (MAPE)' and 'Convolutional Neural Network (CNN)', enhancing the text's credibility.",
-      "writing_formality": "The writing style is mostly formal, but occasional contractions and informal phrases may slightly lower the formality level.",
-      "section_organization": "The sections are well-structured, with clear delineation between abstract, introduction, methodology, results, discussion, and conclusion.",
-      "visual_integration": "Visual elements like figures and tables are effectively used to supplement the text and aid in understanding complex concepts.",
-      "reference_style": "References are appropriately cited throughout the text, providing credibility and supporting the presented information.",
-      "methodology_detail": "The methodology description is detailed, providing insights into the dataset, model architecture, filtering process, and training details.",
-      "results_presentation": "Results are presented clearly with metrics like MAPE and MAE, comparing performance across different image perspectives and external datasets.",
-      "discussion_depth": "The discussion delves into the practical implications of the findings, limitations of the study, and comparisons with prior work, demonstrating a comprehensive analysis.",
-      "conclusion_format": "The conclusion effectively summarizes key findings, practical implications, and limitations, providing closure to the study."
+      "in_text_citation_format": "In-text citations are generally well-formatted with author names and publication years. However, some statements lack proper citations, impacting the credibility of the information.",
+      "reference_list_format": "The reference list lacks consistency in formatting, with issues in spacing and alignment. Improving the layout will enhance readability and professionalism.",
+      "citation_style_consistency": "The citation style is mostly consistent, but there are instances where formatting can be improved for better coherence.",
+      "reference_completeness": "References are generally complete, but some lack DOI or URL information, affecting the accessibility and traceability of the sources.",
+      "doi_url_formatting": "DOI and URL formatting is inconsistent across references. Ensuring all sources have proper DOI or URL information will enhance the reliability of the document.",
+      "author_name_formatting": "Author names are presented consistently, but ensuring proper capitalization and formatting will improve the overall presentation.",
+      "publication_date_formatting": "Publication dates are mostly well-formatted, but ensuring uniformity in date style will enhance the professionalism of the document.",
+      "journal_name_formatting": "Journal names are correctly formatted, but ensuring consistency in italics or abbreviation usage will improve the overall appearance.",
+      "volume_issue_page_formatting": "Volume, issue, and page numbers are generally well-formatted, but ensuring uniformity in presentation style will enhance the reference list's readability.",
+      "cross_reference_accuracy": "Cross-references are accurate and relevant, providing additional context and supporting information effectively."
     },
-    "summary": "The text demonstrates a strong technical depth with appropriate use of field-specific terminology. While the writing style is mostly formal, occasional contractions may slightly lower formality. The section organization, visual integration, and reference style are commendable. Improvement suggestions focus on enhancing clarity, formality, and audience engagement through precise terminology and formal writing."
+    "summary": "Overall, the document shows good adherence to citation formatting standards, with minor issues in in-text citations, reference list formatting, and DOI/URL completeness. Improvements in these areas will enhance the document's credibility and professionalism."
   },
-  "W8": {
-    "visual_presentation_score": 6,
+  "W7": {
+    "audience_alignment_score": 8,
     "critical_remarks": [
       {
-        "category": "figure_quality",
-        "location": "Figure 1",
-        "issue": "Low resolution and lack of labels in torso-up cropping strategy image.",
+        "category": "terminology",
+        "location": "Abstract",
+        "issue": "The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without clear explanation may alienate non-technical readers.",
         "severity": "medium",
-        "impact": "Readers may struggle to understand the cropping strategy without clear visuals."
+        "impact": "May hinder understanding for a broader audience."
       },
       {
-        "category": "table_formatting",
-        "location": "Table 1",
-        "issue": "Lack of clear separation between rows and columns, making it hard to read and compare data.",
-        "severity": "medium",
-        "impact": "Readers may find it challenging to extract information efficiently."
-      },
-      {
-        "category": "caption_completeness",
-        "location": "Figure 2",
-        "issue": "Missing detailed caption explaining the DenseNet-201 architecture with SE blocks.",
+        "category": "visuals",
+        "location": "Results section",
+        "issue": "Lack of visual aids like graphs or charts to illustrate the data presentation.",
         "severity": "low",
-        "impact": "Readers may not fully grasp the significance of the architecture without a complete caption."
+        "impact": "Could make the results less engaging and harder to interpret."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Example of torso-up cropping strategy.",
-        "improved_version": "Example of torso-up cropping strategy with labeled dimensions and keypoints for clarity.",
-        "explanation": "Clear labels and dimensions help readers understand the cropping strategy better.",
-        "location": "Figure 1",
-        "category": "figure",
-        "focus": "clarity"
+        "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...",
+        "improved_version": "Estimating Body Mass Index (BMI) from camera images allows for quick weight assessment...",
+        "explanation": "Simplifying complex terms for better audience comprehension.",
+        "location": "Abstract",
+        "category": "terminology",
+        "focus": "technical_depth"
       },
       {
-        "original_text": "Table 1 provides a selected overview of related work on body weight estimation from images.",
-        "improved_version": "Enhance Table 1 by adding gridlines to separate rows and columns for improved readability.",
-        "explanation": "Gridlines help organize data and make it easier for readers to follow the information.",
-        "location": "Table 1",
-        "category": "table",
-        "focus": "formatting"
-      },
-      {
-        "original_text": "Densenet-201 architecture with SE blocks.",
-        "improved_version": "Densenet-201 architecture with SE blocks: A crucial enhancement to the base DenseNet architecture is the addition of Squeeze and Excition (SE) blocks after each transition layer.",
-        "explanation": "Adding a detailed caption provides context and enhances reader understanding.",
-        "location": "Figure 2",
-        "category": "caption",
-        "focus": "completeness"
+        "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...",
+        "improved_version": "We achieve an 8% Mean Absolute Percentage Error (MAPE) on our hold-out test dataset...",
+        "explanation": "Clarifying the order of terms for better readability.",
+        "location": "Abstract",
+        "category": "terminology",
+        "focus": "formality"
       }
     ],
     "detailed_feedback": {
-      "figure_quality": "The figures lack high resolution and detailed labels, impacting clarity and understanding.",
-      "table_formatting": "Tables need improved formatting with clear separation between rows and columns for better readability.",
-      "visual_placement": "Visual elements need better organization and alignment for a more structured presentation.",
-      "caption_completeness": "Captions should be more detailed to provide context and enhance reader comprehension.",
-      "color_scheme": "The color scheme is appropriate and does not hinder understanding.",
-      "data_visualization": "Data visualization is effective in conveying information but could be enhanced with clearer labels and legends.",
-      "visual_hierarchy": "Visual hierarchy needs improvement to guide readers' attention effectively.",
-      "accessibility": "Consideration for color contrast and readability is important for accessibility but could be further optimized.",
-      "visual_consistency": "Consistency in visual style across figures and tables is lacking and should be improved for a cohesive presentation.",
-      "text_integration": "Integration of visuals with text is decent but could be enhanced by providing more detailed explanations and connections."
+      "technical_depth": "The text demonstrates a high level of technical depth, focusing on deep learning models and image processing techniques.",
+      "terminology_usage": "The field-specific terminology is used appropriately, but some terms could be explained for non-experts.",
+      "writing_formality": "The writing style is formal and academic, suitable for a research audience.",
+      "section_organization": "The sections are well-organized, with a clear flow from abstract to conclusion.",
+      "visual_integration": "Visual elements are lacking, which could enhance data presentation and engagement.",
+      "reference_style": "The reference style is consistent and provides a good depth of sources.",
+      "methodology_detail": "The methodology description is detailed, explaining the image filtering and model training process effectively.",
+      "results_presentation": "The results are presented clearly, but visual aids could enhance data interpretation.",
+      "discussion_depth": "The discussion provides insights into the findings, but could delve deeper into implications and limitations.",
+      "conclusion_format": "The conclusion summarizes the key findings effectively, but could be more concise and impactful."
     },
-    "summary": "The visual presentation of the research text shows potential for improvement in figure quality, table formatting, and caption completeness. While the color scheme is appropriate, better visual hierarchy and consistency in style are needed. Accessibility considerations and integration with text could be enhanced for a more cohesive and engaging presentation."
+    "summary": "The text demonstrates a strong technical depth and appropriate use of field-specific terminology. However, improvements are needed in visual integration for better data presentation and engagement. The writing style is formal and well-organized, but some sections lack visual aids and detailed discussion. Overall, with enhancements in visuals and deeper discussion, the text can better align with a broader audience."
+  },
+  "W8": {
+    "visual_presentation_score": 7,
+    "critical_remarks": [
+      {
+        "category": "Figure",
+        "location": "Page 5, Figure 1",
+        "issue": "The torso-up cropping strategy figure lacks labels and annotations, making it difficult to understand the process.",
+        "severity": "medium",
+        "impact": "Readers may struggle to grasp the significance of the cropping strategy without clear guidance."
+      },
+      {
+        "category": "Table",
+        "location": "Page 1, Table 1",
+        "issue": "The content preview for Table 1 on page 1 is truncated and does not provide a clear overview of the table content.",
+        "severity": "low",
+        "impact": "Readers may miss important information due to incomplete previews."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "Example of torso-up cropping strategy.1",
+        "improved_version": "Example of torso-up cropping strategy with labeled dimensions and key points.",
+        "explanation": "Adding labels and annotations will enhance the understanding of the cropping process.",
+        "location": "Page 5, Figure 1",
+        "category": "Figure",
+        "focus": "Clarity and information density"
+      },
+      {
+        "original_text": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich...",
+        "improved_version": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich\n...",
+        "explanation": "Expanding the content preview will provide a more comprehensive view of the table content.",
+        "location": "Page 1, Table 1",
+        "category": "Table",
+        "focus": "Readability and structure"
+      }
+    ],
+    "detailed_feedback": {
+      "figure_quality": "The figures are clear and visually appealing, but some lack labels and annotations for better comprehension.",
+      "table_formatting": "Tables are structured and easy to read, but some content previews are truncated, affecting readability.",
+      "visual_placement": "Figures and tables are appropriately placed near relevant text sections, aiding in understanding.",
+      "caption_completeness": "Most captions provide context, but some lack detailed descriptions or explanations.",
+      "color_scheme": "The color scheme is suitable for the content, with clear contrasts and readability.",
+      "data_visualization": "Data visualization is effective, but some figures could benefit from additional details or annotations.",
+      "visual_hierarchy": "Visual hierarchy is maintained, with figures and tables appropriately highlighted within the text.",
+      "accessibility": "Color contrast and readability are adequate, but adding labels and annotations can improve accessibility.",
+      "visual_consistency": "Overall, the visual style is consistent, maintaining a professional and cohesive presentation.",
+      "text_integration": "Visuals support the text well, enhancing the understanding of complex concepts and data."
+    },
+    "summary": "The visual presentation of the manuscript is generally good, with clear figures and tables that support the text. However, some figures lack labels and annotations, impacting clarity. Improving caption completeness and expanding content previews in tables can enhance readability and understanding. Overall, the visual elements effectively complement the text but could benefit from minor enhancements for improved clarity and information density."
   }
 }

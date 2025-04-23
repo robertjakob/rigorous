@@ -3,200 +3,63 @@
   "critical_remarks": [
     {
       "category": "in_text_format",
-      "location": "Abstract",
-      "issue": "Inconsistent citation style for author names.",
+      "location": "Introduction",
+      "issue": "Missing in-text citation for the statement 'Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.'",
       "severity": "medium",
-      "impact": "Affects the overall professionalism and consistency of the citations."
+      "impact": "Affects the credibility of the information presented."
     },
     {
       "category": "reference_format",
       "location": "References",
-      "issue": "Incomplete reference details, missing page numbers for articles.",
+      "issue": "Reference list lacks proper formatting with inconsistent spacing and alignment.",
       "severity": "high",
-      "impact": "Lacks crucial information for readers to locate the exact source."
-    },
-    {
-      "category": "style_consistency",
-      "location": "Introduction",
-      "issue": "Inconsistent formatting of citations, some in brackets and some in superscript.",
-      "severity": "medium",
-      "impact": "Creates confusion and disrupts the flow of the text."
-    },
-    {
-      "category": "reference_completeness",
-      "location": "Methodology",
-      "issue": "Lack of detailed information on the methodology citations.",
-      "severity": "medium",
-      "impact": "Readers may not be able to replicate the study without complete methodology details."
+      "impact": "Reduces the readability and professionalism of the document."
     },
     {
       "category": "doi_format",
-      "location": "Results",
-      "issue": "Inconsistent DOI formatting, some with 'doi:' prefix and some without.",
-      "severity": "medium",
-      "impact": "Inconsistency in DOI presentation may lead to errors in accessing sources."
-    },
-    {
-      "category": "author_format",
-      "location": "Discussion",
-      "issue": "Author names not consistently formatted with first name initials or full names.",
-      "severity": "medium",
-      "impact": "Lack of consistency in author name formatting affects the professionalism of the citations."
-    },
-    {
-      "category": "date_format",
-      "location": "Conclusion",
-      "issue": "Variability in date formatting, some in full year and some in year only.",
-      "severity": "low",
-      "impact": "Minor inconsistency in date formatting, but can be improved for uniformity."
-    },
-    {
-      "category": "journal_format",
       "location": "References",
-      "issue": "Journal names inconsistently formatted with or without italics.",
+      "issue": "Some references lack DOI or URL information.",
       "severity": "medium",
-      "impact": "Inconsistent journal name formatting affects the visual appeal and professionalism of the references."
-    },
-    {
-      "category": "volume_format",
-      "location": "References",
-      "issue": "Volume and issue numbers not consistently separated or formatted.",
-      "severity": "medium",
-      "impact": "Lack of uniformity in volume and issue number presentation can confuse readers."
-    },
-    {
-      "category": "cross_reference",
-      "location": "Results",
-      "issue": "Lack of cross-referencing between results and methodology sections.",
-      "severity": "low",
-      "impact": "Cross-referencing can enhance the coherence and clarity of the research flow."
+      "impact": "Reduces the accessibility and traceability of the sources."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images. In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-      "improved_version": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images. In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-      "explanation": "Maintaining consistency in the presentation of dataset details enhances readability and professionalism.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-      "improved_version": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes (Larsson & Burgess, 2021).",
-      "explanation": "Improving in-text citation format by including author names and publication year for clarity and completeness.",
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images (Jin et al., 2022).",
+      "explanation": "Adding an in-text citation improves the credibility and allows readers to trace the source.",
       "location": "Introduction",
-      "category": "introduction",
+      "category": "Introduction",
       "focus": "in_text_format"
     },
     {
-      "original_text": "Jin et al. (2022) [ 5] show state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
+      "original_text": "Jin et al. (2022) show state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
       "improved_version": "Jin et al. (2022) demonstrated state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
-      "explanation": "Maintaining consistent citation style by using 'demonstrated' instead of 'show'.",
+      "explanation": "Using 'demonstrated' instead of 'show' adds clarity and professionalism to the statement.",
       "location": "Literature Review",
-      "category": "literature",
-      "focus": "in_text_format"
+      "category": "Literature Review",
+      "focus": "style_consistency"
     },
     {
-      "original_text": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.",
-      "improved_version": "Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture (Majmudar et al., 2022).",
-      "explanation": "Enhancing in-text citation by including author names and publication year for clarity and completeness.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-      "improved_version": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all (Jiang & Guo, 2019).",
-      "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "The proprietary dataset consists of 84,963 photos of 25,353 individuals.",
-      "improved_version": "The proprietary dataset consists of 84,963 photos of 25,353 individuals (Jiang & Guo, 2019).",
-      "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-      "location": "Results",
-      "category": "results",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Notably, this performance is comparable to that of the original authors, who reported a MAPE of 12.50% [ 8] while training on portions of the dataset and testing on the remaining parts.",
-      "improved_version": "Notably, this performance is comparable to that of the original authors, who reported a MAPE of 12.50% while training on portions of the dataset and testing on the remaining parts (Jiang & Guo, 2019).",
-      "explanation": "Enhancing citation clarity by including author names and publication year for proper attribution.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Our work also provides insights for remote weight estimation during telemedicine consultations (Wells et al., 2017).",
-      "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "In this Section, we discuss the practical implications of our findings and highlight the limitations of our study.",
-      "improved_version": "In this Section, we discuss the practical implications of our findings and highlight the limitations of our study (Wells et al., 2022).",
-      "explanation": "Improving in-text citation format by including author names and publication year for clarity and completeness.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "The optimal number of clusters was determined to be 4 using the elbow criterion (see Figure 9b).",
-      "improved_version": "The optimal number of clusters was determined to be 4 using the elbow criterion (Jin et al., 2022).",
-      "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Inspecting the first two clusters, we observed that they both corresponded to the most common pose in the dataset: standing upright in a frontal position.",
-      "improved_version": "Inspecting the first two clusters, we observed that they both corresponded to the most common pose in the dataset: standing upright in a frontal position (Jin et al., 2022).",
-      "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-      "improved_version": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units (Jin et al., 2022).",
-      "explanation": "Enhancing citation completeness by including author names and publication year for proper attribution.",
-      "location": "Results",
-      "category": "results",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "On the Celeb-FBI dataset, our model achieves a MAPE of 23.64% and an MAE of 6.12 BMI units.",
-      "improved_version": "On the Celeb-FBI dataset, our model achieves a MAPE of 23.64% and an MAE of 6.12 BMI units (Debnath et al., 2024).",
-      "explanation": "Strengthening in-text citation by including author names and publication year for proper referencing.",
-      "location": "Results",
-      "category": "results",
-      "focus": "in_text_format"
-    },
-    {
-      "original_text": "Our model achieves a MAPE of 25.21% and an MAE of 7.81 BMI units.",
-      "improved_version": "Our model achieves a MAPE of 25.21% and an MAE of 7.81 BMI units (Dantcheva et al., 2018).",
-      "explanation": "Improving citation clarity by including author names and publication year for proper attribution.",
-      "location": "Results",
-      "category": "results",
-      "focus": "in_text_format"
+      "original_text": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach, 2024.",
+      "improved_version": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach.",
+      "explanation": "Remove the unnecessary publication year from the reference.",
+      "location": "References",
+      "category": "References",
+      "focus": "reference_format"
     }
   ],
   "detailed_feedback": {
-    "in_text_citation_format": "The in-text citation format should be consistent throughout the text, ensuring that author names, publication years, and page numbers are appropriately included for clarity and completeness.",
-    "reference_list_format": "The reference list should follow a standardized format with complete details for each source, including author names, publication years, article titles, journal names, volume/issue numbers, and page numbers.",
-    "citation_style_consistency": "Maintaining consistency in citation style, whether in-text or in the reference list, enhances the professionalism and readability of the research paper.",
-    "reference_completeness": "Complete and detailed references are essential for readers to locate and verify the sources cited in the text, ensuring transparency and credibility.",
-    "doi_url_formatting": "Consistent formatting of DOIs and URLs is crucial for easy access to the referenced sources, ensuring accuracy and reliability.",
-    "author_name_formatting": "Author names should be consistently formatted with first name initials or full names as per the chosen citation style guide, ensuring uniformity and professionalism.",
-    "publication_date_formatting": "Publication dates should be consistently presented in the same format throughout the text, whether in full year or year only, for clarity and uniformity.",
-    "journal_name_formatting": "Journal names should be consistently formatted with or without italics as per the chosen citation style guide, ensuring visual consistency and professionalism.",
-    "volume_issue_page_formatting": "Volume and issue numbers should be consistently separated and formatted for each reference, providing clear information for readers to locate the sources.",
-    "cross_reference_accuracy": "Cross-referencing between sections, such as results and methodology, enhances the coherence and flow of the research paper, ensuring clarity and logical progression."
+    "in_text_citation_format": "In-text citations are generally well-formatted with author names and publication years. However, some statements lack proper citations, impacting the credibility of the information.",
+    "reference_list_format": "The reference list lacks consistency in formatting, with issues in spacing and alignment. Improving the layout will enhance readability and professionalism.",
+    "citation_style_consistency": "The citation style is mostly consistent, but there are instances where formatting can be improved for better coherence.",
+    "reference_completeness": "References are generally complete, but some lack DOI or URL information, affecting the accessibility and traceability of the sources.",
+    "doi_url_formatting": "DOI and URL formatting is inconsistent across references. Ensuring all sources have proper DOI or URL information will enhance the reliability of the document.",
+    "author_name_formatting": "Author names are presented consistently, but ensuring proper capitalization and formatting will improve the overall presentation.",
+    "publication_date_formatting": "Publication dates are mostly well-formatted, but ensuring uniformity in date style will enhance the professionalism of the document.",
+    "journal_name_formatting": "Journal names are correctly formatted, but ensuring consistency in italics or abbreviation usage will improve the overall appearance.",
+    "volume_issue_page_formatting": "Volume, issue, and page numbers are generally well-formatted, but ensuring uniformity in presentation style will enhance the reference list's readability.",
+    "cross_reference_accuracy": "Cross-references are accurate and relevant, providing additional context and supporting information effectively."
   },
-  "summary": "The document shows good adherence to citation formatting standards, but there are notable areas for improvement. In-text citations should be consistent and complete, with proper author names and publication years. The reference list requires more detailed information, including page numbers and complete journal details. Ensuring uniformity in citation style, author name formatting, and publication date presentation is crucial for professionalism and readability. Cross-referencing accuracy and DOI/URL formatting should also be enhanced for accessibility and reliability."
+  "summary": "Overall, the document shows good adherence to citation formatting standards, with minor issues in in-text citations, reference list formatting, and DOI/URL completeness. Improvements in these areas will enhance the document's credibility and professionalism."
 }

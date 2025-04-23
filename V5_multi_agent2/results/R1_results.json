@@ -3,43 +3,128 @@
   "critical_remarks": [
     {
       "category": "novelty",
-      "location": "Introduction",
-      "issue": "Lack of clear identification of the specific novel aspects of the research approach.",
+      "location": "Abstract",
+      "issue": "The novelty of using deep learning on a large real-world dataset is not clearly highlighted.",
       "severity": "medium",
-      "impact": "May lead to ambiguity regarding the unique contributions of the study."
+      "impact": "This affects the clarity of the research's unique approach."
     },
     {
       "category": "contribution",
-      "location": "Results",
-      "issue": "Limited discussion on the practical implications and real-world applications of the findings.",
+      "location": "Introduction",
+      "issue": "The unique contribution of evaluating different image perspectives is not explicitly stated.",
       "severity": "medium",
-      "impact": "Reduces the clarity on how the research can be applied in telehealth or emergency scenarios."
+      "impact": "This affects the understanding of the specific value added by the research."
+    },
+    {
+      "category": "verification",
+      "location": "Methodology",
+      "issue": "The verification process of the filtering strategy is not detailed enough.",
+      "severity": "high",
+      "impact": "This affects the credibility of the filtering approach."
+    },
+    {
+      "category": "comparison",
+      "location": "Results",
+      "issue": "The comparison with existing literature lacks depth and specificity.",
+      "severity": "medium",
+      "impact": "This weakens the contextualization of the research within the field."
+    },
+    {
+      "category": "advancement",
+      "location": "Discussion",
+      "issue": "The discussion on future implications is somewhat superficial.",
+      "severity": "low",
+      "impact": "This limits the exploration of potential future research directions."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Existing computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Improves clarity and readability by rephrasing the sentence for better flow.",
+      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
+      "improved_version": "Estimating Body Mass Index (BMI) from camera images enables quick weight assessment in scenarios where conventional methods are impractical or unavailable.",
+      "explanation": "Clarity and conciseness improve the readability and understanding of the sentence.",
       "location": "Abstract",
       "category": "abstract",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Previous BMI estimation methods using computer vision have mostly utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Restructuring the sentence improves coherence and readability.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
+      "improved_version": "This study conducts a thorough assessment of BMI estimation from smartphone camera images using deep learning on a notably larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.",
+      "explanation": "Enhancing the sentence structure improves readability and clarity.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.",
+      "improved_version": "A 5% body weight reduction in overweight individuals can significantly enhance health outcomes, including preventing type 2 diabetes and cardiovascular diseases.",
+      "explanation": "Streamlining the sentence improves impact and readability.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Traditionally, the calculation of BMI requires measuring a person\u2019s weight and height using scales and a stadiometer.",
+      "improved_version": "Historically, calculating BMI involved measuring an individual's weight and height with scales and a stadiometer.",
+      "explanation": "Enhancing the sentence with historical context improves engagement.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+      "improved_version": "Our findings suggest that torso-up images perform comparably to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).",
+      "explanation": "Rephrasing for clarity and coherence enhances understanding.",
+      "location": "Results",
+      "category": "results",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Moreover, while prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.",
+      "improved_version": "Furthermore, our research stands out by directly comparing various image perspectives within a consistent dataset, unlike previous studies that often focused solely on face-only or full-body images.",
+      "explanation": "Enhancing the sentence improves the emphasis on research novelty.",
+      "location": "Discussion",
+      "category": "discussion",
       "focus": "novelty"
     },
     {
       "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-      "improved_version": "Our model showcases robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite no prior training on this specific dataset.",
-      "explanation": "Enhances clarity and precision in conveying the model's generalizability.",
+      "improved_version": "Our model showcases robust generalizability to unseen datasets, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite having no prior training on this specific dataset.",
+      "explanation": "Clarifying the sentence enhances the understanding of the model's performance.",
       "location": "Discussion",
       "category": "discussion",
       "focus": "advancement"
+    },
+    {
+      "original_text": "Anyone interested in replicating our approach can do so using the publicly available source code we provide.",
+      "improved_version": "Researchers interested in replicating our methodology can utilize the openly accessible source code we offer.",
+      "explanation": "Refining the sentence improves clarity and engagement.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+      "improved_version": "Participants self-reported their height at the commencement of the fitness program.",
+      "explanation": "Enhancing the sentence with active voice improves readability.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "clarity"
     }
   ],
   "detailed_feedback": {
-    "novelty_assessment": "The research introduces a novel approach of BMI estimation from smartphone camera images using a significantly larger real-world dataset, which surpasses the limitations of previous studies with smaller datasets.",
-    "contribution_analysis": "The study contributes by providing a comprehensive evaluation of BMI estimation from smartphone images, introducing an automatic image filtering strategy, and demonstrating the real-world applicability of the approach.",
-    "verification_status": "The claims of novelty are well-supported through the detailed methodology description, results presentation, and comparison with existing literature, showcasing advancements over previous studies.",
-    "comparative_analysis": "The study effectively compares different image perspectives for BMI estimation within a homogeneous dataset, providing valuable insights into the impact of various views on weight predictions.",
-    "advancement_evaluation": "The research significantly advances the field by demonstrating the feasibility of BMI estimation from smartphone images, showcasing strong generalizability, and providing open-source contributions for further research and application development."
+    "novelty_assessment": "The research introduces a novel approach by evaluating BMI estimation from smartphone camera images on a large real-world dataset, which expands on previous studies limited by smaller datasets. The comparison of different image perspectives within the same dataset is a unique contribution.",
+    "contribution_analysis": "The research significantly contributes to the field by demonstrating the feasibility of BMI estimation from smartphone images, showcasing generalizability to unseen datasets, and providing insights into the impact of different image perspectives on weight estimation accuracy.",
+    "verification_status": "The verification of the filtering strategy through human bounding box and keypoint data, along with posture clustering, enhances the dataset quality. However, more detailed verification processes could further strengthen the credibility of the approach.",
+    "comparative_analysis": "The comparison with existing literature provides valuable context, but a more in-depth analysis of the strengths and limitations of previous approaches could enhance the research's positioning within the field.",
+    "advancement_evaluation": "The research significantly advances knowledge by demonstrating the real-world applicability of BMI estimation from smartphone images, highlighting the importance of different image perspectives, and offering practical implications for telemedicine and remote health monitoring."
   },
-  "summary": "The research demonstrates a high level of originality and contribution to the field through a novel approach to BMI estimation from smartphone images. While some sections could benefit from clearer identification of novelty and more in-depth discussion on practical implications, the study effectively verifies its claims, compares well with existing literature, and significantly advances knowledge in the field."
+  "summary": "The research presents a novel and valuable contribution to the field by evaluating BMI estimation from smartphone images on a large real-world dataset. While the study showcases advancements in generalizability and insights into different image perspectives, there are areas for improvement in highlighting novelty, enhancing verification processes, providing deeper comparative analyses, and strengthening future implications."
 }

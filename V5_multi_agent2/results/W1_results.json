@@ -1,65 +1,58 @@
 {
-  "language_style_score": 8,
+  "language_style_score": 7,
   "critical_remarks": [
     {
       "category": "grammar",
       "location": "Abstract",
-      "issue": "Facilitates rapid weight assessment in situations where tradi- tional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
+      "issue": "Fragmented sentence: 'Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.'",
       "severity": "medium",
-      "impact": "The hyphen in 'traditional' is unnecessary and affects readability."
+      "impact": "Affects clarity and professionalism."
     },
     {
-      "category": "spelling",
-      "location": "Discussion",
-      "issue": "We aim to uncover how various views of the body influ- ence the accuracy of weight predictions, providing insights into the most effective approaches for different application scenarios.",
+      "category": "academic_conventions",
+      "location": "References",
+      "issue": "Inconsistent citation format: Some citations lack complete information like page numbers or publication dates.",
       "severity": "low",
-      "impact": "The word 'influence' is misspelled as 'influ- ence'."
-    },
-    {
-      "category": "punctuation",
-      "location": "Introduction",
-      "issue": "A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-      "severity": "low",
-      "impact": "The punctuation after 'diabetes' should be inside the brackets."
+      "impact": "May affect the credibility of the research."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Facilitates rapid weight assessment in situations where tradi- tional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-      "improved_version": "Facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-      "explanation": "Corrected the unnecessary hyphen in 'traditional' for clarity and correctness.",
+      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
+      "improved_version": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in scenarios where traditional methods are impractical, such as telehealth services and emergency medical situations.",
+      "explanation": "Rephrased for better flow and clarity.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "grammar"
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "influ- ence the accuracy of weight predictions",
-      "improved_version": "influence the accuracy of weight predictions",
-      "explanation": "Corrected the spelling of 'influence' for accuracy.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "spelling"
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily been restricted to datasets containing up to 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Improved sentence structure and clarity.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [ 1].",
-      "improved_version": "including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes [1].",
-      "explanation": "Moved the punctuation inside the brackets for correct citation format.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "punctuation"
+      "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+      "improved_version": "Furthermore, we analyze how image perspective affects BMI estimation performance within our real-world dataset by comparing full-body, torso-up, and face-only images.",
+      "explanation": "Enhanced clarity and coherence.",
+      "location": "Results",
+      "category": "results",
+      "focus": "sentence_structure"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The text demonstrates overall good grammar, with only a few minor issues like unnecessary hyphens and punctuation placement.",
-    "spelling_accuracy": "Spelling is generally accurate, with occasional misspellings like 'influence' that need correction.",
-    "punctuation_usage": "Punctuation is mostly correct, but there are instances where punctuation should be adjusted for citation format.",
-    "sentence_structure": "The sentence structure is clear and concise, aiding in readability and comprehension.",
-    "verb_tense_consistency": "Verb tenses are consistent throughout the text, maintaining a coherent narrative.",
-    "subject_verb_agreement": "Subject-verb agreement is generally correct, enhancing the clarity of the text.",
-    "article_usage": "Articles are appropriately used, contributing to the academic tone and precision of the writing.",
-    "preposition_usage": "Prepositions are used accurately to convey relationships between elements in the text.",
-    "conjunction_usage": "Conjunctions are appropriately used to connect ideas and maintain the flow of the text.",
-    "academic_conventions": "The text adheres well to academic writing conventions, presenting research findings in a structured and formal manner."
+    "grammar_correctness": "The text generally demonstrates good grammar usage, but there are occasional instances of fragmented sentences or awkward phrasing.",
+    "spelling_accuracy": "No spelling errors were identified in the text.",
+    "punctuation_usage": "Punctuation is mostly correct, but there are a few instances where commas or semicolons could enhance readability.",
+    "sentence_structure": "The sentence structure is varied, but some sentences could be improved for better flow and coherence.",
+    "verb_tense_consistency": "Verb tenses are generally consistent throughout the text.",
+    "subject_verb_agreement": "Subject-verb agreement is maintained well, but there are a few instances where singular/plural agreement could be clearer.",
+    "article_usage": "Articles are used appropriately in most cases, but there are a few instances where clarity could be improved with better article usage.",
+    "preposition_usage": "Prepositions are generally used correctly, but there are a few instances where prepositions could be omitted for better conciseness.",
+    "conjunction_usage": "Conjunctions are used effectively to connect ideas and maintain coherence.",
+    "academic_conventions": "The text adheres to academic writing conventions, but there are minor inconsistencies in citation format and referencing."
   },
-  "summary": "Overall, the text demonstrates strong grammar, spelling, and punctuation, with minor issues that can be easily corrected. The language is clear and academic, maintaining consistency in verb tense, subject-verb agreement, and article usage. Prepositions and conjunctions are appropriately employed to enhance the coherence of the text. The academic writing conventions are well-followed, presenting research findings in a structured and formal manner."
+  "summary": "The text demonstrates strong academic writing conventions with minor issues in grammar, sentence structure, and citation format. Improvements in sentence coherence, citation consistency, and clarity of expression can enhance the overall quality of the research paper."
 }

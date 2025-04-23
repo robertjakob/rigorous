@@ -30,11 +30,12 @@ def format_critical_remarks(remarks: List[Dict[str, Any]]) -> str:
     formatted_remarks = []
     for i, remark in enumerate(remarks, 1):
         formatted_remark = (
-            f"{i}. Category: {remark.get('category', 'N/A')}\n"
-            f"   Location: {remark.get('location', 'N/A')}\n"
-            f"   Issue: {remark.get('issue', 'N/A')}\n"
-            f"   Severity: {remark.get('severity', 'N/A')}\n"
-            f"   Impact: {remark.get('impact', 'N/A')}"
+            f"### Remark {i}\n\n"
+            f"**Category**: {remark.get('category', 'N/A')}  \n"
+            f"**Location**: {remark.get('location', 'N/A')}  \n"
+            f"**Issue**: {remark.get('issue', 'N/A')}  \n"
+            f"**Severity**: {remark.get('severity', 'N/A')}  \n"
+            f"**Impact**: {remark.get('impact', 'N/A')}"
         )
         formatted_remarks.append(formatted_remark)
     
@@ -49,12 +50,16 @@ def format_improvement_suggestions(suggestions: List[Dict[str, Any]]) -> str:
     formatted_suggestions = []
     for i, suggestion in enumerate(suggestions, 1):
         formatted_suggestion = (
-            f"{i}. Location: {suggestion.get('location', 'N/A')}\n"
-            f"   Category: {suggestion.get('category', 'N/A')}\n"
-            f"   Focus: {suggestion.get('focus', 'N/A')}\n"
-            f"   Original Text: {suggestion.get('original_text', 'N/A')}\n"
-            f"   Improved Version: {suggestion.get('improved_version', 'N/A')}\n"
-            f"   Explanation: {suggestion.get('explanation', 'N/A')}"
+            f"### Suggestion {i}\n\n"
+            f"**Location**: {suggestion.get('location', 'N/A')}  \n"
+            f"**Category**: {suggestion.get('category', 'N/A')}  \n"
+            f"**Focus**: {suggestion.get('focus', 'N/A')}  \n\n"
+            f"**Original Text**:  \n"
+            f"> {suggestion.get('original_text', 'N/A')}\n\n"
+            f"**Improved Version**:  \n"
+            f"> {suggestion.get('improved_version', 'N/A')}\n\n"
+            f"**Explanation**:  \n"
+            f"{suggestion.get('explanation', 'N/A')}"
         )
         formatted_suggestions.append(formatted_suggestion)
     
@@ -70,7 +75,7 @@ def format_detailed_feedback(feedback: Dict[str, str]) -> str:
     for category, content in feedback.items():
         # Convert category name from snake_case to Title Case
         category_title = category.replace('_', ' ').title()
-        formatted_feedback.append(f"{category_title}:\n{content}")
+        formatted_feedback.append(f"### {category_title}\n\n{content}")
     
     return "\n\n".join(formatted_feedback)
 

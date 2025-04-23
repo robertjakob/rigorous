@@ -1,65 +1,50 @@
 {
-  "visual_presentation_score": 6,
+  "visual_presentation_score": 7,
   "critical_remarks": [
     {
-      "category": "figure_quality",
-      "location": "Figure 1",
-      "issue": "Low resolution and lack of labels in torso-up cropping strategy image.",
+      "category": "Figure",
+      "location": "Page 5, Figure 1",
+      "issue": "The torso-up cropping strategy figure lacks labels and annotations, making it difficult to understand the process.",
       "severity": "medium",
-      "impact": "Readers may struggle to understand the cropping strategy without clear visuals."
+      "impact": "Readers may struggle to grasp the significance of the cropping strategy without clear guidance."
     },
     {
-      "category": "table_formatting",
-      "location": "Table 1",
-      "issue": "Lack of clear separation between rows and columns, making it hard to read and compare data.",
-      "severity": "medium",
-      "impact": "Readers may find it challenging to extract information efficiently."
-    },
-    {
-      "category": "caption_completeness",
-      "location": "Figure 2",
-      "issue": "Missing detailed caption explaining the DenseNet-201 architecture with SE blocks.",
+      "category": "Table",
+      "location": "Page 1, Table 1",
+      "issue": "The content preview for Table 1 on page 1 is truncated and does not provide a clear overview of the table content.",
       "severity": "low",
-      "impact": "Readers may not fully grasp the significance of the architecture without a complete caption."
+      "impact": "Readers may miss important information due to incomplete previews."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Example of torso-up cropping strategy.",
-      "improved_version": "Example of torso-up cropping strategy with labeled dimensions and keypoints for clarity.",
-      "explanation": "Clear labels and dimensions help readers understand the cropping strategy better.",
-      "location": "Figure 1",
-      "category": "figure",
-      "focus": "clarity"
+      "original_text": "Example of torso-up cropping strategy.1",
+      "improved_version": "Example of torso-up cropping strategy with labeled dimensions and key points.",
+      "explanation": "Adding labels and annotations will enhance the understanding of the cropping process.",
+      "location": "Page 5, Figure 1",
+      "category": "Figure",
+      "focus": "Clarity and information density"
     },
     {
-      "original_text": "Table 1 provides a selected overview of related work on body weight estimation from images.",
-      "improved_version": "Enhance Table 1 by adding gridlines to separate rows and columns for improved readability.",
-      "explanation": "Gridlines help organize data and make it easier for readers to follow the information.",
-      "location": "Table 1",
-      "category": "table",
-      "focus": "formatting"
-    },
-    {
-      "original_text": "Densenet-201 architecture with SE blocks.",
-      "improved_version": "Densenet-201 architecture with SE blocks: A crucial enhancement to the base DenseNet architecture is the addition of Squeeze and Excition (SE) blocks after each transition layer.",
-      "explanation": "Adding a detailed caption provides context and enhances reader understanding.",
-      "location": "Figure 2",
-      "category": "caption",
-      "focus": "completeness"
+      "original_text": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich...",
+      "improved_version": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich\n...",
+      "explanation": "Expanding the content preview will provide a more comprehensive view of the table content.",
+      "location": "Page 1, Table 1",
+      "category": "Table",
+      "focus": "Readability and structure"
     }
   ],
   "detailed_feedback": {
-    "figure_quality": "The figures lack high resolution and detailed labels, impacting clarity and understanding.",
-    "table_formatting": "Tables need improved formatting with clear separation between rows and columns for better readability.",
-    "visual_placement": "Visual elements need better organization and alignment for a more structured presentation.",
-    "caption_completeness": "Captions should be more detailed to provide context and enhance reader comprehension.",
-    "color_scheme": "The color scheme is appropriate and does not hinder understanding.",
-    "data_visualization": "Data visualization is effective in conveying information but could be enhanced with clearer labels and legends.",
-    "visual_hierarchy": "Visual hierarchy needs improvement to guide readers' attention effectively.",
-    "accessibility": "Consideration for color contrast and readability is important for accessibility but could be further optimized.",
-    "visual_consistency": "Consistency in visual style across figures and tables is lacking and should be improved for a cohesive presentation.",
-    "text_integration": "Integration of visuals with text is decent but could be enhanced by providing more detailed explanations and connections."
+    "figure_quality": "The figures are clear and visually appealing, but some lack labels and annotations for better comprehension.",
+    "table_formatting": "Tables are structured and easy to read, but some content previews are truncated, affecting readability.",
+    "visual_placement": "Figures and tables are appropriately placed near relevant text sections, aiding in understanding.",
+    "caption_completeness": "Most captions provide context, but some lack detailed descriptions or explanations.",
+    "color_scheme": "The color scheme is suitable for the content, with clear contrasts and readability.",
+    "data_visualization": "Data visualization is effective, but some figures could benefit from additional details or annotations.",
+    "visual_hierarchy": "Visual hierarchy is maintained, with figures and tables appropriately highlighted within the text.",
+    "accessibility": "Color contrast and readability are adequate, but adding labels and annotations can improve accessibility.",
+    "visual_consistency": "Overall, the visual style is consistent, maintaining a professional and cohesive presentation.",
+    "text_integration": "Visuals support the text well, enhancing the understanding of complex concepts and data."
   },
-  "summary": "The visual presentation of the research text shows potential for improvement in figure quality, table formatting, and caption completeness. While the color scheme is appropriate, better visual hierarchy and consistency in style are needed. Accessibility considerations and integration with text could be enhanced for a more cohesive and engaging presentation."
+  "summary": "The visual presentation of the manuscript is generally good, with clear figures and tables that support the text. However, some figures lack labels and annotations, impacting clarity. Improving caption completeness and expanding content previews in tables can enhance readability and understanding. Overall, the visual elements effectively complement the text but could benefit from minor enhancements for improved clarity and information density."
 }
