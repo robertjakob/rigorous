@@ -4,126 +4,111 @@
     {
       "category": "sample_size",
       "location": "Abstract",
-      "issue": "The sample size justification is lacking in the abstract, which is crucial for understanding the generalizability of the findings.",
+      "issue": "The sample size justification is lacking in the abstract, making it unclear why the dataset size was chosen.",
       "severity": "medium",
-      "impact": "This omission may lead to doubts about the reliability and applicability of the study results."
-    },
-    {
-      "category": "p_value",
-      "location": "Results",
-      "issue": "The interpretation of p-values is missing, which is essential for determining the statistical significance of the results.",
-      "severity": "high",
-      "impact": "Without proper interpretation of p-values, the significance of the findings may be unclear."
+      "impact": "This affects the credibility of the study as the rationale behind the dataset size is not transparent."
     },
     {
       "category": "outliers",
       "location": "Methodology",
-      "issue": "The text lacks information on how outliers were identified and treated, which is crucial for ensuring the robustness of the statistical analysis.",
+      "issue": "The text does not mention how outliers were handled in the dataset, which is crucial for ensuring data integrity.",
       "severity": "high",
-      "impact": "Unaddressed outliers can significantly impact the validity of the results and conclusions."
+      "impact": "This omission can lead to biased results and affect the validity of the statistical analysis."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-      "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.",
-      "explanation": "Clarifying the composition of the hold-out test dataset enhances transparency and understanding.",
+      "improved_version": "We achieved a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.",
+      "explanation": "Clarifies the description for better understanding.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "test_selection"
     },
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Using consistent language and structure improves readability and clarity.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "test_selection"
+      "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+      "improved_version": "Furthermore, we conduct an analysis of the effect of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+      "explanation": "Enhances clarity and precision in describing the analysis conducted.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "effect_size"
     },
     {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
-      "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
-      "explanation": "Enhancing the description of model performance improves the clarity of the results.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "test_selection"
-    },
-    {
-      "original_text": "The dataset used is proprietary and not publicly available.",
-      "improved_version": "The dataset utilized in this study is proprietary and not accessible to the public.",
-      "explanation": "Providing clarity on data accessibility enhances transparency.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "missing_data"
-    },
-    {
-      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
-      "improved_version": "Participants self-reported their height at the initiation of the fitness program.",
-      "explanation": "Using active voice and concise language improves readability.",
+      "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.",
+      "improved_version": "Additionally, we assess the generalizability of our model on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.",
+      "explanation": "Improves the flow and coherence of the sentence.",
       "location": "Methodology",
       "category": "methodology",
-      "focus": "assumptions"
+      "focus": "test_selection"
     },
     {
-      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset.",
-      "improved_version": "The base Densenet201 model undergoes pre-training on the ImageNet dataset.",
-      "explanation": "Using consistent terminology enhances clarity and understanding.",
+      "original_text": "The optimal number of clusters was determined to be 4 using the elbow criterion.",
+      "improved_version": "We determined the optimal number of clusters to be 4 using the elbow criterion.",
+      "explanation": "Enhances clarity and conciseness in reporting the results.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "multiple_comparisons"
+    },
+    {
+      "original_text": "We then train each model for 40 epochs with a batch size of 64, using the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.",
+      "improved_version": "Subsequently, we trained each model for 40 epochs with a batch size of 64, utilizing the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.",
+      "explanation": "Improves readability and consistency in reporting the methodology.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "test_selection"
+    },
+    {
+      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
+      "improved_version": "The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers are left trainable during training.",
+      "explanation": "Clarifies the training process for better understanding.",
       "location": "Methodology",
       "category": "methodology",
       "focus": "test_selection"
     },
     {
       "original_text": "We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.",
-      "improved_version": "Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, these metrics are not utilized to direct training decisions.",
-      "explanation": "Providing insight into metric usage enhances transparency in the methodology.",
+      "improved_version": "We monitor Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, although these metrics are not utilized to guide training.",
+      "explanation": "Provides clarity on the role of the monitored metrics during training.",
       "location": "Methodology",
       "category": "methodology",
       "focus": "test_selection"
     },
     {
-      "original_text": "The results show that the full-body perspective has the lowest MAPE and MAE, followed by the torso-up and face-only perspectives.",
-      "improved_version": "The findings indicate that the full-body perspective exhibits the lowest MAPE and MAE, followed by the torso-up and face-only perspectives.",
-      "explanation": "Enhancing the structure of result presentation improves clarity.",
+      "original_text": "No further hyperparameter tuning was performed.",
+      "improved_version": "No additional hyperparameter tuning was conducted.",
+      "explanation": "Enhances conciseness in reporting the methodology.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "test_selection"
+    },
+    {
+      "original_text": "Table 3 displays the results of the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) for the different image perspectives on the WayBetter dataset.",
+      "improved_version": "Table 3 presents the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) results for the various image perspectives on the WayBetter dataset.",
+      "explanation": "Improves the introduction of the results table.",
       "location": "Results",
       "category": "results",
       "focus": "test_selection"
     },
     {
-      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-      "improved_version": "Our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
-      "explanation": "Providing dataset context enhances result interpretation.",
-      "location": "Results",
-      "category": "results",
-      "focus": "p_value"
-    },
-    {
-      "original_text": "The interpretation of p-values is missing, which is essential for determining the statistical significance of the results.",
-      "improved_version": "Including the interpretation of p-values is crucial for assessing the statistical significance of the findings.",
-      "explanation": "Highlighting the importance of p-value interpretation improves result validity.",
-      "location": "Results",
-      "category": "results",
-      "focus": "p_value"
-    },
-    {
-      "original_text": "Unaddressed outliers can significantly impact the validity of the results and conclusions.",
-      "improved_version": "Neglecting to address outliers can have a substantial influence on the accuracy and reliability of the results and conclusions.",
-      "explanation": "Emphasizing the importance of outlier treatment enhances the robustness of the analysis.",
-      "location": "Results",
-      "category": "results",
-      "focus": "outliers"
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model exhibits robust generalizability to unseen data, as evidenced by our assessment on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.",
+      "explanation": "Enhances clarity and precision in describing the model's performance.",
+      "location": "Discussion",
+      "category": "discussion",
+      "focus": "test_selection"
     }
   ],
   "detailed_feedback": {
-    "test_selection": "The study adequately describes the use of deep learning models and the evaluation of BMI estimation performance on various datasets.",
-    "assumption_verification": "The study relies on self-reported height and weight labels, which may introduce biases and inaccuracies.",
-    "sample_size_justification": "The study lacks a detailed justification for the sample size of 84,963 images, limiting the understanding of generalizability.",
-    "multiple_comparison_handling": "The study does not address multiple comparison issues, which could lead to inflated Type I error rates.",
-    "effect_size_reporting": "The study reports Mean Absolute Percentage Error (MAPE) as an effect size measure, providing insight into the model's predictive accuracy.",
-    "confidence_intervals": "The study does not include confidence intervals, which are essential for assessing the precision and uncertainty of the estimates.",
-    "p_value_interpretation": "The interpretation of p-values is missing, hindering the assessment of statistical significance.",
-    "statistical_power": "The study does not discuss statistical power, which is crucial for determining the likelihood of detecting true effects.",
-    "missing_data_handling": "The study does not address missing data handling methods, potentially affecting the completeness and validity of the analysis.",
-    "outlier_treatment": "The study lacks information on how outliers were identified and treated, which may impact the accuracy and reliability of the results."
+    "test_selection": "The study appropriately selected the DenseNet201 architecture for BMI estimation, which is a suitable choice for image-based tasks. The use of the Adam optimizer with specific hyperparameters was also justified.",
+    "assumption_verification": "The study verified assumptions related to image quality, posture, and dataset integrity through filtering processes and clustering techniques. However, the handling of outliers was not explicitly mentioned.",
+    "sample_size_justification": "The study justified the dataset size based on the need for a significantly larger dataset than previous studies. However, more explicit justification in terms of statistical power calculations or effect size considerations could enhance the rationale.",
+    "multiple_comparison_handling": "The study appropriately used clustering techniques to handle multiple comparisons in posture analysis. However, a clear explanation of how multiple comparisons were adjusted in statistical testing would improve transparency.",
+    "effect_size_reporting": "The study reported Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) as effect size metrics, providing quantitative measures of model performance.",
+    "confidence_intervals": "The study did not report confidence intervals, which could enhance the interpretation of the model's performance and provide insights into the variability of estimates.",
+    "p_value_interpretation": "The study did not focus on p-value interpretation, as the evaluation was primarily based on model performance metrics rather than hypothesis testing.",
+    "statistical_power": "The study did not explicitly discuss statistical power calculations, which could provide insights into the reliability of the study findings and the likelihood of detecting true effects.",
+    "missing_data_handling": "The study did not address missing data handling explicitly, which is essential for ensuring data completeness and integrity in statistical analysis.",
+    "outlier_treatment": "The study did not mention how outliers were handled, which is crucial for ensuring the robustness and validity of statistical analysis."
   },
-  "summary": "The study demonstrates a moderate level of statistical rigor, with notable gaps in sample size justification, p-value interpretation, and outlier treatment. Improvements in these areas, along with addressing missing data handling and multiple comparison issues, would enhance the overall validity and reliability of the findings."
+  "summary": "Overall, the study demonstrates a moderate level of statistical rigor, with appropriate test selection and assumption verification. However, there are critical issues related to sample size justification and outlier treatment that need to be addressed. The study could benefit from more explicit reporting of statistical measures such as confidence intervals and handling of missing data. Improvements in these areas would enhance the validity and credibility of the statistical analysis conducted in the study."
 }

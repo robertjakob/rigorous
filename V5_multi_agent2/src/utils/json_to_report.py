@@ -121,7 +121,13 @@ def generate_agent_report(agent_name: str, agent_data: Dict[str, Any]) -> str:
     """Generate a report for a specific agent."""
     # Extract the score based on agent type
     score_field = get_score_field(agent_name)
-    score = agent_data.get(score_field, "N/A")
+    
+    # Try to get the score from the specific field first, then fall back to 'score', then to 0
+    score = agent_data.get(score_field)
+    if score is None or score == "N/A":
+        score = agent_data.get('score')
+    if score is None or score == "N/A":
+        score = 0
     
     # Format the report
     report = [
@@ -219,9 +225,15 @@ def generate_overall_report(data: Dict[str, Any]) -> str:
     for agent_name, agent_data in data.items():
         if isinstance(agent_data, dict):
             score_field = get_score_field(agent_name)
-            score = agent_data.get(score_field, 0)
-            if isinstance(score, (int, float)):
-                scores.append(score)
+            score = agent_data.get(score_field)
+            
+            # Try specific field first, then generic 'score', then default to 0
+            if score is None or not isinstance(score, (int, float)):
+                score = agent_data.get('score')
+            if score is None or not isinstance(score, (int, float)):
+                score = 0
+                
+            scores.append(score)
     
     avg_score = sum(scores) / len(scores) if scores else 0
     
@@ -233,6 +245,10 @@ def generate_overall_report(data: Dict[str, Any]) -> str:
     report = [
         "# Manuscript Review Report",
         f"\nGenerated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "\n## Important Notes",
+        "\n> **Version 1.0 (Beta)**: This tool was developed in a short timeframe and may contain hallucinations and errors. Approximately 50% of feedback will likely be unusable, 30% may be mediocre, and 20% should be helpful in highlighting issues that might have been overlooked. Please send feedback to rjakob@ethz.ch so we can continue to improve our agents.",
+        "\n> **Model Limitations**: This report was generated using a basic model (ChatGPT 3.5). For more sophisticated analysis, the code is open access and users can run more advanced models (such as GPT-4) with their own API keys. Visit [https://github.com/robertjakob/rigorous](https://github.com/robertjakob/rigorous) for more information.",
+        "\n> **Development Status**: This tool is still in testing mode with many agents in their first iteration. We welcome contributions to build the best review agent team to improve the quality of scientific publishing. Join us at [https://github.com/robertjakob/rigorous](https://github.com/robertjakob/rigorous).",
         "\n",
         generate_table_of_contents(data),
         "\n## Overall Assessment",

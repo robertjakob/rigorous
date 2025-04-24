@@ -4,55 +4,62 @@
     {
       "category": "grammar",
       "location": "Abstract",
-      "issue": "Fragmented sentence: 'Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.'",
+      "issue": "Misplaced hyphen in 'real-world' dataset.",
+      "severity": "low",
+      "impact": "Minor impact on readability."
+    },
+    {
+      "category": "subject_verb",
+      "location": "Introduction",
+      "issue": "Subject-verb agreement error in 'Body weight and weight changes are essential indicators.'",
       "severity": "medium",
-      "impact": "Affects clarity and professionalism."
+      "impact": "Affects the clarity of the sentence."
     },
     {
       "category": "academic_conventions",
       "location": "References",
-      "issue": "Inconsistent citation format: Some citations lack complete information like page numbers or publication dates.",
-      "severity": "low",
-      "impact": "May affect the credibility of the research."
+      "issue": "Missing DOI for some references.",
+      "severity": "medium",
+      "impact": "Lack of proper citation information."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-      "improved_version": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in scenarios where traditional methods are impractical, such as telehealth services and emergency medical situations.",
-      "explanation": "Rephrased for better flow and clarity.",
+      "original_text": "real-world dataset",
+      "improved_version": "real world dataset",
+      "explanation": "Hyphen is not needed in this context.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "sentence_structure"
+      "focus": "punctuation"
     },
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Recent computer vision-based approaches for BMI estimation have primarily been restricted to datasets containing up to 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Improved sentence structure and clarity.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "sentence_structure"
+      "original_text": "Body weight and weight changes are essential indicators.",
+      "improved_version": "Body weight and weight changes are essential indicators of health and disease risk.",
+      "explanation": "Added clarity and completeness to the sentence.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "subject_verb"
     },
     {
-      "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
-      "improved_version": "Furthermore, we analyze how image perspective affects BMI estimation performance within our real-world dataset by comparing full-body, torso-up, and face-only images.",
-      "explanation": "Enhanced clarity and coherence.",
-      "location": "Results",
-      "category": "results",
-      "focus": "sentence_structure"
+      "original_text": "doi: 10.1186/s12916-021-02188-x.",
+      "improved_version": "DOI: 10.1186/s12916-021-02188-x.",
+      "explanation": "Standardize the format for DOI references.",
+      "location": "References",
+      "category": "references",
+      "focus": "academic_conventions"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The text generally demonstrates good grammar usage, but there are occasional instances of fragmented sentences or awkward phrasing.",
-    "spelling_accuracy": "No spelling errors were identified in the text.",
-    "punctuation_usage": "Punctuation is mostly correct, but there are a few instances where commas or semicolons could enhance readability.",
-    "sentence_structure": "The sentence structure is varied, but some sentences could be improved for better flow and coherence.",
-    "verb_tense_consistency": "Verb tenses are generally consistent throughout the text.",
-    "subject_verb_agreement": "Subject-verb agreement is maintained well, but there are a few instances where singular/plural agreement could be clearer.",
-    "article_usage": "Articles are used appropriately in most cases, but there are a few instances where clarity could be improved with better article usage.",
-    "preposition_usage": "Prepositions are generally used correctly, but there are a few instances where prepositions could be omitted for better conciseness.",
+    "grammar_correctness": "The text generally demonstrates good grammar, with occasional errors like misplaced hyphens.",
+    "spelling_accuracy": "Spelling is accurate throughout the text.",
+    "punctuation_usage": "Punctuation is mostly correct, but there are instances of missing commas or incorrect usage.",
+    "sentence_structure": "Sentences are well-structured, but some could benefit from varied lengths for better flow.",
+    "verb_tense_consistency": "Verb tenses are consistent within sentences and paragraphs.",
+    "subject_verb_agreement": "Subject-verb agreement is generally correct, but there are a few instances of errors.",
+    "article_usage": "Articles are used appropriately in most cases.",
+    "preposition_usage": "Prepositions are generally used correctly, but there are a few instances of awkward phrasing.",
     "conjunction_usage": "Conjunctions are used effectively to connect ideas and maintain coherence.",
-    "academic_conventions": "The text adheres to academic writing conventions, but there are minor inconsistencies in citation format and referencing."
+    "academic_conventions": "The text follows academic writing conventions well, but some references lack complete citation details."
   },
-  "summary": "The text demonstrates strong academic writing conventions with minor issues in grammar, sentence structure, and citation format. Improvements in sentence coherence, citation consistency, and clarity of expression can enhance the overall quality of the research paper."
+  "summary": "The text demonstrates strong academic writing conventions with minor grammar and citation issues. Improvements in subject-verb agreement, punctuation, and reference formatting can enhance clarity and professionalism."
 }

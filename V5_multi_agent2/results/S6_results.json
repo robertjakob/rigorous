@@ -1,47 +1,133 @@
 {
-  "results_score": 7,
+  "score": 7,
   "critical_remarks": [
     {
       "category": "presentation",
       "location": "Abstract",
-      "issue": "The abstract lacks a clear summary of the key findings and the significance of the study.",
+      "issue": "Abstract lacks a clear summary of key findings and implications.",
       "severity": "medium",
-      "impact": "May deter readers from exploring the full paper due to lack of concise information."
+      "impact": "Reduces reader's understanding of the study's significance."
     },
     {
-      "category": "validity",
-      "location": "Methodology",
-      "issue": "The self-reported height and weight labels introduce potential inaccuracies and biases.",
-      "severity": "high",
-      "impact": "Could affect the reliability and generalizability of the results."
+      "category": "quality",
+      "location": "Results on external datasets",
+      "issue": "Lack of comparison with other state-of-the-art models on external datasets.",
+      "severity": "medium",
+      "impact": "Limits the context and validity of the model's performance."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...",
-      "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...",
-      "explanation": "Maintaining consistency in reporting metrics enhances clarity and readability.",
-      "location": "Results section",
+      "original_text": "We report the processing speed for filtering and inference on Android and iOS devices.",
+      "improved_version": "We provide detailed information on the processing speed for filtering and inference on Android and iOS devices, including specific metrics and comparisons.",
+      "explanation": "Adding specific metrics and comparisons enhances the transparency and completeness of the reported results.",
+      "location": "Abstract",
       "category": "presentation",
-      "focus": "clarity",
-      "statistical_impact": "Ensures accurate reporting of statistical results."
+      "focus": "clarity"
     },
     {
-      "original_text": "Our model demonstrates strong generalizability to unseen data...",
-      "improved_version": "Our model demonstrates strong generalizability to unseen data...",
-      "explanation": "Providing evidence of model performance enhances the credibility of the study.",
-      "location": "Discussion section",
-      "category": "relevance",
-      "focus": "evidence",
-      "statistical_impact": "Strengthens the validity of the research findings."
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+      "improved_version": "Torso-up images demonstrate comparable performance to full-body images with a MAPE of 9%, while face-only images exhibit lower accuracy with a MAPE of 11%.",
+      "explanation": "Rephrasing for clarity and consistency in reporting results.",
+      "location": "Results interpretation",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "improved_version": "Our model exhibits robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+      "explanation": "Emphasizing the key finding of generalizability for clarity and impact.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Our study offers valuable insights for remote weight estimation in telemedicine settings.",
+      "explanation": "Streamlining the statement for conciseness and impact.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
+      "improved_version": "We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.",
+      "explanation": "Clarifying the rationale behind the choice of hyperparameters.",
+      "location": "Results on external datasets",
+      "category": "quality",
+      "focus": "statistics"
+    },
+    {
+      "original_text": "Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.",
+      "improved_version": "In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.",
+      "explanation": "Providing a clear comparison for transparency and context.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
+      "improved_version": "On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.",
+      "explanation": "Maintaining consistency in reporting metrics for clarity.",
+      "location": "Results on external datasets",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "improved_version": "Our model showcases robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+      "explanation": "Rephrasing for clarity and impact.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).",
+      "improved_version": "The full-body perspective exhibits the best performance, with the lowest MAPE on BMI prediction (7.9%).",
+      "explanation": "Enhancing clarity and emphasis on key findings.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Our study offers valuable insights for remote weight estimation in telemedicine settings.",
+      "explanation": "Streamlining the statement for conciseness and impact.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
+      "improved_version": "We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.",
+      "explanation": "Clarifying the rationale behind the choice of hyperparameters.",
+      "location": "Results on external datasets",
+      "category": "quality",
+      "focus": "statistics"
+    },
+    {
+      "original_text": "Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.",
+      "improved_version": "In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.",
+      "explanation": "Providing a clear comparison for transparency and context.",
+      "location": "Discussion",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
+      "improved_version": "On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.",
+      "explanation": "Maintaining consistency in reporting metrics for clarity.",
+      "location": "Results on external datasets",
+      "category": "presentation",
+      "focus": "clarity"
     }
   ],
   "detailed_feedback": {
-    "presentation_analysis": "The results are presented clearly with detailed metrics and comparisons. However, the abstract and some sections lack concise summaries of key findings.",
-    "validity_analysis": "The study's validity is compromised by the self-reported height and weight labels, which may introduce biases.",
-    "relevance_analysis": "The study aligns well with the research question, providing insights into BMI estimation from smartphone images.",
-    "interpretation_analysis": "The interpretation of results is thorough, comparing different image perspectives and discussing practical implications.",
-    "statistical_analysis": "The statistical methods used are sound, with detailed descriptions of model architecture and training procedures."
+    "presentation_analysis": "The data presentation is generally clear and organized, with detailed descriptions of methods and results. However, some sections lack concise summaries of key findings. The statistical analysis is robust, with appropriate measures reported. The figures and tables are of good quality but could benefit from more detailed labeling and explanations.",
+    "analysis_quality": "The statistical analysis is thorough, with appropriate tests and measures used. The effect sizes and confidence intervals are reported, enhancing the validity of the results. However, more comparisons with existing models on external datasets would strengthen the analysis.",
+    "interpretation_review": "The interpretation of results is generally sound, with implications discussed. The comparison of different image perspectives is insightful. However, more in-depth discussion on the limitations and implications of the findings would enhance the interpretation.",
+    "visualization_assessment": "The figures and tables are well-presented, aiding in understanding the results. However, some figures could be enhanced with clearer labels and annotations for better interpretation.",
+    "significance_evaluation": "The reporting of significance levels and effect sizes is appropriate, providing a comprehensive analysis of the results. The discussion on generalizability and practical implications adds value to the study."
   },
-  "summary": "Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone images. While the presentation of results is clear, improvements are needed in summarizing key findings and addressing potential biases from self-reported data. The study aligns well with the research question, but the validity could be enhanced by addressing data accuracy issues. The statistical methods are sound, providing detailed insights into model performance and generalizability."
+  "summary": "Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. The results demonstrate strong generalizability and performance, particularly with full-body images. Improvements in clarity, consistency, and comparisons with existing models on external datasets would enhance the manuscript's quality and impact."
 }
