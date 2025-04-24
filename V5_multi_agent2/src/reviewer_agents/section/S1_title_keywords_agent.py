@@ -13,7 +13,9 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
         
     def analyze_title_keywords(self, text: str, research_type: str) -> Dict[str, Any]:
         """Analyzes the title and keywords of the manuscript."""
-        prompt = f"""Analyze the following text for title and keywords quality. Focus on:
+        prompt = f"""Analyze ONLY the title and keywords section of the manuscript. Do not analyze the abstract or any other sections.
+
+        Focus on:
         1. Title clarity and conciseness
         2. Title accuracy and specificity
         3. Title impact and appeal
@@ -37,11 +39,11 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
 
         Provide a detailed analysis in the following JSON format:
         {{
-            "score": int,  # Single comprehensive score (1-10)
+            "title_keywords_score": int,  # Single comprehensive score (1-10)
             
             "critical_remarks": [{{
-                "category": str,  # "clarity", "accuracy", "impact", "seo", "standards"
-                "location": str,  # "title" or "keywords"
+                "category": str,  # "title_clarity", "title_length", "keywords_relevance", "keywords_coverage", "guidelines", "discoverability"
+                "location": str,  # "Title" or "Keywords"
                 "issue": str,  # Detailed description of the issue
                 "severity": str,  # "high", "medium", "low"
                 "impact": str  # How this affects manuscript quality
@@ -51,24 +53,28 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
                 "original_text": str,  # The problematic text
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
-                "location": str,  # "title" or "keywords"
-                "category": str,  # "clarity", "accuracy", "impact", "seo", "standards"
+                "location": str,  # "Title" or "Keywords"
+                "category": str,  # "title", "keywords", "guidelines", "discoverability"
                 "focus": str  # "clarity", "conciseness", "accuracy", "impact", "relevance", "coverage"
             }}],
             
             "detailed_feedback": {{
                 "title_analysis": str,  # Detailed paragraph about title quality
                 "keywords_analysis": str,  # Detailed paragraph about keywords quality
-                "seo_assessment": str,  # Detailed paragraph about search optimization
-                "standards_compliance": str,  # Detailed paragraph about field conventions
-                "impact_evaluation": str  # Detailed paragraph about appeal and significance
+                "guidelines_compliance": str,  # Detailed paragraph about field conventions
+                "discoverability_assessment": str,  # Detailed paragraph about search optimization
+                "audience_alignment": str  # Detailed paragraph about appeal and significance
             }},
             
             "summary": str  # Overall assessment paragraph
         }}
 
-        Important: Generate at least 10-15 improvement suggestions across different categories.
-        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the title and keywords.
+        Important: 
+        1. ONLY analyze the title and keywords section, not the abstract or other sections
+        2. Generate at least 10-15 improvement suggestions across different categories
+        3. Each suggestion should be specific, actionable, and include clear explanations
+        4. All locations should be either "Title" or "Keywords", never "Abstract"
+        5. Focus on improving discoverability and search optimization
         """
         
         try:
@@ -81,15 +87,15 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
     def _generate_error_report(self, error_message: str) -> Dict[str, Any]:
         """Generates a structured error report."""
         return {
-            "score": 0,
+            "title_keywords_score": 0,
             "critical_remarks": [],
             "improvement_suggestions": [],
             "detailed_feedback": {
                 "title_analysis": "",
                 "keywords_analysis": "",
-                "seo_assessment": "",
-                "standards_compliance": "",
-                "impact_evaluation": ""
+                "guidelines_compliance": "",
+                "discoverability_assessment": "",
+                "audience_alignment": ""
             },
             "summary": f"Error in analysis: {error_message}",
             "error": True

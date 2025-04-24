@@ -1,50 +1,65 @@
 {
-  "visual_presentation_score": 7,
+  "visual_presentation_score": 6,
   "critical_remarks": [
     {
-      "category": "Figure",
-      "location": "Page 5, Figure 1",
-      "issue": "The torso-up cropping strategy figure lacks labels and annotations, making it difficult to understand the process.",
+      "category": "Figure quality",
+      "location": "Figure 8",
+      "issue": "The dataset statistics plot lacks labels for the axes, making it difficult to interpret the data.",
       "severity": "medium",
-      "impact": "Readers may struggle to grasp the significance of the cropping strategy without clear guidance."
+      "impact": "Readers may struggle to understand the distribution of body weight, height, and BMI in the dataset."
     },
     {
-      "category": "Table",
-      "location": "Page 1, Table 1",
-      "issue": "The content preview for Table 1 on page 1 is truncated and does not provide a clear overview of the table content.",
+      "category": "Caption completeness",
+      "location": "Figure 9",
+      "issue": "The UMAP plot and elbow plot lack clear captions explaining the purpose and content of the visualizations.",
       "severity": "low",
-      "impact": "Readers may miss important information due to incomplete previews."
+      "impact": "Readers may not fully grasp the significance of the clustering results without proper context."
+    },
+    {
+      "category": "Visual hierarchy",
+      "location": "Figure 11",
+      "issue": "The loss, MAE, and MAPE per epoch plot lacks distinction between the different lines, making it hard to differentiate the metrics.",
+      "severity": "medium",
+      "impact": "Difficulty in understanding the training and validation performance over epochs."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Example of torso-up cropping strategy.1",
-      "improved_version": "Example of torso-up cropping strategy with labeled dimensions and key points.",
-      "explanation": "Adding labels and annotations will enhance the understanding of the cropping process.",
-      "location": "Page 5, Figure 1",
+      "original_text": "Figure 8. Dataset statistics.",
+      "improved_version": "Figure 8. Distribution of Body Weight, Height, and BMI in the Dataset.",
+      "explanation": "Adding clear labels to the axes will enhance the interpretability of the plot.",
+      "location": "Figure 8",
       "category": "Figure",
-      "focus": "Clarity and information density"
+      "focus": "Clarity and completeness"
     },
     {
-      "original_text": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich...",
-      "improved_version": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images\nTrained on a Large-Scale Real-World Dataset\nFrederik Rajiv Manichand\nWayBetter\nCentre for Digital Health Interventions, ETH Z\u00fcrich\n...",
-      "explanation": "Expanding the content preview will provide a more comprehensive view of the table content.",
-      "location": "Page 1, Table 1",
-      "category": "Table",
-      "focus": "Readability and structure"
+      "original_text": "Figure 9. Comparison of clustering results: (a) UMAP visualization for k=4 clusters and (b) elbow plot for k-means clustering of body keypoint data.",
+      "improved_version": "Figure 9. Clustering Results Visualization: (a) UMAP Plot for 4 Clusters and (b) Elbow Plot for K-means Clustering of Body Keypoint Data.",
+      "explanation": "Adding descriptive captions will provide context and aid in understanding the purpose of the visualizations.",
+      "location": "Figure 9",
+      "category": "Figure",
+      "focus": "Caption completeness"
+    },
+    {
+      "original_text": "Figure 11. Loss, MAE and MAPE per epoch for the training and validation sets of each model.",
+      "improved_version": "Figure 11. Training and Validation Performance Metrics per Epoch.",
+      "explanation": "Differentiate the lines representing loss, MAE, and MAPE to improve clarity and readability.",
+      "location": "Figure 11",
+      "category": "Figure",
+      "focus": "Visual hierarchy"
     }
   ],
   "detailed_feedback": {
-    "figure_quality": "The figures are clear and visually appealing, but some lack labels and annotations for better comprehension.",
-    "table_formatting": "Tables are structured and easy to read, but some content previews are truncated, affecting readability.",
-    "visual_placement": "Figures and tables are appropriately placed near relevant text sections, aiding in understanding.",
-    "caption_completeness": "Most captions provide context, but some lack detailed descriptions or explanations.",
-    "color_scheme": "The color scheme is suitable for the content, with clear contrasts and readability.",
-    "data_visualization": "Data visualization is effective, but some figures could benefit from additional details or annotations.",
-    "visual_hierarchy": "Visual hierarchy is maintained, with figures and tables appropriately highlighted within the text.",
-    "accessibility": "Color contrast and readability are adequate, but adding labels and annotations can improve accessibility.",
-    "visual_consistency": "Overall, the visual style is consistent, maintaining a professional and cohesive presentation.",
-    "text_integration": "Visuals support the text well, enhancing the understanding of complex concepts and data."
+    "figure_quality": "Improve labeling and clarity in Figure 8 for better interpretation. Ensure all figures have clear and informative captions.",
+    "table_formatting": "N/A",
+    "visual_placement": "N/A",
+    "caption_completeness": "Captions should provide context and explain the content of the visualizations.",
+    "color_scheme": "N/A",
+    "data_visualization": "Ensure data visualizations are clear and effectively convey the intended information.",
+    "visual_hierarchy": "Differentiate elements in plots to aid in interpretation.",
+    "accessibility": "Include labels, captions, and color contrasts for better accessibility.",
+    "visual_consistency": "Maintain consistent style and formatting across visual elements.",
+    "text_integration": "Ensure visual elements support and enhance the text by providing additional insights."
   },
-  "summary": "The visual presentation of the manuscript is generally good, with clear figures and tables that support the text. However, some figures lack labels and annotations, impacting clarity. Improving caption completeness and expanding content previews in tables can enhance readability and understanding. Overall, the visual elements effectively complement the text but could benefit from minor enhancements for improved clarity and information density."
+  "summary": "The manuscript lacks complete captions and clear labeling in some figures, impacting reader understanding. Improvements in clarity, completeness, and visual hierarchy are recommended to enhance the visual presentation quality."
 }

@@ -5,12 +5,8 @@ from datetime import datetime
 from openai import OpenAI
 from dotenv import load_dotenv
 from .config import REPORT_TEMPLATE, DEFAULT_MODEL
-
-# Get the absolute path to the .env file
-env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), '.env')
-
-# Load environment variables from the correct path
-load_dotenv(dotenv_path=env_path)
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 class BaseReviewerAgent:
     """Base class for all reviewer agents."""

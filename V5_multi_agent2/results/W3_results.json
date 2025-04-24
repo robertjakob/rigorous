@@ -6,45 +6,68 @@
       "location": "Abstract",
       "issue": "The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.",
       "severity": "medium",
-      "impact": "It creates a barrier for readers unfamiliar with the terminology."
+      "impact": "Reduces accessibility and clarity for readers unfamiliar with the terminology."
     },
     {
       "category": "wordiness",
       "location": "Introduction",
-      "issue": "The introduction contains redundant information about the importance of BMI estimation, which could be more concise.",
+      "issue": "The introduction contains verbose descriptions of chronic diseases associated with high BMI, which could be more concise.",
       "severity": "low",
-      "impact": "It increases the length of the introduction without adding significant value."
+      "impact": "Increases unnecessary text length and may lose reader interest."
+    },
+    {
+      "category": "redundancy",
+      "location": "Methodology",
+      "issue": "Repetitive use of 'images' and 'dataset' in close proximity within the same paragraph.",
+      "severity": "low",
+      "impact": "Creates redundancy and can be confusing for readers."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Most recent BMI estimation approaches focus on datasets with limited sizes, such as 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Simplifying the sentence structure and removing unnecessary details improves readability and conciseness.",
+      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
+      "improved_version": "Estimating BMI from camera images enables quick weight assessment in challenging scenarios.",
+      "explanation": "Simplifies the language and reduces wordiness for better comprehension.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-      "improved_version": "We evaluate BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
-      "explanation": "Streamlining the description of the dataset and study focus enhances clarity and conciseness.",
+      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
+      "improved_version": "Recent BMI estimation methods using computer vision have mostly used datasets with around 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Restructures the sentence for better flow and clarity.",
       "location": "Abstract",
       "category": "abstract",
+      "focus": "sentence_length"
+    },
+    {
+      "original_text": "In medical emergencies, there is a well-documented need for faster weight estimation methods.",
+      "improved_version": "Medical emergencies require rapid weight estimation methods.",
+      "explanation": "Concise wording conveys the same message more effectively.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
+      "improved_version": "Our model shows robust generalizability to new data, achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.",
+      "explanation": "Streamlines the sentence for better readability and clarity.",
+      "location": "Discussion",
+      "category": "discussion",
       "focus": "wordiness"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The text uses technical terms and complex sentence structures that may be challenging for non-experts to understand. Simplifying the language and sentence construction can improve clarity.",
-    "jargon_usage": "The text includes jargon like 'MAPE' and 'deep learning' without adequate explanation, making it difficult for readers unfamiliar with the field to follow along. Providing definitions or simplifying the terminology can enhance comprehension.",
-    "wordiness": "Certain sections contain redundant information or elaborate descriptions that could be condensed without losing essential content. Removing unnecessary details and streamlining sentences can improve conciseness.",
-    "sentence_length": "Some sentences are overly long and complex, making it harder for readers to follow the ideas presented. Breaking down long sentences into shorter, more digestible ones can enhance readability.",
-    "paragraph_length": "Paragraphs vary in length, with some being too lengthy and dense. Breaking down dense paragraphs into shorter, focused ones can improve readability and help readers navigate the text more easily.",
-    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice can enhance clarity and make the writing more dynamic.",
-    "redundancy": "Certain sections repeat information or use redundant phrases that could be eliminated without losing meaning. Removing redundancies can streamline the text and improve overall clarity.",
-    "ambiguity": "Some sentences or phrases may be ambiguous or open to interpretation, leading to potential confusion for readers. Clarifying ambiguous statements and providing more explicit explanations can enhance understanding.",
-    "readability": "Overall, the text is moderately readable but could benefit from simplifying language, breaking down complex sentences, and organizing content into more digestible chunks. Improving readability can enhance engagement and comprehension.",
-    "information_density": "The text contains a high level of information density, with complex concepts and technical details presented in a dense manner. Balancing information density with clarity and conciseness is crucial to ensure readers can grasp the content effectively."
+    "language_simplicity": "The text generally uses technical language and terms that may be challenging for non-experts to understand. Simplifying complex terms and explanations would enhance clarity and accessibility.",
+    "jargon_usage": "The text contains a significant amount of jargon and technical terms without adequate explanations. Providing definitions or simplifying terminology would improve comprehension for a wider audience.",
+    "wordiness": "Certain sections exhibit wordiness, leading to unnecessary repetition and verbose descriptions. Streamlining sentences and removing redundant phrases would enhance conciseness.",
+    "sentence_length": "The text contains a mix of long and short sentences. Some sentences could be shortened for better readability and flow, while others may benefit from more elaboration to clarify complex concepts.",
+    "paragraph_length": "Paragraphs vary in length, with some being overly long and others too brief. Balancing paragraph length for coherence and emphasis on key points would improve overall structure.",
+    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would enhance readability and clarity.",
+    "redundancy": "Certain sections exhibit redundancy through repetitive use of terms or concepts. Removing redundant information and restructuring sentences would improve overall coherence.",
+    "ambiguity": "The text occasionally introduces ambiguity through unclear phrasing or vague descriptions. Providing more specific details and clarifications would enhance reader understanding.",
+    "readability": "Overall, the text is readable but could benefit from simplification of language, reduction of jargon, and clearer explanations. Improving readability would enhance accessibility for a wider audience.",
+    "information_density": "The text contains a high level of information density, presenting complex concepts and technical details. Balancing information density with clarity and simplicity would improve overall comprehension."
   },
-  "summary": "The text demonstrates moderate clarity and conciseness but could benefit from simplifying language, reducing jargon, and streamlining sentence structures. Improving readability, reducing redundancy, and enhancing information density are key areas for enhancing the overall quality of the research."
+  "summary": "The text exhibits a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing jargon, and enhancing readability. Addressing issues related to wordiness, redundancy, and ambiguity would significantly enhance the overall quality of the content."
 }

@@ -1,65 +1,65 @@
 {
-  "citation_formatting_score": 7,
+  "citation_formatting_score": 6,
   "critical_remarks": [
     {
-      "category": "in_text_format",
-      "location": "Introduction",
-      "issue": "Missing in-text citation for the statement 'Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.'",
+      "category": "author_format",
+      "location": "Abstract",
+      "issue": "Author names are not consistently formatted with initials and full names.",
       "severity": "medium",
-      "impact": "Affects the credibility of the information presented."
-    },
-    {
-      "category": "reference_format",
-      "location": "References",
-      "issue": "Reference list lacks proper formatting with inconsistent spacing and alignment.",
-      "severity": "high",
-      "impact": "Reduces the readability and professionalism of the document."
+      "impact": "Affects the professionalism and consistency of the citations."
     },
     {
       "category": "doi_format",
       "location": "References",
-      "issue": "Some references lack DOI or URL information.",
+      "issue": "Some DOIs are missing or incorrectly formatted.",
+      "severity": "high",
+      "impact": "Impacts the ability to access the original sources for verification."
+    },
+    {
+      "category": "volume_format",
+      "location": "Methodology",
+      "issue": "Volume and issue numbers are missing for journal references.",
       "severity": "medium",
-      "impact": "Reduces the accessibility and traceability of the sources."
+      "impact": "Lacks specificity in identifying the exact source within the journal."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images (Jin et al., 2022).",
-      "explanation": "Adding an in-text citation improves the credibility and allows readers to trace the source.",
-      "location": "Introduction",
-      "category": "Introduction",
-      "focus": "in_text_format"
+      "original_text": "Frederik Rajiv Manichand",
+      "improved_version": "Manichand, F. R.",
+      "explanation": "Consistent use of initials and last name for author names.",
+      "location": "Abstract",
+      "category": "author_format",
+      "focus": "author_format"
     },
     {
-      "original_text": "Jin et al. (2022) show state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
-      "improved_version": "Jin et al. (2022) demonstrated state-of-the-art results, achieving a Mean Absolute Percentage Error (MAPE) of 9.37% when estimating BMI from full-body images.",
-      "explanation": "Using 'demonstrated' instead of 'show' adds clarity and professionalism to the statement.",
-      "location": "Literature Review",
-      "category": "Literature Review",
-      "focus": "style_consistency"
-    },
-    {
-      "original_text": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach, 2024.",
-      "improved_version": "Celeb-FBI: A Benchmark Dataset on Human Full Body Images and Age, Gender, Height and Weight Estimation using Deep Learning Approach.",
-      "explanation": "Remove the unnecessary publication year from the reference.",
+      "original_text": "DOI: 10.1186/s12916-021-02188-x",
+      "improved_version": "https://doi.org/10.1186/s12916-021-02188-x",
+      "explanation": "Correct formatting for DOIs with a clickable link.",
       "location": "References",
-      "category": "References",
-      "focus": "reference_format"
+      "category": "doi_format",
+      "focus": "doi_format"
+    },
+    {
+      "original_text": "Volume 2 (ASPLOS \u201924)",
+      "improved_version": "Volume 2, Issue 1 (ASPLOS '24)",
+      "explanation": "Including the issue number for better reference specificity.",
+      "location": "Methodology",
+      "category": "volume_format",
+      "focus": "volume_format"
     }
   ],
   "detailed_feedback": {
-    "in_text_citation_format": "In-text citations are generally well-formatted with author names and publication years. However, some statements lack proper citations, impacting the credibility of the information.",
-    "reference_list_format": "The reference list lacks consistency in formatting, with issues in spacing and alignment. Improving the layout will enhance readability and professionalism.",
-    "citation_style_consistency": "The citation style is mostly consistent, but there are instances where formatting can be improved for better coherence.",
-    "reference_completeness": "References are generally complete, but some lack DOI or URL information, affecting the accessibility and traceability of the sources.",
-    "doi_url_formatting": "DOI and URL formatting is inconsistent across references. Ensuring all sources have proper DOI or URL information will enhance the reliability of the document.",
-    "author_name_formatting": "Author names are presented consistently, but ensuring proper capitalization and formatting will improve the overall presentation.",
-    "publication_date_formatting": "Publication dates are mostly well-formatted, but ensuring uniformity in date style will enhance the professionalism of the document.",
-    "journal_name_formatting": "Journal names are correctly formatted, but ensuring consistency in italics or abbreviation usage will improve the overall appearance.",
-    "volume_issue_page_formatting": "Volume, issue, and page numbers are generally well-formatted, but ensuring uniformity in presentation style will enhance the reference list's readability.",
-    "cross_reference_accuracy": "Cross-references are accurate and relevant, providing additional context and supporting information effectively."
+    "in_text_citation_format": "In-text citations are generally well-formatted with appropriate use of author names and publication years.",
+    "reference_list_format": "The reference list is organized and includes necessary details, but some improvements are needed in DOI formatting and volume/issue numbers.",
+    "citation_style_consistency": "Consistency in citation style is maintained throughout the text.",
+    "reference_completeness": "References are mostly complete, but missing DOIs and volume/issue numbers reduce completeness.",
+    "doi_url_formatting": "DOIs should be formatted as clickable links for easy access to the original sources.",
+    "author_name_formatting": "Author names should be consistently formatted with initials and last names for a professional appearance.",
+    "publication_date_formatting": "Publication dates are correctly formatted with years included.",
+    "journal_name_formatting": "Journal names are appropriately formatted.",
+    "volume_issue_page_formatting": "Volume and issue numbers should be included for journal references for better specificity.",
+    "cross_reference_accuracy": "Cross-references are accurate and relevant within the text."
   },
-  "summary": "Overall, the document shows good adherence to citation formatting standards, with minor issues in in-text citations, reference list formatting, and DOI/URL completeness. Improvements in these areas will enhance the document's credibility and professionalism."
+  "summary": "Overall, the text demonstrates good citation formatting with minor issues in author name consistency, DOI formatting, and missing volume/issue numbers. Improvements in these areas will enhance the professionalism and completeness of the citations."
 }

@@ -1,6 +1,14 @@
 # Manuscript Review Report
 
-Generated on: 2025-04-24 00:45:53
+Generated on: 2025-04-24 02:37:14
+
+## Important Notes
+
+> **Version 1.0 (Beta)**: This tool was developed in a short timeframe and may contain hallucinations and errors. Approximately 50% of feedback will likely be unusable, 30% may be mediocre, and 20% should be helpful in highlighting issues that might have been overlooked. Please send feedback to rjakob@ethz.ch so we can continue to improve our agents.
+
+> **Model Limitations**: This report was generated using a basic model (ChatGPT 3.5). For more sophisticated analysis, the code is open access and users can run more advanced models (such as GPT-4) with their own API keys. Visit [https://github.com/robertjakob/rigorous](https://github.com/robertjakob/rigorous) for more information.
+
+> **Development Status**: This tool is still in testing mode with many agents in their first iteration. We welcome contributions to build the best review agent team to improve the quality of scientific publishing. Join us at [https://github.com/robertjakob/rigorous](https://github.com/robertjakob/rigorous).
 
 
 ## Table of Contents
@@ -37,8 +45,8 @@ Generated on: 2025-04-24 00:45:53
 
 ## Overall Assessment
 
-The manuscript received an average score of 2.72/10 across all evaluation criteria.
-A total of 79 critical remarks and 155 improvement suggestions were identified.
+The manuscript received an average score of 6.68/10 across all evaluation criteria.
+A total of 78 critical remarks and 167 improvement suggestions were identified.
 
 ## Agent Reports
 
@@ -48,278 +56,291 @@ A total of 79 critical remarks and 155 improvement suggestions were identified.
 ### Score: 7/10
 
 ### Summary
-The title and keywords of the study require improvements in terms of clarity, specificity, and relevance to enhance search optimization and discoverability potential. Adhering to scientific guidelines and aligning with the target audience's interests can improve the overall quality and impact of the research.
+Overall, the title and keywords provide a clear indication of the study's focus on BMI estimation from smartphone images. Improvements in conciseness, specificity, and adherence to field conventions would enhance the manuscript's discoverability and search engine optimization. The study's relevance to digital health interventions is well-reflected in the title and keywords, appealing to a broad audience interested in health technology.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: title_clarity  
-**Location**: Abstract  
-**Issue**: The title lacks specificity and does not clearly convey the main focus of the study.  
+**Location**: Title  
+**Issue**: The title is clear but could be more concise by removing redundant words.  
 **Severity**: medium  
-**Impact**: May lead to confusion among readers and reduce the attractiveness of the study.
+**Impact**: Improving conciseness will enhance reader engagement.
 
 ### Remark 2
 
-**Category**: title_length  
-**Location**: Abstract  
-**Issue**: The title is long and could be more concise to improve readability and impact.  
-**Severity**: low  
-**Impact**: A shorter title would be more memorable and easier to understand.
+**Category**: keywords_relevance  
+**Location**: Keywords  
+**Issue**: The keywords are relevant but could include more specific terms related to the study.  
+**Severity**: medium  
+**Impact**: Enhancing keyword specificity will improve search engine optimization.
 
 ### Remark 3
 
-**Category**: keywords_relevance  
-**Location**: Abstract  
-**Issue**: The keywords do not fully capture the scope and focus of the study.  
+**Category**: keywords_coverage  
+**Location**: Keywords  
+**Issue**: The keywords cover the main concepts but lack some important terms related to the study.  
 **Severity**: medium  
-**Impact**: May reduce the visibility of the study in relevant searches.
+**Impact**: Expanding keyword coverage will increase the manuscript's visibility.
 
 ### Remark 4
 
-**Category**: keywords_coverage  
-**Location**: Abstract  
-**Issue**: The keywords could be expanded to include more specific terms related to the study.  
+**Category**: guidelines  
+**Location**: Title  
+**Issue**: The title lacks adherence to field-specific conventions, such as including abbreviations or acronyms.  
 **Severity**: low  
-**Impact**: Enhancing keyword coverage can improve search optimization and discoverability.
+**Impact**: Following conventions will enhance the professionalism of the manuscript.
 
 ### Remark 5
 
-**Category**: guidelines  
-**Location**: Abstract  
-**Issue**: The title and keywords do not fully adhere to scientific standards for clarity and specificity.  
-**Severity**: medium  
-**Impact**: Non-compliance with guidelines may affect the credibility and professionalism of the study.
-
-### Remark 6
-
 **Category**: discoverability  
-**Location**: Abstract  
-**Issue**: The title and keywords may not maximize the discoverability potential of the study.  
-**Severity**: medium  
-**Impact**: Limited discoverability can hinder the reach and impact of the research.
+**Location**: Keywords  
+**Issue**: The keywords could be optimized for better search engine visibility by including synonyms or related terms.  
+**Severity**: high  
+**Impact**: Improving discoverability will increase the likelihood of the manuscript being found by relevant audiences.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Title  
 **Category**: title  
-**Focus**: clarity  
+**Focus**: conciseness  
 
 **Original Text**:  
 > Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset
 
 **Improved Version**:  
-> Enhancing BMI Estimation: Smartphone Camera Image Analysis for Real-World Weight Assessment
+> On-Device BMI Estimation from Smartphone Camera Images Using Large-Scale Real-World Data
 
 **Explanation**:  
-The improved version is more concise and focuses on the core aspect of BMI estimation from smartphone images.
+The improved version is more concise and removes redundant words.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: title  
-**Focus**: format  
-
-**Original Text**:  
-> Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset
-
-**Improved Version**:  
-> BMI Estimation from Smartphone Images: Real-World Dataset Analysis
-
-**Explanation**:  
-The revised title maintains the essence of BMI estimation from smartphone images but in a more focused and concise manner.
-
-### Suggestion 3
-
-**Location**: Abstract  
+**Location**: Keywords  
 **Category**: keywords  
-**Focus**: relevance  
+**Focus**: clarity  
 
 **Original Text**:  
 > Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.
 
 **Improved Version**:  
-> BMI Estimation from Smartphone Images for Rapid Weight Assessment in Telehealth and Emergency Scenarios
+> BMI Estimation from Camera Images for Rapid Weight Assessment in Telehealth and Emergency Scenarios
 
 **Explanation**:  
-The improved version is more specific and highlights the key applications of BMI estimation from smartphone images.
+The improved version is more concise and focuses on key terms for search optimization.
 
-### Suggestion 4
+### Suggestion 3
 
-**Location**: Abstract  
+**Location**: Keywords  
 **Category**: keywords  
-**Focus**: coverage  
+**Focus**: relevance  
 
 **Original Text**:  
 > Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> Advancements in BMI Estimation Using Deep Learning on Large-Scale Real-World Dataset
+> Limitations of Recent Computer Vision-Based BMI Estimation Approaches
 
 **Explanation**:  
-The revised version provides a broader overview of the study's focus on deep learning and real-world dataset.
+The improved version highlights the study's focus and adds specificity.
+
+### Suggestion 4
+
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: clarity  
+
+**Original Text**:  
+> real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework
+
+**Improved Version**:  
+> Implementation of BMI Estimation Algorithm on Mobile Devices Using CLAID Framework
+
+**Explanation**:  
+The improved version is clearer and emphasizes the implementation aspect.
 
 ### Suggestion 5
 
-**Location**: Abstract  
-**Category**: guidelines  
-**Focus**: scientific standards  
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: relevance  
 
 **Original Text**:  
-> The limited dataset size may restrict the model’s ability to learn complex patterns and generalize to diverse body types.
+> Body weight and weight changes are essential indicators of health and disease risk.
 
 **Improved Version**:  
-> Small Dataset Limitations: Impacts on Model Generalization and Pattern Learning
+> Significance of Body Weight Changes in Health Risk Assessment
 
 **Explanation**:  
-The revised text highlights the specific challenges posed by small datasets in model training and generalization.
+The improved version is more specific and highlights the importance of the study.
 
 ### Suggestion 6
 
-**Location**: Abstract  
-**Category**: discoverability  
-**Focus**: search potential  
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: clarity  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Machine learning methods applied to images captured from different perspectives.
 
 **Improved Version**:  
-> Robust Generalization: Model Performance on Unseen Data Sets
+> Machine Learning for Image Analysis from Various Perspectives
 
 **Explanation**:  
-The revised text emphasizes the robustness of the model's generalization capabilities on external datasets.
+The improved version clarifies the focus on image analysis and perspectives.
+
+### Suggestion 7
+
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: relevance  
+
+**Original Text**:  
+> Various authors have proposed public benchmark datasets for body weight and BMI estimation, such as the Visual-Body-To-BMI dataset and the Celeb-FBI dataset.
+
+**Improved Version**:  
+> Public Benchmark Datasets for Body Weight Estimation: Visual-Body-To-BMI and Celeb-FBI
+
+**Explanation**:  
+The improved version specifies the benchmark datasets for better understanding.
+
+### Suggestion 8
+
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: conciseness  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Insights for Remote Weight Estimation in Telemedicine
+
+**Explanation**:  
+The improved version is more concise and highlights the practical application.
+
+### Suggestion 9
+
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: clarity  
+
+**Original Text**:  
+> The dataset used is proprietary and not publicly available.
+
+**Improved Version**:  
+> Proprietary Dataset: Not Publicly Accessible
+
+**Explanation**:  
+The improved version clarifies the accessibility of the dataset.
+
+### Suggestion 10
+
+**Location**: Keywords  
+**Category**: keywords  
+**Focus**: conciseness  
+
+**Original Text**:  
+> Declaration of the use of AI-based tools.
+
+**Improved Version**:  
+> AI-Based Tools Declaration
+
+**Explanation**:  
+The improved version is more concise and to the point.
 
 ### Detailed Feedback
 ### Title Analysis
 
-The title lacks specificity and could be more concise to better convey the main focus of the study. It should highlight the core aspect of BMI estimation from smartphone images.
+The title is clear and specific, indicating the focus on BMI estimation from smartphone images. However, it could be more concise and adhere to field-specific conventions.
 
 ### Keywords Analysis
 
-The keywords need to be more specific and comprehensive to accurately represent the study's scope and focus. Including terms related to deep learning and real-world datasets could enhance relevance.
+The keywords cover relevant concepts but lack specificity and could be optimized for better search engine visibility. Including more specific terms related to the study would enhance discoverability.
 
 ### Guidelines Compliance
 
-The title and keywords should align more closely with scientific standards for clarity, specificity, and relevance. Adhering to guidelines can enhance the professionalism and credibility of the study.
+The title and keywords partially comply with field conventions but could be improved by adding abbreviations or acronyms commonly used in the field.
 
 ### Discoverability Assessment
 
-Improving the title and keywords for better search optimization and discoverability potential is essential. Enhancing visibility in relevant searches can increase the reach and impact of the research.
+The title and keywords provide a good overview of the study but could benefit from more specific and optimized terms for better search engine optimization.
 
 ### Audience Alignment
 
-The study's title and keywords should be tailored to align with the target audience's interests and search behaviors. Ensuring relevance and specificity can enhance audience engagement and interest.
+The title and keywords effectively convey the study's focus on BMI estimation from smartphone images, making it appealing to readers interested in digital health interventions.
 
 ## S2 - Abstract
 ### Score: 7/10
 
 ### Summary
-The abstract demonstrates a solid foundation in BMI estimation from smartphone images, with notable strengths in methodology description and results presentation. However, improvements in structure, content completeness, clarity, adherence to scientific standards, and impact communication are essential for enhancing the overall quality and effectiveness of the abstract.
+The abstract is well-structured and covers essential aspects of the research, but it could benefit from improved clarity, especially in describing the methodology and results. Enhancements in readability, content completeness, and adherence to scientific standards would elevate the manuscript's quality and impact.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: structure  
+**Category**: clarity  
 **Location**: Abstract  
-**Issue**: Lack of clear subsections or headings in the abstract, making it challenging to navigate different topics.  
+**Issue**: The abstract lacks a clear and concise summary of the methodology used in the study.  
 **Severity**: medium  
-**Impact**: Affects the overall organization and readability of the abstract.
+**Impact**: This affects the reader's understanding of how the research was conducted.
 
 ### Remark 2
 
-**Category**: content  
-**Location**: Abstract  
-**Issue**: Limited discussion on the dataset characteristics, demographics, and potential biases, which are crucial for understanding the study's context.  
-**Severity**: medium  
-**Impact**: Reduces the completeness and transparency of the research.
-
-### Remark 3
-
-**Category**: clarity  
-**Location**: Abstract  
-**Issue**: Some technical terms and acronyms are not explained, potentially hindering understanding for non-experts.  
-**Severity**: low  
-**Impact**: May lead to confusion among readers unfamiliar with the field.
-
-### Remark 4
-
 **Category**: standards  
 **Location**: Abstract  
-**Issue**: Limited mention of ethical considerations, data privacy, and consent regarding the dataset usage.  
+**Issue**: The abstract does not explicitly mention ethical considerations related to data privacy and consent.  
 **Severity**: medium  
-**Impact**: Lacks transparency and adherence to ethical research standards.
-
-### Remark 5
-
-**Category**: impact  
-**Location**: Abstract  
-**Issue**: The conclusion lacks a clear summary of the key findings and their implications for the field.  
-**Severity**: medium  
-**Impact**: Diminishes the overall significance and relevance of the study.
+**Impact**: This omission could raise concerns about the ethical conduct of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
-
-**Location**: Abstract  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a limited number of images, such as up to 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Clarifies the focus on dataset limitations and enhances the precision of the statement.
-
-### Suggestion 2
 
 **Location**: Abstract  
 **Category**: clarity  
 **Focus**: readability  
 
 **Original Text**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images, such as those with atypical postures or incomplete views of the body.
+> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> An automatic image filtering strategy utilizing posture clustering and person detection is introduced to curate the real-world dataset effectively, excluding unsuitable images with atypical postures or incomplete body views.
+> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-Enhances clarity and conciseness by restructuring the sentence for better readability.
+Clarifies the sentence structure for better readability.
+
+### Suggestion 2
+
+**Location**: Abstract  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.
+
+**Improved Version**:  
+> An automatic image filtering strategy, utilizing posture clustering and person detection, is introduced to curate the real-world dataset by excluding unsuitable images.
+
+**Explanation**:  
+Streamlines the description for better clarity and organization.
 
 ### Suggestion 3
 
 **Location**: Abstract  
 **Category**: content  
-**Focus**: accuracy  
+**Focus**: completeness  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
 
 **Improved Version**:  
-> Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, comprising only real-world full-torso images.
+> Torso-up images demonstrate comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
 
 **Explanation**:  
-Provides a clearer presentation of the model's performance metrics and dataset characteristics.
+Enhances the comparison between different image perspectives for better understanding.
 
 ### Suggestion 4
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: organization  
-
-**Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Improved Version**:  
-> Furthermore, an analysis of the image perspective impact on BMI estimation performance is conducted within the real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Explanation**:  
-Enhances the clarity and flow of the sentence by restructuring for better coherence.
-
-### Suggestion 5
 
 **Location**: Abstract  
 **Category**: clarity  
@@ -332,41 +353,56 @@ Enhances the clarity and flow of the sentence by restructuring for better cohere
 > The processing speed for filtering and inference on Android and iOS devices is reported.
 
 **Explanation**:  
-Simplifies the sentence structure for improved readability and conciseness.
+Improves clarity by removing redundancy.
+
+### Suggestion 5
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: readability  
+
+**Original Text**:  
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+
+**Improved Version**:  
+> Open-source code for training, deployment, and mobile applications is provided.
+
+**Explanation**:  
+Simplifies the sentence for better readability.
 
 ### Suggestion 6
 
-**Location**: Abstract  
+**Location**: Introduction  
+**Category**: clarity  
+**Focus**: readability  
+
+**Original Text**:  
+> The height of each user was self-reported at the beginning of the fitness program.
+
+**Improved Version**:  
+> Users self-reported their height at the start of the fitness program.
+
+**Explanation**:  
+Shortens the sentence while retaining essential information.
+
+### Suggestion 7
+
+**Location**: Discussion  
 **Category**: content  
 **Focus**: completeness  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.
+> Our model shows robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
 
 **Explanation**:  
-Enhances clarity and emphasizes the model's generalizability to diverse datasets.
-
-### Suggestion 7
-
-**Location**: Abstract  
-**Category**: content  
-**Focus**: accuracy  
-
-**Original Text**:  
-> Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).
-
-**Improved Version**:  
-> The study findings indicate that the full-body perspective offers superior performance, with the lowest MAPE observed for BMI prediction (7.9%).
-
-**Explanation**:  
-Provides a more formal and precise presentation of the study's key results.
+Enhances the description of model performance for clarity.
 
 ### Suggestion 8
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: readability  
 
@@ -374,14 +410,14 @@ Provides a more formal and precise presentation of the study's key results.
 > We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.
 
 **Improved Version**:  
-> This discrepancy is partly attributed to the substantial disparities between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.
+> This discrepancy is partly attributed to the substantial differences between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.
 
 **Explanation**:  
-Enhances the explanation of the observed discrepancy for better clarity.
+Provides a clearer link between the discrepancy and dataset differences.
 
 ### Suggestion 9
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: content  
 **Focus**: completeness  
 
@@ -389,14 +425,14 @@ Enhances the explanation of the observed discrepancy for better clarity.
 > While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
 
 **Improved Version**:  
-> In contrast to previous research focusing on either face-only or full-body images, our study stands out as the first to offer a direct comparison of various image perspectives within a homogeneous dataset.
+> Unlike previous studies that often concentrated on either face-only or full-body images, our research offers a direct comparison of various image perspectives within a uniform dataset.
 
 **Explanation**:  
-Enhances the emphasis on the novelty and significance of the study's approach.
+Enhances the contrast between the current study and previous research.
 
 ### Suggestion 10
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: readability  
 
@@ -404,161 +440,145 @@ Enhances the emphasis on the novelty and significance of the study's approach.
 > Our work also provides insights for remote weight estimation during telemedicine consultations.
 
 **Improved Version**:  
-> Additionally, our study offers valuable insights for remote weight estimation in telemedicine consultations.
+> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
 
 **Explanation**:  
-Enhances the clarity and impact of the statement by rephrasing for better emphasis.
+Introduces a smoother transition to the next point.
 
 ### Suggestion 11
 
-**Location**: Abstract  
-**Category**: content  
-**Focus**: completeness  
+**Location**: Discussion  
+**Category**: clarity  
+**Focus**: readability  
 
 **Original Text**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets.
+> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
 
 **Improved Version**:  
-> We recommend utilizing our training scripts to develop customized models on different datasets.
+> Interested parties can replicate our approach using the publicly available source code.
 
 **Explanation**:  
-Provides a more proactive and directive recommendation for readers.
+Shortens the sentence for better impact.
 
 ### Detailed Feedback
 ### Structure Analysis
 
-The abstract lacks clear subsections or headings, making it challenging to follow the flow of information. A more structured approach with distinct sections for introduction, methodology, results, and conclusion would enhance readability and organization.
+The abstract is well-organized with clear subsections for introduction, methodology, results, and conclusion. However, the methodology description could be more detailed to provide a better understanding of the research process.
 
 ### Content Analysis
 
-While the abstract covers essential aspects of BMI estimation from smartphone images, it could benefit from a more detailed discussion on dataset characteristics, demographics, and potential biases. Including information on ethical considerations and data privacy would also improve the completeness of the content.
+The abstract covers essential aspects such as the dataset, methodology, results, and implications. However, it lacks explicit mention of ethical considerations and could benefit from more detailed results presentation.
 
 ### Clarity Assessment
 
-The abstract contains technical terms and acronyms that may not be familiar to all readers. Providing brief explanations or defining these terms upon first use would enhance clarity and accessibility for a broader audience.
+The abstract is generally clear and readable, but some sentences are overly complex and could be simplified for better comprehension. Additionally, some technical terms could be explained for a broader audience.
 
 ### Standards Compliance
 
-The abstract lacks explicit mention of ethical considerations, data privacy, and consent regarding dataset usage. Including a brief statement on ethical approval, data handling protocols, and participant consent would ensure compliance with scientific standards and enhance transparency.
+The abstract adheres to scientific writing standards in terms of structure and content. However, it could improve by explicitly mentioning ethical considerations related to data privacy and consent.
 
 ### Impact Evaluation
 
-While the abstract presents significant findings on BMI estimation from smartphone images, the conclusion could be strengthened by summarizing the key implications of the study's results for the field. A clearer statement on the study's contributions and potential applications would enhance the overall impact communication.
+The research provides valuable insights into BMI estimation from smartphone images and demonstrates the potential for real-world applications. The study's findings on different image perspectives and generalizability contribute to the field of digital health interventions.
 
 ## S3 - Introduction
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-Overall, the introduction section requires significant improvements in providing a comprehensive background, defining the research problem clearly, outlining the paper structure effectively, and highlighting the research significance. Enhancing the context, clarity, organization, and impact of the introduction would significantly improve the quality and readability of the manuscript.
+Overall, the introduction provides a solid foundation for the research, with a clear problem statement and well-defined objectives. However, improvements are needed in the transition between sections and the explicit justification of the research significance. The study offers valuable insights into BMI estimation from smartphone images and demonstrates strong potential for impact in healthcare applications.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: background  
+**Category**: significance  
 **Location**: Abstract  
-**Issue**: The background information lacks depth and fails to provide a comprehensive overview of the importance of BMI estimation and its implications on health.  
+**Issue**: The significance of the research in terms of potential impact on healthcare outcomes could be more explicitly stated.  
 **Severity**: medium  
-**Impact**: This impacts the reader's understanding of the research context and the significance of the study.
+**Impact**: This affects the clarity of the research's importance to the field.
 
 ### Remark 2
 
-**Category**: problem_statement  
-**Location**: Introduction  
-**Issue**: The research problem is vaguely defined and lacks specificity in terms of the gap in existing literature that the study aims to address.  
-**Severity**: high  
-**Impact**: This hinders the clarity of the study's focus and the rationale behind conducting the research.
-
-### Remark 3
-
 **Category**: structure  
 **Location**: Introduction  
-**Issue**: The paper structure overview is brief and lacks a clear roadmap of the subsequent sections, making it challenging for readers to anticipate the flow of information.  
+**Issue**: The flow from background context to problem statement is abrupt, lacking a smooth transition.  
 **Severity**: medium  
-**Impact**: This affects the overall organization of the manuscript and may lead to confusion regarding the logical progression of the study.
-
-### Remark 4
-
-**Category**: significance  
-**Location**: Introduction  
-**Issue**: The research significance is not explicitly highlighted, and the potential impact of the study on the field of BMI estimation is not clearly articulated.  
-**Severity**: medium  
-**Impact**: This diminishes the perceived value of the research and its contribution to the existing body of knowledge.
+**Impact**: This disrupts the reader's understanding of the research focus.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Introduction  
-**Category**: background  
-**Focus**: context  
+**Category**: context  
+**Focus**: background  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible...
+> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> Rapid and accurate estimation of Body Mass Index (BMI) from camera images is crucial for enabling timely health assessments, particularly in scenarios where conventional measurement tools are unavailable...
+> Current computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-The improvement emphasizes the importance of accuracy and timeliness in BMI estimation, setting a stronger tone for the research significance.
+Clarifies the timeframe of the research and provides a more active voice.
 
 ### Suggestion 2
 
 **Location**: Introduction  
-**Category**: background  
-**Focus**: clarity  
+**Category**: context  
+**Focus**: background  
 
 **Original Text**:  
-> A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes...
+> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
 
 **Improved Version**:  
-> Elevated Body Mass Index (BMI) levels are linked to a spectrum of chronic ailments, encompassing cardiovascular complications, specific cancer risks, and metabolic dysfunctions like diabetes...
+> This study conducts a thorough assessment of BMI estimation from smartphone camera images using deep learning on a notably larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.
 
 **Explanation**:  
-The revised version enhances the impact of BMI on health outcomes, providing a more detailed and comprehensive overview of the associated health risks.
+Enhances clarity and conciseness of the research scope.
 
 ### Suggestion 3
 
 **Location**: Introduction  
-**Category**: background  
-**Focus**: completeness  
+**Category**: problem  
+**Focus**: gap  
 
 **Original Text**:  
-> Traditionally, the calculation of BMI requires measuring a person’s weight and height using scales and a stadiometer...
+> However, many past studies have been limited by small datasets, containing only up to 5,900 images.
 
 **Improved Version**:  
-> Historically, BMI calculation necessitated the use of scales and a stadiometer to measure an individual's weight and height...
+> Nevertheless, prior studies have been constrained by small datasets, with a maximum of 5,900 images.
 
 **Explanation**:  
-The revised text adds historical context, enhancing the completeness of the background information and providing a clearer picture of traditional BMI measurement methods.
+Provides a more formal transition and acknowledges previous research.
 
 ### Suggestion 4
 
 **Location**: Introduction  
-**Category**: problem_statement  
-**Focus**: clarity  
+**Category**: problem  
+**Focus**: gap  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset...
+> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
 
 **Improved Version**:  
-> This study conducts an extensive assessment of BMI estimation from smartphone camera images utilizing deep learning techniques on a substantial proprietary dataset...
+> To bridge the gap in small datasets, we employ deep learning models on a large-scale, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
 
 **Explanation**:  
-The revised version clarifies the scope and depth of the research, providing a more focused and precise description of the study's objectives.
+Emphasizes the solution to the identified research gap.
 
 ### Suggestion 5
 
 **Location**: Introduction  
-**Category**: problem_statement  
-**Focus**: clarity  
+**Category**: objectives  
+**Focus**: objectives  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images...
+> We aim to uncover how various views of the body influence the accuracy of weight predictions, providing insights into the most effective approaches for different application scenarios.
 
 **Improved Version**:  
-> Existing computer vision methods for BMI estimation have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images...
+> Our objective is to investigate how different body perspectives impact weight prediction accuracy, offering valuable insights for diverse application scenarios.
 
 **Explanation**:  
-The revision enhances the clarity of the existing literature context, providing a more concise and precise description of the limitations in previous studies.
+Clarifies the research goal and enhances the focus on the objectives.
 
 ### Suggestion 6
 
@@ -567,13 +587,13 @@ The revision enhances the clarity of the existing literature context, providing 
 **Focus**: organization  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE)...
+> The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.
 
 **Improved Version**:  
-> The study findings reveal that torso-up images exhibit comparable performance to full-body images (9% MAPE), whereas face-only images demonstrate lower accuracy (11% MAPE)...
+> The subsequent sections are organized as follows: Section 2 offers a review of related research in the domain of weight estimation from images.
 
 **Explanation**:  
-The revised text enhances the clarity of the study results, providing a more structured and coherent presentation of the comparative analysis.
+Improves the transition and coherence between sections.
 
 ### Suggestion 7
 
@@ -582,582 +602,914 @@ The revised text enhances the clarity of the study results, providing a more str
 **Focus**: impact  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework...
+> For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.
 
 **Improved Version**:  
-> Our study showcases the practical implementation of the BMI estimation methodology through the deployment of image filtering and BMI estimation algorithms, integrated into mobile devices via the CLAID framework...
+> A 5% reduction in body weight for overweight individuals can significantly enhance health outcomes, including the prevention of type 2 diabetes and cardiovascular diseases.
 
 **Explanation**:  
-The revised version emphasizes the practical implications of the research, highlighting the implementation details and the utilization of specific tools and frameworks.
+Enhances the clarity and impact of the statement.
 
 ### Suggestion 8
+
+**Location**: Discussion  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+
+**Improved Version**:  
+> Our model showcases robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite lacking prior training on this dataset.
+
+**Explanation**:  
+Strengthens the emphasis on research outcomes and results.
+
+### Suggestion 9
+
+**Location**: Discussion  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Additionally, our research offers valuable insights for remote weight estimation in telemedicine consultations.
+
+**Explanation**:  
+Enhances the clarity and relevance of the research implications.
+
+### Suggestion 10
+
+**Location**: Discussion  
+**Category**: significance  
+**Focus**: contribution  
+
+**Original Text**:  
+> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
+
+**Improved Version**:  
+> Researchers interested in replicating our methodology can utilize the openly accessible source code we offer.
+
+**Explanation**:  
+Enhances the invitation for replication and transparency.
+
+### Suggestion 11
+
+**Location**: Discussion  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> Based on our experiments, we consider the following limitations of our study:
+
+**Improved Version**:  
+> Following our experiments, we acknowledge the following limitations of our study:
+
+**Explanation**:  
+Provides a more formal and structured introduction to the limitations.
+
+### Detailed Feedback
+### Context Analysis
+
+The introduction provides a detailed background on the research topic, highlighting the significance of BMI estimation from smartphone images.
+
+### Problem Analysis
+
+The problem statement is clearly articulated, focusing on the limitations of existing datasets and the need for more comprehensive research.
+
+### Objectives Analysis
+
+The research objectives are well-defined, aiming to address the dataset gap and explore the impact of different body perspectives on weight estimation accuracy.
+
+### Significance Assessment
+
+The research significance is justified by emphasizing the potential health implications of accurate weight estimation and the practical applications in telehealth.
+
+### Structure Evaluation
+
+The introduction lacks a smooth transition between background context and problem statement, impacting the overall flow of the section.
+
+## S4 - Literature Review
+### Score: 7/10
+
+### Summary
+The literature review provides a comprehensive overview of BMI estimation from images, with a detailed analysis of methodologies, datasets, and perspectives. While the critical analysis is thorough, some improvements in structuring the content and enhancing integration with existing literature are recommended. Overall, the study offers valuable insights into remote weight estimation and demonstrates strong generalizability of the model.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: structure  
+**Location**: Methodology section  
+**Issue**: Lack of clear subheadings or bullet points to delineate different steps in the image filtering process.  
+**Severity**: medium  
+**Impact**: Affects readability and understanding of the methodology.
+
+### Remark 2
+
+**Category**: integration  
+**Location**: Results section  
+**Issue**: Limited discussion on how the results align with existing literature or theoretical frameworks.  
+**Severity**: medium  
+**Impact**: Reduces the depth of analysis and connection to prior research.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: Abstract  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+
+**Improved Version**:  
+> The code for training, deployment, and the mobile applications is shared as open-source contributions.
+
+**Explanation**:  
+Improves clarity and conciseness.
+
+### Suggestion 2
 
 **Location**: Introduction  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images...
+> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
 
 **Improved Version**:  
-> The subsequent sections are organized as follows: Section 2 offers a comprehensive review of prior research in the domain of weight estimation from images...
+> Torso-up images show comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
 
 **Explanation**:  
-The improvement enhances the clarity of the paper structure overview, providing a more detailed and informative roadmap for the reader.
-
-### Suggestion 9
-
-**Location**: Introduction  
-**Category**: background  
-**Focus**: context  
-
-**Original Text**:  
-> Prior research has explored various approaches to estimating body weight and BMI using machine learning methods applied to images captured from different perspectives...
-
-**Improved Version**:  
-> Previous studies have investigated diverse methodologies for estimating body weight and BMI through the application of machine learning techniques on images obtained from varying perspectives...
-
-**Explanation**:  
-The revised text enriches the literature context, offering a more nuanced and detailed description of the previous research approaches and perspectives.
-
-### Suggestion 10
-
-**Location**: Introduction  
-**Category**: background  
-**Focus**: completeness  
-
-**Original Text**:  
-> Various target variables have been used in the literature, including body mass index, body weight, and body fat metrics...
-
-**Improved Version**:  
-> The literature has employed multiple target variables, encompassing body mass index, body weight, and body fat metrics...
-
-**Explanation**:  
-The revision enhances the completeness of the background information, providing a more comprehensive overview of the diverse target variables used in previous studies.
-
-### Suggestion 11
-
-**Location**: Introduction  
-**Category**: background  
-**Focus**: clarity  
-
-**Original Text**:  
-> Some early approaches for BMI estimation from images relied on manually engineered features to extract meaningful information before training computational models...
-
-**Improved Version**:  
-> Initial methods for BMI estimation from images involved the extraction of meaningful information through manually engineered features prior to training computational models...
-
-**Explanation**:  
-The revised text improves the clarity of the background information, offering a more detailed and structured description of the early approaches in the field.
-
-### Detailed Feedback
-### Background Analysis
-
-The introduction provides a basic overview of BMI estimation from images but lacks depth in explaining the significance of BMI assessment and its implications on health outcomes. The background information could be enhanced by providing more context on the importance of accurate BMI estimation and its role in health monitoring.
-
-### Problem Statement Analysis
-
-The research problem is vaguely defined, and the gap in existing literature that the study aims to address is not clearly articulated. The introduction should explicitly state the research objectives and hypotheses to provide a clear direction for the study.
-
-### Structure Analysis
-
-The paper structure overview is brief and lacks a detailed roadmap of the subsequent sections. Enhancing the organization by providing a more comprehensive preview of the paper's structure would improve the reader's understanding of the study flow.
-
-### Significance Analysis
-
-The research significance is not explicitly highlighted, and the potential impact of the study on the field of BMI estimation is not clearly articulated. Emphasizing the research significance and the contributions of the study would enhance the perceived value of the research.
-
-## S4 - Literature Review
-### Score: 7/10
-
-### Summary
-Overall, the literature review provides a solid foundation for the research, but improvements are needed in critical analysis, integration of methodologies, and coverage of recent studies. Enhancing the depth of analysis and ensuring accurate and fair citations will significantly strengthen the quality and impact of the review.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: coverage  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear mention of the novelty of the study compared to existing literature.  
-**Severity**: medium  
-**Impact**: This may lead to readers not understanding the unique contribution of the research.
-
-### Remark 2
-
-**Category**: analysis  
-**Location**: Related Work  
-**Issue**: The related work section lacks a critical comparison of different methodologies and their limitations.  
-**Severity**: high  
-**Impact**: This limits the depth of understanding for readers regarding the strengths and weaknesses of existing approaches.
-
-### Remark 3
-
-**Category**: integration  
-**Location**: Methodology  
-**Issue**: The methodology section does not clearly link the image filtering process to the model's performance.  
-**Severity**: medium  
-**Impact**: This disconnect may lead to confusion about the relevance of the filtering steps in improving model accuracy.
-
-### Remark 4
-
-**Category**: quality  
-**Location**: Results  
-**Issue**: The discussion section lacks a detailed analysis of the limitations of the study.  
-**Severity**: medium  
-**Impact**: This omission may undermine the credibility of the research findings.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Abstract  
-**Category**: coverage  
-**Focus**: comprehensiveness  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Recent computer vision-based approaches for BMI estimation have been primarily constrained by small datasets, typically containing up to 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Clarifies the limitation in dataset sizes for existing approaches.
-
-### Suggestion 2
-
-**Location**: Discussion  
-**Category**: quality  
-**Focus**: accuracy  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen datasets, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset.
-
-**Explanation**:  
-Enhances clarity and specificity in describing the model's performance.
-
-### Suggestion 3
-
-**Location**: Related Work  
-**Category**: analysis  
-**Focus**: critical_analysis  
-
-**Original Text**:  
-> The related work section lacks a critical comparison of different methodologies and their limitations.
-
-**Improved Version**:  
-> The related work section would benefit from a critical comparison of various methodologies, highlighting their respective strengths and weaknesses.
-
-**Explanation**:  
-Encourages a more thorough analysis of existing literature.
-
-### Suggestion 4
-
-**Location**: Methodology  
-**Category**: integration  
-**Focus**: integration  
-
-**Original Text**:  
-> The methodology section does not clearly link the image filtering process to the model's performance.
-
-**Improved Version**:  
-> The methodology section should explicitly connect the image filtering process to the model's performance to demonstrate its impact on results.
-
-**Explanation**:  
-Provides a clearer understanding of the methodology's relevance.
-
-### Detailed Feedback
-### Coverage Analysis
-
-The literature review provides a good overview of existing work in BMI estimation from images, but it could benefit from a more comprehensive coverage of recent studies with larger datasets.
-
-### Analysis Depth
-
-The critical analysis of methodologies and their implications for the research could be more detailed to enhance the understanding of the strengths and limitations of different approaches.
-
-### Integration Quality
-
-The integration of the image filtering process with the model's performance needs to be more clearly articulated to establish the importance of preprocessing steps.
-
-### Citation Quality
-
-The citation practices are generally accurate, but there is a need to ensure a fair representation of all relevant works in the field to avoid bias.
-
-## S5 - Methodology
-### Score: 7/10
-
-### Summary
-The methodology section demonstrates a solid foundation for evaluating BMI estimation from smartphone camera images. However, there are critical issues related to model architecture justification, potential biases, and dataset transparency that need to be addressed. By enhancing method reproducibility, statistical rigor, and ethical considerations, the study can significantly improve its overall quality and impact.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: design  
-**Location**: Section 3.3  
-**Issue**: The methodology lacks a detailed explanation of the rationale behind choosing the DenseNet201 architecture with SE blocks for BMI estimation.  
-**Severity**: medium  
-**Impact**: This omission makes it difficult for readers to understand why this specific architecture was selected over others, potentially undermining the credibility of the methodology.
-
-### Remark 2
-
-**Category**: quality  
-**Location**: Section 4  
-**Issue**: The limitations section does not address potential biases introduced by self-reported height and weight labels, which could impact the accuracy of BMI estimation.  
-**Severity**: high  
-**Impact**: Failure to acknowledge and address potential biases may lead to inaccurate results and diminish the reliability of the study findings.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Section 3.3  
-**Category**: methods  
-**Focus**: clarity  
-
-**Original Text**:  
-> We train separate models for each perspective.
-
-**Improved Version**:  
-> Training separate models for each perspective allows for a more focused analysis of the impact of different image perspectives on BMI estimation accuracy.
-
-**Explanation**:  
-This change enhances the clarity and completeness of the methodology by explicitly stating the rationale behind training separate models.
-
-### Suggestion 2
-
-**Location**: Section 3.3  
-**Category**: methods  
-**Focus**: rigor  
-
-**Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
-
-**Improved Version**:  
-> We split the dataset into training, validation, and test sets with proportions of 70%, 15%, and 15%, respectively, to ensure a more balanced distribution for model training and evaluation.
-
-**Explanation**:  
-Balancing the dataset proportions can help prevent bias in model performance evaluation and improve the robustness of the results.
+Enhances readability and coherence.
 
 ### Suggestion 3
 
 **Location**: Abstract  
-**Category**: reproducibility  
-**Focus**: reproducibility  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions on a public repository to ensure transparency, reproducibility, and accessibility for the research community.
+> We showcase the practical implementation of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, on mobile devices using the CLAID framework.
 
 **Explanation**:  
-Sharing the code openly enhances method reproducibility and transparency, allowing others to validate the findings and build upon the research.
+Streamlines the sentence for better flow.
 
 ### Suggestion 4
 
-**Location**: Section 4  
-**Category**: quality  
-**Focus**: ethical considerations  
+**Location**: Methodology section  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
+> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
 
 **Improved Version**:  
-> The self-reported height of each user at the beginning of the fitness program introduces a potential source of bias and inaccuracies in the dataset.
+> Although the base Densenet201 model is pre-trained on the ImageNet dataset, we keep all layers trainable during training.
 
 **Explanation**:  
-Highlighting the potential bias introduced by self-reported height data helps to acknowledge limitations and ensure transparency in data collection methods.
+Clarifies the relationship between pre-training and training.
 
 ### Suggestion 5
 
-**Location**: Section 4  
-**Category**: quality  
-**Focus**: ethical considerations  
-
-**Original Text**:  
-> The training dataset has a significant gender imbalance.
-
-**Improved Version**:  
-> The training dataset exhibits a significant gender imbalance, with potential implications for model generalizability across different genders.
-
-**Explanation**:  
-Addressing the gender imbalance issue is crucial for ensuring the model's performance is consistent across diverse user demographics.
-
-### Suggestion 6
-
-**Location**: Section 3.3  
-**Category**: methods  
-**Focus**: rigor  
-
-**Original Text**:  
-> No further hyperparameter tuning was performed.
-
-**Improved Version**:  
-> While no further hyperparameter tuning was conducted, a sensitivity analysis on key hyperparameters could provide insights into the model's performance stability and generalizability.
-
-**Explanation**:  
-Performing a sensitivity analysis on hyperparameters can enhance the rigor of the methodology and strengthen the validity of the results.
-
-### Suggestion 7
-
-**Location**: Section 3.3  
-**Category**: analysis  
-**Focus**: validation  
+**Location**: Methodology section  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
 > We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
 
 **Improved Version**:  
-> While tracking Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, consider utilizing these metrics to guide training decisions and optimize model performance.
+> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, we do not utilize these metrics to guide training.
 
 **Explanation**:  
-Leveraging performance metrics for real-time feedback during training can help fine-tune the model and improve its accuracy.
+Enhances precision and clarity.
+
+### Suggestion 6
+
+**Location**: Methodology section  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
+
+**Improved Version**:  
+> The dataset is divided into training, test, and validation sets comprising 75%, 15%, and 10% of the data, respectively.
+
+**Explanation**:  
+Provides a more formal and structured presentation.
+
+### Suggestion 7
+
+**Location**: Results section  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> The proprietary dataset consists of 84,963 photos of 25,353 individuals.
+
+**Improved Version**:  
+> The proprietary dataset comprises 84,963 photos collected from 25,353 individuals.
+
+**Explanation**:  
+Improves clarity and conciseness.
 
 ### Suggestion 8
 
-**Location**: Abstract  
-**Category**: reproducibility  
-**Focus**: reproducibility  
+**Location**: Results section  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
-> The code used for this study is available at [GitHub link].
+> The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.
 
 **Improved Version**:  
-> The code used for this study is available at [GitHub link], ensuring transparency, reproducibility, and facilitating collaboration and further research in the field.
+> The dataset filtering process led to the removal of 13,642 (16.2%) images prior to training.
 
 **Explanation**:  
-Explicitly mentioning the availability of code enhances the reproducibility and accessibility of the research, promoting scientific integrity.
+Enhances readability and precision.
 
 ### Suggestion 9
 
-**Location**: Abstract  
-**Category**: reproducibility  
-**Focus**: reproducibility  
+**Location**: Discussion section  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
-> The dataset used is proprietary and not publicly available.
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
 
 **Improved Version**:  
-> While the dataset used is proprietary and not publicly available, consider providing a detailed description of the dataset characteristics and data collection process to enhance transparency and enable readers to assess data quality.
+> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
 
 **Explanation**:  
-Providing detailed information about the dataset can help readers evaluate the reliability and validity of the study findings.
+Enhances clarity and impact of the statement.
 
 ### Suggestion 10
 
-**Location**: Section 4  
-**Category**: quality  
-**Focus**: ethical considerations  
+**Location**: Discussion section  
+**Category**: structure  
+**Focus**: organization  
 
 **Original Text**:  
-> The limitations section does not address potential biases introduced by self-reported height and weight labels.
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
 
 **Improved Version**:  
-> The limitations section should explicitly address potential biases introduced by self-reported height and weight labels to ensure transparency and acknowledge the limitations of the study.
+> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
 
 **Explanation**:  
-Addressing potential biases in the limitations section is essential for maintaining research integrity and credibility.
+Improves coherence and transitions.
+
+### Suggestion 11
+
+**Location**: Discussion section  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> Based on our experiments, we consider the following limitations of our study:
+
+**Improved Version**:  
+> From our experiments, we identify the following limitations of our study:
+
+**Explanation**:  
+Enhances clarity and transitions.
+
+### Detailed Feedback
+### Coverage Analysis
+
+The literature review provides a comprehensive overview of BMI estimation from images, highlighting the significance of the research area and the gap addressed by the study. The review of related work is detailed, covering various datasets, methodologies, and perspectives used in prior studies.
+
+### Analysis Quality
+
+The critical analysis of the methodology, results, and implications is thorough, providing insights into the experimental process and the significance of the findings. The evaluation of model performance on different datasets and perspectives adds depth to the analysis.
+
+### Structure Evaluation
+
+The organization of the literature review is logical, with clear sections dedicated to introduction, methodology, results, and discussion. However, some subsections within the methodology and results could benefit from clearer subheadings or bullet points to enhance readability.
+
+### Citation Assessment
+
+The citation quality is adequate, with relevant references to prior studies in the field of BMI estimation from images. However, there could be more recent references included to ensure the literature review is up-to-date.
+
+### Integration Review
+
+The integration of the research within the existing body of knowledge is well-done, with connections drawn between the current study and prior research. However, further discussion on how the results align with existing literature and theoretical frameworks could enhance the depth of analysis.
+
+## S5 - Methodology
+### Score: 7/10
+
+### Summary
+Overall, the study presents a comprehensive methodology for BMI estimation using deep learning on a real-world dataset. While the research design and analysis methods are strong, improvements in data quality assurance, validation procedures, and ethical considerations are recommended to enhance the study's validity and reliability.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: quality  
+**Location**: Image filtering techniques  
+**Issue**: The filtering process based on human bounding box and keypoint data may not capture all unsuitable images accurately, leading to potential biases in the dataset.  
+**Severity**: medium  
+**Impact**: This could affect the model's performance and generalizability, as the dataset may still contain images that are not suitable for accurate BMI estimation.
+
+### Remark 2
+
+**Category**: ethics  
+**Location**: Dataset section  
+**Issue**: The self-reported height and weight labels introduce potential inaccuracies and biases in the data, impacting the reliability of the results.  
+**Severity**: high  
+**Impact**: This could undermine the validity of the study's findings and raise concerns about the accuracy of the BMI estimation.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: Dataset section  
+**Category**: quality  
+**Focus**: validity  
+
+**Original Text**:  
+> Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.
+
+**Improved Version**:  
+> Images captured in real-life scenarios exhibit significant variation in factors such as image quality, lighting, and subject posture, which may introduce biases in the dataset.
+
+**Explanation**:  
+Adding the mention of potential biases due to variations in image quality and lighting provides a more accurate description of the dataset.
+
+### Suggestion 2
+
+**Location**: Image filtering techniques  
+**Category**: quality  
+**Focus**: reliability  
+
+**Original Text**:  
+> We apply a filtering process to automatically curate the real-world dataset.
+
+**Improved Version**:  
+> We apply a rigorous filtering process to automatically curate the real-world dataset, ensuring the exclusion of unsuitable images.
+
+**Explanation**:  
+Emphasizing the rigor of the filtering process highlights the dataset's quality and reliability.
+
+### Suggestion 3
+
+**Location**: Image filtering techniques  
+**Category**: methods  
+**Focus**: procedures  
+
+**Original Text**:  
+> Images with a human bounding box confidence score of less than a certain threshold are removed.
+
+**Improved Version**:  
+> Images with a human bounding box confidence score below a specified threshold are filtered out to enhance dataset quality.
+
+**Explanation**:  
+Clarifying the specific threshold for filtering improves transparency and reproducibility of the methodology.
+
+### Suggestion 4
+
+**Location**: Results section  
+**Category**: analysis  
+**Focus**: statistical methods  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data.
+
+**Improved Version**:  
+> Our model showcases robust generalizability to unseen datasets, validating its performance across diverse scenarios.
+
+**Explanation**:  
+Highlighting the validation of generalizability strengthens the credibility of the model's performance.
+
+### Suggestion 5
+
+**Location**: Discussion section  
+**Category**: ethics  
+**Focus**: considerations  
+
+**Original Text**:  
+> Our work provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Our study offers valuable insights for remote weight estimation in telemedicine settings, enhancing healthcare accessibility and efficiency.
+
+**Explanation**:  
+Expanding on the implications of the study emphasizes its potential impact on healthcare practices.
 
 ### Detailed Feedback
 ### Design Analysis
 
-The research design is appropriate for the experimental nature of the study, with a focus on evaluating BMI estimation from smartphone camera images using deep learning models. However, more detailed justification for the choice of model architecture and hyperparameters would enhance the design.
+The research design is robust, utilizing a large-scale real-world dataset for BMI estimation. However, potential biases in image filtering and self-reported labels may impact the study's validity.
 
-### Methods Analysis
+### Methods Assessment
 
-The methodology provides a detailed description of image filtering, perspective cropping, and model training. However, there is room for improvement in terms of reproducibility, statistical rigor, and addressing potential biases introduced by self-reported data.
+The methodology is detailed and well-described, with clear procedures for image filtering, perspective cropping, and model training. However, improvements in data quality assurance and validation methods could enhance the methodology.
 
-### Analysis Procedures
+### Analysis Evaluation
 
-The analysis procedures are well-described, including the evaluation of model performance on different datasets and perspectives. However, incorporating a more extensive sensitivity analysis and utilizing performance metrics for model optimization could strengthen the analysis.
+The analysis methods are sound, with a focus on deep learning models for BMI estimation. The comparison of different image perspectives adds value to the study. However, further validation on external datasets could strengthen the analysis.
 
-### Quality Measures
+### Quality Review
 
-The study demonstrates a commitment to quality control through image filtering strategies and model evaluation on multiple datasets. However, addressing potential biases, ensuring dataset balance, and conducting a more thorough hyperparameter search could enhance the overall quality.
+The study demonstrates good validity and reliability in BMI estimation. However, addressing potential biases in data collection and improving data quality assurance processes would enhance the overall quality of the research.
 
-### Reproducibility
+### Ethics Compliance
 
-While the study provides code for training and deployment, ensuring the availability of the dataset characteristics and data collection process, along with addressing biases and limitations, would improve the reproducibility and transparency of the research.
+Ethical considerations are mentioned, such as consent for image use. However, the reliance on self-reported labels raises concerns about data accuracy and potential biases. Ensuring data privacy and accuracy is crucial for ethical compliance.
 
 ## S6 - Results
 ### Score: 7/10
 
 ### Summary
-Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone images. While the presentation of results is clear, improvements are needed in summarizing key findings and addressing potential biases from self-reported data. The study aligns well with the research question, but the validity could be enhanced by addressing data accuracy issues. The statistical methods are sound, providing detailed insights into model performance and generalizability.
+Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. The results demonstrate strong generalizability and performance, particularly with full-body images. Improvements in clarity, consistency, and comparisons with existing models on external datasets would enhance the manuscript's quality and impact.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: presentation  
 **Location**: Abstract  
-**Issue**: The abstract lacks a clear summary of the key findings and the significance of the study.  
+**Issue**: Abstract lacks a clear summary of key findings and implications.  
 **Severity**: medium  
-**Impact**: May deter readers from exploring the full paper due to lack of concise information.
+**Impact**: Reduces reader's understanding of the study's significance.
 
 ### Remark 2
 
-**Category**: validity  
-**Location**: Methodology  
-**Issue**: The self-reported height and weight labels introduce potential inaccuracies and biases.  
-**Severity**: high  
-**Impact**: Could affect the reliability and generalizability of the results.
+**Category**: quality  
+**Location**: Results on external datasets  
+**Issue**: Lack of comparison with other state-of-the-art models on external datasets.  
+**Severity**: medium  
+**Impact**: Limits the context and validity of the model's performance.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Results section  
+**Location**: Abstract  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> We report the processing speed for filtering and inference on Android and iOS devices.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> We provide detailed information on the processing speed for filtering and inference on Android and iOS devices, including specific metrics and comparisons.
 
 **Explanation**:  
-Maintaining consistency in reporting metrics enhances clarity and readability.
+Adding specific metrics and comparisons enhances the transparency and completeness of the reported results.
 
 ### Suggestion 2
 
-**Location**: Discussion section  
-**Category**: relevance  
-**Focus**: evidence  
+**Location**: Results interpretation  
+**Category**: presentation  
+**Focus**: clarity  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data...
+> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
 
 **Improved Version**:  
-> Our model demonstrates strong generalizability to unseen data...
+> Torso-up images demonstrate comparable performance to full-body images with a MAPE of 9%, while face-only images exhibit lower accuracy with a MAPE of 11%.
 
 **Explanation**:  
-Providing evidence of model performance enhances the credibility of the study.
+Rephrasing for clarity and consistency in reporting results.
+
+### Suggestion 3
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+
+**Improved Version**:  
+> Our model exhibits robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+
+**Explanation**:  
+Emphasizing the key finding of generalizability for clarity and impact.
+
+### Suggestion 4
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Our study offers valuable insights for remote weight estimation in telemedicine settings.
+
+**Explanation**:  
+Streamlining the statement for conciseness and impact.
+
+### Suggestion 5
+
+**Location**: Results on external datasets  
+**Category**: quality  
+**Focus**: statistics  
+
+**Original Text**:  
+> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+
+**Improved Version**:  
+> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
+
+**Explanation**:  
+Clarifying the rationale behind the choice of hyperparameters.
+
+### Suggestion 6
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+
+**Improved Version**:  
+> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
+
+**Explanation**:  
+Providing a clear comparison for transparency and context.
+
+### Suggestion 7
+
+**Location**: Results on external datasets  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
+
+**Improved Version**:  
+> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
+
+**Explanation**:  
+Maintaining consistency in reporting metrics for clarity.
+
+### Suggestion 8
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+
+**Improved Version**:  
+> Our model showcases robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+
+**Explanation**:  
+Rephrasing for clarity and impact.
+
+### Suggestion 9
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).
+
+**Improved Version**:  
+> The full-body perspective exhibits the best performance, with the lowest MAPE on BMI prediction (7.9%).
+
+**Explanation**:  
+Enhancing clarity and emphasis on key findings.
+
+### Suggestion 10
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Our study offers valuable insights for remote weight estimation in telemedicine settings.
+
+**Explanation**:  
+Streamlining the statement for conciseness and impact.
+
+### Suggestion 11
+
+**Location**: Results on external datasets  
+**Category**: quality  
+**Focus**: statistics  
+
+**Original Text**:  
+> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+
+**Improved Version**:  
+> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
+
+**Explanation**:  
+Clarifying the rationale behind the choice of hyperparameters.
+
+### Suggestion 12
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+
+**Improved Version**:  
+> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
+
+**Explanation**:  
+Providing a clear comparison for transparency and context.
+
+### Suggestion 13
+
+**Location**: Results on external datasets  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
+
+**Improved Version**:  
+> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
+
+**Explanation**:  
+Maintaining consistency in reporting metrics for clarity.
 
 ### Detailed Feedback
 ### Presentation Analysis
 
-The results are presented clearly with detailed metrics and comparisons. However, the abstract and some sections lack concise summaries of key findings.
+The data presentation is generally clear and organized, with detailed descriptions of methods and results. However, some sections lack concise summaries of key findings. The statistical analysis is robust, with appropriate measures reported. The figures and tables are of good quality but could benefit from more detailed labeling and explanations.
 
-### Validity Analysis
+### Analysis Quality
 
-The study's validity is compromised by the self-reported height and weight labels, which may introduce biases.
+The statistical analysis is thorough, with appropriate tests and measures used. The effect sizes and confidence intervals are reported, enhancing the validity of the results. However, more comparisons with existing models on external datasets would strengthen the analysis.
 
-### Relevance Analysis
+### Interpretation Review
 
-The study aligns well with the research question, providing insights into BMI estimation from smartphone images.
+The interpretation of results is generally sound, with implications discussed. The comparison of different image perspectives is insightful. However, more in-depth discussion on the limitations and implications of the findings would enhance the interpretation.
 
-### Interpretation Analysis
+### Visualization Assessment
 
-The interpretation of results is thorough, comparing different image perspectives and discussing practical implications.
+The figures and tables are well-presented, aiding in understanding the results. However, some figures could be enhanced with clearer labels and annotations for better interpretation.
 
-### Statistical Analysis
+### Significance Evaluation
 
-The statistical methods used are sound, with detailed descriptions of model architecture and training procedures.
+The reporting of significance levels and effect sizes is appropriate, providing a comprehensive analysis of the results. The discussion on generalizability and practical implications adds value to the study.
 
 ## S7 - Discussion
 ### Score: 7/10
 
 ### Summary
-The discussion section provides a thorough analysis of the results, aligning well with the research questions and offering valuable insights for practical applications. However, there are areas that could be improved, such as providing more in-depth analysis on result interpretation, addressing potential biases in the dataset, and enhancing the clarity and depth of the discussion on limitations and implications.
+The study demonstrates a significant advancement in BMI estimation from smartphone images, but improvements are needed in contextualizing the research within existing literature, addressing limitations in the methodology, and enhancing the discussion on practical implications and theoretical contributions.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: interpretation  
-**Location**: Results on the proprietary dataset using different image perspectives  
-**Issue**: Lack of in-depth analysis on why full-body perspective yields the best performance  
+**Category**: quality  
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear statement of the significance of the study results.  
 **Severity**: medium  
-**Impact**: Reduces clarity and depth of result interpretation
+**Impact**: This affects the reader's understanding of the importance of the research findings.
 
 ### Remark 2
 
-**Category**: limitations  
-**Location**: Limitations  
-**Issue**: Limited discussion on the potential biases introduced by self-reported height and weight labels  
+**Category**: context  
+**Location**: Introduction  
+**Issue**: Limited comparison of the current study with existing literature on BMI estimation.  
 **Severity**: medium  
-**Impact**: Affects the reliability and validity of the dataset
+**Impact**: This hinders the contextualization of the research within the broader field.
+
+### Remark 3
+
+**Category**: reflection  
+**Location**: Methodology  
+**Issue**: Insufficient discussion on the limitations of the image filtering process.  
+**Severity**: high  
+**Impact**: This undermines the credibility of the methodology and results.
+
+### Remark 4
+
+**Category**: impact  
+**Location**: Results  
+**Issue**: Lack of discussion on the practical implications of the model's performance on external datasets.  
+**Severity**: medium  
+**Impact**: This diminishes the understanding of the model's real-world applicability.
+
+### Remark 5
+
+**Category**: quality  
+**Location**: Discussion  
+**Issue**: Inadequate depth in discussing the theoretical contributions of the study.  
+**Severity**: medium  
+**Impact**: This limits the theoretical implications of the research.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Results section  
-**Category**: interpretation  
+**Location**: Abstract  
+**Category**: quality  
+**Focus**: interpretation  
+
+**Original Text**:  
+> The abstract lacks a clear statement of the significance of the study results.
+
+**Improved Version**:  
+> The study's findings demonstrate a significant advancement in BMI estimation from smartphone images, enabling rapid weight assessment in diverse scenarios.
+
+**Explanation**:  
+This improvement provides a concise summary of the study's importance.
+
+### Suggestion 2
+
+**Location**: Introduction  
+**Category**: context  
+**Focus**: comparison  
+
+**Original Text**:  
+> Limited comparison of the current study with existing literature on BMI estimation.
+
+**Improved Version**:  
+> A comprehensive comparison with prior studies on BMI estimation, highlighting the novelty and contributions of the current research.
+
+**Explanation**:  
+This enhancement adds depth to the contextualization of the study.
+
+### Suggestion 3
+
+**Location**: Methodology  
+**Category**: reflection  
+**Focus**: limitations  
+
+**Original Text**:  
+> Insufficient discussion on the limitations of the image filtering process.
+
+**Improved Version**:  
+> A detailed analysis of the potential biases and challenges in the image filtering process, including the impact on dataset quality and model performance.
+
+**Explanation**:  
+This improvement enhances the transparency and rigor of the methodology.
+
+### Suggestion 4
+
+**Location**: Results  
+**Category**: impact  
+**Focus**: implications  
+
+**Original Text**:  
+> Lack of discussion on the practical implications of the model's performance on external datasets.
+
+**Improved Version**:  
+> Exploration of how the model's performance on external datasets can inform real-world applications and decision-making in healthcare settings.
+
+**Explanation**:  
+This addition strengthens the understanding of the model's utility beyond research settings.
+
+### Suggestion 5
+
+**Location**: Discussion  
+**Category**: quality  
+**Focus**: implications  
+
+**Original Text**:  
+> Inadequate depth in discussing the theoretical contributions of the study.
+
+**Improved Version**:  
+> Thorough examination of how the study's findings advance the theoretical understanding of BMI estimation through deep learning models.
+
+**Explanation**:  
+This revision elevates the theoretical significance of the research.
+
+### Detailed Feedback
+### Interpretation Analysis
+
+The result interpretation is clear and supported by numerical data, enhancing the credibility of the findings.
+
+### Context Review
+
+The literature comparison provides relevant background information but lacks a detailed analysis of the existing studies.
+
+### Reflection Assessment
+
+The limitations and future work sections are informative, but more emphasis on potential biases and challenges would strengthen the methodology.
+
+### Impact Evaluation
+
+The practical implications and theoretical contributions are discussed, but a deeper exploration of the model's real-world applicability and theoretical advancements is needed.
+
+### Quality Analysis
+
+The discussion is coherent and well-structured, but additional depth in theoretical contributions and practical implications would enhance the overall quality.
+
+## S8 - Conclusion
+### Score: 7/10
+
+### Summary
+Overall, the study provides valuable insights into BMI estimation from smartphone images, with a strong emphasis on model performance and generalizability. While the methodology is detailed, some sections could benefit from concise summarization for improved clarity and readability. The study's contribution to the field is significant, particularly in offering a direct comparison of image perspectives and showcasing practical implications for telemedicine applications.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: support  
+**Location**: Abstract  
+**Issue**: The abstract lacks specific results and metrics to support the claims made about the BMI estimation model's performance.  
+**Severity**: medium  
+**Impact**: Weakens the credibility of the study and may mislead readers about the model's effectiveness.
+
+### Remark 2
+
+**Category**: objectives  
+**Location**: Introduction  
+**Issue**: The research objectives are not explicitly stated, making it challenging for readers to understand the study's purpose.  
+**Severity**: medium  
+**Impact**: Lack of clear objectives hinders the clarity of the study and may lead to confusion about the intended outcomes.
+
+### Remark 3
+
+**Category**: implications  
+**Location**: Results on external datasets  
+**Issue**: The discussion on practical implications lacks depth and fails to address the broader impact of the study's findings.  
+**Severity**: low  
+**Impact**: Insufficient discussion on implications limits the study's relevance and applicability in real-world scenarios.
+
+### Remark 4
+
+**Category**: presentation  
+**Location**: Methodology  
+**Issue**: The methodology section is overly detailed, making it challenging for readers to grasp the key processes efficiently.  
+**Severity**: medium  
+**Impact**: Excessive detail may overwhelm readers and detract from the main research focus.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: Abstract  
+**Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
 > We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, which consists of real-world data only, using full-torso images.
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, comprising real-world data only, by utilizing full-torso images.
 
 **Explanation**:  
-Adding clarity by specifying that the hold-out test dataset comprises real-world data only.
+Clarifies the context and specificity of the dataset used for testing the model's performance.
 
 ### Suggestion 2
 
-**Location**: Results section  
-**Category**: interpretation  
-**Focus**: depth  
+**Location**: Abstract  
+**Category**: presentation  
+**Focus**: clarity  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Improved Version**:  
-> Our findings suggest that torso-up images achieve performance comparable to full-body images with a Mean Absolute Percentage Error (MAPE) of 9%, whereas face-only images exhibit lower accuracy with an MAPE of 11%.
+> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing the results from full-body, torso-up, and face-only images.
 
 **Explanation**:  
-Enhancing the depth of the comparison between different image perspectives.
+Enhances the clarity of the sentence and improves the flow of information.
 
 ### Suggestion 3
 
-**Location**: Dataset description  
-**Category**: interpretation  
-**Focus**: clarity  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> Participants self-reported their height at the initiation of the fitness program.
-
-**Explanation**:  
-Improving clarity and conciseness of the description.
-
-### Suggestion 4
-
-**Location**: Discussion section  
-**Category**: interpretation  
-**Focus**: clarity  
+**Location**: Discussion  
+**Category**: objectives  
+**Focus**: fulfillment  
 
 **Original Text**:  
 > Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, exemplified by achieving a Mean Absolute Percentage Error (MAPE) of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this dataset.
+> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
 
 **Explanation**:  
-Enhancing clarity by specifying the metric and dataset used for evaluation.
+Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
 
-### Suggestion 5
+### Suggestion 4
 
-**Location**: Discussion section  
-**Category**: interpretation  
+**Location**: Results on external datasets  
+**Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We want to highlight, that our model was trained solely on the real-world dataset containing images with highly variable quality, lighting, and posture conditions.
+> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
 
 **Improved Version**:  
-> It is important to note that our model was exclusively trained on the real-world dataset, which includes images with diverse quality, lighting, and posture conditions.
+> Additionally, we assess our model’s generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
 
 **Explanation**:  
-Providing a clearer emphasis on the training dataset characteristics.
+Improves the coherence and readability of the sentence by restructuring the information.
 
-### Suggestion 6
+### Suggestion 5
 
-**Location**: Discussion section  
+**Location**: Discussion  
 **Category**: implications  
-**Focus**: implications  
+**Focus**: practical  
 
 **Original Text**:  
 > Our work also provides insights for remote weight estimation during telemedicine consultations.
@@ -1166,1002 +1518,861 @@ Providing a clearer emphasis on the training dataset characteristics.
 > Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
 
 **Explanation**:  
-Enhancing the significance of the implications discussed.
+Enhances the impact of the study's findings on practical applications in telemedicine.
+
+### Suggestion 6
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: strength  
+
+**Original Text**:  
+> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
+
+**Improved Version**:  
+> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
+
+**Explanation**:  
+Enhances the distinction of the study's contribution in the field of BMI estimation from images.
 
 ### Suggestion 7
 
-**Location**: Practical Implications  
-**Category**: implications  
-**Focus**: clarity  
-
-**Original Text**:  
-> We also provide the source code for the application itself, enabling the deployment of our approach in real-world scenarios.
-
-**Improved Version**:  
-> Additionally, we offer the source code for the application, facilitating the implementation of our approach in real-world settings.
-
-**Explanation**:  
-Improving clarity and conciseness in describing the availability of the source code.
-
-### Suggestion 8
-
-**Location**: Limitations  
-**Category**: limitations  
-**Focus**: clarity  
-
-**Original Text**:  
-> The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
-
-**Improved Version**:  
-> There is a notable gender imbalance in the training dataset, with 49% female, 9% male, and 42% not disclosing their gender.
-
-**Explanation**:  
-Enhancing clarity and precision in describing the dataset composition.
-
-### Suggestion 9
-
-**Location**: Discussion section  
-**Category**: interpretation  
-**Focus**: depth  
-
-**Original Text**:  
-> We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.
-
-**Improved Version**:  
-> This discrepancy can be partially attributed to the substantial disparities between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.
-
-**Explanation**:  
-Providing a clearer explanation for the observed performance difference.
-
-### Suggestion 10
-
-**Location**: Discussion section  
-**Category**: interpretation  
-**Focus**: clarity  
+**Location**: Discussion  
+**Category**: objectives  
+**Focus**: fulfillment  
 
 **Original Text**:  
 > Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by achieving a Mean Absolute Percentage Error (MAPE) of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this dataset.
+> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
 
 **Explanation**:  
-Enhancing clarity by specifying the metric and dataset used for evaluation.
+Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
 
-### Suggestion 11
-
-**Location**: Results section  
-**Category**: interpretation  
-**Focus**: depth  
-
-**Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
-
-**Improved Version**:  
-> Our findings suggest that torso-up images achieve performance comparable to full-body images with a Mean Absolute Percentage Error (MAPE) of 9%, whereas face-only images exhibit lower accuracy with an MAPE of 11%.
-
-**Explanation**:  
-Enhancing the depth of the comparison between different image perspectives.
-
-### Detailed Feedback
-### Interpretation Analysis
-
-The interpretation of the results is generally clear, but could benefit from more in-depth analysis on why certain perspectives perform better than others.
-
-### Research Alignment
-
-The discussion aligns well with the research questions, especially in evaluating BMI estimation from different image perspectives.
-
-### Limitations Analysis
-
-The limitations discussion is somewhat limited, particularly in addressing potential biases introduced by self-reported height and weight labels.
-
-### Implications Analysis
-
-The theoretical and practical implications are well-discussed, highlighting the significance of the findings for telemedicine and remote weight estimation.
-
-### Critical Evaluation
-
-The discussion provides a comprehensive evaluation of the results, but could improve by addressing the limitations in more detail and providing clearer explanations for discrepancies in performance.
-
-## S8 - Conclusion
-### Score: 7/10
-
-### Summary
-Overall, the conclusion section provides a solid overview of the research findings on BMI estimation from smartphone images. To enhance the quality and completeness of the conclusion, it is recommended to strengthen the evidence-based support, explicitly fulfill the research objectives, delve deeper into the practical implications, improve the presentation quality, and clarify the contribution's significance.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: support  
-**Location**: Results on the proprietary dataset  
-**Issue**: Lack of detailed discussion on the statistical significance of the results and potential limitations of the methodology.  
-**Severity**: medium  
-**Impact**: Weakens the credibility of the findings and limits the generalizability of the results.
-
-### Remark 2
-
-**Category**: objectives  
-**Location**: Comparison to prior work  
-**Issue**: Limited discussion on how the study fulfills the specific research objectives outlined in the introduction.  
-**Severity**: low  
-**Impact**: Reduces clarity on the direct alignment of the results with the initial research goals.
-
-### Remark 3
-
-**Category**: implications  
-**Location**: Practical Implications  
-**Issue**: Lack of in-depth exploration of the practical implications of the findings for healthcare applications and telemedicine.  
-**Severity**: medium  
-**Impact**: Diminishes the relevance of the study for real-world implementation and decision-making.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Results on the proprietary dataset  
-**Category**: support  
-**Focus**: evidence  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data.
-
-**Improved Version**:  
-> Our model demonstrates strong generalizability to unseen data, supported by statistical significance testing and cross-validation.
-
-**Explanation**:  
-Adding details on statistical significance and cross-validation enhances the robustness of the generalizability claim.
-
-### Suggestion 2
-
-**Location**: Introduction  
-**Category**: objectives  
-**Focus**: fulfillment  
-
-**Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images.
-
-**Improved Version**:  
-> To address the gap in datasets of limited size, we explicitly fulfill the research objective by training deep learning models on a large-scale, real-world dataset of over 84,000 full-body images.
-
-**Explanation**:  
-This revision explicitly links the methodology to the research objective, enhancing clarity and alignment.
-
-### Suggestion 3
+### Suggestion 8
 
 **Location**: Discussion  
 **Category**: implications  
-**Focus**: practical implications  
+**Focus**: practical  
 
 **Original Text**:  
 > Our work also provides insights for remote weight estimation during telemedicine consultations.
 
 **Improved Version**:  
-> Our work also provides valuable insights for remote weight estimation during telemedicine consultations, highlighting the potential impact on healthcare accessibility and patient monitoring.
+> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
 
 **Explanation**:  
-Expanding on the practical implications strengthens the relevance and applicability of the study findings.
-
-### Detailed Feedback
-### Support Analysis
-
-The conclusion provides a comprehensive evaluation of BMI estimation from smartphone camera images, showcasing the model's performance on a large real-world dataset. However, more detailed statistical analysis and discussion of limitations would enhance the support for the results.
-
-### Objective Fulfillment
-
-The study successfully addresses the gap in limited dataset sizes by training deep learning models on a significantly larger real-world dataset. However, a more explicit connection between the methodology and the research objectives would improve clarity.
-
-### Implications Analysis
-
-While the practical implications for telemedicine are briefly mentioned, a deeper exploration of the implications for healthcare applications and decision-making would enrich the discussion.
-
-### Presentation Analysis
-
-The conclusion is well-structured and provides a clear summary of the key findings. However, enhancing the discussion on statistical significance, limitations, and practical implications would improve the overall presentation quality.
-
-### Contribution Analysis
-
-The study makes a valuable contribution by demonstrating the effectiveness of BMI estimation from smartphone images. However, further clarity on the implications and future directions would enhance the contribution's impact.
-
-## S9 - References
-### Score: 6/10
-
-### Summary
-The references section shows good accuracy in citations but lacks consistency in format and style. There is a need for improved diversity in sources cited to enhance the breadth of perspectives. Addressing the formatting inconsistencies and ensuring compliance with style guides will significantly enhance the professionalism and credibility of the manuscript.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: accuracy  
-**Location**: References Section  
-**Issue**: Inconsistencies in citation formats observed throughout the references.  
-**Severity**: medium  
-**Impact**: Affects the overall professionalism and credibility of the manuscript.
-
-### Remark 2
-
-**Category**: quality  
-**Location**: References Section  
-**Issue**: Lack of source diversity in the references, with a heavy focus on a few authors.  
-**Severity**: medium  
-**Impact**: Limits the breadth of perspectives and expertise presented in the research.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Throughout the references  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> Jin et al. (2022) [5]
-
-**Improved Version**:  
-> Jin et al. (2022)
-
-**Explanation**:  
-Remove unnecessary citation format for consistency.
-
-### Suggestion 2
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: reference  
-
-**Original Text**:  
-> Celeb-FBI dataset [9]
-
-**Improved Version**:  
-> Celeb-FBI dataset
-
-**Explanation**:  
-Consistent formatting without unnecessary citation numbers.
-
-### Suggestion 3
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: style  
-
-**Original Text**:  
-> Not (directly) reported
-
-**Improved Version**:  
-> Not directly reported
-
-**Explanation**:  
-Improve readability by removing parentheses around 'directly'.
-
-### Suggestion 4
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> Deborah B. Horn, Jaime P. Almandoz, and Michelle Look.
-
-**Improved Version**:  
-> Horn, D.B., Almandoz, J.P., & Look, M.
-
-**Explanation**:  
-Standardize author name format for consistency.
-
-### Suggestion 5
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> A. Pantanowitz, E. Cohen, P. Gradidge, N.J. Crowther, V. Aharonson, B. Rosman, and D.M. Rubin.
-
-**Improved Version**:  
-> Pantanowitz, A., Cohen, E., Gradidge, P., Crowther, N.J., Aharonson, V., Rosman, B., & Rubin, D.M.
-
-**Explanation**:  
-Consistent author name abbreviation format for clarity.
-
-### Suggestion 6
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> doi: 10.1186/s12916-021-02188-x.
-
-**Improved Version**:  
-> https://doi.org/10.1186/s12916-021-02188-x
-
-**Explanation**:  
-Convert DOI to a clickable URL for accessibility.
-
-### Suggestion 7
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> IEEE Transactions on Information Forensics and Security, 14(10):2676–2688, 2019.
-
-**Improved Version**:  
-> IEEE Trans. Inf. Forensics Secur., 14(10), 2676–2688.
-
-**Explanation**:  
-Abbreviate journal title and standardize volume and page format.
-
-### Suggestion 8
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> Min Jiang and Guodong Guo.
-
-**Improved Version**:  
-> Jiang, M., & Guo, G.
-
-**Explanation**:  
-Consistent author name abbreviation format for clarity.
+Enhances the impact of the study's findings on practical applications in telemedicine.
 
 ### Suggestion 9
 
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: strength  
 
 **Original Text**:  
-> Informatics in Medicine Unlocked, 26:100727, 2021.
+> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
 
 **Improved Version**:  
-> Inform. Med. Unlocked, 26, 100727.
+> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
 
 **Explanation**:  
-Standardize journal title abbreviation and volume/page format.
+Enhances the distinction of the study's contribution in the field of BMI estimation from images.
 
 ### Suggestion 10
 
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> doi: https://doi.org/10.1016/j.imu.2021.100727.
-
-**Improved Version**:  
-> https://doi.org/10.1016/j.imu.2021.100727
-
-**Explanation**:  
-Remove 'doi:' prefix for clarity and consistency.
-
-### Suggestion 11
-
-**Location**: References Section  
-**Category**: format  
-**Focus**: citation  
-
-**Original Text**:  
-> IEEE Transactions on Information Forensics and Security, 14(10):2676–2688, 2019.
-
-**Improved Version**:  
-> IEEE Trans. Inf. Forensics Secur., 14(10), 2676–2688.
-
-**Explanation**:  
-Abbreviate journal title and standardize volume and page format.
-
-### Detailed Feedback
-### Accuracy Analysis
-
-The citations are mostly accurate, with correct author names and publication details.
-
-### Completeness Analysis
-
-The references provide a good range of sources, but lack diversity in authorship and publication years.
-
-### Format Analysis
-
-There are inconsistencies in citation formats and reference styles throughout the section.
-
-### Quality Analysis
-
-The sources cited are relevant to the research topic, but there is a lack of diversity in the authors cited.
-
-### Organization Analysis
-
-The references are organized by author names, but could benefit from clearer subheadings or categorization.
-
-## S10 - Supplementary Materials
-### Score: 7/10
-
-### Summary
-Overall, the supplementary materials provide valuable additional information to support the main text, but there are areas that could be improved for better clarity, completeness, and coherence. Enhancements in presentation and organization would enhance the overall quality and impact of the supplementary materials.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: clarity  
-**Location**: 3.1  
-**Issue**: The explanation of the image filtering process is unclear and lacks specific details on the filtering criteria.  
-**Severity**: medium  
-**Impact**: May lead to confusion and misunderstanding of the methodology.
-
-### Remark 2
-
-**Category**: completeness  
-**Location**: 4.1  
-**Issue**: The dataset description lacks information on the distribution of age groups and ethnicities.  
-**Severity**: medium  
-**Impact**: Limits the understanding of dataset diversity and potential biases.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: 3.1  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> To identify outlier images, we apply a set of filtering steps based on human bounding box and body keypoint data, both obtained using the Detectron2 framework.
-
-**Improved Version**:  
-> We apply a filtering process to identify outlier images based on human bounding box and body keypoint data, obtained through the Detectron2 framework.
-
-**Explanation**:  
-Simplified the sentence for better readability and clarity.
-
-### Suggestion 2
-
-**Location**: 4.2  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.
-
-**Improved Version**:  
-> The dataset filtering process removed 13,642 images (16.2%) before training.
-
-**Explanation**:  
-Clarified the number format and made the sentence more concise.
-
-### Suggestion 3
-
-**Location**: 4.1  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> Subjects were instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
-
-**Improved Version**:  
-> Participants were instructed to capture front-facing, full-body images at different stages of their fitness program for progress tracking.
-
-**Explanation**:  
-Rephrased for better flow and clarity.
-
-### Suggestion 4
-
-**Location**: 5  
-**Category**: clarity  
-**Focus**: coherence  
+**Location**: Discussion  
+**Category**: objectives  
+**Focus**: fulfillment  
 
 **Original Text**:  
 > Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> Our model shows robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset without prior training on it.
+> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
 
 **Explanation**:  
-Clarified the sentence structure for better readability and coherence.
+Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
+
+### Suggestion 11
+
+**Location**: Discussion  
+**Category**: implications  
+**Focus**: practical  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
+
+**Explanation**:  
+Enhances the impact of the study's findings on practical applications in telemedicine.
+
+### Suggestion 12
+
+**Location**: Discussion  
+**Category**: presentation  
+**Focus**: strength  
+
+**Original Text**:  
+> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
+
+**Improved Version**:  
+> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
+
+**Explanation**:  
+Enhances the distinction of the study's contribution in the field of BMI estimation from images.
+
+### Detailed Feedback
+### Support Analysis
+
+The study provides a comprehensive evaluation of BMI estimation from smartphone camera images using a significantly larger real-world dataset, enhancing the credibility of the results.
+
+### Objective Fulfillment
+
+The research objectives are implicitly fulfilled through the detailed methodology and results analysis, showcasing the model's performance on various datasets.
+
+### Implications Analysis
+
+The study highlights the practical implications of BMI estimation from images, particularly in telemedicine scenarios, but lacks in-depth discussion on broader implications and applications.
+
+### Presentation Analysis
+
+The presentation of results and methodology is detailed, but some sections may benefit from concise summarization to improve readability and focus on key points.
+
+### Contribution Analysis
+
+The study contributes to the field by offering insights on BMI estimation from different image perspectives and demonstrating the model's generalizability to unseen data, showcasing advancements in the research area.
+
+## S9 - References
+### Score: 7/10
+
+### Summary
+Overall, the references demonstrate a good level of accuracy and completeness, with relevant and recent sources supporting the study. However, there are some minor issues in format consistency and clarity of presentation. Improvements in citation accuracy, relevance of content, and format consistency can enhance the overall quality of the references.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: accuracy  
+**Location**: Abstract  
+**Issue**: The MAPE value of 8% mentioned in the Abstract does not align with the MAPE values provided in the Results section.  
+**Severity**: medium  
+**Impact**: This inconsistency could lead to confusion for readers and affect the credibility of the study.
+
+### Remark 2
+
+**Category**: relevance  
+**Location**: Introduction  
+**Issue**: The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.  
+**Severity**: high  
+**Impact**: This omission may weaken the justification for the research and its significance.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: Abstract  
+**Category**: format  
+**Focus**: citation  
+
+**Original Text**:  
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+
+**Improved Version**:  
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only) using full-torso images.
+
+**Explanation**:  
+Remove the comma after 'only' for better clarity and grammatical correctness.
+
+### Suggestion 2
+
+**Location**: Introduction  
+**Category**: completeness  
+**Focus**: relevance  
+
+**Original Text**:  
+> Due to the heterogeneity of the datasets used in these studies, we currently lack a systematic comparison of different image perspectives for weight estimation.
+
+**Improved Version**:  
+> Due to the heterogeneity of the datasets used in these studies, there is a current lack of a systematic comparison of different image perspectives for weight estimation.
+
+**Explanation**:  
+Clarify the sentence structure for improved readability and coherence.
+
+### Suggestion 3
+
+**Location**: Discussion  
+**Category**: accuracy  
+**Focus**: citation  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+
+**Improved Version**:  
+> Our model demonstrates strong generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+
+**Explanation**:  
+Replace 'as demonstrated by' with 'as evidenced by' for more accurate expression.
+
+### Suggestion 4
+
+**Location**: Discussion  
+**Category**: quality  
+**Focus**: relevance  
+
+**Original Text**:  
+> Our work also provides insights for remote weight estimation during telemedicine consultations.
+
+**Improved Version**:  
+> Our work also offers insights for remote weight estimation during telemedicine consultations.
+
+**Explanation**:  
+Replace 'provides' with 'offers' for a more appropriate tone.
+
+### Suggestion 5
+
+**Location**: Results  
+**Category**: accuracy  
+**Focus**: citation  
+
+**Original Text**:  
+> The height of each user was self-reported at the beginning of the fitness program.
+
+**Improved Version**:  
+> The height of each user was self-reported at the commencement of the fitness program.
+
+**Explanation**:  
+Replace 'beginning' with 'commencement' for a more formal and precise term.
+
+### Suggestion 6
+
+**Location**: Discussion  
+**Category**: completeness  
+**Focus**: relevance  
+
+**Original Text**:  
+> The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
+
+**Improved Version**:  
+> The training dataset exhibits a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
+
+**Explanation**:  
+Change 'has' to 'exhibits' for a more descriptive and accurate representation.
+
+### Suggestion 7
+
+**Location**: Discussion  
+**Category**: accuracy  
+**Focus**: citation  
+
+**Original Text**:  
+> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+
+**Improved Version**:  
+> We followed the hyperparameters used by Jin et al. (2022) for their state-of-the-art model.
+
+**Explanation**:  
+Replace 'in' with 'for' to correctly attribute the hyperparameters.
+
+### Suggestion 8
+
+**Location**: Methodology  
+**Category**: format  
+**Focus**: format  
+
+**Original Text**:  
+> The base Densenet201 model is pre-trained on the ImageNet dataset.
+
+**Improved Version**:  
+> The base DenseNet201 model is pre-trained on the ImageNet dataset.
+
+**Explanation**:  
+Correct the spelling of 'DenseNet' for consistency.
+
+### Suggestion 9
+
+**Location**: Results  
+**Category**: format  
+**Focus**: format  
+
+**Original Text**:  
+> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
+
+**Improved Version**:  
+> Our model achieves a MAPE of 13.38% and a MAE of 4.3 BMI units.
+
+**Explanation**:  
+Replace 'an' with 'a' before 'MAE' for grammatical accuracy.
+
+### Suggestion 10
+
+**Location**: Introduction  
+**Category**: completeness  
+**Focus**: relevance  
+
+**Original Text**:  
+> The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.
+
+**Improved Version**:  
+> The introduction lacks a clear statement of the research gap or the novelty of the study compared to existing literature.
+
+**Explanation**:  
+Add 'the' before 'novelty' for grammatical correctness.
+
+### Detailed Feedback
+### Accuracy Analysis
+
+The references are mostly accurate in terms of citation details and dataset information. However, there are inconsistencies in reporting certain numerical values.
+
+### Completeness Analysis
+
+The references provide a comprehensive overview of related work, datasets, and methodologies used in the study. However, some sections lack clarity in explaining the relevance of the research.
+
+### Format Analysis
+
+The format is generally consistent, with proper citation styles and reference organization. However, there are minor issues with punctuation and sentence structure in some sections.
+
+### Quality Analysis
+
+The sources cited are relevant and recent, contributing to the credibility of the study. The diversity of sources could be improved by including a wider range of studies from different perspectives.
+
+### Organization Analysis
+
+The reference list is well-organized and follows a logical flow from introduction to results. However, there are areas where the organization could be enhanced for better coherence and clarity.
+
+## S10 - Supplementary Materials
+### Score: 7/10
+
+### Summary
+Overall, the supplementary materials offer a detailed and comprehensive analysis of BMI estimation from smartphone camera images. While the content is relevant and well-structured, there are areas where clarity and consistency can be improved for better presentation and understanding. The completeness and thoroughness of the information provided enhance the quality of the study.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: clarity  
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear summary of the key findings and implications of the study.  
+**Severity**: medium  
+**Impact**: Readers may struggle to grasp the significance of the research without a concise summary.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+
+**Improved Version**:  
+> We conduct a thorough evaluation of BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.
+
+**Explanation**:  
+Simplify the sentence structure for better readability and comprehension.
+
+### Suggestion 2
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+
+**Improved Version**:  
+> Torso-up images show comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).
+
+**Explanation**:  
+Rephrase for better flow and clarity.
+
+### Suggestion 3
+
+**Location**: Introduction  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The limited dataset size may restrict the model’s ability to learn complex patterns and generalize to diverse body types.
+
+**Improved Version**:  
+> A small dataset size may limit the model's capacity to learn intricate patterns and generalize across diverse body types.
+
+**Explanation**:  
+Enhance readability and precision of the statement.
+
+### Suggestion 4
+
+**Location**: Introduction  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+
+**Improved Version**:  
+> We train deep learning models on a large, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
+
+**Explanation**:  
+Clarify the description for better understanding.
+
+### Suggestion 5
+
+**Location**: Introduction  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We evaluate the performance on the Visual-body-to-BMI, Celebi-FBI, and VIP-Attribute dataset, and compare our results with existing state-of-the-art methods.
+
+**Improved Version**:  
+> We assess performance on the Visual-Body-To-BMI, Celeb-FBI, and VIP-Attribute datasets, comparing our results with state-of-the-art methods.
+
+**Explanation**:  
+Streamline the sentence for improved readability.
+
+### Suggestion 6
+
+**Location**: Methodology  
+**Category**: consistency  
+**Focus**: alignment  
+
+**Original Text**:  
+> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
+
+**Improved Version**:  
+> The base DenseNet201 model is pre-trained on the ImageNet dataset, but we keep all layers trainable during training.
+
+**Explanation**:  
+Ensure consistency in terminology and style.
+
+### Suggestion 7
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+
+**Improved Version**:  
+> We offer the code for training, deployment, and the mobile applications as open-source contributions.
+
+**Explanation**:  
+Enhance clarity and coherence in the statement.
+
+### Suggestion 8
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+
+**Improved Version**:  
+> Additionally, we assess our model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
+
+**Explanation**:  
+Improve clarity and coherence in the presentation of results.
+
+### Suggestion 9
+
+**Location**: Abstract  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+
+**Improved Version**:  
+> We showcase the practical application of our BMI estimation approach by implementing our algorithms for image filtering and BMI estimation in Python on mobile devices through the CLAID framework.
+
+**Explanation**:  
+Enhance the description for better understanding.
+
+### Suggestion 10
+
+**Location**: Related Work  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The primary distinction has been made between full-body images and facial images.
+
+**Improved Version**:  
+> The main differentiation lies between full-body images and facial images.
+
+**Explanation**:  
+Simplify the sentence structure for clarity.
+
+### Suggestion 11
+
+**Location**: Related Work  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> Various perspectives of images suitable for BMI estimation have been explored in prior work.
+
+**Improved Version**:  
+> Previous studies have explored different perspectives of images suitable for BMI estimation.
+
+**Explanation**:  
+Enhance readability and coherence in the statement.
 
 ### Detailed Feedback
 ### Relevance Analysis
 
-The supplementary materials provide valuable insights into the methodology and results of the study, directly supporting the main text's claims and objectives.
+The supplementary materials provide a detailed analysis of BMI estimation from smartphone camera images, offering insights into the methodology, results, and implications of the study. The relevance to the main text is evident through the extension and elaboration of key concepts.
 
 ### Clarity Analysis
 
-The presentation of the information is generally clear, but some sections could benefit from improved explanation and organization to enhance understanding.
+The presentation of information is generally clear, with detailed descriptions of the methodology, results, and discussion. However, some sections could benefit from improved clarity through simplification of complex sentences and technical terms.
 
 ### Consistency Analysis
 
-The supplementary materials align well with the main text, maintaining consistency in terms of methodology and results presentation.
+The supplementary materials maintain consistency with the main text in terms of terminology, methodology, and results. The alignment of key findings and comparisons with existing literature is well-maintained throughout the document.
 
 ### Completeness Analysis
 
-The information provided is detailed and thorough, covering various aspects of the study methodology, results, and implications.
-
-### Organization Analysis
-
-The structure of the supplementary materials is logical, following a clear flow from introduction to results and discussion.
+The supplementary materials provide a comprehensive overview of the research, covering aspects such as dataset characteristics, methodological details, results, and implications. The information is detailed and thorough, offering a deep dive into the study.
 
 ### Rigor Agents (R1-R7)
 
 ## R1 - Originality and Contribution
-### Score: N/A/10
+### Score: 8/10
 
 ### Summary
-The research demonstrates a novel approach to BMI estimation from smartphone images using a large-scale real-world dataset, showcasing robust generalization and practical implications. While the study makes significant contributions to the field, improvements in clarity, comparison with existing literature, and verification of novelty claims would enhance the overall impact and credibility of the research.
+Overall, the study introduces a novel approach to BMI estimation from smartphone images using deep learning on a large real-world dataset, making a substantial contribution to the field of digital health interventions. While the research demonstrates advancements in remote health monitoring and rapid weight assessment, further detailed analysis, verification, and comparison with existing literature are needed to strengthen the novelty claims and contributions of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: novelty  
 **Location**: Abstract  
-**Issue**: Lack of clear statement on the specific novelty of the research approach.  
+**Issue**: The novelty of using deep learning for BMI estimation from smartphone images is not clearly emphasized.  
 **Severity**: medium  
-**Impact**: May lead to confusion about the unique aspect of the study.
+**Impact**: This affects the clarity of the research focus and may lead to misinterpretation of the study's uniqueness.
 
 ### Remark 2
 
 **Category**: contribution  
 **Location**: Introduction  
-**Issue**: Limited discussion on the unique contributions of the study to the field.  
+**Issue**: The unique contribution of training on a significantly larger real-world dataset is not explicitly highlighted.  
 **Severity**: medium  
-**Impact**: Readers may not fully grasp the significance of the research.
+**Impact**: This diminishes the recognition of the study's substantial contribution to the field.
 
 ### Remark 3
 
 **Category**: verification  
-**Location**: Methodology  
-**Issue**: Insufficient details on the verification process of the novelty claims.  
-**Severity**: high  
-**Impact**: Raises doubts about the credibility of the stated novelty.
-
-### Remark 4
-
-**Category**: comparison  
-**Location**: Literature Review  
-**Issue**: Limited comparison with existing literature, especially in terms of dataset size and performance metrics.  
+**Location**: Results  
+**Issue**: The verification of novelty claims regarding generalizability on external datasets is lacking detailed analysis.  
 **Severity**: medium  
-**Impact**: Lacks a comprehensive understanding of the research landscape.
-
-### Remark 5
-
-**Category**: advancement  
-**Location**: Discussion  
-**Issue**: Inadequate exploration of the implications of the findings for future research and applications.  
-**Severity**: medium  
-**Impact**: Misses out on highlighting the potential impact of the study.
+**Impact**: This weakens the credibility of the study's novelty claims and limits the validation of the proposed approach.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: clarity  
-
-**Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.
-
-**Improved Version**:  
-> Estimating Body Mass Index (BMI) from camera images enables quick weight assessment in scenarios where conventional measurement methods are impractical or unavailable.
-
-**Explanation**:  
-Clarity and precision in conveying the purpose and benefit of the research.
-
-### Suggestion 2
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: comparison  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Existing computer vision-based BMI estimation methods have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Enhancing the comparison with existing literature for better context.
-
-### Suggestion 3
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: clarity  
-
-**Original Text**:  
-> For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.
-
-**Improved Version**:  
-> A 5% reduction in body weight for overweight individuals can significantly enhance health outcomes, including the prevention of type 2 diabetes and cardiovascular diseases.
-
-**Explanation**:  
-Improving readability and flow of information.
-
-### Suggestion 4
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: clarity  
-
-**Original Text**:  
-> Traditionally, the calculation of BMI requires measuring a person’s weight and height using scales and a stadiometer.
-
-**Improved Version**:  
-> Traditionally, calculating BMI involves measuring an individual's weight and height using scales and a stadiometer.
-
-**Explanation**:  
-Enhancing the clarity and conciseness of the statement.
-
-### Suggestion 5
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: clarity  
-
-**Original Text**:  
-> In medical emergencies, there is a well-documented need for faster weight estimation methods.
-
-**Improved Version**:  
-> Medical emergencies often require rapid weight estimation methods.
-
-**Explanation**:  
-Streamlining the expression for better impact.
-
-### Suggestion 6
-
-**Location**: Results  
-**Category**: results  
-**Focus**: comparison  
-
-**Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
-
-**Improved Version**:  
-> Our findings suggest that torso-up images perform comparably to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
-
-**Explanation**:  
-Enhancing the coherence and structure of the comparison.
-
-### Suggestion 7
-
-**Location**: Results  
-**Category**: results  
-**Focus**: clarity  
-
-**Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
-
-**Improved Version**:  
-> We showcase the practical utility of our BMI estimation method by implementing image filtering and BMI estimation algorithms in Python on mobile devices using the CLAID framework.
-
-**Explanation**:  
-Improving the clarity and impact of the demonstration.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model exhibits robust generalizability to unseen datasets, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite no prior training on this specific dataset.
-
-**Explanation**:  
-Enhancing the precision and impact of the statement.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: discussion  
 **Focus**: novelty  
 
 **Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
+> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...
 
 **Improved Version**:  
-> Unlike previous research that often concentrated on either face-only or full-body images, our study uniquely offers a direct comparison of various image perspectives using a consistent dataset.
+> Utilizing deep learning for Body Mass Index (BMI) estimation from smartphone images enables efficient weight assessment...
 
 **Explanation**:  
-Strengthening the emphasis on the novelty of the approach.
+Restructuring the sentence to clearly highlight the novelty of using deep learning for BMI estimation.
 
-### Suggestion 10
+### Suggestion 2
 
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: advancement  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: contribution  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> A high Body Mass Index (BMI) is associated with various chronic diseases...
 
 **Improved Version**:  
-> Additionally, our study offers valuable insights for remote weight estimation in telemedicine consultations.
+> The study uniquely contributes by training on a significantly larger real-world dataset...
 
 **Explanation**:  
-Enhancing the impact and relevance of the findings.
+Explicitly stating the unique contribution of training on a large real-world dataset.
+
+### Suggestion 3
+
+**Location**: Results  
+**Category**: results  
+**Focus**: verification  
+
+**Original Text**:  
+> Our model demonstrates strong generalizability to unseen data...
+
+**Improved Version**:  
+> The study should provide a more detailed analysis of the generalizability to unseen datasets...
+
+**Explanation**:  
+Enhancing the verification of novelty claims by providing specific results and comparisons.
 
 ### Detailed Feedback
 ### Novelty Assessment
 
-The research introduces a novel approach of BMI estimation from smartphone camera images using a significantly larger real-world dataset, which is a unique contribution to the field. The automatic image filtering strategy based on posture clustering and person detection adds a novel dimension to the methodology.
+The study introduces a novel approach of BMI estimation from smartphone images using deep learning on a large real-world dataset, which significantly exceeds the dataset sizes of previous studies. This approach demonstrates a unique application of computer vision for rapid weight assessment.
 
 ### Contribution Analysis
 
-The study contributes by demonstrating the effectiveness of BMI estimation from smartphone images on a large-scale dataset, showcasing robust generalization to unseen data. The comparison of different image perspectives and the deployment on mobile devices provide practical implications for real-world applications.
+The study makes a substantial contribution by training on a significantly larger real-world dataset comprising over 84,000 images, enabling more accurate BMI estimation. The comparison of different image perspectives and the evaluation on external datasets further enhance the contributions to the field.
 
 ### Verification Status
 
-The verification of novelty claims could be strengthened by providing more detailed insights into the validation process of the novel approach. Clearer explanations and evidence of the novelty verification would enhance the credibility of the study.
+The verification of novelty claims is partially supported by the results on the real-world dataset, but further detailed analysis and comparison with existing literature are needed to fully validate the novelty claims. The study's generalizability to external datasets requires more in-depth verification.
 
 ### Comparative Analysis
 
-While the study provides a good overview of existing literature, a more in-depth comparison with previous works in terms of dataset size, performance metrics, and methodology could further enrich the literature review section. A detailed comparative analysis would offer a clearer understanding of the research landscape.
+The study provides a comprehensive comparison with existing literature by evaluating BMI estimation performance across different image perspectives and datasets. However, a more detailed analysis of the performance compared to state-of-the-art approaches and a systematic comparison of different image perspectives are needed.
 
 ### Advancement Evaluation
 
-The study significantly advances knowledge in the field of BMI estimation by introducing a novel approach using deep learning on a large-scale real-world dataset. The findings provide valuable insights for remote health monitoring and telemedicine applications, contributing to the advancement of technology in healthcare.
+The study significantly advances knowledge in the field of digital health interventions by demonstrating the feasibility of BMI estimation from smartphone images using deep learning. The real-world applicability and generalizability of the proposed approach showcase advancements in remote health monitoring and rapid weight assessment.
 
 ## R2 - Impact and Significance
-### Score: N/A/10
+### Score: 9/10
 
 ### Summary
-Overall, the research study on BMI estimation from smartphone camera images has the potential to significantly influence the field of digital health interventions by introducing an innovative approach. However, critical improvements are needed in discussing broader implications, future research directions, practical applications, and policy considerations to enhance the overall impact and significance of the study.
+Overall, the research demonstrates a high level of impact and significance in the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. While the study provides valuable insights, there are areas for improvement in explicitly discussing the field influence, broader implications, and future research directions to enhance the overall significance of the research.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: field_influence  
 **Location**: Introduction  
-**Issue**: The text lacks a clear statement on the potential influence of the research on the field of digital health interventions.  
+**Issue**: Lack of explicit mention of the potential influence on the field of digital health interventions and telehealth services.  
 **Severity**: medium  
-**Impact**: This omission weakens the overall impact and significance of the study.
+**Impact**: This omission may downplay the significance of the research in the broader context of digital health interventions.
 
 ### Remark 2
 
 **Category**: implications  
 **Location**: Discussion  
-**Issue**: The broader implications of the findings are not explicitly discussed, limiting the understanding of the practical relevance of the research.  
-**Severity**: high  
-**Impact**: This hinders the ability to translate the research outcomes into real-world applications.
+**Issue**: Limited discussion on the broader implications of the findings beyond weight estimation accuracy.  
+**Severity**: medium  
+**Impact**: This restricts the understanding of how the research could impact healthcare practices and patient outcomes.
 
 ### Remark 3
 
 **Category**: future_research  
 **Location**: Conclusion  
-**Issue**: The discussion on future research directions is brief and lacks depth, missing the opportunity to guide further investigations.  
+**Issue**: Lack of detailed suggestions for future research directions based on the study findings.  
 **Severity**: medium  
-**Impact**: This limits the potential for building on the current study's findings and advancing the field.
-
-### Remark 4
-
-**Category**: applications  
-**Location**: Results  
-**Issue**: The practical applications of the research are mentioned but not thoroughly explored, leaving gaps in understanding the implementation potential.  
-**Severity**: medium  
-**Impact**: This diminishes the clarity on how the research can be utilized in real-world scenarios.
-
-### Remark 5
-
-**Category**: policy  
-**Location**: Discussion  
-**Issue**: Policy implications are not explicitly discussed, overlooking the regulatory and ethical considerations relevant to the research outcomes.  
-**Severity**: high  
-**Impact**: This neglects the critical aspect of aligning the research with policy frameworks and guidelines.
+**Impact**: This hinders the potential for building on the current research and advancing the field further.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Abstract  
+**Category**: abstract  
 **Focus**: field_influence  
 
 **Original Text**:  
-> The text lacks a clear statement on the potential influence of the research on the field of digital health interventions.
+> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> This study's findings have the potential to revolutionize digital health interventions by providing a novel approach to BMI estimation using smartphone camera images.
+> Existing computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-This improvement explicitly highlights the transformative impact of the research on digital health interventions, setting the tone for the significance of the study.
+Clarifies the comparison of dataset sizes and improves readability.
 
 ### Suggestion 2
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Results  
+**Category**: results  
 **Focus**: implications  
 
 **Original Text**:  
-> The broader implications of the findings are not explicitly discussed, limiting the understanding of the practical relevance of the research.
+> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
 
 **Improved Version**:  
-> By exploring the broader implications of our findings, we can better understand how BMI estimation from smartphone images can enhance telehealth services and emergency medical scenarios, improving patient care and outcomes.
+> Furthermore, we assess the model's generalizability on two external benchmark datasets: Celeb-FBI with full-body images and VIP-Attribute with face-only images, achieving MAPE scores of 23.64% and 25.21% respectively.
 
 **Explanation**:  
-This enhancement provides a clearer picture of how the research outcomes can be applied in real-world settings, emphasizing the practical significance of the study.
+Enhances clarity and specificity in describing the evaluation on external datasets.
 
 ### Suggestion 3
 
-**Location**: Conclusion  
-**Category**: conclusion  
+**Location**: Discussion  
+**Category**: discussion  
 **Focus**: future_research  
 
 **Original Text**:  
-> The discussion on future research directions is brief and lacks depth, missing the opportunity to guide further investigations.
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> To pave the way for future research, a more comprehensive discussion on potential avenues such as exploring different image perspectives, enhancing model generalizability, and integrating real-time applications is essential.
+> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.
 
 **Explanation**:  
-This suggestion expands the scope of future research possibilities, encouraging further exploration and innovation in the field.
-
-### Suggestion 4
-
-**Location**: Results  
-**Category**: results  
-**Focus**: applications  
-
-**Original Text**:  
-> The practical applications of the research are mentioned but not thoroughly explored, leaving gaps in understanding the implementation potential.
-
-**Improved Version**:  
-> Delving deeper into the practical applications, including detailed use cases in telehealth, emergency medicine, and remote monitoring, can provide a comprehensive understanding of how the research can be implemented in diverse healthcare settings.
-
-**Explanation**:  
-This revision offers a more detailed insight into the real-world applications of the research, enhancing the clarity on its practical utility.
-
-### Suggestion 5
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: policy  
-
-**Original Text**:  
-> Policy implications are not explicitly discussed, overlooking the regulatory and ethical considerations relevant to the research outcomes.
-
-**Improved Version**:  
-> Addressing the policy implications, such as data privacy, consent, and regulatory compliance, is crucial to ensure the ethical and legal alignment of the research with existing frameworks in digital health interventions.
-
-**Explanation**:  
-This suggestion highlights the importance of considering policy implications, emphasizing the ethical and regulatory aspects of the research.
+Provides a clearer explanation of the model's generalizability and its performance on external datasets.
 
 ### Detailed Feedback
 ### Field Influence
 
-The study has the potential to significantly impact the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. This innovative method can enhance telehealth services, emergency medical scenarios, and remote health monitoring.
+The study significantly advances the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. This innovation has the potential to revolutionize telehealth services and emergency medical scenarios.
 
 ### Broader Implications
 
-Exploring the broader implications of the findings, such as improved patient care, enhanced health outcomes, and streamlined healthcare processes, can highlight the practical relevance of the research in real-world healthcare settings.
+The findings have broader implications for remote health monitoring, personalized healthcare interventions, and preventive health strategies. The accurate and real-time BMI estimation from images can enhance patient engagement and adherence to treatment plans.
 
 ### Future Research Impact
 
-By providing in-depth insights into future research directions, the study can guide further investigations on image perspectives, model generalizability, and real-time applications, fostering continuous advancements in the field of digital health interventions.
+The research opens avenues for exploring the integration of AI-driven BMI estimation into wearable devices for continuous health monitoring. Future studies could investigate the impact of BMI estimation accuracy on long-term health outcomes and behavior change.
 
 ### Practical Applications
 
-Thoroughly examining the practical applications of the research, including detailed use cases in telehealth, emergency medicine, and remote monitoring, can elucidate the implementation potential of BMI estimation from smartphone images in diverse healthcare scenarios.
+The practical applications of the research extend to telemedicine consultations, fitness tracking apps, and personalized wellness programs. The deployment of algorithms on mobile devices using the CLAID framework showcases the feasibility of real-time BMI estimation in diverse healthcare settings.
 
 ### Policy Implications
 
-Addressing the policy implications, such as data privacy, consent, and regulatory compliance, is essential to ensure the ethical and legal alignment of the research with existing frameworks in digital health interventions, safeguarding patient rights and data integrity.
+The study highlights the importance of data privacy and ethical considerations in utilizing AI for healthcare applications. Policymakers could leverage the research findings to develop guidelines for the responsible use of AI in patient care and data security.
 
 ## R3 - Ethics and Compliance
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The study demonstrates promising results in BMI estimation from smartphone camera images using deep learning. However, there are notable gaps in ethical considerations, including privacy protection, informed consent procedures, and transparency in research integrity. Addressing these issues through explicit disclosure of conflicts of interest, robust data privacy measures, detailed consent procedures, and thorough discussion of biases will enhance the ethical compliance and credibility of the research.
+The study demonstrates integrity in research practices and adherence to ethical guidelines in reporting results and methodologies. However, there are critical issues related to data privacy and informed consent procedures that need to be addressed to ensure full compliance with ethical standards.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: privacy  
-**Location**: Abstract  
-**Issue**: Lack of explicit mention of data privacy measures for the proprietary dataset containing personal images.  
-**Severity**: medium  
-**Impact**: Raises concerns about data protection and confidentiality.
+**Location**: Data Collection section  
+**Issue**: Lack of explicit mention of data anonymization and storage security measures for the proprietary dataset of user images.  
+**Severity**: high  
+**Impact**: This omission raises concerns about data privacy and security compliance.
 
 ### Remark 2
 
 **Category**: consent  
-**Location**: Methodology  
-**Issue**: No explicit mention of obtaining informed consent for the use of personal images in the dataset.  
+**Location**: Abstract and Methodology sections  
+**Issue**: Insufficient detail on the informed consent process for collecting and using user images for research purposes.  
 **Severity**: medium  
-**Impact**: Raises ethical concerns about participant autonomy and consent.
-
-### Remark 3
-
-**Category**: integrity  
-**Location**: Results  
-**Issue**: Limited discussion on potential biases in the dataset or model training process.  
-**Severity**: medium  
-**Impact**: Raises questions about the validity and reliability of the results.
+**Impact**: This lack of transparency may lead to ethical concerns regarding participant consent.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: privacy  
+**Location**: Data Collection section  
+**Category**: data_collection  
 **Focus**: privacy  
 
 **Original Text**:  
-> Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.
+> Images were collected from users of a fitness app over the course of 10+ years.
 
 **Improved Version**:  
-> Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture, necessitating robust data privacy measures to protect the confidentiality of individuals.
+> Images were collected from users of a fitness app over the course of 10+ years, ensuring data anonymization and secure storage measures were in place.
 
 **Explanation**:  
-By explicitly mentioning the need for data privacy measures, the study demonstrates a commitment to protecting participant confidentiality.
+This addition highlights the importance of data privacy and security measures.
 
 ### Suggestion 2
 
-**Location**: Methodology  
-**Category**: consent  
+**Location**: Conclusion section  
+**Category**: conclusion  
+**Focus**: privacy  
+
+**Original Text**:  
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+
+**Improved Version**:  
+> We provide the code for training, deployment, and the mobile applications, ensuring that all data used in the study is anonymized and securely stored.
+
+**Explanation**:  
+This ensures that the open-source contributions maintain data privacy and security.
+
+### Suggestion 3
+
+**Location**: Methodology section  
+**Category**: methodology  
 **Focus**: consent  
 
 **Original Text**:  
 > Subjects were instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
 
 **Improved Version**:  
-> Subjects were explicitly informed about the data collection process, including the purpose of capturing front-facing full-body photos for progress-tracking, and provided informed consent for the use of their images in research.
+> Subjects were explicitly informed about the research purpose, provided informed consent, and instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
 
 **Explanation**:  
-By emphasizing the importance of informed consent, the study ensures participant autonomy and ethical compliance.
-
-### Suggestion 3
-
-**Location**: Results  
-**Category**: integrity  
-**Focus**: integrity  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
-
-**Improved Version**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%. However, it is important to acknowledge potential biases in the dataset or model training process that may impact generalizability.
-
-**Explanation**:  
-By acknowledging potential biases, the study enhances transparency and research integrity.
+This clarifies the informed consent process and participant understanding.
 
 ### Detailed Feedback
 ### Conflicts Assessment
 
-The text does not explicitly mention any conflicts of interest among the authors or institutions involved in the study.
+The text does not explicitly mention any conflicts of interest, which is a positive aspect indicating potential impartiality in the research.
 
 ### Privacy Compliance
 
-While the study mentions the use of a proprietary dataset, there is a lack of detailed information on data privacy measures implemented to protect personal images.
+While data privacy measures are implied, explicit details on data anonymization and storage security are lacking, raising concerns about compliance.
 
 ### Consent Procedures
 
-The study does not provide explicit details on how informed consent was obtained from participants for the use of their images in research.
+The study lacks detailed information on the informed consent process, potentially leading to ethical concerns regarding participant consent.
 
 ### Research Integrity
 
-There is limited discussion on potential biases in the dataset or model training process, raising questions about the validity and generalizability of the results.
+The study demonstrates integrity in reporting results and methodologies, with clear descriptions of the dataset and model architecture.
 
 ### Guidelines Adherence
 
-The study lacks explicit adherence to ethical guidelines in terms of conflicts of interest disclosure, data privacy protection, informed consent procedures, and transparency in research integrity.
+The study adheres to ethical guidelines in terms of reporting results and methodologies, but improvements are needed in explicitly addressing privacy and consent procedures.
 
 ## R4 - Data and Code Availability
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The study demonstrates strong research transparency through detailed documentation of methodology and results. However, limitations in data sharing and code availability impact reproducibility. Access restrictions are justified due to data privacy concerns. Enhancements in data sharing practices and code availability would further improve research transparency and reproducibility.
+The study demonstrates good data and code availability practices, with room for improvement in data sharing transparency, code documentation, and model reproducibility. Providing detailed model information, enhancing code accessibility, and justifying access restrictions would enhance research transparency and reproducibility.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: data_sharing  
 **Location**: Abstract  
-**Issue**: The proprietary dataset used is not publicly available, limiting reproducibility and transparency.  
-**Severity**: high  
-**Impact**: Significantly affects research transparency and reproducibility.
+**Issue**: The proprietary dataset used is not publicly available, limiting data sharing practices.  
+**Severity**: medium  
+**Impact**: Reduces transparency and hinders reproducibility for other researchers.
 
 ### Remark 2
 
 **Category**: code_availability  
 **Location**: Conclusion  
-**Issue**: Model weights trained on the proprietary dataset are not shared due to data privacy concerns, hindering reproducibility.  
+**Issue**: Model weights trained on the proprietary dataset are not shared due to data privacy concerns.  
+**Severity**: high  
+**Impact**: Limits reproducibility and prevents validation of results on the same dataset.
+
+### Remark 3
+
+**Category**: documentation  
+**Location**: Methodology  
+**Issue**: Lack of detailed explanation on the implementation and training of the deep learning model.  
 **Severity**: medium  
-**Impact**: Limits the ability of others to replicate the study.
+**Impact**: Reduces clarity and reproducibility of the methodology.
+
+### Remark 4
+
+**Category**: restrictions  
+**Location**: Abstract  
+**Issue**: Access restrictions are mentioned without clear justification.  
+**Severity**: low  
+**Impact**: Raises questions about the transparency of the research process.
+
+### Remark 5
+
+**Category**: reproducibility  
+**Location**: Discussion  
+**Issue**: Limited discussion on the reproducibility of the results on external datasets.  
+**Severity**: medium  
+**Impact**: Lacks thorough examination of the generalizability of the model.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2174,77 +2385,189 @@ The study demonstrates strong research transparency through detailed documentati
 > The dataset used is proprietary and not publicly available.
 
 **Improved Version**:  
-> The dataset used in this study is proprietary and not publicly available, limiting reproducibility. Consider providing a subset of the dataset or synthetic data for transparency.
+> The dataset used in this study is proprietary and not publicly available. To enhance data sharing practices, consider providing a subset of the dataset with appropriate anonymization.
 
 **Explanation**:  
-Providing a subset of the dataset or synthetic data can enhance transparency and allow others to validate the findings.
+By providing a subset of the dataset, researchers can still access and validate the findings while maintaining data privacy.
 
 ### Suggestion 2
 
-**Location**: Conclusion  
+**Location**: Abstract  
 **Category**: code_documentation  
 **Focus**: code_availability  
+
+**Original Text**:  
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+
+**Improved Version**:  
+> We provide the code for training, deployment, and the mobile applications as open-source contributions. Additionally, consider creating a dedicated repository on a platform like GitHub for easier access and collaboration.
+
+**Explanation**:  
+Centralizing code in a dedicated repository improves visibility, accessibility, and collaboration among researchers.
+
+### Suggestion 3
+
+**Location**: Abstract  
+**Category**: code_documentation  
+**Focus**: reproducibility  
+
+**Original Text**:  
+> We report the processing speed for filtering and inference on Android and iOS devices.
+
+**Improved Version**:  
+> We report the processing speed for filtering and inference on Android and iOS devices. To enhance reproducibility, provide detailed instructions on setting up the environment and running the code on different devices.
+
+**Explanation**:  
+Detailed instructions improve reproducibility by ensuring consistent implementation across different platforms.
+
+### Suggestion 4
+
+**Location**: Methodology  
+**Category**: data_description  
+**Focus**: data_sharing  
+
+**Original Text**:  
+> The height of each user was self-reported at the beginning of the fitness program.
+
+**Improved Version**:  
+> The height of each user was self-reported at the beginning of the fitness program. Consider validating self-reported data with objective measurements to improve data accuracy.
+
+**Explanation**:  
+Validation of self-reported data enhances data quality and reduces potential biases.
+
+### Suggestion 5
+
+**Location**: Methodology  
+**Category**: data_description  
+**Focus**: data_sharing  
+
+**Original Text**:  
+> The training dataset has a significant gender imbalance.
+
+**Improved Version**:  
+> The training dataset has a significant gender imbalance. To address this, consider oversampling or data augmentation techniques to balance the gender distribution.
+
+**Explanation**:  
+Balancing the gender distribution improves model performance and generalizability.
+
+### Suggestion 6
+
+**Location**: Methodology  
+**Category**: code_documentation  
+**Focus**: reproducibility  
+
+**Original Text**:  
+> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+
+**Improved Version**:  
+> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model. Consider conducting a hyperparameter search to optimize model performance further.
+
+**Explanation**:  
+Hyperparameter tuning can enhance model performance and robustness.
+
+### Suggestion 7
+
+**Location**: Code Documentation  
+**Category**: code_documentation  
+**Focus**: code_availability  
+
+**Original Text**:  
+> The code used for this study is available at the provided GitHub repository.
+
+**Improved Version**:  
+> The code used for this study is available at the provided GitHub repository. Include detailed README files with setup instructions, dependencies, and usage guidelines for better code accessibility.
+
+**Explanation**:  
+Comprehensive README files improve code usability and facilitate reproducibility.
+
+### Suggestion 8
+
+**Location**: Code Documentation  
+**Category**: code_documentation  
+**Focus**: reproducibility  
 
 **Original Text**:  
 > We encourage others to use our training scripts to develop their own models on alternative datasets.
 
 **Improved Version**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets, facilitating reproducibility and further research.
+> We encourage others to use our training scripts to develop their own models on alternative datasets. Provide a tutorial or guide on adapting the training scripts to different datasets for wider adoption.
 
 **Explanation**:  
-Encouraging others to use the provided scripts promotes transparency and collaboration in the research community.
+A tutorial or guide enhances the usability of the training scripts for researchers working with diverse datasets.
+
+### Suggestion 9
+
+**Location**: Conclusion  
+**Category**: code_availability  
+**Focus**: reproducibility  
+
+**Original Text**:  
+> The model weights trained on the proprietary dataset are not shared due to data privacy concerns.
+
+**Improved Version**:  
+> While model weights trained on the proprietary dataset are not shared due to data privacy concerns, consider providing a detailed model architecture description and training hyperparameters for transparency.
+
+**Explanation**:  
+Providing detailed model information enables researchers to understand the model's structure and training process.
+
+### Suggestion 10
+
+**Location**: Conclusion  
+**Category**: data_description  
+**Focus**: data_sharing  
+
+**Original Text**:  
+> No images taken from the proprietary dataset are shown in this paper.
+
+**Improved Version**:  
+> No images taken from the proprietary dataset are shown in this paper. Consider providing sample images with appropriate anonymization to demonstrate the dataset characteristics.
+
+**Explanation**:  
+Sample images with anonymization can help readers understand the dataset without compromising privacy.
 
 ### Detailed Feedback
 ### Data Sharing Assessment
 
-The study lacks data sharing practices as the proprietary dataset is not publicly available, limiting reproducibility and transparency.
+The study lacks transparency in data sharing practices due to the proprietary nature of the dataset. Providing a subset of the dataset with anonymization would enhance data sharing.
 
 ### Code Availability
 
-While the code for the study is available, the model weights trained on the proprietary dataset are not shared, impacting reproducibility.
+While the code is available, the lack of model weights and detailed model architecture information limits code availability and reproducibility.
 
 ### Documentation Completeness
 
-The documentation of the methodology and results is detailed and comprehensive, providing insights into the research process.
+The methodology section lacks detailed explanations on model implementation and training, reducing clarity and reproducibility.
 
 ### Restrictions Justification
 
-Access restrictions are justified due to data privacy concerns related to the proprietary dataset.
+Access restrictions on the dataset are mentioned without clear justification, raising questions about transparency.
 
 ### Reproducibility Support
 
-The study provides detailed information on the methodology, code implementation, and evaluation metrics, supporting reproducibility.
+Limited discussion on the reproducibility of results on external datasets hinders the assessment of model generalizability.
 
 ## R5 - Statistical Rigor
-### Score: N/A/10
+### Score: 6/10
 
 ### Summary
-Overall, the study demonstrates strong generalizability of the deep learning model for BMI estimation from images. However, there are critical issues in sample size justification, p-value interpretation, and missing data handling that need to be addressed for enhanced statistical rigor.
+Overall, the study demonstrates a moderate level of statistical rigor, with appropriate test selection and assumption verification. However, there are critical issues related to sample size justification and outlier treatment that need to be addressed. The study could benefit from more explicit reporting of statistical measures such as confidence intervals and handling of missing data. Improvements in these areas would enhance the validity and credibility of the statistical analysis conducted in the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: sample_size  
 **Location**: Abstract  
-**Issue**: The sample size justification is lacking in the abstract, which is crucial for understanding the generalizability of the study results.  
+**Issue**: The sample size justification is lacking in the abstract, making it unclear why the dataset size was chosen.  
 **Severity**: medium  
-**Impact**: This omission may lead to questions about the representativeness of the dataset and the reliability of the findings.
+**Impact**: This affects the credibility of the study as the rationale behind the dataset size is not transparent.
 
 ### Remark 2
 
-**Category**: p_value  
-**Location**: Results  
-**Issue**: The interpretation of p-values is missing in the results section, which is essential for understanding the significance of the findings.  
-**Severity**: medium  
-**Impact**: This omission may lead to misinterpretation of the statistical significance of the results.
-
-### Remark 3
-
-**Category**: missing_data  
+**Category**: outliers  
 **Location**: Methodology  
-**Issue**: There is no mention of how missing data was handled in the analysis, which is critical for ensuring the validity of the results.  
+**Issue**: The text does not mention how outliers were handled in the dataset, which is crucial for ensuring data integrity.  
 **Severity**: high  
-**Impact**: Missing data can introduce bias and affect the generalizability of the findings.
+**Impact**: This omission can lead to biased results and affect the validity of the statistical analysis.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2257,232 +2580,209 @@ Overall, the study demonstrates strong generalizability of the deep learning mod
 > We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.
+> We achieved a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.
 
 **Explanation**:  
-Clarifies the composition of the hold-out test dataset for better understanding.
+Clarifies the description for better understanding.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: introduction  
-**Focus**: test_selection  
+**Focus**: effect_size  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Improved Version**:  
-> Recent computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Furthermore, we conduct an analysis of the effect of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Explanation**:  
-Enhances clarity and readability of the sentence.
+Enhances clarity and precision in describing the analysis conducted.
 
 ### Suggestion 3
 
-**Location**: Results  
-**Category**: results  
-**Focus**: effect_size  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: test_selection  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
 
 **Improved Version**:  
-> We also assess our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving Mean Absolute Percentage Errors (MAPE) of 23.64% and 25.21%, respectively.
+> Additionally, we assess the generalizability of our model on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
 
 **Explanation**:  
-Standardizes the reporting format for better comparison of results.
+Improves the flow and coherence of the sentence.
 
 ### Suggestion 4
 
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: effect_size  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: multiple_comparisons  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The optimal number of clusters was determined to be 4 using the elbow criterion.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a Mean Absolute Percentage Error (MAPE) of 13.38%.
+> We determined the optimal number of clusters to be 4 using the elbow criterion.
 
 **Explanation**:  
-Provides more specific details about the evaluation metric used.
+Enhances clarity and conciseness in reporting the results.
 
 ### Suggestion 5
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: test_selection  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> We then train each model for 40 epochs with a batch size of 64, using the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
 
 **Improved Version**:  
-> Our study offers insights for remote weight estimation in telemedicine consultations.
+> Subsequently, we trained each model for 40 epochs with a batch size of 64, utilizing the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
 
 **Explanation**:  
-Simplifies the sentence for clarity.
+Improves readability and consistency in reporting the methodology.
 
 ### Suggestion 6
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: test_selection  
 
 **Original Text**:  
-> For context, previous work has relied on 14,500 facial images or just 5,900 full-body images, as in the Visual-Body-To-BMI dataset.
+> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
 
 **Improved Version**:  
-> For context, prior studies have utilized datasets with 14,500 facial images or only 5,900 full-body images, such as the Visual-Body-To-BMI dataset.
+> The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers are left trainable during training.
 
 **Explanation**:  
-Enhances the comparison between previous studies and the dataset used in this study.
+Clarifies the training process for better understanding.
 
 ### Suggestion 7
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: test_selection  
 
 **Original Text**:  
-> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
 
 **Improved Version**:  
-> Our model exhibited lower performance on the face-only VIP Attribute dataset compared to the original authors, who achieved a Mean Absolute Error (MAE) of 2.36 on body weight prediction, while our model achieved an MAE of 7.81.
+> We monitor Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, although these metrics are not utilized to guide training.
 
 **Explanation**:  
-Provides a clearer comparison between the model's performance and the original authors' results.
+Provides clarity on the role of the monitored metrics during training.
 
 ### Suggestion 8
 
-**Location**: Results  
-**Category**: results  
-**Focus**: effect_size  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: test_selection  
 
 **Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> No further hyperparameter tuning was performed.
 
 **Improved Version**:  
-> Our model achieves a Mean Absolute Percentage Error (MAPE) of 13.38% and a Mean Absolute Error (MAE) of 4.3 BMI units.
+> No additional hyperparameter tuning was conducted.
 
 **Explanation**:  
-Standardizes the reporting format for better clarity.
+Enhances conciseness in reporting the methodology.
 
 ### Suggestion 9
 
 **Location**: Results  
 **Category**: results  
-**Focus**: p_value  
+**Focus**: test_selection  
 
 **Original Text**:  
-> The interpretation of p-values is missing in the results section, which is essential for understanding the significance of the findings.
+> Table 3 displays the results of the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) for the different image perspectives on the WayBetter dataset.
 
 **Improved Version**:  
-> The interpretation of p-values is absent in the results section, which is crucial for determining the statistical significance of the findings.
+> Table 3 presents the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) results for the various image perspectives on the WayBetter dataset.
 
 **Explanation**:  
-Emphasizes the importance of p-value interpretation for statistical significance.
+Improves the introduction of the results table.
 
 ### Suggestion 10
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: missing_data  
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: test_selection  
 
 **Original Text**:  
-> There is no mention of how missing data was handled in the analysis, which is critical for ensuring the validity of the results.
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> The handling of missing data is not addressed in the analysis, which is crucial for maintaining the validity of the results.
+> Our model exhibits robust generalizability to unseen data, as evidenced by our assessment on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.
 
 **Explanation**:  
-Highlights the importance of addressing missing data for result validity.
-
-### Suggestion 11
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: sample_size  
-
-**Original Text**:  
-> The sample size justification is lacking in the abstract, which is crucial for understanding the generalizability of the study results.
-
-**Improved Version**:  
-> The abstract lacks justification for the sample size, which is essential for assessing the generalizability of the study findings.
-
-**Explanation**:  
-Stresses the significance of sample size justification for study validity.
+Enhances clarity and precision in describing the model's performance.
 
 ### Detailed Feedback
 ### Test Selection
 
-The study adequately justifies the choice of deep learning models for BMI estimation from images, highlighting the use of state-of-the-art approaches.
+The study appropriately selected the DenseNet201 architecture for BMI estimation, which is a suitable choice for image-based tasks. The use of the Adam optimizer with specific hyperparameters was also justified.
 
 ### Assumption Verification
 
-The study does not explicitly mention the verification of assumptions for statistical tests, such as normality or independence.
+The study verified assumptions related to image quality, posture, and dataset integrity through filtering processes and clustering techniques. However, the handling of outliers was not explicitly mentioned.
 
 ### Sample Size Justification
 
-The sample size justification is not explicitly provided in the abstract, which is essential for understanding the representativeness of the dataset.
+The study justified the dataset size based on the need for a significantly larger dataset than previous studies. However, more explicit justification in terms of statistical power calculations or effect size considerations could enhance the rationale.
 
 ### Multiple Comparison Handling
 
-The study does not address multiple comparison handling explicitly, which is crucial for controlling the family-wise error rate.
+The study appropriately used clustering techniques to handle multiple comparisons in posture analysis. However, a clear explanation of how multiple comparisons were adjusted in statistical testing would improve transparency.
 
 ### Effect Size Reporting
 
-The study reports the Mean Absolute Percentage Error (MAPE) as an effect size metric, providing insights into the accuracy of BMI estimation.
+The study reported Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) as effect size metrics, providing quantitative measures of model performance.
 
 ### Confidence Intervals
 
-The study does not mention the use of confidence intervals, which are important for estimating the precision of the results.
+The study did not report confidence intervals, which could enhance the interpretation of the model's performance and provide insights into the variability of estimates.
 
 ### P Value Interpretation
 
-The interpretation of p-values is missing in the results section, which is essential for determining the statistical significance of the findings.
+The study did not focus on p-value interpretation, as the evaluation was primarily based on model performance metrics rather than hypothesis testing.
 
 ### Statistical Power
 
-The study does not discuss statistical power, which is important for assessing the likelihood of detecting true effects.
+The study did not explicitly discuss statistical power calculations, which could provide insights into the reliability of the study findings and the likelihood of detecting true effects.
 
 ### Missing Data Handling
 
-There is no mention of how missing data was handled in the analysis, which is critical for ensuring the validity of the results.
+The study did not address missing data handling explicitly, which is essential for ensuring data completeness and integrity in statistical analysis.
 
 ### Outlier Treatment
 
-The study does not explicitly mention how outliers were treated in the analysis, which is crucial for assessing their impact on the results.
+The study did not mention how outliers were handled, which is crucial for ensuring the robustness and validity of statistical analysis.
 
 ## R6 - Technical Accuracy
-### Score: N/A/10
+### Score: 8/10
 
 ### Summary
-The text provides a detailed exploration of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. While the content is comprehensive, there are areas for improvement in clarity, documentation, and addressing ethical considerations. The technical accuracy is generally sound, but enhancements in mathematical derivations, algorithm descriptions, and equation clarity would further strengthen the research.
+The research demonstrates strong technical accuracy in mathematical derivations, algorithm descriptions, and implementation details. However, improvements are needed in terminology explanation, equation clarity, and complexity analysis. The content is comprehensive and logically consistent, with effective handling of edge cases and detailed technical documentation.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: terminology  
 **Location**: Abstract  
-**Issue**: The term 'Mean Absolute Percentage Error (MAPE)' is used without prior definition or explanation, assuming familiarity.  
+**Issue**: The term 'Mean Absolute Percentage Error (MAPE)' is used without prior explanation or definition, assuming readers are already familiar with it.  
 **Severity**: medium  
-**Impact**: This can be confusing for readers who are not well-versed in the field of statistics or machine learning.
+**Impact**: Readers unfamiliar with MAPE may struggle to understand the significance of the results.
 
 ### Remark 2
 
 **Category**: equations  
-**Location**: Methodology  
-**Issue**: The description of the SE block architecture lacks a clear equation representation, making it harder to understand.  
-**Severity**: medium  
-**Impact**: Readers may struggle to grasp the technical details of the architecture without a visual representation.
-
-### Remark 3
-
-**Category**: documentation  
-**Location**: Conclusion  
-**Issue**: The availability of the dataset and code is mentioned, but there is no mention of data privacy measures or ethical considerations.  
-**Severity**: medium  
-**Impact**: This omission could raise concerns about data privacy and ethical practices in research.
+**Location**: Methodology - Image filtering  
+**Issue**: The equations for posture clustering using PCA and K-means are not provided, making it difficult to understand the exact mathematical operations.  
+**Severity**: high  
+**Impact**: Lack of clarity in equations hinders reproducibility and understanding of the methodology.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2492,13 +2792,13 @@ The text provides a detailed exploration of BMI estimation from smartphone camer
 **Focus**: completeness  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
 
 **Improved Version**:  
-> Recent computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, which represents real-world data only, using full-torso images.
 
 **Explanation**:  
-Clarity in expressing the limitation of dataset sizes in existing approaches.
+Clarifies that the hold-out test dataset consists of real-world data only.
 
 ### Suggestion 2
 
@@ -2507,220 +2807,186 @@ Clarity in expressing the limitation of dataset sizes in existing approaches.
 **Focus**: completeness  
 
 **Original Text**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images, such as those with atypical postures or incomplete views of the body.
+> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Improved Version**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset by excluding unsuitable images with atypical postures or incomplete views of the body.
+> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Explanation**:  
-Enhancing clarity and readability by restructuring the sentence for better flow.
+Enhances the flow and clarity of the sentence.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: completeness  
+**Location**: Methodology - Computer Vision Model  
+**Category**: algorithm_description  
+**Focus**: terminology  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> The network is a DenseNet Convolutional Neural Network (CNN).
 
 **Improved Version**:  
-> Our findings suggest that torso-up images perform comparably to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
+> The network architecture consists of a DenseNet Convolutional Neural Network (CNN).
 
 **Explanation**:  
-Improving the coherence and clarity of the comparison between different image perspectives.
+Provides more context and clarity about the network architecture.
 
 ### Suggestion 4
 
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: completeness  
 
 **Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
 
 **Improved Version**:  
-> To address the limitation of small datasets, we train deep learning models on a large-scale, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
+> The dataset is partitioned into training, test, and validation sets with proportions of 75%, 15%, and 10% respectively.
 
 **Explanation**:  
-Clarifying the purpose of using a large dataset and emphasizing the contrast with smaller datasets.
+Clarifies the process of dataset splitting.
 
 ### Suggestion 5
 
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: completeness  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, as evidenced by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.
-
-**Explanation**:  
-Enhancing clarity and precision in describing the model's generalizability.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: completeness  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
-
-**Explanation**:  
-Improving the transition and flow of ideas in the discussion.
-
-### Suggestion 7
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: completeness  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> Each user self-reported their height at the start of the fitness program.
-
-**Explanation**:  
-Simplifying the sentence structure for better readability.
-
-### Suggestion 8
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: documentation  
-
-**Original Text**:  
-> For full details, see the pseudocode in Figure 7 in the appendix.
-
-**Improved Version**:  
-> For detailed information, refer to the pseudocode provided in Figure 7 in the appendix.
-
-**Explanation**:  
-Enhancing clarity and guidance for readers to find additional information.
-
-### Suggestion 9
-
-**Location**: Methodology  
-**Category**: methodology  
+**Location**: Methodology - Training details  
+**Category**: algorithm_description  
 **Focus**: documentation  
 
 **Original Text**:  
 > We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
 
 **Improved Version**:  
-> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, we do not utilize these metrics for training decisions.
+> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, these metrics are not utilized to guide the training process.
 
 **Explanation**:  
-Clarifying the purpose of tracking metrics during training.
-
-### Suggestion 10
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: documentation  
-
-**Original Text**:  
-> The availability of the dataset and code is mentioned, but there is no mention of data privacy measures or ethical considerations.
-
-**Improved Version**:  
-> While the dataset and code availability are highlighted, there is a lack of discussion on data privacy measures and ethical considerations.
-
-**Explanation**:  
-Enhancing the completeness of the conclusion section by addressing ethical aspects.
-
-### Suggestion 11
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: documentation  
-
-**Original Text**:  
-> The tool was used to generate code snippets and autocompletions, which were then manually reviewed and adapted by the author.
-
-**Improved Version**:  
-> The tool was utilized to generate code snippets and autocompletions, which were subsequently reviewed and modified manually by the author.
-
-**Explanation**:  
-Improving the clarity and flow of the sentence for better understanding.
+Clarifies the purpose of tracking metrics during training.
 
 ### Detailed Feedback
 ### Derivation Correctness
 
-The mathematical derivations are not explicitly discussed in the provided text.
+The mathematical derivations are clear and logically sound, especially in the image filtering process using posture clustering.
 
 ### Algorithm Accuracy
 
-The algorithm descriptions lack in-depth technical details and implementation specifics.
+The algorithm descriptions are detailed and provide a comprehensive overview of the deep learning model used for BMI estimation.
 
 ### Terminology Accuracy
 
-The technical terminology is generally accurate and appropriate for the context.
+The technical terminology is mostly accurate, but some terms like 'MAPE' could be explained for better understanding.
 
 ### Equation Clarity
 
-Equations are used effectively but could benefit from more detailed explanations and visual representations.
+Equations for posture clustering using PCA and K-means could be presented more explicitly to aid comprehension.
 
 ### Content Completeness
 
-The content is comprehensive, covering various aspects of BMI estimation from camera images.
+The content is comprehensive, covering dataset details, methodology, results, and discussion effectively.
 
 ### Logical Consistency
 
-The logical flow of the text is generally coherent, but some sections could be better connected.
+The logical flow of the research is consistent, with clear transitions between sections and subsections.
 
 ### Implementation Details
 
-The implementation details are provided, but more specifics on model architecture and training could enhance clarity.
+The implementation details, such as dataset partitioning and model training, are well-described and provide insight into the process.
 
 ### Edge Case Handling
 
-The handling of edge cases, such as data quality issues, is addressed through filtering strategies.
+The handling of edge cases, such as filtering unsuitable images, is addressed effectively with clear strategies.
 
 ### Complexity Analysis
 
-The complexity analysis is not explicitly discussed in the text.
+The complexity analysis is missing, especially regarding the computational complexity of the deep learning model and image processing techniques.
 
 ### Technical Documentation
 
-The technical documentation is sufficient but could be improved by including more details on data handling and privacy measures.
+The technical documentation, including code availability and model deployment details, is thorough and enhances reproducibility.
 
 ## R7 - Consistency
-### Score: N/A/10
+### Score: 5/10
 
 ### Summary
-Overall, the paper demonstrates good alignment between methods and results, with consistent interpretation and logical flow. However, minor issues in terminology consistency and transitions between sections could be improved for enhanced coherence.
+The study demonstrates a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale real-world dataset. While the methods and results are generally aligned, there are critical issues in consistency and coherence across sections. Improvements in terminology consistency, hypothesis testing alignment, and interpretation depth are essential for enhancing the logical flow and overall coherence of the study. Addressing issues related to citation consistency, figure-text alignment, and supplementary material integration would further strengthen the research presentation and readability.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: methods_results  
 **Location**: Abstract  
-**Issue**: The MAPE values mentioned in the abstract do not match the detailed results presented later.  
+**Issue**: The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset, but the actual results section reports MAPE values for different datasets and perspectives.  
 **Severity**: medium  
-**Impact**: This inconsistency may confuse readers about the actual performance of the model.
+**Impact**: This inconsistency affects the alignment between the methods described in the abstract and the detailed results presented.
 
 ### Remark 2
 
-**Category**: logical_flow  
-**Location**: Introduction  
-**Issue**: The introduction lacks a clear transition to the methodology section, making the connection between BMI estimation and deep learning methods less explicit.  
+**Category**: results_conclusions  
+**Location**: Results section  
+**Issue**: The results section provides detailed MAPE values for different datasets and perspectives, but the conclusions do not directly reference these specific results.  
 **Severity**: medium  
-**Impact**: This lack of clear transition may disrupt the logical flow of the paper and confuse readers about the research approach.
+**Impact**: This inconsistency weakens the link between the results obtained and the conclusions drawn from them.
 
 ### Remark 3
 
+**Category**: logical_flow  
+**Location**: Introduction  
+**Issue**: The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods, but it lacks a clear transition to the specific methodology used in the study.  
+**Severity**: medium  
+**Impact**: This lack of clear connection affects the logical flow between the introduction and the methodology section.
+
+### Remark 4
+
 **Category**: terminology  
-**Location**: Methodology  
-**Issue**: Inconsistent use of terms like 'weight estimation' and 'BMI prediction' throughout the methodology section.  
+**Location**: Results section  
+**Issue**: The term 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.  
+**Severity**: medium  
+**Impact**: This inconsistency in terminology may confuse readers and hinder accurate interpretation of the results.
+
+### Remark 5
+
+**Category**: hypothesis  
+**Location**: Introduction  
+**Issue**: The introduction mentions previous studies achieving specific MAPE values, but it does not clearly state the hypothesis or research question of the current study.  
+**Severity**: medium  
+**Impact**: This lack of explicit hypothesis statement affects the alignment between the existing research context and the study's objectives.
+
+### Remark 6
+
+**Category**: interpretation  
+**Location**: Results section  
+**Issue**: The interpretation of results focuses on performance metrics but lacks deeper analysis of the implications of the findings for real-world applications.  
+**Severity**: medium  
+**Impact**: This limited interpretation hinders the discussion of practical implications and potential use cases of the study.
+
+### Remark 7
+
+**Category**: citations  
+**Location**: Literature Review  
+**Issue**: The literature review cites various studies without consistent formatting or citation style.  
 **Severity**: low  
-**Impact**: This inconsistency in terminology may lead to confusion about the specific focus of the study.
+**Impact**: While not critical, inconsistent citation formatting may detract from the professionalism of the research.
+
+### Remark 8
+
+**Category**: figures  
+**Location**: Results section  
+**Issue**: The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.  
+**Severity**: medium  
+**Impact**: This lack of clear alignment between figures and text may confuse readers and reduce the effectiveness of visual aids.
+
+### Remark 9
+
+**Category**: tables  
+**Location**: Results section  
+**Issue**: The tables presented do not always correspond directly to the specific results discussed in the text.  
+**Severity**: medium  
+**Impact**: This inconsistency between tables and text may lead to confusion and hinder accurate data interpretation.
+
+### Remark 10
+
+**Category**: supplementary  
+**Location**: Supplementary section  
+**Issue**: The supplementary material lacks direct integration with the main text, making it challenging for readers to access additional details.  
+**Severity**: low  
+**Impact**: While not critical, better integration of supplementary material could enhance the overall coherence and completeness of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2730,13 +2996,13 @@ Overall, the paper demonstrates good alignment between methods and results, with
 **Focus**: results_conclusions  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> The abstract should provide a concise summary of the key results, including the MAPE values achieved on different datasets and perspectives.
 
 **Explanation**:  
-Consistency in reporting the MAPE value helps in maintaining clarity and accuracy.
+This improvement ensures that the abstract aligns with the detailed results presented in the study, enhancing coherence.
 
 ### Suggestion 2
 
@@ -2745,270 +3011,330 @@ Consistency in reporting the MAPE value helps in maintaining clarity and accurac
 **Focus**: logical_flow  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation...
+> The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods.
 
 **Improved Version**:  
-> In this study, we present a comprehensive evaluation of BMI estimation...
+> The introduction should clearly outline how the study's methodology addresses the need for faster weight estimation methods, providing a seamless transition to the methodology section.
 
 **Explanation**:  
-A clearer connection between the introduction and methodology enhances the logical flow.
+This improvement enhances the logical flow by establishing a direct link between the introduction and the methodology.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Results section  
+**Category**: results  
+**Focus**: results_conclusions  
+
+**Original Text**:  
+> The results section provides detailed MAPE values for different datasets and perspectives.
+
+**Improved Version**:  
+> Ensure that the conclusions directly reference the specific MAPE values obtained for each dataset and perspective, reinforcing the significance of the results.
+
+**Explanation**:  
+This enhancement strengthens the alignment between the results presented and the conclusions drawn from them.
+
+### Suggestion 4
+
+**Location**: Results section  
+**Category**: results  
 **Focus**: terminology  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> The terminology 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions.
+> Consistently use 'Mean Absolute Error (MAE)' to refer to the error metric in BMI estimation, avoiding confusion with weight units.
 
 **Explanation**:  
-Consistency in punctuation enhances the professionalism of the text.
+This consistency in terminology improves clarity and ensures accurate interpretation of the results.
+
+### Suggestion 5
+
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: hypothesis  
+
+**Original Text**:  
+> The introduction mentions previous studies achieving specific MAPE values.
+
+**Improved Version**:  
+> Explicitly state the hypothesis or research question of the study, highlighting the specific objectives and expected outcomes.
+
+**Explanation**:  
+This clarification enhances the alignment between the existing research context and the study's goals.
+
+### Suggestion 6
+
+**Location**: Results section  
+**Category**: results  
+**Focus**: interpretation  
+
+**Original Text**:  
+> The interpretation of results focuses on performance metrics.
+
+**Improved Version**:  
+> Provide deeper analysis of how the study findings can be applied in real-world scenarios, discussing practical implications and potential use cases.
+
+**Explanation**:  
+This enriched interpretation enhances the discussion of the study's relevance and applicability.
+
+### Suggestion 7
+
+**Location**: Literature Review  
+**Category**: literature  
+**Focus**: citations  
+
+**Original Text**:  
+> The literature review cites various studies without consistent formatting or citation style.
+
+**Improved Version**:  
+> Ensure consistent formatting and citation style for all references in the literature review section.
+
+**Explanation**:  
+This improvement enhances the professionalism and credibility of the research by maintaining a uniform citation format.
+
+### Suggestion 8
+
+**Location**: Results section  
+**Category**: results  
+**Focus**: figures  
+
+**Original Text**:  
+> The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.
+
+**Improved Version**:  
+> Ensure that each figure is explicitly referenced and explained in the text, providing clear alignment between visual aids and textual content.
+
+**Explanation**:  
+This alignment enhances the effectiveness of visual aids in supporting the textual explanations.
+
+### Suggestion 9
+
+**Location**: Results section  
+**Category**: results  
+**Focus**: tables  
+
+**Original Text**:  
+> The tables presented do not always correspond directly to the specific results discussed in the text.
+
+**Improved Version**:  
+> Ensure that each table is introduced and explained in the text, directly linking the table content to the relevant results or analyses.
+
+**Explanation**:  
+This direct correspondence enhances the clarity and accuracy of data interpretation for readers.
+
+### Suggestion 10
+
+**Location**: Supplementary section  
+**Category**: supplementary  
+**Focus**: supplementary  
+
+**Original Text**:  
+> The supplementary material lacks direct integration with the main text.
+
+**Improved Version**:  
+> Integrate references to supplementary material within the main text where relevant, providing readers with easy access to additional details.
+
+**Explanation**:  
+This integration enhances the completeness and coherence of the study by making supplementary information more accessible.
 
 ### Detailed Feedback
 ### Methods Results Alignment
 
-The methodology section effectively describes the image filtering and model training processes, aligning well with the reported results.
+The methods and results are aligned in terms of presenting the approach used and the outcomes obtained. However, the detailed results could be more explicitly linked back to the specific methods employed.
 
 ### Results Conclusions Alignment
 
-The results are logically connected to the conclusions, with the performance metrics supporting the final insights.
+The results are presented in detail, but the conclusions could better reflect the specific findings and their implications. Strengthening the direct link between results and conclusions is essential.
 
 ### Logical Flow
 
-The paper follows a structured flow from introduction to methodology, results, and conclusion, providing a clear progression of ideas.
+The logical flow between sections is generally coherent, but there could be clearer transitions between the introduction and methodology to improve the overall structure of the paper.
 
 ### Terminology Consistency
 
-Overall, the terminology is consistent, but minor inconsistencies exist in the use of specific terms like 'weight estimation' and 'BMI prediction'.
+While the terminology is mostly consistent, there are instances of confusion between MAE and weight units. Ensuring consistent use of terms throughout the paper is crucial for clarity.
 
 ### Hypothesis Testing
 
-The study effectively tests the hypothesis by evaluating BMI estimation performance across different image perspectives.
+The study lacks a clear statement of the hypothesis or research question, which could enhance the focus and direction of the research. Explicitly stating the research objectives is essential for hypothesis testing alignment.
 
 ### Interpretation Consistency
 
-The interpretation of results is consistent, with clear comparisons made between different image perspectives.
+The interpretation of results focuses on performance metrics but lacks deeper analysis of practical implications. Enhancing the discussion of real-world applications based on the findings would improve interpretation consistency.
 
 ### Citation Consistency
 
-The paper maintains good citation consistency, referencing relevant studies to support the research findings.
+While the literature review provides relevant citations, there are inconsistencies in formatting and citation style. Maintaining a uniform citation format throughout the paper is necessary for consistency and professionalism.
 
 ### Figure Text Alignment
 
-The figures are appropriately referenced in the text, enhancing the understanding of the results presented.
+The figures mentioned in the text do not always align directly with specific results or analyses discussed. Ensuring clear references and explanations for each figure in the text would enhance alignment and understanding.
 
 ### Table Text Alignment
 
-The tables are well-aligned with the text, providing detailed information that complements the narrative.
+The tables presented may not always correspond directly to the specific results discussed in the text. Introducing and explaining each table in relation to the relevant results would improve alignment and data interpretation.
 
 ### Supplementary Consistency
 
-The supplementary material provides additional context and details that support the main text effectively.
+The supplementary material is not seamlessly integrated with the main text, making it challenging for readers to access additional details. Integrating references to supplementary material within the main text would enhance coherence and completeness.
 
 ### Writing Agents (W1-W8)
 
 ## W1 - Language and Style
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The text demonstrates good grammar and spelling accuracy overall. However, there are opportunities to enhance sentence structure, verb tense consistency, and subject-verb agreement for improved readability and coherence. Attention to academic conventions, such as in-text citations, can strengthen the academic credibility of the document.
+The text demonstrates strong academic writing conventions with minor grammar and citation issues. Improvements in subject-verb agreement, punctuation, and reference formatting can enhance clarity and professionalism.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: grammar  
 **Location**: Abstract  
-**Issue**: Fragmented sentences  
-**Severity**: medium  
-**Impact**: Affects clarity and flow of the abstract
+**Issue**: Misplaced hyphen in 'real-world' dataset.  
+**Severity**: low  
+**Impact**: Minor impact on readability.
 
 ### Remark 2
 
-**Category**: academic_conventions  
+**Category**: subject_verb  
 **Location**: Introduction  
-**Issue**: Lack of in-text citations  
+**Issue**: Subject-verb agreement error in 'Body weight and weight changes are essential indicators.'  
 **Severity**: medium  
-**Impact**: Weakens the academic credibility of the introduction
+**Impact**: Affects the clarity of the sentence.
 
 ### Remark 3
 
-**Category**: sentence_structure  
-**Location**: Methodology  
-**Issue**: Long, complex sentences  
-**Severity**: high  
-**Impact**: May confuse readers and hinder understanding of technical details
+**Category**: academic_conventions  
+**Location**: References  
+**Issue**: Missing DOI for some references.  
+**Severity**: medium  
+**Impact**: Lack of proper citation information.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: sentence_structure  
+**Focus**: punctuation  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.
+> real-world dataset
 
 **Improved Version**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in scenarios where traditional methods are impractical or inaccessible, such as telehealth services and emergency medical situations.
+> real world dataset
 
 **Explanation**:  
-Simplified the sentence structure for better readability and clarity.
+Hyphen is not needed in this context.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: sentence_structure  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: subject_verb  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Body weight and weight changes are essential indicators.
 
 **Improved Version**:  
-> Recent computer vision-based approaches for BMI estimation have primarily been limited to datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Body weight and weight changes are essential indicators of health and disease risk.
 
 **Explanation**:  
-Improved clarity and coherence by restructuring the sentence.
+Added clarity and completeness to the sentence.
 
 ### Suggestion 3
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: sentence_structure  
+**Location**: References  
+**Category**: references  
+**Focus**: academic_conventions  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> doi: 10.1186/s12916-021-02188-x.
 
 **Improved Version**:  
-> This study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset of 84,963 images collected from 25,353 individuals.
+> DOI: 10.1186/s12916-021-02188-x.
 
 **Explanation**:  
-Improved readability by simplifying the introductory sentence.
-
-### Suggestion 4
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: sentence_structure  
-
-**Original Text**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images, such as those with atypical postures or incomplete views of the body.
-
-**Improved Version**:  
-> An automatic image filtering strategy based on posture clustering and person detection is introduced to curate the real-world dataset effectively, excluding unsuitable images with atypical postures or incomplete views of the body.
-
-**Explanation**:  
-Improved clarity and flow by restructuring the sentence.
-
-### Suggestion 5
-
-**Location**: Results  
-**Category**: results  
-**Focus**: sentence_structure  
-
-**Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
-
-**Improved Version**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images with a 9% MAPE, while face-only images yield comparatively lower accuracy with an 11% MAPE.
-
-**Explanation**:  
-Enhanced clarity and coherence by restructuring the sentence.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: sentence_structure  
-
-**Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
-
-**Improved Version**:  
-> The real-world applicability of our BMI estimation approach is demonstrated by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
-
-**Explanation**:  
-Improved formality and clarity by restructuring the sentence.
+Standardize the format for DOI references.
 
 ### Detailed Feedback
 ### Grammar Correctness
 
-The text demonstrates good grammar overall, with minor errors in sentence structures.
+The text generally demonstrates good grammar, with occasional errors like misplaced hyphens.
 
 ### Spelling Accuracy
 
-Spelling is accurate throughout the document.
+Spelling is accurate throughout the text.
 
 ### Punctuation Usage
 
-Punctuation is generally correct, but some sentences could benefit from better punctuation for clarity.
+Punctuation is mostly correct, but there are instances of missing commas or incorrect usage.
 
 ### Sentence Structure
 
-The text contains a mix of complex and fragmented sentences, impacting readability and coherence.
+Sentences are well-structured, but some could benefit from varied lengths for better flow.
 
 ### Verb Tense Consistency
 
-Verb tenses are mostly consistent, but there are instances of inconsistency that could be improved.
+Verb tenses are consistent within sentences and paragraphs.
 
 ### Subject Verb Agreement
 
-Subject-verb agreement is generally correct, but there are a few instances of disagreement.
+Subject-verb agreement is generally correct, but there are a few instances of errors.
 
 ### Article Usage
 
-Article usage is appropriate, but there are a few instances where articles could be added or removed for clarity.
+Articles are used appropriately in most cases.
 
 ### Preposition Usage
 
-Prepositions are used correctly, but some sentences could benefit from improved preposition choices.
+Prepositions are generally used correctly, but there are a few instances of awkward phrasing.
 
 ### Conjunction Usage
 
-Conjunctions are appropriately used to connect ideas, but some sentences could be improved by varying conjunction choices.
+Conjunctions are used effectively to connect ideas and maintain coherence.
 
 ### Academic Conventions
 
-The document adheres to academic writing conventions, but there are areas where in-text citations could be improved for better academic credibility.
+The text follows academic writing conventions well, but some references lack complete citation details.
 
 ## W2 - Narrative and Structure
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-Overall, the research demonstrates a coherent narrative flow with logical progression of ideas. However, improvements are needed in evidence integration, paragraph organization, and conclusion alignment. Enhancing the depth of evidence analysis, refining paragraph structure, and ensuring discussion directly reflects research findings will strengthen the research narrative.
+Overall, the research demonstrates a well-structured narrative with logical progression and adequate paragraph organization. However, improvements are needed in evidence integration, conclusion alignment, and smoother section transitions to enhance narrative coherence and reader engagement.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: evidence_integration  
-**Location**: Literature Review section  
-**Issue**: The integration of evidence from prior studies lacks depth and critical analysis.  
+**Category**: paragraph_organization  
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear structure and concise summary of the study.  
 **Severity**: medium  
-**Impact**: Weak evidence integration affects the credibility and robustness of the research.
+**Impact**: Readers may struggle to grasp the main objectives and findings of the research.
 
 ### Remark 2
 
-**Category**: paragraph_organization  
-**Location**: Methodology section  
-**Issue**: The methodology description lacks a clear flow and structured organization.  
+**Category**: evidence_integration  
+**Location**: Introduction  
+**Issue**: The introduction mentions past studies but lacks integration of their findings into the current research context.  
 **Severity**: high  
-**Impact**: Poor paragraph organization can confuse readers and hinder understanding of the research process.
+**Impact**: The lack of evidence integration weakens the foundation of the study.
 
 ### Remark 3
 
 **Category**: conclusion_alignment  
-**Location**: Discussion section  
-**Issue**: The discussion does not directly align with the research results and findings.  
+**Location**: Conclusion  
+**Issue**: The conclusion briefly summarizes the results but fails to tie them back to the introduction.  
 **Severity**: medium  
-**Impact**: Misalignment between discussion and results can lead to confusion and undermine the research conclusions.
+**Impact**: The disconnect between the conclusion and introduction may confuse readers.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Literature Review section  
+**Location**: Introduction  
 **Category**: literature  
 **Focus**: logical_progression  
 
@@ -3016,87 +3342,72 @@ Overall, the research demonstrates a coherent narrative flow with logical progre
 > Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
+> Current computer vision-based BMI estimation approaches have primarily focused on datasets containing up to 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-Clarity and precision in stating the limitation of dataset sizes.
+Clarifies the focus on current approaches and improves readability.
 
 ### Suggestion 2
 
-**Location**: Methodology section  
-**Category**: methodology  
-**Focus**: paragraph_organization  
+**Location**: Results  
+**Category**: discussion  
+**Focus**: logical_progression  
 
 **Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Improved Version**:  
-> In response to the scarcity of large datasets, we develop deep learning models using a comprehensive dataset comprising over 84,000 full-body images from 25,353 individuals.
+> Furthermore, we conduct an analysis of how image perspective affects BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
 
 **Explanation**:  
-Enhancing the description of dataset utilization and research approach.
-
-### Suggestion 3
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: evidence_integration  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to novel datasets, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.
-
-**Explanation**:  
-Clarifying the model's performance on unseen datasets and emphasizing generalizability.
+Enhances clarity and strengthens the connection between the analysis and the dataset.
 
 ### Detailed Feedback
 ### Narrative Coherence
 
-The narrative flow is generally coherent, with clear connections between sections and ideas.
+The text demonstrates a coherent flow of ideas, with clear connections between sections and subsections.
 
 ### Logical Progression
 
-The logical progression of ideas is well-maintained, leading the reader through the research process effectively.
+The logical progression of ideas is generally well-maintained, with a clear development of the research topic.
 
 ### Section Transitions
 
-Transitions between sections are smooth, aiding in the overall flow of the research narrative.
+Transitions between sections are adequate, but some sections could benefit from smoother transitions to enhance overall coherence.
 
 ### Paragraph Organization
 
-Paragraph organization could be improved by ensuring each paragraph focuses on a single main idea and transitions smoothly to the next.
+Paragraphs are generally well-structured, but some paragraphs could be more focused on a single idea to improve clarity.
 
 ### Topic Sentence Effectiveness
 
-Topic sentences effectively introduce the main idea of each paragraph, but could be more concise and impactful.
+Topic sentences effectively introduce the main idea of paragraphs, aiding in reader comprehension.
 
 ### Supporting Evidence Integration
 
-The integration of supporting evidence is adequate but could benefit from deeper analysis and critical evaluation.
+The integration of supporting evidence is lacking in some sections, impacting the depth of analysis and argumentation.
 
 ### Conclusion Alignment
 
-The conclusion aligns well with the research findings, summarizing key points effectively.
+The conclusion aligns with the main findings but could be strengthened by directly referencing the introduction and research questions.
 
 ### Hypothesis Tracking
 
-The research question and hypothesis are clearly defined and tracked throughout the study.
+The research question and hypothesis are clearly stated and tracked throughout the study, providing a strong foundation for the research.
 
 ### Visual Element Integration
 
-Visual elements are sparingly used but could be more effectively integrated to enhance understanding.
+Visual elements are used effectively to support the text, providing additional context and aiding in understanding.
 
 ### Reader Engagement
 
-Reader engagement is maintained through the use of relevant examples and clear explanations.
+The text engages readers through a mix of technical details and practical implications, making the research accessible and relevant.
 
 ## W3 - Clarity and Conciseness
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The text demonstrates a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing wordiness, and enhancing readability. Addressing jargon usage, wordiness, and sentence structure can significantly enhance the accessibility and engagement of the content.
+The text exhibits a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing jargon, and enhancing readability. Addressing issues related to wordiness, redundancy, and ambiguity would significantly enhance the overall quality of the content.
 
 ### Critical Remarks
 ### Remark 1
@@ -3105,23 +3416,23 @@ The text demonstrates a moderate level of clarity and conciseness, with room for
 **Location**: Abstract  
 **Issue**: The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.  
 **Severity**: medium  
-**Impact**: It can make the abstract less accessible to a wider audience.
+**Impact**: Reduces accessibility and clarity for readers unfamiliar with the terminology.
 
 ### Remark 2
 
 **Category**: wordiness  
 **Location**: Introduction  
-**Issue**: The introduction contains lengthy sentences that could be broken down for better readability.  
+**Issue**: The introduction contains verbose descriptions of chronic diseases associated with high BMI, which could be more concise.  
 **Severity**: low  
-**Impact**: Long sentences may lead to reader confusion and difficulty in grasping the main points.
+**Impact**: Increases unnecessary text length and may lose reader interest.
 
 ### Remark 3
 
 **Category**: redundancy  
 **Location**: Methodology  
-**Issue**: Repetitive use of the phrase 'we apply' in the image filtering section.  
+**Issue**: Repetitive use of 'images' and 'dataset' in close proximity within the same paragraph.  
 **Severity**: low  
-**Impact**: Redundancy can make the text monotonous and less engaging for readers.
+**Impact**: Creates redundancy and can be confusing for readers.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3134,192 +3445,102 @@ The text demonstrates a moderate level of clarity and conciseness, with room for
 > Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.
 
 **Improved Version**:  
-> Estimating BMI from camera images allows quick weight assessment in scenarios where traditional methods are impractical or unavailable.
+> Estimating BMI from camera images enables quick weight assessment in challenging scenarios.
 
 **Explanation**:  
-Simplified language and concise phrasing enhance clarity and ease of understanding.
+Simplifies the language and reduces wordiness for better comprehension.
 
 ### Suggestion 2
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: wordiness  
+**Focus**: sentence_length  
 
 **Original Text**:  
 > Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> Current computer vision methods for BMI estimation often use datasets with around 7,211 full-body images or 14,500 facial images.
+> Recent BMI estimation methods using computer vision have mostly used datasets with around 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-Simplifying complex information and reducing unnecessary details can improve readability.
+Restructures the sentence for better flow and clarity.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: wordiness  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: language_simplicity  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> In medical emergencies, there is a well-documented need for faster weight estimation methods.
 
 **Improved Version**:  
-> We evaluate BMI estimation from smartphone images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.
+> Medical emergencies require rapid weight estimation methods.
 
 **Explanation**:  
-Streamlining the description by removing redundant details can enhance conciseness.
+Concise wording conveys the same message more effectively.
 
 ### Suggestion 4
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> A high Body Mass Index (BMI) is associated with various chronic diseases, including cardiovascular diseases, certain types of cancer, and metabolic disorders such as diabetes.
-
-**Improved Version**:  
-> High BMI is linked to chronic diseases like cardiovascular diseases, cancer, and diabetes.
-
-**Explanation**:  
-Simplifying complex medical terms and conditions can improve accessibility for a broader audience.
-
-### Suggestion 5
-
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Discussion  
+**Category**: discussion  
 **Focus**: wordiness  
 
 **Original Text**:  
-> Traditionally, the calculation of BMI requires measuring a person’s weight and height using scales and a stadiometer.
+> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
 
 **Improved Version**:  
-> Traditionally, BMI calculation involves measuring weight and height with scales and a stadiometer.
+> Our model shows robust generalizability to new data, achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.
 
 **Explanation**:  
-Removing redundant words and simplifying the sentence structure can enhance clarity.
-
-### Suggestion 6
-
-**Location**: Results  
-**Category**: results  
-**Focus**: wordiness  
-
-**Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
-
-**Improved Version**:  
-> We assess our model's performance on external datasets like Celeb-FBI and VIP-Attribute, with MAPE values of 23.64% and 25.21%.
-
-**Explanation**:  
-Concise presentation of results can improve the flow and readability of the text.
-
-### Suggestion 7
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: wordiness  
-
-**Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
-
-**Improved Version**:  
-> To fill the gap in small datasets, we use deep learning on a large real-world dataset of 84,000 full-body images from 25,353 individuals.
-
-**Explanation**:  
-Condensing information without losing key details can enhance clarity and conciseness.
-
-### Suggestion 8
-
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: wordiness  
-
-**Original Text**:  
-> Various target variables have been used in the literature, including body mass index [11, 5, 14, 9], body weight [12, 15, 6], and body fat metrics [13, 12].
-
-**Improved Version**:  
-> Previous studies have used different variables like BMI, body weight, and body fat metrics.
-
-**Explanation**:  
-Consolidating similar information into a single concise statement can improve readability.
-
-### Suggestion 9
-
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Some early approaches for BMI estimation from images relied on manually engineered features to extract meaningful information before training computational models.
-
-**Improved Version**:  
-> Early BMI estimation methods from images used manual feature extraction before training models.
-
-**Explanation**:  
-Simplifying complex processes and technical terms can enhance understanding.
-
-### Suggestion 10
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: sentence_length  
-
-**Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
-
-**Improved Version**:  
-> The dataset was divided into training, test, and validation sets with proportions of 75%, 15%, and 10%.
-
-**Explanation**:  
-Restructuring the sentence for better organization and clarity can improve readability.
+Streamlines the sentence for better readability and clarity.
 
 ### Detailed Feedback
 ### Language Simplicity
 
-The text contains technical terms and complex language that may hinder understanding for non-experts. Simplifying the language and explaining jargon can enhance clarity and accessibility.
+The text generally uses technical language and terms that may be challenging for non-experts to understand. Simplifying complex terms and explanations would enhance clarity and accessibility.
 
 ### Jargon Usage
 
-The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may make the text less accessible to a wider audience. Providing definitions or simplifying the terminology can improve comprehension.
+The text contains a significant amount of jargon and technical terms without adequate explanations. Providing definitions or simplifying terminology would improve comprehension for a wider audience.
 
 ### Wordiness
 
-The text is verbose in some sections, leading to unnecessary details and complex phrasing. Streamlining sentences and removing redundant information can enhance conciseness and readability.
+Certain sections exhibit wordiness, leading to unnecessary repetition and verbose descriptions. Streamlining sentences and removing redundant phrases would enhance conciseness.
 
 ### Sentence Length
 
-Some sentences are long and complex, making it challenging for readers to follow the main points. Breaking down lengthy sentences into shorter, clearer ones can improve readability and comprehension.
+The text contains a mix of long and short sentences. Some sentences could be shortened for better readability and flow, while others may benefit from more elaboration to clarify complex concepts.
 
 ### Paragraph Length
 
-Paragraphs are of varying lengths, impacting the flow and organization of the text. Ensuring consistent paragraph lengths can enhance the structure and readability of the content.
+Paragraphs vary in length, with some being overly long and others too brief. Balancing paragraph length for coherence and emphasis on key points would improve overall structure.
 
 ### Active Passive Voice
 
-The text predominantly uses the active voice, which is generally more direct and engaging. Maintaining a balance between active and passive voice can improve variety and readability.
+The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would enhance readability and clarity.
 
 ### Redundancy
 
-Certain sections exhibit redundancy, with repeated phrases or information. Removing redundant elements can make the text more concise and engaging for readers.
+Certain sections exhibit redundancy through repetitive use of terms or concepts. Removing redundant information and restructuring sentences would improve overall coherence.
 
 ### Ambiguity
 
-Some sections contain ambiguous or unclear statements that may confuse readers. Clarifying ambiguous points and providing explicit details can enhance understanding.
+The text occasionally introduces ambiguity through unclear phrasing or vague descriptions. Providing more specific details and clarifications would enhance reader understanding.
 
 ### Readability
 
-Overall, the text is moderately readable but can be improved by simplifying language, reducing wordiness, and enhancing sentence structure. Enhancing readability can make the content more accessible and engaging.
+Overall, the text is readable but could benefit from simplification of language, reduction of jargon, and clearer explanations. Improving readability would enhance accessibility for a wider audience.
 
 ### Information Density
 
-The text contains a moderate level of information density, presenting detailed technical content. Balancing information density with clarity and conciseness can enhance the overall readability and accessibility of the text.
+The text contains a high level of information density, presenting complex concepts and technical details. Balancing information density with clarity and simplicity would improve overall comprehension.
 
 ## W4 - Terminology Consistency
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The text demonstrates good overall terminology consistency, with minor issues in variable naming, unit notation, and term usage. Improvements in these areas will enhance clarity and understanding for readers.
+The text demonstrates a good level of terminology consistency overall, with clear usage of technical terms and field-specific terminology. However, there are some areas of improvement needed, such as maintaining consistency in variable naming, unit notation, and abbreviation usage. Addressing these issues can enhance the clarity and professionalism of the research paper.
 
 ### Critical Remarks
 ### Remark 1
@@ -3334,17 +3555,17 @@ The text demonstrates good overall terminology consistency, with minor issues in
 
 **Category**: variable_naming  
 **Location**: Methodology  
-**Issue**: Inconsistent variable naming conventions in the deep learning model description.  
-**Severity**: high  
-**Impact**: May lead to confusion in understanding the model architecture and implementation.
+**Issue**: Inconsistent variable naming conventions for image perspectives (e.g., 'full-body', 'torso-up', 'face-only').  
+**Severity**: medium  
+**Impact**: May lead to confusion in understanding the methodology and results.
 
 ### Remark 3
 
 **Category**: unit_notation  
 **Location**: Results  
-**Issue**: Mixing units for weight measurements (kg, lbs) without clear distinction.  
+**Issue**: Mixing units for weight measurement (kg, lbs) without clear distinction or conversion.  
 **Severity**: medium  
-**Impact**: Could cause misinterpretation of results due to inconsistent unit representation.
+**Impact**: Could cause misinterpretation of results by readers.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3360,109 +3581,109 @@ The text demonstrates good overall terminology consistency, with minor issues in
 > Estimating Body Mass Index (BMI) from camera images facilitates rapid BMI assessment...
 
 **Explanation**:  
-Consistently using 'BMI' instead of 'weight' clarifies the specific focus on BMI estimation.
+Consistently using 'BMI' instead of 'weight' improves clarity and precision.
 
 ### Suggestion 2
 
-**Location**: Results  
-**Category**: results  
+**Location**: Conclusion  
+**Category**: conclusion  
 **Focus**: notation  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset...
+> We provide the code for training, deployment, and the mobile applications as open-source contributions.
 
 **Explanation**:  
-Maintaining consistent notation for metrics like MAPE throughout the text.
+Consistency in punctuation enhances readability and professionalism.
 
 ### Suggestion 3
 
-**Location**: Results  
-**Category**: results  
-**Focus**: unit_notation  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: technical_terms  
 
 **Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> The base Densenet201 model is pre-trained on the ImageNet dataset...
 
 **Improved Version**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> The base DenseNet201 model is pre-trained on the ImageNet dataset...
 
 **Explanation**:  
-Consistently representing BMI units as 'BMI' throughout the text.
+Consistent capitalization of 'DenseNet' improves technical term usage.
 
 ### Detailed Feedback
 ### Term Usage Consistency
 
-The text generally maintains consistency in term usage, primarily focusing on BMI estimation.
+The text generally maintains consistency in using technical terms like 'Deep Learning' and 'Convolutional Neural Networks.' However, there are instances of interchangeably using 'BMI estimation' and 'weight estimation.' Consistent use of 'BMI estimation' throughout the text is recommended.
 
 ### Notation Consistency
 
-Notation consistency is mostly maintained, with occasional deviations in unit representation.
+Notation consistency is generally maintained, with clear use of mathematical symbols and equations. However, there are instances of inconsistent punctuation and capitalization that can be improved.
 
 ### Acronym Usage
 
-Acronyms like MAPE and MAE are consistently used and defined throughout the text.
+Acronyms like 'BMI' are consistently defined upon first use. However, there are instances where acronyms are used without prior definition, which can be confusing for readers.
 
 ### Variable Naming Consistency
 
-Variable naming conventions in the deep learning model description need improvement for consistency.
+Variable naming conventions are generally clear, but there are inconsistencies in naming perspectives like 'full-body', 'torso-up', and 'face-only.' Standardizing variable names for these perspectives is recommended.
 
 ### Unit Notation Consistency
 
-Unit notation consistency needs attention, especially in representing weight measurements.
+Units for weight measurement are inconsistently presented in kg and lbs without clear distinction or conversion. Maintaining a consistent unit notation or providing clear conversions is essential for clarity.
 
 ### Abbreviation Consistency
 
-Abbreviations are used consistently, but clarity could be improved in some instances.
+Abbreviations like 'MAPE' and 'MAE' are consistently used throughout the text. However, ensuring consistent abbreviation usage for terms like 'Body Mass Index' can enhance readability.
 
 ### Technical Term Consistency
 
-Technical terms related to deep learning and image processing are used consistently.
+Technical terms related to deep learning models and image processing are used consistently. Ensuring uniformity in technical terms and capitalization can improve clarity.
 
 ### Field Terminology
 
-Field-specific terminology related to BMI estimation and image processing is appropriately utilized.
+The field-specific terminology related to image processing and weight estimation is appropriately used. Maintaining consistency in terminology specific to the research domain is crucial for understanding.
 
 ### Cross Reference Consistency
 
-Cross-references are generally consistent, aiding in connecting different sections of the text.
+Cross-references to datasets and prior research are generally clear. Ensuring consistent formatting and citation style for cross-references can enhance the overall coherence of the text.
 
 ### Definition Consistency
 
-Definitions are clear and consistent, providing a solid foundation for understanding key concepts.
+Definitions of terms like 'MAPE' and 'MAE' are provided consistently. Ensuring that all key terms are defined clearly upon first use can aid readers in understanding the concepts.
 
 ## W5 - Inclusive Language
-### Score: N/A/10
+### Score: 7/10
 
 ### Summary
-The text shows potential for improvement in gender-neutral language usage, cultural sensitivity, and disability inclusion. By incorporating diverse perspectives and considering various abilities, the study can enhance its inclusivity and relevance across different populations.
+The text shows good efforts towards inclusivity but can further enhance gender-neutral language, cultural sensitivity, and disability inclusion. Improvements in professional title usage and stereotype avoidance can also enhance inclusivity.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: gender_neutrality  
 **Location**: Abstract  
-**Issue**: The text uses terms like 'individuals' and 'participants,' but there is a lack of explicit gender-neutral language throughout.  
+**Issue**: The text uses gender-specific pronouns like 'his' and 'her' instead of gender-neutral language.  
 **Severity**: medium  
-**Impact**: Excludes non-binary individuals and may reinforce gender norms.
+**Impact**: Excludes non-binary individuals and reinforces gender stereotypes.
 
 ### Remark 2
 
 **Category**: cultural_sensitivity  
 **Location**: Introduction  
-**Issue**: The study focuses on Western perspectives and datasets, neglecting cultural diversity in body image perceptions.  
-**Severity**: high  
-**Impact**: Limits the generalizability of the findings to diverse cultural contexts.
+**Issue**: The text assumes a Western-centric perspective in discussing health and weight issues.  
+**Severity**: medium  
+**Impact**: Neglects diverse cultural beliefs and practices related to body weight and health.
 
 ### Remark 3
 
 **Category**: disability_inclusion  
 **Location**: Methodology  
-**Issue**: The text does not address considerations for individuals with disabilities in the image filtering process.  
-**Severity**: medium  
-**Impact**: Excludes individuals with disabilities from the study, leading to biased results.
+**Issue**: The text lacks considerations for accessibility features for individuals with disabilities.  
+**Severity**: low  
+**Impact**: Excludes individuals with disabilities from participating in the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3472,13 +3693,13 @@ The text shows potential for improvement in gender-neutral language usage, cultu
 **Focus**: gender_neutrality  
 
 **Original Text**:  
-> individuals
+> his or her weight
 
 **Improved Version**:  
-> individuals of all genders
+> their weight
 
 **Explanation**:  
-Explicitly includes individuals of all gender identities.
+Using 'their' is gender-neutral and inclusive of all genders.
 
 ### Suggestion 2
 
@@ -3487,13 +3708,13 @@ Explicitly includes individuals of all gender identities.
 **Focus**: cultural_sensitivity  
 
 **Original Text**:  
-> Western perspectives
+> Western-centric
 
 **Improved Version**:  
 > diverse cultural perspectives
 
 **Explanation**:  
-Acknowledges the importance of diverse cultural viewpoints.
+Acknowledging diverse cultural perspectives avoids bias towards Western norms.
 
 ### Suggestion 3
 
@@ -3502,90 +3723,90 @@ Acknowledges the importance of diverse cultural viewpoints.
 **Focus**: disability_inclusion  
 
 **Original Text**:  
-> considerations for individuals with disabilities
+> individuals with disabilities
 
 **Improved Version**:  
-> considerations for individuals with diverse abilities
+> participants with diverse abilities
 
 **Explanation**:  
-Broadens the scope to include individuals with various abilities.
+Using 'diverse abilities' is more inclusive and respectful of different abilities.
 
 ### Detailed Feedback
 ### Gender Neutral Language
 
-The text should consistently use gender-neutral terms like 'individuals' or 'people' instead of gender-specific language.
+The text should consistently use gender-neutral pronouns and terms to be inclusive of all genders.
 
 ### Cultural Sensitivity
 
-Consider incorporating perspectives from diverse cultures to ensure the study's relevance and applicability across different populations.
+Consider incorporating perspectives from various cultures to ensure inclusivity and respect for diverse beliefs.
 
 ### Age Appropriate Terminology
 
-Ensure that the language and concepts used are suitable and understandable for individuals of all age groups.
+Ensure that the language used is appropriate for all age groups to avoid age-related stereotypes or biases.
 
 ### Disability Inclusive Language
 
-Include considerations for individuals with disabilities in all aspects of the study to promote inclusivity and accessibility.
+Include considerations for accessibility features and accommodations to ensure participation of individuals with disabilities.
 
 ### Socioeconomic Sensitivity
 
-Address the potential impact of socioeconomic factors on the study participants and outcomes.
+Be mindful of language that may unintentionally perpetuate stereotypes or stigmas related to socioeconomic status.
 
 ### Geographic Inclusivity
 
-Acknowledge the geographic diversity of the study participants and consider how location may influence the findings.
+Acknowledge and respect diverse geographical contexts and avoid assumptions based on a single location or culture.
 
 ### Professional Title Usage
 
-Use appropriate and respectful professional titles when referring to individuals involved in the study.
+Use professional titles consistently and respectfully to avoid assumptions or biases based on job roles.
 
 ### Stereotypes
 
-Avoid perpetuating stereotypes or assumptions about body image, weight, or health.
+Avoid language or descriptions that reinforce stereotypes related to gender, race, ethnicity, or other characteristics.
 
 ### Identity Language
 
-Consider using person-first language to prioritize the individual over their characteristics or conditions.
+Consider using person-first language to prioritize individuals over their identities or conditions.
 
 ### Historical Context
 
-Be mindful of the historical context surrounding body image, weight estimation, and related topics to avoid perpetuating harmful narratives.
+Be aware of historical implications of language or terms used and ensure sensitivity to past experiences or injustices.
 
 ## W6 - Citation Formatting
-### Score: N/A/10
+### Score: 6/10
 
 ### Summary
-The document exhibits good in-text citation formatting with proper author names and publication years. However, there are inconsistencies in author name formatting, missing or incorrectly formatted DOIs, and inconsistent journal name formatting in the references. Improvements are needed in author name consistency, DOI formatting, and journal name abbreviation to enhance citation quality and readability.
+Overall, the text demonstrates good citation formatting with minor issues in author name consistency, DOI formatting, and missing volume/issue numbers. Improvements in these areas will enhance the professionalism and completeness of the citations.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: author_format  
 **Location**: Abstract  
-**Issue**: Author names lack consistency in formatting.  
+**Issue**: Author names are not consistently formatted with initials and full names.  
 **Severity**: medium  
-**Impact**: Inconsistency in author name formatting can lead to confusion and affect the credibility of the citation.
+**Impact**: Affects the professionalism and consistency of the citations.
 
 ### Remark 2
 
 **Category**: doi_format  
 **Location**: References  
 **Issue**: Some DOIs are missing or incorrectly formatted.  
-**Severity**: medium  
-**Impact**: Missing or incorrect DOIs can hinder readers' ability to access the sources and reduce the credibility of the references.
+**Severity**: high  
+**Impact**: Impacts the ability to access the original sources for verification.
 
 ### Remark 3
 
-**Category**: journal_format  
-**Location**: References  
-**Issue**: Journal names are inconsistently formatted.  
+**Category**: volume_format  
+**Location**: Methodology  
+**Issue**: Volume and issue numbers are missing for journal references.  
 **Severity**: medium  
-**Impact**: Inconsistent journal name formatting can make it difficult for readers to identify and locate the sources.
+**Impact**: Lacks specificity in identifying the exact source within the journal.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Author list  
+**Location**: Abstract  
 **Category**: author_format  
 **Focus**: author_format  
 
@@ -3596,354 +3817,311 @@ The document exhibits good in-text citation formatting with proper author names 
 > Manichand, F. R.
 
 **Explanation**:  
-Consistent use of initials and last name improves readability and citation style.
+Consistent use of initials and last name for author names.
 
 ### Suggestion 2
-
-**Location**: Affiliation details  
-**Category**: author_format  
-**Focus**: author_format  
-
-**Original Text**:  
-> Centre for Digital Health Interventions, ETH Z¨urich
-
-**Improved Version**:  
-> Centre for Digital Health Interventions, ETH Zurich
-
-**Explanation**:  
-Correcting the special character and ensuring consistency in institution names.
-
-### Suggestion 3
 
 **Location**: References  
 **Category**: doi_format  
 **Focus**: doi_format  
 
 **Original Text**:  
-> doi: 10.1186/s12916-021-02188-x
+> DOI: 10.1186/s12916-021-02188-x
 
 **Improved Version**:  
 > https://doi.org/10.1186/s12916-021-02188-x
 
 **Explanation**:  
-Convert DOI to a clickable URL for easy access to the source.
+Correct formatting for DOIs with a clickable link.
 
-### Suggestion 4
+### Suggestion 3
 
-**Location**: References  
-**Category**: journal_format  
-**Focus**: journal_format  
+**Location**: Methodology  
+**Category**: volume_format  
+**Focus**: volume_format  
 
 **Original Text**:  
-> IEEE Transactions on Information Forensics and Security
+> Volume 2 (ASPLOS ’24)
 
 **Improved Version**:  
-> IEEE Trans. Inf. Forensics Secur.
+> Volume 2, Issue 1 (ASPLOS '24)
 
 **Explanation**:  
-Abbreviating journal names according to standard formats saves space and improves consistency.
+Including the issue number for better reference specificity.
 
 ### Detailed Feedback
 ### In Text Citation Format
 
-In-text citations are generally well-formatted with proper author names and publication years.
+In-text citations are generally well-formatted with appropriate use of author names and publication years.
 
 ### Reference List Format
 
-The reference list is structured correctly with necessary details, but there are inconsistencies in formatting.
+The reference list is organized and includes necessary details, but some improvements are needed in DOI formatting and volume/issue numbers.
 
 ### Citation Style Consistency
 
-The citation style is mostly consistent within the text, but there are minor variations in author name formatting.
+Consistency in citation style is maintained throughout the text.
 
 ### Reference Completeness
 
-References are complete with essential details, but some entries lack DOIs or have incorrect formatting.
+References are mostly complete, but missing DOIs and volume/issue numbers reduce completeness.
 
 ### Doi Url Formatting
 
-DOIs should be converted to clickable URLs for easy access to the sources.
+DOIs should be formatted as clickable links for easy access to the original sources.
 
 ### Author Name Formatting
 
-Author names should be consistently formatted with last name followed by initials to improve readability and citation style.
+Author names should be consistently formatted with initials and last names for a professional appearance.
 
 ### Publication Date Formatting
 
-Publication dates are presented in a clear format, but ensure consistency in date formatting throughout the references.
+Publication dates are correctly formatted with years included.
 
 ### Journal Name Formatting
 
-Abbreviate journal names according to standard formats to save space and improve consistency.
+Journal names are appropriately formatted.
 
 ### Volume Issue Page Formatting
 
-Ensure consistency in formatting volume, issue, and page numbers for all references.
+Volume and issue numbers should be included for journal references for better specificity.
 
 ### Cross Reference Accuracy
 
 Cross-references are accurate and relevant within the text.
 
 ## W7 - Target Audience Alignment
-### Score: N/A/10
+### Score: 0/10
 
 ### Summary
-The study demonstrates a strong technical depth in employing deep learning models for BMI estimation from smartphone images. While the writing style is formal and appropriate for the academic audience, improvements are needed in providing more detailed explanations in the abstract and incorporating visuals for better results presentation. The organization of sections is clear, with a comprehensive reference style and detailed methodology descriptions. Suggestions for improvement include enhancing terminology usage, refining abstract clarity, and integrating more visual aids for better audience engagement.
+The research demonstrates a strong technical depth and appropriate use of field-specific terminology. However, improvements are needed in organizing the methodology section for clarity, integrating visual elements for better data presentation, and enhancing the discussion depth. Overall, the study aligns well with a research audience but could benefit from minor adjustments to enhance audience engagement and comprehension.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: technical_depth  
+**Category**: terminology  
 **Location**: Abstract  
-**Issue**: The abstract lacks a detailed explanation of the deep learning model architecture and image processing techniques used.  
+**Issue**: Lack of explanation for technical terms like MAPE and BMI, assuming audience familiarity.  
 **Severity**: medium  
-**Impact**: May hinder understanding for readers unfamiliar with the technical aspects of the study.
+**Impact**: May alienate readers unfamiliar with field-specific terminology.
 
 ### Remark 2
 
-**Category**: visuals  
+**Category**: organization  
+**Location**: Methodology section  
+**Issue**: Methodology description lacks a clear step-by-step structure, making it hard to follow.  
+**Severity**: high  
+**Impact**: May lead to confusion and hinder replication of the study.
+
+### Remark 3
+
+**Category**: results  
 **Location**: Results section  
-**Issue**: The results presentation lacks visual aids such as graphs or charts to illustrate the performance metrics.  
+**Issue**: Data presentation lacks visual aids like tables or graphs, making it text-heavy.  
 **Severity**: medium  
-**Impact**: Readers may find it challenging to interpret and compare the results without visual representations.
+**Impact**: May reduce reader engagement and comprehension.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: abstract  
+**Category**: terminology  
 **Focus**: technical_depth  
 
 **Original Text**:  
 > Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
+> Current computer vision-based BMI estimation approaches have mostly utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
 
 **Explanation**:  
-Clarity and conciseness in presenting the limitation of existing approaches.
+Clarifies the sentence structure and improves readability.
 
 ### Suggestion 2
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: technical_depth  
-
-**Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
-
-**Improved Version**:  
-> Our codebase, including training, deployment, and mobile application scripts, is openly available for public access.
-
-**Explanation**:  
-Enhances clarity and emphasizes the availability of resources for replication and implementation.
-
-### Suggestion 3
 
 **Location**: Results  
 **Category**: results  
 **Focus**: technical_depth  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
 
 **Improved Version**:  
-> Torso-up images demonstrate comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
+> Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.
 
 **Explanation**:  
-Improves readability and clarity in presenting the comparison results.
+Enhances clarity and ensures the audience understands the technical metric.
 
-### Suggestion 4
+### Suggestion 3
 
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: references  
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: formality  
 
 **Original Text**:  
-> The dataset used is proprietary and not publicly available.
+> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
 
 **Improved Version**:  
-> The dataset utilized in this study is proprietary and not accessible to the public.
+> Our BMI estimation approach is practically demonstrated by implementing image filtering and BMI estimation algorithms in Python on mobile devices through the CLAID framework.
 
 **Explanation**:  
-Clarifies the availability of the dataset for replication purposes.
-
-### Suggestion 5
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: terminology  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> Participants self-reported their height at the commencement of the fitness program.
-
-**Explanation**:  
-Enhances clarity and conciseness in describing the data collection process.
+Streamlines the sentence and improves readability.
 
 ### Detailed Feedback
 ### Technical Depth
 
-The study demonstrates a high level of technical depth by employing deep learning models for BMI estimation and detailing image processing techniques.
+The text provides a detailed explanation of the methodology and results, catering to an audience familiar with deep learning and computer vision.
 
 ### Terminology Usage
 
-The terminology used is appropriate for the field of computer vision and machine learning, enhancing the precision and clarity of the study.
+The field-specific terminology is used appropriately, but some terms could benefit from brief explanations for non-experts.
 
 ### Writing Formality
 
-The writing style maintains a formal tone suitable for an academic audience, maintaining professionalism throughout the text.
+The writing style is formal and academic, suitable for a research audience.
 
 ### Section Organization
 
-The sections are well-structured, with clear delineation of abstract, introduction, methodology, results, discussion, and conclusion.
+The sections are well-defined, but the methodology description could benefit from a clearer step-by-step structure.
 
 ### Visual Integration
 
-Visual elements such as figures, tables, and plots are integrated effectively to enhance understanding and illustrate key points.
+Visual aids like tables and graphs are lacking in the results section, which could enhance data presentation.
 
 ### Reference Style
 
-The study demonstrates a comprehensive reference style, citing relevant prior research to provide context and support the findings.
+The references are appropriately cited, providing context and background for the study.
 
 ### Methodology Detail
 
-The methodology section provides detailed descriptions of image filtering strategies, model architecture, and training procedures, ensuring reproducibility.
+The methodology description is detailed but could be organized more clearly for better understanding.
 
 ### Results Presentation
 
-The results are presented clearly, detailing performance metrics and comparisons across different image perspectives and datasets.
+The results are presented clearly but could be enhanced with visual elements for better comprehension.
 
 ### Discussion Depth
 
-The discussion delves into the practical implications of the findings, highlighting strengths, limitations, and potential applications of the study.
+The discussion provides insights into the findings but could delve deeper into the implications and future directions.
 
 ### Conclusion Format
 
-The conclusion effectively summarizes the key findings, implications, and future directions, providing closure to the study.
+The conclusion summarizes the key findings effectively but could be structured more succinctly.
 
 ## W8 - Visual Presentation
-### Score: N/A/10
+### Score: 6/10
 
 ### Summary
-The manuscript's visual presentation is generally good, with clear figures and tables. However, some figures lack labels or annotations, impacting reader comprehension. Tables could benefit from improved formatting for better readability. Overall, the visual elements effectively support the text but could be enhanced with more detailed captions and improved clarity in some instances.
+The manuscript lacks complete captions and clear labeling in some figures, impacting reader understanding. Improvements in clarity, completeness, and visual hierarchy are recommended to enhance the visual presentation quality.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: Figure  
-**Location**: Page 5, Figure 1  
-**Issue**: The torso-up cropping strategy figure lacks labels and annotations, making it challenging for readers to understand the process.  
+**Category**: Figure quality  
+**Location**: Figure 8  
+**Issue**: The dataset statistics plot lacks labels for the axes, making it difficult to interpret the data.  
 **Severity**: medium  
-**Impact**: Reduces reader comprehension and clarity of the methodology.
+**Impact**: Readers may struggle to understand the distribution of body weight, height, and BMI in the dataset.
 
 ### Remark 2
 
-**Category**: Table  
-**Location**: Page 1, Table 1  
-**Issue**: The content preview is cut off, making it difficult to understand the complete information presented in the table.  
+**Category**: Caption completeness  
+**Location**: Figure 9  
+**Issue**: The UMAP plot and elbow plot lack clear captions explaining the purpose and content of the visualizations.  
 **Severity**: low  
-**Impact**: Readers may miss important details or context from the table.
+**Impact**: Readers may not fully grasp the significance of the clustering results without proper context.
 
 ### Remark 3
 
-**Category**: Caption  
-**Location**: Page 8, Table 1  
-**Issue**: The caption is missing, making it unclear what the table represents without further context.  
-**Severity**: high  
-**Impact**: Readers may struggle to interpret the table's data without a proper caption.
+**Category**: Visual hierarchy  
+**Location**: Figure 11  
+**Issue**: The loss, MAE, and MAPE per epoch plot lacks distinction between the different lines, making it hard to differentiate the metrics.  
+**Severity**: medium  
+**Impact**: Difficulty in understanding the training and validation performance over epochs.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Page 5, Figure 1  
+**Location**: Figure 8  
 **Category**: Figure  
-**Focus**: Clarity and comprehension  
+**Focus**: Clarity and completeness  
 
 **Original Text**:  
-> Example of torso-up cropping strategy.1
+> Figure 8. Dataset statistics.
 
 **Improved Version**:  
-> Example of torso-up cropping strategy with annotations and labels explaining the process.
+> Figure 8. Distribution of Body Weight, Height, and BMI in the Dataset.
 
 **Explanation**:  
-Adding labels and annotations will enhance reader understanding of the figure.
+Adding clear labels to the axes will enhance the interpretability of the plot.
 
 ### Suggestion 2
 
-**Location**: Page 1, Table 1  
-**Category**: Table  
-**Focus**: Formatting and readability  
+**Location**: Figure 9  
+**Category**: Figure  
+**Focus**: Caption completeness  
 
 **Original Text**:  
-> Digital Scale: On-Device BMI Estimation from Smartphone Camera Images
-Trained on a Large-Scale Real-World Dataset
-Frederik Rajiv Manichand
-WayBetter
-Centre for Digital Health Interventions, ETH Zürich...
+> Figure 9. Comparison of clustering results: (a) UMAP visualization for k=4 clusters and (b) elbow plot for k-means clustering of body keypoint data.
 
 **Improved Version**:  
-> Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset by Frederik Rajiv Manichand, WayBetter, Centre for Digital Health Interventions, ETH Zurich...
+> Figure 9. Clustering Results Visualization: (a) UMAP Plot for 4 Clusters and (b) Elbow Plot for K-means Clustering of Body Keypoint Data.
 
 **Explanation**:  
-Improving the formatting by removing line breaks will enhance readability and presentation.
+Adding descriptive captions will provide context and aid in understanding the purpose of the visualizations.
 
 ### Suggestion 3
 
-**Location**: Page 8, Table 1  
-**Category**: Caption  
-**Focus**: Completeness and clarity  
+**Location**: Figure 11  
+**Category**: Figure  
+**Focus**: Visual hierarchy  
 
 **Original Text**:  
-> Comparison of our model with the original authors on different datasets
-5. Discussion
-In this Section, we discuss the practical implications of our findings and highlight the limitations of our study.
+> Figure 11. Loss, MAE and MAPE per epoch for the training and validation sets of each model.
 
 **Improved Version**:  
-> Comparison of our model with the original authors on different datasets in the Discussion section.
+> Figure 11. Training and Validation Performance Metrics per Epoch.
 
 **Explanation**:  
-Providing a more specific and concise caption will improve clarity and context.
+Differentiate the lines representing loss, MAE, and MAPE to improve clarity and readability.
 
 ### Detailed Feedback
 ### Figure Quality
 
-Figures are clear and visually engaging, but some lack labels or annotations for better understanding.
+Improve labeling and clarity in Figure 8 for better interpretation. Ensure all figures have clear and informative captions.
 
 ### Table Formatting
 
-Tables are structured well, but some content previews are cut off, affecting readability.
+N/A
 
 ### Visual Placement
 
-Figures and tables are appropriately placed within the text, aiding in content flow.
+N/A
 
 ### Caption Completeness
 
-Captions are generally present but may lack completeness in some instances.
+Captions should provide context and explain the content of the visualizations.
 
 ### Color Scheme
 
-Color scheme is not mentioned in the feedback, so assuming it is appropriate for the content.
+N/A
 
 ### Data Visualization
 
-Data visualization is effective in conveying information, but some figures could benefit from more detail.
+Ensure data visualizations are clear and effectively convey the intended information.
 
 ### Visual Hierarchy
 
-Visual hierarchy is maintained, with figures and tables appropriately placed throughout the manuscript.
+Differentiate elements in plots to aid in interpretation.
 
 ### Accessibility
 
-Accessibility considerations are not explicitly addressed in the feedback.
+Include labels, captions, and color contrasts for better accessibility.
 
 ### Visual Consistency
 
-Visual style is consistent across figures and tables, maintaining a cohesive presentation.
+Maintain consistent style and formatting across visual elements.
 
 ### Text Integration
 
-Visual elements are integrated well with the text, supporting and enhancing the content.
+Ensure visual elements support and enhance the text by providing additional insights.

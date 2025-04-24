@@ -11,8 +11,8 @@ import argparse
 from datetime import datetime
 from typing import Dict, Any, List
 
+# Use relative imports
 from reviewer_agents.controller_agent import ControllerAgent
-from utils.pdf_parser import PDFParser
 from utils.json_to_report import generate_overall_report, save_report
 
 

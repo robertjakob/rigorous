@@ -1,149 +1,203 @@
-# V5 Multi-Agent Manuscript Review System
+# Manuscript Reviewer
 
-A sophisticated multi-agent system for comprehensive scientific manuscript review, leveraging GPT models to evaluate various aspects of research quality, writing, and presentation.
+A multi-agent system for comprehensive manuscript review and analysis.
 
 ## Overview
 
-This system employs a team of specialized AI agents to perform thorough manuscript reviews, each focusing on specific aspects of research quality and presentation. The system is designed to provide detailed, structured feedback that helps authors improve their manuscripts.
+This project implements a sophisticated multi-agent system for reviewing and analyzing academic manuscripts. The system uses a combination of section-specific, rigor, and writing quality agents to provide detailed feedback and suggestions for improvement.
 
 ## Agent Structure
 
-### Research Quality Agents (R1-R7)
+The system consists of three main categories of agents:
 
-1. **R1 - Originality & Contribution Agent**
-   - Evaluates research novelty and contributions
-   - Assesses advancement of knowledge
-   - Verifies claims of innovation
+### Section Agents (S1-S10)
+- S1: Title and Keywords Analysis
+- S2: Abstract Review
+- S3: Introduction Assessment
+- S4: Literature Review Analysis
+- S5: Methodology Evaluation
+- S6: Results Analysis
+- S7: Discussion Review
+- S8: Conclusion Assessment
+- S9: References Analysis
+- S10: Supplementary Materials Review
 
-2. **R2 - Impact & Significance Agent**
-   - Analyzes field influence
-   - Evaluates broader implications
-   - Assesses practical applications
+### Rigor Agents (R1-R7)
+- R1: Originality and Contribution
+- R2: Impact and Significance
+- R3: Ethics and Compliance
+- R4: Data and Code Availability
+- R5: Statistical Rigor
+- R6: Technical Accuracy
+- R7: Consistency
 
-3. **R3 - Ethics & Compliance Agent**
-   - Reviews ethical considerations
-   - Checks research integrity
-   - Evaluates consent procedures
+### Writing Agents (W1-W8)
+- W1: Clarity
+- W2: Organization
+- W3: Grammar
+- W4: Style
+- W5: Technical Accuracy
+- W6: Consistency
+- W7: Readability
+- W8: Overall Writing Quality
 
-4. **R4 - Data & Code Availability Agent**
-   - Assesses data sharing practices
-   - Evaluates code availability
-   - Reviews reproducibility
+## Installation
 
-5. **R5 - Statistical Rigor Agent**
-   - Analyzes statistical methods
-   - Evaluates sample size justification
-   - Reviews statistical reporting
-
-6. **R6 - Technical Accuracy Agent**
-   - Verifies technical details
-   - Checks mathematical derivations
-   - Evaluates algorithm descriptions
-
-7. **R7 - Consistency Agent**
-   - Ensures internal consistency
-   - Verifies cross-references
-   - Checks terminology usage
-
-### Writing & Presentation Agents (W1-W8)
-
-1. **W1 - Language Style Agent**
-   - Evaluates writing style
-   - Checks grammar and clarity
-   - Assesses academic tone
-
-2. **W2 - Narrative Structure Agent**
-   - Analyzes logical flow
-   - Evaluates section organization
-   - Checks argument coherence
-
-3. **W3 - Clarity & Conciseness Agent**
-   - Reviews sentence structure
-   - Evaluates paragraph organization
-   - Checks for redundancy
-
-4. **W4 - Terminology Consistency Agent**
-   - Ensures consistent terminology
-   - Checks acronym usage
-   - Verifies field-specific terms
-
-5. **W5 - Inclusive Language Agent**
-   - Evaluates language inclusivity
-   - Checks for bias
-   - Assesses accessibility
-
-6. **W6 - Citation Formatting Agent**
-   - Verifies citation style
-   - Checks reference list
-   - Evaluates in-text citations
-
-7. **W7 - Target Audience Agent**
-   - Assesses audience alignment
-   - Evaluates technical depth
-   - Checks field-specific conventions
-
-8. **W8 - Visual Presentation Agent**
-   - Reviews figure quality
-   - Evaluates table formatting
-   - Checks visual elements
-
-## Features
-
-- **Comprehensive Analysis**: Each agent provides detailed feedback on specific aspects of the manuscript
-- **Structured Output**: Results are provided in a clear, organized format
-- **Actionable Feedback**: Each evaluation includes specific improvement suggestions
-- **Automated Report Generation**: Creates a detailed markdown report combining all agent feedback
-- **Error Handling**: Robust error handling and recovery mechanisms
-- **Configurable**: Easy to modify agent parameters and evaluation criteria
+1. Clone the repository
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-1. **Setup**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/yourusername/rigorous.git
-   cd rigorous/V5_multi_agent2
+1. Place your manuscript PDF in the `manuscripts/` directory
+2. Run the analysis:
+```bash
+python run_analysis.py
+```
 
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
-
-2. **Running Analysis**
-   ```bash
-   # Run the analysis on a manuscript
-   python run_analysis.py
-   ```
-
-3. **Generating Reports**
-   ```bash
-   # Generate a comprehensive report
-   ./scripts/generate_report.sh
-   ```
+For information on using more powerful models (like GPT-4), see [MODEL_GUIDE.md](MODEL_GUIDE.md).
 
 ## Output
 
-The system generates several types of output:
+The system generates a comprehensive report in `results/manuscript_report.md` containing:
+- Overall assessment
+- Section-by-section analysis
+- Critical remarks
+- Improvement suggestions
+- Detailed feedback
+- Summary of findings
 
-1. **Individual Agent Results**: JSON files containing detailed feedback from each agent
-2. **Combined Results**: A comprehensive JSON file combining all agent feedback
-3. **Manuscript Report**: A well-formatted markdown report with all findings and suggestions
+For information on using more powerful models (like GPT-4), see [MODEL_GUIDE.md](MODEL_GUIDE.md).
+
+## Report Generator
+
+The report generator component takes the combined output from all agents and creates a well-structured markdown report.
+
+### Report Structure
+
+1. **Header**
+   - Title and generation timestamp
+   - Important notes about the tool's status
+   - Overall assessment summary
+
+2. **Section Analysis (S1-S10)**
+   - Title and Keywords through Supplementary Materials
+
+3. **Rigor Analysis (R1-R7)**
+   - Originality, Impact, Ethics, Data Availability, etc.
+
+4. **Writing Quality (W1-W8)**
+   - Language, Structure, Clarity, Terminology, etc.
+
+### Agent Response Format
+
+Each agent's analysis follows a consistent JSON structure:
+
+```json
+{
+    "score": int,  // Score from 1-10
+    "critical_remarks": [
+        {
+            "category": str,
+            "location": str,
+            "issue": str,
+            "severity": str,
+            "impact": str
+        }
+    ],
+    "improvement_suggestions": [
+        {
+            "location": str,
+            "category": str,
+            "focus": str,
+            "original_text": str,
+            "improved_version": str,
+            "explanation": str
+        }
+    ],
+    "detailed_feedback": {
+        // Agent-specific detailed analysis
+    },
+    "summary": str  // Overall assessment summary
+}
+```
+
+### Customization
+
+The report template and formatting can be modified in:
+- `src/core/report_template.py`: Main report structure
+- `src/utils/json_to_report.py`: JSON to markdown conversion
 
 ## Configuration
 
-- Model selection can be configured in `config.py`
-- Agent parameters can be adjusted in individual agent files
-- Report generation settings can be modified in `src/utils/json_to_report.py`
+- Environment variables are managed in `.env`
+- Agent configurations can be modified in `src/config/`
+- Logging settings in `src/config/logging_config.py`
 
-## Requirements
+## Development
 
-- Python 3.8+
-- OpenAI API access
-- Required Python packages (see requirements.txt)
+### Project Structure
+```
+V5_multi_agent2/
+├── src/
+│   ├── reviewer_agents/
+│   │   ├── section/      # Section agents (S1-S10)
+│   │   ├── rigor/        # Rigor agents (R1-R7)
+│   │   ├── writing/      # Writing agents (W1-W8)
+│   │   └── controller_agent.py
+│   ├── core/
+│   ├── utils/
+│   └── config/
+├── manuscripts/          # Input manuscripts
+├── results/             # Generated reports
+└── tests/              # Test suite
+```
 
-## Contributing
+### Adding New Agents
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Create a new agent class inheriting from `BaseReviewerAgent`
+2. Implement the required analysis method
+3. Add the agent to the controller's agent dictionary
+4. Update the report template if needed
+
+## Testing
+
+Run the test suite:
+```bash
+pytest tests/
+```
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+MIT License
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request 
+
+For detailed guidelines on how to contribute, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Join the Project
+
+**We Need Your Help!** This is Version 1.0 (Beta) - a work in progress developed over just a few days, which means:
+
+- **Expect imperfections**: About 50% of feedback may be unusable, 30% mediocre, and 20% genuinely helpful
+- **Your expertise matters**: Help us improve agent accuracy, especially specialized agents
+- **Key areas for contribution**:
+  - Developing specialized agents for different research fields
+  - Improving prompt engineering for existing agents
+  - Enhancing report generation and visualization
+  - Adding support for different document formats
+  - Implementing more sophisticated error detection
+
+**Share your feedback**: Contact us at rjakob@ethz.ch with your experiences and suggestions
+
+**Use more powerful models**: The default implementation uses ChatGPT 3.5 for accessibility, but you can configure the system to use more sophisticated models like GPT-4 with your own API keys.
+
+Together, we can build the best review agent team and improve the quality of scientific publishing!

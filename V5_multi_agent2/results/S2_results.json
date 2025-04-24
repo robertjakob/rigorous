@@ -1,138 +1,117 @@
 {
-  "abstract_score": 7,
+  "score": 7,
   "critical_remarks": [
-    {
-      "category": "structure",
-      "location": "Abstract",
-      "issue": "Lack of clear subsections or headings in the abstract, making it challenging to navigate different topics.",
-      "severity": "medium",
-      "impact": "Affects the overall organization and readability of the abstract."
-    },
-    {
-      "category": "content",
-      "location": "Abstract",
-      "issue": "Limited discussion on the dataset characteristics, demographics, and potential biases, which are crucial for understanding the study's context.",
-      "severity": "medium",
-      "impact": "Reduces the completeness and transparency of the research."
-    },
     {
       "category": "clarity",
       "location": "Abstract",
-      "issue": "Some technical terms and acronyms are not explained, potentially hindering understanding for non-experts.",
-      "severity": "low",
-      "impact": "May lead to confusion among readers unfamiliar with the field."
+      "issue": "The abstract lacks a clear and concise summary of the methodology used in the study.",
+      "severity": "medium",
+      "impact": "This affects the reader's understanding of how the research was conducted."
     },
     {
       "category": "standards",
       "location": "Abstract",
-      "issue": "Limited mention of ethical considerations, data privacy, and consent regarding the dataset usage.",
+      "issue": "The abstract does not explicitly mention ethical considerations related to data privacy and consent.",
       "severity": "medium",
-      "impact": "Lacks transparency and adherence to ethical research standards."
-    },
-    {
-      "category": "impact",
-      "location": "Abstract",
-      "issue": "The conclusion lacks a clear summary of the key findings and their implications for the field.",
-      "severity": "medium",
-      "impact": "Diminishes the overall significance and relevance of the study."
+      "impact": "This omission could raise concerns about the ethical conduct of the study."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a limited number of images, such as up to 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Clarifies the focus on dataset limitations and enhances the precision of the statement.",
-      "location": "Abstract",
-      "category": "content",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images, such as those with atypical postures or incomplete views of the body.",
-      "improved_version": "An automatic image filtering strategy utilizing posture clustering and person detection is introduced to curate the real-world dataset effectively, excluding unsuitable images with atypical postures or incomplete body views.",
-      "explanation": "Enhances clarity and conciseness by restructuring the sentence for better readability.",
+      "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Clarifies the sentence structure for better readability.",
       "location": "Abstract",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-      "improved_version": "Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, comprising only real-world full-torso images.",
-      "explanation": "Provides a clearer presentation of the model's performance metrics and dataset characteristics.",
+      "original_text": "We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.",
+      "improved_version": "An automatic image filtering strategy, utilizing posture clustering and person detection, is introduced to curate the real-world dataset by excluding unsuitable images.",
+      "explanation": "Streamlines the description for better clarity and organization.",
       "location": "Abstract",
-      "category": "content",
-      "focus": "accuracy"
+      "category": "structure",
+      "focus": "organization"
     },
     {
-      "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
-      "improved_version": "Furthermore, an analysis of the image perspective impact on BMI estimation performance is conducted within the real-world dataset, comparing full-body, torso-up, and face-only images.",
-      "explanation": "Enhances the clarity and flow of the sentence by restructuring for better coherence.",
+      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
+      "improved_version": "Torso-up images demonstrate comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).",
+      "explanation": "Enhances the comparison between different image perspectives for better understanding.",
       "location": "Abstract",
-      "category": "clarity",
-      "focus": "organization"
+      "category": "content",
+      "focus": "completeness"
     },
     {
       "original_text": "We report the processing speed for filtering and inference on Android and iOS devices.",
       "improved_version": "The processing speed for filtering and inference on Android and iOS devices is reported.",
-      "explanation": "Simplifies the sentence structure for improved readability and conciseness.",
+      "explanation": "Improves clarity by removing redundancy.",
       "location": "Abstract",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-      "improved_version": "Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.",
-      "explanation": "Enhances clarity and emphasizes the model's generalizability to diverse datasets.",
+      "original_text": "We provide the code for training, deployment, and the mobile applications, as open-source contributions.",
+      "improved_version": "Open-source code for training, deployment, and mobile applications is provided.",
+      "explanation": "Simplifies the sentence for better readability.",
       "location": "Abstract",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+      "improved_version": "Users self-reported their height at the start of the fitness program.",
+      "explanation": "Shortens the sentence while retaining essential information.",
+      "location": "Introduction",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "improved_version": "Our model shows robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
+      "explanation": "Enhances the description of model performance for clarity.",
+      "location": "Discussion",
       "category": "content",
       "focus": "completeness"
     },
     {
-      "original_text": "Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).",
-      "improved_version": "The study findings indicate that the full-body perspective offers superior performance, with the lowest MAPE observed for BMI prediction (7.9%).",
-      "explanation": "Provides a more formal and precise presentation of the study's key results.",
-      "location": "Abstract",
-      "category": "content",
-      "focus": "accuracy"
-    },
-    {
       "original_text": "We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.",
-      "improved_version": "This discrepancy is partly attributed to the substantial disparities between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.",
-      "explanation": "Enhances the explanation of the observed discrepancy for better clarity.",
-      "location": "Abstract",
+      "improved_version": "This discrepancy is partly attributed to the substantial differences between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.",
+      "explanation": "Provides a clearer link between the discrepancy and dataset differences.",
+      "location": "Discussion",
       "category": "clarity",
       "focus": "readability"
     },
     {
       "original_text": "While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.",
-      "improved_version": "In contrast to previous research focusing on either face-only or full-body images, our study stands out as the first to offer a direct comparison of various image perspectives within a homogeneous dataset.",
-      "explanation": "Enhances the emphasis on the novelty and significance of the study's approach.",
-      "location": "Abstract",
+      "improved_version": "Unlike previous studies that often concentrated on either face-only or full-body images, our research offers a direct comparison of various image perspectives within a uniform dataset.",
+      "explanation": "Enhances the contrast between the current study and previous research.",
+      "location": "Discussion",
       "category": "content",
       "focus": "completeness"
     },
     {
       "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Additionally, our study offers valuable insights for remote weight estimation in telemedicine consultations.",
-      "explanation": "Enhances the clarity and impact of the statement by rephrasing for better emphasis.",
-      "location": "Abstract",
+      "improved_version": "Additionally, our study offers insights into remote weight estimation for telemedicine consultations.",
+      "explanation": "Introduces a smoother transition to the next point.",
+      "location": "Discussion",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "We encourage others to use our training scripts to develop their own models on alternative datasets.",
-      "improved_version": "We recommend utilizing our training scripts to develop customized models on different datasets.",
-      "explanation": "Provides a more proactive and directive recommendation for readers.",
-      "location": "Abstract",
-      "category": "content",
-      "focus": "completeness"
+      "original_text": "Anyone interested in replicating our approach can do so using the publicly available source code we provide.",
+      "improved_version": "Interested parties can replicate our approach using the publicly available source code.",
+      "explanation": "Shortens the sentence for better impact.",
+      "location": "Discussion",
+      "category": "clarity",
+      "focus": "readability"
     }
   ],
   "detailed_feedback": {
-    "structure_analysis": "The abstract lacks clear subsections or headings, making it challenging to follow the flow of information. A more structured approach with distinct sections for introduction, methodology, results, and conclusion would enhance readability and organization.",
-    "content_analysis": "While the abstract covers essential aspects of BMI estimation from smartphone images, it could benefit from a more detailed discussion on dataset characteristics, demographics, and potential biases. Including information on ethical considerations and data privacy would also improve the completeness of the content.",
-    "clarity_assessment": "The abstract contains technical terms and acronyms that may not be familiar to all readers. Providing brief explanations or defining these terms upon first use would enhance clarity and accessibility for a broader audience.",
-    "standards_compliance": "The abstract lacks explicit mention of ethical considerations, data privacy, and consent regarding dataset usage. Including a brief statement on ethical approval, data handling protocols, and participant consent would ensure compliance with scientific standards and enhance transparency.",
-    "impact_evaluation": "While the abstract presents significant findings on BMI estimation from smartphone images, the conclusion could be strengthened by summarizing the key implications of the study's results for the field. A clearer statement on the study's contributions and potential applications would enhance the overall impact communication."
+    "structure_analysis": "The abstract is well-organized with clear subsections for introduction, methodology, results, and conclusion. However, the methodology description could be more detailed to provide a better understanding of the research process.",
+    "content_analysis": "The abstract covers essential aspects such as the dataset, methodology, results, and implications. However, it lacks explicit mention of ethical considerations and could benefit from more detailed results presentation.",
+    "clarity_assessment": "The abstract is generally clear and readable, but some sentences are overly complex and could be simplified for better comprehension. Additionally, some technical terms could be explained for a broader audience.",
+    "standards_compliance": "The abstract adheres to scientific writing standards in terms of structure and content. However, it could improve by explicitly mentioning ethical considerations related to data privacy and consent.",
+    "impact_evaluation": "The research provides valuable insights into BMI estimation from smartphone images and demonstrates the potential for real-world applications. The study's findings on different image perspectives and generalizability contribute to the field of digital health interventions."
   },
-  "summary": "The abstract demonstrates a solid foundation in BMI estimation from smartphone images, with notable strengths in methodology description and results presentation. However, improvements in structure, content completeness, clarity, adherence to scientific standards, and impact communication are essential for enhancing the overall quality and effectiveness of the abstract."
+  "summary": "The abstract is well-structured and covers essential aspects of the research, but it could benefit from improved clarity, especially in describing the methodology and results. Enhancements in readability, content completeness, and adherence to scientific standards would elevate the manuscript's quality and impact."
 }

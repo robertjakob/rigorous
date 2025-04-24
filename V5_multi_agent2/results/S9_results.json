@@ -1,117 +1,109 @@
 {
-  "references_score": 6,
+  "score": 7,
   "critical_remarks": [
     {
       "category": "accuracy",
-      "location": "References Section",
-      "issue": "Inconsistencies in citation formats observed throughout the references.",
+      "location": "Abstract",
+      "issue": "The MAPE value of 8% mentioned in the Abstract does not align with the MAPE values provided in the Results section.",
       "severity": "medium",
-      "impact": "Affects the overall professionalism and credibility of the manuscript."
+      "impact": "This inconsistency could lead to confusion for readers and affect the credibility of the study."
     },
     {
-      "category": "quality",
-      "location": "References Section",
-      "issue": "Lack of source diversity in the references, with a heavy focus on a few authors.",
-      "severity": "medium",
-      "impact": "Limits the breadth of perspectives and expertise presented in the research."
+      "category": "relevance",
+      "location": "Introduction",
+      "issue": "The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.",
+      "severity": "high",
+      "impact": "This omission may weaken the justification for the research and its significance."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Jin et al. (2022) [5]",
-      "improved_version": "Jin et al. (2022)",
-      "explanation": "Remove unnecessary citation format for consistency.",
-      "location": "Throughout the references",
+      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
+      "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only) using full-torso images.",
+      "explanation": "Remove the comma after 'only' for better clarity and grammatical correctness.",
+      "location": "Abstract",
       "category": "format",
       "focus": "citation"
     },
     {
-      "original_text": "Celeb-FBI dataset [9]",
-      "improved_version": "Celeb-FBI dataset",
-      "explanation": "Consistent formatting without unnecessary citation numbers.",
-      "location": "References Section",
-      "category": "format",
-      "focus": "reference"
+      "original_text": "Due to the heterogeneity of the datasets used in these studies, we currently lack a systematic comparison of different image perspectives for weight estimation.",
+      "improved_version": "Due to the heterogeneity of the datasets used in these studies, there is a current lack of a systematic comparison of different image perspectives for weight estimation.",
+      "explanation": "Clarify the sentence structure for improved readability and coherence.",
+      "location": "Introduction",
+      "category": "completeness",
+      "focus": "relevance"
     },
     {
-      "original_text": "Not (directly) reported",
-      "improved_version": "Not directly reported",
-      "explanation": "Improve readability by removing parentheses around 'directly'.",
-      "location": "References Section",
-      "category": "format",
-      "focus": "style"
-    },
-    {
-      "original_text": "Deborah B. Horn, Jaime P. Almandoz, and Michelle Look.",
-      "improved_version": "Horn, D.B., Almandoz, J.P., & Look, M.",
-      "explanation": "Standardize author name format for consistency.",
-      "location": "References Section",
-      "category": "format",
+      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "improved_version": "Our model demonstrates strong generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
+      "explanation": "Replace 'as demonstrated by' with 'as evidenced by' for more accurate expression.",
+      "location": "Discussion",
+      "category": "accuracy",
       "focus": "citation"
     },
     {
-      "original_text": "A. Pantanowitz, E. Cohen, P. Gradidge, N.J. Crowther, V. Aharonson, B. Rosman, and D.M. Rubin.",
-      "improved_version": "Pantanowitz, A., Cohen, E., Gradidge, P., Crowther, N.J., Aharonson, V., Rosman, B., & Rubin, D.M.",
-      "explanation": "Consistent author name abbreviation format for clarity.",
-      "location": "References Section",
-      "category": "format",
+      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
+      "improved_version": "Our work also offers insights for remote weight estimation during telemedicine consultations.",
+      "explanation": "Replace 'provides' with 'offers' for a more appropriate tone.",
+      "location": "Discussion",
+      "category": "quality",
+      "focus": "relevance"
+    },
+    {
+      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
+      "improved_version": "The height of each user was self-reported at the commencement of the fitness program.",
+      "explanation": "Replace 'beginning' with 'commencement' for a more formal and precise term.",
+      "location": "Results",
+      "category": "accuracy",
       "focus": "citation"
     },
     {
-      "original_text": "doi: 10.1186/s12916-021-02188-x.",
-      "improved_version": "https://doi.org/10.1186/s12916-021-02188-x",
-      "explanation": "Convert DOI to a clickable URL for accessibility.",
-      "location": "References Section",
-      "category": "format",
+      "original_text": "The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.",
+      "improved_version": "The training dataset exhibits a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.",
+      "explanation": "Change 'has' to 'exhibits' for a more descriptive and accurate representation.",
+      "location": "Discussion",
+      "category": "completeness",
+      "focus": "relevance"
+    },
+    {
+      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
+      "improved_version": "We followed the hyperparameters used by Jin et al. (2022) for their state-of-the-art model.",
+      "explanation": "Replace 'in' with 'for' to correctly attribute the hyperparameters.",
+      "location": "Discussion",
+      "category": "accuracy",
       "focus": "citation"
     },
     {
-      "original_text": "IEEE Transactions on Information Forensics and Security, 14(10):2676\u20132688, 2019.",
-      "improved_version": "IEEE Trans. Inf. Forensics Secur., 14(10), 2676\u20132688.",
-      "explanation": "Abbreviate journal title and standardize volume and page format.",
-      "location": "References Section",
+      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset.",
+      "improved_version": "The base DenseNet201 model is pre-trained on the ImageNet dataset.",
+      "explanation": "Correct the spelling of 'DenseNet' for consistency.",
+      "location": "Methodology",
       "category": "format",
-      "focus": "citation"
+      "focus": "format"
     },
     {
-      "original_text": "Min Jiang and Guodong Guo.",
-      "improved_version": "Jiang, M., & Guo, G.",
-      "explanation": "Consistent author name abbreviation format for clarity.",
-      "location": "References Section",
+      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
+      "improved_version": "Our model achieves a MAPE of 13.38% and a MAE of 4.3 BMI units.",
+      "explanation": "Replace 'an' with 'a' before 'MAE' for grammatical accuracy.",
+      "location": "Results",
       "category": "format",
-      "focus": "citation"
+      "focus": "format"
     },
     {
-      "original_text": "Informatics in Medicine Unlocked, 26:100727, 2021.",
-      "improved_version": "Inform. Med. Unlocked, 26, 100727.",
-      "explanation": "Standardize journal title abbreviation and volume/page format.",
-      "location": "References Section",
-      "category": "format",
-      "focus": "citation"
-    },
-    {
-      "original_text": "doi: https://doi.org/10.1016/j.imu.2021.100727.",
-      "improved_version": "https://doi.org/10.1016/j.imu.2021.100727",
-      "explanation": "Remove 'doi:' prefix for clarity and consistency.",
-      "location": "References Section",
-      "category": "format",
-      "focus": "citation"
-    },
-    {
-      "original_text": "IEEE Transactions on Information Forensics and Security, 14(10):2676\u20132688, 2019.",
-      "improved_version": "IEEE Trans. Inf. Forensics Secur., 14(10), 2676\u20132688.",
-      "explanation": "Abbreviate journal title and standardize volume and page format.",
-      "location": "References Section",
-      "category": "format",
-      "focus": "citation"
+      "original_text": "The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.",
+      "improved_version": "The introduction lacks a clear statement of the research gap or the novelty of the study compared to existing literature.",
+      "explanation": "Add 'the' before 'novelty' for grammatical correctness.",
+      "location": "Introduction",
+      "category": "completeness",
+      "focus": "relevance"
     }
   ],
   "detailed_feedback": {
-    "accuracy_analysis": "The citations are mostly accurate, with correct author names and publication details.",
-    "completeness_analysis": "The references provide a good range of sources, but lack diversity in authorship and publication years.",
-    "format_analysis": "There are inconsistencies in citation formats and reference styles throughout the section.",
-    "quality_analysis": "The sources cited are relevant to the research topic, but there is a lack of diversity in the authors cited.",
-    "organization_analysis": "The references are organized by author names, but could benefit from clearer subheadings or categorization."
+    "accuracy_analysis": "The references are mostly accurate in terms of citation details and dataset information. However, there are inconsistencies in reporting certain numerical values.",
+    "completeness_analysis": "The references provide a comprehensive overview of related work, datasets, and methodologies used in the study. However, some sections lack clarity in explaining the relevance of the research.",
+    "format_analysis": "The format is generally consistent, with proper citation styles and reference organization. However, there are minor issues with punctuation and sentence structure in some sections.",
+    "quality_analysis": "The sources cited are relevant and recent, contributing to the credibility of the study. The diversity of sources could be improved by including a wider range of studies from different perspectives.",
+    "organization_analysis": "The reference list is well-organized and follows a logical flow from introduction to results. However, there are areas where the organization could be enhanced for better coherence and clarity."
   },
-  "summary": "The references section shows good accuracy in citations but lacks consistency in format and style. There is a need for improved diversity in sources cited to enhance the breadth of perspectives. Addressing the formatting inconsistencies and ensuring compliance with style guides will significantly enhance the professionalism and credibility of the manuscript."
+  "summary": "Overall, the references demonstrate a good level of accuracy and completeness, with relevant and recent sources supporting the study. However, there are some minor issues in format consistency and clarity of presentation. Improvements in citation accuracy, relevance of content, and format consistency can enhance the overall quality of the references."
 }

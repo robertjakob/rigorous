@@ -2,64 +2,56 @@
   "narrative_structure_score": 7,
   "critical_remarks": [
     {
-      "category": "evidence_integration",
+      "category": "paragraph_organization",
       "location": "Abstract",
-      "issue": "Lack of specific details on the deep learning model architecture used for BMI estimation from smartphone images.",
+      "issue": "The abstract lacks a clear structure and concise summary of the study.",
       "severity": "medium",
-      "impact": "Readers may question the validity and robustness of the results without a clear understanding of the model architecture."
+      "impact": "Readers may struggle to grasp the main objectives and findings of the research."
     },
     {
-      "category": "paragraph_organization",
+      "category": "evidence_integration",
       "location": "Introduction",
-      "issue": "The introduction lacks a clear research question or hypothesis statement, making it challenging for readers to understand the study's purpose.",
+      "issue": "The introduction mentions past studies but lacks integration of their findings into the current research context.",
       "severity": "high",
-      "impact": "Without a well-defined research question, the study's direction and relevance may be unclear to readers."
+      "impact": "The lack of evidence integration weakens the foundation of the study."
     },
     {
       "category": "conclusion_alignment",
       "location": "Conclusion",
-      "issue": "The conclusion does not directly address the research findings presented in the results section, leading to a disconnect between the two.",
+      "issue": "The conclusion briefly summarizes the results but fails to tie them back to the introduction.",
       "severity": "medium",
-      "impact": "Readers may struggle to see how the study's outcomes align with the initial research objectives."
+      "impact": "The disconnect between the conclusion and introduction may confuse readers."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Clarity and precision in stating the limitations of existing approaches.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "narrative_coherence"
-    },
-    {
-      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-      "improved_version": "Our findings suggest that torso-up images provide comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).",
-      "explanation": "Enhancing clarity and coherence in presenting research findings.",
-      "location": "Results",
-      "category": "results",
+      "improved_version": "Current computer vision-based BMI estimation approaches have primarily focused on datasets containing up to 7,211 full-body images or 14,500 facial images.",
+      "explanation": "Clarifies the focus on current approaches and improves readability.",
+      "location": "Introduction",
+      "category": "literature",
       "focus": "logical_progression"
     },
     {
-      "original_text": "The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.",
-      "improved_version": "The subsequent sections are organized as follows: Section 2 offers an overview of related research on weight estimation from images.",
-      "explanation": "Improving the transition between sections for better flow.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "section_transitions"
+      "original_text": "Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+      "improved_version": "Furthermore, we conduct an analysis of how image perspective affects BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.",
+      "explanation": "Enhances clarity and strengthens the connection between the analysis and the dataset.",
+      "location": "Results",
+      "category": "discussion",
+      "focus": "logical_progression"
     }
   ],
   "detailed_feedback": {
-    "narrative_coherence": "The text demonstrates a coherent progression of ideas, with clear connections between sections and subsections, enhancing the overall flow of the narrative.",
-    "logical_progression": "The logical progression of ideas is well-maintained, with a structured presentation of research findings and methodologies that support the study's objectives.",
-    "section_transitions": "The transitions between sections are generally smooth, guiding the reader through the study's progression effectively.",
-    "paragraph_organization": "Paragraphs are organized logically, presenting information in a clear and structured manner to facilitate understanding.",
-    "topic_sentence_effectiveness": "Topic sentences effectively introduce the main idea of each paragraph, aiding in reader comprehension and guiding the flow of discussion.",
-    "supporting_evidence_integration": "Supporting evidence is integrated well throughout the text, providing credibility to the research findings and enhancing the argumentation.",
-    "conclusion_alignment": "The conclusion aligns with the main findings of the study, summarizing key points and implications effectively.",
-    "hypothesis_tracking": "The study effectively tracks the research question and hypothesis throughout the text, ensuring consistency and relevance to the study objectives.",
-    "visual_element_integration": "Visual elements are integrated appropriately to supplement the text and enhance reader understanding.",
-    "reader_engagement": "The text engages readers effectively through a mix of technical details, results presentation, and practical implications, maintaining interest and relevance."
+    "narrative_coherence": "The text demonstrates a coherent flow of ideas, with clear connections between sections and subsections.",
+    "logical_progression": "The logical progression of ideas is generally well-maintained, with a clear development of the research topic.",
+    "section_transitions": "Transitions between sections are adequate, but some sections could benefit from smoother transitions to enhance overall coherence.",
+    "paragraph_organization": "Paragraphs are generally well-structured, but some paragraphs could be more focused on a single idea to improve clarity.",
+    "topic_sentence_effectiveness": "Topic sentences effectively introduce the main idea of paragraphs, aiding in reader comprehension.",
+    "supporting_evidence_integration": "The integration of supporting evidence is lacking in some sections, impacting the depth of analysis and argumentation.",
+    "conclusion_alignment": "The conclusion aligns with the main findings but could be strengthened by directly referencing the introduction and research questions.",
+    "hypothesis_tracking": "The research question and hypothesis are clearly stated and tracked throughout the study, providing a strong foundation for the research.",
+    "visual_element_integration": "Visual elements are used effectively to support the text, providing additional context and aiding in understanding.",
+    "reader_engagement": "The text engages readers through a mix of technical details and practical implications, making the research accessible and relevant."
   },
-  "summary": "The text demonstrates a well-structured narrative with coherent progression and logical presentation of research findings. While improvements in hypothesis tracking, conclusion alignment, and evidence integration are needed, the overall engagement and readability of the text are maintained."
+  "summary": "Overall, the research demonstrates a well-structured narrative with logical progression and adequate paragraph organization. However, improvements are needed in evidence integration, conclusion alignment, and smoother section transitions to enhance narrative coherence and reader engagement."
 }

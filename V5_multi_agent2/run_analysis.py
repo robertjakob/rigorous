@@ -30,12 +30,7 @@ def main():
     controller = ControllerAgent(model=DEFAULT_MODEL)
     
     # Run the analysis
-    results = controller.run_analysis(
-        text=manuscript_data['text'],
-        metadata=manuscript_data['metadata'],
-        images=manuscript_data['images'],
-        tables=manuscript_data['tables']
-    )
+    results = controller.run_analysis(text=manuscript_data['text'])
     
     # Save results
     output_dir = "results"
