@@ -7,7 +7,7 @@ This repository contains a comprehensive suite of tools aimed at liberating scie
 - **V2_Editorial_First_Decision_Support**: Tool for checking manuscripts against editorial requirements
 - **V3_Peer_Review**: Enhanced tool for comprehensive peer review of academic manuscripts
 - **V4_Multi-Agent**: Advanced multi-agent system for collaborative peer review with specialized AI reviewers
-- **V5_Multi-Agent2**: Comprehensive multi-agent system with 25 specialized agents for detailed, reliable, and specific feedback
+- **V5_Multi-Agent2**: Comprehensive multi-agent system with 25 specialized agents for more detailed, reliable, and specific feedback
 
 ## Shared Configuration
 
