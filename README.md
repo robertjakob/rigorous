@@ -7,6 +7,7 @@ This repository contains a comprehensive suite of tools aimed at liberating scie
 - **V2_Editorial_First_Decision_Support**: Tool for checking manuscripts against editorial requirements
 - **V3_Peer_Review**: Enhanced tool for comprehensive peer review of academic manuscripts
 - **V4_Multi-Agent**: Advanced multi-agent system for collaborative peer review with specialized AI reviewers
+- **V5_Multi-Agent2**: Comprehensive multi-agent system with 25 specialized agents for detailed, reliable, and specific feedback
 
 ## Shared Configuration
 
@@ -118,6 +119,42 @@ python src/main.py --manuscript manuscripts/your_paper.pdf --criteria review_cri
 - `specialized_reviews.json`: All specialized reviews
 - `synthesis.json`: Coordinated synthesis
 - `review_results.json`: Final comprehensive report
+
+### V5_Multi-Agent2
+
+The V5 system represents a significant advancement over previous versions, featuring a comprehensive suite of 25 specialized agents that provide more reliable, specific, and actionable feedback.
+
+#### Key Features:
+- **Three Categories of Specialized Agents**:
+  - **Section Agents (S1-S10)**: Analyze specific sections (Title/Keywords, Abstract, Introduction, etc.)
+  - **Rigor Agents (R1-R7)**: Evaluate scientific rigor (Originality, Ethics, Data Availability, etc.)
+  - **Writing Agents (W1-W8)**: Assess writing quality (Language, Structure, Clarity, etc.)
+- **Comprehensive Report**: Detailed assessment with scores, critical remarks, and improvement suggestions
+- **Modular Design**: Easy to extend with new specialized agents
+- **Better Reliability**: Multiple specialized agents provide more consistent and reliable feedback
+- **Actionable Feedback**: Specific, section-focused recommendations for manuscript improvement
+
+#### Running the System:
+1. Place your manuscript PDF in the `manuscripts/` directory
+2. Run the analysis:
+```bash
+cd V5_multi_agent2
+python run_analysis.py
+```
+3. Generate the report:
+```bash
+bash scripts/generate_report.sh
+```
+
+The comprehensive report will be saved in `results/manuscript_report.md`.
+
+#### Advanced Features:
+- Support for more powerful models (GPT-4, Claude) for enhanced analysis
+- Configurable agent behavior through environment variables
+- Extensible architecture for adding domain-specific agents
+
+#### Why V5 Is Better:
+Through development and testing, we found that having a larger number of highly specialized agents produces more reliable and specific feedback compared to fewer general-purpose agents. Each agent in V5 focuses on a narrow aspect of the manuscript, allowing for deeper analysis and more precise recommendations.
 
 ## Requirements
 
