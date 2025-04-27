@@ -1,73 +1,178 @@
 {
-  "clarity_conciseness_score": 7,
+  "clarity_conciseness_score": 5,
   "critical_remarks": [
     {
-      "category": "jargon",
+      "category": "language_simplicity",
       "location": "Abstract",
-      "issue": "The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.",
+      "issue": "The abstract contains complex language that may be difficult for non-experts to understand.",
       "severity": "medium",
-      "impact": "Reduces accessibility and clarity for readers unfamiliar with the terminology."
+      "impact": "Reduces accessibility and may deter readers."
+    },
+    {
+      "category": "jargon",
+      "location": "Literature Review",
+      "issue": "The literature review section contains jargon that is not explained, assuming prior knowledge.",
+      "severity": "high",
+      "impact": "Excludes readers who are not familiar with the terminology."
     },
     {
       "category": "wordiness",
+      "location": "Discussion",
+      "issue": "The discussion section is wordy and could be more concise to enhance clarity.",
+      "severity": "medium",
+      "impact": "May confuse readers and dilute the main arguments."
+    },
+    {
+      "category": "sentence_length",
+      "location": "Results",
+      "issue": "Some sentences in the results section are overly long, making it harder to follow the findings.",
+      "severity": "medium",
+      "impact": "Increases cognitive load for readers."
+    },
+    {
+      "category": "paragraph_length",
       "location": "Introduction",
-      "issue": "The introduction contains verbose descriptions of chronic diseases associated with high BMI, which could be more concise.",
+      "issue": "The introduction contains lengthy paragraphs that could be broken down for better readability.",
       "severity": "low",
-      "impact": "Increases unnecessary text length and may lose reader interest."
+      "impact": "Affects the flow and engagement of the reader."
+    },
+    {
+      "category": "active_passive_voice",
+      "location": "Methodology",
+      "issue": "The methodology section predominantly uses passive voice, which can make the process description less engaging.",
+      "severity": "medium",
+      "impact": "Reduces the clarity and directness of the description."
     },
     {
       "category": "redundancy",
-      "location": "Methodology",
-      "issue": "Repetitive use of 'images' and 'dataset' in close proximity within the same paragraph.",
+      "location": "Conclusion",
+      "issue": "The conclusion repeats information already stated in the results section, leading to redundancy.",
       "severity": "low",
-      "impact": "Creates redundancy and can be confusing for readers."
+      "impact": "Distracts readers and wastes space."
+    },
+    {
+      "category": "ambiguity",
+      "location": "Technical Content",
+      "issue": "Some technical terms are used ambiguously, potentially confusing readers.",
+      "severity": "medium",
+      "impact": "Compromises the accuracy of the information conveyed."
+    },
+    {
+      "category": "readability",
+      "location": "Abstract",
+      "issue": "The abstract lacks a clear structure, making it challenging to grasp the main points quickly.",
+      "severity": "medium",
+      "impact": "Hinders the ability of readers to understand the research at a glance."
+    },
+    {
+      "category": "information_density",
+      "location": "Discussion",
+      "issue": "The discussion section lacks sufficient information density, missing opportunities to delve deeper into the implications of the findings.",
+      "severity": "medium",
+      "impact": "Limits the depth of analysis and insights provided."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.",
-      "improved_version": "Estimating BMI from camera images enables quick weight assessment in challenging scenarios.",
-      "explanation": "Simplifies the language and reduces wordiness for better comprehension.",
+      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.",
+      "improved_version": "Transitioning from animal to plant-based diets is crucial for reducing the environmental impact of the global food system.",
+      "explanation": "Simplified language and more direct phrasing enhance clarity and conciseness.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Recent BMI estimation methods using computer vision have mostly used datasets with around 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Restructures the sentence for better flow and clarity.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "sentence_length"
-    },
-    {
-      "original_text": "In medical emergencies, there is a well-documented need for faster weight estimation methods.",
-      "improved_version": "Medical emergencies require rapid weight estimation methods.",
-      "explanation": "Concise wording conveys the same message more effectively.",
+      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.",
+      "improved_version": "Studies on US populations indicate that making small, targeted dietary substitutions can reduce the carbon footprint by 33% - 35%.",
+      "explanation": "Rephrasing for clarity and simplicity improves understanding for a wider audience.",
       "location": "Introduction",
       "category": "introduction",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.",
-      "improved_version": "Our model shows robust generalizability to new data, achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.",
-      "explanation": "Streamlines the sentence for better readability and clarity.",
+      "original_text": "Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C, where the products swaps were displayed without GHG reduction information and without any indication of the most effective GHG-reducing product swap.",
+      "improved_version": "Participants were assigned to one of four experimental groups: targeted treatment (T(Targeted)), information treatment (T(Info)), combined targeted and information group (T(Targeted x Info)), and control group (C).",
+      "explanation": "Simplifying the description of experimental groups reduces complexity and improves readability.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).",
+      "improved_version": "Our results indicate a strong impact of providing product swap recommendations, with 88% of participants swapping at least one product, resulting in an average basket GHG reduction of 25% (SD = 18%).",
+      "explanation": "Restructuring for clarity and conciseness improves the flow of information.",
+      "location": "Results",
+      "category": "results",
+      "focus": "wordiness"
+    },
+    {
+      "original_text": "Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.",
+      "improved_version": "Our research demonstrates that pre-checkout, basket-level product swap recommendations can effectively encourage plant-based food purchases, aiding policymakers in promoting dietary shifts towards more plant consumption.",
+      "explanation": "Streamlining the message and eliminating redundancy enhances clarity and impact.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "redundancy"
+    },
+    {
+      "original_text": "In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers\u2019 responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.",
+      "improved_version": "Given the potential of targeted, small changes, we conducted a randomized controlled trial (RCT) in a simulated online supermarket to assess consumer responses to GHG-reducing product swap recommendations and their subsequent GHG reductions.",
+      "explanation": "Clarifying the purpose and context of the study enhances understanding and engagement.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.",
+      "improved_version": "Participants received a standard shopping basket for the average 2-person German household and navigated through the online supermarket.",
+      "explanation": "Simplifying the description improves readability and engagement.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.",
+      "improved_version": "In summary, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant decrease in basket GHG emissions.",
+      "explanation": "Enhancing clarity and structure aids in summarizing key findings effectively.",
+      "location": "Results",
+      "category": "results",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.",
+      "improved_version": "Additionally, our study emphasizes the effectiveness of recommending product swaps with GHG reduction information for frequent meat eaters, a crucial consumer group to target.",
+      "explanation": "Rephrasing for clarity and conciseness strengthens the impact of the statement.",
       "location": "Discussion",
       "category": "discussion",
-      "focus": "wordiness"
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.",
+      "improved_version": "Subsequent studies should concentrate on implementing and evaluating these pre-checkout, basket-level swap recommendations in real-world settings.",
+      "explanation": "Clarifying the direction for future research enhances the actionable insights provided.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "language_simplicity"
+    },
+    {
+      "original_text": "A shift from current diets to diets that exclude animal-based products would reduce the food system\u2019s land use by 76% and greenhouse gas emissions (GHG) by around 50%.",
+      "improved_version": "Transitioning from current diets to plant-based diets would cut the food system's land use by 76% and greenhouse gas emissions (GHG) by approximately 50%.",
+      "explanation": "Simplifying complex concepts and restructuring for clarity improves comprehension.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "language_simplicity"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The text generally uses technical language and terms that may be challenging for non-experts to understand. Simplifying complex terms and explanations would enhance clarity and accessibility.",
-    "jargon_usage": "The text contains a significant amount of jargon and technical terms without adequate explanations. Providing definitions or simplifying terminology would improve comprehension for a wider audience.",
-    "wordiness": "Certain sections exhibit wordiness, leading to unnecessary repetition and verbose descriptions. Streamlining sentences and removing redundant phrases would enhance conciseness.",
-    "sentence_length": "The text contains a mix of long and short sentences. Some sentences could be shortened for better readability and flow, while others may benefit from more elaboration to clarify complex concepts.",
-    "paragraph_length": "Paragraphs vary in length, with some being overly long and others too brief. Balancing paragraph length for coherence and emphasis on key points would improve overall structure.",
-    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would enhance readability and clarity.",
-    "redundancy": "Certain sections exhibit redundancy through repetitive use of terms or concepts. Removing redundant information and restructuring sentences would improve overall coherence.",
-    "ambiguity": "The text occasionally introduces ambiguity through unclear phrasing or vague descriptions. Providing more specific details and clarifications would enhance reader understanding.",
-    "readability": "Overall, the text is readable but could benefit from simplification of language, reduction of jargon, and clearer explanations. Improving readability would enhance accessibility for a wider audience.",
-    "information_density": "The text contains a high level of information density, presenting complex concepts and technical details. Balancing information density with clarity and simplicity would improve overall comprehension."
+    "language_simplicity": "The text contains a mix of complex and straightforward language, making it challenging for readers to follow consistently. Simplifying terminology and phrasing would enhance accessibility and understanding.",
+    "jargon_usage": "The use of jargon without clear explanations limits the audience to those familiar with the specific terms. Providing definitions or simplifying technical language would improve inclusivity and comprehension.",
+    "wordiness": "Some sections are verbose and could benefit from concise rephrasing to convey information more effectively. Eliminating unnecessary words and streamlining sentences would enhance clarity and engagement.",
+    "sentence_length": "Several sentences are overly long, leading to potential confusion and difficulty in following the information. Breaking down complex sentences into shorter, clearer ones would improve readability and comprehension.",
+    "paragraph_length": "Paragraphs vary in length, with some being too lengthy, affecting the flow of information. Breaking down lengthy paragraphs into smaller, focused ones would enhance readability and engagement.",
+    "active_passive_voice": "The text predominantly uses passive voice in the methodology section, which can make descriptions less engaging and direct. Incorporating more active voice would improve clarity and reader engagement.",
+    "redundancy": "There are instances of redundancy, where information is repeated unnecessarily across sections. Removing redundant content and consolidating key points would enhance clarity and conciseness.",
+    "ambiguity": "Certain technical terms are used ambiguously, potentially causing confusion among readers. Providing clear definitions or using terms consistently would improve the accuracy and understanding of the content.",
+    "readability": "The text lacks consistent readability, with some sections being more accessible than others. Improving the structure, simplifying language, and enhancing coherence would make the text more reader-friendly.",
+    "information_density": "Some sections lack sufficient depth and detail, missing opportunities to provide in-depth analysis. Increasing the information density by expanding on key points and insights would enhance the richness of the content."
   },
-  "summary": "The text exhibits a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing jargon, and enhancing readability. Addressing issues related to wordiness, redundancy, and ambiguity would significantly enhance the overall quality of the content."
+  "summary": "The text exhibits a mix of strengths and areas for improvement in terms of clarity and conciseness. While the content covers important research findings, there are opportunities to enhance accessibility through simplifying language, reducing jargon, and improving the structure of the text. Addressing issues such as wordiness, sentence length, and redundancy would significantly improve the overall readability and impact of the research."
 }

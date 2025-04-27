@@ -1,130 +1,82 @@
 {
-  "data_code_availability_score": 7,
+  "data_code_availability_score": 4,
   "critical_remarks": [
     {
       "category": "data_sharing",
-      "location": "Abstract",
-      "issue": "The proprietary dataset used is not publicly available, limiting data sharing practices.",
-      "severity": "medium",
-      "impact": "Reduces transparency and hinders reproducibility for other researchers."
+      "location": "Introduction",
+      "issue": "The text does not provide information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers.",
+      "severity": "high",
+      "impact": "This lack of data sharing information hinders research transparency and reproducibility."
     },
     {
       "category": "code_availability",
-      "location": "Conclusion",
-      "issue": "Model weights trained on the proprietary dataset are not shared due to data privacy concerns.",
+      "location": "Methodology",
+      "issue": "There is no mention of a code repository where the implementation code for the study can be accessed, making it difficult for other researchers to replicate the experiments.",
       "severity": "high",
-      "impact": "Limits reproducibility and prevents validation of results on the same dataset."
+      "impact": "The absence of code availability limits the reproducibility and credibility of the research findings."
     },
     {
       "category": "documentation",
-      "location": "Methodology",
-      "issue": "Lack of detailed explanation on the implementation and training of the deep learning model.",
+      "location": "Code Documentation",
+      "issue": "The text lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code.",
       "severity": "medium",
-      "impact": "Reduces clarity and reproducibility of the methodology."
+      "impact": "Incomplete code documentation reduces the usability and reproducibility of the research."
     },
     {
       "category": "restrictions",
-      "location": "Abstract",
-      "issue": "Access restrictions are mentioned without clear justification.",
-      "severity": "low",
-      "impact": "Raises questions about the transparency of the research process."
+      "location": "Discussion",
+      "issue": "There is no justification provided for any access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place.",
+      "severity": "medium",
+      "impact": "Lack of access restrictions justification raises concerns about transparency and reproducibility."
     },
     {
       "category": "reproducibility",
-      "location": "Discussion",
-      "issue": "Limited discussion on the reproducibility of the results on external datasets.",
+      "location": "Conclusion",
+      "issue": "The conclusion lacks a summary of the availability of data and code, making it challenging for readers to understand the reproducibility of the research.",
       "severity": "medium",
-      "impact": "Lacks thorough examination of the generalizability of the model."
+      "impact": "Incomplete information in the conclusion section diminishes the reproducibility support of the study."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The dataset used is proprietary and not publicly available.",
-      "improved_version": "The dataset used in this study is proprietary and not publicly available. To enhance data sharing practices, consider providing a subset of the dataset with appropriate anonymization.",
-      "explanation": "By providing a subset of the dataset, researchers can still access and validate the findings while maintaining data privacy.",
+      "original_text": "The study was preregistered and incentive-compatible.",
+      "improved_version": "The study was preregistered and incentive-compatible, and the dataset used in the study is available on [repository link] for further analysis.",
+      "explanation": "By providing a repository link to the dataset, other researchers can access and verify the data, enhancing transparency and reproducibility.",
       "location": "Abstract",
+      "category": "abstract",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "Participants were presented with a shopping basket typical of the average 2-person German household.",
+      "improved_version": "Participants were presented with a shopping basket typical of the average 2-person German household, and the dataset structure and access methods are detailed in [link to dataset documentation].",
+      "explanation": "Including information on dataset structure and access methods improves data transparency and facilitates replication of the study.",
+      "location": "Data Description",
       "category": "data_description",
       "focus": "data_sharing"
     },
     {
-      "original_text": "We provide the code for training, deployment, and the mobile applications, as open-source contributions.",
-      "improved_version": "We provide the code for training, deployment, and the mobile applications as open-source contributions. Additionally, consider creating a dedicated repository on a platform like GitHub for easier access and collaboration.",
-      "explanation": "Centralizing code in a dedicated repository improves visibility, accessibility, and collaboration among researchers.",
-      "location": "Abstract",
-      "category": "code_documentation",
+      "original_text": "Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).",
+      "improved_version": "Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%). The code implementation details and usage instructions can be found in [code repository link].",
+      "explanation": "Linking to the code repository provides transparency on the code used for analysis, enabling reproducibility of the results.",
+      "location": "Results",
+      "category": "results",
       "focus": "code_availability"
     },
     {
-      "original_text": "We report the processing speed for filtering and inference on Android and iOS devices.",
-      "improved_version": "We report the processing speed for filtering and inference on Android and iOS devices. To enhance reproducibility, provide detailed instructions on setting up the environment and running the code on different devices.",
-      "explanation": "Detailed instructions improve reproducibility by ensuring consistent implementation across different platforms.",
-      "location": "Abstract",
-      "category": "code_documentation",
-      "focus": "reproducibility"
-    },
-    {
-      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
-      "improved_version": "The height of each user was self-reported at the beginning of the fitness program. Consider validating self-reported data with objective measurements to improve data accuracy.",
-      "explanation": "Validation of self-reported data enhances data quality and reduces potential biases.",
-      "location": "Methodology",
-      "category": "data_description",
-      "focus": "data_sharing"
-    },
-    {
-      "original_text": "The training dataset has a significant gender imbalance.",
-      "improved_version": "The training dataset has a significant gender imbalance. To address this, consider oversampling or data augmentation techniques to balance the gender distribution.",
-      "explanation": "Balancing the gender distribution improves model performance and generalizability.",
-      "location": "Methodology",
-      "category": "data_description",
-      "focus": "data_sharing"
-    },
-    {
-      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
-      "improved_version": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model. Consider conducting a hyperparameter search to optimize model performance further.",
-      "explanation": "Hyperparameter tuning can enhance model performance and robustness.",
-      "location": "Methodology",
-      "category": "code_documentation",
-      "focus": "reproducibility"
-    },
-    {
-      "original_text": "The code used for this study is available at the provided GitHub repository.",
-      "improved_version": "The code used for this study is available at the provided GitHub repository. Include detailed README files with setup instructions, dependencies, and usage guidelines for better code accessibility.",
-      "explanation": "Comprehensive README files improve code usability and facilitate reproducibility.",
-      "location": "Code Documentation",
-      "category": "code_documentation",
+      "original_text": "Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket.",
+      "improved_version": "Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket. To address these limitations, the full documentation of the code implementation is available on [code repository link].",
+      "explanation": "Providing access to the full code documentation helps address concerns about research limitations and enhances reproducibility.",
+      "location": "Conclusion",
+      "category": "conclusion",
       "focus": "code_availability"
-    },
-    {
-      "original_text": "We encourage others to use our training scripts to develop their own models on alternative datasets.",
-      "improved_version": "We encourage others to use our training scripts to develop their own models on alternative datasets. Provide a tutorial or guide on adapting the training scripts to different datasets for wider adoption.",
-      "explanation": "A tutorial or guide enhances the usability of the training scripts for researchers working with diverse datasets.",
-      "location": "Code Documentation",
-      "category": "code_documentation",
-      "focus": "reproducibility"
-    },
-    {
-      "original_text": "The model weights trained on the proprietary dataset are not shared due to data privacy concerns.",
-      "improved_version": "While model weights trained on the proprietary dataset are not shared due to data privacy concerns, consider providing a detailed model architecture description and training hyperparameters for transparency.",
-      "explanation": "Providing detailed model information enables researchers to understand the model's structure and training process.",
-      "location": "Conclusion",
-      "category": "code_availability",
-      "focus": "reproducibility"
-    },
-    {
-      "original_text": "No images taken from the proprietary dataset are shown in this paper.",
-      "improved_version": "No images taken from the proprietary dataset are shown in this paper. Consider providing sample images with appropriate anonymization to demonstrate the dataset characteristics.",
-      "explanation": "Sample images with anonymization can help readers understand the dataset without compromising privacy.",
-      "location": "Conclusion",
-      "category": "data_description",
-      "focus": "data_sharing"
     }
   ],
   "detailed_feedback": {
-    "data_sharing_assessment": "The study lacks transparency in data sharing practices due to the proprietary nature of the dataset. Providing a subset of the dataset with anonymization would enhance data sharing.",
-    "code_availability": "While the code is available, the lack of model weights and detailed model architecture information limits code availability and reproducibility.",
-    "documentation_completeness": "The methodology section lacks detailed explanations on model implementation and training, reducing clarity and reproducibility.",
-    "restrictions_justification": "Access restrictions on the dataset are mentioned without clear justification, raising questions about transparency.",
-    "reproducibility_support": "Limited discussion on the reproducibility of results on external datasets hinders the assessment of model generalizability."
+    "data_sharing_assessment": "The text lacks explicit information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers. Providing a clear data availability statement and repository link would enhance transparency and reproducibility.",
+    "code_availability": "There is no mention of a code repository where the implementation code for the study can be accessed, limiting the reproducibility and credibility of the research findings. Including a link to the code repository in the methodology section would improve code availability.",
+    "documentation_completeness": "The code documentation lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code. Enhancing the code documentation with implementation details and usage instructions would improve usability and reproducibility.",
+    "restrictions_justification": "The text does not provide any justification for access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place. Including a brief explanation for access restrictions in the discussion section would enhance transparency and reproducibility.",
+    "reproducibility_support": "The conclusion lacks a summary of the availability of data and code, making it difficult for readers to assess the reproducibility of the research. Including a clear availability summary and access information in the conclusion section would improve reproducibility support."
   },
-  "summary": "The study demonstrates good data and code availability practices, with room for improvement in data sharing transparency, code documentation, and model reproducibility. Providing detailed model information, enhancing code accessibility, and justifying access restrictions would enhance research transparency and reproducibility."
+  "summary": "The text lacks explicit data sharing practices and code availability information, hindering research transparency and reproducibility. Improvements are needed in providing clear data availability statements, linking to dataset documentation, sharing code implementation details, justifying access restrictions, and summarizing data and code availability in the conclusion."
 }

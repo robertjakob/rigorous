@@ -3,131 +3,90 @@
   "critical_remarks": [
     {
       "category": "presentation",
-      "location": "Abstract",
-      "issue": "Abstract lacks a clear summary of key findings and implications.",
+      "location": "Data presentation",
+      "issue": "The introduction lacks a clear statement of the research question and objectives, making it challenging for readers to understand the study's purpose.",
       "severity": "medium",
-      "impact": "Reduces reader's understanding of the study's significance."
+      "impact": "This affects the overall clarity and focus of the study."
     },
     {
       "category": "quality",
-      "location": "Results on external datasets",
-      "issue": "Lack of comparison with other state-of-the-art models on external datasets.",
+      "location": "Result interpretation",
+      "issue": "The interpretation of the results lacks depth and fails to provide a comprehensive analysis of the implications of the findings.",
+      "severity": "high",
+      "impact": "This limits the understanding of the practical implications of the study."
+    },
+    {
+      "category": "impact",
+      "location": "Result interpretation",
+      "issue": "The discussion on the limitations of the study is brief and does not address potential biases or confounding factors adequately.",
       "severity": "medium",
-      "impact": "Limits the context and validity of the model's performance."
+      "impact": "This undermines the credibility and generalizability of the results."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "We report the processing speed for filtering and inference on Android and iOS devices.",
-      "improved_version": "We provide detailed information on the processing speed for filtering and inference on Android and iOS devices, including specific metrics and comparisons.",
-      "explanation": "Adding specific metrics and comparisons enhances the transparency and completeness of the reported results.",
-      "location": "Abstract",
+      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.",
+      "improved_version": "Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the global food system.",
+      "explanation": "The revised sentence is more concise and emphasizes the importance of dietary shifts for environmental sustainability.",
+      "location": "Introduction",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-      "improved_version": "Torso-up images demonstrate comparable performance to full-body images with a MAPE of 9%, while face-only images exhibit lower accuracy with a MAPE of 11%.",
-      "explanation": "Rephrasing for clarity and consistency in reporting results.",
-      "location": "Results interpretation",
+      "original_text": "A shift from current diets to diets that exclude animal-based products would reduce the food system\u2019s land use by 76% and greenhouse gas emissions (GHG) by around 50%.",
+      "improved_version": "Transitioning to diets devoid of animal-based products could potentially slash the food system's land use by 76% and greenhouse gas emissions by approximately 50%.",
+      "explanation": "The revised sentence adds specificity and enhances the impact of the statistics provided.",
+      "location": "Introduction",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
-      "improved_version": "Our model exhibits robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
-      "explanation": "Emphasizing the key finding of generalizability for clarity and impact.",
+      "original_text": "Our results show that the effect of offering product swap recommendations was strong - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).",
+      "improved_version": "Our findings indicate a robust impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average GHG reduction of 25% in their shopping baskets (SD = 18%).",
+      "explanation": "The revised text clarifies the results and provides a more precise description of the outcomes.",
+      "location": "Results",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.",
+      "improved_version": "Participants in the T(Targeted) group exhibited a 1.5 times higher likelihood of selecting the most efficient GHG-reducing swap.",
+      "explanation": "The revised version enhances clarity and precision in reporting the statistical findings.",
+      "location": "Results",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.",
+      "improved_version": "In summary, both T(Targeted) and T(Info) did not lead to a statistically significant decrease in basket GHG emissions.",
+      "explanation": "The revised sentence provides a clearer statement on the lack of statistical significance in the results.",
+      "location": "Results",
+      "category": "presentation",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.",
+      "improved_version": "Our study underscores the potential benefits for policymakers aiming to promote plant-based dietary choices by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.",
+      "explanation": "The revised text emphasizes the practical implications of the research for policymakers and enhances clarity.",
       "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
+      "category": "interpretation",
+      "focus": "meaning"
     },
     {
-      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Our study offers valuable insights for remote weight estimation in telemedicine settings.",
-      "explanation": "Streamlining the statement for conciseness and impact.",
+      "original_text": "Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.",
+      "improved_version": "Furthermore, our study emphasizes the efficacy of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a crucial consumer segment to target.",
+      "explanation": "The revised version strengthens the emphasis on the significance of targeting frequent meat eaters with GHG reduction information.",
       "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
-      "improved_version": "We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.",
-      "explanation": "Clarifying the rationale behind the choice of hyperparameters.",
-      "location": "Results on external datasets",
-      "category": "quality",
-      "focus": "statistics"
-    },
-    {
-      "original_text": "Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.",
-      "improved_version": "In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.",
-      "explanation": "Providing a clear comparison for transparency and context.",
-      "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
-      "improved_version": "On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-      "explanation": "Maintaining consistency in reporting metrics for clarity.",
-      "location": "Results on external datasets",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
-      "improved_version": "Our model showcases robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.",
-      "explanation": "Rephrasing for clarity and impact.",
-      "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).",
-      "improved_version": "The full-body perspective exhibits the best performance, with the lowest MAPE on BMI prediction (7.9%).",
-      "explanation": "Enhancing clarity and emphasis on key findings.",
-      "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Our study offers valuable insights for remote weight estimation in telemedicine settings.",
-      "explanation": "Streamlining the statement for conciseness and impact.",
-      "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
-      "improved_version": "We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.",
-      "explanation": "Clarifying the rationale behind the choice of hyperparameters.",
-      "location": "Results on external datasets",
-      "category": "quality",
-      "focus": "statistics"
-    },
-    {
-      "original_text": "Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.",
-      "improved_version": "In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.",
-      "explanation": "Providing a clear comparison for transparency and context.",
-      "location": "Discussion",
-      "category": "presentation",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.",
-      "improved_version": "On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-      "explanation": "Maintaining consistency in reporting metrics for clarity.",
-      "location": "Results on external datasets",
-      "category": "presentation",
-      "focus": "clarity"
+      "category": "impact",
+      "focus": "effect sizes"
     }
   ],
   "detailed_feedback": {
-    "presentation_analysis": "The data presentation is generally clear and organized, with detailed descriptions of methods and results. However, some sections lack concise summaries of key findings. The statistical analysis is robust, with appropriate measures reported. The figures and tables are of good quality but could benefit from more detailed labeling and explanations.",
-    "analysis_quality": "The statistical analysis is thorough, with appropriate tests and measures used. The effect sizes and confidence intervals are reported, enhancing the validity of the results. However, more comparisons with existing models on external datasets would strengthen the analysis.",
-    "interpretation_review": "The interpretation of results is generally sound, with implications discussed. The comparison of different image perspectives is insightful. However, more in-depth discussion on the limitations and implications of the findings would enhance the interpretation.",
-    "visualization_assessment": "The figures and tables are well-presented, aiding in understanding the results. However, some figures could be enhanced with clearer labels and annotations for better interpretation.",
-    "significance_evaluation": "The reporting of significance levels and effect sizes is appropriate, providing a comprehensive analysis of the results. The discussion on generalizability and practical implications adds value to the study."
+    "presentation_analysis": "The data presentation in the manuscript is generally clear and organized, with detailed descriptions of the experimental setup and results. However, the introduction could benefit from a more focused research question statement to guide readers effectively.",
+    "analysis_quality": "The statistical analysis is robust, with the use of a randomized controlled trial design and clear reporting of results. However, the interpretation of statistical significance and effect sizes could be more detailed to provide a comprehensive understanding of the findings.",
+    "interpretation_review": "The interpretation of the results lacks depth and fails to explore the broader implications of the findings. A more thorough discussion on the practical implications and limitations of the study would enhance the overall quality of the interpretation.",
+    "visualization_assessment": "The figures and tables presented in the manuscript are relevant and support the findings effectively. However, incorporating confidence intervals and effect sizes in the visualizations could enhance the completeness of the data presentation.",
+    "significance_evaluation": "The reporting of statistical significance is generally clear, but the discussion on effect sizes and confidence intervals could be more explicit. Providing more detailed information on effect sizes would strengthen the impact of the results."
   },
-  "summary": "Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. The results demonstrate strong generalizability and performance, particularly with full-body images. Improvements in clarity, consistency, and comparisons with existing models on external datasets would enhance the manuscript's quality and impact."
+  "summary": "The study presents a well-structured experimental design with clear data presentation and robust statistical analysis. However, improvements are needed in the clarity of the research question, depth of result interpretation, and discussion of limitations. Enhancing the reporting of effect sizes, confidence intervals, and practical implications would strengthen the overall quality and impact of the manuscript."
 }

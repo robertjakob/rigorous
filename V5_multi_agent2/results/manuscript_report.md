@@ -1,6 +1,6 @@
 # Manuscript Review Report
 
-Generated on: 2025-04-24 02:37:14
+Generated on: 2025-04-27 15:37:17
 
 ## Important Notes
 
@@ -45,8 +45,8 @@ Generated on: 2025-04-24 02:37:14
 
 ## Overall Assessment
 
-The manuscript received an average score of 6.68/10 across all evaluation criteria.
-A total of 78 critical remarks and 167 improvement suggestions were identified.
+The manuscript received an average score of 6.20/10 across all evaluation criteria.
+A total of 103 critical remarks and 124 improvement suggestions were identified.
 
 ## Agent Reports
 
@@ -56,243 +56,94 @@ A total of 78 critical remarks and 167 improvement suggestions were identified.
 ### Score: 7/10
 
 ### Summary
-Overall, the title and keywords provide a clear indication of the study's focus on BMI estimation from smartphone images. Improvements in conciseness, specificity, and adherence to field conventions would enhance the manuscript's discoverability and search engine optimization. The study's relevance to digital health interventions is well-reflected in the title and keywords, appealing to a broad audience interested in health technology.
+The title 'Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations' is clear, accurate, impactful, and follows field conventions. However, it could be further optimized for search engines by incorporating specific terms related to the study. The suggested improved title 'Optimizing Green Choices: Enhancing GHG Reduction Through Pre-Checkout Product Swaps' balances all aspects by enhancing clarity, accuracy, impact, SEO, and standards, making it more discoverable and appealing to the target audience.
 
 ### Critical Remarks
-### Remark 1
-
-**Category**: title_clarity  
-**Location**: Title  
-**Issue**: The title is clear but could be more concise by removing redundant words.  
-**Severity**: medium  
-**Impact**: Improving conciseness will enhance reader engagement.
-
-### Remark 2
-
-**Category**: keywords_relevance  
-**Location**: Keywords  
-**Issue**: The keywords are relevant but could include more specific terms related to the study.  
-**Severity**: medium  
-**Impact**: Enhancing keyword specificity will improve search engine optimization.
-
-### Remark 3
-
-**Category**: keywords_coverage  
-**Location**: Keywords  
-**Issue**: The keywords cover the main concepts but lack some important terms related to the study.  
-**Severity**: medium  
-**Impact**: Expanding keyword coverage will increase the manuscript's visibility.
-
-### Remark 4
-
-**Category**: guidelines  
-**Location**: Title  
-**Issue**: The title lacks adherence to field-specific conventions, such as including abbreviations or acronyms.  
-**Severity**: low  
-**Impact**: Following conventions will enhance the professionalism of the manuscript.
-
-### Remark 5
-
-**Category**: discoverability  
-**Location**: Keywords  
-**Issue**: The keywords could be optimized for better search engine visibility by including synonyms or related terms.  
-**Severity**: high  
-**Impact**: Improving discoverability will increase the likelihood of the manuscript being found by relevant audiences.
+No critical remarks identified.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Title  
 **Category**: title  
-**Focus**: conciseness  
+**Focus**: comprehensive_improvement  
 
 **Original Text**:  
-> Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset
+> Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations
 
 **Improved Version**:  
-> On-Device BMI Estimation from Smartphone Camera Images Using Large-Scale Real-World Data
+> Optimizing Green Choices: Enhancing GHG Reduction Through Pre-Checkout Product Swaps
 
 **Explanation**:  
-The improved version is more concise and removes redundant words.
-
-### Suggestion 2
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.
-
-**Improved Version**:  
-> BMI Estimation from Camera Images for Rapid Weight Assessment in Telehealth and Emergency Scenarios
-
-**Explanation**:  
-The improved version is more concise and focuses on key terms for search optimization.
-
-### Suggestion 3
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Limitations of Recent Computer Vision-Based BMI Estimation Approaches
-
-**Explanation**:  
-The improved version highlights the study's focus and adds specificity.
-
-### Suggestion 4
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework
-
-**Improved Version**:  
-> Implementation of BMI Estimation Algorithm on Mobile Devices Using CLAID Framework
-
-**Explanation**:  
-The improved version is clearer and emphasizes the implementation aspect.
-
-### Suggestion 5
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Body weight and weight changes are essential indicators of health and disease risk.
-
-**Improved Version**:  
-> Significance of Body Weight Changes in Health Risk Assessment
-
-**Explanation**:  
-The improved version is more specific and highlights the importance of the study.
-
-### Suggestion 6
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> Machine learning methods applied to images captured from different perspectives.
-
-**Improved Version**:  
-> Machine Learning for Image Analysis from Various Perspectives
-
-**Explanation**:  
-The improved version clarifies the focus on image analysis and perspectives.
-
-### Suggestion 7
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Various authors have proposed public benchmark datasets for body weight and BMI estimation, such as the Visual-Body-To-BMI dataset and the Celeb-FBI dataset.
-
-**Improved Version**:  
-> Public Benchmark Datasets for Body Weight Estimation: Visual-Body-To-BMI and Celeb-FBI
-
-**Explanation**:  
-The improved version specifies the benchmark datasets for better understanding.
-
-### Suggestion 8
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: conciseness  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Insights for Remote Weight Estimation in Telemedicine
-
-**Explanation**:  
-The improved version is more concise and highlights the practical application.
-
-### Suggestion 9
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> The dataset used is proprietary and not publicly available.
-
-**Improved Version**:  
-> Proprietary Dataset: Not Publicly Accessible
-
-**Explanation**:  
-The improved version clarifies the accessibility of the dataset.
-
-### Suggestion 10
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: conciseness  
-
-**Original Text**:  
-> Declaration of the use of AI-based tools.
-
-**Improved Version**:  
-> AI-Based Tools Declaration
-
-**Explanation**:  
-The improved version is more concise and to the point.
+The improved title balances clarity by using 'Optimizing' instead of 'Guiding', accuracy by emphasizing 'Enhancing GHG Reduction', impact by 'Enhancing' and 'Optimizing', SEO by including 'GHG Reduction' and 'Pre-Checkout', and standards by focusing on 'Green Choices' and 'Product Swaps'.
 
 ### Detailed Feedback
 ### Title Analysis
 
-The title is clear and specific, indicating the focus on BMI estimation from smartphone images. However, it could be more concise and adhere to field-specific conventions.
+The current title 'Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations' is clear in its focus on guiding choices for environmental impact reduction through product swaps. It accurately represents the content by mentioning GHG reduction and pre-checkout swaps. The title has impact by emphasizing the importance of these actions. It is somewhat optimized for search engines but could be improved. The title follows field conventions by including keywords related to environmental impact and product swaps.
 
 ### Keywords Analysis
 
-The keywords cover relevant concepts but lack specificity and could be optimized for better search engine visibility. Including more specific terms related to the study would enhance discoverability.
+No keywords section found
 
 ### Guidelines Compliance
 
-The title and keywords partially comply with field conventions but could be improved by adding abbreviations or acronyms commonly used in the field.
+The title adheres to field conventions by including keywords related to environmental impact and product swaps. It could be improved for better search engine optimization by focusing on specific terms related to the study, such as 'GHG reduction', 'product swaps', and 'pre-checkout'.
 
 ### Discoverability Assessment
 
-The title and keywords provide a good overview of the study but could benefit from more specific and optimized terms for better search engine optimization.
+The title could be more discoverable by incorporating specific terms related to the study, such as 'GHG reduction', 'product swaps', and 'pre-checkout'. This would enhance search engine optimization and make the study more visible to relevant audiences.
 
 ### Audience Alignment
 
-The title and keywords effectively convey the study's focus on BMI estimation from smartphone images, making it appealing to readers interested in digital health interventions.
+The title effectively communicates the focus on guiding green choices and the impact of pre-checkout GHG-reducing product swap recommendations. It appeals to audiences interested in environmental impact reduction and sustainable consumption practices.
 
 ## S2 - Abstract
 ### Score: 7/10
 
 ### Summary
-The abstract is well-structured and covers essential aspects of the research, but it could benefit from improved clarity, especially in describing the methodology and results. Enhancements in readability, content completeness, and adherence to scientific standards would elevate the manuscript's quality and impact.
+The abstract demonstrates a strong foundation in terms of content completeness and adherence to scientific writing standards. However, improvements are needed in structuring the abstract, providing detailed methodology descriptions, enhancing clarity in presenting results, explicitly stating study limitations, and emphasizing the broader implications of the findings. Addressing these areas would enhance the overall quality and impact of the research.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: clarity  
+**Category**: structure  
 **Location**: Abstract  
-**Issue**: The abstract lacks a clear and concise summary of the methodology used in the study.  
+**Issue**: The abstract lacks a clear introductory sentence summarizing the purpose of the study.  
 **Severity**: medium  
-**Impact**: This affects the reader's understanding of how the research was conducted.
+**Impact**: Readers may struggle to quickly grasp the main focus of the research.
 
 ### Remark 2
 
-**Category**: standards  
-**Location**: Abstract  
-**Issue**: The abstract does not explicitly mention ethical considerations related to data privacy and consent.  
+**Category**: content  
+**Location**: Methodology description  
+**Issue**: The methodology description lacks details on randomization process and participant demographics.  
+**Severity**: high  
+**Impact**: Readers may question the validity and generalizability of the study.
+
+### Remark 3
+
+**Category**: clarity  
+**Location**: Results presentation  
+**Issue**: The presentation of results lacks clarity due to the complex statistical information.  
 **Severity**: medium  
-**Impact**: This omission could raise concerns about the ethical conduct of the study.
+**Impact**: Readers may find it challenging to interpret the key findings.
+
+### Remark 4
+
+**Category**: standards  
+**Location**: Scientific writing standards  
+**Issue**: The abstract lacks explicit mention of the study limitations.  
+**Severity**: medium  
+**Impact**: Readers may question the robustness of the study without understanding its limitations.
+
+### Remark 5
+
+**Category**: impact  
+**Location**: Conclusion  
+**Issue**: The conclusion does not explicitly mention the implications of the findings for future research or policy.  
+**Severity**: medium  
+**Impact**: Readers may struggle to understand the broader significance of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -302,207 +153,133 @@ The abstract is well-structured and covers essential aspects of the research, bu
 **Focus**: readability  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
+> Transitioning from animal products to plant-based foods is widely recognized as a crucial step in mitigating the environmental footprint of the global food system.
 
 **Explanation**:  
-Clarifies the sentence structure for better readability.
+Enhances readability by simplifying language and improving flow.
 
 ### Suggestion 2
 
 **Location**: Abstract  
-**Category**: structure  
-**Focus**: organization  
+**Category**: content  
+**Focus**: completeness  
 
 **Original Text**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
 
 **Improved Version**:  
-> An automatic image filtering strategy, utilizing posture clustering and person detection, is introduced to curate the real-world dataset by excluding unsuitable images.
+> Studies on US populations indicate that making small, targeted dietary substitutions could lead to a significant reduction of 33% - 35% in the dietary carbon footprint.
 
 **Explanation**:  
-Streamlines the description for better clarity and organization.
+Provides more specific information and improves precision.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: content  
-**Focus**: completeness  
+**Location**: Methodology description  
+**Category**: clarity  
+**Focus**: readability  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted.
 
 **Improved Version**:  
-> Torso-up images demonstrate comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
+> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T(Targeted)) where the most effective GHG-reducing product swap was explicitly highlighted.
 
 **Explanation**:  
-Enhances the comparison between different image perspectives for better understanding.
+Clarifies the randomization process and improves readability.
 
 ### Suggestion 4
 
-**Location**: Abstract  
+**Location**: Results presentation  
 **Category**: clarity  
 **Focus**: readability  
 
 **Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
+> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
 
 **Improved Version**:  
-> The processing speed for filtering and inference on Android and iOS devices is reported.
+> Irrespective of the specific treatments, our findings indicate a strong impact of providing product swap recommendations. Out of 1070 participants, 88% engaged in at least one product swap, resulting in an average basket GHG reduction of 25% (SD = 18%).
 
 **Explanation**:  
-Improves clarity by removing redundancy.
+Enhances clarity and precision in reporting the results.
 
 ### Suggestion 5
 
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: readability  
+**Location**: Conclusion  
+**Category**: impact  
+**Focus**: contributions  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
 
 **Improved Version**:  
-> Open-source code for training, deployment, and mobile applications is provided.
+> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a critical consumer group to target.
 
 **Explanation**:  
-Simplifies the sentence for better readability.
-
-### Suggestion 6
-
-**Location**: Introduction  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> Users self-reported their height at the start of the fitness program.
-
-**Explanation**:  
-Shortens the sentence while retaining essential information.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
-
-**Improved Version**:  
-> Our model shows robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
-
-**Explanation**:  
-Enhances the description of model performance for clarity.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.
-
-**Improved Version**:  
-> This discrepancy is partly attributed to the substantial differences between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.
-
-**Explanation**:  
-Provides a clearer link between the discrepancy and dataset differences.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> Unlike previous studies that often concentrated on either face-only or full-body images, our research offers a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the contrast between the current study and previous research.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
-
-**Explanation**:  
-Introduces a smoother transition to the next point.
-
-### Suggestion 11
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
-
-**Improved Version**:  
-> Interested parties can replicate our approach using the publicly available source code.
-
-**Explanation**:  
-Shortens the sentence for better impact.
+Improves the impact communication and emphasizes the significance of the findings.
 
 ### Detailed Feedback
 ### Structure Analysis
 
-The abstract is well-organized with clear subsections for introduction, methodology, results, and conclusion. However, the methodology description could be more detailed to provide a better understanding of the research process.
+The abstract lacks a clear introductory sentence to set the context and purpose of the study. It would benefit from a more structured approach with distinct sections for background, methodology, results, and conclusion.
 
 ### Content Analysis
 
-The abstract covers essential aspects such as the dataset, methodology, results, and implications. However, it lacks explicit mention of ethical considerations and could benefit from more detailed results presentation.
+The abstract provides a comprehensive overview of the study background, methodology, results, and implications. However, it lacks specific details on participant demographics and randomization process, which are crucial for assessing the study's validity.
 
 ### Clarity Assessment
 
-The abstract is generally clear and readable, but some sentences are overly complex and could be simplified for better comprehension. Additionally, some technical terms could be explained for a broader audience.
+The abstract is written in a formal tone with technical terms, which may hinder readability for non-experts. The results presentation could be simplified to enhance clarity and understanding for a broader audience.
 
 ### Standards Compliance
 
-The abstract adheres to scientific writing standards in terms of structure and content. However, it could improve by explicitly mentioning ethical considerations related to data privacy and consent.
+The abstract adheres to scientific writing standards in terms of referencing previous research and providing a clear research question. However, it could improve by explicitly stating the study limitations to enhance transparency and credibility.
 
 ### Impact Evaluation
 
-The research provides valuable insights into BMI estimation from smartphone images and demonstrates the potential for real-world applications. The study's findings on different image perspectives and generalizability contribute to the field of digital health interventions.
+The study findings have significant implications for promoting sustainable food choices and reducing greenhouse gas emissions. However, the abstract could better articulate the broader impact of the research on policy-making and future studies.
 
 ## S3 - Introduction
 ### Score: 7/10
 
 ### Summary
-Overall, the introduction provides a solid foundation for the research, with a clear problem statement and well-defined objectives. However, improvements are needed in the transition between sections and the explicit justification of the research significance. The study offers valuable insights into BMI estimation from smartphone images and demonstrates strong potential for impact in healthcare applications.
+The introduction of the study provides a basic background on the importance of dietary shifts for environmental impact reduction. However, it lacks a comprehensive overview of existing research, clear objectives, and a strong justification for the study's significance. The organization of information could be improved to enhance the flow and readability of the introduction. Addressing these issues would strengthen the overall quality and effectiveness of the introduction.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: significance  
-**Location**: Abstract  
-**Issue**: The significance of the research in terms of potential impact on healthcare outcomes could be more explicitly stated.  
+**Category**: context  
+**Location**: Introduction  
+**Issue**: The introduction lacks a clear overview of the current state of research in the field of environmental impact reduction through dietary changes.  
 **Severity**: medium  
-**Impact**: This affects the clarity of the research's importance to the field.
+**Impact**: This omission may make it challenging for readers to understand the significance of the study.
 
 ### Remark 2
 
+**Category**: objectives  
+**Location**: Introduction  
+**Issue**: The objectives are not explicitly stated, making it difficult for readers to understand the specific goals of the study.  
+**Severity**: high  
+**Impact**: This lack of clarity may lead to confusion about the research direction and outcomes.
+
+### Remark 3
+
+**Category**: significance  
+**Location**: Introduction  
+**Issue**: The justification for the significance of the study is somewhat vague and lacks specific examples of potential real-world applications.  
+**Severity**: medium  
+**Impact**: This may weaken the argument for the importance of the research findings.
+
+### Remark 4
+
 **Category**: structure  
 **Location**: Introduction  
-**Issue**: The flow from background context to problem statement is abrupt, lacking a smooth transition.  
+**Issue**: The flow of information is somewhat disjointed, jumping between background context and the study design without a clear transition.  
 **Severity**: medium  
-**Impact**: This disrupts the reader's understanding of the research focus.
+**Impact**: This may confuse readers and hinder their understanding of the study's rationale.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -512,817 +289,662 @@ Overall, the introduction provides a solid foundation for the research, with a c
 **Focus**: background  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Current computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Transitioning from animal-based to plant-based diets is widely recognized as a crucial step in mitigating the environmental footprint of the global food industry.
 
 **Explanation**:  
-Clarifies the timeframe of the research and provides a more active voice.
+Restructuring the sentence for clarity and impact.
 
 ### Suggestion 2
 
 **Location**: Introduction  
-**Category**: context  
-**Focus**: background  
+**Category**: problem  
+**Focus**: gap  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
 
 **Improved Version**:  
-> This study conducts a thorough assessment of BMI estimation from smartphone camera images using deep learning on a notably larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.
+> Given the potential benefits of small, targeted modifications, we implemented a randomized controlled trial (RCT) within a simulated online grocery store setting to assess consumer reactions to greenhouse gas (GHG)-reducing product swap suggestions.
 
 **Explanation**:  
-Enhances clarity and conciseness of the research scope.
+Clarifying the purpose and setting of the study for better understanding.
 
 ### Suggestion 3
 
 **Location**: Introduction  
-**Category**: problem  
-**Focus**: gap  
+**Category**: significance  
+**Focus**: impact  
 
 **Original Text**:  
-> However, many past studies have been limited by small datasets, containing only up to 5,900 images.
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
 
 **Improved Version**:  
-> Nevertheless, prior studies have been constrained by small datasets, with a maximum of 5,900 images.
+> Furthermore, our study underscores the effectiveness of suggesting product substitutions with GHG reduction details, especially for frequent meat consumers, a critical target group for intervention.
 
 **Explanation**:  
-Provides a more formal transition and acknowledges previous research.
+Enhancing the clarity and impact of the statement.
 
 ### Suggestion 4
 
 **Location**: Introduction  
-**Category**: problem  
-**Focus**: gap  
-
-**Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
-
-**Improved Version**:  
-> To bridge the gap in small datasets, we employ deep learning models on a large-scale, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
-
-**Explanation**:  
-Emphasizes the solution to the identified research gap.
-
-### Suggestion 5
-
-**Location**: Introduction  
-**Category**: objectives  
-**Focus**: objectives  
-
-**Original Text**:  
-> We aim to uncover how various views of the body influence the accuracy of weight predictions, providing insights into the most effective approaches for different application scenarios.
-
-**Improved Version**:  
-> Our objective is to investigate how different body perspectives impact weight prediction accuracy, offering valuable insights for diverse application scenarios.
-
-**Explanation**:  
-Clarifies the research goal and enhances the focus on the objectives.
-
-### Suggestion 6
-
-**Location**: Introduction  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C.
 
 **Improved Version**:  
-> The subsequent sections are organized as follows: Section 2 offers a review of related research in the domain of weight estimation from images.
+> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)) emphasizing the most effective GHG-reducing swap; an information treatment group (T(Info)) displaying the GHG reduction percentage for each swap; a combined targeted and information group (T(Targeted x Info)); and a control group (C).
 
 **Explanation**:  
-Improves the transition and coherence between sections.
-
-### Suggestion 7
-
-**Location**: Introduction  
-**Category**: significance  
-**Focus**: impact  
-
-**Original Text**:  
-> For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.
-
-**Improved Version**:  
-> A 5% reduction in body weight for overweight individuals can significantly enhance health outcomes, including the prevention of type 2 diabetes and cardiovascular diseases.
-
-**Explanation**:  
-Enhances the clarity and impact of the statement.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: significance  
-**Focus**: impact  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite lacking prior training on this dataset.
-
-**Explanation**:  
-Strengthens the emphasis on research outcomes and results.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: significance  
-**Focus**: impact  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Additionally, our research offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the clarity and relevance of the research implications.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: significance  
-**Focus**: contribution  
-
-**Original Text**:  
-> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
-
-**Improved Version**:  
-> Researchers interested in replicating our methodology can utilize the openly accessible source code we offer.
-
-**Explanation**:  
-Enhances the invitation for replication and transparency.
-
-### Suggestion 11
-
-**Location**: Discussion  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> Based on our experiments, we consider the following limitations of our study:
-
-**Improved Version**:  
-> Following our experiments, we acknowledge the following limitations of our study:
-
-**Explanation**:  
-Provides a more formal and structured introduction to the limitations.
+Simplifying the description of experimental groups for better readability.
 
 ### Detailed Feedback
 ### Context Analysis
 
-The introduction provides a detailed background on the research topic, highlighting the significance of BMI estimation from smartphone images.
+The introduction provides a brief background on the importance of shifting towards plant-based diets to reduce environmental impacts. However, it lacks a comprehensive overview of existing research in the field, which could provide a stronger foundation for the study.
 
 ### Problem Analysis
 
-The problem statement is clearly articulated, focusing on the limitations of existing datasets and the need for more comprehensive research.
+The problem statement is somewhat clear, highlighting the difficulty in achieving large-scale dietary changes and the potential of small, targeted modifications. However, it could be more focused on identifying the specific gap in the literature that the study aims to address.
 
 ### Objectives Analysis
 
-The research objectives are well-defined, aiming to address the dataset gap and explore the impact of different body perspectives on weight estimation accuracy.
+The objectives of the study are not explicitly stated in the introduction, making it challenging for readers to understand the specific goals and research questions. Clearly defining the objectives would enhance the clarity of the study.
 
 ### Significance Assessment
 
-The research significance is justified by emphasizing the potential health implications of accurate weight estimation and the practical applications in telehealth.
+While the significance of the study is mentioned, the justification could be strengthened by providing more concrete examples of how the research findings could impact policymakers or consumers. This would enhance the argument for the study's importance.
 
 ### Structure Evaluation
 
-The introduction lacks a smooth transition between background context and problem statement, impacting the overall flow of the section.
+The introduction lacks a smooth flow of information, jumping between background context and study design details without clear transitions. Improving the organization and coherence of the introduction would enhance readability and understanding.
 
 ## S4 - Literature Review
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The literature review provides a comprehensive overview of BMI estimation from images, with a detailed analysis of methodologies, datasets, and perspectives. While the critical analysis is thorough, some improvements in structuring the content and enhancing integration with existing literature are recommended. Overall, the study offers valuable insights into remote weight estimation and demonstrates strong generalizability of the model.
+Overall, the literature review provides a focused examination of the impact of pre-checkout product swap recommendations on GHG reductions. While the study methodology is robust, there are opportunities to enhance the coverage breadth, critical analysis, citation quality, and integration with existing literature. Improvements in structuring the review and synthesizing the findings would also enhance the overall quality and relevance of the research.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: structure  
-**Location**: Methodology section  
-**Issue**: Lack of clear subheadings or bullet points to delineate different steps in the image filtering process.  
+**Category**: coverage  
+**Location**: Introduction  
+**Issue**: The literature review lacks a comprehensive overview of existing research on the environmental impacts of dietary choices beyond the focus on GHG emissions.  
 **Severity**: medium  
-**Impact**: Affects readability and understanding of the methodology.
+**Impact**: This limits the contextual understanding of the broader implications of dietary shifts.
 
 ### Remark 2
 
-**Category**: integration  
-**Location**: Results section  
-**Issue**: Limited discussion on how the results align with existing literature or theoretical frameworks.  
+**Category**: analysis  
+**Location**: Results  
+**Issue**: The critical analysis of the study results is somewhat superficial, focusing more on descriptive statistics rather than deeper insights.  
 **Severity**: medium  
-**Impact**: Reduces the depth of analysis and connection to prior research.
+**Impact**: This hinders the ability to draw meaningful conclusions and implications from the findings.
+
+### Remark 3
+
+**Category**: structure  
+**Location**: Conclusion  
+**Issue**: The conclusion lacks a clear summary of key findings and their implications for future research and policy.  
+**Severity**: low  
+**Impact**: This weakens the overall impact of the study and its relevance for stakeholders.
+
+### Remark 4
+
+**Category**: citations  
+**Location**: References  
+**Issue**: The reference list is limited in scope and lacks recent publications, especially in the rapidly evolving field of sustainable food systems.  
+**Severity**: high  
+**Impact**: This undermines the credibility and currency of the literature review.
+
+### Remark 5
+
+**Category**: integration  
+**Location**: Discussion  
+**Issue**: The discussion section does not effectively connect the study findings to the broader body of literature on consumer behavior and sustainability.  
+**Severity**: medium  
+**Impact**: This reduces the overall coherence and relevance of the research.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Introduction  
+**Category**: coverage  
+**Focus**: relevance  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> The code for training, deployment, and the mobile applications is shared as open-source contributions.
+> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the food industry.
 
 **Explanation**:  
-Improves clarity and conciseness.
+Enhances clarity and precision in conveying the importance of dietary shifts for environmental sustainability.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Results  
+**Category**: analysis  
+**Focus**: synthesis  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
 
 **Improved Version**:  
-> Torso-up images show comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
+> The study findings indicate a significant impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average GHG reduction of 25% (SD = 18%).
 
 **Explanation**:  
-Enhances readability and coherence.
+Clarifies the presentation of research outcomes and strengthens the interpretation of the results.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Discussion  
+**Category**: integration  
+**Focus**: connection  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
 
 **Improved Version**:  
-> We showcase the practical implementation of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, on mobile devices using the CLAID framework.
+> Our study underscores the potential for policymakers to promote plant-based consumption through pre-checkout, basket-level swap recommendations, offering an effective strategy to drive the adoption of sustainable food choices.
 
 **Explanation**:  
-Streamlines the sentence for better flow.
+Enhances the clarity and impact of the research implications for policymakers.
 
 ### Suggestion 4
 
-**Location**: Methodology section  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Introduction  
+**Category**: citations  
+**Focus**: quality  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
+> [1, 2, 3]
 
 **Improved Version**:  
-> Although the base Densenet201 model is pre-trained on the ImageNet dataset, we keep all layers trainable during training.
+> [1] Willett et al. (2019), [2] IPCC (2019), [3] Stylianou et al. (2021)
 
 **Explanation**:  
-Clarifies the relationship between pre-training and training.
+Provides specific authorship details for each cited reference, improving transparency and credibility.
 
 ### Suggestion 5
 
-**Location**: Methodology section  
+**Location**: References  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
+> References
 
 **Improved Version**:  
-> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, we do not utilize these metrics to guide training.
+> Recent References on Sustainable Food Systems
 
 **Explanation**:  
-Enhances precision and clarity.
+Provides a more specific and informative heading for the reference list.
 
 ### Suggestion 6
 
-**Location**: Methodology section  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Methodology  
+**Category**: analysis  
+**Focus**: depth  
 
 **Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> The dataset is divided into training, test, and validation sets comprising 75%, 15%, and 10% of the data, respectively.
+> Prior to data collection, the study protocol was preregistered to ensure transparency and data integrity, and incentives were aligned with participant actions.
 
 **Explanation**:  
-Provides a more formal and structured presentation.
-
-### Suggestion 7
-
-**Location**: Results section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> The proprietary dataset consists of 84,963 photos of 25,353 individuals.
-
-**Improved Version**:  
-> The proprietary dataset comprises 84,963 photos collected from 25,353 individuals.
-
-**Explanation**:  
-Improves clarity and conciseness.
-
-### Suggestion 8
-
-**Location**: Results section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.
-
-**Improved Version**:  
-> The dataset filtering process led to the removal of 13,642 (16.2%) images prior to training.
-
-**Explanation**:  
-Enhances readability and precision.
-
-### Suggestion 9
-
-**Location**: Discussion section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
-
-**Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
-
-**Explanation**:  
-Enhances clarity and impact of the statement.
-
-### Suggestion 10
-
-**Location**: Discussion section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
-
-**Explanation**:  
-Improves coherence and transitions.
-
-### Suggestion 11
-
-**Location**: Discussion section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> Based on our experiments, we consider the following limitations of our study:
-
-**Improved Version**:  
-> From our experiments, we identify the following limitations of our study:
-
-**Explanation**:  
-Enhances clarity and transitions.
+Clarifies the methodological rigor of the study and enhances transparency.
 
 ### Detailed Feedback
 ### Coverage Analysis
 
-The literature review provides a comprehensive overview of BMI estimation from images, highlighting the significance of the research area and the gap addressed by the study. The review of related work is detailed, covering various datasets, methodologies, and perspectives used in prior studies.
+The literature review provides a focused examination of the impact of pre-checkout product swap recommendations on GHG reductions, but lacks a broader discussion of related topics such as consumer behavior, sustainability interventions, and policy implications.
 
 ### Analysis Quality
 
-The critical analysis of the methodology, results, and implications is thorough, providing insights into the experimental process and the significance of the findings. The evaluation of model performance on different datasets and perspectives adds depth to the analysis.
+The critical analysis of the study results is somewhat limited, with a stronger emphasis on descriptive statistics rather than deeper insights into the implications of the findings for theory and practice.
 
 ### Structure Evaluation
 
-The organization of the literature review is logical, with clear sections dedicated to introduction, methodology, results, and discussion. However, some subsections within the methodology and results could benefit from clearer subheadings or bullet points to enhance readability.
+The organization of the literature review is generally logical, moving from background information to methodology and results. However, there is room for improvement in the clarity of the conclusion and the linkage between sections.
 
 ### Citation Assessment
 
-The citation quality is adequate, with relevant references to prior studies in the field of BMI estimation from images. However, there could be more recent references included to ensure the literature review is up-to-date.
+The reference list is somewhat limited in scope and lacks recent publications, which could be expanded to include a more diverse range of sources to enhance the credibility and currency of the review.
 
 ### Integration Review
 
-The integration of the research within the existing body of knowledge is well-done, with connections drawn between the current study and prior research. However, further discussion on how the results align with existing literature and theoretical frameworks could enhance the depth of analysis.
+The integration of the study findings with existing literature on consumer behavior and sustainability could be strengthened to provide a more cohesive narrative and demonstrate the broader implications of the research.
 
 ## S5 - Methodology
 ### Score: 7/10
 
 ### Summary
-Overall, the study presents a comprehensive methodology for BMI estimation using deep learning on a real-world dataset. While the research design and analysis methods are strong, improvements in data quality assurance, validation procedures, and ethical considerations are recommended to enhance the study's validity and reliability.
+The study on GHG-reducing product swap recommendations in an online supermarket environment utilized a robust experimental design but lacked transparency in validity measures and detailed ethical considerations. While the findings suggest a significant impact on consumer behavior, improvements in blinding procedures, validity measures, and ethical considerations are essential to enhance the overall quality and rigor of the study.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: quality  
-**Location**: Image filtering techniques  
-**Issue**: The filtering process based on human bounding box and keypoint data may not capture all unsuitable images accurately, leading to potential biases in the dataset.  
+**Category**: design  
+**Location**: Sampling approach  
+**Issue**: The study used a hypothetical online supermarket environment, which may lack external validity.  
 **Severity**: medium  
-**Impact**: This could affect the model's performance and generalizability, as the dataset may still contain images that are not suitable for accurate BMI estimation.
+**Impact**: This limits the generalizability of the findings to real-world shopping behaviors.
 
 ### Remark 2
 
-**Category**: ethics  
-**Location**: Dataset section  
-**Issue**: The self-reported height and weight labels introduce potential inaccuracies and biases in the data, impacting the reliability of the results.  
-**Severity**: high  
-**Impact**: This could undermine the validity of the study's findings and raise concerns about the accuracy of the BMI estimation.
+**Category**: methods  
+**Location**: Procedures  
+**Issue**: The study did not mention blinding procedures, potentially introducing bias.  
+**Severity**: medium  
+**Impact**: This could affect the objectivity of participants' responses to the product swap recommendations.
+
+### Remark 3
+
+**Category**: quality  
+**Location**: Validity measures  
+**Issue**: The study did not explicitly mention the validity measures used to ensure the accuracy of the results.  
+**Severity**: low  
+**Impact**: This lack of transparency may raise questions about the internal validity of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Dataset section  
-**Category**: quality  
-**Focus**: validity  
-
-**Original Text**:  
-> Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.
-
-**Improved Version**:  
-> Images captured in real-life scenarios exhibit significant variation in factors such as image quality, lighting, and subject posture, which may introduce biases in the dataset.
-
-**Explanation**:  
-Adding the mention of potential biases due to variations in image quality and lighting provides a more accurate description of the dataset.
-
-### Suggestion 2
-
-**Location**: Image filtering techniques  
-**Category**: quality  
-**Focus**: reliability  
-
-**Original Text**:  
-> We apply a filtering process to automatically curate the real-world dataset.
-
-**Improved Version**:  
-> We apply a rigorous filtering process to automatically curate the real-world dataset, ensuring the exclusion of unsuitable images.
-
-**Explanation**:  
-Emphasizing the rigor of the filtering process highlights the dataset's quality and reliability.
-
-### Suggestion 3
-
-**Location**: Image filtering techniques  
+**Location**: Procedures  
 **Category**: methods  
 **Focus**: procedures  
 
 **Original Text**:  
-> Images with a human bounding box confidence score of less than a certain threshold are removed.
+> Participants were randomized to one of the four experimental groups.
 
 **Improved Version**:  
-> Images with a human bounding box confidence score below a specified threshold are filtered out to enhance dataset quality.
+> Participants were randomly assigned to one of the four experimental groups to ensure unbiased group allocation.
 
 **Explanation**:  
-Clarifying the specific threshold for filtering improves transparency and reproducibility of the methodology.
+Using 'randomly assigned' clarifies the method of group allocation.
+
+### Suggestion 2
+
+**Location**: Procedures  
+**Category**: methods  
+**Focus**: procedures  
+
+**Original Text**:  
+> The study was preregistered and incentive-compatible.
+
+**Improved Version**:  
+> The study was preregistered to enhance transparency and ensure the integrity of the research findings.
+
+**Explanation**:  
+Adding the purpose of preregistration emphasizes its importance for research integrity.
+
+### Suggestion 3
+
+**Location**: Procedures  
+**Category**: methods  
+**Focus**: procedures  
+
+**Original Text**:  
+> Participants could select as many of the available product swaps as they desired.
+
+**Improved Version**:  
+> Participants were allowed to select multiple product swaps based on their preferences to capture a more realistic shopping behavior.
+
+**Explanation**:  
+Clarifying the rationale behind allowing multiple selections enhances the study's ecological validity.
 
 ### Suggestion 4
 
-**Location**: Results section  
+**Location**: Analysis methods  
 **Category**: analysis  
 **Focus**: statistical methods  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data.
+> Our results show that the effect of offering product swap recommendations was strong.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen datasets, validating its performance across diverse scenarios.
+> Our findings suggest a significant impact of offering product swap recommendations on consumer behavior.
 
 **Explanation**:  
-Highlighting the validation of generalizability strengthens the credibility of the model's performance.
+Replacing 'strong' with 'significant' provides a more precise description of the results.
 
 ### Suggestion 5
 
-**Location**: Discussion section  
-**Category**: ethics  
-**Focus**: considerations  
+**Location**: Analysis methods  
+**Category**: analysis  
+**Focus**: statistical methods  
 
 **Original Text**:  
-> Our work provides insights for remote weight estimation during telemedicine consultations.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
 
 **Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings, enhancing healthcare accessibility and efficiency.
+> Overall, neither the targeted treatment nor the information treatment led to a statistically significant reduction in basket GHG emissions.
 
 **Explanation**:  
-Expanding on the implications of the study emphasizes its potential impact on healthcare practices.
+Adding 'statistically' clarifies the significance level of the results.
+
+### Suggestion 6
+
+**Location**: Analysis methods  
+**Category**: analysis  
+**Focus**: qualitative approaches  
+
+**Original Text**:  
+> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
+
+**Improved Version**:  
+> Participants exposed to the targeted treatment (T(Targeted)) were 1.5 times more likely to select the most effective GHG-reducing swap.
+
+**Explanation**:  
+Adding clarity on the treatment group enhances the understanding of the results.
+
+### Suggestion 7
+
+**Location**: Sampling approach  
+**Category**: design  
+**Focus**: rationale  
+
+**Original Text**:  
+> Participants were presented with a shopping basket typical of the average 2-person German household.
+
+**Improved Version**:  
+> Participants were provided with a shopping basket representative of the average 2-person German household to ensure ecological validity.
+
+**Explanation**:  
+Emphasizing the representativeness of the shopping basket enhances the study's generalizability.
+
+### Suggestion 8
+
+**Location**: Sampling approach  
+**Category**: design  
+**Focus**: approach  
+
+**Original Text**:  
+> Participants were randomized to one of the four experimental groups.
+
+**Improved Version**:  
+> Participants were randomly assigned to one of the four experimental groups to minimize selection bias.
+
+**Explanation**:  
+Highlighting the aim of randomization strengthens the study's internal validity.
+
+### Suggestion 9
+
+**Location**: Procedures  
+**Category**: methods  
+**Focus**: procedures  
+
+**Original Text**:  
+> The study did not mention blinding procedures.
+
+**Improved Version**:  
+> The study did not specify blinding procedures, potentially introducing bias.
+
+**Explanation**:  
+Emphasizing the potential bias alerts readers to the methodological limitation.
+
+### Suggestion 10
+
+**Location**: Limitations handling  
+**Category**: quality  
+**Focus**: rigor  
+
+**Original Text**:  
+> Our results should be viewed in light of certain limitations.
+
+**Improved Version**:  
+> Our findings should be interpreted considering specific study limitations.
+
+**Explanation**:  
+Using 'findings' instead of 'results' enhances the clarity of the statement.
 
 ### Detailed Feedback
 ### Design Analysis
 
-The research design is robust, utilizing a large-scale real-world dataset for BMI estimation. However, potential biases in image filtering and self-reported labels may impact the study's validity.
+The research design employed a randomized controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumer responses to GHG-reducing product swap recommendations. While the RCT design is robust, the use of a hypothetical setting may limit the external validity of the findings.
 
 ### Methods Assessment
 
-The methodology is detailed and well-described, with clear procedures for image filtering, perspective cropping, and model training. However, improvements in data quality assurance and validation methods could enhance the methodology.
+The study utilized randomization, treatment groups, and data collection through an online supermarket simulation. However, the lack of blinding procedures and detailed validity measures could impact the internal validity and reliability of the results.
 
 ### Analysis Evaluation
 
-The analysis methods are sound, with a focus on deep learning models for BMI estimation. The comparison of different image perspectives adds value to the study. However, further validation on external datasets could strengthen the analysis.
+The analysis methods included statistical comparisons between treatment groups and control, highlighting the impact of product swap recommendations on consumer behavior. While the findings were presented clearly, the lack of statistically significant results for some treatments raises questions about the effectiveness of the interventions.
 
 ### Quality Review
 
-The study demonstrates good validity and reliability in BMI estimation. However, addressing potential biases in data collection and improving data quality assurance processes would enhance the overall quality of the research.
+The study demonstrated a strong effect of product swap recommendations on consumer behavior, but the absence of explicit validity measures and limited discussion on reliability assessment may raise concerns about the robustness of the findings. Enhancing the transparency of validity and reliability measures would strengthen the study's quality.
 
 ### Ethics Compliance
 
-Ethical considerations are mentioned, such as consent for image use. However, the reliance on self-reported labels raises concerns about data accuracy and potential biases. Ensuring data privacy and accuracy is crucial for ethical compliance.
+The study mentioned being preregistered and incentive-compatible, indicating a commitment to research transparency and integrity. However, the lack of detailed ethical considerations, such as consent procedures and participant protection, raises concerns about the ethical rigor of the study.
 
 ## S6 - Results
 ### Score: 7/10
 
 ### Summary
-Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. The results demonstrate strong generalizability and performance, particularly with full-body images. Improvements in clarity, consistency, and comparisons with existing models on external datasets would enhance the manuscript's quality and impact.
+The study presents a well-structured experimental design with clear data presentation and robust statistical analysis. However, improvements are needed in the clarity of the research question, depth of result interpretation, and discussion of limitations. Enhancing the reporting of effect sizes, confidence intervals, and practical implications would strengthen the overall quality and impact of the manuscript.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: presentation  
-**Location**: Abstract  
-**Issue**: Abstract lacks a clear summary of key findings and implications.  
+**Location**: Data presentation  
+**Issue**: The introduction lacks a clear statement of the research question and objectives, making it challenging for readers to understand the study's purpose.  
 **Severity**: medium  
-**Impact**: Reduces reader's understanding of the study's significance.
+**Impact**: This affects the overall clarity and focus of the study.
 
 ### Remark 2
 
 **Category**: quality  
-**Location**: Results on external datasets  
-**Issue**: Lack of comparison with other state-of-the-art models on external datasets.  
+**Location**: Result interpretation  
+**Issue**: The interpretation of the results lacks depth and fails to provide a comprehensive analysis of the implications of the findings.  
+**Severity**: high  
+**Impact**: This limits the understanding of the practical implications of the study.
+
+### Remark 3
+
+**Category**: impact  
+**Location**: Result interpretation  
+**Issue**: The discussion on the limitations of the study is brief and does not address potential biases or confounding factors adequately.  
 **Severity**: medium  
-**Impact**: Limits the context and validity of the model's performance.
+**Impact**: This undermines the credibility and generalizability of the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Introduction  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> We provide detailed information on the processing speed for filtering and inference on Android and iOS devices, including specific metrics and comparisons.
+> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the global food system.
 
 **Explanation**:  
-Adding specific metrics and comparisons enhances the transparency and completeness of the reported results.
+The revised sentence is more concise and emphasizes the importance of dietary shifts for environmental sustainability.
 
 ### Suggestion 2
 
-**Location**: Results interpretation  
+**Location**: Introduction  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> A shift from current diets to diets that exclude animal-based products would reduce the food system’s land use by 76% and greenhouse gas emissions (GHG) by around 50%.
 
 **Improved Version**:  
-> Torso-up images demonstrate comparable performance to full-body images with a MAPE of 9%, while face-only images exhibit lower accuracy with a MAPE of 11%.
+> Transitioning to diets devoid of animal-based products could potentially slash the food system's land use by 76% and greenhouse gas emissions by approximately 50%.
 
 **Explanation**:  
-Rephrasing for clarity and consistency in reporting results.
+The revised sentence adds specificity and enhances the impact of the statistics provided.
 
 ### Suggestion 3
 
-**Location**: Discussion  
+**Location**: Results  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> Our results show that the effect of offering product swap recommendations was strong - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+> Our findings indicate a robust impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average GHG reduction of 25% in their shopping baskets (SD = 18%).
 
 **Explanation**:  
-Emphasizing the key finding of generalizability for clarity and impact.
+The revised text clarifies the results and provides a more precise description of the outcomes.
 
 ### Suggestion 4
 
-**Location**: Discussion  
+**Location**: Results  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
 
 **Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings.
+> Participants in the T(Targeted) group exhibited a 1.5 times higher likelihood of selecting the most efficient GHG-reducing swap.
 
 **Explanation**:  
-Streamlining the statement for conciseness and impact.
+The revised version enhances clarity and precision in reporting the statistical findings.
 
 ### Suggestion 5
 
-**Location**: Results on external datasets  
-**Category**: quality  
-**Focus**: statistics  
+**Location**: Results  
+**Category**: presentation  
+**Focus**: clarity  
 
 **Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
 
 **Improved Version**:  
-> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
+> In summary, both T(Targeted) and T(Info) did not lead to a statistically significant decrease in basket GHG emissions.
 
 **Explanation**:  
-Clarifying the rationale behind the choice of hyperparameters.
+The revised sentence provides a clearer statement on the lack of statistical significance in the results.
 
 ### Suggestion 6
 
 **Location**: Discussion  
-**Category**: presentation  
-**Focus**: clarity  
+**Category**: interpretation  
+**Focus**: meaning  
 
 **Original Text**:  
-> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
 
 **Improved Version**:  
-> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
+> Our study underscores the potential benefits for policymakers aiming to promote plant-based dietary choices by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
 
 **Explanation**:  
-Providing a clear comparison for transparency and context.
+The revised text emphasizes the practical implications of the research for policymakers and enhances clarity.
 
 ### Suggestion 7
 
-**Location**: Results on external datasets  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
-
-**Improved Version**:  
-> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
-
-**Explanation**:  
-Maintaining consistency in reporting metrics for clarity.
-
-### Suggestion 8
-
 **Location**: Discussion  
-**Category**: presentation  
-**Focus**: clarity  
+**Category**: impact  
+**Focus**: effect sizes  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+> Furthermore, our study emphasizes the efficacy of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a crucial consumer segment to target.
 
 **Explanation**:  
-Rephrasing for clarity and impact.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).
-
-**Improved Version**:  
-> The full-body perspective exhibits the best performance, with the lowest MAPE on BMI prediction (7.9%).
-
-**Explanation**:  
-Enhancing clarity and emphasis on key findings.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings.
-
-**Explanation**:  
-Streamlining the statement for conciseness and impact.
-
-### Suggestion 11
-
-**Location**: Results on external datasets  
-**Category**: quality  
-**Focus**: statistics  
-
-**Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
-
-**Improved Version**:  
-> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
-
-**Explanation**:  
-Clarifying the rationale behind the choice of hyperparameters.
-
-### Suggestion 12
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
-
-**Improved Version**:  
-> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
-
-**Explanation**:  
-Providing a clear comparison for transparency and context.
-
-### Suggestion 13
-
-**Location**: Results on external datasets  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
-
-**Improved Version**:  
-> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
-
-**Explanation**:  
-Maintaining consistency in reporting metrics for clarity.
+The revised version strengthens the emphasis on the significance of targeting frequent meat eaters with GHG reduction information.
 
 ### Detailed Feedback
 ### Presentation Analysis
 
-The data presentation is generally clear and organized, with detailed descriptions of methods and results. However, some sections lack concise summaries of key findings. The statistical analysis is robust, with appropriate measures reported. The figures and tables are of good quality but could benefit from more detailed labeling and explanations.
+The data presentation in the manuscript is generally clear and organized, with detailed descriptions of the experimental setup and results. However, the introduction could benefit from a more focused research question statement to guide readers effectively.
 
 ### Analysis Quality
 
-The statistical analysis is thorough, with appropriate tests and measures used. The effect sizes and confidence intervals are reported, enhancing the validity of the results. However, more comparisons with existing models on external datasets would strengthen the analysis.
+The statistical analysis is robust, with the use of a randomized controlled trial design and clear reporting of results. However, the interpretation of statistical significance and effect sizes could be more detailed to provide a comprehensive understanding of the findings.
 
 ### Interpretation Review
 
-The interpretation of results is generally sound, with implications discussed. The comparison of different image perspectives is insightful. However, more in-depth discussion on the limitations and implications of the findings would enhance the interpretation.
+The interpretation of the results lacks depth and fails to explore the broader implications of the findings. A more thorough discussion on the practical implications and limitations of the study would enhance the overall quality of the interpretation.
 
 ### Visualization Assessment
 
-The figures and tables are well-presented, aiding in understanding the results. However, some figures could be enhanced with clearer labels and annotations for better interpretation.
+The figures and tables presented in the manuscript are relevant and support the findings effectively. However, incorporating confidence intervals and effect sizes in the visualizations could enhance the completeness of the data presentation.
 
 ### Significance Evaluation
 
-The reporting of significance levels and effect sizes is appropriate, providing a comprehensive analysis of the results. The discussion on generalizability and practical implications adds value to the study.
+The reporting of statistical significance is generally clear, but the discussion on effect sizes and confidence intervals could be more explicit. Providing more detailed information on effect sizes would strengthen the impact of the results.
 
 ## S7 - Discussion
 ### Score: 7/10
 
 ### Summary
-The study demonstrates a significant advancement in BMI estimation from smartphone images, but improvements are needed in contextualizing the research within existing literature, addressing limitations in the methodology, and enhancing the discussion on practical implications and theoretical contributions.
+The study provides valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations. However, there are significant areas for improvement, including the need for a more in-depth interpretation of results, a comprehensive literature comparison, a detailed analysis of limitations, and a clearer alignment between conclusions and findings. Enhancing the discussion on practical implications and theoretical contributions could further strengthen the study's impact and relevance in the field.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: quality  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear statement of the significance of the study results.  
+**Category**: interpretation  
+**Location**: Results  
+**Issue**: The interpretation of the results lacks depth and fails to highlight the significance of the findings.  
 **Severity**: medium  
-**Impact**: This affects the reader's understanding of the importance of the research findings.
+**Impact**: This weakens the overall impact of the study and may lead to misinterpretation by readers.
 
 ### Remark 2
 
 **Category**: context  
-**Location**: Introduction  
-**Issue**: Limited comparison of the current study with existing literature on BMI estimation.  
-**Severity**: medium  
-**Impact**: This hinders the contextualization of the research within the broader field.
+**Location**: Literature Comparison  
+**Issue**: The discussion lacks a comprehensive comparison with existing literature, missing opportunities to build on prior research.  
+**Severity**: high  
+**Impact**: This limits the contextual understanding of the study and its contribution to the field.
 
 ### Remark 3
 
 **Category**: reflection  
-**Location**: Methodology  
-**Issue**: Insufficient discussion on the limitations of the image filtering process.  
-**Severity**: high  
-**Impact**: This undermines the credibility of the methodology and results.
+**Location**: Limitations  
+**Issue**: The limitations are briefly mentioned without a detailed analysis of their implications on the study.  
+**Severity**: medium  
+**Impact**: This hinders the transparency of the research process and the validity of the results.
 
 ### Remark 4
 
 **Category**: impact  
-**Location**: Results  
-**Issue**: Lack of discussion on the practical implications of the model's performance on external datasets.  
+**Location**: Practical Implications  
+**Issue**: The practical implications are not thoroughly discussed, missing opportunities to highlight actionable insights.  
 **Severity**: medium  
-**Impact**: This diminishes the understanding of the model's real-world applicability.
+**Impact**: This reduces the applicability of the study findings in real-world scenarios.
 
 ### Remark 5
 
 **Category**: quality  
-**Location**: Discussion  
-**Issue**: Inadequate depth in discussing the theoretical contributions of the study.  
-**Severity**: medium  
-**Impact**: This limits the theoretical implications of the research.
+**Location**: Conclusion  
+**Issue**: The conclusion does not align well with the results and fails to summarize the key findings effectively.  
+**Severity**: high  
+**Impact**: This leads to a lack of clarity on the main takeaways from the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: quality  
+**Location**: Results  
+**Category**: interpretation  
 **Focus**: interpretation  
 
 **Original Text**:  
-> The abstract lacks a clear statement of the significance of the study results.
+> Our results show that the effect of offering product swap recommendations was strong.
 
 **Improved Version**:  
-> The study's findings demonstrate a significant advancement in BMI estimation from smartphone images, enabling rapid weight assessment in diverse scenarios.
+> Our findings demonstrate a significant impact of providing product swap recommendations.
 
 **Explanation**:  
-This improvement provides a concise summary of the study's importance.
+This revised version emphasizes the significance of the results, providing a clearer interpretation.
 
 ### Suggestion 2
 
@@ -1331,713 +953,422 @@ This improvement provides a concise summary of the study's importance.
 **Focus**: comparison  
 
 **Original Text**:  
-> Limited comparison of the current study with existing literature on BMI estimation.
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
 
 **Improved Version**:  
-> A comprehensive comparison with prior studies on BMI estimation, highlighting the novelty and contributions of the current research.
+> Previous studies conducted on US populations have indicated that small, targeted dietary substitutions could lead to a reduction in the dietary carbon footprint by 33% - 35%.
 
 **Explanation**:  
-This enhancement adds depth to the contextualization of the study.
+Adding context by specifying the source and location of the research enhances the credibility of the statement.
 
 ### Suggestion 3
 
-**Location**: Methodology  
+**Location**: Limitations Section  
 **Category**: reflection  
 **Focus**: limitations  
 
 **Original Text**:  
-> Insufficient discussion on the limitations of the image filtering process.
+> Our results should be viewed in light of certain limitations.
 
 **Improved Version**:  
-> A detailed analysis of the potential biases and challenges in the image filtering process, including the impact on dataset quality and model performance.
+> It is crucial to consider our findings in the context of several inherent limitations.
 
 **Explanation**:  
-This improvement enhances the transparency and rigor of the methodology.
+Emphasizing the importance of acknowledging limitations improves the transparency of the study.
 
 ### Suggestion 4
 
-**Location**: Results  
+**Location**: Practical Implications Section  
 **Category**: impact  
 **Focus**: implications  
 
 **Original Text**:  
-> Lack of discussion on the practical implications of the model's performance on external datasets.
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research.
 
 **Improved Version**:  
-> Exploration of how the model's performance on external datasets can inform real-world applications and decision-making in healthcare settings.
+> Our study provides valuable insights for policymakers aiming to promote a shift towards plant-based dietary habits.
 
 **Explanation**:  
-This addition strengthens the understanding of the model's utility beyond research settings.
-
-### Suggestion 5
-
-**Location**: Discussion  
-**Category**: quality  
-**Focus**: implications  
-
-**Original Text**:  
-> Inadequate depth in discussing the theoretical contributions of the study.
-
-**Improved Version**:  
-> Thorough examination of how the study's findings advance the theoretical understanding of BMI estimation through deep learning models.
-
-**Explanation**:  
-This revision elevates the theoretical significance of the research.
+Restructuring the sentence to focus on the actionable insights enhances the practical implications.
 
 ### Detailed Feedback
 ### Interpretation Analysis
 
-The result interpretation is clear and supported by numerical data, enhancing the credibility of the findings.
+The interpretation of the results lacks depth and fails to highlight the significance of the findings. While the study mentions the impact of product swap recommendations, it does not delve into the implications or broader significance of the observed effects.
 
 ### Context Review
 
-The literature comparison provides relevant background information but lacks a detailed analysis of the existing studies.
+The literature comparison is limited to a few references without a comprehensive analysis of existing studies. A more detailed comparison with prior research could have strengthened the theoretical foundation of the study.
 
 ### Reflection Assessment
 
-The limitations and future work sections are informative, but more emphasis on potential biases and challenges would strengthen the methodology.
+The discussion on limitations is brief and lacks a thorough analysis of their implications on the study outcomes. Additionally, the future work section could benefit from more specific suggestions for potential research directions.
 
 ### Impact Evaluation
 
-The practical implications and theoretical contributions are discussed, but a deeper exploration of the model's real-world applicability and theoretical advancements is needed.
+The practical implications are not extensively discussed, missing opportunities to provide actionable insights for policymakers and practitioners. Furthermore, the theoretical contributions could be enhanced by linking the findings to existing theoretical frameworks.
 
 ### Quality Analysis
 
-The discussion is coherent and well-structured, but additional depth in theoretical contributions and practical implications would enhance the overall quality.
+The overall discussion lacks coherence in aligning the conclusions with the results. Improving the structure and clarity of the conclusion could enhance the overall quality of the manuscript.
 
 ## S8 - Conclusion
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-Overall, the study provides valuable insights into BMI estimation from smartphone images, with a strong emphasis on model performance and generalizability. While the methodology is detailed, some sections could benefit from concise summarization for improved clarity and readability. The study's contribution to the field is significant, particularly in offering a direct comparison of image perspectives and showcasing practical implications for telemedicine applications.
+The study provides valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations. While the results demonstrate a strong effect on consumer behavior, the lack of statistical significance in reducing basket GHG emissions for specific treatment groups and the limited discussion on theoretical implications and practical applications are areas that require improvement to enhance the overall quality and completeness of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: support  
-**Location**: Abstract  
-**Issue**: The abstract lacks specific results and metrics to support the claims made about the BMI estimation model's performance.  
+**Location**: Results  
+**Issue**: Lack of statistical significance in the reduction of basket GHG emissions for T(Targeted) and T(Info) groups undermines the strength of the conclusions.  
 **Severity**: medium  
-**Impact**: Weakens the credibility of the study and may mislead readers about the model's effectiveness.
+**Impact**: Weakens the credibility of the study findings.
 
 ### Remark 2
 
 **Category**: objectives  
-**Location**: Introduction  
-**Issue**: The research objectives are not explicitly stated, making it challenging for readers to understand the study's purpose.  
-**Severity**: medium  
-**Impact**: Lack of clear objectives hinders the clarity of the study and may lead to confusion about the intended outcomes.
+**Location**: Discussion  
+**Issue**: The discussion does not explicitly address whether the research objectives were fully met.  
+**Severity**: low  
+**Impact**: Leaves ambiguity regarding the fulfillment of the study's goals.
 
 ### Remark 3
 
 **Category**: implications  
-**Location**: Results on external datasets  
-**Issue**: The discussion on practical implications lacks depth and fails to address the broader impact of the study's findings.  
-**Severity**: low  
-**Impact**: Insufficient discussion on implications limits the study's relevance and applicability in real-world scenarios.
+**Location**: Discussion  
+**Issue**: Theoretical implications of the study findings are not clearly articulated.  
+**Severity**: medium  
+**Impact**: Limits the broader academic relevance of the research.
 
 ### Remark 4
 
 **Category**: presentation  
-**Location**: Methodology  
-**Issue**: The methodology section is overly detailed, making it challenging for readers to grasp the key processes efficiently.  
-**Severity**: medium  
-**Impact**: Excessive detail may overwhelm readers and detract from the main research focus.
+**Location**: Discussion  
+**Issue**: The practical implications for policymakers are mentioned but not expanded upon in detail.  
+**Severity**: low  
+**Impact**: Reduces the applicability of the research in real-world settings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: presentation  
-**Focus**: clarity  
+**Location**: Results  
+**Category**: support  
+**Focus**: evidence  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, comprising real-world data only, by utilizing full-torso images.
+> Overall, the study did not find a statistically significant reduction in basket GHG emissions for both the T(Targeted) and T(Info) groups.
 
 **Explanation**:  
-Clarifies the context and specificity of the dataset used for testing the model's performance.
+Clarifies the lack of significance and ties it directly to the experimental groups.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: presentation  
-**Focus**: clarity  
+**Location**: Discussion  
+**Category**: implications  
+**Focus**: implications  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing the results from full-body, torso-up, and face-only images.
+> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a critical target group for behavior change.
 
 **Explanation**:  
-Enhances the clarity of the sentence and improves the flow of information.
+Enhances the emphasis on the significance of targeting frequent meat eaters.
 
 ### Suggestion 3
 
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
+**Location**: Conclusion  
+**Category**: future_directions  
+**Focus**: future_directions  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
+> Subsequent studies should prioritize implementing and evaluating pre-checkout, basket-level swap recommendations in real-world settings.
 
 **Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
-
-### Suggestion 4
-
-**Location**: Results on external datasets  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
-
-**Improved Version**:  
-> Additionally, we assess our model’s generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
-
-**Explanation**:  
-Improves the coherence and readability of the sentence by restructuring the information.
-
-### Suggestion 5
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
-
-**Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
-
-**Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
-
-### Suggestion 11
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 12
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
+Emphasizes the need for practical application in future research.
 
 ### Detailed Feedback
 ### Support Analysis
 
-The study provides a comprehensive evaluation of BMI estimation from smartphone camera images using a significantly larger real-world dataset, enhancing the credibility of the results.
+The study presents results indicating a strong effect of offering product swap recommendations, with 88% of participants swapping at least one product. However, the lack of statistical significance in reducing basket GHG emissions for specific treatment groups weakens the overall support for the conclusions.
 
 ### Objective Fulfillment
 
-The research objectives are implicitly fulfilled through the detailed methodology and results analysis, showcasing the model's performance on various datasets.
+While the study design and methodology are well-described, the discussion does not explicitly state whether the research objectives were fully met. Providing a clear statement on objective fulfillment would enhance the clarity of the study's outcomes.
 
 ### Implications Analysis
 
-The study highlights the practical implications of BMI estimation from images, particularly in telemedicine scenarios, but lacks in-depth discussion on broader implications and applications.
+The practical implications for policymakers are briefly mentioned, but the theoretical implications of the findings are not thoroughly discussed. Articulating the broader theoretical implications would strengthen the academic relevance of the research.
 
 ### Presentation Analysis
 
-The presentation of results and methodology is detailed, but some sections may benefit from concise summarization to improve readability and focus on key points.
-
-### Contribution Analysis
-
-The study contributes to the field by offering insights on BMI estimation from different image perspectives and demonstrating the model's generalizability to unseen data, showcasing advancements in the research area.
+The presentation of results and methodology is clear and detailed. However, the discussion lacks depth in explaining the practical implications for policymakers and the theoretical implications of the study findings. Enhancing the discussion section would improve the overall presentation quality.
 
 ## S9 - References
 ### Score: 7/10
 
 ### Summary
-Overall, the references demonstrate a good level of accuracy and completeness, with relevant and recent sources supporting the study. However, there are some minor issues in format consistency and clarity of presentation. Improvements in citation accuracy, relevance of content, and format consistency can enhance the overall quality of the references.
+Overall, the references demonstrate a good level of accuracy and completeness, with relevant and diverse sources cited. However, there are issues with format consistency, source recency, and citation details that need to be addressed to enhance the overall quality and credibility of the research. Improving citation styles, including DOI numbers for all references, and incorporating more recent sources would significantly strengthen the references.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: accuracy  
-**Location**: Abstract  
-**Issue**: The MAPE value of 8% mentioned in the Abstract does not align with the MAPE values provided in the Results section.  
+**Location**: References  
+**Issue**: Inconsistent citation styles used throughout the references.  
 **Severity**: medium  
-**Impact**: This inconsistency could lead to confusion for readers and affect the credibility of the study.
+**Impact**: May confuse readers and reduce the credibility of the research.
 
 ### Remark 2
 
-**Category**: relevance  
-**Location**: Introduction  
-**Issue**: The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.  
-**Severity**: high  
-**Impact**: This omission may weaken the justification for the research and its significance.
+**Category**: quality  
+**Location**: Text  
+**Issue**: Lack of recent sources in the reference list.  
+**Severity**: medium  
+**Impact**: May weaken the relevance and applicability of the research findings.
+
+### Remark 3
+
+**Category**: format  
+**Location**: Text  
+**Issue**: Missing DOI numbers for some references.  
+**Severity**: low  
+**Impact**: May hinder readers' ability to access the full source material.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Text  
 **Category**: format  
 **Focus**: citation  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> Kevin O’Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina Stöcklic, Elgar Fleischa, Martin Natterc
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only) using full-torso images.
+> Kevin O’Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina Stöckli, Elgar Fleisch, Martin Natter
 
 **Explanation**:  
-Remove the comma after 'only' for better clarity and grammatical correctness.
+Consistent formatting of author names without mixing different styles.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: completeness  
-**Focus**: relevance  
+**Location**: Text  
+**Category**: format  
+**Focus**: citation  
 
 **Original Text**:  
-> Due to the heterogeneity of the datasets used in these studies, we currently lack a systematic comparison of different image perspectives for weight estimation.
+> [1, 2, 3]
 
 **Improved Version**:  
-> Due to the heterogeneity of the datasets used in these studies, there is a current lack of a systematic comparison of different image perspectives for weight estimation.
+> [1-3]
 
 **Explanation**:  
-Clarify the sentence structure for improved readability and coherence.
+Use a hyphen to indicate a range of consecutive citations for clarity.
 
 ### Suggestion 3
 
-**Location**: Discussion  
-**Category**: accuracy  
+**Location**: References  
+**Category**: format  
 **Focus**: citation  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> doi:10.1016/s0140-6736(18)31788-4
 
 **Improved Version**:  
-> Our model demonstrates strong generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> DOI: 10.1016/s0140-6736(18)31788-4
 
 **Explanation**:  
-Replace 'as demonstrated by' with 'as evidenced by' for more accurate expression.
+Standardize the format for DOI numbers for consistency.
 
 ### Suggestion 4
 
-**Location**: Discussion  
-**Category**: quality  
-**Focus**: relevance  
+**Location**: Text  
+**Category**: accuracy  
+**Focus**: citation  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].
 
 **Improved Version**:  
-> Our work also offers insights for remote weight estimation during telemedicine consultations.
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33-35% through small, targeted substitutions (Stylianou & Fulgoni, 2021), such as substituting 10% of beef intake with plant-based foods or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).
 
 **Explanation**:  
-Replace 'provides' with 'offers' for a more appropriate tone.
+Provide specific author names and publication years for each citation to enhance clarity and credibility.
 
 ### Suggestion 5
 
-**Location**: Results  
-**Category**: accuracy  
-**Focus**: citation  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> The height of each user was self-reported at the commencement of the fitness program.
-
-**Explanation**:  
-Replace 'beginning' with 'commencement' for a more formal and precise term.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: completeness  
-**Focus**: relevance  
-
-**Original Text**:  
-> The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
-
-**Improved Version**:  
-> The training dataset exhibits a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
-
-**Explanation**:  
-Change 'has' to 'exhibits' for a more descriptive and accurate representation.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: accuracy  
-**Focus**: citation  
-
-**Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
-
-**Improved Version**:  
-> We followed the hyperparameters used by Jin et al. (2022) for their state-of-the-art model.
-
-**Explanation**:  
-Replace 'in' with 'for' to correctly attribute the hyperparameters.
-
-### Suggestion 8
-
-**Location**: Methodology  
+**Location**: Text  
 **Category**: format  
-**Focus**: format  
+**Focus**: style  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset.
+> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset.
+> Participants exposed to the targeted treatment were 1.5 times more likely to choose the most effective GHG-reducing swap.
 
 **Explanation**:  
-Correct the spelling of 'DenseNet' for consistency.
-
-### Suggestion 9
-
-**Location**: Results  
-**Category**: format  
-**Focus**: format  
-
-**Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
-
-**Improved Version**:  
-> Our model achieves a MAPE of 13.38% and a MAE of 4.3 BMI units.
-
-**Explanation**:  
-Replace 'an' with 'a' before 'MAE' for grammatical accuracy.
-
-### Suggestion 10
-
-**Location**: Introduction  
-**Category**: completeness  
-**Focus**: relevance  
-
-**Original Text**:  
-> The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.
-
-**Improved Version**:  
-> The introduction lacks a clear statement of the research gap or the novelty of the study compared to existing literature.
-
-**Explanation**:  
-Add 'the' before 'novelty' for grammatical correctness.
+Use full treatment names for clarity and consistency.
 
 ### Detailed Feedback
 ### Accuracy Analysis
 
-The references are mostly accurate in terms of citation details and dataset information. However, there are inconsistencies in reporting certain numerical values.
+The citations within the text are generally accurate, but there are inconsistencies in citation styles and missing details for some references. Cross-referencing is done effectively, but there is room for improvement in providing specific author names and publication years for each citation.
 
 ### Completeness Analysis
 
-The references provide a comprehensive overview of related work, datasets, and methodologies used in the study. However, some sections lack clarity in explaining the relevance of the research.
+The reference list is comprehensive, covering a range of relevant sources. However, some references lack DOI numbers, which could limit readers' ability to access the full text. Including more recent sources would enhance the completeness and relevance of the research.
 
 ### Format Analysis
 
-The format is generally consistent, with proper citation styles and reference organization. However, there are minor issues with punctuation and sentence structure in some sections.
+The format of the references is generally consistent, but there are variations in citation styles and missing DOI numbers for some sources. Standardizing the citation format and ensuring all references include DOI numbers would improve the overall format consistency.
 
 ### Quality Analysis
 
-The sources cited are relevant and recent, contributing to the credibility of the study. The diversity of sources could be improved by including a wider range of studies from different perspectives.
+The sources cited are relevant to the research topic, providing a solid foundation for the study. However, the lack of recent sources in the reference list could impact the quality and applicability of the findings. Including more up-to-date research would enhance the quality and relevance of the study.
 
 ### Organization Analysis
 
-The reference list is well-organized and follows a logical flow from introduction to results. However, there are areas where the organization could be enhanced for better coherence and clarity.
+The reference list is organized alphabetically by author name, following a standard format. However, the lack of DOI numbers for some sources and inconsistencies in citation styles affect the overall organization. Ensuring all references follow the same format and include DOI numbers would improve the organization of the reference list.
 
 ## S10 - Supplementary Materials
 ### Score: 7/10
 
 ### Summary
-Overall, the supplementary materials offer a detailed and comprehensive analysis of BMI estimation from smartphone camera images. While the content is relevant and well-structured, there are areas where clarity and consistency can be improved for better presentation and understanding. The completeness and thoroughness of the information provided enhance the quality of the study.
+The supplementary materials offer valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations on consumer behavior. While the content is generally relevant and well-structured, improvements in clarity, consistency, and completeness could enhance the overall quality and accessibility of the materials.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: clarity  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear summary of the key findings and implications of the study.  
+**Category**: relevance  
+**Location**: Introduction  
+**Issue**: The introduction lacks a clear connection to the main text, making it challenging for readers to understand the context of the study.  
 **Severity**: medium  
-**Impact**: Readers may struggle to grasp the significance of the research without a concise summary.
+**Impact**: This affects the reader's ability to grasp the significance of the research.
+
+### Remark 2
+
+**Category**: clarity  
+**Location**: Methodological details  
+**Issue**: The methodological details are presented in a dense and technical manner, which may hinder comprehension for non-experts.  
+**Severity**: high  
+**Impact**: This could lead to misinterpretation of the study design and procedures.
+
+### Remark 3
+
+**Category**: completeness  
+**Location**: Results  
+**Issue**: The results section lacks detailed explanations of statistical analyses and effect sizes, limiting the understanding of the findings.  
+**Severity**: medium  
+**Impact**: This hinders the ability to assess the robustness and significance of the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: presentation  
+**Location**: Introduction  
+**Category**: relevance  
+**Focus**: connection  
 
 **Original Text**:  
-> We present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> We conduct a thorough evaluation of BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.
+> Transitioning from animal-based to plant-based diets is widely recognized as a crucial step in mitigating the environmental footprint of the global food system.
 
 **Explanation**:  
-Simplify the sentence structure for better readability and comprehension.
+This revised version provides a more specific and impactful statement, enhancing the relevance to the main text.
 
 ### Suggestion 2
 
-**Location**: Abstract  
+**Location**: Methodological details  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted...
 
 **Improved Version**:  
-> Torso-up images show comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).
+> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)), in which the most efficient GHG-reducing product swap was explicitly emphasized...
 
 **Explanation**:  
-Rephrase for better flow and clarity.
+This revision clarifies the description of the experimental design, improving the clarity for readers.
 
 ### Suggestion 3
 
-**Location**: Introduction  
+**Location**: Results  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> The limited dataset size may restrict the model’s ability to learn complex patterns and generalize to diverse body types.
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product...
 
 **Improved Version**:  
-> A small dataset size may limit the model's capacity to learn intricate patterns and generalize across diverse body types.
+> The outcomes indicate a substantial impact of providing product swap suggestions, with 88% of participants (n = 1070) opting to exchange at least one item...
 
 **Explanation**:  
-Enhance readability and precision of the statement.
+This revised version enhances the clarity and precision of the result presentation.
 
 ### Suggestion 4
 
-**Location**: Introduction  
-**Category**: clarity  
-**Focus**: presentation  
+**Location**: Methodological details  
+**Category**: organization  
+**Focus**: organization  
 
 **Original Text**:  
-> We train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+> Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.
 
 **Improved Version**:  
-> We train deep learning models on a large, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
+> Participants were provided with a standard shopping basket representative of the average 2-person German household and directed to navigate through the online supermarket.
 
 **Explanation**:  
-Clarify the description for better understanding.
+This revision improves the organization and flow of the methodological description.
 
 ### Suggestion 5
 
-**Location**: Introduction  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> We evaluate the performance on the Visual-body-to-BMI, Celebi-FBI, and VIP-Attribute dataset, and compare our results with existing state-of-the-art methods.
-
-**Improved Version**:  
-> We assess performance on the Visual-Body-To-BMI, Celeb-FBI, and VIP-Attribute datasets, comparing our results with state-of-the-art methods.
-
-**Explanation**:  
-Streamline the sentence for improved readability.
-
-### Suggestion 6
-
-**Location**: Methodology  
+**Location**: Results  
 **Category**: consistency  
 **Focus**: alignment  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset, but we keep all layers trainable during training.
+> In summary, both T(Targeted) and T(Info) did not lead to a notable decrease in overall basket GHG emissions.
 
 **Explanation**:  
-Ensure consistency in terminology and style.
-
-### Suggestion 7
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
-
-**Improved Version**:  
-> We offer the code for training, deployment, and the mobile applications as open-source contributions.
-
-**Explanation**:  
-Enhance clarity and coherence in the statement.
-
-### Suggestion 8
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
-
-**Improved Version**:  
-> Additionally, we assess our model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
-
-**Explanation**:  
-Improve clarity and coherence in the presentation of results.
-
-### Suggestion 9
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
-
-**Improved Version**:  
-> We showcase the practical application of our BMI estimation approach by implementing our algorithms for image filtering and BMI estimation in Python on mobile devices through the CLAID framework.
-
-**Explanation**:  
-Enhance the description for better understanding.
-
-### Suggestion 10
-
-**Location**: Related Work  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> The primary distinction has been made between full-body images and facial images.
-
-**Improved Version**:  
-> The main differentiation lies between full-body images and facial images.
-
-**Explanation**:  
-Simplify the sentence structure for clarity.
-
-### Suggestion 11
-
-**Location**: Related Work  
-**Category**: clarity  
-**Focus**: presentation  
-
-**Original Text**:  
-> Various perspectives of images suitable for BMI estimation have been explored in prior work.
-
-**Improved Version**:  
-> Previous studies have explored different perspectives of images suitable for BMI estimation.
-
-**Explanation**:  
-Enhance readability and coherence in the statement.
+This revised version enhances the consistency in reporting the study outcomes.
 
 ### Detailed Feedback
 ### Relevance Analysis
 
-The supplementary materials provide a detailed analysis of BMI estimation from smartphone camera images, offering insights into the methodology, results, and implications of the study. The relevance to the main text is evident through the extension and elaboration of key concepts.
+The supplementary materials provide valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations on consumer behavior. The study's focus on small changes for environmental benefits aligns well with the main text's emphasis on shifting towards plant-based diets.
 
 ### Clarity Analysis
 
-The presentation of information is generally clear, with detailed descriptions of the methodology, results, and discussion. However, some sections could benefit from improved clarity through simplification of complex sentences and technical terms.
+The presentation of the study design, results, and implications is generally clear, but certain sections, such as the methodological details, could benefit from simplification to enhance accessibility for a broader audience.
 
 ### Consistency Analysis
 
-The supplementary materials maintain consistency with the main text in terms of terminology, methodology, and results. The alignment of key findings and comparisons with existing literature is well-maintained throughout the document.
+The supplementary materials maintain consistency with the main text by addressing the importance of dietary shifts for environmental sustainability. However, some inconsistencies in reporting statistical significance and effect sizes could be improved for coherence.
 
 ### Completeness Analysis
 
-The supplementary materials provide a comprehensive overview of the research, covering aspects such as dataset characteristics, methodological details, results, and implications. The information is detailed and thorough, offering a deep dive into the study.
+The information provided in the supplementary materials is comprehensive, covering the study's objectives, methodology, results, and implications. However, enhancing the detail in the methodological and results sections would further strengthen the completeness of the content.
+
+### Organization Analysis
+
+The organization of the supplementary materials follows a logical structure, moving from the introduction to the methodology, results, and conclusions. Improving the flow within complex sections like methodological details would enhance the overall organization.
 
 ### Rigor Agents (R1-R7)
 
@@ -2045,32 +1376,48 @@ The supplementary materials provide a comprehensive overview of the research, co
 ### Score: 8/10
 
 ### Summary
-Overall, the study introduces a novel approach to BMI estimation from smartphone images using deep learning on a large real-world dataset, making a substantial contribution to the field of digital health interventions. While the research demonstrates advancements in remote health monitoring and rapid weight assessment, further detailed analysis, verification, and comparison with existing literature are needed to strengthen the novelty claims and contributions of the study.
+The study introduces a novel approach of utilizing pre-checkout product swap recommendations to reduce GHG emissions, demonstrating the effectiveness of targeted swaps in influencing consumer behavior. However, improvements are needed in clearly articulating the novelty and contributions of the research, providing a more comprehensive literature review, and discussing the broader implications for advancing knowledge in the field.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: novelty  
 **Location**: Abstract  
-**Issue**: The novelty of using deep learning for BMI estimation from smartphone images is not clearly emphasized.  
+**Issue**: The abstract lacks a clear statement highlighting the novel research approach employed in the study.  
 **Severity**: medium  
-**Impact**: This affects the clarity of the research focus and may lead to misinterpretation of the study's uniqueness.
+**Impact**: This affects the initial understanding of the unique aspect of the research.
 
 ### Remark 2
 
 **Category**: contribution  
 **Location**: Introduction  
-**Issue**: The unique contribution of training on a significantly larger real-world dataset is not explicitly highlighted.  
+**Issue**: The introduction does not explicitly state the unique contributions the study aims to make to the field.  
 **Severity**: medium  
-**Impact**: This diminishes the recognition of the study's substantial contribution to the field.
+**Impact**: This weakens the foundation for the significance of the research.
 
 ### Remark 3
 
 **Category**: verification  
-**Location**: Results  
-**Issue**: The verification of novelty claims regarding generalizability on external datasets is lacking detailed analysis.  
+**Location**: Methodology  
+**Issue**: The methodology lacks a detailed explanation of the innovative aspects of the experimental design.  
+**Severity**: high  
+**Impact**: This raises questions about the validity of the novelty claims.
+
+### Remark 4
+
+**Category**: comparison  
+**Location**: Literature Review  
+**Issue**: The comparison with existing literature is limited to a few references without a comprehensive analysis.  
 **Severity**: medium  
-**Impact**: This weakens the credibility of the study's novelty claims and limits the validation of the proposed approach.
+**Impact**: This undermines the contextualization of the research within the existing body of knowledge.
+
+### Remark 5
+
+**Category**: advancement  
+**Location**: Discussion  
+**Issue**: The discussion lacks a thorough assessment of the implications of the findings for advancing knowledge in the field.  
+**Severity**: medium  
+**Impact**: This hinders the demonstration of the research's contribution to the field.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2080,95 +1427,125 @@ Overall, the study introduces a novel approach to BMI estimation from smartphone
 **Focus**: novelty  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Utilizing deep learning for Body Mass Index (BMI) estimation from smartphone images enables efficient weight assessment...
+> Transitioning from animal-based to plant-based diets is widely acknowledged as a crucial step in mitigating the environmental footprint of the global food industry.
 
 **Explanation**:  
-Restructuring the sentence to clearly highlight the novelty of using deep learning for BMI estimation.
+Enhances the clarity and impact of the statement.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: introduction  
-**Focus**: contribution  
+**Focus**: novelty  
 
 **Original Text**:  
-> A high Body Mass Index (BMI) is associated with various chronic diseases...
+> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
 
 **Improved Version**:  
-> The study uniquely contributes by training on a significantly larger real-world dataset...
+> Given the potential impact of small, targeted changes, this study employs a randomized controlled trial (RCT) within a simulated online supermarket to analyze consumer reactions to GHG-reducing product swap suggestions.
 
 **Explanation**:  
-Explicitly stating the unique contribution of training on a large real-world dataset.
+Provides a more detailed and engaging description of the research approach.
 
 ### Suggestion 3
 
-**Location**: Results  
-**Category**: results  
-**Focus**: verification  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: novelty  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data...
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented.
 
 **Improved Version**:  
-> The study should provide a more detailed analysis of the generalizability to unseen datasets...
+> The participants were allocated randomly into four experimental groups: a targeted treatment group (T(Targeted)) emphasizing the most efficient GHG-reducing product swap, an information treatment group (T(Info)) displaying the GHG reduction percentage for each swap.
 
 **Explanation**:  
-Enhancing the verification of novelty claims by providing specific results and comparisons.
+Clarifies the experimental design for better understanding.
+
+### Suggestion 4
+
+**Location**: Results  
+**Category**: results  
+**Focus**: contribution  
+
+**Original Text**:  
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+
+**Improved Version**:  
+> The study findings reveal a significant impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average 25% reduction in basket GHG emissions (SD = 18%).
+
+**Explanation**:  
+Enhances the clarity and impact of the results presentation.
+
+### Suggestion 5
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: advancement  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+
+**Improved Version**:  
+> Our study provides valuable insights for policymakers aiming to promote plant-based dietary choices by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
+
+**Explanation**:  
+Emphasizes the practical implications of the research contribution.
 
 ### Detailed Feedback
 ### Novelty Assessment
 
-The study introduces a novel approach of BMI estimation from smartphone images using deep learning on a large real-world dataset, which significantly exceeds the dataset sizes of previous studies. This approach demonstrates a unique application of computer vision for rapid weight assessment.
+The research introduces a novel approach of utilizing pre-checkout product swap recommendations to reduce GHG emissions in a supermarket setting, which is a unique contribution to the field of sustainable consumption.
 
 ### Contribution Analysis
 
-The study makes a substantial contribution by training on a significantly larger real-world dataset comprising over 84,000 images, enabling more accurate BMI estimation. The comparison of different image perspectives and the evaluation on external datasets further enhance the contributions to the field.
+The study contributes by demonstrating the effectiveness of targeted product swaps in reducing GHG emissions and highlights the importance of providing GHG reduction information to influence consumer choices.
 
 ### Verification Status
 
-The verification of novelty claims is partially supported by the results on the real-world dataset, but further detailed analysis and comparison with existing literature are needed to fully validate the novelty claims. The study's generalizability to external datasets requires more in-depth verification.
+The methodology adequately describes the experimental setup but lacks in-depth justification for the novelty of the approach, requiring further elaboration on the innovative aspects of the study design.
 
 ### Comparative Analysis
 
-The study provides a comprehensive comparison with existing literature by evaluating BMI estimation performance across different image perspectives and datasets. However, a more detailed analysis of the performance compared to state-of-the-art approaches and a systematic comparison of different image perspectives are needed.
+The literature review provides relevant references but could benefit from a more extensive comparison with existing studies on consumer behavior and sustainability interventions in the food sector.
 
 ### Advancement Evaluation
 
-The study significantly advances knowledge in the field of digital health interventions by demonstrating the feasibility of BMI estimation from smartphone images using deep learning. The real-world applicability and generalizability of the proposed approach showcase advancements in remote health monitoring and rapid weight assessment.
+While the research advances knowledge by showcasing the impact of product swap recommendations on consumer behavior, the discussion could further elaborate on the broader implications for policy-making and future research directions.
 
 ## R2 - Impact and Significance
 ### Score: 9/10
 
 ### Summary
-Overall, the research demonstrates a high level of impact and significance in the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. While the study provides valuable insights, there are areas for improvement in explicitly discussing the field influence, broader implications, and future research directions to enhance the overall significance of the research.
+Overall, the study on pre-checkout GHG-reducing product swap recommendations provides valuable insights into behavior change strategies for environmental sustainability. While the research demonstrates the effectiveness of targeted interventions, there are areas for improvement in framing the significance within the field, exploring broader implications, guiding future research directions, and enhancing policy recommendations.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: field_influence  
 **Location**: Introduction  
-**Issue**: Lack of explicit mention of the potential influence on the field of digital health interventions and telehealth services.  
+**Issue**: The introduction could provide more context on the existing research in the field of behavior change and environmental impact.  
 **Severity**: medium  
-**Impact**: This omission may downplay the significance of the research in the broader context of digital health interventions.
+**Impact**: This impacts the ability to clearly position the study within the broader field.
 
 ### Remark 2
 
 **Category**: implications  
 **Location**: Discussion  
-**Issue**: Limited discussion on the broader implications of the findings beyond weight estimation accuracy.  
+**Issue**: The discussion could delve deeper into the potential societal and environmental implications of the findings.  
 **Severity**: medium  
-**Impact**: This restricts the understanding of how the research could impact healthcare practices and patient outcomes.
+**Impact**: This limits the exploration of the broader implications beyond the immediate research scope.
 
 ### Remark 3
 
 **Category**: future_research  
 **Location**: Conclusion  
-**Issue**: Lack of detailed suggestions for future research directions based on the study findings.  
-**Severity**: medium  
-**Impact**: This hinders the potential for building on the current research and advancing the field further.
+**Issue**: The conclusion lacks specific suggestions for future research directions.  
+**Severity**: low  
+**Impact**: This hinders the guidance for researchers seeking to build on this study.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2178,1261 +1555,1206 @@ Overall, the research demonstrates a high level of impact and significance in th
 **Focus**: field_influence  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Existing computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
+> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the global food system.
 
 **Explanation**:  
-Clarifies the comparison of dataset sizes and improves readability.
+Enhances clarity and strengthens the statement's impact.
 
 ### Suggestion 2
+
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: field_influence  
+
+**Original Text**:  
+> A promising, alternative strategy to large scale dietary is targeting the small, simple changes that lead to meaningful reductions in environmental impacts.
+
+**Improved Version**:  
+> An alternative and promising strategy to large-scale dietary changes involves targeting small, simple modifications that result in significant reductions in environmental impacts.
+
+**Explanation**:  
+Enhances the coherence and impact of the statement.
+
+### Suggestion 3
+
+**Location**: Literature Review  
+**Category**: literature  
+**Focus**: field_influence  
+
+**Original Text**:  
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
+
+**Improved Version**:  
+> Studies conducted on US populations indicate that making small, targeted dietary substitutions could lead to a reduction in the carbon footprint by 33% - 35%.
+
+**Explanation**:  
+Provides a clearer attribution to the source of the findings.
+
+### Suggestion 4
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: implications  
+
+**Original Text**:  
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented.
+
+**Improved Version**:  
+> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T(Targeted)), which highlighted the most effective GHG-reducing product swap, and an information treatment group (T(Info)), where the percentage GHG reduction from each swap was displayed.
+
+**Explanation**:  
+Clarifies the experimental design and improves readability.
+
+### Suggestion 5
 
 **Location**: Results  
 **Category**: results  
 **Focus**: implications  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
 
 **Improved Version**:  
-> Furthermore, we assess the model's generalizability on two external benchmark datasets: Celeb-FBI with full-body images and VIP-Attribute with face-only images, achieving MAPE scores of 23.64% and 25.21% respectively.
+> Overall, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant reduction in basket GHG emissions.
 
 **Explanation**:  
-Enhances clarity and specificity in describing the evaluation on external datasets.
+Enhances clarity by specifying the treatments being referred to.
 
-### Suggestion 3
+### Suggestion 6
 
 **Location**: Discussion  
 **Category**: discussion  
+**Focus**: policy  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+
+**Improved Version**:  
+> Our research provides valuable insights for policymakers aiming to promote plant-based consumption by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
+
+**Explanation**:  
+Strengthens the link between research findings and policy implications.
+
+### Suggestion 7
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: field_influence  
+
+**Original Text**:  
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+
+**Improved Version**:  
+> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, who represent a crucial consumer group in this context.
+
+**Explanation**:  
+Enhances the emphasis on the significance of targeting frequent meat eaters.
+
+### Suggestion 8
+
+**Location**: Conclusion  
+**Category**: conclusion  
 **Focus**: future_research  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.
+> Subsequent studies should prioritize the implementation and evaluation of pre-checkout, basket-level swap recommendations in real-world settings.
 
 **Explanation**:  
-Provides a clearer explanation of the model's generalizability and its performance on external datasets.
+Provides a more actionable and specific direction for future research.
 
 ### Detailed Feedback
 ### Field Influence
 
-The study significantly advances the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. This innovation has the potential to revolutionize telehealth services and emergency medical scenarios.
+The study makes a significant contribution to the field by demonstrating the effectiveness of pre-checkout product swap recommendations in reducing GHG emissions. By focusing on small, targeted changes, the research offers a practical approach to addressing environmental impacts.
 
 ### Broader Implications
 
-The findings have broader implications for remote health monitoring, personalized healthcare interventions, and preventive health strategies. The accurate and real-time BMI estimation from images can enhance patient engagement and adherence to treatment plans.
+The findings have broader implications for consumer behavior, environmental sustainability, and public health. They highlight the potential for influencing dietary choices through strategic interventions, which can lead to significant reductions in GHG emissions.
 
 ### Future Research Impact
 
-The research opens avenues for exploring the integration of AI-driven BMI estimation into wearable devices for continuous health monitoring. Future studies could investigate the impact of BMI estimation accuracy on long-term health outcomes and behavior change.
+The study paves the way for future research to explore the scalability and long-term effects of pre-checkout product swap recommendations. Investigating the sustainability of behavior change and the effectiveness of such interventions in diverse settings could further advance the field.
 
 ### Practical Applications
 
-The practical applications of the research extend to telemedicine consultations, fitness tracking apps, and personalized wellness programs. The deployment of algorithms on mobile devices using the CLAID framework showcases the feasibility of real-time BMI estimation in diverse healthcare settings.
+The research has practical applications in guiding consumer choices towards more sustainable options. Implementing pre-checkout product swap recommendations in online and offline retail environments could promote the adoption of environmentally friendly dietary habits.
 
 ### Policy Implications
 
-The study highlights the importance of data privacy and ethical considerations in utilizing AI for healthcare applications. Policymakers could leverage the research findings to develop guidelines for the responsible use of AI in patient care and data security.
+The study offers valuable insights for policymakers seeking to promote sustainable food consumption. By demonstrating the impact of targeted product swap recommendations, policymakers can design interventions to encourage the adoption of plant-based diets at the population level.
 
 ## R3 - Ethics and Compliance
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The study demonstrates integrity in research practices and adherence to ethical guidelines in reporting results and methodologies. However, there are critical issues related to data privacy and informed consent procedures that need to be addressed to ensure full compliance with ethical standards.
+The study demonstrates a moderate level of ethical compliance but lacks transparency in conflicts of interest, data privacy measures, informed consent procedures, and research integrity. To enhance ethical standards, the researchers should provide detailed information on these aspects, including conflicts of interest disclosure, explicit consent procedures, and thorough discussion of biases and limitations. Adherence to ethical guidelines and transparency in reporting are crucial for maintaining research integrity and credibility.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: privacy  
-**Location**: Data Collection section  
-**Issue**: Lack of explicit mention of data anonymization and storage security measures for the proprietary dataset of user images.  
-**Severity**: high  
-**Impact**: This omission raises concerns about data privacy and security compliance.
+**Location**: Methodology  
+**Issue**: The text does not provide detailed information on data privacy measures implemented during the study.  
+**Severity**: medium  
+**Impact**: This lack of transparency raises concerns about the protection of participants' personal data.
 
 ### Remark 2
 
 **Category**: consent  
-**Location**: Abstract and Methodology sections  
-**Issue**: Insufficient detail on the informed consent process for collecting and using user images for research purposes.  
+**Location**: Methodology  
+**Issue**: The text mentions participants were presented with a shopping basket without explicit consent procedures described.  
 **Severity**: medium  
-**Impact**: This lack of transparency may lead to ethical concerns regarding participant consent.
+**Impact**: Lack of clarity on the informed consent process may indicate potential ethical oversight.
+
+### Remark 3
+
+**Category**: integrity  
+**Location**: Results  
+**Issue**: The text reports non-significant results without discussing potential biases or limitations that could have influenced the outcomes.  
+**Severity**: medium  
+**Impact**: Failure to address biases undermines the credibility and integrity of the research findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Data Collection section  
-**Category**: data_collection  
-**Focus**: privacy  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: integrity  
 
 **Original Text**:  
-> Images were collected from users of a fitness app over the course of 10+ years.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> Images were collected from users of a fitness app over the course of 10+ years, ensuring data anonymization and secure storage measures were in place.
+> The study was preregistered to ensure transparency and reduce bias. Incentives were provided to enhance participant engagement.
 
 **Explanation**:  
-This addition highlights the importance of data privacy and security measures.
+Adding transparency and bias reduction through preregistration and clarifying the purpose of incentives.
 
 ### Suggestion 2
 
-**Location**: Conclusion section  
-**Category**: conclusion  
-**Focus**: privacy  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: integrity  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Participants were randomized to one of the four experimental groups.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications, ensuring that all data used in the study is anonymized and securely stored.
+> Participants were randomly assigned to one of the four experimental groups to ensure unbiased allocation.
 
 **Explanation**:  
-This ensures that the open-source contributions maintain data privacy and security.
+Highlighting the random assignment process to emphasize fairness and reduce selection bias.
 
 ### Suggestion 3
 
-**Location**: Methodology section  
-**Category**: methodology  
-**Focus**: consent  
+**Location**: Results  
+**Category**: results  
+**Focus**: integrity  
 
 **Original Text**:  
-> Subjects were instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
+> Our results show that the effect of offering product swap recommendations was strong.
 
 **Improved Version**:  
-> Subjects were explicitly informed about the research purpose, provided informed consent, and instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
+> Our results demonstrate a significant impact of offering product swap recommendations on consumer behavior.
 
 **Explanation**:  
-This clarifies the informed consent process and participant understanding.
+Clarifying the strength of the impact to accurately represent the findings.
+
+### Suggestion 4
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: guidelines  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research.
+
+**Improved Version**:  
+> Policymakers aiming to promote plant-based diets can leverage our research findings to inform sustainable food policies.
+
+**Explanation**:  
+Emphasizing the policy implications of the research for ethical decision-making.
 
 ### Detailed Feedback
 ### Conflicts Assessment
 
-The text does not explicitly mention any conflicts of interest, which is a positive aspect indicating potential impartiality in the research.
+The text does not explicitly mention any conflicts of interest or disclose any potential biases that could have influenced the research outcomes. Authors should provide a statement regarding any conflicts of interest to ensure transparency and credibility.
 
 ### Privacy Compliance
 
-While data privacy measures are implied, explicit details on data anonymization and storage security are lacking, raising concerns about compliance.
+While the study mentions a hypothetical online supermarket environment, it lacks detailed information on data privacy measures such as data encryption, storage, and handling procedures. To comply with data protection regulations, researchers should clearly outline privacy protocols in the methodology section.
 
 ### Consent Procedures
 
-The study lacks detailed information on the informed consent process, potentially leading to ethical concerns regarding participant consent.
+The text briefly mentions participants' exposure to the treatment page without explicitly detailing the informed consent process. Researchers should clearly describe how participants were informed about the study, their rights, and how their data would be used to ensure ethical compliance.
 
 ### Research Integrity
 
-The study demonstrates integrity in reporting results and methodologies, with clear descriptions of the dataset and model architecture.
+The results section reports non-significant findings without discussing potential biases or limitations that could have influenced the outcomes. To uphold research integrity, authors should address possible biases, limitations, and their implications on the study results.
 
 ### Guidelines Adherence
 
-The study adheres to ethical guidelines in terms of reporting results and methodologies, but improvements are needed in explicitly addressing privacy and consent procedures.
+The study lacks a clear statement on adherence to ethical guidelines such as obtaining informed consent, protecting participant privacy, and ensuring data integrity. Authors should explicitly state their adherence to ethical standards and provide detailed information on ethical considerations throughout the research process.
 
 ## R4 - Data and Code Availability
-### Score: 7/10
+### Score: 4/10
 
 ### Summary
-The study demonstrates good data and code availability practices, with room for improvement in data sharing transparency, code documentation, and model reproducibility. Providing detailed model information, enhancing code accessibility, and justifying access restrictions would enhance research transparency and reproducibility.
+The text lacks explicit data sharing practices and code availability information, hindering research transparency and reproducibility. Improvements are needed in providing clear data availability statements, linking to dataset documentation, sharing code implementation details, justifying access restrictions, and summarizing data and code availability in the conclusion.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: data_sharing  
-**Location**: Abstract  
-**Issue**: The proprietary dataset used is not publicly available, limiting data sharing practices.  
-**Severity**: medium  
-**Impact**: Reduces transparency and hinders reproducibility for other researchers.
+**Location**: Introduction  
+**Issue**: The text does not provide information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers.  
+**Severity**: high  
+**Impact**: This lack of data sharing information hinders research transparency and reproducibility.
 
 ### Remark 2
 
 **Category**: code_availability  
-**Location**: Conclusion  
-**Issue**: Model weights trained on the proprietary dataset are not shared due to data privacy concerns.  
+**Location**: Methodology  
+**Issue**: There is no mention of a code repository where the implementation code for the study can be accessed, making it difficult for other researchers to replicate the experiments.  
 **Severity**: high  
-**Impact**: Limits reproducibility and prevents validation of results on the same dataset.
+**Impact**: The absence of code availability limits the reproducibility and credibility of the research findings.
 
 ### Remark 3
 
 **Category**: documentation  
-**Location**: Methodology  
-**Issue**: Lack of detailed explanation on the implementation and training of the deep learning model.  
+**Location**: Code Documentation  
+**Issue**: The text lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code.  
 **Severity**: medium  
-**Impact**: Reduces clarity and reproducibility of the methodology.
+**Impact**: Incomplete code documentation reduces the usability and reproducibility of the research.
 
 ### Remark 4
 
 **Category**: restrictions  
-**Location**: Abstract  
-**Issue**: Access restrictions are mentioned without clear justification.  
-**Severity**: low  
-**Impact**: Raises questions about the transparency of the research process.
+**Location**: Discussion  
+**Issue**: There is no justification provided for any access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place.  
+**Severity**: medium  
+**Impact**: Lack of access restrictions justification raises concerns about transparency and reproducibility.
 
 ### Remark 5
 
 **Category**: reproducibility  
-**Location**: Discussion  
-**Issue**: Limited discussion on the reproducibility of the results on external datasets.  
-**Severity**: medium  
-**Impact**: Lacks thorough examination of the generalizability of the model.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Abstract  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> The dataset used is proprietary and not publicly available.
-
-**Improved Version**:  
-> The dataset used in this study is proprietary and not publicly available. To enhance data sharing practices, consider providing a subset of the dataset with appropriate anonymization.
-
-**Explanation**:  
-By providing a subset of the dataset, researchers can still access and validate the findings while maintaining data privacy.
-
-### Suggestion 2
-
-**Location**: Abstract  
-**Category**: code_documentation  
-**Focus**: code_availability  
-
-**Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
-
-**Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions. Additionally, consider creating a dedicated repository on a platform like GitHub for easier access and collaboration.
-
-**Explanation**:  
-Centralizing code in a dedicated repository improves visibility, accessibility, and collaboration among researchers.
-
-### Suggestion 3
-
-**Location**: Abstract  
-**Category**: code_documentation  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
-
-**Improved Version**:  
-> We report the processing speed for filtering and inference on Android and iOS devices. To enhance reproducibility, provide detailed instructions on setting up the environment and running the code on different devices.
-
-**Explanation**:  
-Detailed instructions improve reproducibility by ensuring consistent implementation across different platforms.
-
-### Suggestion 4
-
-**Location**: Methodology  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> The height of each user was self-reported at the beginning of the fitness program. Consider validating self-reported data with objective measurements to improve data accuracy.
-
-**Explanation**:  
-Validation of self-reported data enhances data quality and reduces potential biases.
-
-### Suggestion 5
-
-**Location**: Methodology  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> The training dataset has a significant gender imbalance.
-
-**Improved Version**:  
-> The training dataset has a significant gender imbalance. To address this, consider oversampling or data augmentation techniques to balance the gender distribution.
-
-**Explanation**:  
-Balancing the gender distribution improves model performance and generalizability.
-
-### Suggestion 6
-
-**Location**: Methodology  
-**Category**: code_documentation  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
-
-**Improved Version**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model. Consider conducting a hyperparameter search to optimize model performance further.
-
-**Explanation**:  
-Hyperparameter tuning can enhance model performance and robustness.
-
-### Suggestion 7
-
-**Location**: Code Documentation  
-**Category**: code_documentation  
-**Focus**: code_availability  
-
-**Original Text**:  
-> The code used for this study is available at the provided GitHub repository.
-
-**Improved Version**:  
-> The code used for this study is available at the provided GitHub repository. Include detailed README files with setup instructions, dependencies, and usage guidelines for better code accessibility.
-
-**Explanation**:  
-Comprehensive README files improve code usability and facilitate reproducibility.
-
-### Suggestion 8
-
-**Location**: Code Documentation  
-**Category**: code_documentation  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets.
-
-**Improved Version**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets. Provide a tutorial or guide on adapting the training scripts to different datasets for wider adoption.
-
-**Explanation**:  
-A tutorial or guide enhances the usability of the training scripts for researchers working with diverse datasets.
-
-### Suggestion 9
-
 **Location**: Conclusion  
-**Category**: code_availability  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> The model weights trained on the proprietary dataset are not shared due to data privacy concerns.
-
-**Improved Version**:  
-> While model weights trained on the proprietary dataset are not shared due to data privacy concerns, consider providing a detailed model architecture description and training hyperparameters for transparency.
-
-**Explanation**:  
-Providing detailed model information enables researchers to understand the model's structure and training process.
-
-### Suggestion 10
-
-**Location**: Conclusion  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> No images taken from the proprietary dataset are shown in this paper.
-
-**Improved Version**:  
-> No images taken from the proprietary dataset are shown in this paper. Consider providing sample images with appropriate anonymization to demonstrate the dataset characteristics.
-
-**Explanation**:  
-Sample images with anonymization can help readers understand the dataset without compromising privacy.
-
-### Detailed Feedback
-### Data Sharing Assessment
-
-The study lacks transparency in data sharing practices due to the proprietary nature of the dataset. Providing a subset of the dataset with anonymization would enhance data sharing.
-
-### Code Availability
-
-While the code is available, the lack of model weights and detailed model architecture information limits code availability and reproducibility.
-
-### Documentation Completeness
-
-The methodology section lacks detailed explanations on model implementation and training, reducing clarity and reproducibility.
-
-### Restrictions Justification
-
-Access restrictions on the dataset are mentioned without clear justification, raising questions about transparency.
-
-### Reproducibility Support
-
-Limited discussion on the reproducibility of results on external datasets hinders the assessment of model generalizability.
-
-## R5 - Statistical Rigor
-### Score: 6/10
-
-### Summary
-Overall, the study demonstrates a moderate level of statistical rigor, with appropriate test selection and assumption verification. However, there are critical issues related to sample size justification and outlier treatment that need to be addressed. The study could benefit from more explicit reporting of statistical measures such as confidence intervals and handling of missing data. Improvements in these areas would enhance the validity and credibility of the statistical analysis conducted in the study.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: sample_size  
-**Location**: Abstract  
-**Issue**: The sample size justification is lacking in the abstract, making it unclear why the dataset size was chosen.  
+**Issue**: The conclusion lacks a summary of the availability of data and code, making it challenging for readers to understand the reproducibility of the research.  
 **Severity**: medium  
-**Impact**: This affects the credibility of the study as the rationale behind the dataset size is not transparent.
-
-### Remark 2
-
-**Category**: outliers  
-**Location**: Methodology  
-**Issue**: The text does not mention how outliers were handled in the dataset, which is crucial for ensuring data integrity.  
-**Severity**: high  
-**Impact**: This omission can lead to biased results and affect the validity of the statistical analysis.
+**Impact**: Incomplete information in the conclusion section diminishes the reproducibility support of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: test_selection  
+**Focus**: data_sharing  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> We achieved a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.
+> The study was preregistered and incentive-compatible, and the dataset used in the study is available on [repository link] for further analysis.
 
 **Explanation**:  
-Clarifies the description for better understanding.
+By providing a repository link to the dataset, other researchers can access and verify the data, enhancing transparency and reproducibility.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: effect_size  
+**Location**: Data Description  
+**Category**: data_description  
+**Focus**: data_sharing  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Participants were presented with a shopping basket typical of the average 2-person German household.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of the effect of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Participants were presented with a shopping basket typical of the average 2-person German household, and the dataset structure and access methods are detailed in [link to dataset documentation].
 
 **Explanation**:  
-Enhances clarity and precision in describing the analysis conducted.
+Including information on dataset structure and access methods improves data transparency and facilitates replication of the study.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
+**Location**: Results  
+**Category**: results  
+**Focus**: code_availability  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
 
 **Improved Version**:  
-> Additionally, we assess the generalizability of our model on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%). The code implementation details and usage instructions can be found in [code repository link].
 
 **Explanation**:  
-Improves the flow and coherence of the sentence.
+Linking to the code repository provides transparency on the code used for analysis, enabling reproducibility of the results.
 
 ### Suggestion 4
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: multiple_comparisons  
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: code_availability  
 
 **Original Text**:  
-> The optimal number of clusters was determined to be 4 using the elbow criterion.
+> Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket.
 
 **Improved Version**:  
-> We determined the optimal number of clusters to be 4 using the elbow criterion.
+> Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket. To address these limitations, the full documentation of the code implementation is available on [code repository link].
 
 **Explanation**:  
-Enhances clarity and conciseness in reporting the results.
+Providing access to the full code documentation helps address concerns about research limitations and enhances reproducibility.
 
-### Suggestion 5
+### Detailed Feedback
+### Data Sharing Assessment
+
+The text lacks explicit information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers. Providing a clear data availability statement and repository link would enhance transparency and reproducibility.
+
+### Code Availability
+
+There is no mention of a code repository where the implementation code for the study can be accessed, limiting the reproducibility and credibility of the research findings. Including a link to the code repository in the methodology section would improve code availability.
+
+### Documentation Completeness
+
+The code documentation lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code. Enhancing the code documentation with implementation details and usage instructions would improve usability and reproducibility.
+
+### Restrictions Justification
+
+The text does not provide any justification for access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place. Including a brief explanation for access restrictions in the discussion section would enhance transparency and reproducibility.
+
+### Reproducibility Support
+
+The conclusion lacks a summary of the availability of data and code, making it difficult for readers to assess the reproducibility of the research. Including a clear availability summary and access information in the conclusion section would improve reproducibility support.
+
+## R5 - Statistical Rigor
+### Score: 5/10
+
+### Summary
+The study demonstrates potential in exploring the impact of product swap recommendations on GHG reductions. However, several critical issues related to statistical rigor, such as inadequate test selection justification, assumption verification, and lack of effect size reporting, need to be addressed. Improvements in reporting effect sizes, confidence intervals, and addressing missing data and outliers can enhance the validity and interpretability of the results. Future research should focus on justifying sample sizes, correcting for multiple comparisons, and ensuring statistical power considerations for robust findings.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: test_selection  
+**Location**: Methodology  
+**Issue**: The text does not explicitly mention the rationale behind choosing specific statistical tests for the analysis.  
+**Severity**: medium  
+**Impact**: This lack of transparency can lead to doubts about the appropriateness of the chosen tests and the validity of the results.
+
+### Remark 2
+
+**Category**: assumptions  
+**Location**: Data Preparation  
+**Issue**: There is no mention of how assumptions of the statistical tests (e.g., normality, homoscedasticity) were verified.  
+**Severity**: high  
+**Impact**: Failure to verify assumptions can lead to inaccurate results and conclusions.
+
+### Remark 3
+
+**Category**: sample_size  
+**Location**: Methodology  
+**Issue**: The rationale for the chosen sample size of 1070 participants is not provided.  
+**Severity**: medium  
+**Impact**: Without justification, the sample size may not be adequate for detecting true effects or generalizing the results.
+
+### Remark 4
+
+**Category**: multiple_comparisons  
+**Location**: Analysis  
+**Issue**: The text does not mention any adjustments made for multiple comparisons despite conducting tests on multiple outcome variables.  
+**Severity**: medium  
+**Impact**: Failure to correct for multiple comparisons increases the likelihood of Type I errors and false positives.
+
+### Remark 5
+
+**Category**: effect_size  
+**Location**: Results  
+**Issue**: While statistical significance is reported, effect sizes are not provided for the observed differences.  
+**Severity**: medium  
+**Impact**: Effect sizes are crucial for understanding the practical significance of the results beyond statistical significance.
+
+### Remark 6
+
+**Category**: confidence_intervals  
+**Location**: Results  
+**Issue**: Confidence intervals are not reported for the estimated effects, making it difficult to assess the precision of the findings.  
+**Severity**: medium  
+**Impact**: Confidence intervals provide a range within which the true effect is likely to lie, enhancing result interpretation.
+
+### Remark 7
+
+**Category**: p_value  
+**Location**: Results  
+**Issue**: The interpretation of p-values lacks context and does not discuss the practical significance of the results.  
+**Severity**: medium  
+**Impact**: Misinterpretation of p-values can lead to erroneous conclusions about the importance of the findings.
+
+### Remark 8
+
+**Category**: statistical_power  
+**Location**: Methodology  
+**Issue**: There is no mention of statistical power calculations to determine the likelihood of detecting true effects.  
+**Severity**: medium  
+**Impact**: Without considering statistical power, the study may be underpowered to detect meaningful effects.
+
+### Remark 9
+
+**Category**: missing_data  
+**Location**: Data Preparation  
+**Issue**: The text does not address how missing data were handled in the analysis.  
+**Severity**: medium  
+**Impact**: Ignoring missing data can introduce bias and affect the validity of the results.
+
+### Remark 10
+
+**Category**: outliers  
+**Location**: Data Preparation  
+**Issue**: There is no mention of how outliers were identified and treated in the dataset.  
+**Severity**: medium  
+**Impact**: Outliers can unduly influence statistical results, and their handling is crucial for result accuracy.
+
+### Improvement Suggestions
+### Suggestion 1
 
 **Location**: Methodology  
 **Category**: methodology  
 **Focus**: test_selection  
 
 **Original Text**:  
-> We then train each model for 40 epochs with a batch size of 64, using the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> Subsequently, we trained each model for 40 epochs with a batch size of 64, utilizing the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
+> The study protocol was preregistered to enhance transparency and reduce bias. Incentives were provided to ensure participant engagement.
 
 **Explanation**:  
-Improves readability and consistency in reporting the methodology.
+Preregistration helps prevent post-hoc changes in analysis plans, reducing the risk of selective reporting. Incentives can improve participant compliance and data quality.
+
+### Suggestion 2
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: assumptions  
+
+**Original Text**:  
+> Participants were randomized to one of the four experimental groups.
+
+**Improved Version**:  
+> Participants were randomly assigned to one of the four experimental groups to ensure unbiased treatment allocation.
+
+**Explanation**:  
+Random assignment helps control for confounding variables and ensures that treatment effects are not influenced by participant characteristics.
+
+### Suggestion 3
+
+**Location**: Results  
+**Category**: results  
+**Focus**: effect_size  
+
+**Original Text**:  
+> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+
+**Improved Version**:  
+> Despite the treatments, the study found a substantial impact of product swap recommendations, with 88% of participants opting for swaps, resulting in a mean GHG reduction of 25% (SD = 18%) in the shopping basket.
+
+**Explanation**:  
+Clarity in reporting the results without conflating treatment effects with overall outcomes enhances result interpretation.
+
+### Suggestion 4
+
+**Location**: Results  
+**Category**: results  
+**Focus**: effect_size  
+
+**Original Text**:  
+> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
+
+**Improved Version**:  
+> Participants in the T(Targeted) group were 1.5 times more inclined to select the most effective GHG-reducing swap.
+
+**Explanation**:  
+Using relative measures like 'times more likely' provides a clearer understanding of the effect size.
+
+### Suggestion 5
+
+**Location**: Results  
+**Category**: results  
+**Focus**: p_value  
+
+**Original Text**:  
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+
+**Improved Version**:  
+> In general, neither the T(Targeted) nor T(Info) groups exhibited a statistically significant decrease in basket GHG emissions.
+
+**Explanation**:  
+Clarifying the lack of statistical significance helps in accurately interpreting the results.
 
 ### Suggestion 6
 
 **Location**: Methodology  
 **Category**: methodology  
-**Focus**: test_selection  
+**Focus**: missing_data  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
+> Participants could select as many of the available product swaps as they desired.
 
 **Improved Version**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers are left trainable during training.
+> Participants had the freedom to choose multiple product swaps based on their preferences.
 
 **Explanation**:  
-Clarifies the training process for better understanding.
+Providing clarity on participant autonomy in selecting swaps can aid in understanding participant behavior.
 
 ### Suggestion 7
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: effect_size  
 
 **Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
 
 **Improved Version**:  
-> We monitor Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, although these metrics are not utilized to guide training.
+> Our study emphasizes that suggesting product swaps with GHG reduction information is notably impactful for frequent meat eaters, a crucial consumer segment for dietary interventions.
 
 **Explanation**:  
-Provides clarity on the role of the monitored metrics during training.
+Emphasizing the importance of specific consumer groups aids in contextualizing the study's implications.
 
 ### Suggestion 8
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: sample_size  
 
 **Original Text**:  
-> No further hyperparameter tuning was performed.
+> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
 
 **Improved Version**:  
-> No additional hyperparameter tuning was conducted.
+> Subsequent studies should prioritize implementing and evaluating pre-checkout, basket-level swap recommendations in real-world settings.
 
 **Explanation**:  
-Enhances conciseness in reporting the methodology.
-
-### Suggestion 9
-
-**Location**: Results  
-**Category**: results  
-**Focus**: test_selection  
-
-**Original Text**:  
-> Table 3 displays the results of the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) for the different image perspectives on the WayBetter dataset.
-
-**Improved Version**:  
-> Table 3 presents the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) results for the various image perspectives on the WayBetter dataset.
-
-**Explanation**:  
-Improves the introduction of the results table.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: test_selection  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, as evidenced by our assessment on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.
-
-**Explanation**:  
-Enhances clarity and precision in describing the model's performance.
+Highlighting the need for real-world validation enhances the practical relevance of the research.
 
 ### Detailed Feedback
 ### Test Selection
 
-The study appropriately selected the DenseNet201 architecture for BMI estimation, which is a suitable choice for image-based tasks. The use of the Adam optimizer with specific hyperparameters was also justified.
+The text lacks explicit justification for the choice of statistical tests used in the analysis. Providing rationale for test selection based on research questions and data characteristics is essential for ensuring the appropriateness of the statistical methods.
 
 ### Assumption Verification
 
-The study verified assumptions related to image quality, posture, and dataset integrity through filtering processes and clustering techniques. However, the handling of outliers was not explicitly mentioned.
+Assumption verification, such as checking for normality and homoscedasticity, is crucial for ensuring the validity of statistical tests. Without verifying assumptions, the results may be unreliable.
 
 ### Sample Size Justification
 
-The study justified the dataset size based on the need for a significantly larger dataset than previous studies. However, more explicit justification in terms of statistical power calculations or effect size considerations could enhance the rationale.
+While the sample size of 1070 participants is mentioned, the rationale behind this specific number is missing. Justifying the sample size based on effect size, power analysis, or practical constraints is essential for result reliability.
 
 ### Multiple Comparison Handling
 
-The study appropriately used clustering techniques to handle multiple comparisons in posture analysis. However, a clear explanation of how multiple comparisons were adjusted in statistical testing would improve transparency.
+Given that multiple outcome variables were tested, failing to adjust for multiple comparisons can inflate Type I error rates. Correcting for multiple comparisons using appropriate methods like Bonferroni correction is crucial to maintain statistical rigor.
 
 ### Effect Size Reporting
 
-The study reported Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) as effect size metrics, providing quantitative measures of model performance.
+Reporting effect sizes alongside statistical significance is vital for understanding the magnitude of observed differences. Effect sizes provide practical significance and aid in result interpretation beyond mere statistical significance.
 
 ### Confidence Intervals
 
-The study did not report confidence intervals, which could enhance the interpretation of the model's performance and provide insights into the variability of estimates.
+Including confidence intervals for estimated effects offers a range within which the true effect is likely to lie. This additional information enhances result interpretation and provides insights into result precision.
 
 ### P Value Interpretation
 
-The study did not focus on p-value interpretation, as the evaluation was primarily based on model performance metrics rather than hypothesis testing.
+Interpreting p-values in context and discussing their practical significance is crucial for avoiding misinterpretation. Contextualizing p-values helps in understanding the importance of the findings beyond statistical significance.
 
 ### Statistical Power
 
-The study did not explicitly discuss statistical power calculations, which could provide insights into the reliability of the study findings and the likelihood of detecting true effects.
+Considering statistical power during study design helps determine the likelihood of detecting true effects. Conducting power analysis ensures that the study is adequately powered to detect meaningful effects with a sufficient sample size.
 
 ### Missing Data Handling
 
-The study did not address missing data handling explicitly, which is essential for ensuring data completeness and integrity in statistical analysis.
+Addressing how missing data were handled, whether through imputation or exclusion, is essential for result validity. Ignoring missing data can introduce bias and affect the generalizability of the findings.
 
 ### Outlier Treatment
 
-The study did not mention how outliers were handled, which is crucial for ensuring the robustness and validity of statistical analysis.
+Identifying and appropriately handling outliers in the dataset is crucial for result accuracy. Outliers can unduly influence statistical results and their treatment is necessary to ensure result validity.
 
 ## R6 - Technical Accuracy
-### Score: 8/10
+### Score: 7/10
 
 ### Summary
-The research demonstrates strong technical accuracy in mathematical derivations, algorithm descriptions, and implementation details. However, improvements are needed in terminology explanation, equation clarity, and complexity analysis. The content is comprehensive and logically consistent, with effective handling of edge cases and detailed technical documentation.
+The text provides a solid foundation for understanding the impact of pre-checkout GHG-reducing product swap recommendations. However, improvements in mathematical derivations, algorithm transparency, equation presentation, and technical documentation are necessary to enhance technical accuracy and reproducibility. Addressing these areas would strengthen the study's validity and contribute to the advancement of research in sustainable food systems.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: terminology  
-**Location**: Abstract  
-**Issue**: The term 'Mean Absolute Percentage Error (MAPE)' is used without prior explanation or definition, assuming readers are already familiar with it.  
+**Location**: Introduction  
+**Issue**: The term 'GHG' is used without prior explanation. While common in environmental science, it may not be universally understood.  
 **Severity**: medium  
-**Impact**: Readers unfamiliar with MAPE may struggle to understand the significance of the results.
+**Impact**: May confuse readers unfamiliar with the abbreviation.
 
 ### Remark 2
 
 **Category**: equations  
-**Location**: Methodology - Image filtering  
-**Issue**: The equations for posture clustering using PCA and K-means are not provided, making it difficult to understand the exact mathematical operations.  
+**Location**: Mathematical Framework  
+**Issue**: The equations for calculating GHG reductions from product swaps are not explicitly provided.  
 **Severity**: high  
-**Impact**: Lack of clarity in equations hinders reproducibility and understanding of the methodology.
+**Impact**: Lack of equation presentation hinders reproducibility and understanding of the methodology.
+
+### Remark 3
+
+**Category**: implementation  
+**Location**: Algorithm Description  
+**Issue**: Specific details about the randomization process and participant selection criteria are missing.  
+**Severity**: medium  
+**Impact**: Lack of transparency in implementation details may raise questions about study validity.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: completeness  
-
-**Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
-
-**Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, which represents real-world data only, using full-torso images.
-
-**Explanation**:  
-Clarifies that the hold-out test dataset consists of real-world data only.
-
-### Suggestion 2
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: completeness  
-
-**Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Improved Version**:  
-> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Explanation**:  
-Enhances the flow and clarity of the sentence.
-
-### Suggestion 3
-
-**Location**: Methodology - Computer Vision Model  
-**Category**: algorithm_description  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: terminology  
 
 **Original Text**:  
-> The network is a DenseNet Convolutional Neural Network (CNN).
+> GHG
 
 **Improved Version**:  
-> The network architecture consists of a DenseNet Convolutional Neural Network (CNN).
+> Greenhouse Gas (GHG)
 
 **Explanation**:  
-Provides more context and clarity about the network architecture.
+Expanding the abbreviation on first use helps clarify the technical term for all readers.
 
-### Suggestion 4
+### Suggestion 2
 
 **Location**: Methodology  
 **Category**: methodology  
 **Focus**: completeness  
 
 **Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> The dataset is partitioned into training, test, and validation sets with proportions of 75%, 15%, and 10% respectively.
+> The study was preregistered and designed to be incentive-compatible.
 
 **Explanation**:  
-Clarifies the process of dataset splitting.
+Adding 'designed to be' clarifies the intent behind the study design.
 
-### Suggestion 5
+### Suggestion 3
 
-**Location**: Methodology - Training details  
+**Location**: Algorithm Description  
 **Category**: algorithm_description  
-**Focus**: documentation  
+**Focus**: terminology  
 
 **Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
+> Participants were randomized to one of the four experimental groups...
 
 **Improved Version**:  
-> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, these metrics are not utilized to guide the training process.
+> Participants were randomly assigned to one of the four experimental groups...
 
 **Explanation**:  
-Clarifies the purpose of tracking metrics during training.
+Using 'randomly assigned' instead of 'randomized' enhances clarity in participant allocation.
 
 ### Detailed Feedback
 ### Derivation Correctness
 
-The mathematical derivations are clear and logically sound, especially in the image filtering process using posture clustering.
+The text lacks explicit mathematical derivations for calculating GHG reductions from product swaps. Providing these derivations would enhance the transparency and reproducibility of the study.
 
 ### Algorithm Accuracy
 
-The algorithm descriptions are detailed and provide a comprehensive overview of the deep learning model used for BMI estimation.
+The algorithm for randomizing participants into experimental groups is not fully described. Including details on the randomization process and participant selection criteria would improve the algorithm's transparency and reproducibility.
 
 ### Terminology Accuracy
 
-The technical terminology is mostly accurate, but some terms like 'MAPE' could be explained for better understanding.
+While technical terminology is generally accurate, some abbreviations like 'GHG' could be expanded on first use to ensure clarity for all readers.
 
 ### Equation Clarity
 
-Equations for posture clustering using PCA and K-means could be presented more explicitly to aid comprehension.
+Equations for calculating GHG reductions from product swaps are missing. Including these equations with clear explanations would improve the presentation of the mathematical framework.
 
 ### Content Completeness
 
-The content is comprehensive, covering dataset details, methodology, results, and discussion effectively.
+The text provides a comprehensive overview of the experimental setup and results. However, explicit derivations, detailed algorithm descriptions, and equation presentations would enhance the completeness of the technical content.
 
 ### Logical Consistency
 
-The logical flow of the research is consistent, with clear transitions between sections and subsections.
+The logical flow of the study is well-maintained, with clear connections between the introduction, methodology, results, and discussion sections.
 
 ### Implementation Details
 
-The implementation details, such as dataset partitioning and model training, are well-described and provide insight into the process.
+Specific implementation details regarding the randomization process and participant selection criteria are lacking. Providing these details would enhance the transparency and reproducibility of the study.
 
 ### Edge Case Handling
 
-The handling of edge cases, such as filtering unsuitable images, is addressed effectively with clear strategies.
+The text does not explicitly mention how edge cases, such as outlier participant behaviors, were handled during the analysis. Including a discussion on edge case handling would strengthen the study's robustness.
 
 ### Complexity Analysis
 
-The complexity analysis is missing, especially regarding the computational complexity of the deep learning model and image processing techniques.
+A detailed complexity analysis of the algorithm used for participant randomization and the computational complexity of GHG reduction calculations is missing. Including these analyses would provide insights into the efficiency of the study.
 
 ### Technical Documentation
 
-The technical documentation, including code availability and model deployment details, is thorough and enhances reproducibility.
+While the study methodology is outlined, there is a lack of detailed technical documentation on the experimental setup, data collection methods, and analysis procedures. Enhancing the technical documentation would facilitate reproducibility and further research.
 
 ## R7 - Consistency
-### Score: 5/10
+### Score: 6/10
 
 ### Summary
-The study demonstrates a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale real-world dataset. While the methods and results are generally aligned, there are critical issues in consistency and coherence across sections. Improvements in terminology consistency, hypothesis testing alignment, and interpretation depth are essential for enhancing the logical flow and overall coherence of the study. Addressing issues related to citation consistency, figure-text alignment, and supplementary material integration would further strengthen the research presentation and readability.
+The study demonstrates a strong alignment between methods and results, with clear hypothesis testing and consistent interpretation of data. However, improvements are needed in linking specific treatment effects to study objectives, addressing limitations more comprehensively, and enhancing visual support for reported results. Overall, enhancing logical coherence and consistency across sections would strengthen the study's impact and contribute to a more robust research framework.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: methods_results  
-**Location**: Abstract  
-**Issue**: The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset, but the actual results section reports MAPE values for different datasets and perspectives.  
+**Location**: Results section  
+**Issue**: The results mention that neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions, but then go on to highlight specific effects of T(Info) on outcome variables for daily meat-eating participants.  
 **Severity**: medium  
-**Impact**: This inconsistency affects the alignment between the methods described in the abstract and the detailed results presented.
+**Impact**: This inconsistency affects the clarity of the study findings and the overall interpretation of the results.
 
 ### Remark 2
 
-**Category**: results_conclusions  
-**Location**: Results section  
-**Issue**: The results section provides detailed MAPE values for different datasets and perspectives, but the conclusions do not directly reference these specific results.  
+**Category**: logical_flow  
+**Location**: Discussion section  
+**Issue**: The discussion does not thoroughly address the limitations mentioned in the conclusion, leaving a gap in the logical flow of addressing study constraints.  
 **Severity**: medium  
-**Impact**: This inconsistency weakens the link between the results obtained and the conclusions drawn from them.
+**Impact**: This gap weakens the overall coherence of the study and may lead to misinterpretation of the research implications.
 
 ### Remark 3
 
-**Category**: logical_flow  
-**Location**: Introduction  
-**Issue**: The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods, but it lacks a clear transition to the specific methodology used in the study.  
-**Severity**: medium  
-**Impact**: This lack of clear connection affects the logical flow between the introduction and the methodology section.
-
-### Remark 4
-
-**Category**: terminology  
-**Location**: Results section  
-**Issue**: The term 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.  
-**Severity**: medium  
-**Impact**: This inconsistency in terminology may confuse readers and hinder accurate interpretation of the results.
-
-### Remark 5
-
-**Category**: hypothesis  
-**Location**: Introduction  
-**Issue**: The introduction mentions previous studies achieving specific MAPE values, but it does not clearly state the hypothesis or research question of the current study.  
-**Severity**: medium  
-**Impact**: This lack of explicit hypothesis statement affects the alignment between the existing research context and the study's objectives.
-
-### Remark 6
-
-**Category**: interpretation  
-**Location**: Results section  
-**Issue**: The interpretation of results focuses on performance metrics but lacks deeper analysis of the implications of the findings for real-world applications.  
-**Severity**: medium  
-**Impact**: This limited interpretation hinders the discussion of practical implications and potential use cases of the study.
-
-### Remark 7
-
-**Category**: citations  
-**Location**: Literature Review  
-**Issue**: The literature review cites various studies without consistent formatting or citation style.  
-**Severity**: low  
-**Impact**: While not critical, inconsistent citation formatting may detract from the professionalism of the research.
-
-### Remark 8
-
 **Category**: figures  
 **Location**: Results section  
-**Issue**: The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.  
+**Issue**: The text mentions specific percentages and points related to GHG reductions and willingness-to-swap meat, but there are no corresponding figures to visually represent these data points.  
 **Severity**: medium  
-**Impact**: This lack of clear alignment between figures and text may confuse readers and reduce the effectiveness of visual aids.
-
-### Remark 9
-
-**Category**: tables  
-**Location**: Results section  
-**Issue**: The tables presented do not always correspond directly to the specific results discussed in the text.  
-**Severity**: medium  
-**Impact**: This inconsistency between tables and text may lead to confusion and hinder accurate data interpretation.
-
-### Remark 10
-
-**Category**: supplementary  
-**Location**: Supplementary section  
-**Issue**: The supplementary material lacks direct integration with the main text, making it challenging for readers to access additional details.  
-**Severity**: low  
-**Impact**: While not critical, better integration of supplementary material could enhance the overall coherence and completeness of the study.
+**Impact**: This lack of figure-text alignment reduces the clarity and visual support for the reported results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Results section  
+**Category**: results  
 **Focus**: results_conclusions  
 
 **Original Text**:  
-> The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset.
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions. However, T(Info) did have a strong effect on many outcome variables for daily meat-eating (DME) participants.
 
 **Improved Version**:  
-> The abstract should provide a concise summary of the key results, including the MAPE values achieved on different datasets and perspectives.
+> While neither T(Targeted) nor T(Info) led to a significant reduction in basket GHG emissions overall, T(Info) demonstrated a significant impact on various outcome variables for daily meat-eating (DME) participants.
 
 **Explanation**:  
-This improvement ensures that the abstract aligns with the detailed results presented in the study, enhancing coherence.
+This revision clarifies the overall impact of the treatments on GHG emissions and highlights the specific effects on a subgroup of participants.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Conclusion section  
+**Category**: conclusion  
 **Focus**: logical_flow  
 
 **Original Text**:  
-> The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods.
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
 
 **Improved Version**:  
-> The introduction should clearly outline how the study's methodology addresses the need for faster weight estimation methods, providing a seamless transition to the methodology section.
+> Our research underscores the potential for pre-checkout, basket-level product swap recommendations to effectively promote the purchase of plant-based foods, offering valuable insights for policymakers aiming to encourage dietary shifts towards more plant consumption.
 
 **Explanation**:  
-This improvement enhances the logical flow by establishing a direct link between the introduction and the methodology.
+This revision strengthens the connection between the study findings and the implications for policymakers, providing a clearer and more impactful conclusion.
 
 ### Suggestion 3
 
-**Location**: Results section  
-**Category**: results  
-**Focus**: results_conclusions  
-
-**Original Text**:  
-> The results section provides detailed MAPE values for different datasets and perspectives.
-
-**Improved Version**:  
-> Ensure that the conclusions directly reference the specific MAPE values obtained for each dataset and perspective, reinforcing the significance of the results.
-
-**Explanation**:  
-This enhancement strengthens the alignment between the results presented and the conclusions drawn from them.
-
-### Suggestion 4
-
-**Location**: Results section  
-**Category**: results  
+**Location**: Methodology section  
+**Category**: methodology  
 **Focus**: terminology  
 
 **Original Text**:  
-> The terminology 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> Consistently use 'Mean Absolute Error (MAE)' to refer to the error metric in BMI estimation, avoiding confusion with weight units.
+> The study was preregistered and designed to be incentive-compatible.
 
 **Explanation**:  
-This consistency in terminology improves clarity and ensures accurate interpretation of the results.
-
-### Suggestion 5
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: hypothesis  
-
-**Original Text**:  
-> The introduction mentions previous studies achieving specific MAPE values.
-
-**Improved Version**:  
-> Explicitly state the hypothesis or research question of the study, highlighting the specific objectives and expected outcomes.
-
-**Explanation**:  
-This clarification enhances the alignment between the existing research context and the study's goals.
-
-### Suggestion 6
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: interpretation  
-
-**Original Text**:  
-> The interpretation of results focuses on performance metrics.
-
-**Improved Version**:  
-> Provide deeper analysis of how the study findings can be applied in real-world scenarios, discussing practical implications and potential use cases.
-
-**Explanation**:  
-This enriched interpretation enhances the discussion of the study's relevance and applicability.
-
-### Suggestion 7
-
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: citations  
-
-**Original Text**:  
-> The literature review cites various studies without consistent formatting or citation style.
-
-**Improved Version**:  
-> Ensure consistent formatting and citation style for all references in the literature review section.
-
-**Explanation**:  
-This improvement enhances the professionalism and credibility of the research by maintaining a uniform citation format.
-
-### Suggestion 8
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: figures  
-
-**Original Text**:  
-> The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.
-
-**Improved Version**:  
-> Ensure that each figure is explicitly referenced and explained in the text, providing clear alignment between visual aids and textual content.
-
-**Explanation**:  
-This alignment enhances the effectiveness of visual aids in supporting the textual explanations.
-
-### Suggestion 9
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: tables  
-
-**Original Text**:  
-> The tables presented do not always correspond directly to the specific results discussed in the text.
-
-**Improved Version**:  
-> Ensure that each table is introduced and explained in the text, directly linking the table content to the relevant results or analyses.
-
-**Explanation**:  
-This direct correspondence enhances the clarity and accuracy of data interpretation for readers.
-
-### Suggestion 10
-
-**Location**: Supplementary section  
-**Category**: supplementary  
-**Focus**: supplementary  
-
-**Original Text**:  
-> The supplementary material lacks direct integration with the main text.
-
-**Improved Version**:  
-> Integrate references to supplementary material within the main text where relevant, providing readers with easy access to additional details.
-
-**Explanation**:  
-This integration enhances the completeness and coherence of the study by making supplementary information more accessible.
+Adding 'designed to be' clarifies the intentionality of ensuring incentive compatibility in the study design.
 
 ### Detailed Feedback
 ### Methods Results Alignment
 
-The methods and results are aligned in terms of presenting the approach used and the outcomes obtained. However, the detailed results could be more explicitly linked back to the specific methods employed.
+The Methods section provides a clear description of the experimental design and treatments, aligning well with the reported results in terms of participant responses and GHG reductions. However, the Results section could better link the treatment effects to the study objectives and hypotheses to enhance alignment.
 
 ### Results Conclusions Alignment
 
-The results are presented in detail, but the conclusions could better reflect the specific findings and their implications. Strengthening the direct link between results and conclusions is essential.
+While the Results section presents the effects of different treatments on participant behavior, the conclusions could better reflect the nuanced findings regarding the impact of treatments on specific participant groups. Strengthening this alignment would improve the coherence between results and conclusions.
 
 ### Logical Flow
 
-The logical flow between sections is generally coherent, but there could be clearer transitions between the introduction and methodology to improve the overall structure of the paper.
+The logical flow from the introduction of the study rationale to the presentation of results is generally well-structured. However, there is a gap in addressing the limitations in the discussion that were highlighted in the conclusion. Ensuring a more seamless transition between these sections would enhance the overall coherence of the study.
 
 ### Terminology Consistency
 
-While the terminology is mostly consistent, there are instances of confusion between MAE and weight units. Ensuring consistent use of terms throughout the paper is crucial for clarity.
+The terminology used throughout the study is consistent and appropriate for the research context. However, minor adjustments could be made to ensure clarity and precision in certain technical terms or concepts.
 
 ### Hypothesis Testing
 
-The study lacks a clear statement of the hypothesis or research question, which could enhance the focus and direction of the research. Explicitly stating the research objectives is essential for hypothesis testing alignment.
+The study effectively tests the hypothesis that pre-checkout product swap recommendations influence consumer behavior and GHG reductions. The alignment between the experimental design and hypothesis testing is clear, contributing to the robustness of the study.
 
 ### Interpretation Consistency
 
-The interpretation of results focuses on performance metrics but lacks deeper analysis of practical implications. Enhancing the discussion of real-world applications based on the findings would improve interpretation consistency.
+The interpretation of the results in relation to the study objectives is generally consistent, highlighting the impact of different treatments on participant responses. However, further clarity could be provided in connecting these interpretations to broader implications for dietary behavior and environmental impact.
 
 ### Citation Consistency
 
-While the literature review provides relevant citations, there are inconsistencies in formatting and citation style. Maintaining a uniform citation format throughout the paper is necessary for consistency and professionalism.
+The study maintains good citation consistency by referencing relevant literature to support the rationale, methodology, and interpretation of results. Ensuring proper citation format and accuracy enhances the credibility and academic rigor of the research.
 
 ### Figure Text Alignment
 
-The figures mentioned in the text do not always align directly with specific results or analyses discussed. Ensuring clear references and explanations for each figure in the text would enhance alignment and understanding.
+While the text provides detailed numerical results, the lack of corresponding figures to visually represent these data points reduces the clarity and impact of the reported findings. Aligning text with visual representations through figures would enhance the overall presentation of results.
 
 ### Table Text Alignment
 
-The tables presented may not always correspond directly to the specific results discussed in the text. Introducing and explaining each table in relation to the relevant results would improve alignment and data interpretation.
+Tables in the study are appropriately used to present specific data points and comparisons. Ensuring that the text references and explains the information presented in tables would strengthen the alignment between textual descriptions and tabular data.
 
 ### Supplementary Consistency
 
-The supplementary material is not seamlessly integrated with the main text, making it challenging for readers to access additional details. Integrating references to supplementary material within the main text would enhance coherence and completeness.
+The study mentions the need for future research to explore the implementation of pre-checkout product swap recommendations in field studies. Ensuring consistency between the main text and supplementary material in terms of research directions and implications would provide a comprehensive and cohesive research framework.
 
 ### Writing Agents (W1-W8)
 
 ## W1 - Language and Style
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The text demonstrates strong academic writing conventions with minor grammar and citation issues. Improvements in subject-verb agreement, punctuation, and reference formatting can enhance clarity and professionalism.
+Overall, the text demonstrates a good level of academic writing conventions with minor issues in grammar, punctuation, and spelling. Improvements in sentence structure, verb tense consistency, and preposition usage can enhance readability and clarity. Attention to detail in citation format and article usage can further elevate the quality of the manuscript.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: grammar  
 **Location**: Abstract  
-**Issue**: Misplaced hyphen in 'real-world' dataset.  
-**Severity**: low  
-**Impact**: Minor impact on readability.
+**Issue**: The abstract lacks conciseness and clarity due to lengthy sentences and complex phrasing.  
+**Severity**: medium  
+**Impact**: Affects the reader's ability to quickly grasp the main points of the study.
 
 ### Remark 2
 
-**Category**: subject_verb  
+**Category**: spelling  
 **Location**: Introduction  
-**Issue**: Subject-verb agreement error in 'Body weight and weight changes are essential indicators.'  
-**Severity**: medium  
-**Impact**: Affects the clarity of the sentence.
+**Issue**: Misspelling of 'incentive-compatible' as 'incentive-compatible'.  
+**Severity**: low  
+**Impact**: Minor error that may distract the reader.
 
 ### Remark 3
 
-**Category**: academic_conventions  
-**Location**: References  
-**Issue**: Missing DOI for some references.  
-**Severity**: medium  
-**Impact**: Lack of proper citation information.
+**Category**: punctuation  
+**Location**: Literature Review  
+**Issue**: Missing comma after 'food marketing' in the reference citation.  
+**Severity**: low  
+**Impact**: Minor error affecting citation accuracy.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: punctuation  
+**Focus**: sentence_structure  
 
 **Original Text**:  
-> real-world dataset
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> real world dataset
+> Shifting diets from animal products to more plant-based foods is widely accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Explanation**:  
-Hyphen is not needed in this context.
+Clarifies the comparison between animal and plant-based foods for better readability.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: introduction  
-**Focus**: subject_verb  
+**Focus**: spelling  
 
 **Original Text**:  
-> Body weight and weight changes are essential indicators.
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> Body weight and weight changes are essential indicators of health and disease risk.
+> The study was preregistered and incentive-compatible.
 
 **Explanation**:  
-Added clarity and completeness to the sentence.
+Corrects the hyphenation error in 'incentive-compatible'.
 
 ### Suggestion 3
 
-**Location**: References  
-**Category**: references  
-**Focus**: academic_conventions  
+**Location**: Literature Review  
+**Category**: literature  
+**Focus**: punctuation  
 
 **Original Text**:  
-> doi: 10.1186/s12916-021-02188-x.
+> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447–492.
 
 **Improved Version**:  
-> DOI: 10.1186/s12916-021-02188-x.
+> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet, 393 (2019), 447–492.
 
 **Explanation**:  
-Standardize the format for DOI references.
+Adds a necessary comma after 'The Lancet' to improve citation format.
 
 ### Detailed Feedback
 ### Grammar Correctness
 
-The text generally demonstrates good grammar, with occasional errors like misplaced hyphens.
+The text demonstrates a generally good level of grammar correctness. However, there are instances of complex sentence structures that could be simplified for better clarity and readability.
 
 ### Spelling Accuracy
 
-Spelling is accurate throughout the text.
+Spelling accuracy is mostly maintained throughout the text, with only a few minor errors present. Proofreading for typos and consistency in spelling is recommended.
 
 ### Punctuation Usage
 
-Punctuation is mostly correct, but there are instances of missing commas or incorrect usage.
+Punctuation is used adequately, but there are occasional missing commas in complex lists and citations. Consistent application of punctuation rules is advised for improved readability.
 
 ### Sentence Structure
 
-Sentences are well-structured, but some could benefit from varied lengths for better flow.
+The text contains a mix of sentence structures, ranging from concise to complex. Simplifying overly long sentences and ensuring coherence between ideas can enhance the overall readability.
 
 ### Verb Tense Consistency
 
-Verb tenses are consistent within sentences and paragraphs.
+Verb tenses are generally consistent, but there are instances where past and present tenses could be better aligned for clarity. Ensuring a uniform timeline in the text is essential.
 
 ### Subject Verb Agreement
 
-Subject-verb agreement is generally correct, but there are a few instances of errors.
+Subject-verb agreement is maintained well, with few errors detected. Attention to singular/plural subjects and corresponding verbs is crucial for academic writing.
 
 ### Article Usage
 
-Articles are used appropriately in most cases.
+Articles are used appropriately throughout the text. Consistency in article usage, especially when referring to specific concepts or objects, can enhance clarity.
 
 ### Preposition Usage
 
-Prepositions are generally used correctly, but there are a few instances of awkward phrasing.
+Prepositions are generally used correctly, but there are instances where prepositions could be omitted for more concise phrasing. Reviewing prepositions for accuracy and necessity is recommended.
 
 ### Conjunction Usage
 
-Conjunctions are used effectively to connect ideas and maintain coherence.
+Conjunctions are appropriately used to connect ideas and sentences. Ensuring coherence and logical flow through conjunctions can improve the overall structure of the text.
 
 ### Academic Conventions
 
-The text follows academic writing conventions well, but some references lack complete citation details.
+The text adheres to academic writing conventions by citing sources, providing a clear methodology description, and presenting results and discussions in a structured manner. Maintaining this academic rigor is essential for scholarly publications.
 
 ## W2 - Narrative and Structure
 ### Score: 7/10
 
 ### Summary
-Overall, the research demonstrates a well-structured narrative with logical progression and adequate paragraph organization. However, improvements are needed in evidence integration, conclusion alignment, and smoother section transitions to enhance narrative coherence and reader engagement.
+The text demonstrates a generally coherent narrative structure with logical progression of ideas. However, improvements are needed in hypothesis tracking, conclusion alignment, and evidence integration to enhance the overall clarity, coherence, and impact of the research story. Strengthening topic sentences, paragraph organization, and visual element integration could further engage readers and improve the overall effectiveness of the narrative.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: paragraph_organization  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear structure and concise summary of the study.  
+**Location**: Introduction  
+**Issue**: The introduction lacks a clear research question or hypothesis, making it challenging for readers to understand the study's purpose from the outset.  
 **Severity**: medium  
-**Impact**: Readers may struggle to grasp the main objectives and findings of the research.
+**Impact**: This affects the overall coherence and engagement of the readers.
 
 ### Remark 2
 
 **Category**: evidence_integration  
-**Location**: Introduction  
-**Issue**: The introduction mentions past studies but lacks integration of their findings into the current research context.  
+**Location**: Results  
+**Issue**: The presentation of results lacks detailed statistical analysis and interpretation, making it difficult for readers to grasp the significance of the findings.  
 **Severity**: high  
-**Impact**: The lack of evidence integration weakens the foundation of the study.
+**Impact**: This undermines the credibility and persuasiveness of the study.
 
 ### Remark 3
 
 **Category**: conclusion_alignment  
 **Location**: Conclusion  
-**Issue**: The conclusion briefly summarizes the results but fails to tie them back to the introduction.  
-**Severity**: medium  
-**Impact**: The disconnect between the conclusion and introduction may confuse readers.
+**Issue**: The conclusion does not directly address the research question or hypothesis posed in the introduction, leading to a disconnect between the study's purpose and its findings.  
+**Severity**: high  
+**Impact**: This weakens the overall coherence and impact of the research story.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: literature  
-**Focus**: logical_progression  
+**Location**: Abstract  
+**Category**: abstract  
+**Focus**: narrative_coherence  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily focused on datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Transitioning from animal products to plant-based foods is widely recognized as a crucial step in mitigating the environmental footprint of the global food industry.
 
 **Explanation**:  
-Clarifies the focus on current approaches and improves readability.
+This revision enhances clarity and conciseness while maintaining the original idea.
 
 ### Suggestion 2
 
-**Location**: Results  
-**Category**: discussion  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: logical_progression  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of how image perspective affects BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> To explore the efficacy of targeted, small changes, we implemented a randomized controlled trial (RCT) within a simulated online supermarket setting to assess consumer reactions to GHG-reducing product swap suggestions and the consequent reductions in GHG emissions.
 
 **Explanation**:  
-Enhances clarity and strengthens the connection between the analysis and the dataset.
+This revised sentence provides a clearer and more detailed description of the study's methodology and objectives.
+
+### Suggestion 3
+
+**Location**: Results  
+**Category**: results  
+**Focus**: logical_progression  
+
+**Original Text**:  
+> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+
+**Improved Version**:  
+> The study findings indicate a robust impact of providing product swap suggestions, with 88% of participants opting to swap at least one item, resulting in an average 25% reduction in GHG emissions within their shopping baskets (n = 1070, SD = 18%).
+
+**Explanation**:  
+This revision enhances the clarity and precision of the results presentation, providing specific details and statistical information.
+
+### Suggestion 4
+
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: conclusion_alignment  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+
+**Improved Version**:  
+> Our research underscores the utility of pre-checkout, basket-level product swap recommendations in facilitating policymakers' efforts to promote plant-based food consumption, offering an effective strategy for encouraging such dietary shifts.
+
+**Explanation**:  
+This revised statement strengthens the connection between the research findings and their potential real-world applications.
 
 ### Detailed Feedback
 ### Narrative Coherence
 
-The text demonstrates a coherent flow of ideas, with clear connections between sections and subsections.
+The text demonstrates a coherent flow of ideas, with each section building upon the previous one to form a cohesive narrative about the impact of pre-checkout GHG-reducing product swap recommendations.
 
 ### Logical Progression
 
-The logical progression of ideas is generally well-maintained, with a clear development of the research topic.
+The logical progression of ideas is generally sound, with a clear delineation of the research context, methodology, results, and implications. However, some sections could benefit from more explicit connections between the research question, methodology, and findings.
 
 ### Section Transitions
 
-Transitions between sections are adequate, but some sections could benefit from smoother transitions to enhance overall coherence.
+Transitions between sections are adequate, but enhancing the clarity and explicitness of these transitions could improve the overall structural organization and coherence of the narrative.
 
 ### Paragraph Organization
 
-Paragraphs are generally well-structured, but some paragraphs could be more focused on a single idea to improve clarity.
+Paragraphs are generally well-structured, with clear topic sentences and supporting details. However, some paragraphs could be more tightly focused on a single idea to enhance readability and coherence.
 
 ### Topic Sentence Effectiveness
 
-Topic sentences effectively introduce the main idea of paragraphs, aiding in reader comprehension.
+Topic sentences effectively introduce the main idea of each paragraph, providing a roadmap for the reader. Strengthening the specificity and relevance of these topic sentences could further enhance the organization and coherence of the text.
 
 ### Supporting Evidence Integration
 
-The integration of supporting evidence is lacking in some sections, impacting the depth of analysis and argumentation.
+The integration of supporting evidence is generally effective, with relevant citations and data provided to bolster the research claims. However, more detailed analysis and interpretation of the evidence could enhance the persuasiveness and clarity of the arguments.
 
 ### Conclusion Alignment
 
-The conclusion aligns with the main findings but could be strengthened by directly referencing the introduction and research questions.
+The conclusion does not directly address the research question or hypothesis posed in the introduction, leading to a disconnect between the study's purpose and its findings. Aligning the conclusion more closely with the research objectives would strengthen the overall coherence and impact of the narrative.
 
 ### Hypothesis Tracking
 
-The research question and hypothesis are clearly stated and tracked throughout the study, providing a strong foundation for the research.
+The text lacks explicit tracking of the research question or hypothesis throughout the narrative, making it challenging for readers to follow the progression of the study. Strengthening the connection between the research question, methodology, and results would enhance the overall coherence and impact of the text.
 
 ### Visual Element Integration
 
-Visual elements are used effectively to support the text, providing additional context and aiding in understanding.
+Visual elements such as figures and tables are not utilized in the text, limiting the presentation of complex data and findings. Integrating relevant visual aids could enhance the clarity and impact of the research narrative.
 
 ### Reader Engagement
 
-The text engages readers through a mix of technical details and practical implications, making the research accessible and relevant.
+The text engages readers through the presentation of relevant research findings and implications. However, enhancing the clarity, specificity, and relevance of the content could further captivate readers and strengthen the overall impact of the narrative.
 
 ## W3 - Clarity and Conciseness
-### Score: 7/10
+### Score: 5/10
 
 ### Summary
-The text exhibits a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing jargon, and enhancing readability. Addressing issues related to wordiness, redundancy, and ambiguity would significantly enhance the overall quality of the content.
+The text exhibits a mix of strengths and areas for improvement in terms of clarity and conciseness. While the content covers important research findings, there are opportunities to enhance accessibility through simplifying language, reducing jargon, and improving the structure of the text. Addressing issues such as wordiness, sentence length, and redundancy would significantly improve the overall readability and impact of the research.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: jargon  
+**Category**: language_simplicity  
 **Location**: Abstract  
-**Issue**: The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.  
+**Issue**: The abstract contains complex language that may be difficult for non-experts to understand.  
 **Severity**: medium  
-**Impact**: Reduces accessibility and clarity for readers unfamiliar with the terminology.
+**Impact**: Reduces accessibility and may deter readers.
 
 ### Remark 2
 
-**Category**: wordiness  
-**Location**: Introduction  
-**Issue**: The introduction contains verbose descriptions of chronic diseases associated with high BMI, which could be more concise.  
-**Severity**: low  
-**Impact**: Increases unnecessary text length and may lose reader interest.
+**Category**: jargon  
+**Location**: Literature Review  
+**Issue**: The literature review section contains jargon that is not explained, assuming prior knowledge.  
+**Severity**: high  
+**Impact**: Excludes readers who are not familiar with the terminology.
 
 ### Remark 3
 
-**Category**: redundancy  
-**Location**: Methodology  
-**Issue**: Repetitive use of 'images' and 'dataset' in close proximity within the same paragraph.  
+**Category**: wordiness  
+**Location**: Discussion  
+**Issue**: The discussion section is wordy and could be more concise to enhance clarity.  
+**Severity**: medium  
+**Impact**: May confuse readers and dilute the main arguments.
+
+### Remark 4
+
+**Category**: sentence_length  
+**Location**: Results  
+**Issue**: Some sentences in the results section are overly long, making it harder to follow the findings.  
+**Severity**: medium  
+**Impact**: Increases cognitive load for readers.
+
+### Remark 5
+
+**Category**: paragraph_length  
+**Location**: Introduction  
+**Issue**: The introduction contains lengthy paragraphs that could be broken down for better readability.  
 **Severity**: low  
-**Impact**: Creates redundancy and can be confusing for readers.
+**Impact**: Affects the flow and engagement of the reader.
+
+### Remark 6
+
+**Category**: active_passive_voice  
+**Location**: Methodology  
+**Issue**: The methodology section predominantly uses passive voice, which can make the process description less engaging.  
+**Severity**: medium  
+**Impact**: Reduces the clarity and directness of the description.
+
+### Remark 7
+
+**Category**: redundancy  
+**Location**: Conclusion  
+**Issue**: The conclusion repeats information already stated in the results section, leading to redundancy.  
+**Severity**: low  
+**Impact**: Distracts readers and wastes space.
+
+### Remark 8
+
+**Category**: ambiguity  
+**Location**: Technical Content  
+**Issue**: Some technical terms are used ambiguously, potentially confusing readers.  
+**Severity**: medium  
+**Impact**: Compromises the accuracy of the information conveyed.
+
+### Remark 9
+
+**Category**: readability  
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear structure, making it challenging to grasp the main points quickly.  
+**Severity**: medium  
+**Impact**: Hinders the ability of readers to understand the research at a glance.
+
+### Remark 10
+
+**Category**: information_density  
+**Location**: Discussion  
+**Issue**: The discussion section lacks sufficient information density, missing opportunities to delve deeper into the implications of the findings.  
+**Severity**: medium  
+**Impact**: Limits the depth of analysis and insights provided.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3442,130 +2764,235 @@ The text exhibits a moderate level of clarity and conciseness, with room for imp
 **Focus**: language_simplicity  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Estimating BMI from camera images enables quick weight assessment in challenging scenarios.
+> Transitioning from animal to plant-based diets is crucial for reducing the environmental impact of the global food system.
 
 **Explanation**:  
-Simplifies the language and reduces wordiness for better comprehension.
+Simplified language and more direct phrasing enhance clarity and conciseness.
 
 ### Suggestion 2
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: sentence_length  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Recent BMI estimation methods using computer vision have mostly used datasets with around 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Restructures the sentence for better flow and clarity.
-
-### Suggestion 3
 
 **Location**: Introduction  
 **Category**: introduction  
 **Focus**: language_simplicity  
 
 **Original Text**:  
-> In medical emergencies, there is a well-documented need for faster weight estimation methods.
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
 
 **Improved Version**:  
-> Medical emergencies require rapid weight estimation methods.
+> Studies on US populations indicate that making small, targeted dietary substitutions can reduce the carbon footprint by 33% - 35%.
 
 **Explanation**:  
-Concise wording conveys the same message more effectively.
+Rephrasing for clarity and simplicity improves understanding for a wider audience.
+
+### Suggestion 3
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C, where the products swaps were displayed without GHG reduction information and without any indication of the most effective GHG-reducing product swap.
+
+**Improved Version**:  
+> Participants were assigned to one of four experimental groups: targeted treatment (T(Targeted)), information treatment (T(Info)), combined targeted and information group (T(Targeted x Info)), and control group (C).
+
+**Explanation**:  
+Simplifying the description of experimental groups reduces complexity and improves readability.
 
 ### Suggestion 4
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Results  
+**Category**: results  
 **Focus**: wordiness  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
 
 **Improved Version**:  
-> Our model shows robust generalizability to new data, achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.
+> Our results indicate a strong impact of providing product swap recommendations, with 88% of participants swapping at least one product, resulting in an average basket GHG reduction of 25% (SD = 18%).
 
 **Explanation**:  
-Streamlines the sentence for better readability and clarity.
+Restructuring for clarity and conciseness improves the flow of information.
+
+### Suggestion 5
+
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: redundancy  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+
+**Improved Version**:  
+> Our research demonstrates that pre-checkout, basket-level product swap recommendations can effectively encourage plant-based food purchases, aiding policymakers in promoting dietary shifts towards more plant consumption.
+
+**Explanation**:  
+Streamlining the message and eliminating redundancy enhances clarity and impact.
+
+### Suggestion 6
+
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.
+
+**Improved Version**:  
+> Given the potential of targeted, small changes, we conducted a randomized controlled trial (RCT) in a simulated online supermarket to assess consumer responses to GHG-reducing product swap recommendations and their subsequent GHG reductions.
+
+**Explanation**:  
+Clarifying the purpose and context of the study enhances understanding and engagement.
+
+### Suggestion 7
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.
+
+**Improved Version**:  
+> Participants received a standard shopping basket for the average 2-person German household and navigated through the online supermarket.
+
+**Explanation**:  
+Simplifying the description improves readability and engagement.
+
+### Suggestion 8
+
+**Location**: Results  
+**Category**: results  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+
+**Improved Version**:  
+> In summary, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant decrease in basket GHG emissions.
+
+**Explanation**:  
+Enhancing clarity and structure aids in summarizing key findings effectively.
+
+### Suggestion 9
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+
+**Improved Version**:  
+> Additionally, our study emphasizes the effectiveness of recommending product swaps with GHG reduction information for frequent meat eaters, a crucial consumer group to target.
+
+**Explanation**:  
+Rephrasing for clarity and conciseness strengthens the impact of the statement.
+
+### Suggestion 10
+
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
+
+**Improved Version**:  
+> Subsequent studies should concentrate on implementing and evaluating these pre-checkout, basket-level swap recommendations in real-world settings.
+
+**Explanation**:  
+Clarifying the direction for future research enhances the actionable insights provided.
+
+### Suggestion 11
+
+**Location**: Abstract  
+**Category**: abstract  
+**Focus**: language_simplicity  
+
+**Original Text**:  
+> A shift from current diets to diets that exclude animal-based products would reduce the food system’s land use by 76% and greenhouse gas emissions (GHG) by around 50%.
+
+**Improved Version**:  
+> Transitioning from current diets to plant-based diets would cut the food system's land use by 76% and greenhouse gas emissions (GHG) by approximately 50%.
+
+**Explanation**:  
+Simplifying complex concepts and restructuring for clarity improves comprehension.
 
 ### Detailed Feedback
 ### Language Simplicity
 
-The text generally uses technical language and terms that may be challenging for non-experts to understand. Simplifying complex terms and explanations would enhance clarity and accessibility.
+The text contains a mix of complex and straightforward language, making it challenging for readers to follow consistently. Simplifying terminology and phrasing would enhance accessibility and understanding.
 
 ### Jargon Usage
 
-The text contains a significant amount of jargon and technical terms without adequate explanations. Providing definitions or simplifying terminology would improve comprehension for a wider audience.
+The use of jargon without clear explanations limits the audience to those familiar with the specific terms. Providing definitions or simplifying technical language would improve inclusivity and comprehension.
 
 ### Wordiness
 
-Certain sections exhibit wordiness, leading to unnecessary repetition and verbose descriptions. Streamlining sentences and removing redundant phrases would enhance conciseness.
+Some sections are verbose and could benefit from concise rephrasing to convey information more effectively. Eliminating unnecessary words and streamlining sentences would enhance clarity and engagement.
 
 ### Sentence Length
 
-The text contains a mix of long and short sentences. Some sentences could be shortened for better readability and flow, while others may benefit from more elaboration to clarify complex concepts.
+Several sentences are overly long, leading to potential confusion and difficulty in following the information. Breaking down complex sentences into shorter, clearer ones would improve readability and comprehension.
 
 ### Paragraph Length
 
-Paragraphs vary in length, with some being overly long and others too brief. Balancing paragraph length for coherence and emphasis on key points would improve overall structure.
+Paragraphs vary in length, with some being too lengthy, affecting the flow of information. Breaking down lengthy paragraphs into smaller, focused ones would enhance readability and engagement.
 
 ### Active Passive Voice
 
-The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would enhance readability and clarity.
+The text predominantly uses passive voice in the methodology section, which can make descriptions less engaging and direct. Incorporating more active voice would improve clarity and reader engagement.
 
 ### Redundancy
 
-Certain sections exhibit redundancy through repetitive use of terms or concepts. Removing redundant information and restructuring sentences would improve overall coherence.
+There are instances of redundancy, where information is repeated unnecessarily across sections. Removing redundant content and consolidating key points would enhance clarity and conciseness.
 
 ### Ambiguity
 
-The text occasionally introduces ambiguity through unclear phrasing or vague descriptions. Providing more specific details and clarifications would enhance reader understanding.
+Certain technical terms are used ambiguously, potentially causing confusion among readers. Providing clear definitions or using terms consistently would improve the accuracy and understanding of the content.
 
 ### Readability
 
-Overall, the text is readable but could benefit from simplification of language, reduction of jargon, and clearer explanations. Improving readability would enhance accessibility for a wider audience.
+The text lacks consistent readability, with some sections being more accessible than others. Improving the structure, simplifying language, and enhancing coherence would make the text more reader-friendly.
 
 ### Information Density
 
-The text contains a high level of information density, presenting complex concepts and technical details. Balancing information density with clarity and simplicity would improve overall comprehension.
+Some sections lack sufficient depth and detail, missing opportunities to provide in-depth analysis. Increasing the information density by expanding on key points and insights would enhance the richness of the content.
 
 ## W4 - Terminology Consistency
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The text demonstrates a good level of terminology consistency overall, with clear usage of technical terms and field-specific terminology. However, there are some areas of improvement needed, such as maintaining consistency in variable naming, unit notation, and abbreviation usage. Addressing these issues can enhance the clarity and professionalism of the research paper.
+The text exhibits moderate consistency in terminology usage, with notable areas for improvement in notation style, acronym definition, and treatment group naming. Enhancing these aspects will elevate the overall clarity and coherence of the research findings.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: term_usage  
 **Location**: Abstract  
-**Issue**: Inconsistency in using 'BMI estimation' and 'weight estimation' interchangeably.  
+**Issue**: Inconsistency in term usage between 'GHG' and 'greenhouse gas' in the title.  
 **Severity**: medium  
-**Impact**: Confusion for readers regarding the specific focus of the study.
+**Impact**: Confusion for readers due to inconsistent terminology.
 
 ### Remark 2
 
-**Category**: variable_naming  
-**Location**: Methodology  
-**Issue**: Inconsistent variable naming conventions for image perspectives (e.g., 'full-body', 'torso-up', 'face-only').  
+**Category**: notation  
+**Location**: Equations  
+**Issue**: Inconsistent notation style in equations throughout the text.  
 **Severity**: medium  
-**Impact**: May lead to confusion in understanding the methodology and results.
+**Impact**: May lead to misinterpretation of equations by readers.
 
 ### Remark 3
 
-**Category**: unit_notation  
-**Location**: Results  
-**Issue**: Mixing units for weight measurement (kg, lbs) without clear distinction or conversion.  
+**Category**: acronyms  
+**Location**: Introduction  
+**Issue**: Acronyms 'GHG' and 'DME' are used without prior definition.  
 **Severity**: medium  
-**Impact**: Could cause misinterpretation of results by readers.
+**Impact**: Readers unfamiliar with the field may struggle to understand the text.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3575,115 +3002,160 @@ The text demonstrates a good level of terminology consistency overall, with clea
 **Focus**: term_usage  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...
+> Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations
 
 **Improved Version**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid BMI assessment...
+> Guiding Green Choices: The Impact of Pre-Checkout Greenhouse Gas (GHG) Reducing Product Swap Recommendations
 
 **Explanation**:  
-Consistently using 'BMI' instead of 'weight' improves clarity and precision.
+Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.
 
 ### Suggestion 2
 
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: notation  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: term_usage  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Shifting diets from animal products towards more plant-based foods is generally accepted...
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions.
+> Transitioning diets from animal products to more plant-based foods is widely acknowledged...
 
 **Explanation**:  
-Consistency in punctuation enhances readability and professionalism.
+Consistent terminology with 'transitioning' instead of 'shifting' for clarity.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: technical_terms  
+**Location**: Literature Review  
+**Category**: literature  
+**Focus**: term_usage  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset...
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35%...
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset...
+> Studies on US populations indicate that the dietary carbon footprint could be decreased by 33% - 35%...
 
 **Explanation**:  
-Consistent capitalization of 'DenseNet' improves technical term usage.
+Consistent use of 'studies' instead of 'research' for uniformity.
+
+### Suggestion 4
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: notation  
+
+**Original Text**:  
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted),...
+
+**Improved Version**:  
+> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T_Targeted),...
+
+**Explanation**:  
+Consistent notation style for experimental groups with underscore instead of parentheses.
+
+### Suggestion 5
+
+**Location**: Results  
+**Category**: results  
+**Focus**: term_usage  
+
+**Original Text**:  
+> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+
+**Improved Version**:  
+> Overall, neither T_Targeted nor T_Info resulted in a significant reduction in basket greenhouse gas (GHG) emissions.
+
+**Explanation**:  
+Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.
+
+### Suggestion 6
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: notation  
+
+**Original Text**:  
+> However, T(Info) did have a strong effect on many outcome variables for daily meat-eating (DME) participants...
+
+**Improved Version**:  
+> However, T_Info had a strong effect on many outcome variables for daily meat-eating (DME) participants...
+
+**Explanation**:  
+Consistent notation style for treatment groups without parentheses.
 
 ### Detailed Feedback
 ### Term Usage Consistency
 
-The text generally maintains consistency in using technical terms like 'Deep Learning' and 'Convolutional Neural Networks.' However, there are instances of interchangeably using 'BMI estimation' and 'weight estimation.' Consistent use of 'BMI estimation' throughout the text is recommended.
+The text demonstrates moderate term usage consistency, but improvements are needed in aligning terminology across sections and defining terms consistently.
 
 ### Notation Consistency
 
-Notation consistency is generally maintained, with clear use of mathematical symbols and equations. However, there are instances of inconsistent punctuation and capitalization that can be improved.
+Notation consistency is lacking, with variations in the style of representing variables and treatment groups. Adopting a uniform notation style will enhance readability and comprehension.
 
 ### Acronym Usage
 
-Acronyms like 'BMI' are consistently defined upon first use. However, there are instances where acronyms are used without prior definition, which can be confusing for readers.
+Acronyms like 'GHG' and 'DME' are used without prior definition, impacting the clarity of the text. Providing definitions upon first use will aid reader understanding.
 
 ### Variable Naming Consistency
 
-Variable naming conventions are generally clear, but there are inconsistencies in naming perspectives like 'full-body', 'torso-up', and 'face-only.' Standardizing variable names for these perspectives is recommended.
+Variable naming is generally consistent, but there are instances where clarity could be improved by standardizing variable names across equations and text.
 
 ### Unit Notation Consistency
 
-Units for weight measurement are inconsistently presented in kg and lbs without clear distinction or conversion. Maintaining a consistent unit notation or providing clear conversions is essential for clarity.
+Unit notation consistency is maintained throughout the text, ensuring clarity in conveying measurements and quantities.
 
 ### Abbreviation Consistency
 
-Abbreviations like 'MAPE' and 'MAE' are consistently used throughout the text. However, ensuring consistent abbreviation usage for terms like 'Body Mass Index' can enhance readability.
+Abbreviation consistency is adequate, but ensuring uniformity in the use of abbreviations will enhance readability and understanding.
 
 ### Technical Term Consistency
 
-Technical terms related to deep learning models and image processing are used consistently. Ensuring uniformity in technical terms and capitalization can improve clarity.
+Technical term consistency is observed, with appropriate usage of domain-specific terminology. Further clarity can be achieved by defining complex technical terms upon first use.
 
 ### Field Terminology
 
-The field-specific terminology related to image processing and weight estimation is appropriately used. Maintaining consistency in terminology specific to the research domain is crucial for understanding.
+The text employs field-specific terminology effectively, enhancing the credibility and relevance of the research within the domain.
 
 ### Cross Reference Consistency
 
-Cross-references to datasets and prior research are generally clear. Ensuring consistent formatting and citation style for cross-references can enhance the overall coherence of the text.
+Cross-reference consistency is maintained, aiding in the coherence and flow of the text by linking related sections effectively.
 
 ### Definition Consistency
 
-Definitions of terms like 'MAPE' and 'MAE' are provided consistently. Ensuring that all key terms are defined clearly upon first use can aid readers in understanding the concepts.
+Definitions are provided for key terms, contributing to reader comprehension. Ensuring consistency in defining terms will further enhance clarity and understanding.
 
 ## W5 - Inclusive Language
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The text shows good efforts towards inclusivity but can further enhance gender-neutral language, cultural sensitivity, and disability inclusion. Improvements in professional title usage and stereotype avoidance can also enhance inclusivity.
+Overall, the text demonstrates a moderate level of inclusivity in terms of gender-neutral language usage, cultural sensitivity, and disability inclusion. However, improvements can be made in acknowledging global diversity, enhancing geographic inclusivity, and considering participants with disabilities. By implementing suggested improvements and broadening the scope of cultural and geographic perspectives, the study can enhance its inclusivity and relevance to diverse populations.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: gender_neutrality  
 **Location**: Abstract  
-**Issue**: The text uses gender-specific pronouns like 'his' and 'her' instead of gender-neutral language.  
+**Issue**: The abstract does not use gender-neutral language in authorship.  
 **Severity**: medium  
-**Impact**: Excludes non-binary individuals and reinforces gender stereotypes.
+**Impact**: Excludes non-binary or gender non-conforming individuals from authorship recognition.
 
 ### Remark 2
 
 **Category**: cultural_sensitivity  
 **Location**: Introduction  
-**Issue**: The text assumes a Western-centric perspective in discussing health and weight issues.  
+**Issue**: The study focuses on US and German populations without acknowledging global diversity.  
 **Severity**: medium  
-**Impact**: Neglects diverse cultural beliefs and practices related to body weight and health.
+**Impact**: Excludes perspectives and experiences of individuals from other cultural backgrounds.
 
 ### Remark 3
 
 **Category**: disability_inclusion  
 **Location**: Methodology  
-**Issue**: The text lacks considerations for accessibility features for individuals with disabilities.  
-**Severity**: low  
-**Impact**: Excludes individuals with disabilities from participating in the study.
+**Issue**: The study does not mention any considerations for participants with disabilities.  
+**Severity**: medium  
+**Impact**: Excludes individuals with disabilities from participating in the research.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3693,13 +3165,13 @@ The text shows good efforts towards inclusivity but can further enhance gender-n
 **Focus**: gender_neutrality  
 
 **Original Text**:  
-> his or her weight
+> Kevin O’Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina Stöcklic, Elgar Fleischa, Martin Natterc
 
 **Improved Version**:  
-> their weight
+> Kevin O’Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina Stöckli, Elgar Fleisch, Martin Natter
 
 **Explanation**:  
-Using 'their' is gender-neutral and inclusive of all genders.
+Using full names without gender-specific suffixes ensures gender neutrality.
 
 ### Suggestion 2
 
@@ -3708,387 +3180,472 @@ Using 'their' is gender-neutral and inclusive of all genders.
 **Focus**: cultural_sensitivity  
 
 **Original Text**:  
-> Western-centric
+> Research on US populations suggests...
 
 **Improved Version**:  
-> diverse cultural perspectives
+> Research on diverse populations suggests...
 
 **Explanation**:  
-Acknowledging diverse cultural perspectives avoids bias towards Western norms.
+Acknowledging global diversity promotes cultural sensitivity.
 
 ### Suggestion 3
 
 **Location**: Methodology  
 **Category**: methodology  
-**Focus**: disability_inclusion  
+**Focus**: geographic_inclusivity  
 
 **Original Text**:  
-> individuals with disabilities
+> Participants were presented with a shopping basket typical of the average 2-person German household...
 
 **Improved Version**:  
-> participants with diverse abilities
+> Participants were presented with a shopping basket typical of an average 2-person household...
 
 **Explanation**:  
-Using 'diverse abilities' is more inclusive and respectful of different abilities.
+Removing nationality-specific references enhances inclusivity.
 
 ### Detailed Feedback
 ### Gender Neutral Language
 
-The text should consistently use gender-neutral pronouns and terms to be inclusive of all genders.
+The text uses gender-neutral language in most instances, but there are some areas where gender-specific terms are present, particularly in authorship listings.
 
 ### Cultural Sensitivity
 
-Consider incorporating perspectives from various cultures to ensure inclusivity and respect for diverse beliefs.
+The study focuses primarily on US and German populations, which may limit the generalizability of the findings to a more diverse global context. Acknowledging and including diverse cultural perspectives would enhance the study's cultural sensitivity.
 
 ### Age Appropriate Terminology
 
-Ensure that the language used is appropriate for all age groups to avoid age-related stereotypes or biases.
+The text does not contain any age-specific terminology concerns.
 
 ### Disability Inclusive Language
 
-Include considerations for accessibility features and accommodations to ensure participation of individuals with disabilities.
+There is a lack of mention of considerations for participants with disabilities, which may exclude individuals with disabilities from the study. Including accessibility measures and accommodations would enhance disability inclusion.
 
 ### Socioeconomic Sensitivity
 
-Be mindful of language that may unintentionally perpetuate stereotypes or stigmas related to socioeconomic status.
+The text does not explicitly address socioeconomic sensitivity concerns.
 
 ### Geographic Inclusivity
 
-Acknowledge and respect diverse geographical contexts and avoid assumptions based on a single location or culture.
+While the study mentions US and German populations, it lacks a broader global perspective. Including diverse geographic contexts in the research would enhance geographic inclusivity.
 
 ### Professional Title Usage
 
-Use professional titles consistently and respectfully to avoid assumptions or biases based on job roles.
+Professional titles are used appropriately throughout the text.
 
 ### Stereotypes
 
-Avoid language or descriptions that reinforce stereotypes related to gender, race, ethnicity, or other characteristics.
+The text avoids perpetuating stereotypes.
 
 ### Identity Language
 
-Consider using person-first language to prioritize individuals over their identities or conditions.
+The text predominantly uses person-first language, focusing on individuals rather than their identities.
 
 ### Historical Context
 
-Be aware of historical implications of language or terms used and ensure sensitivity to past experiences or injustices.
+The text does not contain any specific historical context sensitivity concerns.
 
 ## W6 - Citation Formatting
 ### Score: 6/10
 
 ### Summary
-Overall, the text demonstrates good citation formatting with minor issues in author name consistency, DOI formatting, and missing volume/issue numbers. Improvements in these areas will enhance the professionalism and completeness of the citations.
+The text exhibits several citation formatting issues, including inconsistencies in in-text citations, reference list formatting, and citation style. Improvements are needed in author name formatting, DOI/URL presentation, and cross-referencing accuracy. Enhancing these aspects will elevate the overall quality and credibility of the research paper.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: author_format  
-**Location**: Abstract  
-**Issue**: Author names are not consistently formatted with initials and full names.  
+**Category**: in_text_format  
+**Location**: Introduction  
+**Issue**: The in-text citations in the introduction are not consistently formatted. Some citations use numbers [1, 2, 3] while others use author names (e.g., [5, 6, 7]).  
 **Severity**: medium  
-**Impact**: Affects the professionalism and consistency of the citations.
+**Impact**: This inconsistency can confuse readers and make it challenging to track down the sources.
 
 ### Remark 2
 
-**Category**: doi_format  
+**Category**: reference_format  
 **Location**: References  
-**Issue**: Some DOIs are missing or incorrectly formatted.  
+**Issue**: The reference list lacks proper formatting with inconsistent use of author names, publication dates, and journal names.  
 **Severity**: high  
-**Impact**: Impacts the ability to access the original sources for verification.
+**Impact**: This makes it difficult for readers to locate the exact sources and undermines the credibility of the research.
 
 ### Remark 3
 
-**Category**: volume_format  
-**Location**: Methodology  
-**Issue**: Volume and issue numbers are missing for journal references.  
+**Category**: style_consistency  
+**Location**: Discussion  
+**Issue**: The citation style switches between APA and Harvard style, leading to inconsistency in formatting.  
 **Severity**: medium  
-**Impact**: Lacks specificity in identifying the exact source within the journal.
+**Impact**: This inconsistency can be distracting for readers and may affect the overall professionalism of the paper.
+
+### Remark 4
+
+**Category**: reference_completeness  
+**Location**: References  
+**Issue**: Some references lack essential information such as page numbers or DOI/URLs, reducing the completeness of the citations.  
+**Severity**: medium  
+**Impact**: Incomplete references hinder readers' ability to access the original sources for further exploration.
+
+### Remark 5
+
+**Category**: doi_format  
+**Location**: References  
+**Issue**: DOIs are inconsistently formatted with some missing 'doi:' prefix or incorrect DOI numbers.  
+**Severity**: medium  
+**Impact**: Proper DOI formatting is crucial for accurate source identification and retrieval.
+
+### Remark 6
+
+**Category**: author_format  
+**Location**: References  
+**Issue**: Author names are inconsistently formatted with variations in initials, full names, and order.  
+**Severity**: medium  
+**Impact**: Consistent author name formatting is essential for proper credit attribution and academic integrity.
+
+### Remark 7
+
+**Category**: date_format  
+**Location**: References  
+**Issue**: Publication dates are inconsistently formatted with variations in date styles (e.g., year only, full date).  
+**Severity**: low  
+**Impact**: While not critical, consistent date formatting enhances the overall professionalism of the references.
+
+### Remark 8
+
+**Category**: journal_format  
+**Location**: References  
+**Issue**: Journal names are inconsistently abbreviated or written in full, leading to confusion.  
+**Severity**: medium  
+**Impact**: Consistent journal name formatting is crucial for accurate source identification and credibility.
+
+### Remark 9
+
+**Category**: volume_format  
+**Location**: References  
+**Issue**: Volume, issue, and page numbers are inconsistently formatted or missing in some references.  
+**Severity**: medium  
+**Impact**: Complete volume/issue/page information is essential for precise source retrieval and verification.
+
+### Remark 10
+
+**Category**: cross_reference  
+**Location**: Discussion  
+**Issue**: The discussion section lacks cross-references to earlier sections or findings, making it less cohesive.  
+**Severity**: low  
+**Impact**: Cross-references help readers navigate the paper and understand the connections between different sections.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: author_format  
-**Focus**: author_format  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: in_text_format  
 
 **Original Text**:  
-> Frederik Rajiv Manichand
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system [1, 2, 3].
 
 **Improved Version**:  
-> Manichand, F. R.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system (Willett et al., 2019; Shukla et al., 2019; Stylianou et al., 2021).
 
 **Explanation**:  
-Consistent use of initials and last name for author names.
+This change provides a consistent author-year citation style for better readability and tracking of sources.
 
 ### Suggestion 2
 
-**Location**: References  
-**Category**: doi_format  
-**Focus**: doi_format  
+**Location**: Literature Review  
+**Category**: literature  
+**Focus**: in_text_format  
 
 **Original Text**:  
-> DOI: 10.1186/s12916-021-02188-x
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].
 
 **Improved Version**:  
-> https://doi.org/10.1186/s12916-021-02188-x
+> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions (Stylianou et al., 2021; Grummon et al., 2023), such as substituting 10% of beef intake with plant-based foods (Stylianou et al., 2021) or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).
 
 **Explanation**:  
-Correct formatting for DOIs with a clickable link.
+Consistent author-year citation style improves clarity and attribution of sources.
 
 ### Suggestion 3
 
 **Location**: Methodology  
-**Category**: volume_format  
-**Focus**: volume_format  
+**Category**: methodology  
+**Focus**: in_text_format  
 
 **Original Text**:  
-> Volume 2 (ASPLOS ’24)
+> The study was preregistered and incentive-compatible.
 
 **Improved Version**:  
-> Volume 2, Issue 1 (ASPLOS '24)
+> The study was preregistered and incentive-compatible (O’Sullivan et al., 2023).
 
 **Explanation**:  
-Including the issue number for better reference specificity.
+Including the author's name enhances the credibility and transparency of the study.
+
+### Suggestion 4
+
+**Location**: References  
+**Category**: references  
+**Focus**: author_format, journal_format, volume_format  
+
+**Original Text**:  
+> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447–492. doi:10.1016/s0140-6736(18)31788-4.
+
+**Improved Version**:  
+> Willett, W., Rockström, J., Loken, B., Springmann, M., Lang, T., Vermeulen, S., Garnett, T., Tilman, D., DeClerck, F., Wood, A., Jonell, M., Clark, M., Gordon, L. J., Fanzo, J., Hawkes, C., Zurayk, R., Rivera, J. A., Vries, W. D., Sibanda, L. M., Afshin, A., Chaudhary, A., Herrero, M., Agustina, R., Branca, F., Lartey, A., Fan, S., Crona, B., Fox, E., Bignet, V., Troell, M., Lindahl, T., Singh, S., Cornell, S. E., Reddy, K. S., Narain, S., Nishtar, S., & Murray, C. J. L. (2019). Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems. The Lancet, 393, 447–492. doi:10.1016/s0140-6736(18)31788-4.
+
+**Explanation**:  
+Consistent author formatting with initials and full names, correct journal name formatting, and complete volume/page information.
+
+### Suggestion 5
+
+**Location**: References  
+**Category**: references  
+**Focus**: author_format, journal_format, volume_format  
+
+**Original Text**:  
+> [3] K. S. Stylianou, V. L. Fulgoni, O. Jolliet, Small targeted dietary changes can yield substantial gains for human health and the environment, Nature Food 2 (2021) 616–627. doi:10.1038/s43016-021-00343-4.
+
+**Improved Version**:  
+> Stylianou, K. S., Fulgoni, V. L., & Jolliet, O. (2021). Small targeted dietary changes can yield substantial gains for human health and the environment. Nature Food, 2, 616–627. doi:10.1038/s43016-021-00343-4.
+
+**Explanation**:  
+Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.
+
+### Suggestion 6
+
+**Location**: References  
+**Category**: references  
+**Focus**: author_format, journal_format, volume_format  
+
+**Original Text**:  
+> [8] A. H. Grummon, C. J. Y. Lee, T. N. Robinson, E. B. Rimm, D. Rose, Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population, Nature Food (2023) 1–12. doi:10.1038/s43016-023-00864-0.
+
+**Improved Version**:  
+> Grummon, A. H., Lee, C. J. Y., Robinson, T. N., Rimm, E. B., & Rose, D. (2023). Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population. Nature Food, 1–12. doi:10.1038/s43016-023-00864-0.
+
+**Explanation**:  
+Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.
 
 ### Detailed Feedback
 ### In Text Citation Format
 
-In-text citations are generally well-formatted with appropriate use of author names and publication years.
+In-text citations should follow a consistent style throughout the text, either using numbers or author-year format. Ensure that all sources are properly cited within the text.
 
 ### Reference List Format
 
-The reference list is organized and includes necessary details, but some improvements are needed in DOI formatting and volume/issue numbers.
+The reference list should be formatted consistently following a specific citation style (e.g., APA, Harvard). Include all necessary information such as author names, publication dates, journal names, volume/issue/page numbers, and DOI/URLs.
 
 ### Citation Style Consistency
 
-Consistency in citation style is maintained throughout the text.
+Maintain a uniform citation style (e.g., APA, Harvard) throughout the text to enhance readability and professionalism.
 
 ### Reference Completeness
 
-References are mostly complete, but missing DOIs and volume/issue numbers reduce completeness.
+Ensure that all references contain complete information, including page numbers, DOI/URLs, and accurate publication dates, to facilitate easy access to the original sources.
 
 ### Doi Url Formatting
 
-DOIs should be formatted as clickable links for easy access to the original sources.
+Format DOIs consistently with the 'doi:' prefix and correct DOI numbers. Ensure that URLs are active and lead directly to the source.
 
 ### Author Name Formatting
 
-Author names should be consistently formatted with initials and last names for a professional appearance.
+Consistently format author names with initials or full names as per the chosen citation style. Use the same name order (e.g., last name, first name) for all authors.
 
 ### Publication Date Formatting
 
-Publication dates are correctly formatted with years included.
+Maintain a consistent date format (e.g., year only, full date) for all references to improve clarity and uniformity.
 
 ### Journal Name Formatting
 
-Journal names are appropriately formatted.
+Consistently abbreviate or write out journal names in full as per the chosen citation style to avoid confusion and ensure accuracy.
 
 ### Volume Issue Page Formatting
 
-Volume and issue numbers should be included for journal references for better specificity.
+Include complete volume, issue, and page numbers for all journal references to enable precise source identification and retrieval.
 
 ### Cross Reference Accuracy
 
-Cross-references are accurate and relevant within the text.
+Ensure that cross-references within the text accurately point to related sections or findings to enhance the coherence and flow of the paper.
 
 ## W7 - Target Audience Alignment
 ### Score: 0/10
 
 ### Summary
-The research demonstrates a strong technical depth and appropriate use of field-specific terminology. However, improvements are needed in organizing the methodology section for clarity, integrating visual elements for better data presentation, and enhancing the discussion depth. Overall, the study aligns well with a research audience but could benefit from minor adjustments to enhance audience engagement and comprehension.
+Overall, the text demonstrates a strong alignment with an academic audience in terms of technical depth and terminology usage. However, improvements in writing formality, visual integration, and discussion depth could enhance audience engagement and comprehension. Refinements in conclusion format and section organization would further improve the overall coherence and impact of the research paper.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: terminology  
-**Location**: Abstract  
-**Issue**: Lack of explanation for technical terms like MAPE and BMI, assuming audience familiarity.  
+**Category**: technical_depth  
+**Location**: Introduction  
+**Issue**: The technical depth in the introduction is too high for a general audience.  
 **Severity**: medium  
-**Impact**: May alienate readers unfamiliar with field-specific terminology.
+**Impact**: May alienate readers who are not familiar with the technical aspects of GHG reduction.
 
 ### Remark 2
 
-**Category**: organization  
-**Location**: Methodology section  
-**Issue**: Methodology description lacks a clear step-by-step structure, making it hard to follow.  
-**Severity**: high  
-**Impact**: May lead to confusion and hinder replication of the study.
+**Category**: terminology  
+**Location**: Methodology  
+**Issue**: The use of 'preregistered and incentive-compatible' may be unclear to non-academic readers.  
+**Severity**: medium  
+**Impact**: Could lead to confusion and misinterpretation of the study design.
 
 ### Remark 3
 
-**Category**: results  
-**Location**: Results section  
-**Issue**: Data presentation lacks visual aids like tables or graphs, making it text-heavy.  
-**Severity**: medium  
-**Impact**: May reduce reader engagement and comprehension.
+**Category**: visuals  
+**Location**: Results  
+**Issue**: Lack of visual aids to complement the data presentation.  
+**Severity**: low  
+**Impact**: Reduces engagement and makes it harder for readers to grasp the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: terminology  
-**Focus**: technical_depth  
+**Category**: abstract  
+**Focus**: terminology  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have mostly utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Transitioning from animal-based to plant-based diets is widely recognized as crucial for mitigating the environmental footprint of the global food industry.
 
 **Explanation**:  
-Clarifies the sentence structure and improves readability.
+Simplifying the language while maintaining the technical essence enhances readability.
 
 ### Suggestion 2
 
-**Location**: Results  
-**Category**: results  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: technical_depth  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
 
 **Improved Version**:  
-> Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.
+> Given the potential benefits of small, targeted adjustments, we implemented a randomized controlled trial (RCT) within a simulated online grocery setting to assess consumer reactions to GHG-reducing product substitutions.
 
 **Explanation**:  
-Enhances clarity and ensures the audience understands the technical metric.
+Clarifying the purpose and context of the study improves audience understanding.
 
 ### Suggestion 3
 
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: formality  
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: terminology  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted...
 
 **Improved Version**:  
-> Our BMI estimation approach is practically demonstrated by implementing image filtering and BMI estimation algorithms in Python on mobile devices through the CLAID framework.
+> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)), which emphasized the most efficient GHG-reducing product swap...
 
 **Explanation**:  
-Streamlines the sentence and improves readability.
+Enhancing clarity and consistency in terminology aids comprehension.
+
+### Suggestion 4
+
+**Location**: Results  
+**Category**: results  
+**Focus**: writing_formality  
+
+**Original Text**:  
+> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product...
+
+**Improved Version**:  
+> Irrespective of the treatment variations, our findings indicate a substantial impact from providing product swap suggestions, with 88% of participants opting to exchange at least one item...
+
+**Explanation**:  
+Strengthening the language and structure enhances the impact of the results presentation.
+
+### Suggestion 5
+
+**Location**: Conclusion  
+**Category**: conclusion  
+**Focus**: conclusion_format  
+
+**Original Text**:  
+> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+
+**Improved Version**:  
+> Our research offers valuable insights for policymakers aiming to promote plant-based dietary choices by demonstrating the efficacy of pre-checkout, basket-level product swap recommendations in encouraging the selection of plant-based options.
+
+**Explanation**:  
+Refining the conclusion to focus on actionable insights enhances its relevance.
 
 ### Detailed Feedback
 ### Technical Depth
 
-The text provides a detailed explanation of the methodology and results, catering to an audience familiar with deep learning and computer vision.
+The text demonstrates a high level of technical depth appropriate for an academic audience familiar with GHG reduction strategies and experimental design.
 
 ### Terminology Usage
 
-The field-specific terminology is used appropriately, but some terms could benefit from brief explanations for non-experts.
+Field-specific terminology is used consistently throughout the text, enhancing clarity for readers familiar with environmental science and consumer behavior research.
 
 ### Writing Formality
 
-The writing style is formal and academic, suitable for a research audience.
+The writing style maintains a formal tone suitable for an academic research paper, but some sections could benefit from simplification to improve accessibility.
 
 ### Section Organization
 
-The sections are well-defined, but the methodology description could benefit from a clearer step-by-step structure.
+The text is well-structured with clear delineation of sections, but some subsections could be further refined for smoother transitions.
 
 ### Visual Integration
 
-Visual aids like tables and graphs are lacking in the results section, which could enhance data presentation.
+Visual elements are lacking in the presentation of results, which could be improved by incorporating graphs or tables to enhance data visualization.
 
 ### Reference Style
 
-The references are appropriately cited, providing context and background for the study.
+The reference list is comprehensive and includes a range of relevant sources, providing a solid foundation for the research.
 
 ### Methodology Detail
 
-The methodology description is detailed but could be organized more clearly for better understanding.
+The methodology description provides sufficient detail on the experimental setup, randomization process, and treatment groups, ensuring transparency and replicability.
 
 ### Results Presentation
 
-The results are presented clearly but could be enhanced with visual elements for better comprehension.
+The results are presented clearly, but the addition of visual aids could enhance the understanding and impact of the findings.
 
 ### Discussion Depth
 
-The discussion provides insights into the findings but could delve deeper into the implications and future directions.
+The discussion delves into the implications of the results, but could benefit from further analysis and interpretation to deepen the insights.
 
 ### Conclusion Format
 
-The conclusion summarizes the key findings effectively but could be structured more succinctly.
+The conclusion summarizes the key findings effectively but could be strengthened by emphasizing actionable recommendations for policymakers and future research directions.
 
 ## W8 - Visual Presentation
 ### Score: 6/10
 
 ### Summary
-The manuscript lacks complete captions and clear labeling in some figures, impacting reader understanding. Improvements in clarity, completeness, and visual hierarchy are recommended to enhance the visual presentation quality.
+The manuscript lacks visual elements such as figures and tables, which could have significantly improved the visual presentation and data representation. Consider adding visual aids to enhance reader understanding and engagement.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: Figure quality  
-**Location**: Figure 8  
-**Issue**: The dataset statistics plot lacks labels for the axes, making it difficult to interpret the data.  
-**Severity**: medium  
-**Impact**: Readers may struggle to understand the distribution of body weight, height, and BMI in the dataset.
-
-### Remark 2
-
 **Category**: Caption completeness  
-**Location**: Figure 9  
-**Issue**: The UMAP plot and elbow plot lack clear captions explaining the purpose and content of the visualizations.  
-**Severity**: low  
-**Impact**: Readers may not fully grasp the significance of the clustering results without proper context.
-
-### Remark 3
-
-**Category**: Visual hierarchy  
-**Location**: Figure 11  
-**Issue**: The loss, MAE, and MAPE per epoch plot lacks distinction between the different lines, making it hard to differentiate the metrics.  
+**Location**: Manuscript Text  
+**Issue**: The manuscript lacks figures and tables, which could have enhanced the visual presentation and data representation.  
 **Severity**: medium  
-**Impact**: Difficulty in understanding the training and validation performance over epochs.
+**Impact**: Readers may find it challenging to grasp the data and results without visual aids.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Figure 8  
-**Category**: Figure  
-**Focus**: Clarity and completeness  
+**Location**: Throughout the manuscript  
+**Category**: Figures and Tables  
+**Focus**: Enhancing visual representation  
 
 **Original Text**:  
-> Figure 8. Dataset statistics.
+> The manuscript contains 0 figures and 0 tables.
 
 **Improved Version**:  
-> Figure 8. Distribution of Body Weight, Height, and BMI in the Dataset.
+> Consider adding figures and tables to visually represent data, results, and key findings.
 
 **Explanation**:  
-Adding clear labels to the axes will enhance the interpretability of the plot.
-
-### Suggestion 2
-
-**Location**: Figure 9  
-**Category**: Figure  
-**Focus**: Caption completeness  
-
-**Original Text**:  
-> Figure 9. Comparison of clustering results: (a) UMAP visualization for k=4 clusters and (b) elbow plot for k-means clustering of body keypoint data.
-
-**Improved Version**:  
-> Figure 9. Clustering Results Visualization: (a) UMAP Plot for 4 Clusters and (b) Elbow Plot for K-means Clustering of Body Keypoint Data.
-
-**Explanation**:  
-Adding descriptive captions will provide context and aid in understanding the purpose of the visualizations.
-
-### Suggestion 3
-
-**Location**: Figure 11  
-**Category**: Figure  
-**Focus**: Visual hierarchy  
-
-**Original Text**:  
-> Figure 11. Loss, MAE and MAPE per epoch for the training and validation sets of each model.
-
-**Improved Version**:  
-> Figure 11. Training and Validation Performance Metrics per Epoch.
-
-**Explanation**:  
-Differentiate the lines representing loss, MAE, and MAPE to improve clarity and readability.
+Visual aids can enhance reader understanding and engagement.
 
 ### Detailed Feedback
 ### Figure Quality
 
-Improve labeling and clarity in Figure 8 for better interpretation. Ensure all figures have clear and informative captions.
+N/A
 
 ### Table Formatting
 
@@ -4100,7 +3657,7 @@ N/A
 
 ### Caption Completeness
 
-Captions should provide context and explain the content of the visualizations.
+The absence of figures and tables limits the completeness of the visual presentation.
 
 ### Color Scheme
 
@@ -4108,20 +3665,20 @@ N/A
 
 ### Data Visualization
 
-Ensure data visualizations are clear and effectively convey the intended information.
+N/A
 
 ### Visual Hierarchy
 
-Differentiate elements in plots to aid in interpretation.
+N/A
 
 ### Accessibility
 
-Include labels, captions, and color contrasts for better accessibility.
+N/A
 
 ### Visual Consistency
 
-Maintain consistent style and formatting across visual elements.
+N/A
 
 ### Text Integration
 
-Ensure visual elements support and enhance the text by providing additional insights.
+The text provides detailed information, but visual aids could have complemented and reinforced the findings.

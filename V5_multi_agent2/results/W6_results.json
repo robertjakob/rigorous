@@ -2,64 +2,137 @@
   "citation_formatting_score": 6,
   "critical_remarks": [
     {
-      "category": "author_format",
-      "location": "Abstract",
-      "issue": "Author names are not consistently formatted with initials and full names.",
+      "category": "in_text_format",
+      "location": "Introduction",
+      "issue": "The in-text citations in the introduction are not consistently formatted. Some citations use numbers [1, 2, 3] while others use author names (e.g., [5, 6, 7]).",
       "severity": "medium",
-      "impact": "Affects the professionalism and consistency of the citations."
+      "impact": "This inconsistency can confuse readers and make it challenging to track down the sources."
+    },
+    {
+      "category": "reference_format",
+      "location": "References",
+      "issue": "The reference list lacks proper formatting with inconsistent use of author names, publication dates, and journal names.",
+      "severity": "high",
+      "impact": "This makes it difficult for readers to locate the exact sources and undermines the credibility of the research."
+    },
+    {
+      "category": "style_consistency",
+      "location": "Discussion",
+      "issue": "The citation style switches between APA and Harvard style, leading to inconsistency in formatting.",
+      "severity": "medium",
+      "impact": "This inconsistency can be distracting for readers and may affect the overall professionalism of the paper."
+    },
+    {
+      "category": "reference_completeness",
+      "location": "References",
+      "issue": "Some references lack essential information such as page numbers or DOI/URLs, reducing the completeness of the citations.",
+      "severity": "medium",
+      "impact": "Incomplete references hinder readers' ability to access the original sources for further exploration."
     },
     {
       "category": "doi_format",
       "location": "References",
-      "issue": "Some DOIs are missing or incorrectly formatted.",
-      "severity": "high",
-      "impact": "Impacts the ability to access the original sources for verification."
+      "issue": "DOIs are inconsistently formatted with some missing 'doi:' prefix or incorrect DOI numbers.",
+      "severity": "medium",
+      "impact": "Proper DOI formatting is crucial for accurate source identification and retrieval."
+    },
+    {
+      "category": "author_format",
+      "location": "References",
+      "issue": "Author names are inconsistently formatted with variations in initials, full names, and order.",
+      "severity": "medium",
+      "impact": "Consistent author name formatting is essential for proper credit attribution and academic integrity."
+    },
+    {
+      "category": "date_format",
+      "location": "References",
+      "issue": "Publication dates are inconsistently formatted with variations in date styles (e.g., year only, full date).",
+      "severity": "low",
+      "impact": "While not critical, consistent date formatting enhances the overall professionalism of the references."
+    },
+    {
+      "category": "journal_format",
+      "location": "References",
+      "issue": "Journal names are inconsistently abbreviated or written in full, leading to confusion.",
+      "severity": "medium",
+      "impact": "Consistent journal name formatting is crucial for accurate source identification and credibility."
     },
     {
       "category": "volume_format",
-      "location": "Methodology",
-      "issue": "Volume and issue numbers are missing for journal references.",
+      "location": "References",
+      "issue": "Volume, issue, and page numbers are inconsistently formatted or missing in some references.",
       "severity": "medium",
-      "impact": "Lacks specificity in identifying the exact source within the journal."
+      "impact": "Complete volume/issue/page information is essential for precise source retrieval and verification."
+    },
+    {
+      "category": "cross_reference",
+      "location": "Discussion",
+      "issue": "The discussion section lacks cross-references to earlier sections or findings, making it less cohesive.",
+      "severity": "low",
+      "impact": "Cross-references help readers navigate the paper and understand the connections between different sections."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Frederik Rajiv Manichand",
-      "improved_version": "Manichand, F. R.",
-      "explanation": "Consistent use of initials and last name for author names.",
-      "location": "Abstract",
-      "category": "author_format",
-      "focus": "author_format"
+      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system [1, 2, 3].",
+      "improved_version": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system (Willett et al., 2019; Shukla et al., 2019; Stylianou et al., 2021).",
+      "explanation": "This change provides a consistent author-year citation style for better readability and tracking of sources.",
+      "location": "Introduction",
+      "category": "introduction",
+      "focus": "in_text_format"
     },
     {
-      "original_text": "DOI: 10.1186/s12916-021-02188-x",
-      "improved_version": "https://doi.org/10.1186/s12916-021-02188-x",
-      "explanation": "Correct formatting for DOIs with a clickable link.",
-      "location": "References",
-      "category": "doi_format",
-      "focus": "doi_format"
+      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].",
+      "improved_version": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions (Stylianou et al., 2021; Grummon et al., 2023), such as substituting 10% of beef intake with plant-based foods (Stylianou et al., 2021) or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).",
+      "explanation": "Consistent author-year citation style improves clarity and attribution of sources.",
+      "location": "Literature Review",
+      "category": "literature",
+      "focus": "in_text_format"
     },
     {
-      "original_text": "Volume 2 (ASPLOS \u201924)",
-      "improved_version": "Volume 2, Issue 1 (ASPLOS '24)",
-      "explanation": "Including the issue number for better reference specificity.",
+      "original_text": "The study was preregistered and incentive-compatible.",
+      "improved_version": "The study was preregistered and incentive-compatible (O\u2019Sullivan et al., 2023).",
+      "explanation": "Including the author's name enhances the credibility and transparency of the study.",
       "location": "Methodology",
-      "category": "volume_format",
-      "focus": "volume_format"
+      "category": "methodology",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[1] W. Willett, J. Rockstr\u00f6m, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447\u2013492. doi:10.1016/s0140-6736(18)31788-4.",
+      "improved_version": "Willett, W., Rockstr\u00f6m, J., Loken, B., Springmann, M., Lang, T., Vermeulen, S., Garnett, T., Tilman, D., DeClerck, F., Wood, A., Jonell, M., Clark, M., Gordon, L. J., Fanzo, J., Hawkes, C., Zurayk, R., Rivera, J. A., Vries, W. D., Sibanda, L. M., Afshin, A., Chaudhary, A., Herrero, M., Agustina, R., Branca, F., Lartey, A., Fan, S., Crona, B., Fox, E., Bignet, V., Troell, M., Lindahl, T., Singh, S., Cornell, S. E., Reddy, K. S., Narain, S., Nishtar, S., & Murray, C. J. L. (2019). Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems. The Lancet, 393, 447\u2013492. doi:10.1016/s0140-6736(18)31788-4.",
+      "explanation": "Consistent author formatting with initials and full names, correct journal name formatting, and complete volume/page information.",
+      "location": "References",
+      "category": "references",
+      "focus": "author_format, journal_format, volume_format"
+    },
+    {
+      "original_text": "[3] K. S. Stylianou, V. L. Fulgoni, O. Jolliet, Small targeted dietary changes can yield substantial gains for human health and the environment, Nature Food 2 (2021) 616\u2013627. doi:10.1038/s43016-021-00343-4.",
+      "improved_version": "Stylianou, K. S., Fulgoni, V. L., & Jolliet, O. (2021). Small targeted dietary changes can yield substantial gains for human health and the environment. Nature Food, 2, 616\u2013627. doi:10.1038/s43016-021-00343-4.",
+      "explanation": "Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.",
+      "location": "References",
+      "category": "references",
+      "focus": "author_format, journal_format, volume_format"
+    },
+    {
+      "original_text": "[8] A. H. Grummon, C. J. Y. Lee, T. N. Robinson, E. B. Rimm, D. Rose, Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population, Nature Food (2023) 1\u201312. doi:10.1038/s43016-023-00864-0.",
+      "improved_version": "Grummon, A. H., Lee, C. J. Y., Robinson, T. N., Rimm, E. B., & Rose, D. (2023). Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population. Nature Food, 1\u201312. doi:10.1038/s43016-023-00864-0.",
+      "explanation": "Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.",
+      "location": "References",
+      "category": "references",
+      "focus": "author_format, journal_format, volume_format"
     }
   ],
   "detailed_feedback": {
-    "in_text_citation_format": "In-text citations are generally well-formatted with appropriate use of author names and publication years.",
-    "reference_list_format": "The reference list is organized and includes necessary details, but some improvements are needed in DOI formatting and volume/issue numbers.",
-    "citation_style_consistency": "Consistency in citation style is maintained throughout the text.",
-    "reference_completeness": "References are mostly complete, but missing DOIs and volume/issue numbers reduce completeness.",
-    "doi_url_formatting": "DOIs should be formatted as clickable links for easy access to the original sources.",
-    "author_name_formatting": "Author names should be consistently formatted with initials and last names for a professional appearance.",
-    "publication_date_formatting": "Publication dates are correctly formatted with years included.",
-    "journal_name_formatting": "Journal names are appropriately formatted.",
-    "volume_issue_page_formatting": "Volume and issue numbers should be included for journal references for better specificity.",
-    "cross_reference_accuracy": "Cross-references are accurate and relevant within the text."
+    "in_text_citation_format": "In-text citations should follow a consistent style throughout the text, either using numbers or author-year format. Ensure that all sources are properly cited within the text.",
+    "reference_list_format": "The reference list should be formatted consistently following a specific citation style (e.g., APA, Harvard). Include all necessary information such as author names, publication dates, journal names, volume/issue/page numbers, and DOI/URLs.",
+    "citation_style_consistency": "Maintain a uniform citation style (e.g., APA, Harvard) throughout the text to enhance readability and professionalism.",
+    "reference_completeness": "Ensure that all references contain complete information, including page numbers, DOI/URLs, and accurate publication dates, to facilitate easy access to the original sources.",
+    "doi_url_formatting": "Format DOIs consistently with the 'doi:' prefix and correct DOI numbers. Ensure that URLs are active and lead directly to the source.",
+    "author_name_formatting": "Consistently format author names with initials or full names as per the chosen citation style. Use the same name order (e.g., last name, first name) for all authors.",
+    "publication_date_formatting": "Maintain a consistent date format (e.g., year only, full date) for all references to improve clarity and uniformity.",
+    "journal_name_formatting": "Consistently abbreviate or write out journal names in full as per the chosen citation style to avoid confusion and ensure accuracy.",
+    "volume_issue_page_formatting": "Include complete volume, issue, and page numbers for all journal references to enable precise source identification and retrieval.",
+    "cross_reference_accuracy": "Ensure that cross-references within the text accurately point to related sections or findings to enhance the coherence and flow of the paper."
   },
-  "summary": "Overall, the text demonstrates good citation formatting with minor issues in author name consistency, DOI formatting, and missing volume/issue numbers. Improvements in these areas will enhance the professionalism and completeness of the citations."
+  "summary": "The text exhibits several citation formatting issues, including inconsistencies in in-text citations, reference list formatting, and citation style. Improvements are needed in author name formatting, DOI/URL presentation, and cross-referencing accuracy. Enhancing these aspects will elevate the overall quality and credibility of the research paper."
 }

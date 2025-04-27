@@ -3,107 +3,74 @@
   "critical_remarks": [
     {
       "category": "accuracy",
-      "location": "Abstract",
-      "issue": "The MAPE value of 8% mentioned in the Abstract does not align with the MAPE values provided in the Results section.",
+      "location": "References",
+      "issue": "Inconsistent citation styles used throughout the references.",
       "severity": "medium",
-      "impact": "This inconsistency could lead to confusion for readers and affect the credibility of the study."
+      "impact": "May confuse readers and reduce the credibility of the research."
     },
     {
-      "category": "relevance",
-      "location": "Introduction",
-      "issue": "The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.",
-      "severity": "high",
-      "impact": "This omission may weaken the justification for the research and its significance."
+      "category": "quality",
+      "location": "Text",
+      "issue": "Lack of recent sources in the reference list.",
+      "severity": "medium",
+      "impact": "May weaken the relevance and applicability of the research findings."
+    },
+    {
+      "category": "format",
+      "location": "Text",
+      "issue": "Missing DOI numbers for some references.",
+      "severity": "low",
+      "impact": "May hinder readers' ability to access the full source material."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-      "improved_version": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only) using full-torso images.",
-      "explanation": "Remove the comma after 'only' for better clarity and grammatical correctness.",
-      "location": "Abstract",
+      "original_text": "Kevin O\u2019Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina St\u00f6cklic, Elgar Fleischa, Martin Natterc",
+      "improved_version": "Kevin O\u2019Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina St\u00f6ckli, Elgar Fleisch, Martin Natter",
+      "explanation": "Consistent formatting of author names without mixing different styles.",
+      "location": "Text",
       "category": "format",
       "focus": "citation"
     },
     {
-      "original_text": "Due to the heterogeneity of the datasets used in these studies, we currently lack a systematic comparison of different image perspectives for weight estimation.",
-      "improved_version": "Due to the heterogeneity of the datasets used in these studies, there is a current lack of a systematic comparison of different image perspectives for weight estimation.",
-      "explanation": "Clarify the sentence structure for improved readability and coherence.",
-      "location": "Introduction",
-      "category": "completeness",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
-      "improved_version": "Our model demonstrates strong generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.",
-      "explanation": "Replace 'as demonstrated by' with 'as evidenced by' for more accurate expression.",
-      "location": "Discussion",
-      "category": "accuracy",
-      "focus": "citation"
-    },
-    {
-      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Our work also offers insights for remote weight estimation during telemedicine consultations.",
-      "explanation": "Replace 'provides' with 'offers' for a more appropriate tone.",
-      "location": "Discussion",
-      "category": "quality",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "The height of each user was self-reported at the beginning of the fitness program.",
-      "improved_version": "The height of each user was self-reported at the commencement of the fitness program.",
-      "explanation": "Replace 'beginning' with 'commencement' for a more formal and precise term.",
-      "location": "Results",
-      "category": "accuracy",
-      "focus": "citation"
-    },
-    {
-      "original_text": "The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.",
-      "improved_version": "The training dataset exhibits a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.",
-      "explanation": "Change 'has' to 'exhibits' for a more descriptive and accurate representation.",
-      "location": "Discussion",
-      "category": "completeness",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.",
-      "improved_version": "We followed the hyperparameters used by Jin et al. (2022) for their state-of-the-art model.",
-      "explanation": "Replace 'in' with 'for' to correctly attribute the hyperparameters.",
-      "location": "Discussion",
-      "category": "accuracy",
-      "focus": "citation"
-    },
-    {
-      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset.",
-      "improved_version": "The base DenseNet201 model is pre-trained on the ImageNet dataset.",
-      "explanation": "Correct the spelling of 'DenseNet' for consistency.",
-      "location": "Methodology",
+      "original_text": "[1, 2, 3]",
+      "improved_version": "[1-3]",
+      "explanation": "Use a hyphen to indicate a range of consecutive citations for clarity.",
+      "location": "Text",
       "category": "format",
-      "focus": "format"
+      "focus": "citation"
     },
     {
-      "original_text": "Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.",
-      "improved_version": "Our model achieves a MAPE of 13.38% and a MAE of 4.3 BMI units.",
-      "explanation": "Replace 'an' with 'a' before 'MAE' for grammatical accuracy.",
-      "location": "Results",
+      "original_text": "doi:10.1016/s0140-6736(18)31788-4",
+      "improved_version": "DOI: 10.1016/s0140-6736(18)31788-4",
+      "explanation": "Standardize the format for DOI numbers for consistency.",
+      "location": "References",
       "category": "format",
-      "focus": "format"
+      "focus": "citation"
     },
     {
-      "original_text": "The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.",
-      "improved_version": "The introduction lacks a clear statement of the research gap or the novelty of the study compared to existing literature.",
-      "explanation": "Add 'the' before 'novelty' for grammatical correctness.",
-      "location": "Introduction",
-      "category": "completeness",
-      "focus": "relevance"
+      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].",
+      "improved_version": "Research on US populations suggests that dietary carbon footprint could be reduced by 33-35% through small, targeted substitutions (Stylianou & Fulgoni, 2021), such as substituting 10% of beef intake with plant-based foods or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).",
+      "explanation": "Provide specific author names and publication years for each citation to enhance clarity and credibility.",
+      "location": "Text",
+      "category": "accuracy",
+      "focus": "citation"
+    },
+    {
+      "original_text": "Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.",
+      "improved_version": "Participants exposed to the targeted treatment were 1.5 times more likely to choose the most effective GHG-reducing swap.",
+      "explanation": "Use full treatment names for clarity and consistency.",
+      "location": "Text",
+      "category": "format",
+      "focus": "style"
     }
   ],
   "detailed_feedback": {
-    "accuracy_analysis": "The references are mostly accurate in terms of citation details and dataset information. However, there are inconsistencies in reporting certain numerical values.",
-    "completeness_analysis": "The references provide a comprehensive overview of related work, datasets, and methodologies used in the study. However, some sections lack clarity in explaining the relevance of the research.",
-    "format_analysis": "The format is generally consistent, with proper citation styles and reference organization. However, there are minor issues with punctuation and sentence structure in some sections.",
-    "quality_analysis": "The sources cited are relevant and recent, contributing to the credibility of the study. The diversity of sources could be improved by including a wider range of studies from different perspectives.",
-    "organization_analysis": "The reference list is well-organized and follows a logical flow from introduction to results. However, there are areas where the organization could be enhanced for better coherence and clarity."
+    "accuracy_analysis": "The citations within the text are generally accurate, but there are inconsistencies in citation styles and missing details for some references. Cross-referencing is done effectively, but there is room for improvement in providing specific author names and publication years for each citation.",
+    "completeness_analysis": "The reference list is comprehensive, covering a range of relevant sources. However, some references lack DOI numbers, which could limit readers' ability to access the full text. Including more recent sources would enhance the completeness and relevance of the research.",
+    "format_analysis": "The format of the references is generally consistent, but there are variations in citation styles and missing DOI numbers for some sources. Standardizing the citation format and ensuring all references include DOI numbers would improve the overall format consistency.",
+    "quality_analysis": "The sources cited are relevant to the research topic, providing a solid foundation for the study. However, the lack of recent sources in the reference list could impact the quality and applicability of the findings. Including more up-to-date research would enhance the quality and relevance of the study.",
+    "organization_analysis": "The reference list is organized alphabetically by author name, following a standard format. However, the lack of DOI numbers for some sources and inconsistencies in citation styles affect the overall organization. Ensuring all references follow the same format and include DOI numbers would improve the organization of the reference list."
   },
-  "summary": "Overall, the references demonstrate a good level of accuracy and completeness, with relevant and recent sources supporting the study. However, there are some minor issues in format consistency and clarity of presentation. Improvements in citation accuracy, relevance of content, and format consistency can enhance the overall quality of the references."
+  "summary": "Overall, the references demonstrate a good level of accuracy and completeness, with relevant and diverse sources cited. However, there are issues with format consistency, source recency, and citation details that need to be addressed to enhance the overall quality and credibility of the research. Improving citation styles, including DOI numbers for all references, and incorporating more recent sources would significantly strengthen the references."
 }

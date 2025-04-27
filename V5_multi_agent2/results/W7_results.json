@@ -2,64 +2,80 @@
   "audience_alignment_score": 7,
   "critical_remarks": [
     {
+      "category": "technical_depth",
+      "location": "Introduction",
+      "issue": "The technical depth in the introduction is too high for a general audience.",
+      "severity": "medium",
+      "impact": "May alienate readers who are not familiar with the technical aspects of GHG reduction."
+    },
+    {
       "category": "terminology",
-      "location": "Abstract",
-      "issue": "Lack of explanation for technical terms like MAPE and BMI, assuming audience familiarity.",
+      "location": "Methodology",
+      "issue": "The use of 'preregistered and incentive-compatible' may be unclear to non-academic readers.",
       "severity": "medium",
-      "impact": "May alienate readers unfamiliar with field-specific terminology."
+      "impact": "Could lead to confusion and misinterpretation of the study design."
     },
     {
-      "category": "organization",
-      "location": "Methodology section",
-      "issue": "Methodology description lacks a clear step-by-step structure, making it hard to follow.",
-      "severity": "high",
-      "impact": "May lead to confusion and hinder replication of the study."
-    },
-    {
-      "category": "results",
-      "location": "Results section",
-      "issue": "Data presentation lacks visual aids like tables or graphs, making it text-heavy.",
-      "severity": "medium",
-      "impact": "May reduce reader engagement and comprehension."
+      "category": "visuals",
+      "location": "Results",
+      "issue": "Lack of visual aids to complement the data presentation.",
+      "severity": "low",
+      "impact": "Reduces engagement and makes it harder for readers to grasp the results."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Current computer vision-based BMI estimation approaches have mostly utilized datasets containing up to 7,211 full-body images or 14,500 facial images.",
-      "explanation": "Clarifies the sentence structure and improves readability.",
+      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.",
+      "improved_version": "Transitioning from animal-based to plant-based diets is widely recognized as crucial for mitigating the environmental footprint of the global food industry.",
+      "explanation": "Simplifying the language while maintaining the technical essence enhances readability.",
       "location": "Abstract",
-      "category": "terminology",
+      "category": "abstract",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers\u2019 responses to GHG-reducing product swap recommendations.",
+      "improved_version": "Given the potential benefits of small, targeted adjustments, we implemented a randomized controlled trial (RCT) within a simulated online grocery setting to assess consumer reactions to GHG-reducing product substitutions.",
+      "explanation": "Clarifying the purpose and context of the study improves audience understanding.",
+      "location": "Introduction",
+      "category": "introduction",
       "focus": "technical_depth"
     },
     {
-      "original_text": "We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.",
-      "improved_version": "Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.",
-      "explanation": "Enhances clarity and ensures the audience understands the technical metric.",
+      "original_text": "Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted...",
+      "improved_version": "Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)), which emphasized the most efficient GHG-reducing product swap...",
+      "explanation": "Enhancing clarity and consistency in terminology aids comprehension.",
+      "location": "Methodology",
+      "category": "methodology",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product...",
+      "improved_version": "Irrespective of the treatment variations, our findings indicate a substantial impact from providing product swap suggestions, with 88% of participants opting to exchange at least one item...",
+      "explanation": "Strengthening the language and structure enhances the impact of the results presentation.",
       "location": "Results",
       "category": "results",
-      "focus": "technical_depth"
+      "focus": "writing_formality"
     },
     {
-      "original_text": "We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.",
-      "improved_version": "Our BMI estimation approach is practically demonstrated by implementing image filtering and BMI estimation algorithms in Python on mobile devices through the CLAID framework.",
-      "explanation": "Streamlines the sentence and improves readability.",
+      "original_text": "Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.",
+      "improved_version": "Our research offers valuable insights for policymakers aiming to promote plant-based dietary choices by demonstrating the efficacy of pre-checkout, basket-level product swap recommendations in encouraging the selection of plant-based options.",
+      "explanation": "Refining the conclusion to focus on actionable insights enhances its relevance.",
       "location": "Conclusion",
       "category": "conclusion",
-      "focus": "formality"
+      "focus": "conclusion_format"
     }
   ],
   "detailed_feedback": {
-    "technical_depth": "The text provides a detailed explanation of the methodology and results, catering to an audience familiar with deep learning and computer vision.",
-    "terminology_usage": "The field-specific terminology is used appropriately, but some terms could benefit from brief explanations for non-experts.",
-    "writing_formality": "The writing style is formal and academic, suitable for a research audience.",
-    "section_organization": "The sections are well-defined, but the methodology description could benefit from a clearer step-by-step structure.",
-    "visual_integration": "Visual aids like tables and graphs are lacking in the results section, which could enhance data presentation.",
-    "reference_style": "The references are appropriately cited, providing context and background for the study.",
-    "methodology_detail": "The methodology description is detailed but could be organized more clearly for better understanding.",
-    "results_presentation": "The results are presented clearly but could be enhanced with visual elements for better comprehension.",
-    "discussion_depth": "The discussion provides insights into the findings but could delve deeper into the implications and future directions.",
-    "conclusion_format": "The conclusion summarizes the key findings effectively but could be structured more succinctly."
+    "technical_depth": "The text demonstrates a high level of technical depth appropriate for an academic audience familiar with GHG reduction strategies and experimental design.",
+    "terminology_usage": "Field-specific terminology is used consistently throughout the text, enhancing clarity for readers familiar with environmental science and consumer behavior research.",
+    "writing_formality": "The writing style maintains a formal tone suitable for an academic research paper, but some sections could benefit from simplification to improve accessibility.",
+    "section_organization": "The text is well-structured with clear delineation of sections, but some subsections could be further refined for smoother transitions.",
+    "visual_integration": "Visual elements are lacking in the presentation of results, which could be improved by incorporating graphs or tables to enhance data visualization.",
+    "reference_style": "The reference list is comprehensive and includes a range of relevant sources, providing a solid foundation for the research.",
+    "methodology_detail": "The methodology description provides sufficient detail on the experimental setup, randomization process, and treatment groups, ensuring transparency and replicability.",
+    "results_presentation": "The results are presented clearly, but the addition of visual aids could enhance the understanding and impact of the findings.",
+    "discussion_depth": "The discussion delves into the implications of the results, but could benefit from further analysis and interpretation to deepen the insights.",
+    "conclusion_format": "The conclusion summarizes the key findings effectively but could be strengthened by emphasizing actionable recommendations for policymakers and future research directions."
   },
-  "summary": "The research demonstrates a strong technical depth and appropriate use of field-specific terminology. However, improvements are needed in organizing the methodology section for clarity, integrating visual elements for better data presentation, and enhancing the discussion depth. Overall, the study aligns well with a research audience but could benefit from minor adjustments to enhance audience engagement and comprehension."
+  "summary": "Overall, the text demonstrates a strong alignment with an academic audience in terms of technical depth and terminology usage. However, improvements in writing formality, visual integration, and discussion depth could enhance audience engagement and comprehension. Refinements in conclusion format and section organization would further improve the overall coherence and impact of the research paper."
 }
