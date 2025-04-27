@@ -3,74 +3,121 @@
   "critical_remarks": [
     {
       "category": "accuracy",
-      "location": "References",
-      "issue": "Inconsistent citation styles used throughout the references.",
+      "location": "Reference list organization",
+      "issue": "Incomplete reference details for some sources, missing publication dates",
       "severity": "medium",
-      "impact": "May confuse readers and reduce the credibility of the research."
+      "impact": "Affects the credibility and replicability of the research"
     },
     {
-      "category": "quality",
-      "location": "Text",
-      "issue": "Lack of recent sources in the reference list.",
+      "category": "completeness",
+      "location": "Citation accuracy",
+      "issue": "Inconsistencies in author affiliations and missing DOI numbers",
       "severity": "medium",
-      "impact": "May weaken the relevance and applicability of the research findings."
+      "impact": "May hinder readers from accessing the original sources"
     },
     {
       "category": "format",
-      "location": "Text",
-      "issue": "Missing DOI numbers for some references.",
+      "location": "Citation-text alignment",
+      "issue": "Lack of direct citations in some sections of the text",
       "severity": "low",
-      "impact": "May hinder readers' ability to access the full source material."
+      "impact": "Weakens the connection between text and supporting references"
+    },
+    {
+      "category": "quality",
+      "location": "Source relevance",
+      "issue": "Limited discussion on the relevance of some references to the study",
+      "severity": "medium",
+      "impact": "Weakens the foundation of the research"
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Kevin O\u2019Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina St\u00f6cklic, Elgar Fleischa, Martin Natterc",
-      "improved_version": "Kevin O\u2019Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina St\u00f6ckli, Elgar Fleisch, Martin Natter",
-      "explanation": "Consistent formatting of author names without mixing different styles.",
-      "location": "Text",
-      "category": "format",
+      "original_text": "Grummon AH, Musicus AA, Moran AJ, Salvia MG, Rimm EB.",
+      "improved_version": "Grummon AH, Musicus AA, Moran AJ, Salvia MG, Rimm EB. (2023).",
+      "explanation": "Adding publication year enhances reference completeness and allows for easier tracking of sources.",
+      "location": "Reference list organization",
+      "category": "completeness",
       "focus": "citation"
     },
     {
-      "original_text": "[1, 2, 3]",
-      "improved_version": "[1-3]",
-      "explanation": "Use a hyphen to indicate a range of consecutive citations for clarity.",
-      "location": "Text",
-      "category": "format",
+      "original_text": "United States Food and Drug Administration Human Foods Program.",
+      "improved_version": "United States Food and Drug Administration Human Foods Program. (2024).",
+      "explanation": "Including the publication year provides essential information for source identification.",
+      "location": "Citation accuracy",
+      "category": "completeness",
       "focus": "citation"
     },
     {
-      "original_text": "doi:10.1016/s0140-6736(18)31788-4",
-      "improved_version": "DOI: 10.1016/s0140-6736(18)31788-4",
-      "explanation": "Standardize the format for DOI numbers for consistency.",
-      "location": "References",
-      "category": "format",
-      "focus": "citation"
+      "original_text": "eFigure 1 shows an example page.",
+      "improved_version": "eFigure 1 illustrates an example page (Grummon et al., 2023).",
+      "explanation": "Linking the figure to the reference enhances citation-text alignment.",
+      "location": "Citation-text alignment",
+      "category": "completeness",
+      "focus": "reference"
     },
     {
-      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].",
-      "improved_version": "Research on US populations suggests that dietary carbon footprint could be reduced by 33-35% through small, targeted substitutions (Stylianou & Fulgoni, 2021), such as substituting 10% of beef intake with plant-based foods or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).",
-      "explanation": "Provide specific author names and publication years for each citation to enhance clarity and credibility.",
-      "location": "Text",
+      "original_text": "Almost no studies have evaluated these Nutrition Info labels.",
+      "improved_version": "Limited research has assessed the effectiveness of Nutrition Info labels (Grummon et al., 2023).",
+      "explanation": "Providing a direct citation strengthens the statement and aligns it with supporting evidence.",
+      "location": "Introduction",
       "category": "accuracy",
       "focus": "citation"
     },
     {
-      "original_text": "Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.",
-      "improved_version": "Participants exposed to the targeted treatment were 1.5 times more likely to choose the most effective GHG-reducing swap.",
-      "explanation": "Use full treatment names for clarity and consistency.",
-      "location": "Text",
+      "original_text": "The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.",
+      "improved_version": "The study findings indicated that spectrum labels resulted in healthier selections compared to all other tested labeling systems (Grummon et al., 2023).",
+      "explanation": "Including the study reference enhances the credibility of the statement.",
+      "location": "Discussion",
+      "category": "accuracy",
+      "focus": "citation"
+    },
+    {
+      "original_text": "First, we examined the effects of the front-of-package labels on the primary outcome of healthfulness...",
+      "improved_version": "Initially, the study assessed the impact of front-of-package labels on the primary outcome of healthfulness...",
+      "explanation": "Restructuring the sentence for clarity and conciseness.",
+      "location": "Methods",
       "category": "format",
+      "focus": "style"
+    },
+    {
+      "original_text": "We randomized 6,002 participants; of these, 5,636 participants were included in the analyses...",
+      "improved_version": "Out of 6,002 participants randomized, 5,636 were included in the analyses...",
+      "explanation": "Rephrasing for improved readability and flow.",
+      "location": "Results",
+      "category": "format",
+      "focus": "style"
+    },
+    {
+      "original_text": "In this randomized trial in a large sample of US adults...",
+      "improved_version": "The randomized trial conducted in a large sample of US adults...",
+      "explanation": "Enhancing the introductory statement for clarity and precision.",
+      "location": "Introduction",
+      "category": "quality",
+      "focus": "style"
+    },
+    {
+      "original_text": "The effects of the labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.",
+      "improved_version": "There was no significant variation in the effects of the labels on healthfulness based on nutrition literacy, income, or educational attainment.",
+      "explanation": "Providing a more detailed and precise statement.",
+      "location": "Results",
+      "category": "accuracy",
+      "focus": "style"
+    },
+    {
+      "original_text": "Together, these results suggest that adopting spectrum labels could improve diet quality without exacerbating health disparities.",
+      "improved_version": "The collective findings indicate that implementing spectrum labels may enhance diet quality without worsening health disparities.",
+      "explanation": "Enhancing the conclusion for clarity and impact.",
+      "location": "Discussion",
+      "category": "quality",
       "focus": "style"
     }
   ],
   "detailed_feedback": {
-    "accuracy_analysis": "The citations within the text are generally accurate, but there are inconsistencies in citation styles and missing details for some references. Cross-referencing is done effectively, but there is room for improvement in providing specific author names and publication years for each citation.",
-    "completeness_analysis": "The reference list is comprehensive, covering a range of relevant sources. However, some references lack DOI numbers, which could limit readers' ability to access the full text. Including more recent sources would enhance the completeness and relevance of the research.",
-    "format_analysis": "The format of the references is generally consistent, but there are variations in citation styles and missing DOI numbers for some sources. Standardizing the citation format and ensuring all references include DOI numbers would improve the overall format consistency.",
-    "quality_analysis": "The sources cited are relevant to the research topic, providing a solid foundation for the study. However, the lack of recent sources in the reference list could impact the quality and applicability of the findings. Including more up-to-date research would enhance the quality and relevance of the study.",
-    "organization_analysis": "The reference list is organized alphabetically by author name, following a standard format. However, the lack of DOI numbers for some sources and inconsistencies in citation styles affect the overall organization. Ensuring all references follow the same format and include DOI numbers would improve the organization of the reference list."
+    "accuracy_analysis": "The references lack complete details such as publication years and DOI numbers, affecting the accuracy of citations.",
+    "completeness_analysis": "Some references have inconsistencies in author affiliations and missing DOI numbers, impacting the completeness of the sources.",
+    "format_analysis": "There are instances where direct citations are missing in the text, leading to format inconsistencies.",
+    "quality_analysis": "Limited discussion on the relevance of some references weakens the quality of the sources used in the study.",
+    "organization_analysis": "The reference list lacks consistent formatting and complete details, affecting the overall organization of the references."
   },
-  "summary": "Overall, the references demonstrate a good level of accuracy and completeness, with relevant and diverse sources cited. However, there are issues with format consistency, source recency, and citation details that need to be addressed to enhance the overall quality and credibility of the research. Improving citation styles, including DOI numbers for all references, and incorporating more recent sources would significantly strengthen the references."
+  "summary": "The references in the manuscript show some issues related to accuracy, completeness, format, and quality. Improvements are needed in providing complete reference details, ensuring citation-text alignment, and enhancing the relevance and quality of the sources. Additionally, restructuring sentences for clarity and consistency in formatting will enhance the overall quality of the references."
 }

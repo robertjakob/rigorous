@@ -1,178 +1,65 @@
 {
-  "clarity_conciseness_score": 5,
+  "clarity_conciseness_score": 6,
   "critical_remarks": [
     {
-      "category": "language_simplicity",
-      "location": "Abstract",
-      "issue": "The abstract contains complex language that may be difficult for non-experts to understand.",
-      "severity": "medium",
-      "impact": "Reduces accessibility and may deter readers."
-    },
-    {
       "category": "jargon",
-      "location": "Literature Review",
-      "issue": "The literature review section contains jargon that is not explained, assuming prior knowledge.",
-      "severity": "high",
-      "impact": "Excludes readers who are not familiar with the terminology."
+      "location": "Abstract",
+      "issue": "The use of technical terms like 'Ofcom Nutrient Profiling Model scores' may be unclear to a general audience.",
+      "severity": "medium",
+      "impact": "This can hinder understanding of the study's objectives."
     },
     {
       "category": "wordiness",
-      "location": "Discussion",
-      "issue": "The discussion section is wordy and could be more concise to enhance clarity.",
-      "severity": "medium",
-      "impact": "May confuse readers and dilute the main arguments."
-    },
-    {
-      "category": "sentence_length",
-      "location": "Results",
-      "issue": "Some sentences in the results section are overly long, making it harder to follow the findings.",
-      "severity": "medium",
-      "impact": "Increases cognitive load for readers."
-    },
-    {
-      "category": "paragraph_length",
       "location": "Introduction",
-      "issue": "The introduction contains lengthy paragraphs that could be broken down for better readability.",
+      "issue": "The paragraph discussing the causes of poor diet quality is verbose and could be more concise.",
       "severity": "low",
-      "impact": "Affects the flow and engagement of the reader."
-    },
-    {
-      "category": "active_passive_voice",
-      "location": "Methodology",
-      "issue": "The methodology section predominantly uses passive voice, which can make the process description less engaging.",
-      "severity": "medium",
-      "impact": "Reduces the clarity and directness of the description."
+      "impact": "Reduces the clarity and makes the text less engaging."
     },
     {
       "category": "redundancy",
-      "location": "Conclusion",
-      "issue": "The conclusion repeats information already stated in the results section, leading to redundancy.",
+      "location": "Results",
+      "issue": "Repetition of the phrase 'positive labels' in multiple sentences.",
       "severity": "low",
-      "impact": "Distracts readers and wastes space."
-    },
-    {
-      "category": "ambiguity",
-      "location": "Technical Content",
-      "issue": "Some technical terms are used ambiguously, potentially confusing readers.",
-      "severity": "medium",
-      "impact": "Compromises the accuracy of the information conveyed."
-    },
-    {
-      "category": "readability",
-      "location": "Abstract",
-      "issue": "The abstract lacks a clear structure, making it challenging to grasp the main points quickly.",
-      "severity": "medium",
-      "impact": "Hinders the ability of readers to understand the research at a glance."
-    },
-    {
-      "category": "information_density",
-      "location": "Discussion",
-      "issue": "The discussion section lacks sufficient information density, missing opportunities to delve deeper into the implications of the findings.",
-      "severity": "medium",
-      "impact": "Limits the depth of analysis and insights provided."
+      "impact": "Creates unnecessary redundancy and affects the flow of information."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.",
-      "improved_version": "Transitioning from animal to plant-based diets is crucial for reducing the environmental impact of the global food system.",
-      "explanation": "Simplified language and more direct phrasing enhance clarity and conciseness.",
+      "original_text": "To test whether 'Nutrition Info' front-of-package food labels proposed by the US Food and Drug Administration (FDA) increase purchase healthfulness compared to other existing or proposed food labeling systems.",
+      "improved_version": "To evaluate if the 'Nutrition Info' labels proposed by the FDA enhance the healthfulness of purchases compared to other labeling systems.",
+      "explanation": "Simplified the sentence by removing unnecessary details and jargon.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.",
-      "improved_version": "Studies on US populations indicate that making small, targeted dietary substitutions can reduce the carbon footprint by 33% - 35%.",
-      "explanation": "Rephrasing for clarity and simplicity improves understanding for a wider audience.",
+      "original_text": "Poor diet quality is responsible for approximately 500,000 deaths and more than $50 billion in healthcare costs in the US every year.",
+      "improved_version": "Poor diet quality causes 500,000 deaths and over $50 billion in healthcare costs annually in the US.",
+      "explanation": "Condensed the information for better readability and conciseness.",
       "location": "Introduction",
       "category": "introduction",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C, where the products swaps were displayed without GHG reduction information and without any indication of the most effective GHG-reducing product swap.",
-      "improved_version": "Participants were assigned to one of four experimental groups: targeted treatment (T(Targeted)), information treatment (T(Info)), combined targeted and information group (T(Targeted x Info)), and control group (C).",
-      "explanation": "Simplifying the description of experimental groups reduces complexity and improves readability.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).",
-      "improved_version": "Our results indicate a strong impact of providing product swap recommendations, with 88% of participants swapping at least one product, resulting in an average basket GHG reduction of 25% (SD = 18%).",
-      "explanation": "Restructuring for clarity and conciseness improves the flow of information.",
-      "location": "Results",
-      "category": "results",
       "focus": "wordiness"
     },
     {
-      "original_text": "Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.",
-      "improved_version": "Our research demonstrates that pre-checkout, basket-level product swap recommendations can effectively encourage plant-based food purchases, aiding policymakers in promoting dietary shifts towards more plant consumption.",
-      "explanation": "Streamlining the message and eliminating redundancy enhances clarity and impact.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "redundancy"
-    },
-    {
-      "original_text": "In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers\u2019 responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.",
-      "improved_version": "Given the potential of targeted, small changes, we conducted a randomized controlled trial (RCT) in a simulated online supermarket to assess consumer responses to GHG-reducing product swap recommendations and their subsequent GHG reductions.",
-      "explanation": "Clarifying the purpose and context of the study enhances understanding and engagement.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.",
-      "improved_version": "Participants received a standard shopping basket for the average 2-person German household and navigated through the online supermarket.",
-      "explanation": "Simplifying the description improves readability and engagement.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.",
-      "improved_version": "In summary, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant decrease in basket GHG emissions.",
-      "explanation": "Enhancing clarity and structure aids in summarizing key findings effectively.",
-      "location": "Results",
-      "category": "results",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.",
-      "improved_version": "Additionally, our study emphasizes the effectiveness of recommending product swaps with GHG reduction information for frequent meat eaters, a crucial consumer group to target.",
-      "explanation": "Rephrasing for clarity and conciseness strengthens the impact of the statement.",
+      "original_text": "In this randomized trial in a large sample of US adults, 'spectrum' food labels that rated all foods from least to most healthy led participants to select modestly healthier foods and beverages compared to the status quo of displaying only positive labels on healthier foods.",
+      "improved_version": "This study found that 'spectrum' food labels, rating foods from least to most healthy, resulted in slightly healthier food choices compared to the current practice of using positive labels on healthier foods.",
+      "explanation": "Clarified the sentence structure and simplified the language.",
       "location": "Discussion",
       "category": "discussion",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.",
-      "improved_version": "Subsequent studies should concentrate on implementing and evaluating these pre-checkout, basket-level swap recommendations in real-world settings.",
-      "explanation": "Clarifying the direction for future research enhances the actionable insights provided.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "A shift from current diets to diets that exclude animal-based products would reduce the food system\u2019s land use by 76% and greenhouse gas emissions (GHG) by around 50%.",
-      "improved_version": "Transitioning from current diets to plant-based diets would cut the food system's land use by 76% and greenhouse gas emissions (GHG) by approximately 50%.",
-      "explanation": "Simplifying complex concepts and restructuring for clarity improves comprehension.",
-      "location": "Abstract",
-      "category": "abstract",
       "focus": "language_simplicity"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The text contains a mix of complex and straightforward language, making it challenging for readers to follow consistently. Simplifying terminology and phrasing would enhance accessibility and understanding.",
-    "jargon_usage": "The use of jargon without clear explanations limits the audience to those familiar with the specific terms. Providing definitions or simplifying technical language would improve inclusivity and comprehension.",
-    "wordiness": "Some sections are verbose and could benefit from concise rephrasing to convey information more effectively. Eliminating unnecessary words and streamlining sentences would enhance clarity and engagement.",
-    "sentence_length": "Several sentences are overly long, leading to potential confusion and difficulty in following the information. Breaking down complex sentences into shorter, clearer ones would improve readability and comprehension.",
-    "paragraph_length": "Paragraphs vary in length, with some being too lengthy, affecting the flow of information. Breaking down lengthy paragraphs into smaller, focused ones would enhance readability and engagement.",
-    "active_passive_voice": "The text predominantly uses passive voice in the methodology section, which can make descriptions less engaging and direct. Incorporating more active voice would improve clarity and reader engagement.",
-    "redundancy": "There are instances of redundancy, where information is repeated unnecessarily across sections. Removing redundant content and consolidating key points would enhance clarity and conciseness.",
-    "ambiguity": "Certain technical terms are used ambiguously, potentially causing confusion among readers. Providing clear definitions or using terms consistently would improve the accuracy and understanding of the content.",
-    "readability": "The text lacks consistent readability, with some sections being more accessible than others. Improving the structure, simplifying language, and enhancing coherence would make the text more reader-friendly.",
-    "information_density": "Some sections lack sufficient depth and detail, missing opportunities to provide in-depth analysis. Increasing the information density by expanding on key points and insights would enhance the richness of the content."
+    "language_simplicity": "The text uses technical terms and complex language that may be challenging for a general audience to understand. Simplifying the vocabulary and sentence structures would enhance clarity.",
+    "jargon_usage": "There is a significant amount of jargon related to food labeling systems, nutrient profiling, and regulatory terms. Explaining these terms in simpler language or providing definitions would improve comprehension.",
+    "wordiness": "Several paragraphs contain unnecessary wordiness and could be more concise without losing important information. Streamlining the text would make it more engaging and easier to follow.",
+    "sentence_length": "The text contains long sentences that could be broken down into shorter, more digestible segments. Shorter sentences improve readability and help convey information more effectively.",
+    "paragraph_length": "Some paragraphs are lengthy and cover multiple ideas, leading to information overload. Breaking down paragraphs into smaller, focused sections would enhance readability and understanding.",
+    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice would improve clarity and make the text more dynamic.",
+    "redundancy": "There are instances of redundant phrases and repetitive information that could be streamlined to avoid unnecessary repetition and maintain a smooth flow of information.",
+    "ambiguity": "Certain sections contain ambiguous terms or vague descriptions that could be clarified for better understanding. Providing specific examples or explanations would reduce ambiguity.",
+    "readability": "Overall, the text's readability could be improved by simplifying language, breaking down complex sentences, and organizing information into more digestible chunks.",
+    "information_density": "The text contains dense information, which may overwhelm readers. Balancing the amount of information presented and ensuring it is structured logically would enhance information density."
   },
-  "summary": "The text exhibits a mix of strengths and areas for improvement in terms of clarity and conciseness. While the content covers important research findings, there are opportunities to enhance accessibility through simplifying language, reducing jargon, and improving the structure of the text. Addressing issues such as wordiness, sentence length, and redundancy would significantly improve the overall readability and impact of the research."
+  "summary": "The text exhibits moderate clarity and conciseness issues, primarily related to jargon usage, wordiness, and redundancy. Simplifying language, reducing complexity, and enhancing sentence structures would significantly improve readability and comprehension."
 }

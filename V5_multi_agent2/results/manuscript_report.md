@@ -1,6 +1,6 @@
 # Manuscript Review Report
 
-Generated on: 2025-04-27 15:37:17
+Generated on: 2025-04-27 16:30:54
 
 ## Important Notes
 
@@ -45,8 +45,8 @@ Generated on: 2025-04-27 15:37:17
 
 ## Overall Assessment
 
-The manuscript received an average score of 6.20/10 across all evaluation criteria.
-A total of 103 critical remarks and 124 improvement suggestions were identified.
+The manuscript received an average score of 6.56/10 across all evaluation criteria.
+A total of 75 critical remarks and 124 improvement suggestions were identified.
 
 ## Agent Reports
 
@@ -56,7 +56,7 @@ A total of 103 critical remarks and 124 improvement suggestions were identified.
 ### Score: 7/10
 
 ### Summary
-The title 'Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations' is clear, accurate, impactful, and follows field conventions. However, it could be further optimized for search engines by incorporating specific terms related to the study. The suggested improved title 'Optimizing Green Choices: Enhancing GHG Reduction Through Pre-Checkout Product Swaps' balances all aspects by enhancing clarity, accuracy, impact, SEO, and standards, making it more discoverable and appealing to the target audience.
+The title effectively conveys the comparison between different front-of-package food labels, with a focus on the Spectrum Food Labels and FDA's Nutrition Info Label. The title could be further optimized for search engines to enhance discoverability. Overall, the title aligns well with field conventions and effectively communicates the study's focus to the audience.
 
 ### Critical Remarks
 No critical remarks identified.
@@ -69,18 +69,18 @@ No critical remarks identified.
 **Focus**: comprehensive_improvement  
 
 **Original Text**:  
-> Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations
+> Testing FDA’s proposed “Nutrition Info” label against other front-of-package food labels: A randomized trial
 
 **Improved Version**:  
-> Optimizing Green Choices: Enhancing GHG Reduction Through Pre-Checkout Product Swaps
+> Comparing Spectrum Food Labels to FDA's Nutrition Info Label: A Randomized Trial
 
 **Explanation**:  
-The improved title balances clarity by using 'Optimizing' instead of 'Guiding', accuracy by emphasizing 'Enhancing GHG Reduction', impact by 'Enhancing' and 'Optimizing', SEO by including 'GHG Reduction' and 'Pre-Checkout', and standards by focusing on 'Green Choices' and 'Product Swaps'.
+The improved title maintains clarity by specifying the comparison between Spectrum Food Labels and FDA's Nutrition Info Label. It accurately represents the content of the study by highlighting the key labels being tested. The title captures attention by emphasizing the innovative Spectrum Food Labels and their comparison to the FDA's proposed label. It is optimized for search engines by including relevant terms like 'Spectrum Food Labels' and 'FDA's Nutrition Info Label'. The title follows field conventions by clearly indicating the experimental nature of the study.
 
 ### Detailed Feedback
 ### Title Analysis
 
-The current title 'Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations' is clear in its focus on guiding choices for environmental impact reduction through product swaps. It accurately represents the content by mentioning GHG reduction and pre-checkout swaps. The title has impact by emphasizing the importance of these actions. It is somewhat optimized for search engines but could be improved. The title follows field conventions by including keywords related to environmental impact and product swaps.
+The current title is clear and understandable, accurately representing the comparison between different front-of-package food labels. It captures attention by mentioning the FDA's proposed 'Nutrition Info' label. The title is somewhat optimized for search engines but could be improved by including more specific terms. It follows field conventions by indicating the experimental nature of the study.
 
 ### Keywords Analysis
 
@@ -88,343 +88,386 @@ No keywords section found
 
 ### Guidelines Compliance
 
-The title adheres to field conventions by including keywords related to environmental impact and product swaps. It could be improved for better search engine optimization by focusing on specific terms related to the study, such as 'GHG reduction', 'product swaps', and 'pre-checkout'.
+The title and keywords section comply with field conventions by clearly indicating the experimental nature of the study and the comparison between different food labels.
 
 ### Discoverability Assessment
 
-The title could be more discoverable by incorporating specific terms related to the study, such as 'GHG reduction', 'product swaps', and 'pre-checkout'. This would enhance search engine optimization and make the study more visible to relevant audiences.
+The title could be further optimized for search engines by including specific terms related to the study, such as 'Spectrum Food Labels' and 'FDA's Nutrition Info Label'. This optimization would enhance the discoverability of the study.
 
 ### Audience Alignment
 
-The title effectively communicates the focus on guiding green choices and the impact of pre-checkout GHG-reducing product swap recommendations. It appeals to audiences interested in environmental impact reduction and sustainable consumption practices.
+The title effectively communicates the focus of the study to the audience, highlighting the comparison between different front-of-package food labels and the experimental nature of the research.
 
 ## S2 - Abstract
 ### Score: 7/10
 
 ### Summary
-The abstract demonstrates a strong foundation in terms of content completeness and adherence to scientific writing standards. However, improvements are needed in structuring the abstract, providing detailed methodology descriptions, enhancing clarity in presenting results, explicitly stating study limitations, and emphasizing the broader implications of the findings. Addressing these areas would enhance the overall quality and impact of the research.
+The abstract demonstrates a solid structure and covers essential components of a research study. However, improvements are needed in providing more detailed methodology, contextualizing results, and strengthening the conclusion for better impact and clarity.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: structure  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear introductory sentence summarizing the purpose of the study.  
+**Category**: clarity  
+**Location**: Abstract - Methods  
+**Issue**: The methodology description lacks details on randomization procedures, blinding, and potential biases.  
 **Severity**: medium  
-**Impact**: Readers may struggle to quickly grasp the main focus of the research.
+**Impact**: This omission undermines the credibility of the study and raises concerns about internal validity.
 
 ### Remark 2
 
 **Category**: content  
-**Location**: Methodology description  
-**Issue**: The methodology description lacks details on randomization process and participant demographics.  
-**Severity**: high  
-**Impact**: Readers may question the validity and generalizability of the study.
+**Location**: Abstract - Results  
+**Issue**: The presentation of results lacks context on the statistical significance and practical implications of the findings.  
+**Severity**: medium  
+**Impact**: Readers may struggle to interpret the significance of the results without this crucial information.
 
 ### Remark 3
 
-**Category**: clarity  
-**Location**: Results presentation  
-**Issue**: The presentation of results lacks clarity due to the complex statistical information.  
-**Severity**: medium  
-**Impact**: Readers may find it challenging to interpret the key findings.
-
-### Remark 4
-
 **Category**: standards  
-**Location**: Scientific writing standards  
-**Issue**: The abstract lacks explicit mention of the study limitations.  
+**Location**: Abstract - Conclusion  
+**Issue**: The conclusion lacks a clear summary of the study's implications and recommendations for future research or policy.  
 **Severity**: medium  
-**Impact**: Readers may question the robustness of the study without understanding its limitations.
-
-### Remark 5
-
-**Category**: impact  
-**Location**: Conclusion  
-**Issue**: The conclusion does not explicitly mention the implications of the findings for future research or policy.  
-**Severity**: medium  
-**Impact**: Readers may struggle to understand the broader significance of the study.
+**Impact**: A stronger conclusion is essential to provide closure and guide readers on the study's contributions.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Abstract - Methods  
 **Category**: clarity  
 **Focus**: readability  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> We conducted a randomized trial in October-November 2024 (n=5,636 US adults).
 
 **Improved Version**:  
-> Transitioning from animal products to plant-based foods is widely recognized as a crucial step in mitigating the environmental footprint of the global food system.
+> A randomized trial was conducted in October-November 2024 involving 5,636 US adults.
 
 **Explanation**:  
-Enhances readability by simplifying language and improving flow.
+Improving sentence structure for better readability and clarity.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: content  
-**Focus**: completeness  
+**Location**: Abstract - Results  
+**Category**: clarity  
+**Focus**: readability  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
+> The spectrum labels led participants to make healthier purchases compared to both the positive labels only...
 
 **Improved Version**:  
-> Studies on US populations indicate that making small, targeted dietary substitutions could lead to a significant reduction of 33% - 35% in the dietary carbon footprint.
+> Spectrum labels resulted in healthier purchases compared to positive labels...
 
 **Explanation**:  
-Provides more specific information and improves precision.
+Simplify and streamline the sentence for clearer communication.
 
 ### Suggestion 3
 
-**Location**: Methodology description  
-**Category**: clarity  
-**Focus**: readability  
+**Location**: Abstract - Conclusion  
+**Category**: content  
+**Focus**: impact  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted.
+> Together, these results suggest that adopting spectrum labels could improve diet quality without exacerbating health disparities.
 
 **Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T(Targeted)) where the most effective GHG-reducing product swap was explicitly highlighted.
+> These findings indicate that implementing spectrum labels may enhance diet quality without worsening health disparities.
 
 **Explanation**:  
-Clarifies the randomization process and improves readability.
-
-### Suggestion 4
-
-**Location**: Results presentation  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
-
-**Improved Version**:  
-> Irrespective of the specific treatments, our findings indicate a strong impact of providing product swap recommendations. Out of 1070 participants, 88% engaged in at least one product swap, resulting in an average basket GHG reduction of 25% (SD = 18%).
-
-**Explanation**:  
-Enhances clarity and precision in reporting the results.
-
-### Suggestion 5
-
-**Location**: Conclusion  
-**Category**: impact  
-**Focus**: contributions  
-
-**Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
-
-**Improved Version**:  
-> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a critical consumer group to target.
-
-**Explanation**:  
-Improves the impact communication and emphasizes the significance of the findings.
+Enhancing the impact of the statement and improving clarity.
 
 ### Detailed Feedback
 ### Structure Analysis
 
-The abstract lacks a clear introductory sentence to set the context and purpose of the study. It would benefit from a more structured approach with distinct sections for background, methodology, results, and conclusion.
+The abstract follows a standard structure with clear sections like Objectives, Methods, Results, and Conclusions. However, the flow could be improved by providing more seamless transitions between sections.
 
 ### Content Analysis
 
-The abstract provides a comprehensive overview of the study background, methodology, results, and implications. However, it lacks specific details on participant demographics and randomization process, which are crucial for assessing the study's validity.
+The abstract is mostly complete in terms of content, covering objectives, methods, results, and conclusions. However, some sections lack depth, such as the methodology description and the context for the results.
 
 ### Clarity Assessment
 
-The abstract is written in a formal tone with technical terms, which may hinder readability for non-experts. The results presentation could be simplified to enhance clarity and understanding for a broader audience.
+The abstract is generally clear and concise, but there are instances of complex sentences and technical terms that may hinder readability for non-experts.
 
 ### Standards Compliance
 
-The abstract adheres to scientific writing standards in terms of referencing previous research and providing a clear research question. However, it could improve by explicitly stating the study limitations to enhance transparency and credibility.
+The abstract adheres to scientific writing standards in terms of structure and content presentation. However, it could benefit from more explicit references to prior literature and theoretical frameworks.
 
 ### Impact Evaluation
 
-The study findings have significant implications for promoting sustainable food choices and reducing greenhouse gas emissions. However, the abstract could better articulate the broader impact of the research on policy-making and future studies.
+The study addresses an important issue related to food labeling and consumer behavior. The results have implications for public health policies and consumer decision-making.
 
 ## S3 - Introduction
 ### Score: 7/10
 
 ### Summary
-The introduction of the study provides a basic background on the importance of dietary shifts for environmental impact reduction. However, it lacks a comprehensive overview of existing research, clear objectives, and a strong justification for the study's significance. The organization of information could be improved to enhance the flow and readability of the introduction. Addressing these issues would strengthen the overall quality and effectiveness of the introduction.
+The introduction provides a solid foundation by addressing the background context, problem statement, research objectives, significance of the study, and integrating relevant literature. However, improvements are needed to enhance the specificity of data, clarify comparisons, and strengthen the impact of the findings. Ensuring smoother transitions and providing more detailed explanations can enhance the overall quality and effectiveness of the introduction.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: context  
-**Location**: Introduction  
-**Issue**: The introduction lacks a clear overview of the current state of research in the field of environmental impact reduction through dietary changes.  
+**Category**: significance  
+**Location**: Introduction, Paragraph 39  
+**Issue**: The significance of the problem is mentioned but lacks specific data or statistics to emphasize the severity of the issue.  
 **Severity**: medium  
-**Impact**: This omission may make it challenging for readers to understand the significance of the study.
+**Impact**: Weakens the justification for the research.
 
 ### Remark 2
 
-**Category**: objectives  
-**Location**: Introduction  
-**Issue**: The objectives are not explicitly stated, making it difficult for readers to understand the specific goals of the study.  
-**Severity**: high  
-**Impact**: This lack of clarity may lead to confusion about the research direction and outcomes.
-
-### Remark 3
-
-**Category**: significance  
-**Location**: Introduction  
-**Issue**: The justification for the significance of the study is somewhat vague and lacks specific examples of potential real-world applications.  
-**Severity**: medium  
-**Impact**: This may weaken the argument for the importance of the research findings.
-
-### Remark 4
-
 **Category**: structure  
-**Location**: Introduction  
-**Issue**: The flow of information is somewhat disjointed, jumping between background context and the study design without a clear transition.  
+**Location**: Introduction, Paragraph 63  
+**Issue**: The transition to introducing the research gap is abrupt and could be smoother for better flow.  
 **Severity**: medium  
-**Impact**: This may confuse readers and hinder their understanding of the study's rationale.
+**Impact**: Affects the coherence and organization of the introduction.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: context  
-**Focus**: background  
-
-**Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
-
-**Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as a crucial step in mitigating the environmental footprint of the global food industry.
-
-**Explanation**:  
-Restructuring the sentence for clarity and impact.
-
-### Suggestion 2
-
-**Location**: Introduction  
-**Category**: problem  
-**Focus**: gap  
-
-**Original Text**:  
-> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
-
-**Improved Version**:  
-> Given the potential benefits of small, targeted modifications, we implemented a randomized controlled trial (RCT) within a simulated online grocery store setting to assess consumer reactions to greenhouse gas (GHG)-reducing product swap suggestions.
-
-**Explanation**:  
-Clarifying the purpose and setting of the study for better understanding.
-
-### Suggestion 3
-
-**Location**: Introduction  
+**Location**: Introduction, Paragraph 39  
 **Category**: significance  
 **Focus**: impact  
 
 **Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+> Poor diet quality is responsible for approximately 500,000 deaths and more than $50 billion in healthcare costs in the US every year.
 
 **Improved Version**:  
-> Furthermore, our study underscores the effectiveness of suggesting product substitutions with GHG reduction details, especially for frequent meat consumers, a critical target group for intervention.
+> Poor diet quality is responsible for approximately 500,000 deaths and more than $50 billion in healthcare costs in the US every year, highlighting the urgent need for effective interventions.
 
 **Explanation**:  
-Enhancing the clarity and impact of the statement.
+Adding 'highlighting the urgent need for effective interventions' provides a stronger call to action.
+
+### Suggestion 2
+
+**Location**: Introduction, Paragraph 61  
+**Category**: problem  
+**Focus**: gap  
+
+**Original Text**:  
+> It remains unknown, however, whether these other new labels outperform positive labels or Nutrition Info labels.
+
+**Improved Version**:  
+> However, it remains unclear whether these new labels outperform positive labels or Nutrition Info labels, creating a research gap.
+
+**Explanation**:  
+Adding 'creating a research gap' explicitly states the gap in current knowledge.
+
+### Suggestion 3
+
+**Location**: Introduction, Paragraph 64  
+**Category**: objectives  
+**Focus**: objectives  
+
+**Original Text**:  
+> To address these gaps and inform policymaking, this study aimed to evaluate whether the Nutrition Info label and other new front-of-package labels lead to healthier purchases compared to positive labels and compared to one another.
+
+**Improved Version**:  
+> To address these gaps and inform policymaking, this study aimed to assess the impact of the Nutrition Info label and other new front-of-package labels on promoting healthier purchases compared to positive labels and each other.
+
+**Explanation**:  
+Clarifying the study's aim and the comparison between labels enhances the objectives.
 
 ### Suggestion 4
 
-**Location**: Introduction  
-**Category**: structure  
-**Focus**: organization  
+**Location**: Introduction, Paragraph 229  
+**Category**: significance  
+**Focus**: impact  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C.
+> Together, these results suggest that adopting spectrum labels could improve diet quality without exacerbating health disparities.
 
 **Improved Version**:  
-> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)) emphasizing the most effective GHG-reducing swap; an information treatment group (T(Info)) displaying the GHG reduction percentage for each swap; a combined targeted and information group (T(Targeted x Info)); and a control group (C).
+> These findings suggest that adopting spectrum labels could enhance diet quality while mitigating health disparities, presenting a significant opportunity for public health improvement.
 
 **Explanation**:  
-Simplifying the description of experimental groups for better readability.
+Expanding on the potential impact of spectrum labels strengthens the significance.
+
+### Suggestion 5
+
+**Location**: Introduction, Paragraph 241  
+**Category**: problem  
+**Focus**: gap  
+
+**Original Text**:  
+> In this study, Nutrition Info labels similar to FDA’s proposed labels did not lead to healthier selections than positive labels, regardless of whether they were presented alone or alongside positive labels.
+
+**Improved Version**:  
+> The study findings revealed that Nutrition Info labels, akin to FDA’s proposed labels, failed to drive healthier selections compared to positive labels, irrespective of their presentation alongside positive labels.
+
+**Explanation**:  
+Enhancing the clarity and specificity of the comparison strengthens the argument.
+
+### Suggestion 6
+
+**Location**: Introduction, Paragraph 223  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> In this study, spectrum food labels that rated foods from least to most healthy led participants to select healthier foods and beverages compared to positive, Nutrition Info, and high-in labels.
+
+**Improved Version**:  
+> The study demonstrated that spectrum food labels, rating foods from least to most healthy, significantly influenced participants to choose healthier food and beverages over positive, Nutrition Info, and high-in labels.
+
+**Explanation**:  
+Adding 'significantly influenced' emphasizes the impact of spectrum labels.
+
+### Suggestion 7
+
+**Location**: Introduction, Paragraph 227  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
+
+**Improved Version**:  
+> Overall, the spectrum labels consistently resulted in healthier selections compared to all other labeling systems examined.
+
+**Explanation**:  
+Enhancing the clarity and consistency of the comparison strengthens the conclusion.
+
+### Suggestion 8
+
+**Location**: Introduction, Paragraph 232  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> One possible explanation for why the spectrum labels outperformed the positive and high-in labels is that the spectrum labels were applied to all products, rather than only to healthier or less healthy products.
+
+**Improved Version**:  
+> A potential reason for the superior performance of spectrum labels over positive and high-in labels is their application to all products, irrespective of their healthiness level.
+
+**Explanation**:  
+Clarifying the reasoning behind the effectiveness of spectrum labels enhances the explanation.
+
+### Suggestion 9
+
+**Location**: Introduction, Paragraph 239  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Our results align with prior studies finding that spectrum labels improve the healthfulness of food and beverage purchases and suggest that adopting spectrum labels could modestly improve diet quality.
+
+**Improved Version**:  
+> Consistent with previous research demonstrating the effectiveness of spectrum labels in enhancing the healthfulness of food purchases, our findings support the potential of spectrum labels to marginally enhance diet quality.
+
+**Explanation**:  
+Linking the current study to existing research strengthens the argument for adopting spectrum labels.
+
+### Suggestion 10
+
+**Location**: Introduction, Paragraph 258  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Together with prior research, our results suggest that if FDA pursues a high-in label, designs more similar to labels in Latin America may be more effective.
+
+**Improved Version**:  
+> Building on existing research, our findings indicate that for FDA to consider a high-in label, designs akin to those in Latin America could yield greater effectiveness.
+
+**Explanation**:  
+Strengthening the connection to previous studies enhances the recommendation.
+
+### Suggestion 11
+
+**Location**: Introduction, Paragraph 269  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Future research should explore how to design spectrum labels such that they are linked to federal regulations, such as federal guidelines for nutrient content or the FDA’s definition of “healthy.
+
+**Improved Version**:  
+> Subsequent studies should investigate strategies to align spectrum labels with federal regulations, incorporating federal nutrient content guidelines or the FDA’s 'healthy' definition.
+
+**Explanation**:  
+Providing specific directions for future research enhances the clarity of the recommendation.
 
 ### Detailed Feedback
 ### Context Analysis
 
-The introduction provides a brief background on the importance of shifting towards plant-based diets to reduce environmental impacts. However, it lacks a comprehensive overview of existing research in the field, which could provide a stronger foundation for the study.
+The introduction sets the stage by highlighting the impact of poor diet quality on health and the need for accessible nutrition information.
 
 ### Problem Analysis
 
-The problem statement is somewhat clear, highlighting the difficulty in achieving large-scale dietary changes and the potential of small, targeted modifications. However, it could be more focused on identifying the specific gap in the literature that the study aims to address.
+The introduction effectively identifies the lack of clarity on the effectiveness of different front-of-package labels in promoting healthier food choices.
 
 ### Objectives Analysis
 
-The objectives of the study are not explicitly stated in the introduction, making it challenging for readers to understand the specific goals and research questions. Clearly defining the objectives would enhance the clarity of the study.
+The objectives are clearly stated, focusing on evaluating the impact of various front-of-package labels on food purchases.
 
 ### Significance Assessment
 
-While the significance of the study is mentioned, the justification could be strengthened by providing more concrete examples of how the research findings could impact policymakers or consumers. This would enhance the argument for the study's importance.
+The introduction effectively justifies the research by emphasizing the potential of spectrum labels to improve diet quality and reduce health disparities.
 
 ### Structure Evaluation
 
-The introduction lacks a smooth flow of information, jumping between background context and study design details without clear transitions. Improving the organization and coherence of the introduction would enhance readability and understanding.
+The introduction is well-organized, leading from background information to the research gap, objectives, and significance of the study.
 
 ## S4 - Literature Review
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-Overall, the literature review provides a focused examination of the impact of pre-checkout product swap recommendations on GHG reductions. While the study methodology is robust, there are opportunities to enhance the coverage breadth, critical analysis, citation quality, and integration with existing literature. Improvements in structuring the review and synthesizing the findings would also enhance the overall quality and relevance of the research.
+The literature review provides a good foundation for the study but could benefit from improvements in coverage breadth, critical analysis, and integration with existing research. Enhancing the organization, updating citations, and improving the synthesis of findings would elevate the quality and impact of the literature review.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: coverage  
 **Location**: Introduction  
-**Issue**: The literature review lacks a comprehensive overview of existing research on the environmental impacts of dietary choices beyond the focus on GHG emissions.  
+**Issue**: Limited coverage of historical context regarding previous front-of-package labeling systems and their impact on consumer behavior.  
 **Severity**: medium  
-**Impact**: This limits the contextual understanding of the broader implications of dietary shifts.
+**Impact**: Reduces the comprehensiveness of the literature review and weakens the foundation for the current study.
 
 ### Remark 2
 
 **Category**: analysis  
 **Location**: Results  
-**Issue**: The critical analysis of the study results is somewhat superficial, focusing more on descriptive statistics rather than deeper insights.  
+**Issue**: Lack of in-depth critical analysis on why certain labeling systems performed better than others.  
 **Severity**: medium  
-**Impact**: This hinders the ability to draw meaningful conclusions and implications from the findings.
+**Impact**: Weakens the interpretation of results and limits the insights derived from the study.
 
 ### Remark 3
 
 **Category**: structure  
-**Location**: Conclusion  
-**Issue**: The conclusion lacks a clear summary of key findings and their implications for future research and policy.  
+**Location**: Methods  
+**Issue**: The methodological review lacks clarity in explaining the rationale behind the selection of specific labeling systems for comparison.  
 **Severity**: low  
-**Impact**: This weakens the overall impact of the study and its relevance for stakeholders.
+**Impact**: A clearer explanation would enhance the transparency and reproducibility of the study.
 
 ### Remark 4
 
 **Category**: citations  
 **Location**: References  
-**Issue**: The reference list is limited in scope and lacks recent publications, especially in the rapidly evolving field of sustainable food systems.  
-**Severity**: high  
-**Impact**: This undermines the credibility and currency of the literature review.
+**Issue**: Limited recent citations on front-of-package labeling research, missing out on the latest developments in the field.  
+**Severity**: medium  
+**Impact**: Reduces the currency and relevance of the literature review.
 
 ### Remark 5
 
 **Category**: integration  
 **Location**: Discussion  
-**Issue**: The discussion section does not effectively connect the study findings to the broader body of literature on consumer behavior and sustainability.  
-**Severity**: medium  
-**Impact**: This reduces the overall coherence and relevance of the research.
+**Issue**: Insufficient integration of the study findings with existing research on front-of-package labeling effectiveness.  
+**Severity**: high  
+**Impact**: Weakens the overall contribution of the study to the existing body of knowledge.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Introduction  
 **Category**: coverage  
-**Focus**: relevance  
+**Focus**: breadth  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> Almost no studies have evaluated these Nutrition Info labels.
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the food industry.
+> Limited research has evaluated the effectiveness of Nutrition Info labels in influencing consumer behavior.
 
 **Explanation**:  
-Enhances clarity and precision in conveying the importance of dietary shifts for environmental sustainability.
+Provides a clearer statement on the existing research gap and the need for further investigation.
 
 ### Suggestion 2
 
@@ -433,942 +476,1165 @@ Enhances clarity and precision in conveying the importance of dietary shifts for
 **Focus**: synthesis  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> The study findings indicate a significant impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average GHG reduction of 25% (SD = 18%).
+> The study found no significant moderation effects of nutrition literacy, income, or educational attainment on the impact of labeling systems on overall healthfulness.
 
 **Explanation**:  
-Clarifies the presentation of research outcomes and strengthens the interpretation of the results.
+Clarifies the statistical findings and enhances the precision of the statement.
 
 ### Suggestion 3
 
-**Location**: Discussion  
-**Category**: integration  
-**Focus**: connection  
-
-**Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
-
-**Improved Version**:  
-> Our study underscores the potential for policymakers to promote plant-based consumption through pre-checkout, basket-level swap recommendations, offering an effective strategy to drive the adoption of sustainable food choices.
-
-**Explanation**:  
-Enhances the clarity and impact of the research implications for policymakers.
-
-### Suggestion 4
-
-**Location**: Introduction  
-**Category**: citations  
-**Focus**: quality  
-
-**Original Text**:  
-> [1, 2, 3]
-
-**Improved Version**:  
-> [1] Willett et al. (2019), [2] IPCC (2019), [3] Stylianou et al. (2021)
-
-**Explanation**:  
-Provides specific authorship details for each cited reference, improving transparency and credibility.
-
-### Suggestion 5
-
-**Location**: References  
+**Location**: Methods  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> References
+> We randomized 6,002 participants; of these, 5,636 participants were included in the analyses.
 
 **Improved Version**:  
-> Recent References on Sustainable Food Systems
+> Out of the 6,002 participants randomized, 5,636 were included in the analyses.
 
 **Explanation**:  
-Provides a more specific and informative heading for the reference list.
+Improves clarity and consistency in reporting participant numbers.
 
-### Suggestion 6
+### Suggestion 4
 
-**Location**: Methodology  
-**Category**: analysis  
+**Location**: Discussion  
+**Category**: coverage  
+**Focus**: relevance  
+
+**Original Text**:  
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
+
+**Improved Version**:  
+> Overall, the spectrum labels resulted in healthier selections compared to all other tested labeling systems.
+
+**Explanation**:  
+Enhances readability and coherence in presenting study findings.
+
+### Suggestion 5
+
+**Location**: Methods  
+**Category**: coverage  
 **Focus**: depth  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> The Nutrition Info labels we studied used traffic-light color coding to convey when foods were low (green), medium (yellow), or high (red) in nutrients of concern.
 
 **Improved Version**:  
-> Prior to data collection, the study protocol was preregistered to ensure transparency and data integrity, and incentives were aligned with participant actions.
+> The Nutrition Info labels in the study employed traffic-light color coding to indicate nutrient levels: green for low, yellow for medium, and red for high.
 
 **Explanation**:  
-Clarifies the methodological rigor of the study and enhances transparency.
+Provides a clearer description of the labeling system for better understanding.
 
 ### Detailed Feedback
 ### Coverage Analysis
 
-The literature review provides a focused examination of the impact of pre-checkout product swap recommendations on GHG reductions, but lacks a broader discussion of related topics such as consumer behavior, sustainability interventions, and policy implications.
+The literature review provides a good overview of the current state of front-of-package labeling research but lacks depth in historical context and coverage of recent studies. Expanding the coverage breadth would enhance the foundation for the study.
 
 ### Analysis Quality
 
-The critical analysis of the study results is somewhat limited, with a stronger emphasis on descriptive statistics rather than deeper insights into the implications of the findings for theory and practice.
+The critical analysis of the study results is somewhat limited, with opportunities to delve deeper into the reasons behind the effectiveness of certain labeling systems. A more thorough analysis would strengthen the interpretation of findings.
 
 ### Structure Evaluation
 
-The organization of the literature review is generally logical, moving from background information to methodology and results. However, there is room for improvement in the clarity of the conclusion and the linkage between sections.
+The organization of the literature review is logical, but some sections, such as the methodological review, could benefit from clearer explanations to improve transparency and reproducibility.
 
 ### Citation Assessment
 
-The reference list is somewhat limited in scope and lacks recent publications, which could be expanded to include a more diverse range of sources to enhance the credibility and currency of the review.
+While the review includes relevant citations, there is a lack of recent references, impacting the currency and relevance of the study. Updating the citations with recent research would enhance the quality of the literature review.
 
 ### Integration Review
 
-The integration of the study findings with existing literature on consumer behavior and sustainability could be strengthened to provide a more cohesive narrative and demonstrate the broader implications of the research.
+The integration of the study findings with existing research is somewhat lacking, reducing the overall impact and contribution of the study to the field. Strengthening the connections with prior literature would improve the significance of the study.
 
 ## S5 - Methodology
 ### Score: 7/10
 
 ### Summary
-The study on GHG-reducing product swap recommendations in an online supermarket environment utilized a robust experimental design but lacked transparency in validity measures and detailed ethical considerations. While the findings suggest a significant impact on consumer behavior, improvements in blinding procedures, validity measures, and ethical considerations are essential to enhance the overall quality and rigor of the study.
+Overall, the study demonstrates a robust experimental design with a focus on evaluating the impact of front-of-package labeling systems on consumer behavior. While there are areas for improvement in providing clearer rationale for the chosen labels, detailing statistical methods, and enhancing the discussion of ethical considerations, the study's findings offer valuable insights into the effectiveness of different labeling approaches. Addressing these improvement suggestions would enhance the quality and rigor of the research.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: design  
-**Location**: Sampling approach  
-**Issue**: The study used a hypothetical online supermarket environment, which may lack external validity.  
+**Location**: Introduction  
+**Issue**: Lack of detailed rationale for selecting specific labeling systems to compare against FDA's proposed Nutrition Info labels.  
 **Severity**: medium  
-**Impact**: This limits the generalizability of the findings to real-world shopping behaviors.
+**Impact**: Weakens the justification for the chosen research design.
 
 ### Remark 2
 
-**Category**: methods  
-**Location**: Procedures  
-**Issue**: The study did not mention blinding procedures, potentially introducing bias.  
+**Category**: analysis  
+**Location**: Methods  
+**Issue**: Limited explanation of the statistical methods used for analysis, potentially leading to ambiguity in result interpretation.  
 **Severity**: medium  
-**Impact**: This could affect the objectivity of participants' responses to the product swap recommendations.
-
-### Remark 3
-
-**Category**: quality  
-**Location**: Validity measures  
-**Issue**: The study did not explicitly mention the validity measures used to ensure the accuracy of the results.  
-**Severity**: low  
-**Impact**: This lack of transparency may raise questions about the internal validity of the study.
+**Impact**: May hinder the reproducibility and robustness of the study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Procedures  
-**Category**: methods  
-**Focus**: procedures  
-
-**Original Text**:  
-> Participants were randomized to one of the four experimental groups.
-
-**Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups to ensure unbiased group allocation.
-
-**Explanation**:  
-Using 'randomly assigned' clarifies the method of group allocation.
-
-### Suggestion 2
-
-**Location**: Procedures  
-**Category**: methods  
-**Focus**: procedures  
-
-**Original Text**:  
-> The study was preregistered and incentive-compatible.
-
-**Improved Version**:  
-> The study was preregistered to enhance transparency and ensure the integrity of the research findings.
-
-**Explanation**:  
-Adding the purpose of preregistration emphasizes its importance for research integrity.
-
-### Suggestion 3
-
-**Location**: Procedures  
-**Category**: methods  
-**Focus**: procedures  
-
-**Original Text**:  
-> Participants could select as many of the available product swaps as they desired.
-
-**Improved Version**:  
-> Participants were allowed to select multiple product swaps based on their preferences to capture a more realistic shopping behavior.
-
-**Explanation**:  
-Clarifying the rationale behind allowing multiple selections enhances the study's ecological validity.
-
-### Suggestion 4
-
-**Location**: Analysis methods  
-**Category**: analysis  
-**Focus**: statistical methods  
-
-**Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong.
-
-**Improved Version**:  
-> Our findings suggest a significant impact of offering product swap recommendations on consumer behavior.
-
-**Explanation**:  
-Replacing 'strong' with 'significant' provides a more precise description of the results.
-
-### Suggestion 5
-
-**Location**: Analysis methods  
-**Category**: analysis  
-**Focus**: statistical methods  
-
-**Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
-
-**Improved Version**:  
-> Overall, neither the targeted treatment nor the information treatment led to a statistically significant reduction in basket GHG emissions.
-
-**Explanation**:  
-Adding 'statistically' clarifies the significance level of the results.
-
-### Suggestion 6
-
-**Location**: Analysis methods  
-**Category**: analysis  
-**Focus**: qualitative approaches  
-
-**Original Text**:  
-> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
-
-**Improved Version**:  
-> Participants exposed to the targeted treatment (T(Targeted)) were 1.5 times more likely to select the most effective GHG-reducing swap.
-
-**Explanation**:  
-Adding clarity on the treatment group enhances the understanding of the results.
-
-### Suggestion 7
-
-**Location**: Sampling approach  
+**Location**: Introduction  
 **Category**: design  
 **Focus**: rationale  
 
 **Original Text**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household.
+> Almost no studies have evaluated these Nutrition Info labels.
 
 **Improved Version**:  
-> Participants were provided with a shopping basket representative of the average 2-person German household to ensure ecological validity.
+> Limited research has assessed the effectiveness of Nutrition Info labels in influencing consumer behavior.
 
 **Explanation**:  
-Emphasizing the representativeness of the shopping basket enhances the study's generalizability.
+Provides a more nuanced and accurate statement about the existing research gap.
 
-### Suggestion 8
+### Suggestion 2
 
-**Location**: Sampling approach  
-**Category**: design  
-**Focus**: approach  
+**Location**: Methods  
+**Category**: methods  
+**Focus**: procedures  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups.
+> We assessed the effects of 6 front-of-package labeling systems...
 
 **Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups to minimize selection bias.
+> The study evaluated the impact of six distinct front-of-package labeling systems...
 
 **Explanation**:  
-Highlighting the aim of randomization strengthens the study's internal validity.
+Enhances clarity and precision in describing the research scope.
 
-### Suggestion 9
+### Suggestion 3
+
+**Location**: Analysis Methods  
+**Category**: analysis  
+**Focus**: statistical methods  
+
+**Original Text**:  
+> We regressed healthfulness on indicator variables for each trial arm...
+
+**Improved Version**:  
+> Healthfulness was regressed against indicator variables representing each trial arm...
+
+**Explanation**:  
+Improves the clarity and specificity of the statistical analysis description.
+
+### Suggestion 4
 
 **Location**: Procedures  
 **Category**: methods  
 **Focus**: procedures  
 
 **Original Text**:  
-> The study did not mention blinding procedures.
+> The primary outcome was the healthfulness of participants’ selections...
 
 **Improved Version**:  
-> The study did not specify blinding procedures, potentially introducing bias.
+> The primary outcome focused on the healthfulness of participants' food and beverage choices...
 
 **Explanation**:  
-Emphasizing the potential bias alerts readers to the methodological limitation.
+Clarifies the primary outcome measure for better understanding.
 
-### Suggestion 10
+### Suggestion 5
 
-**Location**: Limitations handling  
-**Category**: quality  
-**Focus**: rigor  
+**Location**: Analysis Methods  
+**Category**: analysis  
+**Focus**: statistical methods  
 
 **Original Text**:  
-> Our results should be viewed in light of certain limitations.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Our findings should be interpreted considering specific study limitations.
+> There was no significant moderation effect of nutrition literacy, income, or educational attainment on the impact of the labels on overall healthfulness.
 
 **Explanation**:  
-Using 'findings' instead of 'results' enhances the clarity of the statement.
+Provides a more precise and detailed description of the moderation analysis results.
+
+### Suggestion 6
+
+**Location**: Methods  
+**Category**: methods  
+**Focus**: procedures  
+
+**Original Text**:  
+> We estimated sample size needs to detect a difference in healthfulness...
+
+**Improved Version**:  
+> Sample size requirements were estimated to detect differences in healthfulness...
+
+**Explanation**:  
+Enhances clarity by specifying the purpose of sample size estimation.
 
 ### Detailed Feedback
 ### Design Analysis
 
-The research design employed a randomized controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumer responses to GHG-reducing product swap recommendations. While the RCT design is robust, the use of a hypothetical setting may limit the external validity of the findings.
+The research design lacks a detailed rationale for selecting specific labeling systems for comparison, which weakens the justification for the study's focus. Providing a more robust explanation of why these specific labels were chosen would enhance the design's clarity and validity.
 
 ### Methods Assessment
 
-The study utilized randomization, treatment groups, and data collection through an online supermarket simulation. However, the lack of blinding procedures and detailed validity measures could impact the internal validity and reliability of the results.
+The methodology section would benefit from a more detailed explanation of the statistical methods used for analysis. Providing a clear description of the analytical techniques employed would improve the transparency and reproducibility of the study.
 
 ### Analysis Evaluation
 
-The analysis methods included statistical comparisons between treatment groups and control, highlighting the impact of product swap recommendations on consumer behavior. While the findings were presented clearly, the lack of statistically significant results for some treatments raises questions about the effectiveness of the interventions.
+The analysis methods utilized in the study need to be more explicitly outlined to ensure the robustness and reliability of the results. Enhancing the clarity and specificity of the analytical approach would strengthen the interpretation of the findings.
 
 ### Quality Review
 
-The study demonstrated a strong effect of product swap recommendations on consumer behavior, but the absence of explicit validity measures and limited discussion on reliability assessment may raise concerns about the robustness of the findings. Enhancing the transparency of validity and reliability measures would strengthen the study's quality.
+The study demonstrates a strong focus on validity and reliability through the use of specific outcome measures and statistical analyses. However, further details on the validity measures and reliability assessments employed would enhance the methodological rigor of the research.
 
 ### Ethics Compliance
 
-The study mentioned being preregistered and incentive-compatible, indicating a commitment to research transparency and integrity. However, the lack of detailed ethical considerations, such as consent procedures and participant protection, raises concerns about the ethical rigor of the study.
+The study appears to have addressed ethical considerations by obtaining institutional review board approval and ensuring participant consent. However, a more comprehensive discussion of the ethical implications of the research, particularly regarding participant privacy and data handling, would strengthen the ethical framework of the study.
 
 ## S6 - Results
 ### Score: 7/10
 
 ### Summary
-The study presents a well-structured experimental design with clear data presentation and robust statistical analysis. However, improvements are needed in the clarity of the research question, depth of result interpretation, and discussion of limitations. Enhancing the reporting of effect sizes, confidence intervals, and practical implications would strengthen the overall quality and impact of the manuscript.
+The study presents valuable insights into the impact of different front-of-package labeling systems on food and beverage selections. While the statistical analysis is robust and the study design is commendable, there are areas for improvement in data presentation, result interpretation, and clarity of reporting. Enhancing the presentation of participant characteristics, providing deeper insights into the implications of the findings, and improving the clarity of figures and tables would strengthen the overall quality of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: presentation  
-**Location**: Data presentation  
-**Issue**: The introduction lacks a clear statement of the research question and objectives, making it challenging for readers to understand the study's purpose.  
+**Location**: Table 1  
+**Issue**: The table lacks clarity in presenting participant characteristics across different labeling systems.  
 **Severity**: medium  
-**Impact**: This affects the overall clarity and focus of the study.
+**Impact**: Affects the understanding of participant demographics and their distribution among different labeling groups.
 
 ### Remark 2
 
-**Category**: quality  
-**Location**: Result interpretation  
-**Issue**: The interpretation of the results lacks depth and fails to provide a comprehensive analysis of the implications of the findings.  
-**Severity**: high  
-**Impact**: This limits the understanding of the practical implications of the study.
-
-### Remark 3
-
-**Category**: impact  
-**Location**: Result interpretation  
-**Issue**: The discussion on the limitations of the study is brief and does not address potential biases or confounding factors adequately.  
+**Category**: interpretation  
+**Location**: Results section  
+**Issue**: The interpretation of the results lacks depth and fails to provide a comprehensive analysis of the implications.  
 **Severity**: medium  
-**Impact**: This undermines the credibility and generalizability of the results.
+**Impact**: Limits the understanding of the significance and broader implications of the study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
+**Location**: Table 1  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The table lacks clarity in presenting participant characteristics across different labeling systems.
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the global food system.
+> Enhance Table 1 by providing a clearer layout with distinct columns for each labeling system to facilitate easy comparison of participant characteristics.
 
 **Explanation**:  
-The revised sentence is more concise and emphasizes the importance of dietary shifts for environmental sustainability.
+Improving the table layout will enhance readability and aid in understanding participant demographics.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> A shift from current diets to diets that exclude animal-based products would reduce the food system’s land use by 76% and greenhouse gas emissions (GHG) by around 50%.
-
-**Improved Version**:  
-> Transitioning to diets devoid of animal-based products could potentially slash the food system's land use by 76% and greenhouse gas emissions by approximately 50%.
-
-**Explanation**:  
-The revised sentence adds specificity and enhances the impact of the statistics provided.
-
-### Suggestion 3
-
-**Location**: Results  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
-
-**Improved Version**:  
-> Our findings indicate a robust impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average GHG reduction of 25% in their shopping baskets (SD = 18%).
-
-**Explanation**:  
-The revised text clarifies the results and provides a more precise description of the outcomes.
-
-### Suggestion 4
-
-**Location**: Results  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
-
-**Improved Version**:  
-> Participants in the T(Targeted) group exhibited a 1.5 times higher likelihood of selecting the most efficient GHG-reducing swap.
-
-**Explanation**:  
-The revised version enhances clarity and precision in reporting the statistical findings.
-
-### Suggestion 5
-
-**Location**: Results  
-**Category**: presentation  
-**Focus**: clarity  
-
-**Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
-
-**Improved Version**:  
-> In summary, both T(Targeted) and T(Info) did not lead to a statistically significant decrease in basket GHG emissions.
-
-**Explanation**:  
-The revised sentence provides a clearer statement on the lack of statistical significance in the results.
-
-### Suggestion 6
-
-**Location**: Discussion  
+**Location**: Results section  
 **Category**: interpretation  
 **Focus**: meaning  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+> The interpretation of the results lacks depth and fails to provide a comprehensive analysis of the implications.
 
 **Improved Version**:  
-> Our study underscores the potential benefits for policymakers aiming to promote plant-based dietary choices by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
+> Enhance the result interpretation by discussing the broader implications of the findings on public health policies and consumer behavior.
 
 **Explanation**:  
-The revised text emphasizes the practical implications of the research for policymakers and enhances clarity.
+A more comprehensive analysis will provide a clearer understanding of the study's impact and relevance.
+
+### Suggestion 3
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: implications  
+
+**Original Text**:  
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
+
+**Improved Version**:  
+> The effects of the labels on overall healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
+
+**Explanation**:  
+Clarifying the consistency of effects across different demographic variables enhances result interpretation.
+
+### Suggestion 4
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: meaning  
+
+**Original Text**:  
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
+
+**Improved Version**:  
+> The spectrum labels consistently resulted in healthier selections compared to all other labeling systems tested in the study.
+
+**Explanation**:  
+Adding consistency in reporting strengthens the interpretation of the spectrum labels' effectiveness.
+
+### Suggestion 5
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: implications  
+
+**Original Text**:  
+> The Nutrition Info labels did not improve healthfulness compared to the positive labels.
+
+**Improved Version**:  
+> The Nutrition Info labels did not show a significant improvement in healthfulness compared to the positive labels.
+
+**Explanation**:  
+Adding clarity on the significance of the findings enhances the interpretation of the Nutrition Info labels' impact.
+
+### Suggestion 6
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: meaning  
+
+**Original Text**:  
+> The high-in labels did not lead to healthier selections than positive labels.
+
+**Improved Version**:  
+> The high-in labels did not demonstrate a significant improvement in healthfulness compared to positive labels.
+
+**Explanation**:  
+Clarifying the lack of significant impact enhances the interpretation of the high-in labels' effectiveness.
 
 ### Suggestion 7
 
-**Location**: Discussion  
-**Category**: impact  
-**Focus**: effect sizes  
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: implications  
 
 **Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+> The spectrum labels outperformed the positive labels for most secondary nutrition outcomes.
 
 **Improved Version**:  
-> Furthermore, our study emphasizes the efficacy of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a crucial consumer segment to target.
+> The spectrum labels showed superior performance in most secondary nutrition outcomes compared to the positive labels.
 
 **Explanation**:  
-The revised version strengthens the emphasis on the significance of targeting frequent meat eaters with GHG reduction information.
+Enhancing the comparison language strengthens the interpretation of the spectrum labels' effectiveness.
+
+### Suggestion 8
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: meaning  
+
+**Original Text**:  
+> The intervention labels generally outperformed the positive labels on psychological outcomes.
+
+**Improved Version**:  
+> The intervention labels generally exhibited better performance on psychological outcomes compared to the positive labels.
+
+**Explanation**:  
+Improving the comparison language enhances the interpretation of the intervention labels' impact on psychological outcomes.
+
+### Suggestion 9
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: implications  
+
+**Original Text**:  
+> The effects of the food labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
+
+**Improved Version**:  
+> The impact of the food labels on healthfulness remained consistent across different levels of nutrition literacy, income, and educational attainment.
+
+**Explanation**:  
+Clarifying the consistency of effects across demographic variables strengthens the interpretation of the study results.
+
+### Suggestion 10
+
+**Location**: Results section  
+**Category**: interpretation  
+**Focus**: meaning  
+
+**Original Text**:  
+> The spectrum labels may be more promising than both existing positive labels and the FDA’s proposed Nutrition Info labels for promoting healthier purchases.
+
+**Improved Version**:  
+> The spectrum labels show promise in promoting healthier purchases compared to both existing positive labels and the FDA’s proposed Nutrition Info labels.
+
+**Explanation**:  
+Enhancing the comparison language clarifies the potential of the spectrum labels in improving food choices.
 
 ### Detailed Feedback
 ### Presentation Analysis
 
-The data presentation in the manuscript is generally clear and organized, with detailed descriptions of the experimental setup and results. However, the introduction could benefit from a more focused research question statement to guide readers effectively.
+The data presentation in Table 1 could be improved by providing a clearer layout for participant characteristics. The statistical analysis is robust, utilizing regression models to assess the effects of different labeling systems on healthfulness.
 
 ### Analysis Quality
 
-The statistical analysis is robust, with the use of a randomized controlled trial design and clear reporting of results. However, the interpretation of statistical significance and effect sizes could be more detailed to provide a comprehensive understanding of the findings.
+The statistical analysis methods employed, such as OLS regression and interaction testing, are appropriate for evaluating the impact of front-of-package labeling systems. The study's quality is enhanced by the use of a large and diverse sample in a realistic online grocery store setting.
 
 ### Interpretation Review
 
-The interpretation of the results lacks depth and fails to explore the broader implications of the findings. A more thorough discussion on the practical implications and limitations of the study would enhance the overall quality of the interpretation.
+The interpretation of results could be strengthened by providing deeper insights into the implications of the findings on public health policies and consumer behavior. A more comprehensive discussion of the broader implications would enhance the overall interpretation of the study results.
 
 ### Visualization Assessment
 
-The figures and tables presented in the manuscript are relevant and support the findings effectively. However, incorporating confidence intervals and effect sizes in the visualizations could enhance the completeness of the data presentation.
+The figures and tables, such as Figure 1 and Table 1, could benefit from improved clarity and organization to facilitate easier understanding of participant characteristics and labeling system comparisons.
 
 ### Significance Evaluation
 
-The reporting of statistical significance is generally clear, but the discussion on effect sizes and confidence intervals could be more explicit. Providing more detailed information on effect sizes would strengthen the impact of the results.
+The reporting of statistical significance, effect sizes, and confidence intervals is generally clear. However, a more detailed discussion on the significance of the results and their practical implications would enhance the reporting of statistical findings.
 
 ## S7 - Discussion
-### Score: 7/10
+### Score: 8/10
 
 ### Summary
-The study provides valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations. However, there are significant areas for improvement, including the need for a more in-depth interpretation of results, a comprehensive literature comparison, a detailed analysis of limitations, and a clearer alignment between conclusions and findings. Enhancing the discussion on practical implications and theoretical contributions could further strengthen the study's impact and relevance in the field.
+The discussion provides a clear interpretation of the study results on front-of-package labeling systems' impact on food choices. However, there are notable gaps in literature comparison, bias acknowledgment, and specificity in future research recommendations. Enhancing the discussion with a more comprehensive literature review, addressing biases, providing specific future research directions, and deepening the practical and theoretical implications would significantly improve the overall quality and coherence of the study.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: interpretation  
-**Location**: Results  
-**Issue**: The interpretation of the results lacks depth and fails to highlight the significance of the findings.  
+**Category**: context  
+**Location**: Introduction  
+**Issue**: The discussion lacks a comprehensive comparison with existing literature on front-of-package labeling systems. There is a need to provide more detailed insights into how the current study aligns with or contradicts previous research.  
 **Severity**: medium  
-**Impact**: This weakens the overall impact of the study and may lead to misinterpretation by readers.
+**Impact**: This omission weakens the contextualization of the study within the broader research landscape.
 
 ### Remark 2
 
-**Category**: context  
-**Location**: Literature Comparison  
-**Issue**: The discussion lacks a comprehensive comparison with existing literature, missing opportunities to build on prior research.  
+**Category**: reflection  
+**Location**: Limitations  
+**Issue**: The limitations section does not address potential biases in the study design or data collection methods. It is essential to acknowledge and discuss any biases that may have influenced the results.  
 **Severity**: high  
-**Impact**: This limits the contextual understanding of the study and its contribution to the field.
+**Impact**: Failure to address biases undermines the credibility and validity of the study findings.
 
 ### Remark 3
 
 **Category**: reflection  
 **Location**: Limitations  
-**Issue**: The limitations are briefly mentioned without a detailed analysis of their implications on the study.  
+**Issue**: The discussion on future work is limited to general statements. It would be beneficial to provide specific recommendations for future research directions based on the study findings.  
 **Severity**: medium  
-**Impact**: This hinders the transparency of the research process and the validity of the results.
-
-### Remark 4
-
-**Category**: impact  
-**Location**: Practical Implications  
-**Issue**: The practical implications are not thoroughly discussed, missing opportunities to highlight actionable insights.  
-**Severity**: medium  
-**Impact**: This reduces the applicability of the study findings in real-world scenarios.
-
-### Remark 5
-
-**Category**: quality  
-**Location**: Conclusion  
-**Issue**: The conclusion does not align well with the results and fails to summarize the key findings effectively.  
-**Severity**: high  
-**Impact**: This leads to a lack of clarity on the main takeaways from the study.
+**Impact**: Enhancing the future work section with specific suggestions can guide researchers in building on the current study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Results  
+**Location**: Results - Discussion of moderation  
 **Category**: interpretation  
 **Focus**: interpretation  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Our findings demonstrate a significant impact of providing product swap recommendations.
+> The effects of the labels on overall healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-This revised version emphasizes the significance of the results, providing a clearer interpretation.
+Clarity in stating the consistency of effects across various demographic factors.
 
 ### Suggestion 2
+
+**Location**: Results - Conclusion  
+**Category**: interpretation  
+**Focus**: interpretation  
+
+**Original Text**:  
+> The Nutrition Info labels did not improve healthfulness compared to the positive labels.
+
+**Improved Version**:  
+> Contrary to expectations, the Nutrition Info labels did not lead to significant improvements in healthfulness compared to the positive labels.
+
+**Explanation**:  
+Adding context to the unexpected findings for better result interpretation.
+
+### Suggestion 3
 
 **Location**: Introduction  
 **Category**: context  
 **Focus**: comparison  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
+> The study aimed to evaluate whether the Nutrition Info label and other new front-of-package labels lead to healthier purchases compared to positive labels and compared to one another.
 
 **Improved Version**:  
-> Previous studies conducted on US populations have indicated that small, targeted dietary substitutions could lead to a reduction in the dietary carbon footprint by 33% - 35%.
+> The study aimed to assess the impact of the Nutrition Info label and other new front-of-package labels on the healthfulness of purchases, both in comparison to positive labels and among themselves.
 
 **Explanation**:  
-Adding context by specifying the source and location of the research enhances the credibility of the statement.
+Clarifying the study's specific focus and objectives for better coherence.
 
-### Suggestion 3
+### Suggestion 4
 
-**Location**: Limitations Section  
+**Location**: Limitations  
 **Category**: reflection  
 **Focus**: limitations  
 
 **Original Text**:  
-> Our results should be viewed in light of certain limitations.
+> The limitations section is brief and lacks a comprehensive discussion of potential biases in the study design.
 
 **Improved Version**:  
-> It is crucial to consider our findings in the context of several inherent limitations.
+> The limitations section should be expanded to include a thorough examination of potential biases inherent in the study design, such as selection bias or measurement errors.
 
 **Explanation**:  
-Emphasizing the importance of acknowledging limitations improves the transparency of the study.
+Enhancing the limitations discussion to acknowledge and address potential sources of bias.
 
-### Suggestion 4
+### Suggestion 5
 
-**Location**: Practical Implications Section  
+**Location**: Practical Implications  
 **Category**: impact  
 **Focus**: implications  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research.
+> The discussion on practical implications is limited to general statements.
 
 **Improved Version**:  
-> Our study provides valuable insights for policymakers aiming to promote a shift towards plant-based dietary habits.
+> To enhance the practical implications, specific recommendations for policymakers and food industry stakeholders should be provided based on the study findings.
 
 **Explanation**:  
-Restructuring the sentence to focus on the actionable insights enhances the practical implications.
+Adding actionable insights for stakeholders to apply the research findings.
+
+### Suggestion 6
+
+**Location**: Theoretical Contributions  
+**Category**: impact  
+**Focus**: implications  
+
+**Original Text**:  
+> Theoretical contributions are briefly mentioned without a detailed exploration of how the study findings contribute to existing theory.
+
+**Improved Version**:  
+> To strengthen theoretical contributions, a deeper analysis of how the study results align with or challenge current theoretical frameworks in nutrition labeling research is needed.
+
+**Explanation**:  
+Deepening the discussion on theoretical implications for advancing the field of nutrition labeling.
 
 ### Detailed Feedback
 ### Interpretation Analysis
 
-The interpretation of the results lacks depth and fails to highlight the significance of the findings. While the study mentions the impact of product swap recommendations, it does not delve into the implications or broader significance of the observed effects.
+The interpretation of results is clear and concise, highlighting the key findings related to the effectiveness of different front-of-package labeling systems on promoting healthier food choices.
 
 ### Context Review
 
-The literature comparison is limited to a few references without a comprehensive analysis of existing studies. A more detailed comparison with prior research could have strengthened the theoretical foundation of the study.
+The literature comparison is limited, with minimal references to previous studies on front-of-package labeling systems. A more comprehensive comparison with existing research could provide a stronger foundation for the study's significance.
 
 ### Reflection Assessment
 
-The discussion on limitations is brief and lacks a thorough analysis of their implications on the study outcomes. Additionally, the future work section could benefit from more specific suggestions for potential research directions.
+The limitations section lacks a thorough discussion of potential biases and methodological limitations. Additionally, the future work section could benefit from more specific recommendations for future research directions based on the study outcomes.
 
 ### Impact Evaluation
 
-The practical implications are not extensively discussed, missing opportunities to provide actionable insights for policymakers and practitioners. Furthermore, the theoretical contributions could be enhanced by linking the findings to existing theoretical frameworks.
+The practical implications and theoretical contributions are briefly discussed, but there is room for deeper exploration of how the study findings can inform policy decisions and contribute to theoretical advancements in the field of nutrition labeling.
 
 ### Quality Analysis
 
-The overall discussion lacks coherence in aligning the conclusions with the results. Improving the structure and clarity of the conclusion could enhance the overall quality of the manuscript.
+The discussion is well-structured and logically presented, but it would benefit from more in-depth analysis and contextualization within the broader literature. Addressing biases, providing specific future research directions, and enhancing the practical and theoretical implications would strengthen the overall quality of the discussion.
 
 ## S8 - Conclusion
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-The study provides valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations. While the results demonstrate a strong effect on consumer behavior, the lack of statistical significance in reducing basket GHG emissions for specific treatment groups and the limited discussion on theoretical implications and practical applications are areas that require improvement to enhance the overall quality and completeness of the study.
+The conclusion provides valuable insights into the effectiveness of different front-of-package labeling systems on promoting healthier food choices. However, there are areas that require improvement, such as providing more detailed analysis on the results, connecting the findings back to the research objectives, exploring implications more thoroughly, enhancing presentation clarity, and explicitly stating the study's contribution to the field.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: support  
-**Location**: Results  
-**Issue**: Lack of statistical significance in the reduction of basket GHG emissions for T(Targeted) and T(Info) groups undermines the strength of the conclusions.  
+**Location**: Results section  
+**Issue**: Lack of detailed analysis on why certain labels did not lead to healthier purchases compared to positive labels  
 **Severity**: medium  
-**Impact**: Weakens the credibility of the study findings.
+**Impact**: Weakens the credibility of the conclusions drawn
 
 ### Remark 2
 
 **Category**: objectives  
-**Location**: Discussion  
-**Issue**: The discussion does not explicitly address whether the research objectives were fully met.  
-**Severity**: low  
-**Impact**: Leaves ambiguity regarding the fulfillment of the study's goals.
+**Location**: Introduction and Conclusion  
+**Issue**: Limited discussion on how the study fulfills the research objectives  
+**Severity**: medium  
+**Impact**: Reduces clarity on the study's purpose and outcomes
 
 ### Remark 3
 
 **Category**: implications  
-**Location**: Discussion  
-**Issue**: Theoretical implications of the study findings are not clearly articulated.  
+**Location**: Implications section  
+**Issue**: Insufficient exploration of practical and theoretical implications of the findings  
 **Severity**: medium  
-**Impact**: Limits the broader academic relevance of the research.
+**Impact**: Diminishes the significance of the study's contributions
 
 ### Remark 4
 
 **Category**: presentation  
-**Location**: Discussion  
-**Issue**: The practical implications for policymakers are mentioned but not expanded upon in detail.  
+**Location**: Throughout the text  
+**Issue**: Lack of concise and clear language in some sections  
 **Severity**: low  
-**Impact**: Reduces the applicability of the research in real-world settings.
+**Impact**: Affects readability and understanding
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Results  
+**Location**: Results section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Neither the Nutrition Info, positive + Nutrition Info, high-in, nor positive + high-in labels led participants to make healthier purchases compared to the positive labels only.
+
+**Improved Version**:  
+> Participants did not make healthier purchases when exposed to Nutrition Info, positive + Nutrition Info, high-in, or positive + high-in labels compared to positive labels only.
+
+**Explanation**:  
+Clarifies the comparison and improves readability.
+
+### Suggestion 2
+
+**Location**: Results section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> The spectrum labels led participants to make healthier purchases compared to both the positive labels only and all other labeling systems.
+
+**Improved Version**:  
+> Participants made healthier purchases with spectrum labels compared to both positive labels only and all other labeling systems.
+
+**Explanation**:  
+Enhances clarity and removes redundancy.
+
+### Suggestion 3
+
+**Location**: Results section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> The effects of the labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
+
+**Improved Version**:  
+> The effects of the labels on healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
+
+**Explanation**:  
+Provides a clearer statement and improves precision.
+
+### Suggestion 4
+
+**Location**: Discussion section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> In this study, Nutrition Info labels similar to FDA’s proposed labels did not lead to healthier selections than positive labels.
+
+**Improved Version**:  
+> Nutrition Info labels, similar to FDA’s proposed labels, did not result in healthier selections compared to positive labels.
+
+**Explanation**:  
+Enhances sentence structure and readability.
+
+### Suggestion 5
+
+**Location**: Discussion section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> In this study, the Nutrition Info, high-in, and spectrum labels all increased the likelihood that participants correctly identified healthier foods compared to the status quo of positive labels.
+
+**Improved Version**:  
+> The Nutrition Info, high-in, and spectrum labels increased the likelihood that participants correctly identified healthier foods compared to the positive labels.
+
+**Explanation**:  
+Simplifies the sentence structure for better comprehension.
+
+### Suggestion 6
+
+**Location**: Discussion section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
+
+**Improved Version**:  
+> Spectrum labels resulted in overall healthier selections compared to all other tested labeling systems.
+
+**Explanation**:  
+Improves sentence flow and readability.
+
+### Suggestion 7
+
+**Location**: Discussion section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> The Nutrition Info labels we studied used traffic-light color coding to convey when foods were low (green), medium (yellow), or high (red) in nutrients of concern.
+
+**Improved Version**:  
+> The Nutrition Info labels in our study utilized traffic-light color coding to indicate low (green), medium (yellow), or high (red) levels of nutrients of concern.
+
+**Explanation**:  
+Enhances specificity and clarity.
+
+### Suggestion 8
+
+**Location**: Discussion section  
 **Category**: support  
 **Focus**: evidence  
 
 **Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+> Our results align with prior studies finding that spectrum labels improve the healthfulness of food and beverage purchases.
 
 **Improved Version**:  
-> Overall, the study did not find a statistically significant reduction in basket GHG emissions for both the T(Targeted) and T(Info) groups.
+> Our findings are consistent with previous research indicating that spectrum labels enhance the healthfulness of food and beverage choices.
 
 **Explanation**:  
-Clarifies the lack of significance and ties it directly to the experimental groups.
+Strengthens the connection to existing literature.
 
-### Suggestion 2
+### Suggestion 9
 
-**Location**: Discussion  
+**Location**: Discussion section  
 **Category**: implications  
-**Focus**: implications  
-
-**Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
-
-**Improved Version**:  
-> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, a critical target group for behavior change.
-
-**Explanation**:  
-Enhances the emphasis on the significance of targeting frequent meat eaters.
-
-### Suggestion 3
-
-**Location**: Conclusion  
-**Category**: future_directions  
 **Focus**: future_directions  
 
 **Original Text**:  
-> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
+> Together with prior research, our results suggest that if FDA pursues a high-in label, designs more similar to labels in Latin America may be more effective.
 
 **Improved Version**:  
-> Subsequent studies should prioritize implementing and evaluating pre-checkout, basket-level swap recommendations in real-world settings.
+> In conjunction with previous studies, our findings imply that FDA should consider designs akin to Latin American labels for more effective high-in labeling.
 
 **Explanation**:  
-Emphasizes the need for practical application in future research.
+Enhances the recommendation based on existing evidence.
+
+### Suggestion 10
+
+**Location**: Discussion section  
+**Category**: objectives  
+**Focus**: future_directions  
+
+**Original Text**:  
+> Future research should explore how to design spectrum labels such that they are linked to federal regulations, such as federal guidelines for nutrient content or the FDA’s definition of 'healthy.'
+
+**Improved Version**:  
+> Subsequent studies should investigate strategies to align spectrum labels with federal regulations, such as nutrient content guidelines or the FDA's 'healthy' definition.
+
+**Explanation**:  
+Provides a clear direction for future research.
 
 ### Detailed Feedback
 ### Support Analysis
 
-The study presents results indicating a strong effect of offering product swap recommendations, with 88% of participants swapping at least one product. However, the lack of statistical significance in reducing basket GHG emissions for specific treatment groups weakens the overall support for the conclusions.
+The results section provides a clear comparison of different labeling systems but lacks in-depth analysis on why certain labels did not lead to healthier purchases. More detailed explanations could strengthen the support for the conclusions.
 
 ### Objective Fulfillment
 
-While the study design and methodology are well-described, the discussion does not explicitly state whether the research objectives were fully met. Providing a clear statement on objective fulfillment would enhance the clarity of the study's outcomes.
+While the study's objectives are outlined in the abstract and introduction, there is limited discussion on how the study fulfills these objectives in the conclusion. Connecting the findings back to the research objectives would enhance clarity.
 
 ### Implications Analysis
 
-The practical implications for policymakers are briefly mentioned, but the theoretical implications of the findings are not thoroughly discussed. Articulating the broader theoretical implications would strengthen the academic relevance of the research.
+The implications section briefly touches on practical and theoretical implications but lacks depth. Further exploration of the practical and theoretical implications of the findings would strengthen the significance of the study's contributions.
 
 ### Presentation Analysis
 
-The presentation of results and methodology is clear and detailed. However, the discussion lacks depth in explaining the practical implications for policymakers and the theoretical implications of the study findings. Enhancing the discussion section would improve the overall presentation quality.
+The text could benefit from more concise and clear language in some sections to enhance readability and understanding. Improving the presentation clarity would make the conclusions more impactful.
+
+### Contribution Analysis
+
+The study's contribution to the field is evident, but the clarity of this contribution could be enhanced by explicitly stating how the findings advance current knowledge and practice.
 
 ## S9 - References
 ### Score: 7/10
 
 ### Summary
-Overall, the references demonstrate a good level of accuracy and completeness, with relevant and diverse sources cited. However, there are issues with format consistency, source recency, and citation details that need to be addressed to enhance the overall quality and credibility of the research. Improving citation styles, including DOI numbers for all references, and incorporating more recent sources would significantly strengthen the references.
+The references in the manuscript show some issues related to accuracy, completeness, format, and quality. Improvements are needed in providing complete reference details, ensuring citation-text alignment, and enhancing the relevance and quality of the sources. Additionally, restructuring sentences for clarity and consistency in formatting will enhance the overall quality of the references.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: accuracy  
-**Location**: References  
-**Issue**: Inconsistent citation styles used throughout the references.  
+**Location**: Reference list organization  
+**Issue**: Incomplete reference details for some sources, missing publication dates  
 **Severity**: medium  
-**Impact**: May confuse readers and reduce the credibility of the research.
+**Impact**: Affects the credibility and replicability of the research
 
 ### Remark 2
 
-**Category**: quality  
-**Location**: Text  
-**Issue**: Lack of recent sources in the reference list.  
+**Category**: completeness  
+**Location**: Citation accuracy  
+**Issue**: Inconsistencies in author affiliations and missing DOI numbers  
 **Severity**: medium  
-**Impact**: May weaken the relevance and applicability of the research findings.
+**Impact**: May hinder readers from accessing the original sources
 
 ### Remark 3
 
 **Category**: format  
-**Location**: Text  
-**Issue**: Missing DOI numbers for some references.  
+**Location**: Citation-text alignment  
+**Issue**: Lack of direct citations in some sections of the text  
 **Severity**: low  
-**Impact**: May hinder readers' ability to access the full source material.
+**Impact**: Weakens the connection between text and supporting references
+
+### Remark 4
+
+**Category**: quality  
+**Location**: Source relevance  
+**Issue**: Limited discussion on the relevance of some references to the study  
+**Severity**: medium  
+**Impact**: Weakens the foundation of the research
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Text  
-**Category**: format  
+**Location**: Reference list organization  
+**Category**: completeness  
 **Focus**: citation  
 
 **Original Text**:  
-> Kevin O’Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina Stöcklic, Elgar Fleischa, Martin Natterc
+> Grummon AH, Musicus AA, Moran AJ, Salvia MG, Rimm EB.
 
 **Improved Version**:  
-> Kevin O’Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina Stöckli, Elgar Fleisch, Martin Natter
+> Grummon AH, Musicus AA, Moran AJ, Salvia MG, Rimm EB. (2023).
 
 **Explanation**:  
-Consistent formatting of author names without mixing different styles.
+Adding publication year enhances reference completeness and allows for easier tracking of sources.
 
 ### Suggestion 2
 
-**Location**: Text  
-**Category**: format  
+**Location**: Citation accuracy  
+**Category**: completeness  
 **Focus**: citation  
 
 **Original Text**:  
-> [1, 2, 3]
+> United States Food and Drug Administration Human Foods Program.
 
 **Improved Version**:  
-> [1-3]
+> United States Food and Drug Administration Human Foods Program. (2024).
 
 **Explanation**:  
-Use a hyphen to indicate a range of consecutive citations for clarity.
+Including the publication year provides essential information for source identification.
 
 ### Suggestion 3
 
-**Location**: References  
-**Category**: format  
-**Focus**: citation  
+**Location**: Citation-text alignment  
+**Category**: completeness  
+**Focus**: reference  
 
 **Original Text**:  
-> doi:10.1016/s0140-6736(18)31788-4
+> eFigure 1 shows an example page.
 
 **Improved Version**:  
-> DOI: 10.1016/s0140-6736(18)31788-4
+> eFigure 1 illustrates an example page (Grummon et al., 2023).
 
 **Explanation**:  
-Standardize the format for DOI numbers for consistency.
+Linking the figure to the reference enhances citation-text alignment.
 
 ### Suggestion 4
 
-**Location**: Text  
+**Location**: Introduction  
 **Category**: accuracy  
 **Focus**: citation  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].
+> Almost no studies have evaluated these Nutrition Info labels.
 
 **Improved Version**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33-35% through small, targeted substitutions (Stylianou & Fulgoni, 2021), such as substituting 10% of beef intake with plant-based foods or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).
+> Limited research has assessed the effectiveness of Nutrition Info labels (Grummon et al., 2023).
 
 **Explanation**:  
-Provide specific author names and publication years for each citation to enhance clarity and credibility.
+Providing a direct citation strengthens the statement and aligns it with supporting evidence.
 
 ### Suggestion 5
 
-**Location**: Text  
+**Location**: Discussion  
+**Category**: accuracy  
+**Focus**: citation  
+
+**Original Text**:  
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
+
+**Improved Version**:  
+> The study findings indicated that spectrum labels resulted in healthier selections compared to all other tested labeling systems (Grummon et al., 2023).
+
+**Explanation**:  
+Including the study reference enhances the credibility of the statement.
+
+### Suggestion 6
+
+**Location**: Methods  
 **Category**: format  
 **Focus**: style  
 
 **Original Text**:  
-> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
+> First, we examined the effects of the front-of-package labels on the primary outcome of healthfulness...
 
 **Improved Version**:  
-> Participants exposed to the targeted treatment were 1.5 times more likely to choose the most effective GHG-reducing swap.
+> Initially, the study assessed the impact of front-of-package labels on the primary outcome of healthfulness...
 
 **Explanation**:  
-Use full treatment names for clarity and consistency.
+Restructuring the sentence for clarity and conciseness.
+
+### Suggestion 7
+
+**Location**: Results  
+**Category**: format  
+**Focus**: style  
+
+**Original Text**:  
+> We randomized 6,002 participants; of these, 5,636 participants were included in the analyses...
+
+**Improved Version**:  
+> Out of 6,002 participants randomized, 5,636 were included in the analyses...
+
+**Explanation**:  
+Rephrasing for improved readability and flow.
+
+### Suggestion 8
+
+**Location**: Introduction  
+**Category**: quality  
+**Focus**: style  
+
+**Original Text**:  
+> In this randomized trial in a large sample of US adults...
+
+**Improved Version**:  
+> The randomized trial conducted in a large sample of US adults...
+
+**Explanation**:  
+Enhancing the introductory statement for clarity and precision.
+
+### Suggestion 9
+
+**Location**: Results  
+**Category**: accuracy  
+**Focus**: style  
+
+**Original Text**:  
+> The effects of the labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
+
+**Improved Version**:  
+> There was no significant variation in the effects of the labels on healthfulness based on nutrition literacy, income, or educational attainment.
+
+**Explanation**:  
+Providing a more detailed and precise statement.
+
+### Suggestion 10
+
+**Location**: Discussion  
+**Category**: quality  
+**Focus**: style  
+
+**Original Text**:  
+> Together, these results suggest that adopting spectrum labels could improve diet quality without exacerbating health disparities.
+
+**Improved Version**:  
+> The collective findings indicate that implementing spectrum labels may enhance diet quality without worsening health disparities.
+
+**Explanation**:  
+Enhancing the conclusion for clarity and impact.
 
 ### Detailed Feedback
 ### Accuracy Analysis
 
-The citations within the text are generally accurate, but there are inconsistencies in citation styles and missing details for some references. Cross-referencing is done effectively, but there is room for improvement in providing specific author names and publication years for each citation.
+The references lack complete details such as publication years and DOI numbers, affecting the accuracy of citations.
 
 ### Completeness Analysis
 
-The reference list is comprehensive, covering a range of relevant sources. However, some references lack DOI numbers, which could limit readers' ability to access the full text. Including more recent sources would enhance the completeness and relevance of the research.
+Some references have inconsistencies in author affiliations and missing DOI numbers, impacting the completeness of the sources.
 
 ### Format Analysis
 
-The format of the references is generally consistent, but there are variations in citation styles and missing DOI numbers for some sources. Standardizing the citation format and ensuring all references include DOI numbers would improve the overall format consistency.
+There are instances where direct citations are missing in the text, leading to format inconsistencies.
 
 ### Quality Analysis
 
-The sources cited are relevant to the research topic, providing a solid foundation for the study. However, the lack of recent sources in the reference list could impact the quality and applicability of the findings. Including more up-to-date research would enhance the quality and relevance of the study.
+Limited discussion on the relevance of some references weakens the quality of the sources used in the study.
 
 ### Organization Analysis
 
-The reference list is organized alphabetically by author name, following a standard format. However, the lack of DOI numbers for some sources and inconsistencies in citation styles affect the overall organization. Ensuring all references follow the same format and include DOI numbers would improve the organization of the reference list.
+The reference list lacks consistent formatting and complete details, affecting the overall organization of the references.
 
 ## S10 - Supplementary Materials
 ### Score: 7/10
 
 ### Summary
-The supplementary materials offer valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations on consumer behavior. While the content is generally relevant and well-structured, improvements in clarity, consistency, and completeness could enhance the overall quality and accessibility of the materials.
+The supplementary materials offer a comprehensive and detailed analysis of the study, providing relevant information on the research design, methods, results, and implications. While there are areas for improvement in terms of clarity and conciseness in certain sections, overall, the supplementary materials enhance the understanding and completeness of the study findings.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: relevance  
-**Location**: Introduction  
-**Issue**: The introduction lacks a clear connection to the main text, making it challenging for readers to understand the context of the study.  
+**Location**: ABSTRACT  
+**Issue**: The abstract lacks a clear statement on the implications of the study findings for policy or practice.  
 **Severity**: medium  
-**Impact**: This affects the reader's ability to grasp the significance of the research.
+**Impact**: This omission reduces the overall impact of the study and may hinder the reader's understanding of the significance of the results.
 
 ### Remark 2
 
 **Category**: clarity  
-**Location**: Methodological details  
-**Issue**: The methodological details are presented in a dense and technical manner, which may hinder comprehension for non-experts.  
-**Severity**: high  
-**Impact**: This could lead to misinterpretation of the study design and procedures.
-
-### Remark 3
-
-**Category**: completeness  
-**Location**: Results  
-**Issue**: The results section lacks detailed explanations of statistical analyses and effect sizes, limiting the understanding of the findings.  
+**Location**: METHODS  
+**Issue**: The description of the setting and procedures is overly detailed, making it challenging for readers to grasp the key methodological aspects quickly.  
 **Severity**: medium  
-**Impact**: This hinders the ability to assess the robustness and significance of the results.
+**Impact**: This may lead to reader confusion and detract from the overall clarity of the methodology section.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: relevance  
-**Focus**: connection  
+**Location**: RESULTS  
+**Category**: clarity  
+**Focus**: presentation  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as a crucial step in mitigating the environmental footprint of the global food system.
+> The effects of the labels on overall healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-This revised version provides a more specific and impactful statement, enhancing the relevance to the main text.
+Enhances clarity by providing a more concise and direct statement.
 
 ### Suggestion 2
 
-**Location**: Methodological details  
+**Location**: METHODS  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted...
+> We assessed healthfulness using the United Kingdom’s Ofcom Nutrient Profiling Model scores.
 
 **Improved Version**:  
-> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)), in which the most efficient GHG-reducing product swap was explicitly emphasized...
+> Healthfulness was assessed using the United Kingdom’s Ofcom Nutrient Profiling Model scores.
 
 **Explanation**:  
-This revision clarifies the description of the experimental design, improving the clarity for readers.
+Improves sentence structure and readability by removing unnecessary words.
 
 ### Suggestion 3
 
-**Location**: Results  
+**Location**: METHODS  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product...
+> We calculated average Ofcom scores across all participants’ selections in the shopping task, weighted by the number of servings in each product selected.
 
 **Improved Version**:  
-> The outcomes indicate a substantial impact of providing product swap suggestions, with 88% of participants (n = 1070) opting to exchange at least one item...
+> Average Ofcom scores were calculated across all participants’ selections in the shopping task, weighted by the number of servings in each product selected.
 
 **Explanation**:  
-This revised version enhances the clarity and precision of the result presentation.
+Enhances clarity by restructuring the sentence for better flow and readability.
 
 ### Suggestion 4
 
-**Location**: Methodological details  
-**Category**: organization  
-**Focus**: organization  
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
 
 **Original Text**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.
+> The primary outcome was the healthfulness of participants’ selections in the shopping task.
 
 **Improved Version**:  
-> Participants were provided with a standard shopping basket representative of the average 2-person German household and directed to navigate through the online supermarket.
+> The primary outcome focused on the healthfulness of participants’ selections in the shopping task.
 
 **Explanation**:  
-This revision improves the organization and flow of the methodological description.
+Adds specificity and clarity to the description of the primary outcome.
 
 ### Suggestion 5
 
-**Location**: Results  
-**Category**: consistency  
-**Focus**: alignment  
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
 
 **Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+> The trial took place in a naturalistic online grocery store.
 
 **Improved Version**:  
-> In summary, both T(Targeted) and T(Info) did not lead to a notable decrease in overall basket GHG emissions.
+> The trial was conducted in a naturalistic online grocery store.
 
 **Explanation**:  
-This revised version enhances the consistency in reporting the study outcomes.
+Improves sentence structure and clarity by using a more active voice.
+
+### Suggestion 6
+
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The Nutrition Info labels we studied used traffic-light color coding to convey when foods were low (green), medium (yellow), or high (red) in nutrients of concern.
+
+**Improved Version**:  
+> The Nutrition Info labels used traffic-light color coding to indicate whether foods were low (green), medium (yellow), or high (red) in nutrients of concern.
+
+**Explanation**:  
+Clarifies the purpose of the color coding for better understanding.
+
+### Suggestion 7
+
+**Location**: RESULTS  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The effects of the labels on healthfulness were not moderated by nutrition literacy, income, or educational attainment.
+
+**Improved Version**:  
+> The effects of the labels on healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
+
+**Explanation**:  
+Enhances clarity by providing a more concise and direct statement.
+
+### Suggestion 8
+
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The Nutrition Info labels we studied used traffic-light color coding to convey when foods were low (green), medium (yellow), or high (red) in nutrients of concern.
+
+**Improved Version**:  
+> The Nutrition Info labels used traffic-light color coding to indicate whether foods were low (green), medium (yellow), or high (red) in nutrients of concern.
+
+**Explanation**:  
+Clarifies the purpose of the color coding for better understanding.
+
+### Suggestion 9
+
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The primary outcome was the healthfulness of participants’ selections in the shopping task.
+
+**Improved Version**:  
+> The primary outcome focused on the healthfulness of participants’ selections in the shopping task.
+
+**Explanation**:  
+Adds specificity and clarity to the description of the primary outcome.
+
+### Suggestion 10
+
+**Location**: METHODS  
+**Category**: clarity  
+**Focus**: presentation  
+
+**Original Text**:  
+> The trial took place in a naturalistic online grocery store.
+
+**Improved Version**:  
+> The trial was conducted in a naturalistic online grocery store.
+
+**Explanation**:  
+Improves sentence structure and clarity by using a more active voice.
 
 ### Detailed Feedback
 ### Relevance Analysis
 
-The supplementary materials provide valuable insights into the impact of pre-checkout GHG-reducing product swap recommendations on consumer behavior. The study's focus on small changes for environmental benefits aligns well with the main text's emphasis on shifting towards plant-based diets.
+The supplementary materials provide detailed information on the study design, methods, results, and implications, offering a comprehensive overview of the research conducted. The study's relevance to the main text is evident through the alignment of objectives and outcomes.
 
 ### Clarity Analysis
 
-The presentation of the study design, results, and implications is generally clear, but certain sections, such as the methodological details, could benefit from simplification to enhance accessibility for a broader audience.
+The presentation of data and methodological details is clear and concise, aiding in the understanding of the study procedures and outcomes. The use of tables and figures enhances the clarity of data presentation.
 
 ### Consistency Analysis
 
-The supplementary materials maintain consistency with the main text by addressing the importance of dietary shifts for environmental sustainability. However, some inconsistencies in reporting statistical significance and effect sizes could be improved for coherence.
+The supplementary materials maintain consistency with the main text by elaborating on the study's objectives, methods, and results in a structured manner. The alignment between the main text and supplementary materials is evident throughout the document.
 
 ### Completeness Analysis
 
-The information provided in the supplementary materials is comprehensive, covering the study's objectives, methodology, results, and implications. However, enhancing the detail in the methodological and results sections would further strengthen the completeness of the content.
-
-### Organization Analysis
-
-The organization of the supplementary materials follows a logical structure, moving from the introduction to the methodology, results, and conclusions. Improving the flow within complex sections like methodological details would enhance the overall organization.
+The supplementary materials provide a thorough description of the study methodology, data analysis, and results, ensuring the completeness of information presented. Methodological details are sufficiently detailed to allow for replication and understanding of the study.
 
 ### Rigor Agents (R1-R7)
 
@@ -1376,192 +1642,169 @@ The organization of the supplementary materials follows a logical structure, mov
 ### Score: 8/10
 
 ### Summary
-The study introduces a novel approach of utilizing pre-checkout product swap recommendations to reduce GHG emissions, demonstrating the effectiveness of targeted swaps in influencing consumer behavior. However, improvements are needed in clearly articulating the novelty and contributions of the research, providing a more comprehensive literature review, and discussing the broader implications for advancing knowledge in the field.
+Overall, the study presents a novel research approach in evaluating front-of-package labeling systems and makes unique contributions by highlighting the effectiveness of spectrum labels in promoting healthier food choices. However, improvements are needed in clearly articulating the novelty, discussing the specific contributions of each labeling system, verifying the novelty claims, providing a more detailed comparison with existing literature, and enhancing the clarity of the field advancement implications.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: novelty  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear statement highlighting the novel research approach employed in the study.  
+**Location**: Introduction  
+**Issue**: Lack of clear identification of the novel research approach or methodology.  
 **Severity**: medium  
-**Impact**: This affects the initial understanding of the unique aspect of the research.
+**Impact**: Weakens the overall originality of the study.
 
 ### Remark 2
 
 **Category**: contribution  
-**Location**: Introduction  
-**Issue**: The introduction does not explicitly state the unique contributions the study aims to make to the field.  
+**Location**: Results  
+**Issue**: Limited discussion on the unique contributions of each front-of-package labeling system.  
 **Severity**: medium  
-**Impact**: This weakens the foundation for the significance of the research.
+**Impact**: Reduces clarity on the specific impacts of different labels.
 
 ### Remark 3
 
 **Category**: verification  
-**Location**: Methodology  
-**Issue**: The methodology lacks a detailed explanation of the innovative aspects of the experimental design.  
-**Severity**: high  
-**Impact**: This raises questions about the validity of the novelty claims.
+**Location**: Discussion  
+**Issue**: Insufficient verification of the stated novelty claims regarding the spectrum labels.  
+**Severity**: medium  
+**Impact**: Raises questions about the validity of the conclusions.
 
 ### Remark 4
 
 **Category**: comparison  
 **Location**: Literature Review  
-**Issue**: The comparison with existing literature is limited to a few references without a comprehensive analysis.  
+**Issue**: Limited comparison with existing literature on the effectiveness of front-of-package labels.  
 **Severity**: medium  
-**Impact**: This undermines the contextualization of the research within the existing body of knowledge.
+**Impact**: Lacks depth in contextualizing the study within the broader research landscape.
 
 ### Remark 5
 
 **Category**: advancement  
-**Location**: Discussion  
-**Issue**: The discussion lacks a thorough assessment of the implications of the findings for advancing knowledge in the field.  
-**Severity**: medium  
-**Impact**: This hinders the demonstration of the research's contribution to the field.
+**Location**: Conclusion  
+**Issue**: The conclusion lacks a comprehensive summary of the field advancement.  
+**Severity**: low  
+**Impact**: Reduces the clarity of the study's overall impact on the field.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: novelty  
+**Location**: Introduction  
+**Category**: literature  
+**Focus**: comparison  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> Almost no studies have evaluated these Nutrition Info labels.
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely acknowledged as a crucial step in mitigating the environmental footprint of the global food industry.
+> Limited research has been conducted on the effectiveness of Nutrition Info labels.
 
 **Explanation**:  
-Enhances the clarity and impact of the statement.
+Provides a more accurate representation of the existing literature gap.
 
 ### Suggestion 2
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: novelty  
-
-**Original Text**:  
-> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
-
-**Improved Version**:  
-> Given the potential impact of small, targeted changes, this study employs a randomized controlled trial (RCT) within a simulated online supermarket to analyze consumer reactions to GHG-reducing product swap suggestions.
-
-**Explanation**:  
-Provides a more detailed and engaging description of the research approach.
-
-### Suggestion 3
 
 **Location**: Methodology  
 **Category**: methodology  
 **Focus**: novelty  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented.
+> We assessed the effects of 6 front-of-package labeling systems...
 
 **Improved Version**:  
-> The participants were allocated randomly into four experimental groups: a targeted treatment group (T(Targeted)) emphasizing the most efficient GHG-reducing product swap, an information treatment group (T(Info)) displaying the GHG reduction percentage for each swap.
+> We comprehensively evaluated the impacts of six distinct front-of-package labeling systems...
 
 **Explanation**:  
-Clarifies the experimental design for better understanding.
+Enhances the clarity and depth of the research approach description.
 
-### Suggestion 4
+### Suggestion 3
 
 **Location**: Results  
 **Category**: results  
 **Focus**: contribution  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+> The spectrum labels led participants to make healthier purchases compared to both the positive labels only...
 
 **Improved Version**:  
-> The study findings reveal a significant impact of providing product swap suggestions, with 88% of participants opting for at least one swap, resulting in an average 25% reduction in basket GHG emissions (SD = 18%).
+> Spectrum labels significantly outperformed positive labels in promoting healthier food choices...
 
 **Explanation**:  
-Enhances the clarity and impact of the results presentation.
+Provides a more impactful presentation of the contribution of spectrum labels.
 
-### Suggestion 5
+### Suggestion 4
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Conclusion  
+**Category**: conclusion  
 **Focus**: advancement  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+> Together, these results suggest that adopting spectrum labels could improve diet quality without exacerbating health disparities.
 
 **Improved Version**:  
-> Our study provides valuable insights for policymakers aiming to promote plant-based dietary choices by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
+> The findings indicate that implementing spectrum labels may enhance dietary quality while addressing health disparities.
 
 **Explanation**:  
-Emphasizes the practical implications of the research contribution.
+Enhances the clarity and impact of the conclusion statement.
 
 ### Detailed Feedback
 ### Novelty Assessment
 
-The research introduces a novel approach of utilizing pre-checkout product swap recommendations to reduce GHG emissions in a supermarket setting, which is a unique contribution to the field of sustainable consumption.
+The study introduces a novel approach by evaluating the effectiveness of various front-of-package labeling systems on promoting healthier food choices. This research fills a gap in understanding the impact of different labeling strategies on consumer behavior.
 
 ### Contribution Analysis
 
-The study contributes by demonstrating the effectiveness of targeted product swaps in reducing GHG emissions and highlights the importance of providing GHG reduction information to influence consumer choices.
+The study contributes valuable insights by demonstrating that spectrum labels are more effective in encouraging healthier food selections compared to other labeling systems. The results highlight the potential of spectrum labels to improve diet quality.
 
 ### Verification Status
 
-The methodology adequately describes the experimental setup but lacks in-depth justification for the novelty of the approach, requiring further elaboration on the innovative aspects of the study design.
+While the study claims novelty in evaluating Nutrition Info labels and spectrum labels, the verification of these claims could be strengthened by providing more in-depth analysis and comparison with existing literature.
 
 ### Comparative Analysis
 
-The literature review provides relevant references but could benefit from a more extensive comparison with existing studies on consumer behavior and sustainability interventions in the food sector.
+The literature review provides a basic comparison with existing work on front-of-package labeling but lacks a detailed analysis of the effectiveness of different labeling systems. A more comprehensive review of relevant studies could enhance the contextualization of the research.
 
 ### Advancement Evaluation
 
-While the research advances knowledge by showcasing the impact of product swap recommendations on consumer behavior, the discussion could further elaborate on the broader implications for policy-making and future research directions.
+The study advances knowledge by demonstrating the potential of spectrum labels to promote healthier food choices. However, a more robust discussion on the implications of these findings for policy and public health initiatives could further enhance the advancement of knowledge in the field.
 
 ## R2 - Impact and Significance
-### Score: 9/10
+### Score: 8/10
 
 ### Summary
-Overall, the study on pre-checkout GHG-reducing product swap recommendations provides valuable insights into behavior change strategies for environmental sustainability. While the research demonstrates the effectiveness of targeted interventions, there are areas for improvement in framing the significance within the field, exploring broader implications, guiding future research directions, and enhancing policy recommendations.
+Overall, the study provides valuable insights into the impact of front-of-package labeling systems on consumer food choices. By highlighting the superior effectiveness of spectrum labels and identifying the limitations of existing and proposed systems, the research contributes significantly to the field of nutrition labeling and consumer behavior. However, there are areas for improvement in clearly articulating the study's influence on the field, discussing broader implications, and addressing future research directions.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: field_influence  
 **Location**: Introduction  
-**Issue**: The introduction could provide more context on the existing research in the field of behavior change and environmental impact.  
+**Issue**: The text lacks a clear statement on the potential influence of the study on the field of nutrition labeling and consumer behavior.  
 **Severity**: medium  
-**Impact**: This impacts the ability to clearly position the study within the broader field.
+**Impact**: This omission reduces the clarity of the study's significance and may hinder its recognition in the academic community.
 
 ### Remark 2
 
 **Category**: implications  
 **Location**: Discussion  
-**Issue**: The discussion could delve deeper into the potential societal and environmental implications of the findings.  
+**Issue**: The broader implications of the findings are not extensively discussed, limiting the understanding of the study's impact beyond the immediate results.  
 **Severity**: medium  
-**Impact**: This limits the exploration of the broader implications beyond the immediate research scope.
-
-### Remark 3
-
-**Category**: future_research  
-**Location**: Conclusion  
-**Issue**: The conclusion lacks specific suggestions for future research directions.  
-**Severity**: low  
-**Impact**: This hinders the guidance for researchers seeking to build on this study.
+**Impact**: This hinders the ability to draw comprehensive conclusions and may limit the study's relevance in informing future research and policy decisions.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: field_influence  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The US requires most packaged foods to display the Nutrition Facts Label, but this label is displayed on the back or side of product packaging and includes only numerical information that most consumers have difficulty understanding.
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as a crucial strategy for mitigating the environmental footprint of the global food system.
+> While the US mandates the Nutrition Facts Label on most packaged foods, its placement on the back or side of products and reliance on numerical data pose challenges for consumer comprehension.
 
 **Explanation**:  
-Enhances clarity and strengthens the statement's impact.
+Clarifies the issue and improves readability by breaking down complex information.
 
 ### Suggestion 2
 
@@ -1570,764 +1813,633 @@ Enhances clarity and strengthens the statement's impact.
 **Focus**: field_influence  
 
 **Original Text**:  
-> A promising, alternative strategy to large scale dietary is targeting the small, simple changes that lead to meaningful reductions in environmental impacts.
+> To address these gaps and inform policymaking, this study aimed to evaluate whether the Nutrition Info label and other new front-of-package labels lead to healthier purchases compared to positive labels and compared to one another.
 
 **Improved Version**:  
-> An alternative and promising strategy to large-scale dietary changes involves targeting small, simple modifications that result in significant reductions in environmental impacts.
+> This study aimed to fill existing gaps and provide insights for policymakers by assessing the impact of Nutrition Info labels and other front-of-package labeling systems on promoting healthier food choices.
 
 **Explanation**:  
-Enhances the coherence and impact of the statement.
+Streamlines the purpose statement and emphasizes the study's contribution to informing policy decisions.
 
 ### Suggestion 3
 
-**Location**: Literature Review  
-**Category**: literature  
+**Location**: Results  
+**Category**: results  
 **Focus**: field_influence  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
+> The effects of the labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Studies conducted on US populations indicate that making small, targeted dietary substitutions could lead to a reduction in the carbon footprint by 33% - 35%.
+> The study found consistent effects of the labels on healthfulness across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-Provides a clearer attribution to the source of the findings.
+Enhances clarity and highlights the robustness of the study findings.
 
 ### Suggestion 4
 
-**Location**: Methodology  
-**Category**: methodology  
+**Location**: Discussion  
+**Category**: discussion  
 **Focus**: implications  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented.
+> In this study, Nutrition Info labels similar to FDA’s proposed labels did not lead to healthier selections than positive labels, regardless of whether they were presented alone or alongside positive labels.
 
 **Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T(Targeted)), which highlighted the most effective GHG-reducing product swap, and an information treatment group (T(Info)), where the percentage GHG reduction from each swap was displayed.
+> Contrary to expectations, Nutrition Info labels, akin to FDA's proposed labels, did not result in healthier choices compared to positive labels, whether presented independently or in combination.
 
 **Explanation**:  
-Clarifies the experimental design and improves readability.
+Provides a more concise and impactful summary of the findings.
 
 ### Suggestion 5
 
-**Location**: Results  
-**Category**: results  
+**Location**: Discussion  
+**Category**: discussion  
 **Focus**: implications  
 
 **Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+> The spectrum labels led to overall healthier selections compared to all other labeling systems we tested.
 
 **Improved Version**:  
-> Overall, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant reduction in basket GHG emissions.
+> Notably, spectrum labels consistently led to healthier choices compared to all other labeling systems examined in the study.
 
 **Explanation**:  
-Enhances clarity by specifying the treatments being referred to.
+Emphasizes the significance of spectrum labels in promoting healthier food selections.
 
 ### Suggestion 6
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: future_research  
+
+**Original Text**:  
+> Future research should explore how to design spectrum labels such that they are linked to federal regulations, such as federal guidelines for nutrient content or the FDA’s definition of “healthy.”
+
+**Improved Version**:  
+> Subsequent research endeavors could investigate strategies to align spectrum labels with federal regulations, such as incorporating federal nutrient guidelines or the FDA's definition of 'healthy'.
+
+**Explanation**:  
+Provides a clear direction for future research and regulatory alignment.
+
+### Suggestion 7
+
+**Location**: Results  
+**Category**: results  
+**Focus**: applications  
+
+**Original Text**:  
+> The intervention labels generally outperformed the positive labels on psychological outcomes.
+
+**Improved Version**:  
+> Across psychological outcomes, the intervention labels consistently demonstrated superior performance compared to positive labels.
+
+**Explanation**:  
+Highlights the impact of intervention labels on psychological factors.
+
+### Suggestion 8
 
 **Location**: Discussion  
 **Category**: discussion  
 **Focus**: policy  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+> FDA has emphasized that a core objective of mandating front-of-package food labels is to help consumers identify healthier foods.
 
 **Improved Version**:  
-> Our research provides valuable insights for policymakers aiming to promote plant-based consumption by demonstrating the effectiveness of pre-checkout, basket-level product swap recommendations in encouraging the purchase of plant-based foods.
+> A key objective of FDA's front-of-package food labeling mandate is to assist consumers in recognizing healthier food choices.
 
 **Explanation**:  
-Strengthens the link between research findings and policy implications.
+Clarifies the regulatory goal and its implications for consumer decision-making.
 
-### Suggestion 7
+### Suggestion 9
 
-**Location**: Discussion  
-**Category**: discussion  
+**Location**: Conclusion  
+**Category**: conclusion  
 **Focus**: field_influence  
 
 **Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+> Strengths of this study include the large and diverse sample, the randomized design, and the use of a realistic online grocery store.
 
 **Improved Version**:  
-> Furthermore, our study underscores the effectiveness of recommending product swaps with GHG reduction information, especially for frequent meat eaters, who represent a crucial consumer group in this context.
+> The study's strengths encompass a sizable and diverse sample, a randomized design, and the utilization of a realistic online grocery store.
 
 **Explanation**:  
-Enhances the emphasis on the significance of targeting frequent meat eaters.
+Enhances the description of study strengths for better comprehension.
 
-### Suggestion 8
+### Suggestion 10
 
 **Location**: Conclusion  
 **Category**: conclusion  
 **Focus**: future_research  
 
 **Original Text**:  
-> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
+> Limitations include that participants had a single exposure to the labels in the context of an online store.
 
 **Improved Version**:  
-> Subsequent studies should prioritize the implementation and evaluation of pre-checkout, basket-level swap recommendations in real-world settings.
+> One limitation is that participants were exposed to the labels only once within an online store setting.
 
 **Explanation**:  
-Provides a more actionable and specific direction for future research.
+Clarifies the study's limitations for better contextual understanding.
 
 ### Detailed Feedback
 ### Field Influence
 
-The study makes a significant contribution to the field by demonstrating the effectiveness of pre-checkout product swap recommendations in reducing GHG emissions. By focusing on small, targeted changes, the research offers a practical approach to addressing environmental impacts.
+The study provides valuable insights into the effectiveness of different front-of-package labeling systems on promoting healthier food choices. By demonstrating the superiority of spectrum labels over existing and proposed systems, the research contributes significantly to the field of nutrition labeling and consumer behavior.
 
 ### Broader Implications
 
-The findings have broader implications for consumer behavior, environmental sustainability, and public health. They highlight the potential for influencing dietary choices through strategic interventions, which can lead to significant reductions in GHG emissions.
+The findings suggest that adopting spectrum labels could have substantial implications for improving diet quality and consumer decision-making. Spectrum labels may offer a more effective approach to guiding consumers towards healthier food selections compared to current labeling practices.
 
 ### Future Research Impact
 
-The study paves the way for future research to explore the scalability and long-term effects of pre-checkout product swap recommendations. Investigating the sustainability of behavior change and the effectiveness of such interventions in diverse settings could further advance the field.
+The study highlights the need for further research to refine front-of-package labeling designs, align them with federal regulations, and explore the long-term effects of repeated label exposure. Future studies could delve into the mechanisms underlying label effectiveness and investigate strategies to enhance consumer understanding and decision-making.
 
 ### Practical Applications
 
-The research has practical applications in guiding consumer choices towards more sustainable options. Implementing pre-checkout product swap recommendations in online and offline retail environments could promote the adoption of environmentally friendly dietary habits.
+The practical applications of this research extend to informing policymakers, food manufacturers, and retailers about the potential benefits of adopting spectrum labels. These labels could play a crucial role in promoting healthier food choices and improving public health outcomes. Additionally, the study underscores the importance of considering consumer behavior and preferences in designing effective front-of-package labeling systems.
 
 ### Policy Implications
 
-The study offers valuable insights for policymakers seeking to promote sustainable food consumption. By demonstrating the impact of targeted product swap recommendations, policymakers can design interventions to encourage the adoption of plant-based diets at the population level.
+From a policy perspective, the study underscores the significance of regulatory interventions in shaping consumer food choices. The findings suggest that policymakers should consider the effectiveness of different labeling systems in influencing consumer behavior and prioritize evidence-based approaches to improve public health outcomes.
 
 ## R3 - Ethics and Compliance
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-The study demonstrates a moderate level of ethical compliance but lacks transparency in conflicts of interest, data privacy measures, informed consent procedures, and research integrity. To enhance ethical standards, the researchers should provide detailed information on these aspects, including conflicts of interest disclosure, explicit consent procedures, and thorough discussion of biases and limitations. Adherence to ethical guidelines and transparency in reporting are crucial for maintaining research integrity and credibility.
+The study demonstrates a solid foundation in research ethics and compliance with ethical guidelines. However, improvements in data privacy measures, explicit consent procedures, and addressing potential biases are essential to enhance ethical standards and research integrity.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: privacy  
-**Location**: Methodology  
-**Issue**: The text does not provide detailed information on data privacy measures implemented during the study.  
+**Location**: Methodology section  
+**Issue**: Lack of detailed information on data privacy measures for online grocery store participants.  
 **Severity**: medium  
-**Impact**: This lack of transparency raises concerns about the protection of participants' personal data.
+**Impact**: Poses a risk to data protection and confidentiality of participants' information.
 
 ### Remark 2
 
 **Category**: consent  
-**Location**: Methodology  
-**Issue**: The text mentions participants were presented with a shopping basket without explicit consent procedures described.  
+**Location**: Methodology section  
+**Issue**: Limited information on the explicit consent process for data collection and analysis.  
 **Severity**: medium  
-**Impact**: Lack of clarity on the informed consent process may indicate potential ethical oversight.
+**Impact**: Raises concerns about participants' understanding and voluntary participation.
 
 ### Remark 3
 
 **Category**: integrity  
-**Location**: Results  
-**Issue**: The text reports non-significant results without discussing potential biases or limitations that could have influenced the outcomes.  
+**Location**: Results section  
+**Issue**: Potential bias in the interpretation of results favoring spectrum labels without addressing limitations.  
 **Severity**: medium  
-**Impact**: Failure to address biases undermines the credibility and integrity of the research findings.
+**Impact**: Could undermine the credibility and objectivity of the study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: integrity  
+**Location**: Methodology section  
+**Category**: consent  
+**Focus**: consent  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> Participants were informed that 1 in 50 would be randomly chosen to receive their selections delivered to their home and the remainder of their budget as a gift card.
 
 **Improved Version**:  
-> The study was preregistered to ensure transparency and reduce bias. Incentives were provided to enhance participant engagement.
+> Participants were clearly informed about the random selection process for receiving grocery deliveries and gift cards.
 
 **Explanation**:  
-Adding transparency and bias reduction through preregistration and clarifying the purpose of incentives.
+Enhances transparency and clarity in the consent process.
 
 ### Suggestion 2
 
-**Location**: Methodology  
+**Location**: Methodology section  
 **Category**: methodology  
-**Focus**: integrity  
+**Focus**: guidelines  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups.
+> Online stores like this one are realistic, acceptable, and valid settings for nutrition research studies.
 
 **Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups to ensure unbiased allocation.
+> Online stores provide a realistic and valid setting for conducting nutrition research studies.
 
 **Explanation**:  
-Highlighting the random assignment process to emphasize fairness and reduce selection bias.
+Clarifies the assertion and maintains accuracy in the statement.
 
 ### Suggestion 3
 
-**Location**: Results  
+**Location**: Results section  
 **Category**: results  
 **Focus**: integrity  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong.
+> The effects of the labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Our results demonstrate a significant impact of offering product swap recommendations on consumer behavior.
+> The effects of the labels on healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-Clarifying the strength of the impact to accurately represent the findings.
-
-### Suggestion 4
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: guidelines  
-
-**Original Text**:  
-> Policymakers looking to shift dietary behavior towards more plant consumption can benefit from our research.
-
-**Improved Version**:  
-> Policymakers aiming to promote plant-based diets can leverage our research findings to inform sustainable food policies.
-
-**Explanation**:  
-Emphasizing the policy implications of the research for ethical decision-making.
+Enhances clarity and precision in reporting the findings.
 
 ### Detailed Feedback
 ### Conflicts Assessment
 
-The text does not explicitly mention any conflicts of interest or disclose any potential biases that could have influenced the research outcomes. Authors should provide a statement regarding any conflicts of interest to ensure transparency and credibility.
+The authors have disclosed their affiliations and potential conflicts of interest adequately. However, further clarification on funding sources and sponsorships would enhance transparency.
 
 ### Privacy Compliance
 
-While the study mentions a hypothetical online supermarket environment, it lacks detailed information on data privacy measures such as data encryption, storage, and handling procedures. To comply with data protection regulations, researchers should clearly outline privacy protocols in the methodology section.
+The study lacks explicit details on data privacy measures, including data encryption, storage, and access controls. Providing a comprehensive data privacy statement is essential to ensure participant confidentiality.
 
 ### Consent Procedures
 
-The text briefly mentions participants' exposure to the treatment page without explicitly detailing the informed consent process. Researchers should clearly describe how participants were informed about the study, their rights, and how their data would be used to ensure ethical compliance.
+While the study mentions obtaining electronic informed consent, the process details, including information provided to participants and their rights, need to be explicitly outlined. Clear consent procedures are crucial for ethical research conduct.
 
 ### Research Integrity
 
-The results section reports non-significant findings without discussing potential biases or limitations that could have influenced the outcomes. To uphold research integrity, authors should address possible biases, limitations, and their implications on the study results.
+The study design and methodology appear robust, with a randomized trial approach. However, addressing potential biases and limitations in the interpretation of results would strengthen research integrity.
 
 ### Guidelines Adherence
 
-The study lacks a clear statement on adherence to ethical guidelines such as obtaining informed consent, protecting participant privacy, and ensuring data integrity. Authors should explicitly state their adherence to ethical standards and provide detailed information on ethical considerations throughout the research process.
+The study aligns with ethical guidelines in terms of participant recruitment and data collection. However, enhancing transparency in reporting results and addressing potential biases would further improve adherence to ethical standards.
 
 ## R4 - Data and Code Availability
 ### Score: 4/10
 
 ### Summary
-The text lacks explicit data sharing practices and code availability information, hindering research transparency and reproducibility. Improvements are needed in providing clear data availability statements, linking to dataset documentation, sharing code implementation details, justifying access restrictions, and summarizing data and code availability in the conclusion.
+The study lacks clear statements on data availability and code repository, leading to challenges in reproducibility. Insufficient documentation and lack of access restriction justifications further hinder transparency. Detailed data presentation and code results are essential for reproducibility and should be improved to enhance the study's credibility.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: data_sharing  
-**Location**: Introduction  
-**Issue**: The text does not provide information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers.  
-**Severity**: high  
-**Impact**: This lack of data sharing information hinders research transparency and reproducibility.
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear statement on data availability, making it difficult for readers to know if the data is accessible.  
+**Severity**: medium  
+**Impact**: This affects research transparency as it hinders the ability of other researchers to verify the findings.
 
 ### Remark 2
 
 **Category**: code_availability  
 **Location**: Methodology  
-**Issue**: There is no mention of a code repository where the implementation code for the study can be accessed, making it difficult for other researchers to replicate the experiments.  
+**Issue**: There is no mention of a code repository for the implementation of the randomized trial, making it challenging for others to reproduce the study.  
 **Severity**: high  
-**Impact**: The absence of code availability limits the reproducibility and credibility of the research findings.
+**Impact**: This significantly hampers the reproducibility of the study and limits the ability of other researchers to build upon the work.
 
 ### Remark 3
 
 **Category**: documentation  
-**Location**: Code Documentation  
-**Issue**: The text lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code.  
+**Location**: Discussion  
+**Issue**: The discussion lacks detailed documentation on the methodology used for data collection and code implementation, reducing the clarity of the research process.  
 **Severity**: medium  
-**Impact**: Incomplete code documentation reduces the usability and reproducibility of the research.
+**Impact**: Insufficient documentation hinders the understanding of the study's methodology and limits the reproducibility of the results.
 
 ### Remark 4
 
 **Category**: restrictions  
-**Location**: Discussion  
-**Issue**: There is no justification provided for any access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place.  
-**Severity**: medium  
-**Impact**: Lack of access restrictions justification raises concerns about transparency and reproducibility.
+**Location**: Conclusion  
+**Issue**: There is no justification provided for any access restrictions to the data or code, leaving readers unaware of any limitations.  
+**Severity**: low  
+**Impact**: While the impact is low, providing access restriction justifications can enhance transparency and trust in the research.
 
 ### Remark 5
 
 **Category**: reproducibility  
-**Location**: Conclusion  
-**Issue**: The conclusion lacks a summary of the availability of data and code, making it challenging for readers to understand the reproducibility of the research.  
-**Severity**: medium  
-**Impact**: Incomplete information in the conclusion section diminishes the reproducibility support of the study.
-
-### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> The study was preregistered and incentive-compatible.
-
-**Improved Version**:  
-> The study was preregistered and incentive-compatible, and the dataset used in the study is available on [repository link] for further analysis.
-
-**Explanation**:  
-By providing a repository link to the dataset, other researchers can access and verify the data, enhancing transparency and reproducibility.
-
-### Suggestion 2
-
-**Location**: Data Description  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household.
-
-**Improved Version**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household, and the dataset structure and access methods are detailed in [link to dataset documentation].
-
-**Explanation**:  
-Including information on dataset structure and access methods improves data transparency and facilitates replication of the study.
-
-### Suggestion 3
-
 **Location**: Results  
-**Category**: results  
-**Focus**: code_availability  
-
-**Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
-
-**Improved Version**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%). The code implementation details and usage instructions can be found in [code repository link].
-
-**Explanation**:  
-Linking to the code repository provides transparency on the code used for analysis, enabling reproducibility of the results.
-
-### Suggestion 4
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: code_availability  
-
-**Original Text**:  
-> Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket.
-
-**Improved Version**:  
-> Our research should be viewed in light of certain limitations, namely the external validity of the online supermarket experiment environment and the use of a representative basket. To address these limitations, the full documentation of the code implementation is available on [code repository link].
-
-**Explanation**:  
-Providing access to the full code documentation helps address concerns about research limitations and enhances reproducibility.
-
-### Detailed Feedback
-### Data Sharing Assessment
-
-The text lacks explicit information on data sharing practices, such as where the dataset used in the study can be accessed or if it will be made available to other researchers. Providing a clear data availability statement and repository link would enhance transparency and reproducibility.
-
-### Code Availability
-
-There is no mention of a code repository where the implementation code for the study can be accessed, limiting the reproducibility and credibility of the research findings. Including a link to the code repository in the methodology section would improve code availability.
-
-### Documentation Completeness
-
-The code documentation lacks detailed information on the implementation of the code used in the study, making it challenging for others to understand and reuse the code. Enhancing the code documentation with implementation details and usage instructions would improve usability and reproducibility.
-
-### Restrictions Justification
-
-The text does not provide any justification for access restrictions to the data or code used in the study, leaving it unclear why certain limitations are in place. Including a brief explanation for access restrictions in the discussion section would enhance transparency and reproducibility.
-
-### Reproducibility Support
-
-The conclusion lacks a summary of the availability of data and code, making it difficult for readers to assess the reproducibility of the research. Including a clear availability summary and access information in the conclusion section would improve reproducibility support.
-
-## R5 - Statistical Rigor
-### Score: 5/10
-
-### Summary
-The study demonstrates potential in exploring the impact of product swap recommendations on GHG reductions. However, several critical issues related to statistical rigor, such as inadequate test selection justification, assumption verification, and lack of effect size reporting, need to be addressed. Improvements in reporting effect sizes, confidence intervals, and addressing missing data and outliers can enhance the validity and interpretability of the results. Future research should focus on justifying sample sizes, correcting for multiple comparisons, and ensuring statistical power considerations for robust findings.
-
-### Critical Remarks
-### Remark 1
-
-**Category**: test_selection  
-**Location**: Methodology  
-**Issue**: The text does not explicitly mention the rationale behind choosing specific statistical tests for the analysis.  
-**Severity**: medium  
-**Impact**: This lack of transparency can lead to doubts about the appropriateness of the chosen tests and the validity of the results.
-
-### Remark 2
-
-**Category**: assumptions  
-**Location**: Data Preparation  
-**Issue**: There is no mention of how assumptions of the statistical tests (e.g., normality, homoscedasticity) were verified.  
+**Issue**: The lack of detailed data presentation and code results limits the reproducibility of the study findings.  
 **Severity**: high  
-**Impact**: Failure to verify assumptions can lead to inaccurate results and conclusions.
-
-### Remark 3
-
-**Category**: sample_size  
-**Location**: Methodology  
-**Issue**: The rationale for the chosen sample size of 1070 participants is not provided.  
-**Severity**: medium  
-**Impact**: Without justification, the sample size may not be adequate for detecting true effects or generalizing the results.
-
-### Remark 4
-
-**Category**: multiple_comparisons  
-**Location**: Analysis  
-**Issue**: The text does not mention any adjustments made for multiple comparisons despite conducting tests on multiple outcome variables.  
-**Severity**: medium  
-**Impact**: Failure to correct for multiple comparisons increases the likelihood of Type I errors and false positives.
-
-### Remark 5
-
-**Category**: effect_size  
-**Location**: Results  
-**Issue**: While statistical significance is reported, effect sizes are not provided for the observed differences.  
-**Severity**: medium  
-**Impact**: Effect sizes are crucial for understanding the practical significance of the results beyond statistical significance.
-
-### Remark 6
-
-**Category**: confidence_intervals  
-**Location**: Results  
-**Issue**: Confidence intervals are not reported for the estimated effects, making it difficult to assess the precision of the findings.  
-**Severity**: medium  
-**Impact**: Confidence intervals provide a range within which the true effect is likely to lie, enhancing result interpretation.
-
-### Remark 7
-
-**Category**: p_value  
-**Location**: Results  
-**Issue**: The interpretation of p-values lacks context and does not discuss the practical significance of the results.  
-**Severity**: medium  
-**Impact**: Misinterpretation of p-values can lead to erroneous conclusions about the importance of the findings.
-
-### Remark 8
-
-**Category**: statistical_power  
-**Location**: Methodology  
-**Issue**: There is no mention of statistical power calculations to determine the likelihood of detecting true effects.  
-**Severity**: medium  
-**Impact**: Without considering statistical power, the study may be underpowered to detect meaningful effects.
-
-### Remark 9
-
-**Category**: missing_data  
-**Location**: Data Preparation  
-**Issue**: The text does not address how missing data were handled in the analysis.  
-**Severity**: medium  
-**Impact**: Ignoring missing data can introduce bias and affect the validity of the results.
-
-### Remark 10
-
-**Category**: outliers  
-**Location**: Data Preparation  
-**Issue**: There is no mention of how outliers were identified and treated in the dataset.  
-**Severity**: medium  
-**Impact**: Outliers can unduly influence statistical results, and their handling is crucial for result accuracy.
+**Impact**: Without clear data presentation and code results, replicating the study becomes challenging for other researchers.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
+**Location**: Results  
+**Category**: results  
+**Focus**: reproducibility  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> Neither the Nutrition Info, positive + Nutrition Info, high-in, nor positive + high-in labels led participants to make healthier purchases compared to the positive labels only.
 
 **Improved Version**:  
-> The study protocol was preregistered to enhance transparency and reduce bias. Incentives were provided to ensure participant engagement.
+> The Nutrition Info, positive + Nutrition Info, high-in, and positive + high-in labels did not result in participants making healthier purchases compared to the positive labels only.
 
 **Explanation**:  
-Preregistration helps prevent post-hoc changes in analysis plans, reducing the risk of selective reporting. Incentives can improve participant compliance and data quality.
+Clarity and readability are improved by restructuring the sentence for better comprehension.
 
 ### Suggestion 2
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: assumptions  
+**Location**: Results  
+**Category**: results  
+**Focus**: reproducibility  
 
 **Original Text**:  
-> Participants were randomized to one of the four experimental groups.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups to ensure unbiased treatment allocation.
+> The effects of the labels on overall healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-Random assignment helps control for confounding variables and ensures that treatment effects are not influenced by participant characteristics.
+Enhances clarity and provides a more concise description of the findings.
 
 ### Suggestion 3
 
-**Location**: Results  
-**Category**: results  
-**Focus**: effect_size  
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: reproducibility  
 
 **Original Text**:  
-> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+> In this study, Nutrition Info labels similar to FDA’s proposed labels did not lead to healthier selections than positive labels.
 
 **Improved Version**:  
-> Despite the treatments, the study found a substantial impact of product swap recommendations, with 88% of participants opting for swaps, resulting in a mean GHG reduction of 25% (SD = 18%) in the shopping basket.
+> In this study, Nutrition Info labels, similar to the FDA’s proposed labels, did not result in participants making healthier selections compared to positive labels.
 
 **Explanation**:  
-Clarity in reporting the results without conflating treatment effects with overall outcomes enhances result interpretation.
+Adding clarity and specificity by providing more context and details.
 
 ### Suggestion 4
 
-**Location**: Results  
-**Category**: results  
-**Focus**: effect_size  
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: reproducibility  
 
 **Original Text**:  
-> Participants exposed to T(Targeted) were 1.5 more likely to choose the most effective GHG-reducing swap.
+> Future research should explore how to design spectrum labels such that they are linked to federal regulations, such as federal guidelines for nutrient content or the FDA’s definition of “healthy.”
 
 **Improved Version**:  
-> Participants in the T(Targeted) group were 1.5 times more inclined to select the most effective GHG-reducing swap.
+> Future research should investigate methods to align spectrum labels with federal regulations, such as incorporating federal guidelines for nutrient content or adhering to the FDA’s definition of “healthy.”
 
 **Explanation**:  
-Using relative measures like 'times more likely' provides a clearer understanding of the effect size.
+Enhances precision and clarity in conveying the recommendation for future research.
 
 ### Suggestion 5
 
 **Location**: Results  
 **Category**: results  
-**Focus**: p_value  
+**Focus**: reproducibility  
 
 **Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
+> The lack of detailed data presentation and code results limits the reproducibility of the study findings.
 
 **Improved Version**:  
-> In general, neither the T(Targeted) nor T(Info) groups exhibited a statistically significant decrease in basket GHG emissions.
+> Insufficient data presentation and code result details hinder the reproducibility of the study findings.
 
 **Explanation**:  
-Clarifying the lack of statistical significance helps in accurately interpreting the results.
-
-### Suggestion 6
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: missing_data  
-
-**Original Text**:  
-> Participants could select as many of the available product swaps as they desired.
-
-**Improved Version**:  
-> Participants had the freedom to choose multiple product swaps based on their preferences.
-
-**Explanation**:  
-Providing clarity on participant autonomy in selecting swaps can aid in understanding participant behavior.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: effect_size  
-
-**Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
-
-**Improved Version**:  
-> Our study emphasizes that suggesting product swaps with GHG reduction information is notably impactful for frequent meat eaters, a crucial consumer segment for dietary interventions.
-
-**Explanation**:  
-Emphasizing the importance of specific consumer groups aids in contextualizing the study's implications.
-
-### Suggestion 8
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: sample_size  
-
-**Original Text**:  
-> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
-
-**Improved Version**:  
-> Subsequent studies should prioritize implementing and evaluating pre-checkout, basket-level swap recommendations in real-world settings.
-
-**Explanation**:  
-Highlighting the need for real-world validation enhances the practical relevance of the research.
+Enhances clarity and emphasizes the impact of the issue on reproducibility.
 
 ### Detailed Feedback
-### Test Selection
+### Data Sharing Assessment
 
-The text lacks explicit justification for the choice of statistical tests used in the analysis. Providing rationale for test selection based on research questions and data characteristics is essential for ensuring the appropriateness of the statistical methods.
+The study lacks a clear statement on data availability, making it challenging for other researchers to access and verify the data used in the study.
 
-### Assumption Verification
+### Code Availability
 
-Assumption verification, such as checking for normality and homoscedasticity, is crucial for ensuring the validity of statistical tests. Without verifying assumptions, the results may be unreliable.
+There is no mention of a code repository for the implementation of the randomized trial, hindering the reproducibility of the study as other researchers cannot access the code.
 
-### Sample Size Justification
+### Documentation Completeness
 
-While the sample size of 1070 participants is mentioned, the rationale behind this specific number is missing. Justifying the sample size based on effect size, power analysis, or practical constraints is essential for result reliability.
+The documentation of the methodology for data collection and code implementation is insufficient, impacting the transparency and reproducibility of the research process.
 
-### Multiple Comparison Handling
+### Restrictions Justification
 
-Given that multiple outcome variables were tested, failing to adjust for multiple comparisons can inflate Type I error rates. Correcting for multiple comparisons using appropriate methods like Bonferroni correction is crucial to maintain statistical rigor.
+The study does not provide any justification for access restrictions to the data or code, limiting transparency and hindering the ability of other researchers to understand any limitations.
 
-### Effect Size Reporting
+### Reproducibility Support
 
-Reporting effect sizes alongside statistical significance is vital for understanding the magnitude of observed differences. Effect sizes provide practical significance and aid in result interpretation beyond mere statistical significance.
+The study lacks detailed data presentation and code results, which is crucial for reproducibility as it allows other researchers to replicate the study findings accurately.
 
-### Confidence Intervals
-
-Including confidence intervals for estimated effects offers a range within which the true effect is likely to lie. This additional information enhances result interpretation and provides insights into result precision.
-
-### P Value Interpretation
-
-Interpreting p-values in context and discussing their practical significance is crucial for avoiding misinterpretation. Contextualizing p-values helps in understanding the importance of the findings beyond statistical significance.
-
-### Statistical Power
-
-Considering statistical power during study design helps determine the likelihood of detecting true effects. Conducting power analysis ensures that the study is adequately powered to detect meaningful effects with a sufficient sample size.
-
-### Missing Data Handling
-
-Addressing how missing data were handled, whether through imputation or exclusion, is essential for result validity. Ignoring missing data can introduce bias and affect the generalizability of the findings.
-
-### Outlier Treatment
-
-Identifying and appropriately handling outliers in the dataset is crucial for result accuracy. Outliers can unduly influence statistical results and their treatment is necessary to ensure result validity.
-
-## R6 - Technical Accuracy
+## R5 - Statistical Rigor
 ### Score: 7/10
 
 ### Summary
-The text provides a solid foundation for understanding the impact of pre-checkout GHG-reducing product swap recommendations. However, improvements in mathematical derivations, algorithm transparency, equation presentation, and technical documentation are necessary to enhance technical accuracy and reproducibility. Addressing these areas would strengthen the study's validity and contribute to the advancement of research in sustainable food systems.
+Overall, the study demonstrates good statistical rigor in terms of test selection, confidence interval reporting, and statistical power justification. However, improvements are needed in sample size justification, effect size reporting, and p-value interpretation to enhance the validity and practical significance of the findings.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: terminology  
-**Location**: Introduction  
-**Issue**: The term 'GHG' is used without prior explanation. While common in environmental science, it may not be universally understood.  
+**Category**: sample_size  
+**Location**: METHODS section  
+**Issue**: The sample size justification is based on detecting a small effect size (Cohen's d=.15), which may be considered too small for practical significance in this context.  
 **Severity**: medium  
-**Impact**: May confuse readers unfamiliar with the abbreviation.
+**Impact**: This may lead to underpowered analyses and limit the generalizability of the findings.
 
 ### Remark 2
 
-**Category**: equations  
-**Location**: Mathematical Framework  
-**Issue**: The equations for calculating GHG reductions from product swaps are not explicitly provided.  
-**Severity**: high  
-**Impact**: Lack of equation presentation hinders reproducibility and understanding of the methodology.
+**Category**: p_value  
+**Location**: RESULTS section  
+**Issue**: The interpretation of p-values lacks context and does not consider the clinical or practical significance of the results.  
+**Severity**: medium  
+**Impact**: This may lead to misleading conclusions about the statistical significance of the findings.
 
 ### Remark 3
 
-**Category**: implementation  
-**Location**: Algorithm Description  
-**Issue**: Specific details about the randomization process and participant selection criteria are missing.  
-**Severity**: medium  
-**Impact**: Lack of transparency in implementation details may raise questions about study validity.
+**Category**: effect_size  
+**Location**: RESULTS section  
+**Issue**: The effect sizes reported are limited to average differential effects (ADEs) without considering standardized effect sizes like Cohen's d.  
+**Severity**: low  
+**Impact**: Including standardized effect sizes would provide a clearer understanding of the practical significance of the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: terminology  
+**Location**: METHODS section  
+**Category**: sample_size  
+**Focus**: sample_size  
 
 **Original Text**:  
-> GHG
+> Assuming a two-tailed critical alpha of 0.05, the target sample size of 5,610 (935 per arm) yielded 90% power to detect an effect of this size or larger.
 
 **Improved Version**:  
-> Greenhouse Gas (GHG)
+> Consider reevaluating the sample size justification based on a larger effect size that is more practically significant in the context of the study.
 
 **Explanation**:  
-Expanding the abbreviation on first use helps clarify the technical term for all readers.
+This would ensure that the study is adequately powered to detect meaningful differences.
 
 ### Suggestion 2
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: completeness  
+**Location**: RESULTS section  
+**Category**: p_value  
+**Focus**: p_value  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> The study was preregistered and designed to be incentive-compatible.
+> The effects of the labels on overall healthfulness were not found to be significantly moderated by nutrition literacy, income, or educational attainment.
 
 **Explanation**:  
-Adding 'designed to be' clarifies the intent behind the study design.
-
-### Suggestion 3
-
-**Location**: Algorithm Description  
-**Category**: algorithm_description  
-**Focus**: terminology  
-
-**Original Text**:  
-> Participants were randomized to one of the four experimental groups...
-
-**Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups...
-
-**Explanation**:  
-Using 'randomly assigned' instead of 'randomized' enhances clarity in participant allocation.
+Adding the term 'significantly' clarifies the statistical interpretation.
 
 ### Detailed Feedback
-### Derivation Correctness
+### Test Selection
 
-The text lacks explicit mathematical derivations for calculating GHG reductions from product swaps. Providing these derivations would enhance the transparency and reproducibility of the study.
+The study appropriately used ordinary least squares (OLS) regression to analyze the effects of front-of-package labels on healthfulness.
 
-### Algorithm Accuracy
+### Assumption Verification
 
-The algorithm for randomizing participants into experimental groups is not fully described. Including details on the randomization process and participant selection criteria would improve the algorithm's transparency and reproducibility.
+The assumption of linearity in OLS regression should be explicitly mentioned and verified in the methodology.
 
-### Terminology Accuracy
+### Sample Size Justification
 
-While technical terminology is generally accurate, some abbreviations like 'GHG' could be expanded on first use to ensure clarity for all readers.
+The sample size justification could be improved by considering effect sizes that are more practically significant.
 
-### Equation Clarity
+### Multiple Comparison Handling
 
-Equations for calculating GHG reductions from product swaps are missing. Including these equations with clear explanations would improve the presentation of the mathematical framework.
+The study did not explicitly address multiple comparison issues; adjusting for multiple testing methods like Bonferroni correction could enhance the validity of the results.
 
-### Content Completeness
+### Effect Size Reporting
 
-The text provides a comprehensive overview of the experimental setup and results. However, explicit derivations, detailed algorithm descriptions, and equation presentations would enhance the completeness of the technical content.
+While the study reported average differential effects (ADEs), including standardized effect sizes like Cohen's d would provide a more comprehensive understanding of the effect magnitudes.
 
-### Logical Consistency
+### Confidence Intervals
 
-The logical flow of the study is well-maintained, with clear connections between the introduction, methodology, results, and discussion sections.
+The study appropriately reported confidence intervals for the effect estimates, providing a range of plausible values for the population parameters.
 
-### Implementation Details
+### P Value Interpretation
 
-Specific implementation details regarding the randomization process and participant selection criteria are lacking. Providing these details would enhance the transparency and reproducibility of the study.
+The interpretation of p-values could be enhanced by providing context on the clinical or practical significance of the results.
 
-### Edge Case Handling
+### Statistical Power
 
-The text does not explicitly mention how edge cases, such as outlier participant behaviors, were handled during the analysis. Including a discussion on edge case handling would strengthen the study's robustness.
+The study adequately justified the sample size based on a specified effect size and desired power level.
 
-### Complexity Analysis
+### Missing Data Handling
 
-A detailed complexity analysis of the algorithm used for participant randomization and the computational complexity of GHG reduction calculations is missing. Including these analyses would provide insights into the efficiency of the study.
+The study did not mention specific methods for handling missing data; addressing this issue explicitly would improve the transparency of the analysis.
 
-### Technical Documentation
+### Outlier Treatment
 
-While the study methodology is outlined, there is a lack of detailed technical documentation on the experimental setup, data collection methods, and analysis procedures. Enhancing the technical documentation would facilitate reproducibility and further research.
+The study did not detail how outliers were identified or treated; providing information on outlier detection methods and their impact on the results would enhance the robustness of the analysis.
 
-## R7 - Consistency
-### Score: 6/10
+## R6 - Technical Accuracy
+### Score: 8/10
 
 ### Summary
-The study demonstrates a strong alignment between methods and results, with clear hypothesis testing and consistent interpretation of data. However, improvements are needed in linking specific treatment effects to study objectives, addressing limitations more comprehensively, and enhancing visual support for reported results. Overall, enhancing logical coherence and consistency across sections would strengthen the study's impact and contribute to a more robust research framework.
+The study demonstrates a strong technical foundation in analyzing the impact of front-of-package labeling systems on food purchases. However, there are areas for improvement in providing detailed derivations, ensuring consistency in presenting results, and enhancing the depth of discussion on the reasons behind the observed effects.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: methods_results  
-**Location**: Results section  
-**Issue**: The results mention that neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions, but then go on to highlight specific effects of T(Info) on outcome variables for daily meat-eating participants.  
+**Category**: mathematical_framework  
+**Location**: METHODS section  
+**Issue**: Lack of detailed explanation on how Ofcom scores were calculated from the United Kingdom's Nutrient Profiling Model.  
 **Severity**: medium  
-**Impact**: This inconsistency affects the clarity of the study findings and the overall interpretation of the results.
+**Impact**: Affects the transparency and reproducibility of the study results.
+
+### Remark 2
+
+**Category**: equations  
+**Location**: RESULTS section  
+**Issue**: Inconsistencies in the presentation of ADE values for different labeling systems.  
+**Severity**: low  
+**Impact**: May confuse readers and undermine the clarity of the results.
+
+### Remark 3
+
+**Category**: documentation  
+**Location**: DISCUSSION section  
+**Issue**: Limited discussion on the potential reasons why certain labeling systems outperformed others.  
+**Severity**: medium  
+**Impact**: Reduces the depth of analysis and interpretation of the results.
+
+### Improvement Suggestions
+### Suggestion 1
+
+**Location**: METHODS section  
+**Category**: mathematical_framework  
+**Focus**: terminology  
+
+**Original Text**:  
+> We calculated Ofcom scores for all products in the store, converting scores to a 0-100 scale.
+
+**Improved Version**:  
+> Ofcom scores were derived from the United Kingdom's Nutrient Profiling Model and transformed to a 0-100 scale for consistency.
+
+**Explanation**:  
+Clarifies the source of the scores and enhances reproducibility.
+
+### Suggestion 2
+
+**Location**: RESULTS section  
+**Category**: equations  
+**Focus**: equations  
+
+**Original Text**:  
+> The spectrum labels improved healthfulness by approximately 4% compared to the positive labels.
+
+**Improved Version**:  
+> The spectrum labels led to a 4% increase in healthfulness compared to the positive labels.
+
+**Explanation**:  
+Enhances clarity and consistency in presenting results.
+
+### Detailed Feedback
+### Derivation Correctness
+
+The study lacks detailed derivation explanations for the calculation of healthfulness scores, which could be crucial for understanding the methodology.
+
+### Algorithm Accuracy
+
+The algorithm description for the randomized trial design is clear and well-structured, ensuring the reproducibility of the study.
+
+### Terminology Accuracy
+
+The technical terminology used throughout the text is appropriate and aligns with the field of nutrition research.
+
+### Equation Clarity
+
+Equations are presented in a clear and concise manner, aiding in the understanding of the results.
+
+### Content Completeness
+
+The study covers a wide range of aspects related to front-of-package labeling systems, providing a comprehensive analysis.
+
+### Logical Consistency
+
+The logical flow of the study is well-maintained, with clear connections between the objectives, methods, results, and conclusions.
+
+### Implementation Details
+
+The implementation of the randomized trial in an online grocery store is well-described, allowing for replication of the study.
+
+### Edge Case Handling
+
+The study lacks explicit discussion on how edge cases or outliers were handled in the analysis, which could impact the robustness of the findings.
+
+### Complexity Analysis
+
+The complexity analysis of the labeling systems' effects on healthfulness is thorough, providing insights into the comparative effectiveness of different labels.
+
+### Technical Documentation
+
+The technical documentation of the study design and procedures is detailed, enhancing the transparency and credibility of the research.
+
+## R7 - Consistency
+### Score: 7/10
+
+### Summary
+The study demonstrates a strong alignment between the methods and results, with consistent testing of hypotheses and logical flow between sections. However, improvements are needed in terminology standardization, detailed presentation of data supporting conclusions, and better integration of the introduction with the study design. Enhancing the specificity of results and conclusions would further strengthen the coherence and consistency of the text.
+
+### Critical Remarks
+### Remark 1
+
+**Category**: results_conclusions  
+**Location**: Results section  
+**Issue**: The spectrum labels are stated to be more effective in promoting healthier purchases, but the specific data supporting this claim is not clearly presented.  
+**Severity**: medium  
+**Impact**: Affects the credibility of the conclusion drawn from the results.
 
 ### Remark 2
 
 **Category**: logical_flow  
-**Location**: Discussion section  
-**Issue**: The discussion does not thoroughly address the limitations mentioned in the conclusion, leaving a gap in the logical flow of addressing study constraints.  
+**Location**: Introduction and Methods sections  
+**Issue**: The introduction discusses the FDA's proposed labels, but the Methods section lacks a detailed explanation of how these labels were implemented in the study.  
 **Severity**: medium  
-**Impact**: This gap weakens the overall coherence of the study and may lead to misinterpretation of the research implications.
+**Impact**: Inconsistency in providing a clear link between the theoretical framework and the study implementation.
 
 ### Remark 3
 
-**Category**: figures  
-**Location**: Results section  
-**Issue**: The text mentions specific percentages and points related to GHG reductions and willingness-to-swap meat, but there are no corresponding figures to visually represent these data points.  
+**Category**: terminology  
+**Location**: Throughout the text  
+**Issue**: Inconsistent use of terminology such as 'healthfulness' and 'healthier purchases' without clear definitions or standardization.  
 **Severity**: medium  
-**Impact**: This lack of figure-text alignment reduces the clarity and visual support for the reported results.
+**Impact**: Confusion for readers and lack of clarity in conveying key concepts.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2337,133 +2449,133 @@ The study demonstrates a strong alignment between methods and results, with clea
 **Focus**: results_conclusions  
 
 **Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions. However, T(Info) did have a strong effect on many outcome variables for daily meat-eating (DME) participants.
+> The spectrum labels led participants to make healthier purchases compared to both the positive labels only and all other labeling systems.
 
 **Improved Version**:  
-> While neither T(Targeted) nor T(Info) led to a significant reduction in basket GHG emissions overall, T(Info) demonstrated a significant impact on various outcome variables for daily meat-eating (DME) participants.
+> The spectrum labels led participants to make purchases with higher healthfulness scores compared to both the positive labels only and all other labeling systems.
 
 **Explanation**:  
-This revision clarifies the overall impact of the treatments on GHG emissions and highlights the specific effects on a subgroup of participants.
+Adding specificity by mentioning 'higher healthfulness scores' clarifies the comparison.
 
 ### Suggestion 2
 
-**Location**: Conclusion section  
-**Category**: conclusion  
-**Focus**: logical_flow  
+**Location**: Results section  
+**Category**: results  
+**Focus**: interpretation  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+> The effects of the food labels on healthfulness did not vary by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Our research underscores the potential for pre-checkout, basket-level product swap recommendations to effectively promote the purchase of plant-based foods, offering valuable insights for policymakers aiming to encourage dietary shifts towards more plant consumption.
+> The effects of the food labels on healthfulness were consistent across different levels of nutrition literacy, income, and educational attainment.
 
 **Explanation**:  
-This revision strengthens the connection between the study findings and the implications for policymakers, providing a clearer and more impactful conclusion.
+Enhancing clarity by specifying 'consistent across different levels' and restructuring the sentence for better readability.
 
 ### Suggestion 3
 
-**Location**: Methodology section  
-**Category**: methodology  
-**Focus**: terminology  
+**Location**: Introduction section  
+**Category**: literature  
+**Focus**: citations  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> Almost no studies have evaluated these Nutrition Info labels.
 
 **Improved Version**:  
-> The study was preregistered and designed to be incentive-compatible.
+> Limited research has evaluated these Nutrition Info labels.
 
 **Explanation**:  
-Adding 'designed to be' clarifies the intentionality of ensuring incentive compatibility in the study design.
+Using 'limited research' instead of 'almost no studies' provides a more accurate representation.
 
 ### Detailed Feedback
 ### Methods Results Alignment
 
-The Methods section provides a clear description of the experimental design and treatments, aligning well with the reported results in terms of participant responses and GHG reductions. However, the Results section could better link the treatment effects to the study objectives and hypotheses to enhance alignment.
+The methods clearly outline the study design, but the results lack detailed statistical analysis supporting the conclusions.
 
 ### Results Conclusions Alignment
 
-While the Results section presents the effects of different treatments on participant behavior, the conclusions could better reflect the nuanced findings regarding the impact of treatments on specific participant groups. Strengthening this alignment would improve the coherence between results and conclusions.
+While the results highlight the effectiveness of spectrum labels, the conclusions could be more nuanced and supported by specific data.
 
 ### Logical Flow
 
-The logical flow from the introduction of the study rationale to the presentation of results is generally well-structured. However, there is a gap in addressing the limitations in the discussion that were highlighted in the conclusion. Ensuring a more seamless transition between these sections would enhance the overall coherence of the study.
+The logical flow is generally coherent, but there is a need for better integration between the introduction and methods to ensure consistency in presenting the study design.
 
 ### Terminology Consistency
 
-The terminology used throughout the study is consistent and appropriate for the research context. However, minor adjustments could be made to ensure clarity and precision in certain technical terms or concepts.
+The terminology related to healthfulness and label effectiveness needs standardization and clearer definitions throughout the text.
 
 ### Hypothesis Testing
 
-The study effectively tests the hypothesis that pre-checkout product swap recommendations influence consumer behavior and GHG reductions. The alignment between the experimental design and hypothesis testing is clear, contributing to the robustness of the study.
+The study effectively tests the impact of different front-of-package labels on purchase healthfulness, aligning with the research objectives.
 
 ### Interpretation Consistency
 
-The interpretation of the results in relation to the study objectives is generally consistent, highlighting the impact of different treatments on participant responses. However, further clarity could be provided in connecting these interpretations to broader implications for dietary behavior and environmental impact.
+The interpretation of results could be strengthened by providing more detailed explanations of the observed effects and their implications.
 
 ### Citation Consistency
 
-The study maintains good citation consistency by referencing relevant literature to support the rationale, methodology, and interpretation of results. Ensuring proper citation format and accuracy enhances the credibility and academic rigor of the research.
+The text maintains consistent citation practices, referencing prior studies and regulatory documents appropriately.
 
 ### Figure Text Alignment
 
-While the text provides detailed numerical results, the lack of corresponding figures to visually represent these data points reduces the clarity and impact of the reported findings. Aligning text with visual representations through figures would enhance the overall presentation of results.
+Figures are well-referenced and support the text, providing visual aids for better understanding.
 
 ### Table Text Alignment
 
-Tables in the study are appropriately used to present specific data points and comparisons. Ensuring that the text references and explains the information presented in tables would strengthen the alignment between textual descriptions and tabular data.
+Tables are effectively used to present data, but some tables could benefit from clearer explanations and headings for better alignment with the text.
 
 ### Supplementary Consistency
 
-The study mentions the need for future research to explore the implementation of pre-checkout product swap recommendations in field studies. Ensuring consistency between the main text and supplementary material in terms of research directions and implications would provide a comprehensive and cohesive research framework.
+The supplementary material complements the main text, providing additional details and supporting information.
 
 ### Writing Agents (W1-W8)
 
 ## W1 - Language and Style
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-Overall, the text demonstrates a good level of academic writing conventions with minor issues in grammar, punctuation, and spelling. Improvements in sentence structure, verb tense consistency, and preposition usage can enhance readability and clarity. Attention to detail in citation format and article usage can further elevate the quality of the manuscript.
+Overall, the text demonstrates good language and style, with minor issues in grammar, spelling, and punctuation. Improvements in sentence structure, verb tense consistency, and subject-verb agreement could enhance readability. Attention to detail in spelling and punctuation will further refine the academic tone of the text.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: grammar  
 **Location**: Abstract  
-**Issue**: The abstract lacks conciseness and clarity due to lengthy sentences and complex phrasing.  
+**Issue**: The sentence 'The spectrum labels led participants to make healthier purchases compared to both the positive labels only' lacks a verb, making it incomplete.  
 **Severity**: medium  
-**Impact**: Affects the reader's ability to quickly grasp the main points of the study.
+**Impact**: Affects clarity and completeness of the statement.
 
 ### Remark 2
 
 **Category**: spelling  
 **Location**: Introduction  
-**Issue**: Misspelling of 'incentive-compatible' as 'incentive-compatible'.  
+**Issue**: The word 'guidlines' should be corrected to 'guidelines'.  
 **Severity**: low  
-**Impact**: Minor error that may distract the reader.
+**Impact**: Minor spelling error.
 
 ### Remark 3
 
 **Category**: punctuation  
-**Location**: Literature Review  
-**Issue**: Missing comma after 'food marketing' in the reference citation.  
+**Location**: Methodology  
+**Issue**: The sentence 'We assessed the effects of 6 front-of-package labeling systems' lacks a comma after 'systems'.  
 **Severity**: low  
-**Impact**: Minor error affecting citation accuracy.
+**Impact**: Minor punctuation error.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: sentence_structure  
+**Focus**: grammar  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The spectrum labels led participants to make healthier purchases compared to both the positive labels only.
 
 **Improved Version**:  
-> Shifting diets from animal products to more plant-based foods is widely accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The spectrum labels led participants to make healthier purchases compared to the positive labels only.
 
 **Explanation**:  
-Clarifies the comparison between animal and plant-based foods for better readability.
+Adding the verb 'led' makes the sentence grammatically correct and complete.
 
 ### Suggestion 2
 
@@ -2472,289 +2584,218 @@ Clarifies the comparison between animal and plant-based foods for better readabi
 **Focus**: spelling  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> guidlines
 
 **Improved Version**:  
-> The study was preregistered and incentive-compatible.
+> guidelines
 
 **Explanation**:  
-Corrects the hyphenation error in 'incentive-compatible'.
+Correcting the spelling of 'guidlines' to 'guidelines' is necessary for accuracy.
 
 ### Suggestion 3
 
-**Location**: Literature Review  
-**Category**: literature  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: punctuation  
 
 **Original Text**:  
-> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447–492.
+> We assessed the effects of 6 front-of-package labeling systems
 
 **Improved Version**:  
-> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet, 393 (2019), 447–492.
+> We assessed the effects of 6 front-of-package labeling systems.
 
 **Explanation**:  
-Adds a necessary comma after 'The Lancet' to improve citation format.
+Adding a comma after 'systems' improves the clarity and flow of the sentence.
 
 ### Detailed Feedback
 ### Grammar Correctness
 
-The text demonstrates a generally good level of grammar correctness. However, there are instances of complex sentence structures that could be simplified for better clarity and readability.
+The text generally demonstrates good grammar, but occasional errors in sentence structure and verb tense consistency are present.
 
 ### Spelling Accuracy
 
-Spelling accuracy is mostly maintained throughout the text, with only a few minor errors present. Proofreading for typos and consistency in spelling is recommended.
+Spelling is mostly accurate, with a few minor errors that need attention.
 
 ### Punctuation Usage
 
-Punctuation is used adequately, but there are occasional missing commas in complex lists and citations. Consistent application of punctuation rules is advised for improved readability.
+Punctuation is adequate, but some sentences could benefit from additional commas for clarity.
 
 ### Sentence Structure
 
-The text contains a mix of sentence structures, ranging from concise to complex. Simplifying overly long sentences and ensuring coherence between ideas can enhance the overall readability.
+The overall sentence structure is clear, but some sentences could be improved for better readability.
 
 ### Verb Tense Consistency
 
-Verb tenses are generally consistent, but there are instances where past and present tenses could be better aligned for clarity. Ensuring a uniform timeline in the text is essential.
+Verb tense consistency is generally maintained, but a few instances of inconsistency exist.
 
 ### Subject Verb Agreement
 
-Subject-verb agreement is maintained well, with few errors detected. Attention to singular/plural subjects and corresponding verbs is crucial for academic writing.
+Subject-verb agreement is mostly correct, but a few instances require attention.
 
 ### Article Usage
 
-Articles are used appropriately throughout the text. Consistency in article usage, especially when referring to specific concepts or objects, can enhance clarity.
+Article usage is appropriate throughout the text.
 
 ### Preposition Usage
 
-Prepositions are generally used correctly, but there are instances where prepositions could be omitted for more concise phrasing. Reviewing prepositions for accuracy and necessity is recommended.
+Prepositions are used correctly, contributing to the overall coherence of the text.
 
 ### Conjunction Usage
 
-Conjunctions are appropriately used to connect ideas and sentences. Ensuring coherence and logical flow through conjunctions can improve the overall structure of the text.
+Conjunctions are appropriately used to connect ideas and maintain coherence.
 
 ### Academic Conventions
 
-The text adheres to academic writing conventions by citing sources, providing a clear methodology description, and presenting results and discussions in a structured manner. Maintaining this academic rigor is essential for scholarly publications.
+The text adheres well to academic writing conventions, maintaining a formal and scholarly tone.
 
 ## W2 - Narrative and Structure
 ### Score: 7/10
 
 ### Summary
-The text demonstrates a generally coherent narrative structure with logical progression of ideas. However, improvements are needed in hypothesis tracking, conclusion alignment, and evidence integration to enhance the overall clarity, coherence, and impact of the research story. Strengthening topic sentences, paragraph organization, and visual element integration could further engage readers and improve the overall effectiveness of the narrative.
+The study demonstrates a logical progression of ideas, but improvements in section transitions, paragraph organization, and conclusion alignment are needed to enhance narrative coherence. Strengthening topic sentences, supporting evidence integration, and hypothesis tracking would further improve the logical flow and reader engagement. Additionally, clearer connections between sections, improved visual element integration, and enhanced reader engagement strategies would elevate the overall narrative structure.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: paragraph_organization  
 **Location**: Introduction  
-**Issue**: The introduction lacks a clear research question or hypothesis, making it challenging for readers to understand the study's purpose from the outset.  
+**Issue**: The introduction lacks a clear roadmap of the study, making it challenging for readers to anticipate the content.  
 **Severity**: medium  
-**Impact**: This affects the overall coherence and engagement of the readers.
+**Impact**: Readers may struggle to grasp the study's purpose and relevance.
 
 ### Remark 2
 
 **Category**: evidence_integration  
 **Location**: Results  
-**Issue**: The presentation of results lacks detailed statistical analysis and interpretation, making it difficult for readers to grasp the significance of the findings.  
+**Issue**: The presentation of results lacks clear connections to the research question and hypothesis.  
 **Severity**: high  
-**Impact**: This undermines the credibility and persuasiveness of the study.
+**Impact**: Readers may find it difficult to understand how the results address the study objectives.
 
 ### Remark 3
 
 **Category**: conclusion_alignment  
 **Location**: Conclusion  
-**Issue**: The conclusion does not directly address the research question or hypothesis posed in the introduction, leading to a disconnect between the study's purpose and its findings.  
-**Severity**: high  
-**Impact**: This weakens the overall coherence and impact of the research story.
+**Issue**: The conclusion does not directly tie back to the introduction, missing an opportunity to reinforce the study's significance.  
+**Severity**: medium  
+**Impact**: Readers may feel disconnected from the study's progression and outcomes.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: narrative_coherence  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> The introduction lacks a clear roadmap of the study.
 
 **Improved Version**:  
-> Transitioning from animal products to plant-based foods is widely recognized as a crucial step in mitigating the environmental footprint of the global food industry.
+> The introduction should provide a concise overview of the study objectives, research questions, and the importance of the study.
 
 **Explanation**:  
-This revision enhances clarity and conciseness while maintaining the original idea.
+This improvement will help orient readers and set expectations for the content that follows.
 
 ### Suggestion 2
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: logical_progression  
-
-**Original Text**:  
-> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.
-
-**Improved Version**:  
-> To explore the efficacy of targeted, small changes, we implemented a randomized controlled trial (RCT) within a simulated online supermarket setting to assess consumer reactions to GHG-reducing product swap suggestions and the consequent reductions in GHG emissions.
-
-**Explanation**:  
-This revised sentence provides a clearer and more detailed description of the study's methodology and objectives.
-
-### Suggestion 3
 
 **Location**: Results  
 **Category**: results  
 **Focus**: logical_progression  
 
 **Original Text**:  
-> Our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+> Results lack clear connections to the research question.
 
 **Improved Version**:  
-> The study findings indicate a robust impact of providing product swap suggestions, with 88% of participants opting to swap at least one item, resulting in an average 25% reduction in GHG emissions within their shopping baskets (n = 1070, SD = 18%).
+> Results should be explicitly linked to the research question and hypothesis to demonstrate how they address the study objectives.
 
 **Explanation**:  
-This revision enhances the clarity and precision of the results presentation, providing specific details and statistical information.
+This enhancement will enhance the coherence and relevance of the results section.
 
-### Suggestion 4
+### Suggestion 3
 
 **Location**: Conclusion  
 **Category**: conclusion  
 **Focus**: conclusion_alignment  
 
 **Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
+> Conclusion does not directly tie back to the introduction.
 
 **Improved Version**:  
-> Our research underscores the utility of pre-checkout, basket-level product swap recommendations in facilitating policymakers' efforts to promote plant-based food consumption, offering an effective strategy for encouraging such dietary shifts.
+> The conclusion should reiterate key findings and their alignment with the study's initial objectives outlined in the introduction.
 
 **Explanation**:  
-This revised statement strengthens the connection between the research findings and their potential real-world applications.
+This adjustment will strengthen the narrative flow and reinforce the study's significance.
 
 ### Detailed Feedback
 ### Narrative Coherence
 
-The text demonstrates a coherent flow of ideas, with each section building upon the previous one to form a cohesive narrative about the impact of pre-checkout GHG-reducing product swap recommendations.
+The text demonstrates a logical flow of ideas, but improvements are needed in connecting sections more explicitly to enhance overall coherence.
 
 ### Logical Progression
 
-The logical progression of ideas is generally sound, with a clear delineation of the research context, methodology, results, and implications. However, some sections could benefit from more explicit connections between the research question, methodology, and findings.
+The study progresses logically from introduction to conclusion, but some sections could benefit from clearer transitions and connections to maintain a smooth flow of information.
 
 ### Section Transitions
 
-Transitions between sections are adequate, but enhancing the clarity and explicitness of these transitions could improve the overall structural organization and coherence of the narrative.
+While most sections transition adequately, enhancing the clarity of transitions between the introduction, literature review, and methodology could improve the overall structural organization.
 
 ### Paragraph Organization
 
-Paragraphs are generally well-structured, with clear topic sentences and supporting details. However, some paragraphs could be more tightly focused on a single idea to enhance readability and coherence.
+Paragraphs are generally well-structured, but ensuring each paragraph focuses on a single main idea and aligns with the overall section theme would enhance readability and comprehension.
 
 ### Topic Sentence Effectiveness
 
-Topic sentences effectively introduce the main idea of each paragraph, providing a roadmap for the reader. Strengthening the specificity and relevance of these topic sentences could further enhance the organization and coherence of the text.
+Topic sentences effectively introduce paragraph content, but strengthening their alignment with the main thesis of each section could improve the overall coherence.
 
 ### Supporting Evidence Integration
 
-The integration of supporting evidence is generally effective, with relevant citations and data provided to bolster the research claims. However, more detailed analysis and interpretation of the evidence could enhance the persuasiveness and clarity of the arguments.
+The integration of supporting evidence is generally effective, but ensuring a clear link between evidence and the main argument in each section would enhance the persuasive impact.
 
 ### Conclusion Alignment
 
-The conclusion does not directly address the research question or hypothesis posed in the introduction, leading to a disconnect between the study's purpose and its findings. Aligning the conclusion more closely with the research objectives would strengthen the overall coherence and impact of the narrative.
+The conclusion aligns with the study's findings, but reinforcing connections to the introduction and restating the main contributions would enhance the narrative closure.
 
 ### Hypothesis Tracking
 
-The text lacks explicit tracking of the research question or hypothesis throughout the narrative, making it challenging for readers to follow the progression of the study. Strengthening the connection between the research question, methodology, and results would enhance the overall coherence and impact of the text.
+The study effectively tracks the research question throughout, but explicitly linking results to the initial hypothesis in each section would strengthen the hypothesis tracking.
 
 ### Visual Element Integration
 
-Visual elements such as figures and tables are not utilized in the text, limiting the presentation of complex data and findings. Integrating relevant visual aids could enhance the clarity and impact of the research narrative.
+The inclusion of figures and tables enhances the visual narrative, but providing more detailed explanations and interpretations alongside visual elements could improve reader engagement.
 
 ### Reader Engagement
 
-The text engages readers through the presentation of relevant research findings and implications. However, enhancing the clarity, specificity, and relevance of the content could further captivate readers and strengthen the overall impact of the narrative.
+The text engages readers with relevant information, but incorporating more interactive elements, such as questions for reflection or interactive figures, could further enhance reader engagement.
 
 ## W3 - Clarity and Conciseness
-### Score: 5/10
+### Score: 6/10
 
 ### Summary
-The text exhibits a mix of strengths and areas for improvement in terms of clarity and conciseness. While the content covers important research findings, there are opportunities to enhance accessibility through simplifying language, reducing jargon, and improving the structure of the text. Addressing issues such as wordiness, sentence length, and redundancy would significantly improve the overall readability and impact of the research.
+The text exhibits moderate clarity and conciseness issues, primarily related to jargon usage, wordiness, and redundancy. Simplifying language, reducing complexity, and enhancing sentence structures would significantly improve readability and comprehension.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: language_simplicity  
+**Category**: jargon  
 **Location**: Abstract  
-**Issue**: The abstract contains complex language that may be difficult for non-experts to understand.  
+**Issue**: The use of technical terms like 'Ofcom Nutrient Profiling Model scores' may be unclear to a general audience.  
 **Severity**: medium  
-**Impact**: Reduces accessibility and may deter readers.
+**Impact**: This can hinder understanding of the study's objectives.
 
 ### Remark 2
 
-**Category**: jargon  
-**Location**: Literature Review  
-**Issue**: The literature review section contains jargon that is not explained, assuming prior knowledge.  
-**Severity**: high  
-**Impact**: Excludes readers who are not familiar with the terminology.
+**Category**: wordiness  
+**Location**: Introduction  
+**Issue**: The paragraph discussing the causes of poor diet quality is verbose and could be more concise.  
+**Severity**: low  
+**Impact**: Reduces the clarity and makes the text less engaging.
 
 ### Remark 3
 
-**Category**: wordiness  
-**Location**: Discussion  
-**Issue**: The discussion section is wordy and could be more concise to enhance clarity.  
-**Severity**: medium  
-**Impact**: May confuse readers and dilute the main arguments.
-
-### Remark 4
-
-**Category**: sentence_length  
-**Location**: Results  
-**Issue**: Some sentences in the results section are overly long, making it harder to follow the findings.  
-**Severity**: medium  
-**Impact**: Increases cognitive load for readers.
-
-### Remark 5
-
-**Category**: paragraph_length  
-**Location**: Introduction  
-**Issue**: The introduction contains lengthy paragraphs that could be broken down for better readability.  
-**Severity**: low  
-**Impact**: Affects the flow and engagement of the reader.
-
-### Remark 6
-
-**Category**: active_passive_voice  
-**Location**: Methodology  
-**Issue**: The methodology section predominantly uses passive voice, which can make the process description less engaging.  
-**Severity**: medium  
-**Impact**: Reduces the clarity and directness of the description.
-
-### Remark 7
-
 **Category**: redundancy  
-**Location**: Conclusion  
-**Issue**: The conclusion repeats information already stated in the results section, leading to redundancy.  
+**Location**: Results  
+**Issue**: Repetition of the phrase 'positive labels' in multiple sentences.  
 **Severity**: low  
-**Impact**: Distracts readers and wastes space.
-
-### Remark 8
-
-**Category**: ambiguity  
-**Location**: Technical Content  
-**Issue**: Some technical terms are used ambiguously, potentially confusing readers.  
-**Severity**: medium  
-**Impact**: Compromises the accuracy of the information conveyed.
-
-### Remark 9
-
-**Category**: readability  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear structure, making it challenging to grasp the main points quickly.  
-**Severity**: medium  
-**Impact**: Hinders the ability of readers to understand the research at a glance.
-
-### Remark 10
-
-**Category**: information_density  
-**Location**: Discussion  
-**Issue**: The discussion section lacks sufficient information density, missing opportunities to delve deeper into the implications of the findings.  
-**Severity**: medium  
-**Impact**: Limits the depth of analysis and insights provided.
+**Impact**: Creates unnecessary redundancy and affects the flow of information.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2764,235 +2805,115 @@ The text exhibits a mix of strengths and areas for improvement in terms of clari
 **Focus**: language_simplicity  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> To test whether 'Nutrition Info' front-of-package food labels proposed by the US Food and Drug Administration (FDA) increase purchase healthfulness compared to other existing or proposed food labeling systems.
 
 **Improved Version**:  
-> Transitioning from animal to plant-based diets is crucial for reducing the environmental impact of the global food system.
+> To evaluate if the 'Nutrition Info' labels proposed by the FDA enhance the healthfulness of purchases compared to other labeling systems.
 
 **Explanation**:  
-Simplified language and more direct phrasing enhance clarity and conciseness.
+Simplified the sentence by removing unnecessary details and jargon.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: introduction  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions.
-
-**Improved Version**:  
-> Studies on US populations indicate that making small, targeted dietary substitutions can reduce the carbon footprint by 33% - 35%.
-
-**Explanation**:  
-Rephrasing for clarity and simplicity improves understanding for a wider audience.
-
-### Suggestion 3
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted; an information treatment group, T(Info), where the percentage GHG reduction resulting from each swap was presented; a targeted and information group, T(Targeted x Info), a combination of T(Targeted) and T(Info); and lastly, the control group, C, where the products swaps were displayed without GHG reduction information and without any indication of the most effective GHG-reducing product swap.
-
-**Improved Version**:  
-> Participants were assigned to one of four experimental groups: targeted treatment (T(Targeted)), information treatment (T(Info)), combined targeted and information group (T(Targeted x Info)), and control group (C).
-
-**Explanation**:  
-Simplifying the description of experimental groups reduces complexity and improves readability.
-
-### Suggestion 4
-
-**Location**: Results  
-**Category**: results  
 **Focus**: wordiness  
 
 **Original Text**:  
-> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product and had a mean basket GHG reduction of 25% (SD = 18%).
+> Poor diet quality is responsible for approximately 500,000 deaths and more than $50 billion in healthcare costs in the US every year.
 
 **Improved Version**:  
-> Our results indicate a strong impact of providing product swap recommendations, with 88% of participants swapping at least one product, resulting in an average basket GHG reduction of 25% (SD = 18%).
+> Poor diet quality causes 500,000 deaths and over $50 billion in healthcare costs annually in the US.
 
 **Explanation**:  
-Restructuring for clarity and conciseness improves the flow of information.
+Condensed the information for better readability and conciseness.
 
-### Suggestion 5
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: redundancy  
-
-**Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
-
-**Improved Version**:  
-> Our research demonstrates that pre-checkout, basket-level product swap recommendations can effectively encourage plant-based food purchases, aiding policymakers in promoting dietary shifts towards more plant consumption.
-
-**Explanation**:  
-Streamlining the message and eliminating redundancy enhances clarity and impact.
-
-### Suggestion 6
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations, as well as their resulting GHG reductions.
-
-**Improved Version**:  
-> Given the potential of targeted, small changes, we conducted a randomized controlled trial (RCT) in a simulated online supermarket to assess consumer responses to GHG-reducing product swap recommendations and their subsequent GHG reductions.
-
-**Explanation**:  
-Clarifying the purpose and context of the study enhances understanding and engagement.
-
-### Suggestion 7
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household and were instructed to proceed through the online supermarket.
-
-**Improved Version**:  
-> Participants received a standard shopping basket for the average 2-person German household and navigated through the online supermarket.
-
-**Explanation**:  
-Simplifying the description improves readability and engagement.
-
-### Suggestion 8
-
-**Location**: Results  
-**Category**: results  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
-
-**Improved Version**:  
-> In summary, neither the targeted treatment (T(Targeted)) nor the information treatment (T(Info)) led to a significant decrease in basket GHG emissions.
-
-**Explanation**:  
-Enhancing clarity and structure aids in summarizing key findings effectively.
-
-### Suggestion 9
+### Suggestion 3
 
 **Location**: Discussion  
 **Category**: discussion  
 **Focus**: language_simplicity  
 
 **Original Text**:  
-> Our research also highlights how recommending product swaps with their GHG reduction information is particularly effective for frequent meat eaters, the most important consumer group to address in this regard.
+> In this randomized trial in a large sample of US adults, 'spectrum' food labels that rated all foods from least to most healthy led participants to select modestly healthier foods and beverages compared to the status quo of displaying only positive labels on healthier foods.
 
 **Improved Version**:  
-> Additionally, our study emphasizes the effectiveness of recommending product swaps with GHG reduction information for frequent meat eaters, a crucial consumer group to target.
+> This study found that 'spectrum' food labels, rating foods from least to most healthy, resulted in slightly healthier food choices compared to the current practice of using positive labels on healthier foods.
 
 **Explanation**:  
-Rephrasing for clarity and conciseness strengthens the impact of the statement.
-
-### Suggestion 10
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> Future research should focus on implementing and examining these pre-checkout, basket-level swap recommendations in field studies.
-
-**Improved Version**:  
-> Subsequent studies should concentrate on implementing and evaluating these pre-checkout, basket-level swap recommendations in real-world settings.
-
-**Explanation**:  
-Clarifying the direction for future research enhances the actionable insights provided.
-
-### Suggestion 11
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> A shift from current diets to diets that exclude animal-based products would reduce the food system’s land use by 76% and greenhouse gas emissions (GHG) by around 50%.
-
-**Improved Version**:  
-> Transitioning from current diets to plant-based diets would cut the food system's land use by 76% and greenhouse gas emissions (GHG) by approximately 50%.
-
-**Explanation**:  
-Simplifying complex concepts and restructuring for clarity improves comprehension.
+Clarified the sentence structure and simplified the language.
 
 ### Detailed Feedback
 ### Language Simplicity
 
-The text contains a mix of complex and straightforward language, making it challenging for readers to follow consistently. Simplifying terminology and phrasing would enhance accessibility and understanding.
+The text uses technical terms and complex language that may be challenging for a general audience to understand. Simplifying the vocabulary and sentence structures would enhance clarity.
 
 ### Jargon Usage
 
-The use of jargon without clear explanations limits the audience to those familiar with the specific terms. Providing definitions or simplifying technical language would improve inclusivity and comprehension.
+There is a significant amount of jargon related to food labeling systems, nutrient profiling, and regulatory terms. Explaining these terms in simpler language or providing definitions would improve comprehension.
 
 ### Wordiness
 
-Some sections are verbose and could benefit from concise rephrasing to convey information more effectively. Eliminating unnecessary words and streamlining sentences would enhance clarity and engagement.
+Several paragraphs contain unnecessary wordiness and could be more concise without losing important information. Streamlining the text would make it more engaging and easier to follow.
 
 ### Sentence Length
 
-Several sentences are overly long, leading to potential confusion and difficulty in following the information. Breaking down complex sentences into shorter, clearer ones would improve readability and comprehension.
+The text contains long sentences that could be broken down into shorter, more digestible segments. Shorter sentences improve readability and help convey information more effectively.
 
 ### Paragraph Length
 
-Paragraphs vary in length, with some being too lengthy, affecting the flow of information. Breaking down lengthy paragraphs into smaller, focused ones would enhance readability and engagement.
+Some paragraphs are lengthy and cover multiple ideas, leading to information overload. Breaking down paragraphs into smaller, focused sections would enhance readability and understanding.
 
 ### Active Passive Voice
 
-The text predominantly uses passive voice in the methodology section, which can make descriptions less engaging and direct. Incorporating more active voice would improve clarity and reader engagement.
+The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice would improve clarity and make the text more dynamic.
 
 ### Redundancy
 
-There are instances of redundancy, where information is repeated unnecessarily across sections. Removing redundant content and consolidating key points would enhance clarity and conciseness.
+There are instances of redundant phrases and repetitive information that could be streamlined to avoid unnecessary repetition and maintain a smooth flow of information.
 
 ### Ambiguity
 
-Certain technical terms are used ambiguously, potentially causing confusion among readers. Providing clear definitions or using terms consistently would improve the accuracy and understanding of the content.
+Certain sections contain ambiguous terms or vague descriptions that could be clarified for better understanding. Providing specific examples or explanations would reduce ambiguity.
 
 ### Readability
 
-The text lacks consistent readability, with some sections being more accessible than others. Improving the structure, simplifying language, and enhancing coherence would make the text more reader-friendly.
+Overall, the text's readability could be improved by simplifying language, breaking down complex sentences, and organizing information into more digestible chunks.
 
 ### Information Density
 
-Some sections lack sufficient depth and detail, missing opportunities to provide in-depth analysis. Increasing the information density by expanding on key points and insights would enhance the richness of the content.
+The text contains dense information, which may overwhelm readers. Balancing the amount of information presented and ensuring it is structured logically would enhance information density.
 
 ## W4 - Terminology Consistency
 ### Score: 6/10
 
 ### Summary
-The text exhibits moderate consistency in terminology usage, with notable areas for improvement in notation style, acronym definition, and treatment group naming. Enhancing these aspects will elevate the overall clarity and coherence of the research findings.
+The text exhibits moderate terminology consistency, with notable areas for improvement in term usage, notation, and acronym definition. Enhancing these aspects will elevate the overall clarity and professionalism of the document.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: term_usage  
 **Location**: Abstract  
-**Issue**: Inconsistency in term usage between 'GHG' and 'greenhouse gas' in the title.  
+**Issue**: Inconsistency in using 'healthfulness' and 'healthier purchases' interchangeably.  
 **Severity**: medium  
-**Impact**: Confusion for readers due to inconsistent terminology.
+**Impact**: Confusion in conveying the precise meaning of the outcomes.
 
 ### Remark 2
 
 **Category**: notation  
 **Location**: Equations  
-**Issue**: Inconsistent notation style in equations throughout the text.  
-**Severity**: medium  
-**Impact**: May lead to misinterpretation of equations by readers.
+**Issue**: Inconsistent notation style in equations.  
+**Severity**: low  
+**Impact**: Affects the clarity and professional presentation of mathematical expressions.
 
 ### Remark 3
 
 **Category**: acronyms  
 **Location**: Introduction  
-**Issue**: Acronyms 'GHG' and 'DME' are used without prior definition.  
+**Issue**: Acronyms like 'US' and 'FDA' are used without prior definition.  
 **Severity**: medium  
-**Impact**: Readers unfamiliar with the field may struggle to understand the text.
+**Impact**: Readers unfamiliar with the acronyms may face comprehension challenges.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3002,683 +2923,538 @@ The text exhibits moderate consistency in terminology usage, with notable areas 
 **Focus**: term_usage  
 
 **Original Text**:  
-> Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations
+> healthfulness of purchases
 
 **Improved Version**:  
-> Guiding Green Choices: The Impact of Pre-Checkout Greenhouse Gas (GHG) Reducing Product Swap Recommendations
+> healthfulness of food and beverage selections
 
 **Explanation**:  
-Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.
+Clarity in specifying the type of selections being analyzed.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: term_usage  
+**Location**: Equations  
+**Category**: equations  
+**Focus**: notation  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted...
+> ADE=-.04
 
 **Improved Version**:  
-> Transitioning diets from animal products to more plant-based foods is widely acknowledged...
+> Average Differential Effect (ADE) of -0.04
 
 **Explanation**:  
-Consistent terminology with 'transitioning' instead of 'shifting' for clarity.
+Enhances the formal presentation of results.
 
 ### Suggestion 3
 
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: term_usage  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: acronyms  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35%...
+> US adults
 
 **Improved Version**:  
-> Studies on US populations indicate that the dietary carbon footprint could be decreased by 33% - 35%...
+> adults in the United States (US)
 
 **Explanation**:  
-Consistent use of 'studies' instead of 'research' for uniformity.
-
-### Suggestion 4
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: notation  
-
-**Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted),...
-
-**Improved Version**:  
-> Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T_Targeted),...
-
-**Explanation**:  
-Consistent notation style for experimental groups with underscore instead of parentheses.
-
-### Suggestion 5
-
-**Location**: Results  
-**Category**: results  
-**Focus**: term_usage  
-
-**Original Text**:  
-> Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.
-
-**Improved Version**:  
-> Overall, neither T_Targeted nor T_Info resulted in a significant reduction in basket greenhouse gas (GHG) emissions.
-
-**Explanation**:  
-Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: discussion  
-**Focus**: notation  
-
-**Original Text**:  
-> However, T(Info) did have a strong effect on many outcome variables for daily meat-eating (DME) participants...
-
-**Improved Version**:  
-> However, T_Info had a strong effect on many outcome variables for daily meat-eating (DME) participants...
-
-**Explanation**:  
-Consistent notation style for treatment groups without parentheses.
+Provides clarity and avoids ambiguity.
 
 ### Detailed Feedback
 ### Term Usage Consistency
 
-The text demonstrates moderate term usage consistency, but improvements are needed in aligning terminology across sections and defining terms consistently.
+The text demonstrates moderate consistency in term usage, but there are instances where synonyms are used interchangeably, leading to potential confusion.
 
 ### Notation Consistency
 
-Notation consistency is lacking, with variations in the style of representing variables and treatment groups. Adopting a uniform notation style will enhance readability and comprehension.
+Notation consistency is generally maintained, but there are sporadic instances of inconsistency in mathematical expressions.
 
 ### Acronym Usage
 
-Acronyms like 'GHG' and 'DME' are used without prior definition, impacting the clarity of the text. Providing definitions upon first use will aid reader understanding.
+Acronyms are used without prior definition in some sections, impacting reader understanding.
 
 ### Variable Naming Consistency
 
-Variable naming is generally consistent, but there are instances where clarity could be improved by standardizing variable names across equations and text.
+Variable naming is consistent throughout the text, enhancing readability and comprehension.
 
 ### Unit Notation Consistency
 
-Unit notation consistency is maintained throughout the text, ensuring clarity in conveying measurements and quantities.
+Unit notation is consistently applied, contributing to the clarity of measurements and results.
 
 ### Abbreviation Consistency
 
-Abbreviation consistency is adequate, but ensuring uniformity in the use of abbreviations will enhance readability and understanding.
+Abbreviations are used consistently, aiding in brevity and readability.
 
 ### Technical Term Consistency
 
-Technical term consistency is observed, with appropriate usage of domain-specific terminology. Further clarity can be achieved by defining complex technical terms upon first use.
+Technical terms are appropriately used and defined, maintaining clarity and precision.
 
 ### Field Terminology
 
-The text employs field-specific terminology effectively, enhancing the credibility and relevance of the research within the domain.
+The field-specific terminology is well-incorporated, aligning with the subject matter and enhancing domain-specific understanding.
 
 ### Cross Reference Consistency
 
-Cross-reference consistency is maintained, aiding in the coherence and flow of the text by linking related sections effectively.
+Cross-references are consistent and aid in connecting related information throughout the text.
 
 ### Definition Consistency
 
-Definitions are provided for key terms, contributing to reader comprehension. Ensuring consistency in defining terms will further enhance clarity and understanding.
+Definitions are clear and consistent, providing a solid foundation for understanding key concepts.
 
 ## W5 - Inclusive Language
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-Overall, the text demonstrates a moderate level of inclusivity in terms of gender-neutral language usage, cultural sensitivity, and disability inclusion. However, improvements can be made in acknowledging global diversity, enhancing geographic inclusivity, and considering participants with disabilities. By implementing suggested improvements and broadening the scope of cultural and geographic perspectives, the study can enhance its inclusivity and relevance to diverse populations.
+The text demonstrates a good level of inclusivity in terms of gender-neutral language and age-appropriate terminology. However, there are opportunities to enhance cultural sensitivity, socioeconomic representation, and disability inclusion. Improvements in professional title usage and geographic inclusivity can further enhance the study's inclusivity and relevance.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: gender_neutrality  
-**Location**: Abstract  
-**Issue**: The abstract does not use gender-neutral language in authorship.  
+**Location**: Authors section  
+**Issue**: Gender-specific titles like 'Mr.' or 'Ms.' are used for some authors.  
 **Severity**: medium  
-**Impact**: Excludes non-binary or gender non-conforming individuals from authorship recognition.
+**Impact**: Excludes non-binary or gender-diverse individuals from the authorship representation.
 
 ### Remark 2
 
 **Category**: cultural_sensitivity  
-**Location**: Introduction  
-**Issue**: The study focuses on US and German populations without acknowledging global diversity.  
+**Location**: Introduction section  
+**Issue**: The text focuses primarily on US data and policies, neglecting global perspectives on nutrition labeling.  
 **Severity**: medium  
-**Impact**: Excludes perspectives and experiences of individuals from other cultural backgrounds.
+**Impact**: Lacks inclusivity towards diverse cultural contexts and practices in nutrition labeling.
 
 ### Remark 3
 
-**Category**: disability_inclusion  
-**Location**: Methodology  
-**Issue**: The study does not mention any considerations for participants with disabilities.  
-**Severity**: medium  
-**Impact**: Excludes individuals with disabilities from participating in the research.
+**Category**: socioeconomic_sensitivity  
+**Location**: Results section  
+**Issue**: Income brackets are limited and may not fully capture the socioeconomic diversity of participants.  
+**Severity**: low  
+**Impact**: May oversimplify the socioeconomic representation in the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Authors section  
+**Category**: professional_titles  
 **Focus**: gender_neutrality  
 
 **Original Text**:  
-> Kevin O’Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina Stöcklic, Elgar Fleischa, Martin Natterc
+> Authors: Anna H. Grummon,1,2 Kevin O’Sullivan,3 Joshua Petimar,4 Cristina J.Y. Lee,1 Amanda B. Zeitlin,1 Lauren P. Cleveland,5 Caroline Collis,5 Aviva A. Musicus,6, 7 Verena Tiefenbeck,8 Elgar Fleisch,3 and Jason P. Block4
 
 **Improved Version**:  
-> Kevin O’Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina Stöckli, Elgar Fleisch, Martin Natter
+> Authors: Anna H. Grummon, Kevin O’Sullivan, Joshua Petimar, Cristina J.Y. Lee, Amanda B. Zeitlin, Lauren P. Cleveland, Caroline Collis, Aviva A. Musicus, Verena Tiefenbeck, and Elgar Fleisch
 
 **Explanation**:  
-Using full names without gender-specific suffixes ensures gender neutrality.
+Removing gender-specific titles provides a more inclusive representation of the authors.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Introduction section  
+**Category**: geographic_inclusivity  
 **Focus**: cultural_sensitivity  
 
 **Original Text**:  
-> Research on US populations suggests...
+> The US requires most packaged foods to display the Nutrition Facts Label, but this label is displayed on the back or side of product packaging...
 
 **Improved Version**:  
-> Research on diverse populations suggests...
+> The US requires most packaged foods to display the Nutrition Facts Label, but this label is typically located on the back or side of product packaging...
 
 **Explanation**:  
-Acknowledging global diversity promotes cultural sensitivity.
+Adding 'typically' acknowledges variations in label placement, enhancing accuracy.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: geographic_inclusivity  
+**Location**: Participant characteristics table  
+**Category**: gender_neutrality  
+**Focus**: identity_language  
 
 **Original Text**:  
-> Participants were presented with a shopping basket typical of the average 2-person German household...
+> The average age of participants was 40.3 years (SD=12.6); 60% identified as female...
 
 **Improved Version**:  
-> Participants were presented with a shopping basket typical of an average 2-person household...
+> The average age of participants was 40.3 years (SD=12.6); 60% identified as women...
 
 **Explanation**:  
-Removing nationality-specific references enhances inclusivity.
+Using 'women' instead of 'female' is more person-centered and respectful.
 
 ### Detailed Feedback
 ### Gender Neutral Language
 
-The text uses gender-neutral language in most instances, but there are some areas where gender-specific terms are present, particularly in authorship listings.
+The text generally uses gender-neutral language in participant descriptions, which is positive for inclusivity.
 
 ### Cultural Sensitivity
 
-The study focuses primarily on US and German populations, which may limit the generalizability of the findings to a more diverse global context. Acknowledging and including diverse cultural perspectives would enhance the study's cultural sensitivity.
+The study focuses heavily on US contexts, potentially limiting the cultural sensitivity and applicability to diverse global settings.
 
 ### Age Appropriate Terminology
 
-The text does not contain any age-specific terminology concerns.
+The use of age-appropriate terminology is consistent and respectful throughout the text.
 
 ### Disability Inclusive Language
 
-There is a lack of mention of considerations for participants with disabilities, which may exclude individuals with disabilities from the study. Including accessibility measures and accommodations would enhance disability inclusion.
+There are no explicit references to disability-related language or considerations in the text.
 
 ### Socioeconomic Sensitivity
 
-The text does not explicitly address socioeconomic sensitivity concerns.
+The study provides limited income brackets, which may not fully capture the socioeconomic diversity of participants.
 
 ### Geographic Inclusivity
 
-While the study mentions US and German populations, it lacks a broader global perspective. Including diverse geographic contexts in the research would enhance geographic inclusivity.
+The study predominantly discusses US policies and data, lacking a broader global perspective on nutrition labeling.
 
 ### Professional Title Usage
 
-Professional titles are used appropriately throughout the text.
+The use of professional titles for authors is gender-specific in some cases, impacting gender neutrality.
 
 ### Stereotypes
 
-The text avoids perpetuating stereotypes.
+The text generally avoids stereotypes and presents information objectively.
 
 ### Identity Language
 
-The text predominantly uses person-first language, focusing on individuals rather than their identities.
+The text uses person-first language in participant descriptions, enhancing respectful representation.
 
 ### Historical Context
 
-The text does not contain any specific historical context sensitivity concerns.
+The study acknowledges the historical context of FDA regulations and global labeling practices, providing relevant background information.
 
 ## W6 - Citation Formatting
-### Score: 6/10
+### Score: 5/10
 
 ### Summary
-The text exhibits several citation formatting issues, including inconsistencies in in-text citations, reference list formatting, and citation style. Improvements are needed in author name formatting, DOI/URL presentation, and cross-referencing accuracy. Enhancing these aspects will elevate the overall quality and credibility of the research paper.
+The citation formatting in the text is generally acceptable, with minor issues in author name consistency, missing DOI information, and inconsistent table formatting. Improvements are needed in standardizing author names, including DOIs for all references, and providing clear headings for tables to enhance readability and professionalism.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: in_text_format  
-**Location**: Introduction  
-**Issue**: The in-text citations in the introduction are not consistently formatted. Some citations use numbers [1, 2, 3] while others use author names (e.g., [5, 6, 7]).  
+**Category**: author_format  
+**Location**: Authors section  
+**Issue**: Inconsistent author name formatting with some initials and some full names.  
 **Severity**: medium  
-**Impact**: This inconsistency can confuse readers and make it challenging to track down the sources.
+**Impact**: Affects the professionalism and consistency of the citation.
 
 ### Remark 2
 
-**Category**: reference_format  
-**Location**: References  
-**Issue**: The reference list lacks proper formatting with inconsistent use of author names, publication dates, and journal names.  
-**Severity**: high  
-**Impact**: This makes it difficult for readers to locate the exact sources and undermines the credibility of the research.
+**Category**: doi_format  
+**Location**: References section  
+**Issue**: Missing DOI information for some references.  
+**Severity**: low  
+**Impact**: Lack of DOI reduces the accessibility and credibility of the sources.
 
 ### Remark 3
 
-**Category**: style_consistency  
-**Location**: Discussion  
-**Issue**: The citation style switches between APA and Harvard style, leading to inconsistency in formatting.  
-**Severity**: medium  
-**Impact**: This inconsistency can be distracting for readers and may affect the overall professionalism of the paper.
-
-### Remark 4
-
-**Category**: reference_completeness  
-**Location**: References  
-**Issue**: Some references lack essential information such as page numbers or DOI/URLs, reducing the completeness of the citations.  
-**Severity**: medium  
-**Impact**: Incomplete references hinder readers' ability to access the original sources for further exploration.
-
-### Remark 5
-
-**Category**: doi_format  
-**Location**: References  
-**Issue**: DOIs are inconsistently formatted with some missing 'doi:' prefix or incorrect DOI numbers.  
-**Severity**: medium  
-**Impact**: Proper DOI formatting is crucial for accurate source identification and retrieval.
-
-### Remark 6
-
-**Category**: author_format  
-**Location**: References  
-**Issue**: Author names are inconsistently formatted with variations in initials, full names, and order.  
-**Severity**: medium  
-**Impact**: Consistent author name formatting is essential for proper credit attribution and academic integrity.
-
-### Remark 7
-
-**Category**: date_format  
-**Location**: References  
-**Issue**: Publication dates are inconsistently formatted with variations in date styles (e.g., year only, full date).  
-**Severity**: low  
-**Impact**: While not critical, consistent date formatting enhances the overall professionalism of the references.
-
-### Remark 8
-
-**Category**: journal_format  
-**Location**: References  
-**Issue**: Journal names are inconsistently abbreviated or written in full, leading to confusion.  
-**Severity**: medium  
-**Impact**: Consistent journal name formatting is crucial for accurate source identification and credibility.
-
-### Remark 9
-
 **Category**: volume_format  
-**Location**: References  
-**Issue**: Volume, issue, and page numbers are inconsistently formatted or missing in some references.  
+**Location**: Results section  
+**Issue**: Inconsistent presentation of data in tables without clear headings.  
 **Severity**: medium  
-**Impact**: Complete volume/issue/page information is essential for precise source retrieval and verification.
-
-### Remark 10
-
-**Category**: cross_reference  
-**Location**: Discussion  
-**Issue**: The discussion section lacks cross-references to earlier sections or findings, making it less cohesive.  
-**Severity**: low  
-**Impact**: Cross-references help readers navigate the paper and understand the connections between different sections.
+**Impact**: Confusion for readers in understanding the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: in_text_format  
+**Location**: Authors section  
+**Category**: author_format  
+**Focus**: author_format  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system [1, 2, 3].
+> Anna H. Grummon,1,2 Kevin O’Sullivan,3 Joshua Petimar,4 Cristina J.Y. Lee,1 Amanda B. Zeitlin,1 Lauren P. Cleveland,5 Caroline Collis,5 Aviva A. Musicus,6, 7 Verena Tiefenbeck,8 Elgar Fleisch,3 and Jason P. Block4
 
 **Improved Version**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system (Willett et al., 2019; Shukla et al., 2019; Stylianou et al., 2021).
+> Grummon AH, O’Sullivan K, Petimar J, Lee CJY, Zeitlin AB, Cleveland LP, Collis C, Musicus AA, Tiefenbeck V, Fleisch E, Block JP
 
 **Explanation**:  
-This change provides a consistent author-year citation style for better readability and tracking of sources.
+Consistent formatting with last name followed by initials for all authors.
 
 ### Suggestion 2
 
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: in_text_format  
+**Location**: References section  
+**Category**: doi_format  
+**Focus**: doi_format  
 
 **Original Text**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions [3, 8], such as substituting 10% of beef intake with plant-based foods [3] or by swapping high-carbon meats for low-carbon meats [8].
+> doi:10.1016/S0140-6736(19)30041-8
 
 **Improved Version**:  
-> Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35% through small, targeted substitutions (Stylianou et al., 2021; Grummon et al., 2023), such as substituting 10% of beef intake with plant-based foods (Stylianou et al., 2021) or by swapping high-carbon meats for low-carbon meats (Grummon et al., 2023).
+> DOI: 10.1016/S0140-6736(19)30041-8
 
 **Explanation**:  
-Consistent author-year citation style improves clarity and attribution of sources.
+Standardize the DOI format with a clear label for easy identification.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: in_text_format  
+**Location**: Results section  
+**Category**: volume_format  
+**Focus**: volume_format  
 
 **Original Text**:  
-> The study was preregistered and incentive-compatible.
+> Guiding Stars score (-22 to 7)
 
 **Improved Version**:  
-> The study was preregistered and incentive-compatible (O’Sullivan et al., 2023).
+> Guiding Stars score (Range: -22 to 7)
 
 **Explanation**:  
-Including the author's name enhances the credibility and transparency of the study.
-
-### Suggestion 4
-
-**Location**: References  
-**Category**: references  
-**Focus**: author_format, journal_format, volume_format  
-
-**Original Text**:  
-> [1] W. Willett, J. Rockström, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447–492. doi:10.1016/s0140-6736(18)31788-4.
-
-**Improved Version**:  
-> Willett, W., Rockström, J., Loken, B., Springmann, M., Lang, T., Vermeulen, S., Garnett, T., Tilman, D., DeClerck, F., Wood, A., Jonell, M., Clark, M., Gordon, L. J., Fanzo, J., Hawkes, C., Zurayk, R., Rivera, J. A., Vries, W. D., Sibanda, L. M., Afshin, A., Chaudhary, A., Herrero, M., Agustina, R., Branca, F., Lartey, A., Fan, S., Crona, B., Fox, E., Bignet, V., Troell, M., Lindahl, T., Singh, S., Cornell, S. E., Reddy, K. S., Narain, S., Nishtar, S., & Murray, C. J. L. (2019). Food in the Anthropocene: the EAT–Lancet Commission on healthy diets from sustainable food systems. The Lancet, 393, 447–492. doi:10.1016/s0140-6736(18)31788-4.
-
-**Explanation**:  
-Consistent author formatting with initials and full names, correct journal name formatting, and complete volume/page information.
-
-### Suggestion 5
-
-**Location**: References  
-**Category**: references  
-**Focus**: author_format, journal_format, volume_format  
-
-**Original Text**:  
-> [3] K. S. Stylianou, V. L. Fulgoni, O. Jolliet, Small targeted dietary changes can yield substantial gains for human health and the environment, Nature Food 2 (2021) 616–627. doi:10.1038/s43016-021-00343-4.
-
-**Improved Version**:  
-> Stylianou, K. S., Fulgoni, V. L., & Jolliet, O. (2021). Small targeted dietary changes can yield substantial gains for human health and the environment. Nature Food, 2, 616–627. doi:10.1038/s43016-021-00343-4.
-
-**Explanation**:  
-Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.
-
-### Suggestion 6
-
-**Location**: References  
-**Category**: references  
-**Focus**: author_format, journal_format, volume_format  
-
-**Original Text**:  
-> [8] A. H. Grummon, C. J. Y. Lee, T. N. Robinson, E. B. Rimm, D. Rose, Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population, Nature Food (2023) 1–12. doi:10.1038/s43016-023-00864-0.
-
-**Improved Version**:  
-> Grummon, A. H., Lee, C. J. Y., Robinson, T. N., Rimm, E. B., & Rose, D. (2023). Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population. Nature Food, 1–12. doi:10.1038/s43016-023-00864-0.
-
-**Explanation**:  
-Consistent author formatting with initials, correct journal name formatting, and complete volume/page information.
+Clarify the range of the Guiding Stars score for better understanding.
 
 ### Detailed Feedback
 ### In Text Citation Format
 
-In-text citations should follow a consistent style throughout the text, either using numbers or author-year format. Ensure that all sources are properly cited within the text.
+In-text citations are consistently formatted with author names and publication years.
 
 ### Reference List Format
 
-The reference list should be formatted consistently following a specific citation style (e.g., APA, Harvard). Include all necessary information such as author names, publication dates, journal names, volume/issue/page numbers, and DOI/URLs.
+The reference list follows a standard format with author names, publication dates, titles, and source information.
 
 ### Citation Style Consistency
 
-Maintain a uniform citation style (e.g., APA, Harvard) throughout the text to enhance readability and professionalism.
+Overall, the citation style is mostly consistent with minor inconsistencies in author name formatting.
 
 ### Reference Completeness
 
-Ensure that all references contain complete information, including page numbers, DOI/URLs, and accurate publication dates, to facilitate easy access to the original sources.
+References are complete with necessary information, but some lack DOI details.
 
 ### Doi Url Formatting
 
-Format DOIs consistently with the 'doi:' prefix and correct DOI numbers. Ensure that URLs are active and lead directly to the source.
+DOIs and URLs are present but not consistently formatted with a clear label for each.
 
 ### Author Name Formatting
 
-Consistently format author names with initials or full names as per the chosen citation style. Use the same name order (e.g., last name, first name) for all authors.
+Author names are mostly formatted correctly but need consistency in using initials or full names.
 
 ### Publication Date Formatting
 
-Maintain a consistent date format (e.g., year only, full date) for all references to improve clarity and uniformity.
+Publication dates are presented in a clear and consistent format throughout the text.
 
 ### Journal Name Formatting
 
-Consistently abbreviate or write out journal names in full as per the chosen citation style to avoid confusion and ensure accuracy.
+Journal names are correctly formatted and consistent in the references.
 
 ### Volume Issue Page Formatting
 
-Include complete volume, issue, and page numbers for all journal references to enable precise source identification and retrieval.
+Volume, issue, and page numbers are provided where applicable, but some tables lack clear headings.
 
 ### Cross Reference Accuracy
 
-Ensure that cross-references within the text accurately point to related sections or findings to enhance the coherence and flow of the paper.
+Cross-references are accurate and relevant within the text.
 
 ## W7 - Target Audience Alignment
 ### Score: 0/10
 
 ### Summary
-Overall, the text demonstrates a strong alignment with an academic audience in terms of technical depth and terminology usage. However, improvements in writing formality, visual integration, and discussion depth could enhance audience engagement and comprehension. Refinements in conclusion format and section organization would further improve the overall coherence and impact of the research paper.
+The study demonstrates a strong technical depth and effective use of field-specific terminology. However, improvements in writing formality, visual integration, and reference depth could enhance audience alignment. Enhancing the methodology detail, results presentation, discussion depth, and conclusion format would further strengthen the study's impact.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: technical_depth  
-**Location**: Introduction  
-**Issue**: The technical depth in the introduction is too high for a general audience.  
+**Location**: METHODS section  
+**Issue**: Lack of detailed explanation on statistical analysis techniques used in the study.  
 **Severity**: medium  
-**Impact**: May alienate readers who are not familiar with the technical aspects of GHG reduction.
+**Impact**: May hinder understanding for readers not familiar with advanced statistical methods.
 
 ### Remark 2
 
 **Category**: terminology  
-**Location**: Methodology  
-**Issue**: The use of 'preregistered and incentive-compatible' may be unclear to non-academic readers.  
-**Severity**: medium  
-**Impact**: Could lead to confusion and misinterpretation of the study design.
+**Location**: RESULTS section  
+**Issue**: Overuse of technical jargon without clear explanations, making it hard for non-experts to follow.  
+**Severity**: high  
+**Impact**: Could alienate a broader audience and limit comprehension.
 
 ### Remark 3
 
 **Category**: visuals  
-**Location**: Results  
-**Issue**: Lack of visual aids to complement the data presentation.  
-**Severity**: low  
-**Impact**: Reduces engagement and makes it harder for readers to grasp the results.
+**Location**: Figure 2  
+**Issue**: Lack of detailed explanation in the CONSORT flow diagram.  
+**Severity**: medium  
+**Impact**: Readers may struggle to interpret the flow of participants through the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: terminology  
+**Focus**: conciseness  
 
 **Original Text**:  
-> Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.
+> We conducted a randomized trial in October-November 2024 (n=5,636 US adults).
 
 **Improved Version**:  
-> Transitioning from animal-based to plant-based diets is widely recognized as crucial for mitigating the environmental footprint of the global food industry.
+> In October-November 2024, we conducted a randomized trial involving 5,636 US adults to assess...
 
 **Explanation**:  
-Simplifying the language while maintaining the technical essence enhances readability.
+Adding 'involving' provides clarity on the purpose of the trial upfront.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: RESULTS section  
+**Category**: results  
 **Focus**: technical_depth  
 
 **Original Text**:  
-> In light of the promising potential of targeted, small changes, we conducted a randomised controlled trial (RCT) in a hypothetical online supermarket environment to investigate consumers’ responses to GHG-reducing product swap recommendations.
+> The effects of the labels on overall healthfulness were not moderated by nutrition literacy, income, or educational attainment.
 
 **Improved Version**:  
-> Given the potential benefits of small, targeted adjustments, we implemented a randomized controlled trial (RCT) within a simulated online grocery setting to assess consumer reactions to GHG-reducing product substitutions.
+> The effects of the labels on overall healthfulness were not influenced by participants' nutrition literacy, income levels, or educational attainment.
 
 **Explanation**:  
-Clarifying the purpose and context of the study improves audience understanding.
-
-### Suggestion 3
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: terminology  
-
-**Original Text**:  
-> Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted), where the most effective GHG-reducing product swap was explicitly highlighted...
-
-**Improved Version**:  
-> Participants were assigned randomly to one of four experimental groups: a targeted treatment group (T(Targeted)), which emphasized the most efficient GHG-reducing product swap...
-
-**Explanation**:  
-Enhancing clarity and consistency in terminology aids comprehension.
-
-### Suggestion 4
-
-**Location**: Results  
-**Category**: results  
-**Focus**: writing_formality  
-
-**Original Text**:  
-> Regardless of the specific treatments, our results show that the effect of offering product swap recommendations was strong (n = 1070) - 88% of participants swapped at least one product...
-
-**Improved Version**:  
-> Irrespective of the treatment variations, our findings indicate a substantial impact from providing product swap suggestions, with 88% of participants opting to exchange at least one item...
-
-**Explanation**:  
-Strengthening the language and structure enhances the impact of the results presentation.
-
-### Suggestion 5
-
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: conclusion_format  
-
-**Original Text**:  
-> Policymakers looking to shift dietary behaviour towards more plant consumption can benefit from our research as it highlights how pre-checkout, basket-level product swap recommendations can be an effective method to encourage purchases of plant-based foods.
-
-**Improved Version**:  
-> Our research offers valuable insights for policymakers aiming to promote plant-based dietary choices by demonstrating the efficacy of pre-checkout, basket-level product swap recommendations in encouraging the selection of plant-based options.
-
-**Explanation**:  
-Refining the conclusion to focus on actionable insights enhances its relevance.
+Expanding 'influenced by' helps clarify the lack of impact on different participant characteristics.
 
 ### Detailed Feedback
 ### Technical Depth
 
-The text demonstrates a high level of technical depth appropriate for an academic audience familiar with GHG reduction strategies and experimental design.
+The study provides a detailed methodology description, including participant recruitment and measures. However, more explanation on the statistical analysis methods used could enhance the technical depth for readers.
 
 ### Terminology Usage
 
-Field-specific terminology is used consistently throughout the text, enhancing clarity for readers familiar with environmental science and consumer behavior research.
+The study employs field-specific terminology effectively, but some terms are not adequately explained, impacting reader comprehension.
 
 ### Writing Formality
 
-The writing style maintains a formal tone suitable for an academic research paper, but some sections could benefit from simplification to improve accessibility.
+The writing style is formal and appropriate for an academic audience. However, some sections could benefit from simplification for broader understanding.
 
 ### Section Organization
 
-The text is well-structured with clear delineation of sections, but some subsections could be further refined for smoother transitions.
+The study is well-organized with clear section headings. However, improving the flow between sections could enhance coherence.
 
 ### Visual Integration
 
-Visual elements are lacking in the presentation of results, which could be improved by incorporating graphs or tables to enhance data visualization.
+Visual elements like figures and tables are used effectively. However, some visuals lack detailed explanations, affecting audience interpretation.
 
 ### Reference Style
 
-The reference list is comprehensive and includes a range of relevant sources, providing a solid foundation for the research.
+The study includes a comprehensive list of references, enhancing the depth of research. However, more in-text citations could strengthen the support for claims.
 
 ### Methodology Detail
 
-The methodology description provides sufficient detail on the experimental setup, randomization process, and treatment groups, ensuring transparency and replicability.
+The methodology description is thorough, outlining participant recruitment, setting, and procedures. Adding more detail on statistical analysis techniques could further enhance the methodology section.
 
 ### Results Presentation
 
-The results are presented clearly, but the addition of visual aids could enhance the understanding and impact of the findings.
+Results are presented clearly with statistical data. However, simplifying technical terms and providing more context could improve audience understanding.
 
 ### Discussion Depth
 
-The discussion delves into the implications of the results, but could benefit from further analysis and interpretation to deepen the insights.
+The discussion provides insightful analysis of the results. Expanding on the implications of the findings and discussing potential limitations could enhance the depth of the discussion.
 
 ### Conclusion Format
 
-The conclusion summarizes the key findings effectively but could be strengthened by emphasizing actionable recommendations for policymakers and future research directions.
+The conclusion summarizes the key findings effectively. Adding recommendations for future research and policy implications could enhance the conclusion format.
 
 ## W8 - Visual Presentation
 ### Score: 6/10
 
 ### Summary
-The manuscript lacks visual elements such as figures and tables, which could have significantly improved the visual presentation and data representation. Consider adding visual aids to enhance reader understanding and engagement.
+Overall, the manuscript could benefit from enhancements in figure quality, table formatting, and caption completeness to improve visual presentation quality and effectiveness.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: Caption completeness  
-**Location**: Manuscript Text  
-**Issue**: The manuscript lacks figures and tables, which could have enhanced the visual presentation and data representation.  
+**Category**: Figure quality and clarity  
+**Location**: Figure 1  
+**Issue**: The labels in Figure 1 could be more visually appealing and distinct to enhance clarity and effectiveness.  
 **Severity**: medium  
-**Impact**: Readers may find it challenging to grasp the data and results without visual aids.
+**Impact**: May lead to confusion or difficulty in distinguishing between different labels.
+
+### Remark 2
+
+**Category**: Table formatting and readability  
+**Location**: Table 1  
+**Issue**: The table layout could be improved for better readability and organization of participant characteristics.  
+**Severity**: medium  
+**Impact**: May hinder quick comprehension of participant demographics.
+
+### Remark 3
+
+**Category**: Caption completeness  
+**Location**: Table 2  
+**Issue**: The table lacks detailed captions explaining the outcomes and ADE values, affecting clarity.  
+**Severity**: low  
+**Impact**: Readers may struggle to understand the significance of the data presented.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Throughout the manuscript  
-**Category**: Figures and Tables  
-**Focus**: Enhancing visual representation  
+**Location**: Figure 1  
+**Category**: Figure  
+**Focus**: Caption clarity  
 
 **Original Text**:  
-> The manuscript contains 0 figures and 0 tables.
+> Figure 1: Examples of labels tested in the trial
 
 **Improved Version**:  
-> Consider adding figures and tables to visually represent data, results, and key findings.
+> Figure 1: Visual representation of different front-of-package labels tested in the trial with clear and distinct designs.
 
 **Explanation**:  
-Visual aids can enhance reader understanding and engagement.
+Enhances clarity and effectiveness by specifying the purpose and content of the figure.
+
+### Suggestion 2
+
+**Location**: Table 1  
+**Category**: Table  
+**Focus**: Title clarity  
+
+**Original Text**:  
+> Table 1. Participant characteristics, n=5,636 US adults
+
+**Improved Version**:  
+> Table 1. Demographic Characteristics of Participants (n=5,636)
+
+**Explanation**:  
+Provides a more focused and descriptive title for better understanding.
+
+### Suggestion 3
+
+**Location**: Table 2  
+**Category**: Table  
+**Focus**: Title clarity  
+
+**Original Text**:  
+> Table 2. Impact of front-of-package labeling systems on food and beverage selections, n=5,636 US adults
+
+**Improved Version**:  
+> Table 2. Effect of Front-of-Package Labels on Food Selections (n=5,636)
+
+**Explanation**:  
+Clarifies the purpose of the table and emphasizes the key information.
 
 ### Detailed Feedback
 ### Figure Quality
 
-N/A
+The visual elements could be more distinct and visually appealing.
 
 ### Table Formatting
 
-N/A
+Tables could benefit from improved layout and organization for better readability.
 
 ### Visual Placement
 
-N/A
+Visuals should be strategically placed to enhance understanding and flow.
 
 ### Caption Completeness
 
-The absence of figures and tables limits the completeness of the visual presentation.
+Captions should be detailed and informative to provide context.
 
 ### Color Scheme
 
-N/A
+Appropriate color schemes should be used to aid in differentiation and interpretation.
 
 ### Data Visualization
 
-N/A
+Data visualization should be optimized for clear representation and easy interpretation.
 
 ### Visual Hierarchy
 
-N/A
+Visual hierarchy should be established to guide the reader's attention effectively.
 
 ### Accessibility
 
-N/A
+Ensure color contrast and readability for improved accessibility.
 
 ### Visual Consistency
 
-N/A
+Maintain consistency in visual style and formatting across all elements.
 
 ### Text Integration
 
-The text provides detailed information, but visual aids could have complemented and reinforced the findings.
+Visuals should seamlessly integrate with the text to support and enhance understanding.

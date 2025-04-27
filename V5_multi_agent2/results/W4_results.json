@@ -4,86 +4,62 @@
     {
       "category": "term_usage",
       "location": "Abstract",
-      "issue": "Inconsistency in term usage between 'GHG' and 'greenhouse gas' in the title.",
+      "issue": "Inconsistency in using 'healthfulness' and 'healthier purchases' interchangeably.",
       "severity": "medium",
-      "impact": "Confusion for readers due to inconsistent terminology."
+      "impact": "Confusion in conveying the precise meaning of the outcomes."
     },
     {
       "category": "notation",
       "location": "Equations",
-      "issue": "Inconsistent notation style in equations throughout the text.",
-      "severity": "medium",
-      "impact": "May lead to misinterpretation of equations by readers."
+      "issue": "Inconsistent notation style in equations.",
+      "severity": "low",
+      "impact": "Affects the clarity and professional presentation of mathematical expressions."
     },
     {
       "category": "acronyms",
       "location": "Introduction",
-      "issue": "Acronyms 'GHG' and 'DME' are used without prior definition.",
+      "issue": "Acronyms like 'US' and 'FDA' are used without prior definition.",
       "severity": "medium",
-      "impact": "Readers unfamiliar with the field may struggle to understand the text."
+      "impact": "Readers unfamiliar with the acronyms may face comprehension challenges."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Guiding Green Choices: The Impact of Pre-Checkout GHG-Reducing Product Swap Recommendations",
-      "improved_version": "Guiding Green Choices: The Impact of Pre-Checkout Greenhouse Gas (GHG) Reducing Product Swap Recommendations",
-      "explanation": "Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.",
+      "original_text": "healthfulness of purchases",
+      "improved_version": "healthfulness of food and beverage selections",
+      "explanation": "Clarity in specifying the type of selections being analyzed.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "term_usage"
     },
     {
-      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted...",
-      "improved_version": "Transitioning diets from animal products to more plant-based foods is widely acknowledged...",
-      "explanation": "Consistent terminology with 'transitioning' instead of 'shifting' for clarity.",
+      "original_text": "ADE=-.04",
+      "improved_version": "Average Differential Effect (ADE) of -0.04",
+      "explanation": "Enhances the formal presentation of results.",
+      "location": "Equations",
+      "category": "equations",
+      "focus": "notation"
+    },
+    {
+      "original_text": "US adults",
+      "improved_version": "adults in the United States (US)",
+      "explanation": "Provides clarity and avoids ambiguity.",
       "location": "Introduction",
       "category": "introduction",
-      "focus": "term_usage"
-    },
-    {
-      "original_text": "Research on US populations suggests that dietary carbon footprint could be reduced by 33% - 35%...",
-      "improved_version": "Studies on US populations indicate that the dietary carbon footprint could be decreased by 33% - 35%...",
-      "explanation": "Consistent use of 'studies' instead of 'research' for uniformity.",
-      "location": "Literature Review",
-      "category": "literature",
-      "focus": "term_usage"
-    },
-    {
-      "original_text": "Participants were randomized to one of the four experimental groups: a targeted treatment group, T(Targeted),...",
-      "improved_version": "Participants were randomly assigned to one of the four experimental groups: a targeted treatment group (T_Targeted),...",
-      "explanation": "Consistent notation style for experimental groups with underscore instead of parentheses.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "notation"
-    },
-    {
-      "original_text": "Overall, neither T(Targeted) nor T(Info) resulted in a significant reduction in basket GHG emissions.",
-      "improved_version": "Overall, neither T_Targeted nor T_Info resulted in a significant reduction in basket greenhouse gas (GHG) emissions.",
-      "explanation": "Consistent use of 'greenhouse gas' alongside the acronym 'GHG' for clarity.",
-      "location": "Results",
-      "category": "results",
-      "focus": "term_usage"
-    },
-    {
-      "original_text": "However, T(Info) did have a strong effect on many outcome variables for daily meat-eating (DME) participants...",
-      "improved_version": "However, T_Info had a strong effect on many outcome variables for daily meat-eating (DME) participants...",
-      "explanation": "Consistent notation style for treatment groups without parentheses.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "notation"
+      "focus": "acronyms"
     }
   ],
   "detailed_feedback": {
-    "term_usage_consistency": "The text demonstrates moderate term usage consistency, but improvements are needed in aligning terminology across sections and defining terms consistently.",
-    "notation_consistency": "Notation consistency is lacking, with variations in the style of representing variables and treatment groups. Adopting a uniform notation style will enhance readability and comprehension.",
-    "acronym_usage": "Acronyms like 'GHG' and 'DME' are used without prior definition, impacting the clarity of the text. Providing definitions upon first use will aid reader understanding.",
-    "variable_naming_consistency": "Variable naming is generally consistent, but there are instances where clarity could be improved by standardizing variable names across equations and text.",
-    "unit_notation_consistency": "Unit notation consistency is maintained throughout the text, ensuring clarity in conveying measurements and quantities.",
-    "abbreviation_consistency": "Abbreviation consistency is adequate, but ensuring uniformity in the use of abbreviations will enhance readability and understanding.",
-    "technical_term_consistency": "Technical term consistency is observed, with appropriate usage of domain-specific terminology. Further clarity can be achieved by defining complex technical terms upon first use.",
-    "field_terminology": "The text employs field-specific terminology effectively, enhancing the credibility and relevance of the research within the domain.",
-    "cross_reference_consistency": "Cross-reference consistency is maintained, aiding in the coherence and flow of the text by linking related sections effectively.",
-    "definition_consistency": "Definitions are provided for key terms, contributing to reader comprehension. Ensuring consistency in defining terms will further enhance clarity and understanding."
+    "term_usage_consistency": "The text demonstrates moderate consistency in term usage, but there are instances where synonyms are used interchangeably, leading to potential confusion.",
+    "notation_consistency": "Notation consistency is generally maintained, but there are sporadic instances of inconsistency in mathematical expressions.",
+    "acronym_usage": "Acronyms are used without prior definition in some sections, impacting reader understanding.",
+    "variable_naming_consistency": "Variable naming is consistent throughout the text, enhancing readability and comprehension.",
+    "unit_notation_consistency": "Unit notation is consistently applied, contributing to the clarity of measurements and results.",
+    "abbreviation_consistency": "Abbreviations are used consistently, aiding in brevity and readability.",
+    "technical_term_consistency": "Technical terms are appropriately used and defined, maintaining clarity and precision.",
+    "field_terminology": "The field-specific terminology is well-incorporated, aligning with the subject matter and enhancing domain-specific understanding.",
+    "cross_reference_consistency": "Cross-references are consistent and aid in connecting related information throughout the text.",
+    "definition_consistency": "Definitions are clear and consistent, providing a solid foundation for understanding key concepts."
   },
-  "summary": "The text exhibits moderate consistency in terminology usage, with notable areas for improvement in notation style, acronym definition, and treatment group naming. Enhancing these aspects will elevate the overall clarity and coherence of the research findings."
+  "summary": "The text exhibits moderate terminology consistency, with notable areas for improvement in term usage, notation, and acronym definition. Enhancing these aspects will elevate the overall clarity and professionalism of the document."
 }

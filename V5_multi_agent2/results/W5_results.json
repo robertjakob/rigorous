@@ -1,65 +1,65 @@
 {
-  "inclusive_language_score": 6,
+  "inclusive_language_score": 7,
   "critical_remarks": [
     {
       "category": "gender_neutrality",
-      "location": "Abstract",
-      "issue": "The abstract does not use gender-neutral language in authorship.",
+      "location": "Authors section",
+      "issue": "Gender-specific titles like 'Mr.' or 'Ms.' are used for some authors.",
       "severity": "medium",
-      "impact": "Excludes non-binary or gender non-conforming individuals from authorship recognition."
+      "impact": "Excludes non-binary or gender-diverse individuals from the authorship representation."
     },
     {
       "category": "cultural_sensitivity",
-      "location": "Introduction",
-      "issue": "The study focuses on US and German populations without acknowledging global diversity.",
+      "location": "Introduction section",
+      "issue": "The text focuses primarily on US data and policies, neglecting global perspectives on nutrition labeling.",
       "severity": "medium",
-      "impact": "Excludes perspectives and experiences of individuals from other cultural backgrounds."
+      "impact": "Lacks inclusivity towards diverse cultural contexts and practices in nutrition labeling."
     },
     {
-      "category": "disability_inclusion",
-      "location": "Methodology",
-      "issue": "The study does not mention any considerations for participants with disabilities.",
-      "severity": "medium",
-      "impact": "Excludes individuals with disabilities from participating in the research."
+      "category": "socioeconomic_sensitivity",
+      "location": "Results section",
+      "issue": "Income brackets are limited and may not fully capture the socioeconomic diversity of participants.",
+      "severity": "low",
+      "impact": "May oversimplify the socioeconomic representation in the study."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Kevin O\u2019Sullivana,d, Verena Tiefenbeckb, Sybilla Merianc, Sabrina St\u00f6cklic, Elgar Fleischa, Martin Natterc",
-      "improved_version": "Kevin O\u2019Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina St\u00f6ckli, Elgar Fleisch, Martin Natter",
-      "explanation": "Using full names without gender-specific suffixes ensures gender neutrality.",
-      "location": "Abstract",
-      "category": "abstract",
+      "original_text": "Authors: Anna H. Grummon,1,2 Kevin O\u2019Sullivan,3 Joshua Petimar,4 Cristina J.Y. Lee,1 Amanda B. Zeitlin,1 Lauren P. Cleveland,5 Caroline Collis,5 Aviva A. Musicus,6, 7 Verena Tiefenbeck,8 Elgar Fleisch,3 and Jason P. Block4",
+      "improved_version": "Authors: Anna H. Grummon, Kevin O\u2019Sullivan, Joshua Petimar, Cristina J.Y. Lee, Amanda B. Zeitlin, Lauren P. Cleveland, Caroline Collis, Aviva A. Musicus, Verena Tiefenbeck, and Elgar Fleisch",
+      "explanation": "Removing gender-specific titles provides a more inclusive representation of the authors.",
+      "location": "Authors section",
+      "category": "professional_titles",
       "focus": "gender_neutrality"
     },
     {
-      "original_text": "Research on US populations suggests...",
-      "improved_version": "Research on diverse populations suggests...",
-      "explanation": "Acknowledging global diversity promotes cultural sensitivity.",
-      "location": "Introduction",
-      "category": "introduction",
+      "original_text": "The US requires most packaged foods to display the Nutrition Facts Label, but this label is displayed on the back or side of product packaging...",
+      "improved_version": "The US requires most packaged foods to display the Nutrition Facts Label, but this label is typically located on the back or side of product packaging...",
+      "explanation": "Adding 'typically' acknowledges variations in label placement, enhancing accuracy.",
+      "location": "Introduction section",
+      "category": "geographic_inclusivity",
       "focus": "cultural_sensitivity"
     },
     {
-      "original_text": "Participants were presented with a shopping basket typical of the average 2-person German household...",
-      "improved_version": "Participants were presented with a shopping basket typical of an average 2-person household...",
-      "explanation": "Removing nationality-specific references enhances inclusivity.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "geographic_inclusivity"
+      "original_text": "The average age of participants was 40.3 years (SD=12.6); 60% identified as female...",
+      "improved_version": "The average age of participants was 40.3 years (SD=12.6); 60% identified as women...",
+      "explanation": "Using 'women' instead of 'female' is more person-centered and respectful.",
+      "location": "Participant characteristics table",
+      "category": "gender_neutrality",
+      "focus": "identity_language"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The text uses gender-neutral language in most instances, but there are some areas where gender-specific terms are present, particularly in authorship listings.",
-    "cultural_sensitivity": "The study focuses primarily on US and German populations, which may limit the generalizability of the findings to a more diverse global context. Acknowledging and including diverse cultural perspectives would enhance the study's cultural sensitivity.",
-    "age_appropriate_terminology": "The text does not contain any age-specific terminology concerns.",
-    "disability_inclusive_language": "There is a lack of mention of considerations for participants with disabilities, which may exclude individuals with disabilities from the study. Including accessibility measures and accommodations would enhance disability inclusion.",
-    "socioeconomic_sensitivity": "The text does not explicitly address socioeconomic sensitivity concerns.",
-    "geographic_inclusivity": "While the study mentions US and German populations, it lacks a broader global perspective. Including diverse geographic contexts in the research would enhance geographic inclusivity.",
-    "professional_title_usage": "Professional titles are used appropriately throughout the text.",
-    "stereotypes": "The text avoids perpetuating stereotypes.",
-    "identity_language": "The text predominantly uses person-first language, focusing on individuals rather than their identities.",
-    "historical_context": "The text does not contain any specific historical context sensitivity concerns."
+    "gender_neutral_language": "The text generally uses gender-neutral language in participant descriptions, which is positive for inclusivity.",
+    "cultural_sensitivity": "The study focuses heavily on US contexts, potentially limiting the cultural sensitivity and applicability to diverse global settings.",
+    "age_appropriate_terminology": "The use of age-appropriate terminology is consistent and respectful throughout the text.",
+    "disability_inclusive_language": "There are no explicit references to disability-related language or considerations in the text.",
+    "socioeconomic_sensitivity": "The study provides limited income brackets, which may not fully capture the socioeconomic diversity of participants.",
+    "geographic_inclusivity": "The study predominantly discusses US policies and data, lacking a broader global perspective on nutrition labeling.",
+    "professional_title_usage": "The use of professional titles for authors is gender-specific in some cases, impacting gender neutrality.",
+    "stereotypes": "The text generally avoids stereotypes and presents information objectively.",
+    "identity_language": "The text uses person-first language in participant descriptions, enhancing respectful representation.",
+    "historical_context": "The study acknowledges the historical context of FDA regulations and global labeling practices, providing relevant background information."
   },
-  "summary": "Overall, the text demonstrates a moderate level of inclusivity in terms of gender-neutral language usage, cultural sensitivity, and disability inclusion. However, improvements can be made in acknowledging global diversity, enhancing geographic inclusivity, and considering participants with disabilities. By implementing suggested improvements and broadening the scope of cultural and geographic perspectives, the study can enhance its inclusivity and relevance to diverse populations."
+  "summary": "The text demonstrates a good level of inclusivity in terms of gender-neutral language and age-appropriate terminology. However, there are opportunities to enhance cultural sensitivity, socioeconomic representation, and disability inclusion. Improvements in professional title usage and geographic inclusivity can further enhance the study's inclusivity and relevance."
 }

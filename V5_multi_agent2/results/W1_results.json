@@ -1,65 +1,65 @@
 {
-  "language_style_score": 6,
+  "language_style_score": 7,
   "critical_remarks": [
     {
       "category": "grammar",
       "location": "Abstract",
-      "issue": "The abstract lacks conciseness and clarity due to lengthy sentences and complex phrasing.",
+      "issue": "The sentence 'The spectrum labels led participants to make healthier purchases compared to both the positive labels only' lacks a verb, making it incomplete.",
       "severity": "medium",
-      "impact": "Affects the reader's ability to quickly grasp the main points of the study."
+      "impact": "Affects clarity and completeness of the statement."
     },
     {
       "category": "spelling",
       "location": "Introduction",
-      "issue": "Misspelling of 'incentive-compatible' as 'incentive-compatible'.",
+      "issue": "The word 'guidlines' should be corrected to 'guidelines'.",
       "severity": "low",
-      "impact": "Minor error that may distract the reader."
+      "impact": "Minor spelling error."
     },
     {
       "category": "punctuation",
-      "location": "Literature Review",
-      "issue": "Missing comma after 'food marketing' in the reference citation.",
+      "location": "Methodology",
+      "issue": "The sentence 'We assessed the effects of 6 front-of-package labeling systems' lacks a comma after 'systems'.",
       "severity": "low",
-      "impact": "Minor error affecting citation accuracy."
+      "impact": "Minor punctuation error."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Shifting diets from animal products towards more plant-based foods is generally accepted as an essential measure to reduce the environmental impacts of the global food system.",
-      "improved_version": "Shifting diets from animal products to more plant-based foods is widely accepted as an essential measure to reduce the environmental impacts of the global food system.",
-      "explanation": "Clarifies the comparison between animal and plant-based foods for better readability.",
+      "original_text": "The spectrum labels led participants to make healthier purchases compared to both the positive labels only.",
+      "improved_version": "The spectrum labels led participants to make healthier purchases compared to the positive labels only.",
+      "explanation": "Adding the verb 'led' makes the sentence grammatically correct and complete.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "sentence_structure"
+      "focus": "grammar"
     },
     {
-      "original_text": "The study was preregistered and incentive-compatible.",
-      "improved_version": "The study was preregistered and incentive-compatible.",
-      "explanation": "Corrects the hyphenation error in 'incentive-compatible'.",
+      "original_text": "guidlines",
+      "improved_version": "guidelines",
+      "explanation": "Correcting the spelling of 'guidlines' to 'guidelines' is necessary for accuracy.",
       "location": "Introduction",
       "category": "introduction",
       "focus": "spelling"
     },
     {
-      "original_text": "[1] W. Willett, J. Rockstr\u00f6m, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems, The Lancet 393 (2019) 447\u2013492.",
-      "improved_version": "[1] W. Willett, J. Rockstr\u00f6m, B. Loken, M. Springmann, T. Lang, S. Vermeulen, T. Garnett, D. Tilman, F. DeClerck, A. Wood, M. Jonell, M. Clark, L. J. Gordon, J. Fanzo, C. Hawkes, R. Zurayk, J. A. Rivera, W. D. Vries, L. M. Sibanda, A. Afshin, A. Chaudhary, M. Herrero, R. Agustina, F. Branca, A. Lartey, S. Fan, B. Crona, E. Fox, V. Bignet, M. Troell, T. Lindahl, S. Singh, S. E. Cornell, K. S. Reddy, S. Narain, S. Nishtar, C. J. L. Murray, Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems, The Lancet, 393 (2019), 447\u2013492.",
-      "explanation": "Adds a necessary comma after 'The Lancet' to improve citation format.",
-      "location": "Literature Review",
-      "category": "literature",
+      "original_text": "We assessed the effects of 6 front-of-package labeling systems",
+      "improved_version": "We assessed the effects of 6 front-of-package labeling systems.",
+      "explanation": "Adding a comma after 'systems' improves the clarity and flow of the sentence.",
+      "location": "Methodology",
+      "category": "methodology",
       "focus": "punctuation"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The text demonstrates a generally good level of grammar correctness. However, there are instances of complex sentence structures that could be simplified for better clarity and readability.",
-    "spelling_accuracy": "Spelling accuracy is mostly maintained throughout the text, with only a few minor errors present. Proofreading for typos and consistency in spelling is recommended.",
-    "punctuation_usage": "Punctuation is used adequately, but there are occasional missing commas in complex lists and citations. Consistent application of punctuation rules is advised for improved readability.",
-    "sentence_structure": "The text contains a mix of sentence structures, ranging from concise to complex. Simplifying overly long sentences and ensuring coherence between ideas can enhance the overall readability.",
-    "verb_tense_consistency": "Verb tenses are generally consistent, but there are instances where past and present tenses could be better aligned for clarity. Ensuring a uniform timeline in the text is essential.",
-    "subject_verb_agreement": "Subject-verb agreement is maintained well, with few errors detected. Attention to singular/plural subjects and corresponding verbs is crucial for academic writing.",
-    "article_usage": "Articles are used appropriately throughout the text. Consistency in article usage, especially when referring to specific concepts or objects, can enhance clarity.",
-    "preposition_usage": "Prepositions are generally used correctly, but there are instances where prepositions could be omitted for more concise phrasing. Reviewing prepositions for accuracy and necessity is recommended.",
-    "conjunction_usage": "Conjunctions are appropriately used to connect ideas and sentences. Ensuring coherence and logical flow through conjunctions can improve the overall structure of the text.",
-    "academic_conventions": "The text adheres to academic writing conventions by citing sources, providing a clear methodology description, and presenting results and discussions in a structured manner. Maintaining this academic rigor is essential for scholarly publications."
+    "grammar_correctness": "The text generally demonstrates good grammar, but occasional errors in sentence structure and verb tense consistency are present.",
+    "spelling_accuracy": "Spelling is mostly accurate, with a few minor errors that need attention.",
+    "punctuation_usage": "Punctuation is adequate, but some sentences could benefit from additional commas for clarity.",
+    "sentence_structure": "The overall sentence structure is clear, but some sentences could be improved for better readability.",
+    "verb_tense_consistency": "Verb tense consistency is generally maintained, but a few instances of inconsistency exist.",
+    "subject_verb_agreement": "Subject-verb agreement is mostly correct, but a few instances require attention.",
+    "article_usage": "Article usage is appropriate throughout the text.",
+    "preposition_usage": "Prepositions are used correctly, contributing to the overall coherence of the text.",
+    "conjunction_usage": "Conjunctions are appropriately used to connect ideas and maintain coherence.",
+    "academic_conventions": "The text adheres well to academic writing conventions, maintaining a formal and scholarly tone."
   },
-  "summary": "Overall, the text demonstrates a good level of academic writing conventions with minor issues in grammar, punctuation, and spelling. Improvements in sentence structure, verb tense consistency, and preposition usage can enhance readability and clarity. Attention to detail in citation format and article usage can further elevate the quality of the manuscript."
+  "summary": "Overall, the text demonstrates good language and style, with minor issues in grammar, spelling, and punctuation. Improvements in sentence structure, verb tense consistency, and subject-verb agreement could enhance readability. Attention to detail in spelling and punctuation will further refine the academic tone of the text."
 }
