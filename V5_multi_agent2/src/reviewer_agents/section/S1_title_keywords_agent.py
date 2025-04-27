@@ -12,69 +12,63 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
         self.category = "Section Review"
         
     def analyze_title_keywords(self, text: str, research_type: str) -> Dict[str, Any]:
-        """Analyzes the title and keywords of the manuscript."""
-        prompt = f"""Analyze ONLY the title and keywords section of the manuscript. Do not analyze the abstract or any other sections.
+        """Analyzes the title of the manuscript and suggests an ideal improved version."""
+        prompt = f"""Analyze ONLY the title of the manuscript. Do not analyze the abstract or any other sections.
 
-        Focus on:
+        Focus on these five key aspects:
         1. Title clarity and conciseness
-        2. Title accuracy and specificity
-        3. Title impact and appeal
-        4. Keywords relevance
-        5. Keywords coverage
-        6. Keywords specificity
-        7. Field-specific conventions
-        8. Search engine optimization
-        9. International accessibility
-        10. Technical accuracy
-
-        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
-        - Clarity: Language, readability, technical terms
-        - Accuracy: Content representation, methodology indication
-        - Impact: Significance, appeal to readers
-        - SEO: Discoverability, searchability
-        - Standards: Field conventions, journal requirements
+        2. SEO and discoverability
+        3. Field-specific conventions
+        4. Accuracy and specificity
+        5. Impact and reader appeal
 
         Text to analyze: {text}
         Research type: {research_type}
 
+        Your task is to:
+        1. Identify the current title of the manuscript
+        2. Evaluate it against the five key aspects above
+        3. Create ONE ideal title that addresses all these aspects
+        4. Provide detailed explanations about how your suggested title improves each aspect
+
         Provide a detailed analysis in the following JSON format:
         {{
-            "title_keywords_score": int,  # Single comprehensive score (1-10)
+            "title_keywords_score": int,  # Single comprehensive score for existing title (1-10)
             
             "critical_remarks": [{{
-                "category": str,  # "title_clarity", "title_length", "keywords_relevance", "keywords_coverage", "guidelines", "discoverability"
-                "location": str,  # "Title" or "Keywords"
+                "category": str,  # "clarity", "seo", "conventions", "accuracy", "impact"
+                "location": str,  # "Title"
                 "issue": str,  # Detailed description of the issue
                 "severity": str,  # "high", "medium", "low"
                 "impact": str  # How this affects manuscript quality
             }}],
             
             "improvement_suggestions": [{{
-                "original_text": str,  # The problematic text
-                "improved_version": str,  # AI-generated improvement
-                "explanation": str,  # Why this improvement helps
-                "location": str,  # "Title" or "Keywords"
-                "category": str,  # "title", "keywords", "guidelines", "discoverability"
-                "focus": str  # "clarity", "conciseness", "accuracy", "impact", "relevance", "coverage"
+                "original_title": str,  # The existing title
+                "improved_title": str,  # Your ONE ideal title suggestion
+                "explanation": str,  # Comprehensive explanation of all improvements
+                "location": str,  # "Title"
+                "category": str,  # "title"
+                "focus": str  # "comprehensive"
             }}],
             
             "detailed_feedback": {{
-                "title_analysis": str,  # Detailed paragraph about title quality
-                "keywords_analysis": str,  # Detailed paragraph about keywords quality
-                "guidelines_compliance": str,  # Detailed paragraph about field conventions
-                "discoverability_assessment": str,  # Detailed paragraph about search optimization
-                "audience_alignment": str  # Detailed paragraph about appeal and significance
+                "clarity_conciseness": str,  # How the new title improves clarity and conciseness
+                "seo_discoverability": str,  # How the new title enhances SEO and discoverability
+                "field_conventions": str,  # How the new title aligns with field-specific conventions
+                "accuracy_specificity": str,  # How the new title improves accuracy and specificity
+                "impact_appeal": str  # How the new title increases impact and reader appeal
             }},
             
             "summary": str  # Overall assessment paragraph
         }}
 
         Important: 
-        1. ONLY analyze the title and keywords section, not the abstract or other sections
-        2. Generate at least 10-15 improvement suggestions across different categories
-        3. Each suggestion should be specific, actionable, and include clear explanations
-        4. All locations should be either "Title" or "Keywords", never "Abstract"
-        5. Focus on improving discoverability and search optimization
+        1. ONLY analyze and improve the title, not keywords or other sections
+        2. Create just ONE ideal title suggestion that addresses ALL five key aspects
+        3. Provide detailed explanations for how your suggested title improves each aspect
+        4. Make the title specific, accurate, concise, discoverable, and impactful
+        5. Ensure the title follows field-specific conventions while being accessible
         """
         
         try:
@@ -82,7 +76,7 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
             analysis = json.loads(response)
             return analysis
         except Exception as e:
-            return self._generate_error_report(f"Error analyzing title and keywords: {str(e)}")
+            return self._generate_error_report(f"Error analyzing title: {str(e)}")
     
     def _generate_error_report(self, error_message: str) -> Dict[str, Any]:
         """Generates a structured error report."""
@@ -91,11 +85,11 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
             "critical_remarks": [],
             "improvement_suggestions": [],
             "detailed_feedback": {
-                "title_analysis": "",
-                "keywords_analysis": "",
-                "guidelines_compliance": "",
-                "discoverability_assessment": "",
-                "audience_alignment": ""
+                "clarity_conciseness": "",
+                "seo_discoverability": "",
+                "field_conventions": "",
+                "accuracy_specificity": "",
+                "impact_appeal": ""
             },
             "summary": f"Error in analysis: {error_message}",
             "error": True

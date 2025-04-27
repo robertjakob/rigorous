@@ -49,18 +49,34 @@ def format_improvement_suggestions(suggestions: List[Dict[str, Any]]) -> str:
     
     formatted_suggestions = []
     for i, suggestion in enumerate(suggestions, 1):
-        formatted_suggestion = (
-            f"### Suggestion {i}\n\n"
-            f"**Location**: {suggestion.get('location', 'N/A')}  \n"
-            f"**Category**: {suggestion.get('category', 'N/A')}  \n"
-            f"**Focus**: {suggestion.get('focus', 'N/A')}  \n\n"
-            f"**Original Text**:  \n"
-            f"> {suggestion.get('original_text', 'N/A')}\n\n"
-            f"**Improved Version**:  \n"
-            f"> {suggestion.get('improved_version', 'N/A')}\n\n"
-            f"**Explanation**:  \n"
-            f"{suggestion.get('explanation', 'N/A')}"
-        )
+        # Check for the new S1 agent format
+        if 'original_title' in suggestion and 'improved_title' in suggestion:
+            formatted_suggestion = (
+                f"### Suggestion {i}\n\n"
+                f"**Location**: {suggestion.get('location', 'N/A')}  \n"
+                f"**Category**: {suggestion.get('category', 'N/A')}  \n"
+                f"**Focus**: {suggestion.get('focus', 'N/A')}  \n\n"
+                f"**Original Title**:  \n"
+                f"> {suggestion.get('original_title', 'N/A')}\n\n"
+                f"**Improved Title**:  \n"
+                f"> {suggestion.get('improved_title', 'N/A')}\n\n"
+                f"**Explanation**:  \n"
+                f"{suggestion.get('explanation', 'N/A')}"
+            )
+        # Original format for other agents
+        else:
+            formatted_suggestion = (
+                f"### Suggestion {i}\n\n"
+                f"**Location**: {suggestion.get('location', 'N/A')}  \n"
+                f"**Category**: {suggestion.get('category', 'N/A')}  \n"
+                f"**Focus**: {suggestion.get('focus', 'N/A')}  \n\n"
+                f"**Original Text**:  \n"
+                f"> {suggestion.get('original_text', 'N/A')}\n\n"
+                f"**Improved Version**:  \n"
+                f"> {suggestion.get('improved_version', 'N/A')}\n\n"
+                f"**Explanation**:  \n"
+                f"{suggestion.get('explanation', 'N/A')}"
+            )
         formatted_suggestions.append(formatted_suggestion)
     
     return "\n\n".join(formatted_suggestions)
