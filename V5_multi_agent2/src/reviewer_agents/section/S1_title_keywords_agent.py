@@ -13,26 +13,27 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
         
     def analyze_title_keywords(self, text: str, research_type: str) -> Dict[str, Any]:
         """Analyzes the title and keywords of the manuscript."""
-        prompt = f"""Analyze ONLY the title and keywords section of the manuscript. Do not analyze the abstract or any other sections.
+        prompt = f"""Analyze the title and keywords section of the manuscript. Follow these steps:
 
-        Focus on:
-        1. Title clarity and conciseness
-        2. Title accuracy and specificity
-        3. Title impact and appeal
-        4. Keywords relevance
-        5. Keywords coverage
-        6. Keywords specificity
-        7. Field-specific conventions
-        8. Search engine optimization
-        9. International accessibility
-        10. Technical accuracy
+        1. FIRST, check if there is a dedicated "Keywords:" or "Keywords" section in the text.
+           - Look for a line that starts with "Keywords:" or "Keywords"
+           - If no such section is found, set has_keywords = false
+           - If found, set has_keywords = true and extract the keywords
 
-        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
-        - Clarity: Language, readability, technical terms
-        - Accuracy: Content representation, methodology indication
-        - Impact: Significance, appeal to readers
-        - SEO: Discoverability, searchability
-        - Standards: Field conventions, journal requirements
+        2. For the title analysis:
+           - Focus on clarity, conciseness, accuracy, and impact
+           - Provide specific improvement suggestions
+           - Consider field conventions and search optimization
+
+        3. For keywords analysis (ONLY if has_keywords = true):
+           - Analyze relevance, coverage, and specificity
+           - Provide improvement suggestions
+           - Consider search engine optimization
+
+        4. If has_keywords = false:
+           - Set all keyword-related fields to empty or null
+           - Do not generate any keyword-related feedback
+           - Do not make assumptions about keywords from other text
 
         Text to analyze: {text}
         Research type: {research_type}
@@ -60,7 +61,7 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
             
             "detailed_feedback": {{
                 "title_analysis": str,  # Detailed paragraph about title quality
-                "keywords_analysis": str,  # Detailed paragraph about keywords quality
+                "keywords_analysis": str,  # "No keywords section found" if has_keywords = false
                 "guidelines_compliance": str,  # Detailed paragraph about field conventions
                 "discoverability_assessment": str,  # Detailed paragraph about search optimization
                 "audience_alignment": str  # Detailed paragraph about appeal and significance
@@ -70,11 +71,16 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
         }}
 
         Important: 
-        1. ONLY analyze the title and keywords section, not the abstract or other sections
-        2. Generate at least 10-15 improvement suggestions across different categories
-        3. Each suggestion should be specific, actionable, and include clear explanations
-        4. All locations should be either "Title" or "Keywords", never "Abstract"
-        5. Focus on improving discoverability and search optimization
+        1. ONLY analyze the title and keywords section
+        2. If no "Keywords:" or "Keywords" section is found:
+           - Set keywords_analysis to "No keywords section found"
+           - Do not include any keyword-related critical remarks
+           - Do not include any keyword-related improvement suggestions
+           - Do not make assumptions about keywords from other text
+        3. Generate at least 5-7 improvement suggestions for the title
+        4. Each suggestion should be specific, actionable, and include clear explanations
+        5. All locations should be either "Title" or "Keywords", never "Abstract"
+        6. Focus on improving discoverability and search optimization
         """
         
         try:
