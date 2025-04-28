@@ -11,7 +11,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 class BaseReviewerAgent:
     """Base class for all reviewer agents."""
     
-    def __init__(self, model: str = "gpt-4"):
+    def __init__(self, model: str = "gpt-4.1-nano"):
         """
         Initialize the base reviewer agent.
         

@@ -1,22 +1,51 @@
 {
   "title_keywords_score": 7,
-  "critical_remarks": [],
+  "critical_remarks": [
+    {
+      "category": "title_clarity",
+      "location": "Title",
+      "issue": "The title lacks specificity and does not clearly convey the focus of the study.",
+      "severity": "medium",
+      "impact": "May lead to confusion among readers and reduce the attractiveness of the study."
+    },
+    {
+      "category": "title_length",
+      "location": "Title",
+      "issue": "The title is lengthy and could be more concise to improve readability.",
+      "severity": "low",
+      "impact": "May slightly affect the readability and memorability of the title."
+    },
+    {
+      "category": "keywords_relevance",
+      "location": "Keywords",
+      "issue": "No dedicated 'Keywords' section found in the text.",
+      "severity": "high",
+      "impact": "May reduce the discoverability and indexing of the manuscript."
+    },
+    {
+      "category": "keywords_coverage",
+      "location": "Keywords",
+      "issue": "No keywords extracted from the text due to the absence of a dedicated section.",
+      "severity": "high",
+      "impact": "May hinder the visibility and searchability of the manuscript."
+    }
+  ],
   "improvement_suggestions": [
     {
-      "original_text": "Testing FDA\u2019s proposed \u201cNutrition Info\u201d label against other front-of-package food labels: A randomized trial",
-      "improved_version": "Comparing Spectrum Food Labels to FDA's Nutrition Info Label: A Randomized Trial",
-      "explanation": "The improved title maintains clarity by specifying the comparison between Spectrum Food Labels and FDA's Nutrition Info Label. It accurately represents the content of the study by highlighting the key labels being tested. The title captures attention by emphasizing the innovative Spectrum Food Labels and their comparison to the FDA's proposed label. It is optimized for search engines by including relevant terms like 'Spectrum Food Labels' and 'FDA's Nutrition Info Label'. The title follows field conventions by clearly indicating the experimental nature of the study.",
+      "original_text": "Longitudinal analysis of over 300,000 self-reported menstrual health experiences and 10,000 personalized health content interactions in a women\u2019s health app",
+      "improved_version": "Enhancing Women's Health: Insights from 300,000 Menstrual Health Experiences and Personalized Content Interactions",
+      "explanation": "The improved title is more concise, specific, and impactful. It highlights the focus on women's health, emphasizes the scale of the study, and improves search optimization.",
       "location": "Title",
       "category": "title",
       "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The current title is clear and understandable, accurately representing the comparison between different front-of-package food labels. It captures attention by mentioning the FDA's proposed 'Nutrition Info' label. The title is somewhat optimized for search engines but could be improved by including more specific terms. It follows field conventions by indicating the experimental nature of the study.",
+    "title_analysis": "The title lacks specificity and conciseness, impacting clarity and SEO. It could be improved to better reflect the study's focus and enhance discoverability.",
     "keywords_analysis": "No keywords section found",
-    "guidelines_compliance": "The title and keywords section comply with field conventions by clearly indicating the experimental nature of the study and the comparison between different food labels.",
-    "discoverability_assessment": "The title could be further optimized for search engines by including specific terms related to the study, such as 'Spectrum Food Labels' and 'FDA's Nutrition Info Label'. This optimization would enhance the discoverability of the study.",
-    "audience_alignment": "The title effectively communicates the focus of the study to the audience, highlighting the comparison between different front-of-package food labels and the experimental nature of the research."
+    "guidelines_compliance": "The title does not fully comply with field conventions due to lack of specificity and conciseness.",
+    "discoverability_assessment": "The title could be optimized for search engines by including more relevant keywords and focusing on key terms related to women's health.",
+    "audience_alignment": "The title could be more appealing and significant by highlighting the unique insights and scale of the study, attracting a wider audience interested in women's health."
   },
-  "summary": "The title effectively conveys the comparison between different front-of-package food labels, with a focus on the Spectrum Food Labels and FDA's Nutrition Info Label. The title could be further optimized for search engines to enhance discoverability. Overall, the title aligns well with field conventions and effectively communicates the study's focus to the audience."
+  "summary": "The title and keywords section of the manuscript require improvement for better clarity, specificity, and search optimization. Enhancing the title's conciseness and relevance can significantly enhance the manuscript's visibility and appeal to the target audience."
 }

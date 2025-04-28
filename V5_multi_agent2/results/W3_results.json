@@ -1,65 +1,19 @@
 {
-  "clarity_conciseness_score": 6,
-  "critical_remarks": [
-    {
-      "category": "jargon",
-      "location": "Abstract",
-      "issue": "The use of technical terms like 'Ofcom Nutrient Profiling Model scores' may be unclear to a general audience.",
-      "severity": "medium",
-      "impact": "This can hinder understanding of the study's objectives."
-    },
-    {
-      "category": "wordiness",
-      "location": "Introduction",
-      "issue": "The paragraph discussing the causes of poor diet quality is verbose and could be more concise.",
-      "severity": "low",
-      "impact": "Reduces the clarity and makes the text less engaging."
-    },
-    {
-      "category": "redundancy",
-      "location": "Results",
-      "issue": "Repetition of the phrase 'positive labels' in multiple sentences.",
-      "severity": "low",
-      "impact": "Creates unnecessary redundancy and affects the flow of information."
-    }
-  ],
-  "improvement_suggestions": [
-    {
-      "original_text": "To test whether 'Nutrition Info' front-of-package food labels proposed by the US Food and Drug Administration (FDA) increase purchase healthfulness compared to other existing or proposed food labeling systems.",
-      "improved_version": "To evaluate if the 'Nutrition Info' labels proposed by the FDA enhance the healthfulness of purchases compared to other labeling systems.",
-      "explanation": "Simplified the sentence by removing unnecessary details and jargon.",
-      "location": "Abstract",
-      "category": "abstract",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Poor diet quality is responsible for approximately 500,000 deaths and more than $50 billion in healthcare costs in the US every year.",
-      "improved_version": "Poor diet quality causes 500,000 deaths and over $50 billion in healthcare costs annually in the US.",
-      "explanation": "Condensed the information for better readability and conciseness.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "In this randomized trial in a large sample of US adults, 'spectrum' food labels that rated all foods from least to most healthy led participants to select modestly healthier foods and beverages compared to the status quo of displaying only positive labels on healthier foods.",
-      "improved_version": "This study found that 'spectrum' food labels, rating foods from least to most healthy, resulted in slightly healthier food choices compared to the current practice of using positive labels on healthier foods.",
-      "explanation": "Clarified the sentence structure and simplified the language.",
-      "location": "Discussion",
-      "category": "discussion",
-      "focus": "language_simplicity"
-    }
-  ],
+  "clarity_conciseness_score": 0,
+  "critical_remarks": [],
+  "improvement_suggestions": [],
   "detailed_feedback": {
-    "language_simplicity": "The text uses technical terms and complex language that may be challenging for a general audience to understand. Simplifying the vocabulary and sentence structures would enhance clarity.",
-    "jargon_usage": "There is a significant amount of jargon related to food labeling systems, nutrient profiling, and regulatory terms. Explaining these terms in simpler language or providing definitions would improve comprehension.",
-    "wordiness": "Several paragraphs contain unnecessary wordiness and could be more concise without losing important information. Streamlining the text would make it more engaging and easier to follow.",
-    "sentence_length": "The text contains long sentences that could be broken down into shorter, more digestible segments. Shorter sentences improve readability and help convey information more effectively.",
-    "paragraph_length": "Some paragraphs are lengthy and cover multiple ideas, leading to information overload. Breaking down paragraphs into smaller, focused sections would enhance readability and understanding.",
-    "active_passive_voice": "The text predominantly uses passive voice, which can make sentences less direct and engaging. Incorporating more active voice would improve clarity and make the text more dynamic.",
-    "redundancy": "There are instances of redundant phrases and repetitive information that could be streamlined to avoid unnecessary repetition and maintain a smooth flow of information.",
-    "ambiguity": "Certain sections contain ambiguous terms or vague descriptions that could be clarified for better understanding. Providing specific examples or explanations would reduce ambiguity.",
-    "readability": "Overall, the text's readability could be improved by simplifying language, breaking down complex sentences, and organizing information into more digestible chunks.",
-    "information_density": "The text contains dense information, which may overwhelm readers. Balancing the amount of information presented and ensuring it is structured logically would enhance information density."
+    "language_simplicity": "",
+    "jargon_usage": "",
+    "wordiness": "",
+    "sentence_length": "",
+    "paragraph_length": "",
+    "active_passive_voice": "",
+    "redundancy": "",
+    "ambiguity": "",
+    "readability": "",
+    "information_density": ""
   },
-  "summary": "The text exhibits moderate clarity and conciseness issues, primarily related to jargon usage, wordiness, and redundancy. Simplifying language, reducing complexity, and enhancing sentence structures would significantly improve readability and comprehension."
+  "summary": "Error in analysis: Error analyzing clarity and conciseness: Unterminated string starting at: line 177 column 13 (char 12640)",
+  "error": true
 }

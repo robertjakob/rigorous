@@ -42,7 +42,7 @@ from .writing.W8_visual_presentation_agent import VisualPresentationAgentW8
 class ControllerAgent:
     """Controller agent that coordinates all reviewer agents."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         self.model = model
         self.agents = {
             # Section agents

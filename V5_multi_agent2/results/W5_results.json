@@ -3,63 +3,63 @@
   "critical_remarks": [
     {
       "category": "gender_neutrality",
-      "location": "Authors section",
-      "issue": "Gender-specific titles like 'Mr.' or 'Ms.' are used for some authors.",
+      "location": "Abstract",
+      "issue": "The use of 'menstruating individuals' instead of 'women' in the context of menstrual health experiences may exclude transgender men and non-binary individuals who also menstruate.",
       "severity": "medium",
-      "impact": "Excludes non-binary or gender-diverse individuals from the authorship representation."
+      "impact": "Excludes transgender men and non-binary individuals from the discussion on menstrual health."
     },
     {
       "category": "cultural_sensitivity",
-      "location": "Introduction section",
-      "issue": "The text focuses primarily on US data and policies, neglecting global perspectives on nutrition labeling.",
+      "location": "Introduction",
+      "issue": "The assumption that individuals assigned female at birth (AFAB) have low awareness and literacy regarding menstrual health may oversimplify cultural variations and experiences.",
       "severity": "medium",
-      "impact": "Lacks inclusivity towards diverse cultural contexts and practices in nutrition labeling."
+      "impact": "May overlook cultural nuances and diversity in menstrual health awareness."
     },
     {
-      "category": "socioeconomic_sensitivity",
-      "location": "Results section",
-      "issue": "Income brackets are limited and may not fully capture the socioeconomic diversity of participants.",
+      "category": "disability_inclusion",
+      "location": "Methodology",
+      "issue": "The study does not explicitly address accessibility features for individuals with disabilities who may use the women's health app.",
       "severity": "low",
-      "impact": "May oversimplify the socioeconomic representation in the study."
+      "impact": "Lacks consideration for the accessibility needs of users with disabilities."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Authors: Anna H. Grummon,1,2 Kevin O\u2019Sullivan,3 Joshua Petimar,4 Cristina J.Y. Lee,1 Amanda B. Zeitlin,1 Lauren P. Cleveland,5 Caroline Collis,5 Aviva A. Musicus,6, 7 Verena Tiefenbeck,8 Elgar Fleisch,3 and Jason P. Block4",
-      "improved_version": "Authors: Anna H. Grummon, Kevin O\u2019Sullivan, Joshua Petimar, Cristina J.Y. Lee, Amanda B. Zeitlin, Lauren P. Cleveland, Caroline Collis, Aviva A. Musicus, Verena Tiefenbeck, and Elgar Fleisch",
-      "explanation": "Removing gender-specific titles provides a more inclusive representation of the authors.",
-      "location": "Authors section",
-      "category": "professional_titles",
+      "original_text": "menstruating individuals (aged 18\u201349 years)",
+      "improved_version": "individuals experiencing menstruation (aged 18\u201349 years)",
+      "explanation": "This change is more inclusive of transgender men and non-binary individuals who may also menstruate.",
+      "location": "Abstract",
+      "category": "gender_neutrality",
       "focus": "gender_neutrality"
     },
     {
-      "original_text": "The US requires most packaged foods to display the Nutrition Facts Label, but this label is displayed on the back or side of product packaging...",
-      "improved_version": "The US requires most packaged foods to display the Nutrition Facts Label, but this label is typically located on the back or side of product packaging...",
-      "explanation": "Adding 'typically' acknowledges variations in label placement, enhancing accuracy.",
-      "location": "Introduction section",
-      "category": "geographic_inclusivity",
+      "original_text": "individuals assigned female at birth (AFAB)",
+      "improved_version": "individuals with diverse experiences of menstruation",
+      "explanation": "Avoids oversimplification and acknowledges the diversity of experiences related to menstruation.",
+      "location": "Introduction",
+      "category": "cultural_sensitivity",
       "focus": "cultural_sensitivity"
     },
     {
-      "original_text": "The average age of participants was 40.3 years (SD=12.6); 60% identified as female...",
-      "improved_version": "The average age of participants was 40.3 years (SD=12.6); 60% identified as women...",
-      "explanation": "Using 'women' instead of 'female' is more person-centered and respectful.",
-      "location": "Participant characteristics table",
-      "category": "gender_neutrality",
-      "focus": "identity_language"
+      "original_text": "menstruating individuals",
+      "improved_version": "individuals managing menstrual health",
+      "explanation": "Broadens the scope to include individuals with varying health needs and experiences.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The text generally uses gender-neutral language in participant descriptions, which is positive for inclusivity.",
-    "cultural_sensitivity": "The study focuses heavily on US contexts, potentially limiting the cultural sensitivity and applicability to diverse global settings.",
-    "age_appropriate_terminology": "The use of age-appropriate terminology is consistent and respectful throughout the text.",
-    "disability_inclusive_language": "There are no explicit references to disability-related language or considerations in the text.",
-    "socioeconomic_sensitivity": "The study provides limited income brackets, which may not fully capture the socioeconomic diversity of participants.",
-    "geographic_inclusivity": "The study predominantly discusses US policies and data, lacking a broader global perspective on nutrition labeling.",
-    "professional_title_usage": "The use of professional titles for authors is gender-specific in some cases, impacting gender neutrality.",
-    "stereotypes": "The text generally avoids stereotypes and presents information objectively.",
-    "identity_language": "The text uses person-first language in participant descriptions, enhancing respectful representation.",
-    "historical_context": "The study acknowledges the historical context of FDA regulations and global labeling practices, providing relevant background information."
+    "gender_neutral_language": "The text generally uses gender-neutral language by referring to 'menstruating individuals' instead of exclusively 'women'. However, it could further enhance inclusivity by explicitly acknowledging the experiences of transgender men and non-binary individuals who may also menstruate.",
+    "cultural_sensitivity": "While the text acknowledges cultural and geographical variations in menstrual health awareness, it could benefit from a more nuanced discussion on how cultural factors influence individuals' health experiences.",
+    "age_appropriate_terminology": "The study appropriately focuses on individuals aged 18\u201349 years in the context of menstrual health, aligning with the typical reproductive age range for menstruation.",
+    "disability_inclusive_language": "There is a lack of explicit consideration for individuals with disabilities who may interact with the women's health app. Including accessibility features and addressing diverse needs could enhance disability inclusion.",
+    "socioeconomic_sensitivity": "The text does not explicitly discuss socioeconomic factors related to menstrual health experiences. Considering the impact of socioeconomic status on access to healthcare and resources could improve sensitivity in this aspect.",
+    "geographic_inclusivity": "The study mentions the global representation of users but does not delve into specific geographic challenges or variations in menstrual health awareness. Providing insights into regional differences could enhance geographic inclusivity.",
+    "professional_title_usage": "The study uses professional titles appropriately, maintaining a neutral and respectful tone in referring to researchers and authors.",
+    "stereotypes": "The text avoids perpetuating stereotypes related to menstrual health experiences and focuses on empirical data and observations.",
+    "identity_language": "The study could further explore the use of identity-first language versus person-first language in the context of menstrual health to ensure inclusivity and respect for diverse identities.",
+    "historical_context": "The study could benefit from a deeper exploration of the historical context of menstrual health awareness and how it has evolved over time, considering societal attitudes and advancements in healthcare."
   },
-  "summary": "The text demonstrates a good level of inclusivity in terms of gender-neutral language and age-appropriate terminology. However, there are opportunities to enhance cultural sensitivity, socioeconomic representation, and disability inclusion. Improvements in professional title usage and geographic inclusivity can further enhance the study's inclusivity and relevance."
+  "summary": "Overall, the text demonstrates a good level of inclusivity through gender-neutral language and cultural awareness. However, there are opportunities to enhance disability inclusion, address socioeconomic factors, and provide more nuanced discussions on identity and historical context. Improvements in language usage and consideration of diverse perspectives can further enhance the inclusivity of the study."
 }

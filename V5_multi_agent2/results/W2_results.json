@@ -1,65 +1,19 @@
 {
-  "narrative_structure_score": 7,
-  "critical_remarks": [
-    {
-      "category": "paragraph_organization",
-      "location": "Introduction",
-      "issue": "The introduction lacks a clear roadmap of the study, making it challenging for readers to anticipate the content.",
-      "severity": "medium",
-      "impact": "Readers may struggle to grasp the study's purpose and relevance."
-    },
-    {
-      "category": "evidence_integration",
-      "location": "Results",
-      "issue": "The presentation of results lacks clear connections to the research question and hypothesis.",
-      "severity": "high",
-      "impact": "Readers may find it difficult to understand how the results address the study objectives."
-    },
-    {
-      "category": "conclusion_alignment",
-      "location": "Conclusion",
-      "issue": "The conclusion does not directly tie back to the introduction, missing an opportunity to reinforce the study's significance.",
-      "severity": "medium",
-      "impact": "Readers may feel disconnected from the study's progression and outcomes."
-    }
-  ],
-  "improvement_suggestions": [
-    {
-      "original_text": "The introduction lacks a clear roadmap of the study.",
-      "improved_version": "The introduction should provide a concise overview of the study objectives, research questions, and the importance of the study.",
-      "explanation": "This improvement will help orient readers and set expectations for the content that follows.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "narrative_coherence"
-    },
-    {
-      "original_text": "Results lack clear connections to the research question.",
-      "improved_version": "Results should be explicitly linked to the research question and hypothesis to demonstrate how they address the study objectives.",
-      "explanation": "This enhancement will enhance the coherence and relevance of the results section.",
-      "location": "Results",
-      "category": "results",
-      "focus": "logical_progression"
-    },
-    {
-      "original_text": "Conclusion does not directly tie back to the introduction.",
-      "improved_version": "The conclusion should reiterate key findings and their alignment with the study's initial objectives outlined in the introduction.",
-      "explanation": "This adjustment will strengthen the narrative flow and reinforce the study's significance.",
-      "location": "Conclusion",
-      "category": "conclusion",
-      "focus": "conclusion_alignment"
-    }
-  ],
+  "narrative_structure_score": 0,
+  "critical_remarks": [],
+  "improvement_suggestions": [],
   "detailed_feedback": {
-    "narrative_coherence": "The text demonstrates a logical flow of ideas, but improvements are needed in connecting sections more explicitly to enhance overall coherence.",
-    "logical_progression": "The study progresses logically from introduction to conclusion, but some sections could benefit from clearer transitions and connections to maintain a smooth flow of information.",
-    "section_transitions": "While most sections transition adequately, enhancing the clarity of transitions between the introduction, literature review, and methodology could improve the overall structural organization.",
-    "paragraph_organization": "Paragraphs are generally well-structured, but ensuring each paragraph focuses on a single main idea and aligns with the overall section theme would enhance readability and comprehension.",
-    "topic_sentence_effectiveness": "Topic sentences effectively introduce paragraph content, but strengthening their alignment with the main thesis of each section could improve the overall coherence.",
-    "supporting_evidence_integration": "The integration of supporting evidence is generally effective, but ensuring a clear link between evidence and the main argument in each section would enhance the persuasive impact.",
-    "conclusion_alignment": "The conclusion aligns with the study's findings, but reinforcing connections to the introduction and restating the main contributions would enhance the narrative closure.",
-    "hypothesis_tracking": "The study effectively tracks the research question throughout, but explicitly linking results to the initial hypothesis in each section would strengthen the hypothesis tracking.",
-    "visual_element_integration": "The inclusion of figures and tables enhances the visual narrative, but providing more detailed explanations and interpretations alongside visual elements could improve reader engagement.",
-    "reader_engagement": "The text engages readers with relevant information, but incorporating more interactive elements, such as questions for reflection or interactive figures, could further enhance reader engagement."
+    "narrative_coherence": "",
+    "logical_progression": "",
+    "section_transitions": "",
+    "paragraph_organization": "",
+    "topic_sentence_effectiveness": "",
+    "supporting_evidence_integration": "",
+    "conclusion_alignment": "",
+    "hypothesis_tracking": "",
+    "visual_element_integration": "",
+    "reader_engagement": ""
   },
-  "summary": "The study demonstrates a logical progression of ideas, but improvements in section transitions, paragraph organization, and conclusion alignment are needed to enhance narrative coherence. Strengthening topic sentences, supporting evidence integration, and hypothesis tracking would further improve the logical flow and reader engagement. Additionally, clearer connections between sections, improved visual element integration, and enhanced reader engagement strategies would elevate the overall narrative structure."
+  "summary": "Error in analysis: Error analyzing narrative structure: Unterminated string starting at: line 155 column 33 (char 12406)",
+  "error": true
 }

@@ -4,62 +4,54 @@
     {
       "category": "grammar",
       "location": "Abstract",
-      "issue": "The sentence 'The spectrum labels led participants to make healthier purchases compared to both the positive labels only' lacks a verb, making it incomplete.",
+      "issue": "Fragmented sentence structure and lack of subject-verb agreement.",
       "severity": "medium",
-      "impact": "Affects clarity and completeness of the statement."
+      "impact": "Affects clarity and readability."
     },
     {
-      "category": "spelling",
+      "category": "academic_conventions",
       "location": "Introduction",
-      "issue": "The word 'guidlines' should be corrected to 'guidelines'.",
-      "severity": "low",
-      "impact": "Minor spelling error."
+      "issue": "Lack of citation language and formal academic tone.",
+      "severity": "high",
+      "impact": "Diminishes credibility and professionalism."
     },
     {
-      "category": "punctuation",
+      "category": "sentence_structure",
       "location": "Methodology",
-      "issue": "The sentence 'We assessed the effects of 6 front-of-package labeling systems' lacks a comma after 'systems'.",
-      "severity": "low",
-      "impact": "Minor punctuation error."
+      "issue": "Complex sentence structures affecting technical description clarity.",
+      "severity": "medium",
+      "impact": "Hinders understanding of the study methodology."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The spectrum labels led participants to make healthier purchases compared to both the positive labels only.",
-      "improved_version": "The spectrum labels led participants to make healthier purchases compared to the positive labels only.",
-      "explanation": "Adding the verb 'led' makes the sentence grammatically correct and complete.",
+      "original_text": "Widespread gaps in menstrual health literacy \u2013 fueled by stigma, cultural taboos, and particularly, a lack of accessible education \u2013 have contributed to a longstanding neglect of menstrual health awareness and support.",
+      "improved_version": "Widespread gaps in menstrual health literacy, fueled by stigma, cultural taboos, and a lack of accessible education, have contributed to a longstanding neglect of menstrual health awareness and support.",
+      "explanation": "Simplified sentence structure for better flow and clarity.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "grammar"
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "guidlines",
-      "improved_version": "guidelines",
-      "explanation": "Correcting the spelling of 'guidlines' to 'guidelines' is necessary for accuracy.",
+      "original_text": "However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.",
+      "improved_version": "However, research indicates that improving menstrual health awareness and literacy can enhance well-being and health outcomes.",
+      "explanation": "Improved verb tense consistency and clarity.",
       "location": "Introduction",
       "category": "introduction",
-      "focus": "spelling"
-    },
-    {
-      "original_text": "We assessed the effects of 6 front-of-package labeling systems",
-      "improved_version": "We assessed the effects of 6 front-of-package labeling systems.",
-      "explanation": "Adding a comma after 'systems' improves the clarity and flow of the sentence.",
-      "location": "Methodology",
-      "category": "methodology",
-      "focus": "punctuation"
+      "focus": "verb_tense"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The text generally demonstrates good grammar, but occasional errors in sentence structure and verb tense consistency are present.",
-    "spelling_accuracy": "Spelling is mostly accurate, with a few minor errors that need attention.",
-    "punctuation_usage": "Punctuation is adequate, but some sentences could benefit from additional commas for clarity.",
-    "sentence_structure": "The overall sentence structure is clear, but some sentences could be improved for better readability.",
-    "verb_tense_consistency": "Verb tense consistency is generally maintained, but a few instances of inconsistency exist.",
-    "subject_verb_agreement": "Subject-verb agreement is mostly correct, but a few instances require attention.",
-    "article_usage": "Article usage is appropriate throughout the text.",
-    "preposition_usage": "Prepositions are used correctly, contributing to the overall coherence of the text.",
+    "grammar_correctness": "The text exhibits some issues with subject-verb agreement and fragmented sentence structures.",
+    "spelling_accuracy": "Spelling is generally accurate throughout the text.",
+    "punctuation_usage": "Punctuation is used correctly, but there are instances of comma splices and run-on sentences.",
+    "sentence_structure": "Complex sentence structures hinder readability and clarity, especially in technical descriptions.",
+    "verb_tense_consistency": "Verb tenses are generally consistent, but there are some instances of inconsistency.",
+    "subject_verb_agreement": "Subject-verb agreement is mostly correct, but there are some errors present.",
+    "article_usage": "Article usage is appropriate and consistent.",
+    "preposition_usage": "Prepositions are used correctly, but there are instances where clarity could be improved.",
     "conjunction_usage": "Conjunctions are appropriately used to connect ideas and maintain coherence.",
-    "academic_conventions": "The text adheres well to academic writing conventions, maintaining a formal and scholarly tone."
+    "academic_conventions": "The text lacks formal academic tone and citation language, impacting credibility and professionalism."
   },
-  "summary": "Overall, the text demonstrates good language and style, with minor issues in grammar, spelling, and punctuation. Improvements in sentence structure, verb tense consistency, and subject-verb agreement could enhance readability. Attention to detail in spelling and punctuation will further refine the academic tone of the text."
+  "summary": "Overall, the text demonstrates good grammar and spelling accuracy, but improvements are needed in sentence structure, verb tense consistency, and adherence to academic writing conventions. Enhancing clarity, formality, and citation language will significantly elevate the academic tone and credibility of the study."
 }
