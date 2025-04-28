@@ -1,5 +1,6 @@
 import os
 import json
+import glob
 from src.utils.pdf_parser import PDFParser
 from src.reviewer_agents.controller_agent import ControllerAgent
 from src.core.config import DEFAULT_MODEL
@@ -21,9 +22,24 @@ def process_pdf(pdf_path):
         'tables': tables
     }
 
+def find_pdf_in_directory(directory):
+    """Find the first PDF file in the specified directory."""
+    pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
+    if not pdf_files:
+        raise FileNotFoundError(f"No PDF files found in {directory}")
+    return pdf_files[0]  # Return the first PDF file found
+
 def main():
+    # Find PDF in manuscripts directory
+    manuscripts_dir = "manuscripts"
+    try:
+        manuscript_path = find_pdf_in_directory(manuscripts_dir)
+        print(f"Found PDF: {os.path.basename(manuscript_path)}")
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        return
+    
     # Process the manuscript
-    manuscript_path = "manuscripts/DigitalScale___Paper.pdf"
     manuscript_data = process_pdf(manuscript_path)
     
     # Initialize controller agent

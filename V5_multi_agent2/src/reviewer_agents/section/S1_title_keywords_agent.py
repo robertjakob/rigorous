@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class TitleKeywordsAgentS1(BaseReviewerAgent):
     """Agent responsible for evaluating the title and keywords of a manuscript."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "S1_Title_Keywords_Agent"
         self.category = "Section Review"
@@ -21,9 +21,14 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
            - If found, set has_keywords = true and extract the keywords
 
         2. For the title analysis:
-           - Focus on clarity, conciseness, accuracy, and impact
-           - Provide specific improvement suggestions
-           - Consider field conventions and search optimization
+           - Analyze the current title considering ALL aspects simultaneously:
+             * Clarity: Is it clear and understandable?
+             * Accuracy: Does it accurately represent the content?
+             * Impact: Does it capture attention and significance?
+             * SEO: Is it optimized for search engines?
+             * Standards: Does it follow field conventions?
+           - Generate ONE comprehensive improvement suggestion that addresses all these aspects
+           - The improved title should be the optimal balance of all these factors
 
         3. For keywords analysis (ONLY if has_keywords = true):
            - Analyze relevance, coverage, and specificity
@@ -51,12 +56,12 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
             }}],
             
             "improvement_suggestions": [{{
-                "original_text": str,  # The problematic text
-                "improved_version": str,  # AI-generated improvement
-                "explanation": str,  # Why this improvement helps
-                "location": str,  # "Title" or "Keywords"
-                "category": str,  # "title", "keywords", "guidelines", "discoverability"
-                "focus": str  # "clarity", "conciseness", "accuracy", "impact", "relevance", "coverage"
+                "original_text": str,  # The current title
+                "improved_version": str,  # ONE comprehensive improved title that balances all aspects
+                "explanation": str,  # Detailed explanation of how the improved title addresses clarity, accuracy, impact, SEO, and standards
+                "location": str,  # "Title"
+                "category": str,  # "title"
+                "focus": str  # "comprehensive_improvement"
             }}],
             
             "detailed_feedback": {{
@@ -77,8 +82,8 @@ class TitleKeywordsAgentS1(BaseReviewerAgent):
            - Do not include any keyword-related critical remarks
            - Do not include any keyword-related improvement suggestions
            - Do not make assumptions about keywords from other text
-        3. Generate at least 5-7 improvement suggestions for the title
-        4. Each suggestion should be specific, actionable, and include clear explanations
+        3. Generate ONE comprehensive title improvement that considers all aspects simultaneously
+        4. The title improvement should balance clarity, accuracy, impact, SEO, and standards
         5. All locations should be either "Title" or "Keywords", never "Abstract"
         6. Focus on improving discoverability and search optimization
         """

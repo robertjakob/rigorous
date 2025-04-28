@@ -4,106 +4,106 @@
     {
       "category": "clarity",
       "location": "Abstract",
-      "issue": "The abstract lacks a clear summary of the key findings and implications of the study.",
+      "issue": "The abstract lacks a clear summary of the study objectives, methods, and key findings. It should provide a concise overview to entice readers.",
       "severity": "medium",
-      "impact": "Readers may struggle to grasp the significance of the research without a concise summary."
+      "impact": "May deter readers from engaging with the full article due to lack of clear understanding of the study."
+    },
+    {
+      "category": "completeness",
+      "location": "Methods Section",
+      "issue": "The methods section lacks detailed information on data collection procedures, analysis techniques, and potential biases. This hinders reproducibility and validity of the study.",
+      "severity": "high",
+      "impact": "Weakens the credibility and trustworthiness of the study results."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "We present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.",
-      "improved_version": "We conduct a thorough evaluation of BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.",
-      "explanation": "Simplify the sentence structure for better readability and comprehension.",
+      "original_text": "Menstrual health remains underrecognized and underserved in public health, despite its fundamental role in the physical, mental, and social well-being of nearly half the global population.",
+      "improved_version": "Menstrual health is often overlooked in public health despite its crucial impact on the well-being of a significant portion of the global population.",
+      "explanation": "Simplified and more direct language improves readability and comprehension.",
       "location": "Abstract",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).",
-      "improved_version": "Torso-up images show comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).",
-      "explanation": "Rephrase for better flow and clarity.",
-      "location": "Abstract",
-      "category": "clarity",
-      "focus": "presentation"
-    },
-    {
-      "original_text": "The limited dataset size may restrict the model\u2019s ability to learn complex patterns and generalize to diverse body types.",
-      "improved_version": "A small dataset size may limit the model's capacity to learn intricate patterns and generalize across diverse body types.",
-      "explanation": "Enhance readability and precision of the statement.",
+      "original_text": "We conducted a longitudinal observational study using linear mixed-effect models to examine how users\u2019 tracking behaviors and interactions with personalized health content delivered via an artificial intelligence (AI) driven recommender system affected their self-reported menstrual health experiences.",
+      "improved_version": "A longitudinal observational study was conducted using linear mixed-effect models to analyze the impact of user tracking behaviors and interactions with personalized health content, delivered through an AI-driven recommender system, on self-reported menstrual health experiences.",
+      "explanation": "Restructuring the sentence for better flow and clarity.",
       "location": "Introduction",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "We train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.",
-      "improved_version": "We train deep learning models on a large, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.",
-      "explanation": "Clarify the description for better understanding.",
-      "location": "Introduction",
+      "original_text": "The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of n = 7,455 menstruating individuals aged between 18 and 49 years.",
+      "improved_version": "Data was collected from November 7, 2023, to March 31, 2024, involving 7,455 menstruating individuals aged 18-49.",
+      "explanation": "Simplify and condense information for better readability.",
+      "location": "Results Section",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "We evaluate the performance on the Visual-body-to-BMI, Celebi-FBI, and VIP-Attribute dataset, and compare our results with existing state-of-the-art methods.",
-      "improved_version": "We assess performance on the Visual-Body-To-BMI, Celeb-FBI, and VIP-Attribute datasets, comparing our results with state-of-the-art methods.",
-      "explanation": "Streamline the sentence for improved readability.",
-      "location": "Introduction",
+      "original_text": "The app offered participants the ability to log 47 distinct health experiences.",
+      "improved_version": "Participants could log 47 different health experiences in the app.",
+      "explanation": "Streamline the sentence for clearer communication.",
+      "location": "Results Section",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.",
-      "improved_version": "The base DenseNet201 model is pre-trained on the ImageNet dataset, but we keep all layers trainable during training.",
-      "explanation": "Ensure consistency in terminology and style.",
-      "location": "Methodology",
-      "category": "consistency",
-      "focus": "alignment"
+      "original_text": "The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.",
+      "improved_version": "A significant association was found between the intensity of negative menstrual health experiences and tracking behavior.",
+      "explanation": "Enhancing readability by simplifying the sentence structure.",
+      "location": "Results Section",
+      "category": "clarity",
+      "focus": "presentation"
     },
     {
-      "original_text": "We provide the code for training, deployment, and the mobile applications, as open-source contributions.",
-      "improved_version": "We offer the code for training, deployment, and the mobile applications as open-source contributions.",
-      "explanation": "Enhance clarity and coherence in the statement.",
+      "original_text": "The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.",
+      "improved_version": "The study received exemption from the institutional review board in compliance with the Human Research Act, ensuring participant confidentiality and safety due to deidentification of data.",
+      "explanation": "Clarifying the regulatory compliance and participant protection measures.",
+      "location": "Ethical declarations",
+      "category": "clarity",
+      "focus": "presentation"
+    },
+    {
+      "original_text": "The dataset analyzed in this study is not publicly available. Access to anonymized data may be granted upon reasonable request and with approval from the corresponding author and the company.",
+      "improved_version": "The dataset used in this study is not publicly accessible. Interested parties can request access to deidentified data through the corresponding author and company approval.",
+      "explanation": "Providing clear instructions on data access procedures.",
+      "location": "Data availability",
+      "category": "clarity",
+      "focus": "accessibility"
+    },
+    {
+      "original_text": "The code used for the analysis of the dataset is available upon reasonable request from the corresponding author and requires company approval.",
+      "improved_version": "The analysis code is accessible upon request from the corresponding author, subject to company approval.",
+      "explanation": "Simplify and clarify the availability of the analysis code.",
+      "location": "Code availability",
+      "category": "clarity",
+      "focus": "accessibility"
+    },
+    {
+      "original_text": "The abstract lacks a clear summary of the study objectives, methods, and key findings. It should provide a concise overview to entice readers.",
+      "improved_version": "The abstract should succinctly outline the study's aims, methods, and main results to engage readers effectively.",
+      "explanation": "Enhancing the abstract's clarity and informativeness.",
       "location": "Abstract",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "We also evaluate our model\u2019s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.",
-      "improved_version": "Additionally, we assess our model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.",
-      "explanation": "Improve clarity and coherence in the presentation of results.",
-      "location": "Abstract",
-      "category": "clarity",
-      "focus": "presentation"
-    },
-    {
-      "original_text": "We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.",
-      "improved_version": "We showcase the practical application of our BMI estimation approach by implementing our algorithms for image filtering and BMI estimation in Python on mobile devices through the CLAID framework.",
-      "explanation": "Enhance the description for better understanding.",
-      "location": "Abstract",
-      "category": "clarity",
-      "focus": "presentation"
-    },
-    {
-      "original_text": "The primary distinction has been made between full-body images and facial images.",
-      "improved_version": "The main differentiation lies between full-body images and facial images.",
-      "explanation": "Simplify the sentence structure for clarity.",
-      "location": "Related Work",
-      "category": "clarity",
-      "focus": "presentation"
-    },
-    {
-      "original_text": "Various perspectives of images suitable for BMI estimation have been explored in prior work.",
-      "improved_version": "Previous studies have explored different perspectives of images suitable for BMI estimation.",
-      "explanation": "Enhance readability and coherence in the statement.",
-      "location": "Related Work",
-      "category": "clarity",
-      "focus": "presentation"
+      "original_text": "The methods section lacks detailed information on data collection procedures, analysis techniques, and potential biases. This hinders reproducibility and validity of the study.",
+      "improved_version": "Enhance the methods section by providing comprehensive details on data collection, analysis methods, and addressing potential biases to ensure study reproducibility and validity.",
+      "explanation": "Strengthening the methodology section for transparency and research integrity.",
+      "location": "Methods Section",
+      "category": "completeness",
+      "focus": "thoroughness"
     }
   ],
   "detailed_feedback": {
-    "relevance_analysis": "The supplementary materials provide a detailed analysis of BMI estimation from smartphone camera images, offering insights into the methodology, results, and implications of the study. The relevance to the main text is evident through the extension and elaboration of key concepts.",
-    "clarity_analysis": "The presentation of information is generally clear, with detailed descriptions of the methodology, results, and discussion. However, some sections could benefit from improved clarity through simplification of complex sentences and technical terms.",
-    "consistency_analysis": "The supplementary materials maintain consistency with the main text in terms of terminology, methodology, and results. The alignment of key findings and comparisons with existing literature is well-maintained throughout the document.",
-    "completeness_analysis": "The supplementary materials provide a comprehensive overview of the research, covering aspects such as dataset characteristics, methodological details, results, and implications. The information is detailed and thorough, offering a deep dive into the study."
+    "relevance_analysis": "The supplementary materials provide valuable insights into a longitudinal study on menstrual health experiences and app interactions. The detailed analysis of user behaviors and content engagement enriches the understanding of menstrual health apps.",
+    "clarity_analysis": "The presentation of data and results is generally clear, but improvements in the abstract and methods section are necessary for better comprehension. The organization of information can be enhanced for smoother flow and readability.",
+    "consistency_analysis": "The supplementary materials align well with the main text, expanding on the study's methodology and results. However, some sections lack consistency in detail and clarity, impacting the overall coherence.",
+    "completeness_analysis": "The supplementary materials offer a comprehensive overview of the study, covering data analysis, results, and implications. However, certain sections require more thorough explanations and details to enhance the study's validity and reproducibility.",
+    "organization_analysis": "The structure of the supplementary materials follows a logical flow from introduction to methods, results, and discussion. However, some sections could benefit from clearer headings and subheadings for improved navigation."
   },
-  "summary": "Overall, the supplementary materials offer a detailed and comprehensive analysis of BMI estimation from smartphone camera images. While the content is relevant and well-structured, there are areas where clarity and consistency can be improved for better presentation and understanding. The completeness and thoroughness of the information provided enhance the quality of the study."
+  "summary": "The supplementary materials provide valuable insights into user behaviors and interactions in a longitudinal study on menstrual health experiences. While the content is generally clear and relevant, improvements in clarity, completeness, and organization are needed to enhance readability, reproducibility, and overall quality."
 }

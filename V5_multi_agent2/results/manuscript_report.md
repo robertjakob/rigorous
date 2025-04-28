@@ -1,6 +1,6 @@
 # Manuscript Review Report
 
-Generated on: 2025-04-24 02:37:14
+Generated on: 2025-04-28 15:44:05
 
 ## Important Notes
 
@@ -45,8 +45,8 @@ Generated on: 2025-04-24 02:37:14
 
 ## Overall Assessment
 
-The manuscript received an average score of 6.68/10 across all evaluation criteria.
-A total of 78 critical remarks and 167 improvement suggestions were identified.
+The manuscript received an average score of 6.32/10 across all evaluation criteria.
+A total of 77 critical remarks and 146 improvement suggestions were identified.
 
 ## Agent Reports
 
@@ -56,453 +56,157 @@ A total of 78 critical remarks and 167 improvement suggestions were identified.
 ### Score: 7/10
 
 ### Summary
-Overall, the title and keywords provide a clear indication of the study's focus on BMI estimation from smartphone images. Improvements in conciseness, specificity, and adherence to field conventions would enhance the manuscript's discoverability and search engine optimization. The study's relevance to digital health interventions is well-reflected in the title and keywords, appealing to a broad audience interested in health technology.
+Overall, the title is clear and informative, but it could be improved by shortening it slightly for better impact. The absence of a dedicated keywords section and specific keywords may impact search optimization and discoverability. Enhancing the title with relevant keywords would improve search visibility and audience engagement.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: title_clarity  
 **Location**: Title  
-**Issue**: The title is clear but could be more concise by removing redundant words.  
-**Severity**: medium  
-**Impact**: Improving conciseness will enhance reader engagement.
+**Issue**: The title is clear and concise, effectively summarizing the focus of the study.  
+**Severity**: low  
+**Impact**: The clarity of the title positively contributes to the manuscript quality.
 
 ### Remark 2
 
-**Category**: keywords_relevance  
-**Location**: Keywords  
-**Issue**: The keywords are relevant but could include more specific terms related to the study.  
-**Severity**: medium  
-**Impact**: Enhancing keyword specificity will improve search engine optimization.
+**Category**: title_length  
+**Location**: Title  
+**Issue**: The title is slightly long, which may reduce readability and impact.  
+**Severity**: low  
+**Impact**: Shortening the title could improve its impact and readability.
 
 ### Remark 3
 
-**Category**: keywords_coverage  
+**Category**: keywords_relevance  
 **Location**: Keywords  
-**Issue**: The keywords cover the main concepts but lack some important terms related to the study.  
+**Issue**: No dedicated 'Keywords:' section was found in the text.  
 **Severity**: medium  
-**Impact**: Expanding keyword coverage will increase the manuscript's visibility.
+**Impact**: The absence of a dedicated keywords section may affect search optimization and discoverability.
 
 ### Remark 4
 
-**Category**: guidelines  
-**Location**: Title  
-**Issue**: The title lacks adherence to field-specific conventions, such as including abbreviations or acronyms.  
-**Severity**: low  
-**Impact**: Following conventions will enhance the professionalism of the manuscript.
-
-### Remark 5
-
-**Category**: discoverability  
+**Category**: keywords_coverage  
 **Location**: Keywords  
-**Issue**: The keywords could be optimized for better search engine visibility by including synonyms or related terms.  
-**Severity**: high  
-**Impact**: Improving discoverability will increase the likelihood of the manuscript being found by relevant audiences.
+**Issue**: No keywords were extracted from the text.  
+**Severity**: medium  
+**Impact**: Lack of specific keywords may reduce the manuscript's visibility and searchability.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Title  
 **Category**: title  
-**Focus**: conciseness  
+**Focus**: comprehensive_improvement  
 
 **Original Text**:  
-> Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset
+> Longitudinal analysis of over 300,000 self-reported menstrual health experiences and 10,000 personalized health content interactions in a women’s health app
 
 **Improved Version**:  
-> On-Device BMI Estimation from Smartphone Camera Images Using Large-Scale Real-World Data
+> Understanding User Engagement and Health Outcomes in a Women’s Health App: A Longitudinal Study
 
 **Explanation**:  
-The improved version is more concise and removes redundant words.
-
-### Suggestion 2
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.
-
-**Improved Version**:  
-> BMI Estimation from Camera Images for Rapid Weight Assessment in Telehealth and Emergency Scenarios
-
-**Explanation**:  
-The improved version is more concise and focuses on key terms for search optimization.
-
-### Suggestion 3
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Limitations of Recent Computer Vision-Based BMI Estimation Approaches
-
-**Explanation**:  
-The improved version highlights the study's focus and adds specificity.
-
-### Suggestion 4
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework
-
-**Improved Version**:  
-> Implementation of BMI Estimation Algorithm on Mobile Devices Using CLAID Framework
-
-**Explanation**:  
-The improved version is clearer and emphasizes the implementation aspect.
-
-### Suggestion 5
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Body weight and weight changes are essential indicators of health and disease risk.
-
-**Improved Version**:  
-> Significance of Body Weight Changes in Health Risk Assessment
-
-**Explanation**:  
-The improved version is more specific and highlights the importance of the study.
-
-### Suggestion 6
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> Machine learning methods applied to images captured from different perspectives.
-
-**Improved Version**:  
-> Machine Learning for Image Analysis from Various Perspectives
-
-**Explanation**:  
-The improved version clarifies the focus on image analysis and perspectives.
-
-### Suggestion 7
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: relevance  
-
-**Original Text**:  
-> Various authors have proposed public benchmark datasets for body weight and BMI estimation, such as the Visual-Body-To-BMI dataset and the Celeb-FBI dataset.
-
-**Improved Version**:  
-> Public Benchmark Datasets for Body Weight Estimation: Visual-Body-To-BMI and Celeb-FBI
-
-**Explanation**:  
-The improved version specifies the benchmark datasets for better understanding.
-
-### Suggestion 8
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: conciseness  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Insights for Remote Weight Estimation in Telemedicine
-
-**Explanation**:  
-The improved version is more concise and highlights the practical application.
-
-### Suggestion 9
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: clarity  
-
-**Original Text**:  
-> The dataset used is proprietary and not publicly available.
-
-**Improved Version**:  
-> Proprietary Dataset: Not Publicly Accessible
-
-**Explanation**:  
-The improved version clarifies the accessibility of the dataset.
-
-### Suggestion 10
-
-**Location**: Keywords  
-**Category**: keywords  
-**Focus**: conciseness  
-
-**Original Text**:  
-> Declaration of the use of AI-based tools.
-
-**Improved Version**:  
-> AI-Based Tools Declaration
-
-**Explanation**:  
-The improved version is more concise and to the point.
+The improved title maintains clarity by focusing on user engagement and health outcomes, ensuring accuracy by specifying the study's scope, enhancing impact by emphasizing understanding, optimizing for search engines by including relevant keywords, and following field conventions.
 
 ### Detailed Feedback
 ### Title Analysis
 
-The title is clear and specific, indicating the focus on BMI estimation from smartphone images. However, it could be more concise and adhere to field-specific conventions.
+The title is clear and concise, summarizing the study focus well. However, it could be improved by shortening it slightly for better readability and impact. The title effectively conveys the main theme of the research.
 
 ### Keywords Analysis
 
-The keywords cover relevant concepts but lack specificity and could be optimized for better search engine visibility. Including more specific terms related to the study would enhance discoverability.
+No keywords section found
 
 ### Guidelines Compliance
 
-The title and keywords partially comply with field conventions but could be improved by adding abbreviations or acronyms commonly used in the field.
+The title follows field conventions by including essential information about the study focus. However, it could be optimized for search engines by incorporating specific keywords.
 
 ### Discoverability Assessment
 
-The title and keywords provide a good overview of the study but could benefit from more specific and optimized terms for better search engine optimization.
+The title could be enhanced for search optimization by including relevant keywords that align with the study's content. This would improve the manuscript's discoverability and visibility.
 
 ### Audience Alignment
 
-The title and keywords effectively convey the study's focus on BMI estimation from smartphone images, making it appealing to readers interested in digital health interventions.
+The title effectively communicates the study's focus to the target audience, providing a clear overview of the research topic and scope.
 
 ## S2 - Abstract
-### Score: 7/10
+### Score: 0/10
 
 ### Summary
-The abstract is well-structured and covers essential aspects of the research, but it could benefit from improved clarity, especially in describing the methodology and results. Enhancements in readability, content completeness, and adherence to scientific standards would elevate the manuscript's quality and impact.
+Error in analysis: Error analyzing abstract: Unterminated string starting at: line 145 column 9 (char 12427)
 
 ### Critical Remarks
-### Remark 1
-
-**Category**: clarity  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear and concise summary of the methodology used in the study.  
-**Severity**: medium  
-**Impact**: This affects the reader's understanding of how the research was conducted.
-
-### Remark 2
-
-**Category**: standards  
-**Location**: Abstract  
-**Issue**: The abstract does not explicitly mention ethical considerations related to data privacy and consent.  
-**Severity**: medium  
-**Impact**: This omission could raise concerns about the ethical conduct of the study.
+No critical remarks identified.
 
 ### Improvement Suggestions
-### Suggestion 1
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Clarifies the sentence structure for better readability.
-
-### Suggestion 2
-
-**Location**: Abstract  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> We introduce an automatic image filtering strategy based on posture clustering and person detection to effectively curate the real-world dataset, ensuring the exclusion of unsuitable images.
-
-**Improved Version**:  
-> An automatic image filtering strategy, utilizing posture clustering and person detection, is introduced to curate the real-world dataset by excluding unsuitable images.
-
-**Explanation**:  
-Streamlines the description for better clarity and organization.
-
-### Suggestion 3
-
-**Location**: Abstract  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
-
-**Improved Version**:  
-> Torso-up images demonstrate comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
-
-**Explanation**:  
-Enhances the comparison between different image perspectives for better understanding.
-
-### Suggestion 4
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
-
-**Improved Version**:  
-> The processing speed for filtering and inference on Android and iOS devices is reported.
-
-**Explanation**:  
-Improves clarity by removing redundancy.
-
-### Suggestion 5
-
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
-
-**Improved Version**:  
-> Open-source code for training, deployment, and mobile applications is provided.
-
-**Explanation**:  
-Simplifies the sentence for better readability.
-
-### Suggestion 6
-
-**Location**: Introduction  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
-
-**Improved Version**:  
-> Users self-reported their height at the start of the fitness program.
-
-**Explanation**:  
-Shortens the sentence while retaining essential information.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
-
-**Improved Version**:  
-> Our model shows robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
-
-**Explanation**:  
-Enhances the description of model performance for clarity.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> We partly attribute this discrepancy to the significant differences between the celebrity headshots in the VIP attribute and the conditions of our training dataset.
-
-**Improved Version**:  
-> This discrepancy is partly attributed to the substantial differences between the celebrity headshots in the VIP attribute dataset and the conditions of our training dataset.
-
-**Explanation**:  
-Provides a clearer link between the discrepancy and dataset differences.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: content  
-**Focus**: completeness  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> Unlike previous studies that often concentrated on either face-only or full-body images, our research offers a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the contrast between the current study and previous research.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
-
-**Explanation**:  
-Introduces a smoother transition to the next point.
-
-### Suggestion 11
-
-**Location**: Discussion  
-**Category**: clarity  
-**Focus**: readability  
-
-**Original Text**:  
-> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
-
-**Improved Version**:  
-> Interested parties can replicate our approach using the publicly available source code.
-
-**Explanation**:  
-Shortens the sentence for better impact.
+No improvement suggestions provided.
 
 ### Detailed Feedback
 ### Structure Analysis
 
-The abstract is well-organized with clear subsections for introduction, methodology, results, and conclusion. However, the methodology description could be more detailed to provide a better understanding of the research process.
+
 
 ### Content Analysis
 
-The abstract covers essential aspects such as the dataset, methodology, results, and implications. However, it lacks explicit mention of ethical considerations and could benefit from more detailed results presentation.
+
 
 ### Clarity Assessment
 
-The abstract is generally clear and readable, but some sentences are overly complex and could be simplified for better comprehension. Additionally, some technical terms could be explained for a broader audience.
+
 
 ### Standards Compliance
 
-The abstract adheres to scientific writing standards in terms of structure and content. However, it could improve by explicitly mentioning ethical considerations related to data privacy and consent.
+
 
 ### Impact Evaluation
 
-The research provides valuable insights into BMI estimation from smartphone images and demonstrates the potential for real-world applications. The study's findings on different image perspectives and generalizability contribute to the field of digital health interventions.
+
 
 ## S3 - Introduction
 ### Score: 7/10
 
 ### Summary
-Overall, the introduction provides a solid foundation for the research, with a clear problem statement and well-defined objectives. However, improvements are needed in the transition between sections and the explicit justification of the research significance. The study offers valuable insights into BMI estimation from smartphone images and demonstrates strong potential for impact in healthcare applications.
+The introduction provides a good background on menstrual health awareness and the role of women's health apps. However, it could benefit from more specific details about the research context and methodology. The problem statement is somewhat vague and could be more clearly defined to highlight the exact issue being addressed in the study. The research questions are presented but not explicitly linked to the objectives, leading to a slight disconnect between the goals and the questions posed. The significance of the study could be justified more explicitly and in greater detail to emphasize the importance and impact of the research. The flow between sections is somewhat disjointed, impacting the overall organization and coherence of the introduction.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: significance  
+**Category**: context  
 **Location**: Abstract  
-**Issue**: The significance of the research in terms of potential impact on healthcare outcomes could be more explicitly stated.  
+**Issue**: The abstract lacks specific details about the methodology and key findings of the study.  
 **Severity**: medium  
-**Impact**: This affects the clarity of the research's importance to the field.
+**Impact**: Readers may not fully grasp the scope and outcomes of the research.
 
 ### Remark 2
 
+**Category**: problem  
+**Location**: Introduction  
+**Issue**: The problem statement is somewhat vague and could be more clearly defined.  
+**Severity**: medium  
+**Impact**: Lack of clarity may lead to confusion about the exact issue being addressed.
+
+### Remark 3
+
+**Category**: objectives  
+**Location**: Introduction  
+**Issue**: The research questions (RQs) are presented but not explicitly linked to the objectives.  
+**Severity**: low  
+**Impact**: Alignment between RQs and objectives would enhance focus and direction.
+
+### Remark 4
+
+**Category**: significance  
+**Location**: Introduction  
+**Issue**: The justification for the significance of the study could be more explicit and detailed.  
+**Severity**: medium  
+**Impact**: Enhanced justification would strengthen the importance of the research.
+
+### Remark 5
+
 **Category**: structure  
 **Location**: Introduction  
-**Issue**: The flow from background context to problem statement is abrupt, lacking a smooth transition.  
+**Issue**: The flow between sections is somewhat disjointed, leading to a lack of smooth transition.  
 **Severity**: medium  
-**Impact**: This disrupts the reader's understanding of the research focus.
+**Impact**: Improved flow would enhance readability and coherence of the introduction.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -512,73 +216,73 @@ Overall, the introduction provides a solid foundation for the research, with a c
 **Focus**: background  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Widespread gaps in menstrual health literacy – fueled by stigma, cultural taboos, and particularly, a lack of accessible education – have contributed to a longstanding neglect of menstrual health awareness and support.
 
 **Improved Version**:  
-> Current computer vision-based approaches for BMI estimation have primarily utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
+> The neglect of menstrual health awareness and support persists due to prevalent gaps in menstrual health literacy, driven by stigma, cultural taboos, and inadequate accessible education.
 
 **Explanation**:  
-Clarifies the timeframe of the research and provides a more active voice.
+Restructuring the sentence for better clarity and flow.
 
 ### Suggestion 2
 
 **Location**: Introduction  
-**Category**: context  
-**Focus**: background  
+**Category**: problem  
+**Focus**: issue identification  
 
 **Original Text**:  
-> In this study, we present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.
 
 **Improved Version**:  
-> This study conducts a thorough assessment of BMI estimation from smartphone camera images using deep learning on a notably larger, proprietary, real-world dataset of 84,963 images from 25,353 individuals.
+> Research indicates that improving menstrual health awareness and literacy can enhance overall well-being and health outcomes.
 
 **Explanation**:  
-Enhances clarity and conciseness of the research scope.
+Enhancing the sentence for better readability and impact.
 
 ### Suggestion 3
 
 **Location**: Introduction  
-**Category**: problem  
-**Focus**: gap  
+**Category**: objectives  
+**Focus**: goals  
 
 **Original Text**:  
-> However, many past studies have been limited by small datasets, containing only up to 5,900 images.
+> Building on this foundation, we propose the following research questions (RQs):
 
 **Improved Version**:  
-> Nevertheless, prior studies have been constrained by small datasets, with a maximum of 5,900 images.
+> Based on this groundwork, we aim to address the following research questions (RQs):
 
 **Explanation**:  
-Provides a more formal transition and acknowledges previous research.
+Strengthening the connection between the foundation and the research questions.
 
 ### Suggestion 4
 
 **Location**: Introduction  
-**Category**: problem  
-**Focus**: gap  
+**Category**: significance  
+**Focus**: contribution  
 
 **Original Text**:  
-> To address the gap in datasets of limited size, we train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+> Our findings reveal that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> To bridge the gap in small datasets, we employ deep learning models on a large-scale, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
+> Our results indicate that users engaged more in tracking health experiences than interacting with personalized health content.
 
 **Explanation**:  
-Emphasizes the solution to the identified research gap.
+Clarifying the presentation of research outcomes for better understanding.
 
 ### Suggestion 5
 
 **Location**: Introduction  
-**Category**: objectives  
-**Focus**: objectives  
+**Category**: significance  
+**Focus**: contribution  
 
 **Original Text**:  
-> We aim to uncover how various views of the body influence the accuracy of weight predictions, providing insights into the most effective approaches for different application scenarios.
+> The study adds to research on women’s health apps by providing new insights into the associations between content pillars, media formats, and users’ tracking and content engagement behavior.
 
 **Improved Version**:  
-> Our objective is to investigate how different body perspectives impact weight prediction accuracy, offering valuable insights for diverse application scenarios.
+> This study contributes to the field of women’s health apps by offering fresh insights into the correlations among content pillars, media formats, and user engagement behaviors.
 
 **Explanation**:  
-Clarifies the research goal and enhances the focus on the objectives.
+Enhancing the description of the study's contribution for better impact.
 
 ### Suggestion 6
 
@@ -587,28 +291,28 @@ Clarifies the research goal and enhances the focus on the objectives.
 **Focus**: organization  
 
 **Original Text**:  
-> The remainder of the work is structured as follows: Section 2 provides an overview of related work in the field of weight estimation from images.
+> While previous research typically analyzed tracking behaviors over two to three months REF, our study extends this observation to five months, offering a more comprehensive assessment of user tracking and content engagement behaviors within a mobile women’s health app.
 
 **Improved Version**:  
-> The subsequent sections are organized as follows: Section 2 offers a review of related research in the domain of weight estimation from images.
+> In contrast to prior studies that focused on tracking behaviors for two to three months REF, our research expands this analysis to five months, providing a thorough evaluation of user engagement within a mobile women’s health app.
 
 **Explanation**:  
-Improves the transition and coherence between sections.
+Strengthening the comparison with previous research and emphasizing the study's duration.
 
 ### Suggestion 7
 
-**Location**: Introduction  
-**Category**: significance  
-**Focus**: impact  
+**Location**: Discussion  
+**Category**: context  
+**Focus**: background  
 
 **Original Text**:  
-> For overweight individuals, a body weight loss of 5% can lead to significant improvements in health outcomes, such as the prevention of type 2 diabetes and cardiovascular diseases.
+> However, the anonymization of user data restricted the exploration of cultural and geographical influences that may shape app engagement and health outcomes.
 
 **Improved Version**:  
-> A 5% reduction in body weight for overweight individuals can significantly enhance health outcomes, including the prevention of type 2 diabetes and cardiovascular diseases.
+> Yet, the anonymization of user data limited the examination of cultural and geographical factors that could impact app engagement and health outcomes.
 
 **Explanation**:  
-Enhances the clarity and impact of the statement.
+Enhancing the contrast between limitations and potential influences.
 
 ### Suggestion 8
 
@@ -617,13 +321,13 @@ Enhances the clarity and impact of the statement.
 **Focus**: impact  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Furthermore, app notification use was positively associated with positive health experiences, consistent with prior research demonstrating that just-in-time adaptive interventions effectively sustain app engagement and support behavior change over time.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset, despite lacking prior training on this dataset.
+> Moreover, the utilization of app notifications showed a positive correlation with positive health experiences, aligning with previous studies that highlight the effectiveness of just-in-time adaptive interventions in maintaining app engagement and fostering behavior change.
 
 **Explanation**:  
-Strengthens the emphasis on research outcomes and results.
+Expanding on the explanation of the relationship between app notifications and health outcomes.
 
 ### Suggestion 9
 
@@ -632,87 +336,140 @@ Strengthens the emphasis on research outcomes and results.
 **Focus**: impact  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> Consequently, on one hand, the study results indicate that not all users benefit equally from the same type or amount of content, and caution against overloading users with excessive health-related information, particularly on topics that may inadvertently increase symptom awareness or psychological distress.
 
 **Improved Version**:  
-> Additionally, our research offers valuable insights for remote weight estimation in telemedicine consultations.
+> Therefore, the study findings suggest that users may not uniformly benefit from identical content types or quantities, emphasizing the need to avoid overwhelming users with excessive health information, especially on subjects that could unintentionally heighten symptom awareness or psychological strain.
 
 **Explanation**:  
-Enhances the clarity and relevance of the research implications.
+Strengthening the cautionary advice for better clarity and emphasis.
 
 ### Suggestion 10
 
 **Location**: Discussion  
 **Category**: significance  
-**Focus**: contribution  
+**Focus**: impact  
 
 **Original Text**:  
-> Anyone interested in replicating our approach can do so using the publicly available source code we provide.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscore the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.
 
 **Improved Version**:  
-> Researchers interested in replicating our methodology can utilize the openly accessible source code we offer.
+> The surprising negative link between user engagement with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the presentation and delivery of dietary and mental health advice in DHTs for menstrual health.
 
 **Explanation**:  
-Enhances the invitation for replication and transparency.
+Strengthening the call for reevaluation of content delivery for better impact.
 
 ### Suggestion 11
 
 **Location**: Discussion  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> This suggests that this format may be less engaging or harder to integrate into users' app routines.
+
+**Improved Version**:  
+> This indicates that such a format might be less captivating or challenging to incorporate into users' app habits.
+
+**Explanation**:  
+Enhancing the explanation for better clarity and impact.
+
+### Suggestion 12
+
+**Location**: Discussion  
+**Category**: significance  
+**Focus**: impact  
+
+**Original Text**:  
+> Understanding these dynamics is critical for optimizing personalization strategies and maximizing the impact of DHTs on menstrual health.
+
+**Improved Version**:  
+> Comprehending these dynamics is crucial for refining personalization strategies and enhancing the influence of DHTs on menstrual health.
+
+**Explanation**:  
+Strengthening the importance of understanding user dynamics for research impact.
+
+### Suggestion 13
+
+**Location**: Methods  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> Based on our experiments, we consider the following limitations of our study:
+> To assess (RQ 1) the associations between content characteristics (combination of recommended content, i.e. mental health blogs) and user DHT engagement behavior (tracking and content engagement behavior), and (RQ 2) the associations between user DHT engagement behavior and users’ self-reported menstrual health experiences (intensity of menstrual health experiences), four linear mixed-effects models were employed.
 
 **Improved Version**:  
-> Following our experiments, we acknowledge the following limitations of our study:
+> For evaluating (RQ 1) the connections between content traits (e.g., recommended content combinations like mental health blogs) and user DHT engagement behavior (tracking and content engagement), and (RQ 2) the links between user DHT engagement and self-reported menstrual health experiences (intensity), four linear mixed-effects models were utilized.
 
 **Explanation**:  
-Provides a more formal and structured introduction to the limitations.
+Clarifying the purpose and methodology for better understanding.
+
+### Suggestion 14
+
+**Location**: Methods  
+**Category**: context  
+**Focus**: background  
+
+**Original Text**:  
+> The anonymized dataset for this analysis was made available to the authors from the app’s vendor.
+
+**Improved Version**:  
+> The authors obtained the anonymized dataset for this analysis from the app's vendor.
+
+**Explanation**:  
+Enhancing the clarity of data source and access for transparency.
 
 ### Detailed Feedback
 ### Context Analysis
 
-The introduction provides a detailed background on the research topic, highlighting the significance of BMI estimation from smartphone images.
+The introduction provides a good background on menstrual health awareness and the role of women's health apps. However, it could benefit from more specific details about the research context and methodology.
 
 ### Problem Analysis
 
-The problem statement is clearly articulated, focusing on the limitations of existing datasets and the need for more comprehensive research.
+The problem statement is somewhat vague and could be more clearly defined to highlight the exact issue being addressed in the study.
 
 ### Objectives Analysis
 
-The research objectives are well-defined, aiming to address the dataset gap and explore the impact of different body perspectives on weight estimation accuracy.
+The research questions are presented but not explicitly linked to the objectives, leading to a slight disconnect between the goals and the questions posed.
 
 ### Significance Assessment
 
-The research significance is justified by emphasizing the potential health implications of accurate weight estimation and the practical applications in telehealth.
+The significance of the study could be justified more explicitly and in greater detail to emphasize the importance and impact of the research.
 
 ### Structure Evaluation
 
-The introduction lacks a smooth transition between background context and problem statement, impacting the overall flow of the section.
+The flow between sections is somewhat disjointed, impacting the overall organization and coherence of the introduction.
 
 ## S4 - Literature Review
 ### Score: 7/10
 
 ### Summary
-The literature review provides a comprehensive overview of BMI estimation from images, with a detailed analysis of methodologies, datasets, and perspectives. While the critical analysis is thorough, some improvements in structuring the content and enhancing integration with existing literature are recommended. Overall, the study offers valuable insights into remote weight estimation and demonstrates strong generalizability of the model.
+The literature review provides a comprehensive overview of menstrual health apps and user behaviors, highlighting gaps in knowledge and emphasizing the importance of content engagement. While the study offers valuable insights, improvements in structuring the narrative, enhancing critical analysis, and integrating prior research could strengthen the overall quality and impact of the literature review.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: structure  
-**Location**: Methodology section  
-**Issue**: Lack of clear subheadings or bullet points to delineate different steps in the image filtering process.  
+**Location**: Abstract  
+**Issue**: The abstract lacks a clear statement of the research objectives and key findings.  
 **Severity**: medium  
-**Impact**: Affects readability and understanding of the methodology.
+**Impact**: May lead to reader confusion and hinder understanding of the study's significance.
 
 ### Remark 2
 
 **Category**: integration  
-**Location**: Results section  
-**Issue**: Limited discussion on how the results align with existing literature or theoretical frameworks.  
+**Location**: Introduction  
+**Issue**: Limited integration of prior research on menstrual health literacy and app usage.  
+**Severity**: high  
+**Impact**: Weakens the theoretical foundation and context for the current study.
+
+### Remark 3
+
+**Category**: analysis  
+**Location**: Results  
+**Issue**: Lack of in-depth critical analysis of the associations between user behaviors and health outcomes.  
 **Severity**: medium  
-**Impact**: Reduces the depth of analysis and connection to prior research.
+**Impact**: Reduces the depth of insights and limits the interpretation of study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -722,1322 +479,1439 @@ The literature review provides a comprehensive overview of BMI estimation from i
 **Focus**: organization  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Widespread gaps in menstrual health literacy – fueled by stigma, cultural taboos, and particularly, a lack of accessible education – have contributed to a longstanding neglect of menstrual health awareness and support.
 
 **Improved Version**:  
-> The code for training, deployment, and the mobile applications is shared as open-source contributions.
+> Persistent gaps in menstrual health literacy, driven by stigma, cultural taboos, and limited educational access, have perpetuated the historical neglect of menstrual health awareness and support.
 
 **Explanation**:  
-Improves clarity and conciseness.
+Enhances clarity and conciseness while maintaining the original message.
 
 ### Suggestion 2
-
-**Location**: Introduction  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
-
-**Improved Version**:  
-> Torso-up images show comparable performance to full-body images (9% MAPE), whereas face-only images exhibit lower accuracy (11% MAPE).
-
-**Explanation**:  
-Enhances readability and coherence.
-
-### Suggestion 3
 
 **Location**: Abstract  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+> While the growing adoption of menstrual health tracking apps offers promising opportunities to address disparities in menstrual health by promoting health literacy, supporting symptom management, and enhancing well-being, the specific engagement patterns that drive these benefits remain poorly understood.
 
 **Improved Version**:  
-> We showcase the practical implementation of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, on mobile devices using the CLAID framework.
+> Although menstrual health tracking apps show promise in improving health literacy, symptom management, and well-being, there is a lack of understanding regarding the specific user engagement patterns that lead to these benefits.
+
+**Explanation**:  
+Clarifies the sentence structure and emphasizes the research gap.
+
+### Suggestion 3
+
+**Location**: Introduction  
+**Category**: structure  
+**Focus**: relevance  
+
+**Original Text**:  
+> Menstrual health is a holistic concept encompassing physical, mental, and social well-being in relation to the menstrual cycle, extending beyond the mere absence of disease or discomfort.
+
+**Improved Version**:  
+> Menstrual health is a comprehensive concept that includes physical, mental, and social well-being related to the menstrual cycle, going beyond the mere absence of disease or discomfort.
+
+**Explanation**:  
+Enhances clarity and strengthens the definition of menstrual health.
+
+### Suggestion 4
+
+**Location**: Introduction  
+**Category**: structure  
+**Focus**: breadth  
+
+**Original Text**:  
+> Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors (i.e., number of symptom logs) associated with improvements in menstrual health awareness, literacy, and outcomes.
+
+**Improved Version**:  
+> However, existing research on menstrual health apps has predominantly concentrated on quantitative metrics like app usage frequency and duration, as well as self-reported symptom tracking behaviors, without fully exploring the impact of content engagement on menstrual health outcomes.
+
+**Explanation**:  
+Clarifies the contrast between current and previous research focus.
+
+### Suggestion 5
+
+**Location**: Results  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> Our findings revealed that users tracked health experiences (n = 359,194 logs) more frequently than they interacted with personalized health content (n = 12,937 logs).
+
+**Improved Version**:  
+> The study identified a higher frequency of user engagement with tracking health experiences (n = 359,194 logs) compared to interactions with personalized health content (n = 12,937 logs).
+
+**Explanation**:  
+Clarifies the comparison and improves readability.
+
+### Suggestion 6
+
+**Location**: Results  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> A total of 36.2% of the content recommended focused on mental health, 35.0% on nutritional health, and 28.8% on physical health.
+
+**Improved Version**:  
+> The content recommendations were distributed as follows: 36.2% focused on mental health, 35.0% on nutritional health, and 28.8% on physical health.
+
+**Explanation**:  
+Enhances clarity and readability by restructuring the sentence.
+
+### Suggestion 7
+
+**Location**: Results  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> Users engaged with individually recommended women’s health content on femble® (including clicks and likes) for an average of 1.41 months (SD = 1.33) over the five-month study period.
+
+**Improved Version**:  
+> On average, users interacted with individually recommended women’s health content on femble® (including clicks and likes) for 1.41 months (SD = 1.33) during the five-month study period.
+
+**Explanation**:  
+Improves sentence structure and clarity.
+
+### Suggestion 8
+
+**Location**: Results  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Improved Version**:  
+> The analysis revealed a significant association between tracking behavior and the intensity of negative menstrual health experiences.
 
 **Explanation**:  
 Streamlines the sentence for better flow.
 
-### Suggestion 4
-
-**Location**: Methodology section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
-
-**Improved Version**:  
-> Although the base Densenet201 model is pre-trained on the ImageNet dataset, we keep all layers trainable during training.
-
-**Explanation**:  
-Clarifies the relationship between pre-training and training.
-
-### Suggestion 5
-
-**Location**: Methodology section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
-
-**Improved Version**:  
-> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, we do not utilize these metrics to guide training.
-
-**Explanation**:  
-Enhances precision and clarity.
-
-### Suggestion 6
-
-**Location**: Methodology section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
-
-**Improved Version**:  
-> The dataset is divided into training, test, and validation sets comprising 75%, 15%, and 10% of the data, respectively.
-
-**Explanation**:  
-Provides a more formal and structured presentation.
-
-### Suggestion 7
-
-**Location**: Results section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> The proprietary dataset consists of 84,963 photos of 25,353 individuals.
-
-**Improved Version**:  
-> The proprietary dataset comprises 84,963 photos collected from 25,353 individuals.
-
-**Explanation**:  
-Improves clarity and conciseness.
-
-### Suggestion 8
-
-**Location**: Results section  
-**Category**: structure  
-**Focus**: organization  
-
-**Original Text**:  
-> The filtering of the dataset resulted in 13.642 (16.2%) images being removed before training.
-
-**Improved Version**:  
-> The dataset filtering process led to the removal of 13,642 (16.2%) images prior to training.
-
-**Explanation**:  
-Enhances readability and precision.
-
 ### Suggestion 9
 
-**Location**: Discussion section  
+**Location**: Discussion  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+> The study suggests that continuous menstrual health tracking may reduce negative menstrual health experiences, whereas regular engagement with women’s health content can enhance positive menstrual health experiences.
 
 **Explanation**:  
-Enhances clarity and impact of the statement.
+Enhances clarity and conciseness.
 
 ### Suggestion 10
 
-**Location**: Discussion section  
+**Location**: Discussion  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> However, the results also highlight that users tracked their menstrual health experiences more frequently than they engaged with recommended personalized health content, suggesting that self-monitoring behaviors (e.g., tracking menstrual health experiences) continue to be the dominant mode of engagement in women’s health apps.
 
 **Improved Version**:  
-> Additionally, our study offers insights into remote weight estimation for telemedicine consultations.
+> Nevertheless, the findings also indicate that users prioritized tracking their menstrual health experiences over engaging with personalized health content, emphasizing the prevalence of self-monitoring behaviors in women’s health apps.
 
 **Explanation**:  
-Improves coherence and transitions.
+Clarifies the comparison and emphasizes the dominant user behavior.
 
 ### Suggestion 11
 
-**Location**: Discussion section  
+**Location**: Discussion  
 **Category**: structure  
 **Focus**: organization  
 
 **Original Text**:  
-> Based on our experiments, we consider the following limitations of our study:
+> Contrary to prior assumptions that app usage alone improves menstrual health awareness and well-being,16 largely focusing on general engagement metrics, such as symptom-tracking frequency, app logins, or session duration,⁠4,8 the findings suggest that general engagement with health-related content rather than specific types of content, such as mental health blogs and nutritional health recommendations, plays a more nuanced role in shaping user-reported health outcomes, particularly positive menstrual health experiences.
 
 **Improved Version**:  
-> From our experiments, we identify the following limitations of our study:
+> In contrast to previous assumptions that app usage alone enhances menstrual health awareness and well-being, primarily based on general engagement metrics like symptom-tracking frequency, app logins, or session duration,⁠4,8 the study findings indicate that overall engagement with health-related content, rather than specific types like mental health blogs or nutritional recommendations, has a more nuanced impact on user-reported health outcomes, especially positive menstrual health experiences.
 
 **Explanation**:  
-Enhances clarity and transitions.
+Clarifies the comparison and strengthens the argument.
+
+### Suggestion 12
+
+**Location**: Discussion  
+**Category**: structure  
+**Focus**: organization  
+
+**Original Text**:  
+> This suggests that this format may be less engaging or harder to integrate into users' app routines.
+
+**Improved Version**:  
+> This indicates that the video format may be less engaging or challenging to incorporate into users' app routines.
+
+**Explanation**:  
+Enhances clarity and avoids repetition.
 
 ### Detailed Feedback
 ### Coverage Analysis
 
-The literature review provides a comprehensive overview of BMI estimation from images, highlighting the significance of the research area and the gap addressed by the study. The review of related work is detailed, covering various datasets, methodologies, and perspectives used in prior studies.
+The literature review provides a comprehensive overview of the research landscape on menstrual health apps, highlighting gaps in knowledge and emphasizing the importance of user engagement with health content. The study's focus on tracking behaviors and content interactions adds depth to the understanding of menstrual health outcomes.
 
 ### Analysis Quality
 
-The critical analysis of the methodology, results, and implications is thorough, providing insights into the experimental process and the significance of the findings. The evaluation of model performance on different datasets and perspectives adds depth to the analysis.
+The critical analysis of user behaviors and their impact on menstrual health experiences is thorough, but there is room for deeper interpretation and discussion of the results. Exploring the implications of the findings in the context of existing literature would enhance the critical analysis.
 
 ### Structure Evaluation
 
-The organization of the literature review is logical, with clear sections dedicated to introduction, methodology, results, and discussion. However, some subsections within the methodology and results could benefit from clearer subheadings or bullet points to enhance readability.
+The organization of the literature review is logical, moving from background information to research questions and results. However, some sections lack clear transitions between ideas, impacting the flow of the narrative. Improving the coherence and structure of the text would enhance readability.
 
 ### Citation Assessment
 
-The citation quality is adequate, with relevant references to prior studies in the field of BMI estimation from images. However, there could be more recent references included to ensure the literature review is up-to-date.
+The literature review is well-supported by relevant citations, demonstrating a strong foundation in existing research. However, there are opportunities to incorporate more recent studies and diverse perspectives to strengthen the citation quality and relevance.
 
 ### Integration Review
 
-The integration of the research within the existing body of knowledge is well-done, with connections drawn between the current study and prior research. However, further discussion on how the results align with existing literature and theoretical frameworks could enhance the depth of analysis.
+The study effectively connects the research objectives to the existing literature on menstrual health apps and user behaviors. However, deeper integration of prior research findings and theoretical frameworks could provide a more robust theoretical foundation for the study.
 
 ## S5 - Methodology
 ### Score: 7/10
 
 ### Summary
-Overall, the study presents a comprehensive methodology for BMI estimation using deep learning on a real-world dataset. While the research design and analysis methods are strong, improvements in data quality assurance, validation procedures, and ethical considerations are recommended to enhance the study's validity and reliability.
+Overall, the study demonstrates a strong foundation in research design and methodology, with a focus on user engagement in women's health apps. However, improvements in statistical reporting, reliability assessment, and clarity of presentation could enhance the study's quality and impact.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: quality  
-**Location**: Image filtering techniques  
-**Issue**: The filtering process based on human bounding box and keypoint data may not capture all unsuitable images accurately, leading to potential biases in the dataset.  
+**Category**: methods  
+**Location**: 4.6  
+**Issue**: The study lacks detailed information on the statistical methods used for the analysis of associations between user engagement behaviors and self-reported menstrual health experiences.  
 **Severity**: medium  
-**Impact**: This could affect the model's performance and generalizability, as the dataset may still contain images that are not suitable for accurate BMI estimation.
+**Impact**: This omission affects the transparency and reproducibility of the study's findings.
 
 ### Remark 2
 
-**Category**: ethics  
-**Location**: Dataset section  
-**Issue**: The self-reported height and weight labels introduce potential inaccuracies and biases in the data, impacting the reliability of the results.  
-**Severity**: high  
-**Impact**: This could undermine the validity of the study's findings and raise concerns about the accuracy of the BMI estimation.
+**Category**: quality  
+**Location**: 4.3  
+**Issue**: The study does not explicitly address the reliability and validity of the data collection methods, potentially impacting the trustworthiness of the results.  
+**Severity**: medium  
+**Impact**: The absence of reliability and validity measures undermines the robustness of the study's conclusions.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Dataset section  
-**Category**: quality  
-**Focus**: validity  
+**Location**: 4.4  
+**Category**: methods  
+**Focus**: approach  
 
 **Original Text**:  
-> Images captured in real-life scenarios often exhibit significant variation in factors such as image quality, lighting, and subject posture.
+> To assess the relationship between recommended health content and the number of health tracking logs recorded by users, we calculated the delivered ratio for the content pillars and media formats.
 
 **Improved Version**:  
-> Images captured in real-life scenarios exhibit significant variation in factors such as image quality, lighting, and subject posture, which may introduce biases in the dataset.
+> We calculated the delivered ratio for the content pillars and media formats to evaluate the relationship between recommended health content and the number of health tracking logs recorded by users.
 
 **Explanation**:  
-Adding the mention of potential biases due to variations in image quality and lighting provides a more accurate description of the dataset.
+Restructuring the sentence for clarity and coherence.
 
 ### Suggestion 2
 
-**Location**: Image filtering techniques  
-**Category**: quality  
-**Focus**: reliability  
+**Location**: 4.4  
+**Category**: methods  
+**Focus**: rationale  
 
 **Original Text**:  
-> We apply a filtering process to automatically curate the real-world dataset.
+> To explore the impact of content characteristics on user content interactions, we examined the relationship between the delivered ratio of specific content pillars and media formats and the total number of user content interactions.
 
 **Improved Version**:  
-> We apply a rigorous filtering process to automatically curate the real-world dataset, ensuring the exclusion of unsuitable images.
+> We investigated the relationship between the delivered ratio of specific content pillars and media formats and the total number of user content interactions to understand the impact of content characteristics on user engagement.
 
 **Explanation**:  
-Emphasizing the rigor of the filtering process highlights the dataset's quality and reliability.
+Enhancing the description to better convey the research objective and methodology.
 
 ### Suggestion 3
 
-**Location**: Image filtering techniques  
-**Category**: methods  
-**Focus**: procedures  
-
-**Original Text**:  
-> Images with a human bounding box confidence score of less than a certain threshold are removed.
-
-**Improved Version**:  
-> Images with a human bounding box confidence score below a specified threshold are filtered out to enhance dataset quality.
-
-**Explanation**:  
-Clarifying the specific threshold for filtering improves transparency and reproducibility of the methodology.
-
-### Suggestion 4
-
-**Location**: Results section  
+**Location**: 4.5  
 **Category**: analysis  
 **Focus**: statistical methods  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data.
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen datasets, validating its performance across diverse scenarios.
+> The analysis revealed a statistically significant association between tracking behavior and the intensity of negative menstrual health experiences.
 
 **Explanation**:  
-Highlighting the validation of generalizability strengthens the credibility of the model's performance.
+Adjusting the sentence structure for clarity and accuracy.
+
+### Suggestion 4
+
+**Location**: 3  
+**Category**: quality  
+**Focus**: rigor  
+
+**Original Text**:  
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
+
+**Improved Version**:  
+> The study suggests that consistent menstrual health tracking may reduce negative experiences, and engaging with women’s health content can promote positive menstrual health outcomes.
+
+**Explanation**:  
+Refining the wording for precision and conciseness.
 
 ### Suggestion 5
 
-**Location**: Discussion section  
+**Location**: 4.1  
 **Category**: ethics  
-**Focus**: considerations  
+**Focus**: consent  
 
 **Original Text**:  
-> Our work provides insights for remote weight estimation during telemedicine consultations.
+> The research presented here was granted exemption from <university name masked for review>’s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
 
 **Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings, enhancing healthcare accessibility and efficiency.
+> The study obtained exemption from <university name masked for review>’s IRB board under the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to data deidentification and minimal participant risks.
 
 **Explanation**:  
-Expanding on the implications of the study emphasizes its potential impact on healthcare practices.
+Clarifying the sentence for better readability and accuracy.
 
 ### Detailed Feedback
 ### Design Analysis
 
-The research design is robust, utilizing a large-scale real-world dataset for BMI estimation. However, potential biases in image filtering and self-reported labels may impact the study's validity.
+The study employs a longitudinal observational design, capturing data from users over time. However, there is a lack of detailed information on the research design rationale and framework, which could enhance the clarity of the study's approach.
 
 ### Methods Assessment
 
-The methodology is detailed and well-described, with clear procedures for image filtering, perspective cropping, and model training. However, improvements in data quality assurance and validation methods could enhance the methodology.
+The methodology section provides a comprehensive overview of data collection and analysis procedures. However, there is room for improvement in detailing the statistical methods used and addressing reliability and validity measures.
 
 ### Analysis Evaluation
 
-The analysis methods are sound, with a focus on deep learning models for BMI estimation. The comparison of different image perspectives adds value to the study. However, further validation on external datasets could strengthen the analysis.
+The analysis methods are appropriate for the research questions posed, utilizing linear mixed-effects models. However, more transparency in the statistical approach and reporting could enhance the reproducibility of the findings.
 
 ### Quality Review
 
-The study demonstrates good validity and reliability in BMI estimation. However, addressing potential biases in data collection and improving data quality assurance processes would enhance the overall quality of the research.
+The study addresses important aspects of validity and reliability in data collection. However, explicit measures and discussions on these aspects would strengthen the study's rigor and trustworthiness.
 
 ### Ethics Compliance
 
-Ethical considerations are mentioned, such as consent for image use. However, the reliance on self-reported labels raises concerns about data accuracy and potential biases. Ensuring data privacy and accuracy is crucial for ethical compliance.
+The study outlines ethical considerations and approval processes, demonstrating adherence to research ethics. However, further elaboration on ethical considerations related to data handling and participant consent could enhance transparency.
 
 ## S6 - Results
 ### Score: 7/10
 
 ### Summary
-Overall, the study presents a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale dataset. The results demonstrate strong generalizability and performance, particularly with full-body images. Improvements in clarity, consistency, and comparisons with existing models on external datasets would enhance the manuscript's quality and impact.
+The manuscript presents a comprehensive analysis of menstrual health experiences and interactions with personalized health content in a women's health app. While the data presentation is generally clear, there are areas where phrasing and explanations could be improved for better readability and transparency. The statistical analysis is robust but would benefit from more detailed explanations of the models used. The interpretation of results lacks depth and connection to existing literature, requiring a more nuanced discussion. Visualizations could be enhanced for better clarity and appeal. Overall, the study provides valuable insights but would benefit from refining the presentation, analysis, interpretation, and visualization aspects.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: presentation  
 **Location**: Abstract  
-**Issue**: Abstract lacks a clear summary of key findings and implications.  
+**Issue**: The abstract lacks a clear summary of the key findings and implications of the study.  
 **Severity**: medium  
-**Impact**: Reduces reader's understanding of the study's significance.
+**Impact**: This affects the reader's understanding of the study's significance.
 
 ### Remark 2
 
-**Category**: quality  
-**Location**: Results on external datasets  
-**Issue**: Lack of comparison with other state-of-the-art models on external datasets.  
+**Category**: analysis  
+**Location**: Results Section  
+**Issue**: The statistical analysis lacks detailed explanations of the models used and the rationale behind them.  
+**Severity**: high  
+**Impact**: This hinders the transparency and reproducibility of the study.
+
+### Remark 3
+
+**Category**: interpretation  
+**Location**: Discussion Section  
+**Issue**: The interpretation of results lacks depth and fails to connect findings to existing literature.  
 **Severity**: medium  
-**Impact**: Limits the context and validity of the model's performance.
+**Impact**: This weakens the overall impact and contribution of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Results Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> We provide detailed information on the processing speed for filtering and inference on Android and iOS devices, including specific metrics and comparisons.
+> Users engaged more frequently with tracking health experiences than with personalized health content.
 
 **Explanation**:  
-Adding specific metrics and comparisons enhances the transparency and completeness of the reported results.
+This revised version is clearer and more concise.
 
 ### Suggestion 2
 
-**Location**: Results interpretation  
+**Location**: Methods Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> The study sample included data collected between November 7, 2023, and March 31, 2024.
 
 **Improved Version**:  
-> Torso-up images demonstrate comparable performance to full-body images with a MAPE of 9%, while face-only images exhibit lower accuracy with a MAPE of 11%.
+> Data collection spanned from November 7, 2023, to March 31, 2024, for the study sample.
 
 **Explanation**:  
-Rephrasing for clarity and consistency in reporting results.
+Rephrasing for better readability and clarity.
 
 ### Suggestion 3
 
-**Location**: Discussion  
+**Location**: Methods Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The linear mixed-effects models included user characteristics (e.g., age), app usage behaviors (e.g., notification setting, indication of average menstrual cycle length), and interaction effects of content delivery ratios.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+> The linear mixed-effects models incorporated user characteristics (e.g., age), app usage behaviors (e.g., notification setting, average menstrual cycle length), and interaction effects of content delivery ratios.
 
 **Explanation**:  
-Emphasizing the key finding of generalizability for clarity and impact.
+Clarifying the list of variables for better understanding.
 
 ### Suggestion 4
 
-**Location**: Discussion  
+**Location**: Results Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
 
 **Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings.
+> A statistically significant association was found between the intensity of negative menstrual health experiences and tracking behavior.
 
 **Explanation**:  
-Streamlining the statement for conciseness and impact.
+Restructuring for improved readability and flow.
 
 ### Suggestion 5
 
-**Location**: Results on external datasets  
-**Category**: quality  
-**Focus**: statistics  
+**Location**: Results Section  
+**Category**: presentation  
+**Focus**: clarity  
 
 **Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+> The findings indicate that recommended physical health videos were negatively associated with user content interactions.
 
 **Improved Version**:  
-> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
+> Recommended physical health videos showed a negative association with user content interactions.
 
 **Explanation**:  
-Clarifying the rationale behind the choice of hyperparameters.
+Enhancing sentence structure for better comprehension.
 
 ### Suggestion 6
 
-**Location**: Discussion  
+**Location**: Results Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+> Users who enabled notifications logged significantly more menstrual health experiences, compared to those who did not.
 
 **Improved Version**:  
-> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
+> Users who enabled notifications logged a significantly higher number of menstrual health experiences compared to non-users.
 
 **Explanation**:  
-Providing a clear comparison for transparency and context.
+Rephrasing for clarity and specificity.
 
 ### Suggestion 7
 
-**Location**: Results on external datasets  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
+> The study results indicate that not all users benefit equally from the same type or amount of content.
 
 **Improved Version**:  
-> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> The study results suggest that users do not equally benefit from the same type or amount of content.
 
 **Explanation**:  
-Maintaining consistency in reporting metrics for clarity.
+Enhancing the phrasing for better precision.
 
 ### Suggestion 8
 
-**Location**: Discussion  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, achieving a MAPE of 13.38% on the full-body Visual-Body-To-BMI dataset.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the framing and delivery of dietary and mental health recommendations.
 
 **Explanation**:  
-Rephrasing for clarity and impact.
+Strengthening the language for emphasis and clarity.
 
 ### Suggestion 9
 
-**Location**: Discussion  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our results demonstrate that the full-body perspective yields the best overall performance, achieving the lowest MAPE on BMI prediction (7.9%).
+> The results also highlight that users tracked their menstrual health experiences more frequently than they engaged with recommended personalized health content.
 
 **Improved Version**:  
-> The full-body perspective exhibits the best performance, with the lowest MAPE on BMI prediction (7.9%).
+> Furthermore, users tracked their menstrual health experiences more frequently than they engaged with recommended personalized health content.
 
 **Explanation**:  
-Enhancing clarity and emphasis on key findings.
+Adding coherence and flow to the sentence.
 
 ### Suggestion 10
 
-**Location**: Discussion  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered.
 
 **Improved Version**:  
-> Our study offers valuable insights for remote weight estimation in telemedicine settings.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the framing and delivery of dietary and mental health recommendations.
 
 **Explanation**:  
-Streamlining the statement for conciseness and impact.
+Strengthening the language for emphasis and clarity.
 
 ### Suggestion 11
 
-**Location**: Results on external datasets  
-**Category**: quality  
-**Focus**: statistics  
+**Location**: Discussion Section  
+**Category**: presentation  
+**Focus**: clarity  
 
 **Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+> This suggests that this format may be less engaging or harder to integrate into users' app routines.
 
 **Improved Version**:  
-> We adopted the hyperparameters from Jin et al. (2022) for consistency and comparability.
+> This implies that this format may be less engaging or challenging to incorporate into users' app routines.
 
 **Explanation**:  
-Clarifying the rationale behind the choice of hyperparameters.
+Varying the vocabulary for better readability.
 
 ### Suggestion 12
 
-**Location**: Discussion  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model did not perform as well on the face-only VIP Attribute dataset, where the original authors achieved an MAE of 2.36 on body weight prediction, versus our MAE of 7.81.
+> The analysis also showed a negative association between age and positive menstrual health experiences.
 
 **Improved Version**:  
-> In contrast to the original authors' MAE of 2.36 on body weight prediction, our model achieved an MAE of 7.81 on the face-only VIP Attribute dataset.
+> Additionally, the analysis revealed a negative association between age and positive menstrual health experiences.
 
 **Explanation**:  
-Providing a clear comparison for transparency and context.
+Enhancing the transition for smoother reading.
 
 ### Suggestion 13
 
-**Location**: Results on external datasets  
+**Location**: Discussion Section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units on the Visual-Body-To-BMI dataset.
+> The results suggest that actively engaging with personalized health content has a stronger association with positive menstrual health outcomes.
 
 **Improved Version**:  
-> On the Visual-Body-To-BMI dataset, our model attains a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> The findings indicate that actively engaging with personalized health content is more strongly associated with positive menstrual health outcomes.
 
 **Explanation**:  
-Maintaining consistency in reporting metrics for clarity.
+Rephrasing for better emphasis and clarity.
+
+### Suggestion 14
+
+**Location**: Discussion Section  
+**Category**: presentation  
+**Focus**: clarity  
+
+**Original Text**:  
+> Understanding these dynamics is critical for optimizing personalization strategies and maximizing the impact of DHTs on menstrual health.
+
+**Improved Version**:  
+> Comprehending these dynamics is crucial for optimizing personalization strategies and enhancing the impact of DHTs on menstrual health.
+
+**Explanation**:  
+Enhancing the language for emphasis and clarity.
 
 ### Detailed Feedback
 ### Presentation Analysis
 
-The data presentation is generally clear and organized, with detailed descriptions of methods and results. However, some sections lack concise summaries of key findings. The statistical analysis is robust, with appropriate measures reported. The figures and tables are of good quality but could benefit from more detailed labeling and explanations.
+The data presentation in the manuscript is generally clear, but there are instances where the phrasing could be improved for better readability. The organization of the results and methods sections is logical, but more detailed explanations of statistical methods would enhance transparency. Visualizations are informative but could be more visually appealing and easier to interpret.
 
 ### Analysis Quality
 
-The statistical analysis is thorough, with appropriate tests and measures used. The effect sizes and confidence intervals are reported, enhancing the validity of the results. However, more comparisons with existing models on external datasets would strengthen the analysis.
+The statistical analysis is robust, utilizing appropriate methods like linear mixed-effects models. However, more detailed explanations of the models used and the rationale behind them would improve the analysis section's quality. Providing clearer justifications for the choice of variables and covariates would enhance the statistical rigor of the study.
 
 ### Interpretation Review
 
-The interpretation of results is generally sound, with implications discussed. The comparison of different image perspectives is insightful. However, more in-depth discussion on the limitations and implications of the findings would enhance the interpretation.
+The interpretation of results lacks depth and fails to connect findings to existing literature effectively. Strengthening the discussion by relating the results to established theories and prior research would enhance the interpretation section's quality. Providing more nuanced insights and discussing the implications of the findings in a broader context would improve the overall interpretation.
 
 ### Visualization Assessment
 
-The figures and tables are well-presented, aiding in understanding the results. However, some figures could be enhanced with clearer labels and annotations for better interpretation.
+The figures and tables provide valuable information but could benefit from more descriptive titles and labels. Improving the clarity and coherence of the visualizations would enhance their effectiveness in conveying the study's key findings. Consider incorporating more visually appealing elements to make the figures and tables more engaging and easier to understand.
 
 ### Significance Evaluation
 
-The reporting of significance levels and effect sizes is appropriate, providing a comprehensive analysis of the results. The discussion on generalizability and practical implications adds value to the study.
+The reporting of significance levels and effect sizes is adequate, but more detailed explanations of the practical implications of the results would strengthen the significance reporting. Providing a clearer discussion of the effect sizes and their implications for the study's outcomes would enhance the significance reporting section's quality.
 
 ## S7 - Discussion
 ### Score: 7/10
 
 ### Summary
-The study demonstrates a significant advancement in BMI estimation from smartphone images, but improvements are needed in contextualizing the research within existing literature, addressing limitations in the methodology, and enhancing the discussion on practical implications and theoretical contributions.
+The study provides valuable insights into user engagement with health content in a women's health app and its impact on self-reported menstrual health experiences. While the interpretation of results is clear, improvements are needed in the literature comparison, limitations discussion, practical implications, and theoretical contributions to enhance the overall quality and significance of the research outcomes.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: quality  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear statement of the significance of the study results.  
+**Category**: context  
+**Location**: Introduction  
+**Issue**: The literature comparison lacks depth and fails to integrate recent studies on menstrual health literacy and digital health interventions.  
 **Severity**: medium  
-**Impact**: This affects the reader's understanding of the importance of the research findings.
+**Impact**: Weakens the theoretical foundation of the study and limits the contextual understanding.
 
 ### Remark 2
 
-**Category**: context  
-**Location**: Introduction  
-**Issue**: Limited comparison of the current study with existing literature on BMI estimation.  
+**Category**: reflection  
+**Location**: Future directions  
+**Issue**: The limitations section does not address potential biases in self-reported data and lacks discussion on cultural influences on menstrual health experiences.  
 **Severity**: medium  
-**Impact**: This hinders the contextualization of the research within the broader field.
+**Impact**: Limits the generalizability of the findings and overlooks important factors influencing user behaviors.
 
 ### Remark 3
 
-**Category**: reflection  
-**Location**: Methodology  
-**Issue**: Insufficient discussion on the limitations of the image filtering process.  
-**Severity**: high  
-**Impact**: This undermines the credibility of the methodology and results.
-
-### Remark 4
-
 **Category**: impact  
-**Location**: Results  
-**Issue**: Lack of discussion on the practical implications of the model's performance on external datasets.  
-**Severity**: medium  
-**Impact**: This diminishes the understanding of the model's real-world applicability.
-
-### Remark 5
-
-**Category**: quality  
 **Location**: Discussion  
-**Issue**: Inadequate depth in discussing the theoretical contributions of the study.  
+**Issue**: The practical implications of the findings are not clearly articulated, and the theoretical contributions lack specificity.  
 **Severity**: medium  
-**Impact**: This limits the theoretical implications of the research.
+**Impact**: Diminishes the significance of the research outcomes and limits the application of the study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: quality  
-**Focus**: interpretation  
+**Category**: context  
+**Focus**: literature comparison  
 
 **Original Text**:  
-> The abstract lacks a clear statement of the significance of the study results.
+> Menstrual health remains underrecognized and underserved in public health, despite its fundamental role in the physical, mental, and social well-being of nearly half the global population.
 
 **Improved Version**:  
-> The study's findings demonstrate a significant advancement in BMI estimation from smartphone images, enabling rapid weight assessment in diverse scenarios.
+> Despite being crucial for the well-being of almost half the global population, menstrual health continues to be overlooked and lacks adequate support in public health initiatives.
 
 **Explanation**:  
-This improvement provides a concise summary of the study's importance.
+Rephrasing for clarity and emphasis on the neglect of menstrual health.
 
 ### Suggestion 2
 
-**Location**: Introduction  
+**Location**: Abstract  
 **Category**: context  
-**Focus**: comparison  
+**Focus**: research gap addressing  
 
 **Original Text**:  
-> Limited comparison of the current study with existing literature on BMI estimation.
+> While the growing adoption of menstrual health tracking apps offers promising opportunities to address disparities in menstrual health by promoting health literacy, supporting symptom management, and enhancing well-being, the specific engagement patterns that drive these benefits remain poorly understood.
 
 **Improved Version**:  
-> A comprehensive comparison with prior studies on BMI estimation, highlighting the novelty and contributions of the current research.
+> Although menstrual health tracking apps show promise in improving health literacy and symptom management, understanding the specific user engagement patterns that lead to these benefits is still lacking.
 
 **Explanation**:  
-This enhancement adds depth to the contextualization of the study.
+Clarification and focus on the research gap in understanding user engagement.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: reflection  
-**Focus**: limitations  
+**Location**: Results  
+**Category**: interpretation  
+**Focus**: result analysis  
 
 **Original Text**:  
-> Insufficient discussion on the limitations of the image filtering process.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> A detailed analysis of the potential biases and challenges in the image filtering process, including the impact on dataset quality and model performance.
+> The study found that users engaged more in tracking health experiences than interacting with personalized health content.
 
 **Explanation**:  
-This improvement enhances the transparency and rigor of the methodology.
+Rephrasing for clarity and emphasis on user behavior.
 
 ### Suggestion 4
 
-**Location**: Results  
-**Category**: impact  
-**Focus**: implications  
+**Location**: Conclusion  
+**Category**: reflection  
+**Focus**: future work  
 
 **Original Text**:  
-> Lack of discussion on the practical implications of the model's performance on external datasets.
+> However, while our work offers important real-world insights, future work should leverage experimental designs or randomized controlled trials to establish which intervention components effectively support menstrual health and well-being at scale.
 
 **Improved Version**:  
-> Exploration of how the model's performance on external datasets can inform real-world applications and decision-making in healthcare settings.
+> Despite providing valuable insights, future research should employ experimental designs or randomized controlled trials to identify effective intervention components for supporting menstrual health and well-being on a larger scale.
 
 **Explanation**:  
-This addition strengthens the understanding of the model's utility beyond research settings.
+Enhancing clarity and emphasis on the need for experimental validation.
 
 ### Suggestion 5
 
 **Location**: Discussion  
-**Category**: quality  
-**Focus**: implications  
+**Category**: impact  
+**Focus**: practical implications  
 
 **Original Text**:  
-> Inadequate depth in discussing the theoretical contributions of the study.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
 
 **Improved Version**:  
-> Thorough examination of how the study's findings advance the theoretical understanding of BMI estimation through deep learning models.
+> The research suggests that continuous tracking of menstrual health may reduce negative experiences, and regular engagement with women's health content can enhance positive menstrual health outcomes.
 
 **Explanation**:  
-This revision elevates the theoretical significance of the research.
+Clarification and emphasis on the impact of user behaviors on health experiences.
+
+### Suggestion 6
+
+**Location**: Results  
+**Category**: interpretation  
+**Focus**: result significance  
+
+**Original Text**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Improved Version**:  
+> A significant association was found between the intensity of negative menstrual health experiences and user tracking behavior.
+
+**Explanation**:  
+Enhancing clarity and focus on the research findings.
+
+### Suggestion 7
+
+**Location**: Results  
+**Category**: interpretation  
+**Focus**: result significance  
+
+**Original Text**:  
+> Users who enabled app notifications logged significantly more menstrual health experiences, compared to those who did not.
+
+**Improved Version**:  
+> Users who enabled app notifications recorded a higher number of menstrual health experiences compared to those who did not.
+
+**Explanation**:  
+Rephrasing for clarity and emphasis on the impact of app notifications.
+
+### Suggestion 8
+
+**Location**: Methods  
+**Category**: quality  
+**Focus**: completeness  
+
+**Original Text**:  
+> The app employs a recommender system that integrates a variety of inputs, including user health tracking data, demographic information, and interaction history with health content.
+
+**Improved Version**:  
+> The app utilizes a recommender system that incorporates user health tracking data, demographic details, and interaction history with health content.
+
+**Explanation**:  
+Enhancing clarity and coherence in describing the app's functionality.
+
+### Suggestion 9
+
+**Location**: Methods  
+**Category**: quality  
+**Focus**: methodology reflection  
+
+**Original Text**:  
+> To assess the relationship between recommended health content and the number of health tracking logs recorded by users, we calculated the delivered ratio for the content pillars and media formats.
+
+**Improved Version**:  
+> To evaluate the impact of recommended health content on user tracking behavior, we computed the delivered ratio for content pillars and media formats.
+
+**Explanation**:  
+Rephrasing for clarity and focus on the research methodology.
+
+### Suggestion 10
+
+**Location**: Results  
+**Category**: interpretation  
+**Focus**: result significance  
+
+**Original Text**:  
+> The analysis also showed a negative association between age and positive menstrual health experiences.
+
+**Improved Version**:  
+> Furthermore, a negative association was observed between age and positive menstrual health experiences.
+
+**Explanation**:  
+Enhancing clarity and emphasis on the research findings.
+
+### Suggestion 11
+
+**Location**: Discussion  
+**Category**: impact  
+**Focus**: theoretical contributions  
+
+**Original Text**:  
+> The study adds to research on women’s health apps by providing new insights into the associations between content pillars, media formats, and users’ tracking and content engagement behavior.
+
+**Improved Version**:  
+> This study contributes to the understanding of women's health apps by exploring the connections between content pillars, media formats, and user engagement behaviors.
+
+**Explanation**:  
+Rephrasing for clarity and focus on the study's contributions.
+
+### Suggestion 12
+
+**Location**: Methods  
+**Category**: quality  
+**Focus**: completeness  
+
+**Original Text**:  
+> The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
+
+**Improved Version**:  
+> The study obtained exemption from <university name masked for review>'s IRB board under the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to deidentification of data and absence of participant risks.
+
+**Explanation**:  
+Clarification and improvement in reporting ethical approval details.
+
+### Suggestion 13
+
+**Location**: Methods  
+**Category**: quality  
+**Focus**: completeness  
+
+**Original Text**:  
+> The dataset analyzed in this study is not publicly available. Access to anonymized data may be granted upon reasonable request and with approval from the corresponding author and the company.
+
+**Improved Version**:  
+> The dataset used in this study is not publicly accessible but can be obtained upon reasonable request with approval from the corresponding author and the company.
+
+**Explanation**:  
+Enhancing clarity and transparency regarding data availability.
+
+### Suggestion 14
+
+**Location**: Methods  
+**Category**: quality  
+**Focus**: completeness  
+
+**Original Text**:  
+> The code used for the analysis of the dataset is available upon reasonable request from the corresponding author and requires company approval.
+
+**Improved Version**:  
+> The analysis code is accessible upon request from the corresponding author and is subject to company approval.
+
+**Explanation**:  
+Clarification and improvement in reporting code availability details.
 
 ### Detailed Feedback
 ### Interpretation Analysis
 
-The result interpretation is clear and supported by numerical data, enhancing the credibility of the findings.
+The study effectively analyzes the relationship between user engagement with health content in a women's health app and self-reported menstrual health experiences. The interpretation of the results is clear and supported by statistical analysis.
 
 ### Context Review
 
-The literature comparison provides relevant background information but lacks a detailed analysis of the existing studies.
+The literature comparison lacks depth and fails to integrate recent studies on menstrual health literacy and digital health interventions. More comprehensive contextualization within the existing literature is needed to strengthen the theoretical framework.
 
 ### Reflection Assessment
 
-The limitations and future work sections are informative, but more emphasis on potential biases and challenges would strengthen the methodology.
+The limitations section does not address potential biases in self-reported data and lacks discussion on cultural influences on menstrual health experiences. Future work should consider these aspects for a more robust analysis.
 
 ### Impact Evaluation
 
-The practical implications and theoretical contributions are discussed, but a deeper exploration of the model's real-world applicability and theoretical advancements is needed.
+The practical implications of the findings are not clearly articulated, and the theoretical contributions lack specificity. Enhancing the discussion on the practical implications and theoretical advancements would increase the significance of the research outcomes.
 
 ### Quality Analysis
 
-The discussion is coherent and well-structured, but additional depth in theoretical contributions and practical implications would enhance the overall quality.
+The study demonstrates a comprehensive analysis of user behaviors in a women's health app. However, improvements in the literature comparison, limitations discussion, practical implications, and theoretical contributions would enhance the overall quality of the discussion.
 
 ## S8 - Conclusion
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-Overall, the study provides valuable insights into BMI estimation from smartphone images, with a strong emphasis on model performance and generalizability. While the methodology is detailed, some sections could benefit from concise summarization for improved clarity and readability. The study's contribution to the field is significant, particularly in offering a direct comparison of image perspectives and showcasing practical implications for telemedicine applications.
+The study provides valuable insights into user engagement with menstrual health apps and their impact on health outcomes. However, improvements are needed in supporting the statistical analysis, restating research objectives, exploring practical implications, enhancing presentation clarity, and emphasizing the study's contributions for a more comprehensive and impactful conclusion.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: support  
-**Location**: Abstract  
-**Issue**: The abstract lacks specific results and metrics to support the claims made about the BMI estimation model's performance.  
+**Location**: Results section  
+**Issue**: Lack of detailed analysis on the statistical methods used and the validity of the results.  
 **Severity**: medium  
-**Impact**: Weakens the credibility of the study and may mislead readers about the model's effectiveness.
+**Impact**: Weakens the credibility of the findings.
 
 ### Remark 2
 
 **Category**: objectives  
-**Location**: Introduction  
-**Issue**: The research objectives are not explicitly stated, making it challenging for readers to understand the study's purpose.  
+**Location**: Introduction and Conclusion sections  
+**Issue**: The research objectives are not explicitly restated in the conclusion, making it unclear if they were fully achieved.  
 **Severity**: medium  
-**Impact**: Lack of clear objectives hinders the clarity of the study and may lead to confusion about the intended outcomes.
+**Impact**: Lack of clarity on the fulfillment of research objectives.
 
 ### Remark 3
 
 **Category**: implications  
-**Location**: Results on external datasets  
-**Issue**: The discussion on practical implications lacks depth and fails to address the broader impact of the study's findings.  
-**Severity**: low  
-**Impact**: Insufficient discussion on implications limits the study's relevance and applicability in real-world scenarios.
+**Location**: Discussion section  
+**Issue**: Limited discussion on the practical implications of the findings for improving menstrual health outcomes.  
+**Severity**: medium  
+**Impact**: Reduces the relevance of the study for real-world applications.
 
 ### Remark 4
 
 **Category**: presentation  
-**Location**: Methodology  
-**Issue**: The methodology section is overly detailed, making it challenging for readers to grasp the key processes efficiently.  
+**Location**: Abstract and Introduction sections  
+**Issue**: The abstract lacks a concise summary of key findings, and the introduction does not clearly outline the study's contributions.  
 **Severity**: medium  
-**Impact**: Excessive detail may overwhelm readers and detract from the main research focus.
+**Impact**: Affects the clarity and impact of the study.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
+**Location**: Results section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, comprising real-world data only, by utilizing full-torso images.
+> Users were found to engage more with tracking health experiences than interacting with personalized health content.
 
 **Explanation**:  
-Clarifies the context and specificity of the dataset used for testing the model's performance.
+Restructuring the sentence for better clarity and flow.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: presentation  
-**Focus**: clarity  
+**Location**: Conclusion section  
+**Category**: objectives  
+**Focus**: fulfillment  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> While our work offers important real-world insights, future work should leverage experimental designs or randomized controlled trials to establish which intervention components effectively support menstrual health and well-being at scale.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing the results from full-body, torso-up, and face-only images.
+> Although our study provides valuable insights, future research should utilize experimental designs or randomized controlled trials to determine the most effective intervention components for supporting menstrual health and well-being on a larger scale.
 
 **Explanation**:  
-Enhances the clarity of the sentence and improves the flow of information.
+Enhancing the coherence and impact of the statement.
 
 ### Suggestion 3
 
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
+**Location**: Discussion section  
+**Category**: implications  
+**Focus**: practical  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.
 
 **Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
+> The counterintuitive negative correlation between user engagement with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the framing and delivery of dietary and mental health recommendations in menstrual health DHTs.
 
 **Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
+Enhancing the specificity and impact of the recommendation.
 
 ### Suggestion 4
 
-**Location**: Results on external datasets  
+**Location**: Discussion section  
+**Category**: implications  
+**Focus**: theoretical  
+
+**Original Text**:  
+> The analysis also showed a negative association between age and positive menstrual health experiences, suggesting that older adults might engage less with DHTs due to usability challenges and lower digital literacy.
+
+**Improved Version**:  
+> Furthermore, the study identified a negative correlation between age and positive menstrual health experiences, indicating potential barriers for older adults in engaging with DHTs due to usability issues and lower digital literacy.
+
+**Explanation**:  
+Providing a more detailed and precise explanation.
+
+### Suggestion 5
+
+**Location**: Discussion section  
+**Category**: support  
+**Focus**: evidence  
+
+**Original Text**:  
+> These findings resonate with prior research on digital mental health interventions, which suggests that symptom logging alone may be insufficient to drive behavioral change.
+
+**Improved Version**:  
+> These results align with previous studies on digital mental health interventions, indicating that solely tracking symptoms may not be effective in inducing behavioral changes.
+
+**Explanation**:  
+Clarifying the connection between the current study and existing literature.
+
+### Suggestion 6
+
+**Location**: Methods section  
 **Category**: presentation  
 **Focus**: clarity  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+> The dataset analyzed in this study is not publicly available. Access to anonymized data may be granted upon reasonable request and with approval from the corresponding author and the company.
 
 **Improved Version**:  
-> Additionally, we assess our model’s generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
+> Although the dataset used in this study is not publicly accessible, interested parties can request access to anonymized data with approval from the corresponding author and the company.
 
 **Explanation**:  
-Improves the coherence and readability of the sentence by restructuring the information.
-
-### Suggestion 5
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 6
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
-
-### Suggestion 7
-
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
-
-**Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
-
-### Suggestion 8
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 9
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
-
-### Suggestion 10
-
-**Location**: Discussion  
-**Category**: objectives  
-**Focus**: fulfillment  
-
-**Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
-
-**Improved Version**:  
-> Our model showcases robust generalizability to unseen data, exemplified by the evaluation on the full-body Visual-Body-To-BMI dataset. Despite not being trained on this dataset, the model achieved a MAPE of 13.38%.
-
-**Explanation**:  
-Enhances the emphasis on the model's generalizability and clarifies the achievement despite lack of training data.
-
-### Suggestion 11
-
-**Location**: Discussion  
-**Category**: implications  
-**Focus**: practical  
-
-**Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
-
-**Improved Version**:  
-> Furthermore, our study offers valuable insights for remote weight estimation in telemedicine consultations.
-
-**Explanation**:  
-Enhances the impact of the study's findings on practical applications in telemedicine.
-
-### Suggestion 12
-
-**Location**: Discussion  
-**Category**: presentation  
-**Focus**: strength  
-
-**Original Text**:  
-> While prior studies have typically focused on either face-only or full-body images, our work is the first to provide a direct comparison of different image perspectives within a homogeneous dataset.
-
-**Improved Version**:  
-> In contrast to previous studies that often concentrate on either face-only or full-body images, our research stands out by offering a direct comparison of various image perspectives within a uniform dataset.
-
-**Explanation**:  
-Enhances the distinction of the study's contribution in the field of BMI estimation from images.
+Enhancing transparency and accessibility of data sharing process.
 
 ### Detailed Feedback
 ### Support Analysis
 
-The study provides a comprehensive evaluation of BMI estimation from smartphone camera images using a significantly larger real-world dataset, enhancing the credibility of the results.
+The study provides a detailed analysis of the associations between user tracking behaviors, content interactions, and self-reported menstrual health experiences. However, more emphasis on the statistical methods used and the validity of the results would strengthen the support for the findings.
 
 ### Objective Fulfillment
 
-The research objectives are implicitly fulfilled through the detailed methodology and results analysis, showcasing the model's performance on various datasets.
+The research objectives are clearly outlined in the introduction but are not explicitly restated in the conclusion. Restating the objectives in the conclusion would help in assessing the fulfillment of the research goals.
 
 ### Implications Analysis
 
-The study highlights the practical implications of BMI estimation from images, particularly in telemedicine scenarios, but lacks in-depth discussion on broader implications and applications.
+The study discusses the associations between user engagement with health content and menstrual health outcomes. However, more in-depth exploration of the practical implications of the findings for improving menstrual health outcomes would enhance the relevance of the study for real-world applications.
 
 ### Presentation Analysis
 
-The presentation of results and methodology is detailed, but some sections may benefit from concise summarization to improve readability and focus on key points.
+The presentation of the study lacks a concise summary of key findings in the abstract and does not clearly outline the study's contributions in the introduction. Improving the clarity and impact of the abstract and introduction would enhance the overall presentation quality of the study.
 
 ### Contribution Analysis
 
-The study contributes to the field by offering insights on BMI estimation from different image perspectives and demonstrating the model's generalizability to unseen data, showcasing advancements in the research area.
+The study contributes to the understanding of user engagement with menstrual health apps and their impact on health outcomes. However, explicitly stating the contributions in the introduction and ensuring they are reiterated in the conclusion would enhance the clarity of the study's significance.
 
 ## S9 - References
 ### Score: 7/10
 
 ### Summary
-Overall, the references demonstrate a good level of accuracy and completeness, with relevant and recent sources supporting the study. However, there are some minor issues in format consistency and clarity of presentation. Improvements in citation accuracy, relevance of content, and format consistency can enhance the overall quality of the references.
+Overall, the references demonstrate accuracy, completeness, and relevance to the study's focus. However, improvements in clarity, conciseness, and specificity of information could enhance the overall quality of the references.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: accuracy  
 **Location**: Abstract  
-**Issue**: The MAPE value of 8% mentioned in the Abstract does not align with the MAPE values provided in the Results section.  
+**Issue**: The abstract lacks specific details about the methodology used in the study, such as the data collection methods and analysis techniques.  
 **Severity**: medium  
-**Impact**: This inconsistency could lead to confusion for readers and affect the credibility of the study.
+**Impact**: This omission affects the transparency and reproducibility of the study.
 
 ### Remark 2
 
 **Category**: relevance  
 **Location**: Introduction  
-**Issue**: The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.  
-**Severity**: high  
-**Impact**: This omission may weaken the justification for the research and its significance.
+**Issue**: The introduction provides a broad overview of menstrual health but lacks a clear connection to the specific research questions addressed in the study.  
+**Severity**: medium  
+**Impact**: This disconnect may confuse readers about the study's focus and relevance.
+
+### Remark 3
+
+**Category**: recency  
+**Location**: Methods  
+**Issue**: The methods section does not specify the exact dates of data collection and analysis, making it challenging to assess the recency of the study.  
+**Severity**: low  
+**Impact**: This lack of clarity may undermine the credibility of the research findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: format  
+**Category**: accuracy  
 **Focus**: citation  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> We conducted a longitudinal observational study using linear mixed-effect models to examine how users’ tracking behaviors and interactions with personalized health content delivered via an artificial intelligence (AI) driven recommender system affected their self-reported menstrual health experiences.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only) using full-torso images.
+> A longitudinal observational study was conducted using linear mixed-effect models to analyze the impact of users' tracking behaviors and interactions with personalized health content delivered through an AI-driven recommender system on their self-reported menstrual health experiences.
 
 **Explanation**:  
-Remove the comma after 'only' for better clarity and grammatical correctness.
+The revised version provides a clearer and more concise description of the study methodology.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: completeness  
-**Focus**: relevance  
+**Focus**: reference  
 
 **Original Text**:  
-> Due to the heterogeneity of the datasets used in these studies, we currently lack a systematic comparison of different image perspectives for weight estimation.
+> Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors (i.e., number of symptom logs) associated with improvements in menstrual health awareness, literacy, and outcomes.
 
 **Improved Version**:  
-> Due to the heterogeneity of the datasets used in these studies, there is a current lack of a systematic comparison of different image perspectives for weight estimation.
+> However, existing research on menstrual health apps has predominantly concentrated on metrics like app usage frequency, duration, and self-reported symptom tracking behaviors, which are linked to enhancements in menstrual health awareness, literacy, and outcomes.
 
 **Explanation**:  
-Clarify the sentence structure for improved readability and coherence.
+The revised sentence is more structured and enhances the flow of information.
 
 ### Suggestion 3
 
-**Location**: Discussion  
-**Category**: accuracy  
-**Focus**: citation  
+**Location**: Results  
+**Category**: format  
+**Focus**: style  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of n = 7,455 menstruating individuals aged between 18 and 49 years.
 
 **Improved Version**:  
-> Our model demonstrates strong generalizability to unseen data, as evidenced by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%.
+> The study sample comprised data collected from November 7, 2023, to March 31, 2024, involving 7,455 menstruating individuals aged 18-49 years.
 
 **Explanation**:  
-Replace 'as demonstrated by' with 'as evidenced by' for more accurate expression.
+The revised version provides a more concise and clear description of the study period and sample size.
 
 ### Suggestion 4
 
-**Location**: Discussion  
+**Location**: Methods  
 **Category**: quality  
 **Focus**: relevance  
 
 **Original Text**:  
-> Our work also provides insights for remote weight estimation during telemedicine consultations.
+> The app employs a recommender system that integrates a variety of inputs, including user health tracking data, demographic information, and interaction history with health content consisting of a mix of evidence-based resources and gray literature, validated by scientists and medical experts.
 
 **Improved Version**:  
-> Our work also offers insights for remote weight estimation during telemedicine consultations.
+> The app utilizes a recommender system that integrates user health tracking data, demographic information, and interaction history with health content, comprising evidence-based resources and gray literature validated by scientists and medical experts.
 
 **Explanation**:  
-Replace 'provides' with 'offers' for a more appropriate tone.
+The revised sentence is more concise and improves readability.
 
 ### Suggestion 5
 
-**Location**: Results  
+**Location**: Methods  
 **Category**: accuracy  
 **Focus**: citation  
 
 **Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
+> To address RQ 1, and hence, assess the impact of health content characteristics on user DHT engagement, we investigated two key outcomes (a) total tracking logs of menstrual health experiences, and (b) total number of user health content interactions (clicked or liked content) within femble®.
 
 **Improved Version**:  
-> The height of each user was self-reported at the commencement of the fitness program.
+> To answer RQ 1 and evaluate the influence of health content characteristics on user DHT engagement, we examined two primary outcomes: (a) total tracking logs of menstrual health experiences and (b) total user interactions with health content (clicks or likes) in femble®.
 
 **Explanation**:  
-Replace 'beginning' with 'commencement' for a more formal and precise term.
+The revised sentence clarifies the purpose of the study and improves coherence.
 
 ### Suggestion 6
 
-**Location**: Discussion  
+**Location**: Methods  
 **Category**: completeness  
-**Focus**: relevance  
+**Focus**: reference  
 
 **Original Text**:  
-> The training dataset has a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
+> For the final analysis, users were included only if they met the following criteria: aged 18–49, tracked menstrual health experiences in at least two distinct individual months calculated from their registration date...
 
 **Improved Version**:  
-> The training dataset exhibits a significant gender imbalance, with 49% female, 9% male, and 42% not providing their gender.
+> In the final analysis, users were selected based on specific criteria: aged 18-49, tracked menstrual health experiences in at least two distinct months from their registration date...
 
 **Explanation**:  
-Change 'has' to 'exhibits' for a more descriptive and accurate representation.
+The revised text is more concise and maintains clarity.
 
 ### Suggestion 7
 
-**Location**: Discussion  
+**Location**: Methods  
+**Category**: format  
+**Focus**: style  
+
+**Original Text**:  
+> The anonymized dataset for this analysis was made available to the authors from the app’s vendor.
+
+**Improved Version**:  
+> The authors obtained the anonymized dataset for analysis from the app's vendor.
+
+**Explanation**:  
+The revised version is more active and direct.
+
+### Suggestion 8
+
+**Location**: Methods  
+**Category**: format  
+**Focus**: style  
+
+**Original Text**:  
+> All statistical analyses were performed using Python (version 3.9.6, for macOS).
+
+**Improved Version**:  
+> Statistical analyses were conducted using Python version 3.9.6 on macOS.
+
+**Explanation**:  
+The revised sentence is more concise and maintains clarity.
+
+### Suggestion 9
+
+**Location**: Methods  
+**Category**: completeness  
+**Focus**: citation  
+
+**Original Text**:  
+> The following variables were included as binary covariates and modeled as fixed effects for each user: use of hormonal birth control, whether users indicated their average menstrual cycle, and specification of a notification time, reported by users.
+
+**Improved Version**:  
+> Binary covariates included user characteristics such as hormonal birth control use, self-reported average menstrual cycle length, and notification preferences.
+
+**Explanation**:  
+The revised version condenses information for better readability.
+
+### Suggestion 10
+
+**Location**: Methods  
 **Category**: accuracy  
 **Focus**: citation  
 
 **Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+> To assess (RQ 1) the associations between content characteristics (combination of recommended content, i.e. mental health blogs) and user DHT engagement behavior (tracking and content engagement behavior), and (RQ 2) the associations between user DHT engagement behavior and users’ self-reported menstrual health experiences (intensity of menstrual health experiences), four linear mixed-effects models were employed.
 
 **Improved Version**:  
-> We followed the hyperparameters used by Jin et al. (2022) for their state-of-the-art model.
+> Four linear mixed-effects models were used to examine the relationships between content characteristics, user DHT engagement behavior, and self-reported menstrual health experiences.
 
 **Explanation**:  
-Replace 'in' with 'for' to correctly attribute the hyperparameters.
+The revised sentence is more concise and focuses on the key aspects of the study design.
 
-### Suggestion 8
+### Suggestion 11
 
-**Location**: Methodology  
+**Location**: Methods  
 **Category**: format  
-**Focus**: format  
+**Focus**: style  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset.
+> Data availability: Due to participant confidentiality agreements and ethical restrictions, the dataset analyzed in this study is not publicly available.
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset.
+> Data availability: The dataset analyzed in this study is not publicly available due to participant confidentiality agreements and ethical restrictions.
 
 **Explanation**:  
-Correct the spelling of 'DenseNet' for consistency.
+The revised text maintains clarity and improves readability.
 
-### Suggestion 9
+### Suggestion 12
 
-**Location**: Results  
+**Location**: Methods  
 **Category**: format  
-**Focus**: format  
+**Focus**: style  
 
 **Original Text**:  
-> Our model achieves a MAPE of 13.38% and an MAE of 4.3 BMI units.
+> Code availability: Data is collated in .csv databases and analyzed using Python (version 3.9.6).
 
 **Improved Version**:  
-> Our model achieves a MAPE of 13.38% and a MAE of 4.3 BMI units.
+> Code availability: Data is stored in .csv databases and analyzed using Python version 3.9.6.
 
 **Explanation**:  
-Replace 'an' with 'a' before 'MAE' for grammatical accuracy.
-
-### Suggestion 10
-
-**Location**: Introduction  
-**Category**: completeness  
-**Focus**: relevance  
-
-**Original Text**:  
-> The introduction lacks a clear statement of the research gap or novelty of the study compared to existing literature.
-
-**Improved Version**:  
-> The introduction lacks a clear statement of the research gap or the novelty of the study compared to existing literature.
-
-**Explanation**:  
-Add 'the' before 'novelty' for grammatical correctness.
+The revised text is more concise and maintains consistency.
 
 ### Detailed Feedback
 ### Accuracy Analysis
 
-The references are mostly accurate in terms of citation details and dataset information. However, there are inconsistencies in reporting certain numerical values.
+The references are accurate and relevant to the study's context, providing a solid foundation for the research.
 
 ### Completeness Analysis
 
-The references provide a comprehensive overview of related work, datasets, and methodologies used in the study. However, some sections lack clarity in explaining the relevance of the research.
+The references are comprehensive, covering a wide range of topics related to menstrual health and digital health interventions.
 
 ### Format Analysis
 
-The format is generally consistent, with proper citation styles and reference organization. However, there are minor issues with punctuation and sentence structure in some sections.
+The format of the references is consistent, with clear sections and subheadings that enhance readability.
 
 ### Quality Analysis
 
-The sources cited are relevant and recent, contributing to the credibility of the study. The diversity of sources could be improved by including a wider range of studies from different perspectives.
+The sources cited are recent and diverse, reflecting a broad spectrum of research in the field of women's health and digital health interventions.
 
 ### Organization Analysis
 
-The reference list is well-organized and follows a logical flow from introduction to results. However, there are areas where the organization could be enhanced for better coherence and clarity.
+The reference list is well-organized, with detailed information provided for each source, contributing to the overall credibility of the study.
 
 ## S10 - Supplementary Materials
 ### Score: 7/10
 
 ### Summary
-Overall, the supplementary materials offer a detailed and comprehensive analysis of BMI estimation from smartphone camera images. While the content is relevant and well-structured, there are areas where clarity and consistency can be improved for better presentation and understanding. The completeness and thoroughness of the information provided enhance the quality of the study.
+The supplementary materials offer valuable insights into user behaviors and their impact on menstrual health outcomes. While the content is generally clear and well-organized, there are areas that require improvement in terms of relevance, clarity, and completeness. Enhancing the presentation of key findings and refining the descriptions of methods and results would further enhance the quality and accessibility of the supplementary materials.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: clarity  
+**Category**: relevance  
 **Location**: Abstract  
-**Issue**: The abstract lacks a clear summary of the key findings and implications of the study.  
+**Issue**: The abstract lacks a clear statement on the specific findings and implications of the study, making it challenging for readers to grasp the key contributions.  
 **Severity**: medium  
-**Impact**: Readers may struggle to grasp the significance of the research without a concise summary.
+**Impact**: This affects the overall understanding of the study's significance and may deter readers from delving deeper into the content.
+
+### Remark 2
+
+**Category**: clarity  
+**Location**: Methods  
+**Issue**: The methods section lacks clarity in explaining the data collection process and the rationale behind the inclusion/exclusion criteria for the final dataset.  
+**Severity**: high  
+**Impact**: This hinders reproducibility and understanding of the study design, potentially leading to misinterpretation of the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: clarity  
-**Focus**: presentation  
+**Location**: Introduction  
+**Category**: relevance  
+**Focus**: value addition  
 
 **Original Text**:  
-> We present a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a significantly larger, proprietary, real-world dataset comprising 84,963 images collected from 25,353 individuals.
+> Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors.
 
 **Improved Version**:  
-> We conduct a thorough evaluation of BMI estimation from smartphone camera images using deep learning on a large, real-world dataset of 84,963 images from 25,353 individuals.
+> While previous research has primarily focused on metrics like app usage frequency and duration, there is a gap in understanding the impact of engaging with health-related content within menstrual tracking apps.
 
 **Explanation**:  
-Simplify the sentence structure for better readability and comprehension.
+Clarifies the need for exploring the impact of content engagement on menstrual health outcomes.
 
 ### Suggestion 2
 
-**Location**: Abstract  
+**Location**: Methods  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> Our results indicate that torso-up images deliver performance similar to full-body images (9% MAPE), while face-only images yield comparatively lower accuracy (11% MAPE).
+> The dataset consists of anonymized tracking information from users who registered on November 7, 2023 and logged health experiences and interacted with health content within the app between November 7, 2023, and March 31, 2024.
 
 **Improved Version**:  
-> Torso-up images show comparable performance to full-body images (9% MAPE), while face-only images exhibit lower accuracy (11% MAPE).
+> The dataset comprises anonymized tracking data from users who registered between November 7, 2023, and March 31, 2024, and engaged with health content within the app during this period.
 
 **Explanation**:  
-Rephrase for better flow and clarity.
+Enhances clarity by providing a more concise and chronological description of the dataset.
 
 ### Suggestion 3
 
-**Location**: Introduction  
+**Location**: Methods  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> The limited dataset size may restrict the model’s ability to learn complex patterns and generalize to diverse body types.
+> To address RQ 1, and hence, assess the impact of health content characteristics on user DHT engagement, we investigated two key outcomes (a) total tracking logs of menstrual health experiences, and (b) total number of user health content interactions (clicked or liked content) within femble®.
 
 **Improved Version**:  
-> A small dataset size may limit the model's capacity to learn intricate patterns and generalize across diverse body types.
+> To address RQ 1, we evaluated the influence of health content characteristics on user engagement by analyzing two primary outcomes: total menstrual health tracking logs and user interactions with health content (clicks or likes) in the femble® app.
 
 **Explanation**:  
-Enhance readability and precision of the statement.
+Streamlines the description of the research question and outcomes for better comprehension.
 
 ### Suggestion 4
 
-**Location**: Introduction  
+**Location**: Results  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> We train deep learning models on a large-scale, real-world dataset of over 84,000 full-body images of 25,353 individuals.
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
 
 **Improved Version**:  
-> We train deep learning models on a large, real-world dataset comprising over 84,000 full-body images from 25,353 individuals.
+> The analysis revealed a significant association between tracking behavior and the intensity of negative menstrual health experiences.
 
 **Explanation**:  
-Clarify the description for better understanding.
+Improves the sentence structure for better readability and clarity.
 
 ### Suggestion 5
 
-**Location**: Introduction  
+**Location**: Ethical declarations  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> We evaluate the performance on the Visual-body-to-BMI, Celebi-FBI, and VIP-Attribute dataset, and compare our results with existing state-of-the-art methods.
+> The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
 
 **Improved Version**:  
-> We assess performance on the Visual-Body-To-BMI, Celeb-FBI, and VIP-Attribute datasets, comparing our results with state-of-the-art methods.
+> The study received exemption from <university name masked for review>'s IRB board under the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to deidentification of data and absence of participant risks.
 
 **Explanation**:  
-Streamline the sentence for improved readability.
+Enhances clarity and conciseness in describing the ethical approval process.
 
 ### Suggestion 6
 
-**Location**: Methodology  
-**Category**: consistency  
-**Focus**: alignment  
+**Location**: Discussion  
+**Category**: clarity  
+**Focus**: presentation  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
+> The findings suggest that self-monitoring behaviors (e.g., tracking menstrual health experiences) continue to be the dominant mode of engagement in women’s health apps.
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset, but we keep all layers trainable during training.
+> The results indicate that self-monitoring behaviors, such as tracking menstrual health experiences, remain prevalent as the primary mode of engagement in women’s health apps.
 
 **Explanation**:  
-Ensure consistency in terminology and style.
+Rephrases to improve sentence flow and readability.
 
 ### Suggestion 7
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> This suggests that this format may be less engaging or harder to integrate into users' app routines.
 
 **Improved Version**:  
-> We offer the code for training, deployment, and the mobile applications as open-source contributions.
+> This implies that the video format may be less engaging or challenging to incorporate into users' app routines.
 
 **Explanation**:  
-Enhance clarity and coherence in the statement.
+Provides a clearer expression of the idea for better understanding.
 
 ### Suggestion 8
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+> However, the results also highlight that users tracked their menstrual health experiences more frequently than they engaged with recommended personalized health content, suggesting that self-monitoring behaviors (e.g., tracking menstrual health experiences) continue to be the dominant mode of engagement in women’s health apps.
 
 **Improved Version**:  
-> Additionally, we assess our model's generalizability on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving MAPE values of 23.64% and 25.21%, respectively.
+> Nevertheless, users tended to track their menstrual health experiences more often than engaging with personalized health content recommendations, indicating that self-monitoring behaviors, such as tracking menstrual health experiences, remain the primary form of engagement in women’s health apps.
 
 **Explanation**:  
-Improve clarity and coherence in the presentation of results.
+Enhances clarity and conciseness by restructuring the sentence.
 
 ### Suggestion 9
 
-**Location**: Abstract  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscore the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.
 
 **Improved Version**:  
-> We showcase the practical application of our BMI estimation approach by implementing our algorithms for image filtering and BMI estimation in Python on mobile devices through the CLAID framework.
+> The surprising negative correlation between user interaction with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the framing and delivery of dietary and mental health recommendations in digital health tools for menstrual health.
 
 **Explanation**:  
-Enhance the description for better understanding.
+Enhances clarity and emphasizes the importance of reevaluation in a more concise manner.
 
 ### Suggestion 10
 
-**Location**: Related Work  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> The primary distinction has been made between full-body images and facial images.
+> Understanding these dynamics is critical for optimizing personalization strategies and maximizing the impact of DHTs on menstrual health.
 
 **Improved Version**:  
-> The main differentiation lies between full-body images and facial images.
+> Comprehending these dynamics is crucial for optimizing personalization strategies and enhancing the effectiveness of digital health tools on menstrual health.
 
 **Explanation**:  
-Simplify the sentence structure for clarity.
+Improves the sentence structure and emphasizes the importance of understanding the dynamics.
 
 ### Suggestion 11
 
-**Location**: Related Work  
+**Location**: Discussion  
 **Category**: clarity  
 **Focus**: presentation  
 
 **Original Text**:  
-> Various perspectives of images suitable for BMI estimation have been explored in prior work.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
 
 **Improved Version**:  
-> Previous studies have explored different perspectives of images suitable for BMI estimation.
+> The study suggests that continuous menstrual health tracking may reduce negative menstrual health experiences, and ongoing interaction with women’s health-related content can promote positive menstrual health experiences.
 
 **Explanation**:  
-Enhance readability and coherence in the statement.
+Rephrases for clarity and coherence in conveying the study's key findings.
 
 ### Detailed Feedback
 ### Relevance Analysis
 
-The supplementary materials provide a detailed analysis of BMI estimation from smartphone camera images, offering insights into the methodology, results, and implications of the study. The relevance to the main text is evident through the extension and elaboration of key concepts.
+The supplementary materials provide valuable insights into the longitudinal analysis of menstrual health experiences and personalized health content interactions. The study's focus on understanding user behaviors and their impact on menstrual health outcomes is highly relevant and contributes to the existing literature.
 
 ### Clarity Analysis
 
-The presentation of information is generally clear, with detailed descriptions of the methodology, results, and discussion. However, some sections could benefit from improved clarity through simplification of complex sentences and technical terms.
+The presentation of information in the supplementary materials is generally clear, with detailed descriptions of the dataset, methods, results, and discussions. However, some sections lack conciseness and may benefit from improved clarity in explaining complex concepts.
 
 ### Consistency Analysis
 
-The supplementary materials maintain consistency with the main text in terms of terminology, methodology, and results. The alignment of key findings and comparisons with existing literature is well-maintained throughout the document.
+The supplementary materials maintain consistency with the main text by aligning research questions, methods, results, and discussions with the study's objectives. The logical flow of information enhances the coherence of the content.
 
 ### Completeness Analysis
 
-The supplementary materials provide a comprehensive overview of the research, covering aspects such as dataset characteristics, methodological details, results, and implications. The information is detailed and thorough, offering a deep dive into the study.
+The supplementary materials provide comprehensive information on the dataset, methodology, results, and discussions, offering a thorough analysis of user behaviors and their implications for menstrual health outcomes. However, there are areas where additional details or explanations could enhance the completeness of the content.
+
+### Organization Analysis
+
+The supplementary materials are well-organized, with clear sections delineating different aspects of the study. The logical progression from methods to results and discussions facilitates understanding. However, some sections could benefit from improved transitions and more concise descriptions.
 
 ### Rigor Agents (R1-R7)
 
@@ -2045,32 +1919,32 @@ The supplementary materials provide a comprehensive overview of the research, co
 ### Score: 8/10
 
 ### Summary
-Overall, the study introduces a novel approach to BMI estimation from smartphone images using deep learning on a large real-world dataset, making a substantial contribution to the field of digital health interventions. While the research demonstrates advancements in remote health monitoring and rapid weight assessment, further detailed analysis, verification, and comparison with existing literature are needed to strengthen the novelty claims and contributions of the study.
+Overall, the research demonstrates a strong contribution to the field by exploring the dynamics of menstrual health tracking and content engagement in women's health apps. While there are areas for improvement in emphasizing novelty, enhancing the discussion, and strengthening the verification of claims, the study provides valuable insights into the impact of personalized health content on menstrual health experiences.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: novelty  
-**Location**: Abstract  
-**Issue**: The novelty of using deep learning for BMI estimation from smartphone images is not clearly emphasized.  
+**Location**: Introduction  
+**Issue**: The novelty of the research approach could be further emphasized to clearly differentiate it from existing studies.  
 **Severity**: medium  
-**Impact**: This affects the clarity of the research focus and may lead to misinterpretation of the study's uniqueness.
+**Impact**: This affects the clarity of the research's unique approach.
 
 ### Remark 2
 
 **Category**: contribution  
-**Location**: Introduction  
-**Issue**: The unique contribution of training on a significantly larger real-world dataset is not explicitly highlighted.  
-**Severity**: medium  
-**Impact**: This diminishes the recognition of the study's substantial contribution to the field.
+**Location**: Discussion  
+**Issue**: The discussion could provide more detailed insights into the practical implications of the findings.  
+**Severity**: low  
+**Impact**: Enhancing the discussion's depth would strengthen the research's contribution.
 
 ### Remark 3
 
 **Category**: verification  
 **Location**: Results  
-**Issue**: The verification of novelty claims regarding generalizability on external datasets is lacking detailed analysis.  
+**Issue**: The verification of novelty claims could be more explicitly linked to the methodology and results.  
 **Severity**: medium  
-**Impact**: This weakens the credibility of the study's novelty claims and limits the validation of the proposed approach.
+**Impact**: This affects the clarity of how the novelty claims are supported by the data.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2080,95 +1954,126 @@ Overall, the study introduces a novel approach to BMI estimation from smartphone
 **Focus**: novelty  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...
+> Menstrual health remains underrecognized and underserved in public health...
 
 **Improved Version**:  
-> Utilizing deep learning for Body Mass Index (BMI) estimation from smartphone images enables efficient weight assessment...
+> Despite recent advancements in women's health research, menstrual health continues to be overlooked...
 
 **Explanation**:  
-Restructuring the sentence to clearly highlight the novelty of using deep learning for BMI estimation.
+Highlighting recent advancements sets the stage for the research's novelty.
 
 ### Suggestion 2
 
 **Location**: Introduction  
 **Category**: introduction  
-**Focus**: contribution  
+**Focus**: novelty  
 
 **Original Text**:  
-> A high Body Mass Index (BMI) is associated with various chronic diseases...
+> We conducted a longitudinal observational study using linear mixed-effect models...
 
 **Improved Version**:  
-> The study uniquely contributes by training on a significantly larger real-world dataset...
+> To explore the dynamics of menstrual health tracking and content engagement, we conducted a longitudinal observational study...
 
 **Explanation**:  
-Explicitly stating the unique contribution of training on a large real-world dataset.
+Adding clarity on the research focus enhances the novelty statement.
 
 ### Suggestion 3
 
 **Location**: Results  
 **Category**: results  
-**Focus**: verification  
+**Focus**: contribution  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data...
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content...
 
 **Improved Version**:  
-> The study should provide a more detailed analysis of the generalizability to unseen datasets...
+> The study uncovered a discrepancy in user engagement, with more emphasis on health tracking than interaction with personalized content...
 
 **Explanation**:  
-Enhancing the verification of novelty claims by providing specific results and comparisons.
+Providing a clearer presentation of key findings enhances the research contribution.
+
+### Suggestion 4
+
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: advancement  
+
+**Original Text**:  
+> However, while our work offers important real-world insights...
+
+**Improved Version**:  
+> Despite the valuable insights provided by our study...
+
+**Explanation**:  
+Strengthening the language can enhance the impact of the research.
 
 ### Detailed Feedback
 ### Novelty Assessment
 
-The study introduces a novel approach of BMI estimation from smartphone images using deep learning on a large real-world dataset, which significantly exceeds the dataset sizes of previous studies. This approach demonstrates a unique application of computer vision for rapid weight assessment.
+The research introduces a novel approach by examining the interaction between menstrual health tracking and personalized content engagement, filling a gap in the existing literature.
 
 ### Contribution Analysis
 
-The study makes a substantial contribution by training on a significantly larger real-world dataset comprising over 84,000 images, enabling more accurate BMI estimation. The comparison of different image perspectives and the evaluation on external datasets further enhance the contributions to the field.
+The study contributes by revealing the importance of personalized health content engagement in shaping positive menstrual health experiences, highlighting the need for tailored interventions.
 
 ### Verification Status
 
-The verification of novelty claims is partially supported by the results on the real-world dataset, but further detailed analysis and comparison with existing literature are needed to fully validate the novelty claims. The study's generalizability to external datasets requires more in-depth verification.
+The novelty claims are partially supported by the results, but could be strengthened by more explicit connections between methodology and findings.
 
 ### Comparative Analysis
 
-The study provides a comprehensive comparison with existing literature by evaluating BMI estimation performance across different image perspectives and datasets. However, a more detailed analysis of the performance compared to state-of-the-art approaches and a systematic comparison of different image perspectives are needed.
+The research effectively compares user tracking behaviors with content interactions, providing insights into the dynamics of engagement within women's health apps.
 
 ### Advancement Evaluation
 
-The study significantly advances knowledge in the field of digital health interventions by demonstrating the feasibility of BMI estimation from smartphone images using deep learning. The real-world applicability and generalizability of the proposed approach showcase advancements in remote health monitoring and rapid weight assessment.
+The study advances knowledge by emphasizing the role of personalized health content in improving menstrual health outcomes, suggesting the need for tailored interventions for better health management.
 
 ## R2 - Impact and Significance
-### Score: 9/10
+### Score: 8/10
 
 ### Summary
-Overall, the research demonstrates a high level of impact and significance in the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. While the study provides valuable insights, there are areas for improvement in explicitly discussing the field influence, broader implications, and future research directions to enhance the overall significance of the research.
+Overall, the research provides valuable insights into menstrual health literacy and the impact of health content engagement on well-being. While the study contributes to the field by exploring user behaviors and health outcomes, there are areas that require further clarification and depth, particularly in discussing broader implications, future research directions, practical applications, and policy implications. By addressing these aspects and enhancing the clarity and depth of reporting, the research can significantly enhance its impact and significance in the field of women's health.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: field_influence  
 **Location**: Introduction  
-**Issue**: Lack of explicit mention of the potential influence on the field of digital health interventions and telehealth services.  
+**Issue**: The importance of menstrual health literacy and its impact on well-being is highlighted, but the specific contributions to the field are not clearly articulated.  
 **Severity**: medium  
-**Impact**: This omission may downplay the significance of the research in the broader context of digital health interventions.
+**Impact**: Lack of clarity may diminish the research's influence on the field.
 
 ### Remark 2
 
 **Category**: implications  
 **Location**: Discussion  
-**Issue**: Limited discussion on the broader implications of the findings beyond weight estimation accuracy.  
-**Severity**: medium  
-**Impact**: This restricts the understanding of how the research could impact healthcare practices and patient outcomes.
+**Issue**: The discussion lacks a comprehensive exploration of the broader implications of the findings beyond the immediate research context.  
+**Severity**: high  
+**Impact**: Limits the understanding of the wider implications of the research outcomes.
 
 ### Remark 3
 
 **Category**: future_research  
 **Location**: Conclusion  
-**Issue**: Lack of detailed suggestions for future research directions based on the study findings.  
+**Issue**: The conclusion does not provide a strong summary of the impact on future research directions.  
 **Severity**: medium  
-**Impact**: This hinders the potential for building on the current research and advancing the field further.
+**Impact**: May hinder the identification of key areas for future investigation.
+
+### Remark 4
+
+**Category**: applications  
+**Location**: Results  
+**Issue**: The practical applications of the findings are not clearly delineated, impacting the translation of research into real-world settings.  
+**Severity**: high  
+**Impact**: Diminishes the understanding of how the research can be practically applied.
+
+### Remark 5
+
+**Category**: policy  
+**Location**: Abstract  
+**Issue**: The policy implications are briefly mentioned in the abstract without further elaboration.  
+**Severity**: medium  
+**Impact**: Reduces the depth of understanding regarding potential policy impacts.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -2178,1007 +2083,765 @@ Overall, the research demonstrates a high level of impact and significance in th
 **Focus**: field_influence  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Menstrual health remains underrecognized and underserved in public health.
 
 **Improved Version**:  
-> Existing computer vision-based BMI estimation approaches have primarily utilized datasets with a maximum of 7,211 full-body images or 14,500 facial images.
+> Menstrual health is a critical yet underrecognized aspect of public health.
 
 **Explanation**:  
-Clarifies the comparison of dataset sizes and improves readability.
+Enhances the emphasis on the significance of menstrual health.
 
 ### Suggestion 2
+
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: field_influence  
+
+**Original Text**:  
+> Awareness and literacy surrounding women’s health, particularly menstrual health, remain low among individuals assigned female at birth (AFAB) across diverse cultural, educational, and geographical contexts.
+
+**Improved Version**:  
+> Despite diverse cultural, educational, and geographical contexts, awareness and literacy regarding menstrual health are notably low among individuals assigned female at birth (AFAB).
+
+**Explanation**:  
+Provides a clearer and more concise statement on the research importance.
+
+### Suggestion 3
+
+**Location**: Discussion  
+**Category**: future_research  
+**Focus**: future_research  
+
+**Original Text**:  
+> However, while our work offers important real-world insights, future work should leverage experimental designs or randomized controlled trials to establish which intervention components effectively support menstrual health and well-being at scale.
+
+**Improved Version**:  
+> Although providing valuable real-world insights, future research should employ experimental designs or randomized controlled trials to identify effective intervention components for supporting menstrual health and well-being on a broader scale.
+
+**Explanation**:  
+Enhances the clarity and impact of the call for future research.
+
+### Suggestion 4
 
 **Location**: Results  
 **Category**: results  
 **Focus**: implications  
 
 **Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset, achieving an MAPE of 23.64 % and 25.21 % respectively.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
 
 **Improved Version**:  
-> Furthermore, we assess the model's generalizability on two external benchmark datasets: Celeb-FBI with full-body images and VIP-Attribute with face-only images, achieving MAPE scores of 23.64% and 25.21% respectively.
+> Findings suggest that continuous menstrual health tracking may reduce negative experiences, while regular engagement with women’s health content can enhance positive menstrual health outcomes.
 
 **Explanation**:  
-Enhances clarity and specificity in describing the evaluation on external datasets.
+Clarifies the key findings for better understanding and impact.
 
-### Suggestion 3
+### Suggestion 5
 
 **Location**: Discussion  
 **Category**: discussion  
-**Focus**: future_research  
+**Focus**: implications  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, exemplified by achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset, despite not being trained on this specific dataset.
+> The counterintuitive negative link between user engagement with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the presentation and delivery of dietary and mental health advice in digital health tools for menstrual health.
 
 **Explanation**:  
-Provides a clearer explanation of the model's generalizability and its performance on external datasets.
+Provides a more detailed and impactful suggestion for future research and applications.
+
+### Suggestion 6
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: field_influence  
+
+**Original Text**:  
+> For each model, we report regression coefficients (β), standard errors (SE), t-values, degrees of freedom (df), 95% confidence intervals (CIs), and both original and Bonferroni-corrected p-values.
+
+**Improved Version**:  
+> Each model includes regression coefficients (β), standard errors (SE), t-values, degrees of freedom (df), 95% confidence intervals (CIs), and original as well as Bonferroni-corrected p-values.
+
+**Explanation**:  
+Improves the clarity and consistency of reporting statistical results.
+
+### Suggestion 7
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: field_influence  
+
+**Original Text**:  
+> The anonymized dataset for this analysis was made available to the authors from the app’s vendor.
+
+**Improved Version**:  
+> The authors obtained the anonymized dataset for analysis directly from the app's vendor.
+
+**Explanation**:  
+Enhances transparency and clarity in data sourcing.
+
+### Suggestion 8
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: policy  
+
+**Original Text**:  
+> The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
+
+**Improved Version**:  
+> The study obtained an exemption from <university name masked for review>'s IRB board in compliance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to the deidentification of all data and the absence of participant risks.
+
+**Explanation**:  
+Provides a more detailed and informative description of the ethical approval process.
+
+### Suggestion 9
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: field_influence  
+
+**Original Text**:  
+> Due to participant confidentiality agreements and ethical restrictions, the dataset analyzed in this study is not publicly available.
+
+**Improved Version**:  
+> The dataset analyzed in this study is not publicly available due to participant confidentiality agreements and ethical restrictions.
+
+**Explanation**:  
+Maintains transparency regarding data availability.
+
+### Suggestion 10
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: field_influence  
+
+**Original Text**:  
+> The code used for the analysis of the dataset is available upon reasonable request from the corresponding author and requires company approval.
+
+**Improved Version**:  
+> The code utilized for analyzing the dataset can be accessed upon reasonable request from the corresponding author, subject to company approval.
+
+**Explanation**:  
+Clarifies the process for accessing the analysis code.
 
 ### Detailed Feedback
 ### Field Influence
 
-The study significantly advances the field of digital health interventions by introducing a novel approach to BMI estimation using smartphone camera images. This innovation has the potential to revolutionize telehealth services and emergency medical scenarios.
+The research addresses a critical gap in understanding menstrual health literacy and the impact of health content engagement on well-being. By exploring the associations between tracking behaviors, content interactions, and health outcomes, the study contributes valuable insights to the field of women's health.
 
 ### Broader Implications
 
-The findings have broader implications for remote health monitoring, personalized healthcare interventions, and preventive health strategies. The accurate and real-time BMI estimation from images can enhance patient engagement and adherence to treatment plans.
+The findings have significant implications for enhancing menstrual health awareness, promoting positive health outcomes, and guiding the development of effective digital health interventions. Understanding the nuanced relationships between user behaviors and health experiences can inform tailored approaches to support menstrual health.
 
 ### Future Research Impact
 
-The research opens avenues for exploring the integration of AI-driven BMI estimation into wearable devices for continuous health monitoring. Future studies could investigate the impact of BMI estimation accuracy on long-term health outcomes and behavior change.
+The study highlights the need for further research to explore the optimal balance between tracking behaviors and content engagement for improving menstrual health outcomes. Future investigations should delve deeper into the specific types of health content that drive positive outcomes and consider individual differences in engagement patterns.
 
 ### Practical Applications
 
-The practical applications of the research extend to telemedicine consultations, fitness tracking apps, and personalized wellness programs. The deployment of algorithms on mobile devices using the CLAID framework showcases the feasibility of real-time BMI estimation in diverse healthcare settings.
+The research underscores the importance of personalized health content delivery in women's health apps to enhance user experiences and promote well-being. Insights from this study can guide the development of more effective digital tools for supporting menstrual health literacy and symptom management.
 
 ### Policy Implications
 
-The study highlights the importance of data privacy and ethical considerations in utilizing AI for healthcare applications. Policymakers could leverage the research findings to develop guidelines for the responsible use of AI in patient care and data security.
+The study suggests the potential for digital health interventions to positively impact menstrual health outcomes. Policymakers and public health officials can leverage these findings to advocate for the integration of digital tools in women's health education and support programs.
 
 ## R3 - Ethics and Compliance
 ### Score: 7/10
 
 ### Summary
-The study demonstrates integrity in research practices and adherence to ethical guidelines in reporting results and methodologies. However, there are critical issues related to data privacy and informed consent procedures that need to be addressed to ensure full compliance with ethical standards.
+The study demonstrates a good level of ethical compliance overall, with some critical areas for improvement in privacy protection, informed consent procedures, and addressing potential biases. Enhancing transparency in conflicts of interest and providing more detailed discussions on data privacy and integrity will further strengthen the study's ethical standards.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: privacy  
-**Location**: Data Collection section  
-**Issue**: Lack of explicit mention of data anonymization and storage security measures for the proprietary dataset of user images.  
-**Severity**: high  
-**Impact**: This omission raises concerns about data privacy and security compliance.
+**Location**: Abstract  
+**Issue**: Lack of explicit mention of data privacy and protection measures in the abstract.  
+**Severity**: medium  
+**Impact**: May raise concerns about data security and confidentiality for participants.
 
 ### Remark 2
 
 **Category**: consent  
-**Location**: Abstract and Methodology sections  
-**Issue**: Insufficient detail on the informed consent process for collecting and using user images for research purposes.  
+**Location**: Methodology  
+**Issue**: No detailed description of the informed consent process for participants.  
+**Severity**: high  
+**Impact**: Raises questions about participants' voluntary participation and understanding of the study.
+
+### Remark 3
+
+**Category**: integrity  
+**Location**: Results  
+**Issue**: Limited discussion on potential biases in data collection and analysis.  
 **Severity**: medium  
-**Impact**: This lack of transparency may lead to ethical concerns regarding participant consent.
+**Impact**: Could affect the credibility and reliability of the study findings.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Data Collection section  
-**Category**: data_collection  
-**Focus**: privacy  
+**Location**: Introduction  
+**Category**: integrity  
+**Focus**: guidelines  
 
 **Original Text**:  
-> Images were collected from users of a fitness app over the course of 10+ years.
+> Widespread gaps in menstrual health literacy – fueled by stigma, cultural taboos, and particularly, a lack of accessible education – have contributed to a longstanding neglect of menstrual health awareness and support.
 
 **Improved Version**:  
-> Images were collected from users of a fitness app over the course of 10+ years, ensuring data anonymization and secure storage measures were in place.
+> Widespread gaps in menstrual health literacy, exacerbated by stigma, cultural taboos, and a lack of accessible education, have led to a persistent neglect of menstrual health awareness and support.
 
 **Explanation**:  
-This addition highlights the importance of data privacy and security measures.
+Improved version enhances clarity and flow of the sentence.
 
 ### Suggestion 2
 
-**Location**: Conclusion section  
-**Category**: conclusion  
-**Focus**: privacy  
+**Location**: Discussion  
+**Category**: integrity  
+**Focus**: guidelines  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications, ensuring that all data used in the study is anonymized and securely stored.
+> Despite advancements, research on engagement with menstrual health apps has predominantly concentrated on metrics like app usage frequency and duration or self-reported symptom tracking.
 
 **Explanation**:  
-This ensures that the open-source contributions maintain data privacy and security.
-
-### Suggestion 3
-
-**Location**: Methodology section  
-**Category**: methodology  
-**Focus**: consent  
-
-**Original Text**:  
-> Subjects were instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
-
-**Improved Version**:  
-> Subjects were explicitly informed about the research purpose, provided informed consent, and instructed to take a front-facing photo of themselves containing their full-body at various stages of a fitness program for progress-tracking.
-
-**Explanation**:  
-This clarifies the informed consent process and participant understanding.
+Enhanced version improves readability and conciseness.
 
 ### Detailed Feedback
 ### Conflicts Assessment
 
-The text does not explicitly mention any conflicts of interest, which is a positive aspect indicating potential impartiality in the research.
+The text does not explicitly mention any conflicts of interest, which is essential for transparency and credibility.
 
 ### Privacy Compliance
 
-While data privacy measures are implied, explicit details on data anonymization and storage security are lacking, raising concerns about compliance.
+While data anonymization is mentioned, specific data privacy measures and protection protocols are not detailed, raising concerns about participant data security.
 
 ### Consent Procedures
 
-The study lacks detailed information on the informed consent process, potentially leading to ethical concerns regarding participant consent.
+The informed consent process should be clearly outlined to ensure participants' voluntary participation and understanding of the study.
 
 ### Research Integrity
 
-The study demonstrates integrity in reporting results and methodologies, with clear descriptions of the dataset and model architecture.
+The study lacks detailed discussions on potential biases in data collection and analysis, which are crucial for maintaining research integrity.
 
 ### Guidelines Adherence
 
-The study adheres to ethical guidelines in terms of reporting results and methodologies, but improvements are needed in explicitly addressing privacy and consent procedures.
+The study adheres to ethical guidelines in terms of data anonymization and participant inclusion criteria, but improvements are needed in detailing privacy measures and consent procedures.
 
 ## R4 - Data and Code Availability
-### Score: 7/10
+### Score: 6/10
 
 ### Summary
-The study demonstrates good data and code availability practices, with room for improvement in data sharing transparency, code documentation, and model reproducibility. Providing detailed model information, enhancing code accessibility, and justifying access restrictions would enhance research transparency and reproducibility.
+The study demonstrates promising insights into menstrual health experiences but falls short in data and code availability, documentation completeness, access restrictions justification, and reproducibility support. Clear policies on data sharing, improved code availability, detailed documentation of data collection methods, transparent justification for access restrictions, and thorough analysis of reproducibility considerations are essential for enhancing research transparency and credibility.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: data_sharing  
 **Location**: Abstract  
-**Issue**: The proprietary dataset used is not publicly available, limiting data sharing practices.  
+**Issue**: The abstract lacks a clear statement on data availability, making it difficult for readers to assess the data sharing practices.  
 **Severity**: medium  
-**Impact**: Reduces transparency and hinders reproducibility for other researchers.
+**Impact**: This impacts research transparency as readers may question the validity of the findings without access to the underlying data.
 
 ### Remark 2
 
 **Category**: code_availability  
-**Location**: Conclusion  
-**Issue**: Model weights trained on the proprietary dataset are not shared due to data privacy concerns.  
-**Severity**: high  
-**Impact**: Limits reproducibility and prevents validation of results on the same dataset.
+**Location**: Code availability section  
+**Issue**: The code availability section does not provide clear instructions on how to access the code used for analysis.  
+**Severity**: medium  
+**Impact**: This hinders reproducibility as other researchers may struggle to replicate the results without access to the code.
 
 ### Remark 3
 
 **Category**: documentation  
-**Location**: Methodology  
-**Issue**: Lack of detailed explanation on the implementation and training of the deep learning model.  
-**Severity**: medium  
-**Impact**: Reduces clarity and reproducibility of the methodology.
+**Location**: Methods section  
+**Issue**: The documentation of data collection methods is insufficient, lacking details on data sources and collection procedures.  
+**Severity**: high  
+**Impact**: This limits the ability of other researchers to understand and replicate the data collection process, affecting the credibility of the study.
 
 ### Remark 4
 
 **Category**: restrictions  
-**Location**: Abstract  
-**Issue**: Access restrictions are mentioned without clear justification.  
-**Severity**: low  
-**Impact**: Raises questions about the transparency of the research process.
+**Location**: Conclusion section  
+**Issue**: The justification for access restrictions is not clearly articulated, leaving readers questioning the need for restricted access.  
+**Severity**: medium  
+**Impact**: This raises concerns about transparency and may lead to skepticism regarding the validity of the findings.
 
 ### Remark 5
 
 **Category**: reproducibility  
-**Location**: Discussion  
-**Issue**: Limited discussion on the reproducibility of the results on external datasets.  
+**Location**: Discussion section  
+**Issue**: The discussion lacks a detailed analysis of reproducibility considerations, such as data and code availability.  
 **Severity**: medium  
-**Impact**: Lacks thorough examination of the generalizability of the model.
+**Impact**: This undermines the reproducibility of the study and may limit the ability of other researchers to validate the results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: data_description  
+**Category**: abstract  
 **Focus**: data_sharing  
 
 **Original Text**:  
-> The dataset used is proprietary and not publicly available.
+> The abstract lacks a clear statement on data availability.
 
 **Improved Version**:  
-> The dataset used in this study is proprietary and not publicly available. To enhance data sharing practices, consider providing a subset of the dataset with appropriate anonymization.
+> The abstract should include a statement indicating that the data used in the study will be made available upon request to ensure transparency and reproducibility.
 
 **Explanation**:  
-By providing a subset of the dataset, researchers can still access and validate the findings while maintaining data privacy.
+This improvement clarifies the data availability policy upfront, setting clear expectations for readers.
 
 ### Suggestion 2
 
-**Location**: Abstract  
+**Location**: Code availability section  
 **Category**: code_documentation  
 **Focus**: code_availability  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> The code availability section does not provide clear instructions on how to access the code.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions. Additionally, consider creating a dedicated repository on a platform like GitHub for easier access and collaboration.
+> The code availability section should include a link to a public repository where the code used in the analysis is hosted, along with instructions for accessing and using the code.
 
 **Explanation**:  
-Centralizing code in a dedicated repository improves visibility, accessibility, and collaboration among researchers.
+This improvement makes it easier for other researchers to access and utilize the code for replication purposes.
 
 ### Suggestion 3
 
-**Location**: Abstract  
-**Category**: code_documentation  
-**Focus**: reproducibility  
+**Location**: Methods section  
+**Category**: methodology  
+**Focus**: documentation  
 
 **Original Text**:  
-> We report the processing speed for filtering and inference on Android and iOS devices.
+> The documentation of data collection methods is insufficient.
 
 **Improved Version**:  
-> We report the processing speed for filtering and inference on Android and iOS devices. To enhance reproducibility, provide detailed instructions on setting up the environment and running the code on different devices.
+> The methods section should provide detailed descriptions of data sources, collection procedures, and any ethical considerations involved in data collection.
 
 **Explanation**:  
-Detailed instructions improve reproducibility by ensuring consistent implementation across different platforms.
+Enhancing the documentation of data collection methods improves transparency and allows for better replication of the study.
 
 ### Suggestion 4
 
-**Location**: Methodology  
-**Category**: data_description  
-**Focus**: data_sharing  
+**Location**: Conclusion section  
+**Category**: conclusion  
+**Focus**: restrictions  
 
 **Original Text**:  
-> The height of each user was self-reported at the beginning of the fitness program.
+> The justification for access restrictions is not clearly articulated.
 
 **Improved Version**:  
-> The height of each user was self-reported at the beginning of the fitness program. Consider validating self-reported data with objective measurements to improve data accuracy.
+> In the conclusion, provide a detailed rationale for access restrictions, explaining how privacy and confidentiality concerns are addressed to justify restricted data access.
 
 **Explanation**:  
-Validation of self-reported data enhances data quality and reduces potential biases.
+Clear justification for access restrictions enhances transparency and helps readers understand the reasons behind restricted data access.
 
 ### Suggestion 5
 
-**Location**: Methodology  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> The training dataset has a significant gender imbalance.
-
-**Improved Version**:  
-> The training dataset has a significant gender imbalance. To address this, consider oversampling or data augmentation techniques to balance the gender distribution.
-
-**Explanation**:  
-Balancing the gender distribution improves model performance and generalizability.
-
-### Suggestion 6
-
-**Location**: Methodology  
-**Category**: code_documentation  
+**Location**: Discussion section  
+**Category**: discussion  
 **Focus**: reproducibility  
 
 **Original Text**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model.
+> The discussion lacks a detailed analysis of reproducibility considerations.
 
 **Improved Version**:  
-> We followed the hyperparameters used by Jin et al. (2022) in their state-of-the-art model. Consider conducting a hyperparameter search to optimize model performance further.
+> In the discussion, include a thorough analysis of data and code availability, highlighting the importance of reproducibility for validating study findings.
 
 **Explanation**:  
-Hyperparameter tuning can enhance model performance and robustness.
-
-### Suggestion 7
-
-**Location**: Code Documentation  
-**Category**: code_documentation  
-**Focus**: code_availability  
-
-**Original Text**:  
-> The code used for this study is available at the provided GitHub repository.
-
-**Improved Version**:  
-> The code used for this study is available at the provided GitHub repository. Include detailed README files with setup instructions, dependencies, and usage guidelines for better code accessibility.
-
-**Explanation**:  
-Comprehensive README files improve code usability and facilitate reproducibility.
-
-### Suggestion 8
-
-**Location**: Code Documentation  
-**Category**: code_documentation  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets.
-
-**Improved Version**:  
-> We encourage others to use our training scripts to develop their own models on alternative datasets. Provide a tutorial or guide on adapting the training scripts to different datasets for wider adoption.
-
-**Explanation**:  
-A tutorial or guide enhances the usability of the training scripts for researchers working with diverse datasets.
-
-### Suggestion 9
-
-**Location**: Conclusion  
-**Category**: code_availability  
-**Focus**: reproducibility  
-
-**Original Text**:  
-> The model weights trained on the proprietary dataset are not shared due to data privacy concerns.
-
-**Improved Version**:  
-> While model weights trained on the proprietary dataset are not shared due to data privacy concerns, consider providing a detailed model architecture description and training hyperparameters for transparency.
-
-**Explanation**:  
-Providing detailed model information enables researchers to understand the model's structure and training process.
-
-### Suggestion 10
-
-**Location**: Conclusion  
-**Category**: data_description  
-**Focus**: data_sharing  
-
-**Original Text**:  
-> No images taken from the proprietary dataset are shown in this paper.
-
-**Improved Version**:  
-> No images taken from the proprietary dataset are shown in this paper. Consider providing sample images with appropriate anonymization to demonstrate the dataset characteristics.
-
-**Explanation**:  
-Sample images with anonymization can help readers understand the dataset without compromising privacy.
+By addressing reproducibility considerations in the discussion, the study's credibility and transparency are enhanced.
 
 ### Detailed Feedback
 ### Data Sharing Assessment
 
-The study lacks transparency in data sharing practices due to the proprietary nature of the dataset. Providing a subset of the dataset with anonymization would enhance data sharing.
+The study lacks a clear data sharing policy and mechanism for accessing the data. Data sources, collection methods, and availability should be clearly documented to ensure transparency and reproducibility.
 
 ### Code Availability
 
-While the code is available, the lack of model weights and detailed model architecture information limits code availability and reproducibility.
+The availability and accessibility of the code used for analysis are not adequately addressed. Providing a public repository link and detailed instructions for code access is crucial for reproducibility.
 
 ### Documentation Completeness
 
-The methodology section lacks detailed explanations on model implementation and training, reducing clarity and reproducibility.
+The documentation of data collection methods is incomplete, impacting the transparency and replicability of the study. Detailed descriptions of data sources and collection procedures are essential.
 
 ### Restrictions Justification
 
-Access restrictions on the dataset are mentioned without clear justification, raising questions about transparency.
+The justification for access restrictions is vague, raising questions about the need for restricted data access. Clear articulation of privacy and confidentiality concerns is necessary to justify access restrictions.
 
 ### Reproducibility Support
 
-Limited discussion on the reproducibility of results on external datasets hinders the assessment of model generalizability.
+The study lacks a comprehensive analysis of reproducibility considerations, such as data and code availability. Addressing these aspects is crucial for ensuring the credibility and replicability of the research.
 
 ## R5 - Statistical Rigor
-### Score: 6/10
+### Score: 7/10
 
 ### Summary
-Overall, the study demonstrates a moderate level of statistical rigor, with appropriate test selection and assumption verification. However, there are critical issues related to sample size justification and outlier treatment that need to be addressed. The study could benefit from more explicit reporting of statistical measures such as confidence intervals and handling of missing data. Improvements in these areas would enhance the validity and credibility of the statistical analysis conducted in the study.
+The study demonstrates a good level of statistical rigor by using appropriate methods like linear mixed-effect models and reporting effect sizes. However, there are areas for improvement in sample size justification, p-value interpretation, missing data handling, and outlier treatment. Ensuring thorough assumption verification, addressing missing data, and providing clearer interpretations of statistical results would enhance the overall validity and reliability of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: sample_size  
 **Location**: Abstract  
-**Issue**: The sample size justification is lacking in the abstract, making it unclear why the dataset size was chosen.  
+**Issue**: The abstract mentions a sample size of 2,015 participants, but it does not provide any justification for this sample size.  
 **Severity**: medium  
-**Impact**: This affects the credibility of the study as the rationale behind the dataset size is not transparent.
+**Impact**: Lack of sample size justification can raise concerns about the representativeness and generalizability of the study findings.
 
 ### Remark 2
 
-**Category**: outliers  
-**Location**: Methodology  
-**Issue**: The text does not mention how outliers were handled in the dataset, which is crucial for ensuring data integrity.  
-**Severity**: high  
-**Impact**: This omission can lead to biased results and affect the validity of the statistical analysis.
+**Category**: p_value  
+**Location**: Results  
+**Issue**: The p-values are reported without any context or interpretation, making it difficult to understand the significance of the results.  
+**Severity**: medium  
+**Impact**: Misinterpretation of p-values can lead to incorrect conclusions about the statistical significance of the findings.
+
+### Remark 3
+
+**Category**: missing_data  
+**Location**: Data Preparation  
+**Issue**: The handling of missing data is not explicitly mentioned, raising concerns about the potential impact of missing data on the analysis.  
+**Severity**: medium  
+**Impact**: Ignoring missing data can bias the results and affect the validity of the statistical analysis.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: test_selection  
-
-**Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
-
-**Improved Version**:  
-> We achieved a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (comprising real-world data only) using full-torso images.
-
-**Explanation**:  
-Clarifies the description for better understanding.
-
-### Suggestion 2
-
-**Location**: Introduction  
-**Category**: introduction  
+**Location**: Results  
+**Category**: results  
 **Focus**: effect_size  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of the effect of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content, indicating a higher emphasis on self-monitoring behaviors.
 
 **Explanation**:  
-Enhances clarity and precision in describing the analysis conducted.
+Adding clarity to the comparison between self-tracking and content interaction behaviors.
 
-### Suggestion 3
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
-
-**Original Text**:  
-> We also evaluate our model’s generalizability on two additional external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
-
-**Improved Version**:  
-> Additionally, we assess the generalizability of our model on two external benchmark datasets: the full-body Celeb-FBI dataset and the face-only VIP-Attribute dataset.
-
-**Explanation**:  
-Improves the flow and coherence of the sentence.
-
-### Suggestion 4
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: multiple_comparisons  
-
-**Original Text**:  
-> The optimal number of clusters was determined to be 4 using the elbow criterion.
-
-**Improved Version**:  
-> We determined the optimal number of clusters to be 4 using the elbow criterion.
-
-**Explanation**:  
-Enhances clarity and conciseness in reporting the results.
-
-### Suggestion 5
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
-
-**Original Text**:  
-> We then train each model for 40 epochs with a batch size of 64, using the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
-
-**Improved Version**:  
-> Subsequently, we trained each model for 40 epochs with a batch size of 64, utilizing the Adam optimizer with a learning rate of 0.001 and weight decay of 0.0001.
-
-**Explanation**:  
-Improves readability and consistency in reporting the methodology.
-
-### Suggestion 6
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
-
-**Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, however, we leave all layers trainable during training.
-
-**Improved Version**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset, but all layers are left trainable during training.
-
-**Explanation**:  
-Clarifies the training process for better understanding.
-
-### Suggestion 7
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
-
-**Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
-
-**Improved Version**:  
-> We monitor Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, although these metrics are not utilized to guide training.
-
-**Explanation**:  
-Provides clarity on the role of the monitored metrics during training.
-
-### Suggestion 8
-
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: test_selection  
-
-**Original Text**:  
-> No further hyperparameter tuning was performed.
-
-**Improved Version**:  
-> No additional hyperparameter tuning was conducted.
-
-**Explanation**:  
-Enhances conciseness in reporting the methodology.
-
-### Suggestion 9
-
-**Location**: Results  
-**Category**: results  
-**Focus**: test_selection  
-
-**Original Text**:  
-> Table 3 displays the results of the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) for the different image perspectives on the WayBetter dataset.
-
-**Improved Version**:  
-> Table 3 presents the Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) results for the various image perspectives on the WayBetter dataset.
-
-**Explanation**:  
-Improves the introduction of the results table.
-
-### Suggestion 10
+### Suggestion 2
 
 **Location**: Discussion  
 **Category**: discussion  
-**Focus**: test_selection  
+**Focus**: effect_size  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences.
 
 **Improved Version**:  
-> Our model exhibits robust generalizability to unseen data, as evidenced by our assessment on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38% without prior training on this dataset.
+> The study indicates that sustained menstrual health tracking is associated with reduced negative menstrual health experiences.
 
 **Explanation**:  
-Enhances clarity and precision in describing the model's performance.
+Clarifying the causal relationship between tracking behavior and health outcomes.
+
+### Suggestion 3
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: assumption_verification  
+
+**Original Text**:  
+> The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
+
+**Improved Version**:  
+> The research obtained exemption from <university name masked for review>'s IRB board under the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to deidentification of data and absence of participant risks.
+
+**Explanation**:  
+Enhancing clarity and conciseness in reporting the ethical approval process.
 
 ### Detailed Feedback
 ### Test Selection
 
-The study appropriately selected the DenseNet201 architecture for BMI estimation, which is a suitable choice for image-based tasks. The use of the Adam optimizer with specific hyperparameters was also justified.
+The study appropriately used linear mixed-effect models to account for the hierarchical structure of the data and individual differences.
 
 ### Assumption Verification
 
-The study verified assumptions related to image quality, posture, and dataset integrity through filtering processes and clustering techniques. However, the handling of outliers was not explicitly mentioned.
+Assumptions of linear mixed-effect models, such as linearity, independence, and normality, should be explicitly verified to ensure the validity of the statistical analysis.
 
 ### Sample Size Justification
 
-The study justified the dataset size based on the need for a significantly larger dataset than previous studies. However, more explicit justification in terms of statistical power calculations or effect size considerations could enhance the rationale.
+The study lacks explicit justification for the sample size of 2,015 participants, which is crucial for ensuring adequate statistical power and generalizability of the findings.
 
 ### Multiple Comparison Handling
 
-The study appropriately used clustering techniques to handle multiple comparisons in posture analysis. However, a clear explanation of how multiple comparisons were adjusted in statistical testing would improve transparency.
+The study does not mention any specific methods for handling multiple comparisons, which can inflate Type I error rates and lead to false positives.
 
 ### Effect Size Reporting
 
-The study reported Mean Absolute Percentage Error (MAPE) and Mean Absolute Error (MAE) as effect size metrics, providing quantitative measures of model performance.
+The study appropriately reports effect sizes (β coefficients) in the results section, providing insights into the magnitude of relationships between variables.
 
 ### Confidence Intervals
 
-The study did not report confidence intervals, which could enhance the interpretation of the model's performance and provide insights into the variability of estimates.
+The study includes 95% confidence intervals for the estimated coefficients, which help assess the precision and uncertainty of the results.
 
 ### P Value Interpretation
 
-The study did not focus on p-value interpretation, as the evaluation was primarily based on model performance metrics rather than hypothesis testing.
+The interpretation of p-values is lacking context and explanation, making it challenging to understand the significance of the results.
 
 ### Statistical Power
 
-The study did not explicitly discuss statistical power calculations, which could provide insights into the reliability of the study findings and the likelihood of detecting true effects.
+The study does not explicitly discuss statistical power, which is essential for determining the likelihood of detecting true effects if they exist.
 
 ### Missing Data Handling
 
-The study did not address missing data handling explicitly, which is essential for ensuring data completeness and integrity in statistical analysis.
+The handling of missing data is not explicitly addressed, raising concerns about potential biases in the analysis.
 
 ### Outlier Treatment
 
-The study did not mention how outliers were handled, which is crucial for ensuring the robustness and validity of statistical analysis.
+The study does not mention any specific methods for outlier detection or treatment, which can impact the robustness of the statistical analysis.
 
 ## R6 - Technical Accuracy
 ### Score: 8/10
 
 ### Summary
-The research demonstrates strong technical accuracy in mathematical derivations, algorithm descriptions, and implementation details. However, improvements are needed in terminology explanation, equation clarity, and complexity analysis. The content is comprehensive and logically consistent, with effective handling of edge cases and detailed technical documentation.
+Overall, the text demonstrates a high level of technical accuracy, with well-structured mathematical derivations and logically consistent algorithms. However, improvements are needed in equation clarity, implementation details, and complexity analysis to enhance the overall technical quality of the content.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: terminology  
-**Location**: Abstract  
-**Issue**: The term 'Mean Absolute Percentage Error (MAPE)' is used without prior explanation or definition, assuming readers are already familiar with it.  
+**Category**: equations  
+**Location**: Mathematical Framework section  
+**Issue**: The presentation of equations lacks clarity and consistency, making it difficult for readers to follow the derivations.  
 **Severity**: medium  
-**Impact**: Readers unfamiliar with MAPE may struggle to understand the significance of the results.
+**Impact**: This affects the technical accuracy as unclear equations can lead to misinterpretation and errors in understanding the mathematical framework.
 
 ### Remark 2
 
-**Category**: equations  
-**Location**: Methodology - Image filtering  
-**Issue**: The equations for posture clustering using PCA and K-means are not provided, making it difficult to understand the exact mathematical operations.  
-**Severity**: high  
-**Impact**: Lack of clarity in equations hinders reproducibility and understanding of the methodology.
+**Category**: implementation  
+**Location**: Algorithm Description section  
+**Issue**: The implementation details provided are insufficient and lack depth, making it challenging to understand the practical application of the algorithms.  
+**Severity**: medium  
+**Impact**: Incomplete implementation details hinder the reproducibility and practical utility of the described algorithms.
+
+### Remark 3
+
+**Category**: complexity  
+**Location**: Technical Analysis section  
+**Issue**: The complexity analysis is cursory and lacks a detailed breakdown of algorithmic complexity, making it hard to assess efficiency.  
+**Severity**: medium  
+**Impact**: Inadequate complexity analysis limits the understanding of algorithm efficiency and scalability.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Results section  
+**Category**: results  
 **Focus**: completeness  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> The findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset, which represents real-world data only, using full-torso images.
+> The findings revealed that users engaged more frequently with tracking health experiences than with personalized health content.
 
 **Explanation**:  
-Clarifies that the hold-out test dataset consists of real-world data only.
+Clarifies that user engagement was higher for tracking health experiences, improving the precision of the statement.
 
 ### Suggestion 2
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: completeness  
-
-**Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Improved Version**:  
-> Furthermore, we conduct an analysis of the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
-
-**Explanation**:  
-Enhances the flow and clarity of the sentence.
-
-### Suggestion 3
-
-**Location**: Methodology - Computer Vision Model  
-**Category**: algorithm_description  
+**Location**: Methods section  
+**Category**: methodology  
 **Focus**: terminology  
 
 **Original Text**:  
-> The network is a DenseNet Convolutional Neural Network (CNN).
+> The dataset analyzed in this study includes menstruating individuals using hormonal contraception.
 
 **Improved Version**:  
-> The network architecture consists of a DenseNet Convolutional Neural Network (CNN).
+> The dataset analyzed in this study includes menstruating individuals who reported using hormonal contraception.
 
 **Explanation**:  
-Provides more context and clarity about the network architecture.
+Adds clarity by specifying that individuals self-reported their hormonal contraception use.
 
-### Suggestion 4
+### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
+**Location**: Results section  
+**Category**: results  
 **Focus**: completeness  
 
 **Original Text**:  
-> We split the dataset into training, test, and validation sets of 75%, 15%, and 10% respectively.
+> The dataset consisted of 2,015 participants, totaling 5,541 aggregated data points.
 
 **Improved Version**:  
-> The dataset is partitioned into training, test, and validation sets with proportions of 75%, 15%, and 10% respectively.
+> The dataset consisted of 2,015 unique users, totaling 5,541 aggregated data points.
 
 **Explanation**:  
-Clarifies the process of dataset splitting.
+Emphasizes the distinction between participants and data points for better clarity.
+
+### Suggestion 4
+
+**Location**: Results section  
+**Category**: results  
+**Focus**: terminology  
+
+**Original Text**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Improved Version**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behaviors.
+
+**Explanation**:  
+Maintains consistency in terminology and improves readability.
 
 ### Suggestion 5
 
-**Location**: Methodology - Training details  
-**Category**: algorithm_description  
-**Focus**: documentation  
+**Location**: Discussion section  
+**Category**: discussion  
+**Focus**: completeness  
 
 **Original Text**:  
-> We track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch but do not use these metrics to guide training.
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences.
 
 **Improved Version**:  
-> Although we track Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for each epoch, these metrics are not utilized to guide the training process.
+> The study indicates that consistent menstrual health tracking can lead to reduced negative menstrual health experiences.
 
 **Explanation**:  
-Clarifies the purpose of tracking metrics during training.
+Enhances clarity by specifying 'consistent' tracking for better understanding.
 
 ### Detailed Feedback
 ### Derivation Correctness
 
-The mathematical derivations are clear and logically sound, especially in the image filtering process using posture clustering.
+The mathematical derivations are logically sound and well-structured, providing a clear understanding of the analytical processes.
 
 ### Algorithm Accuracy
 
-The algorithm descriptions are detailed and provide a comprehensive overview of the deep learning model used for BMI estimation.
+The algorithms described are correct and logically consistent, ensuring the proper execution of the proposed methods.
 
 ### Terminology Accuracy
 
-The technical terminology is mostly accurate, but some terms like 'MAPE' could be explained for better understanding.
+The technical terminology used is appropriate and aligns with standard scientific language, enhancing the precision of communication.
 
 ### Equation Clarity
 
-Equations for posture clustering using PCA and K-means could be presented more explicitly to aid comprehension.
+While the equations are mostly correct, some lack clarity in presentation and could benefit from improved formatting and labeling.
 
 ### Content Completeness
 
-The content is comprehensive, covering dataset details, methodology, results, and discussion effectively.
+The technical content is comprehensive, covering various aspects of menstrual health tracking and user interactions with health content.
 
 ### Logical Consistency
 
-The logical flow of the research is consistent, with clear transitions between sections and subsections.
+The logical flow of the content is well-maintained, with clear transitions between sections and coherent argumentation throughout.
 
 ### Implementation Details
 
-The implementation details, such as dataset partitioning and model training, are well-described and provide insight into the process.
+The implementation details are somewhat lacking in depth, requiring more specific information on the practical application of the algorithms.
 
 ### Edge Case Handling
 
-The handling of edge cases, such as filtering unsuitable images, is addressed effectively with clear strategies.
+The handling of edge cases is not explicitly addressed, which may lead to uncertainties in algorithm performance under unusual scenarios.
 
 ### Complexity Analysis
 
-The complexity analysis is missing, especially regarding the computational complexity of the deep learning model and image processing techniques.
+The complexity analysis is brief and could benefit from a more detailed breakdown of algorithmic complexity to provide a thorough assessment of efficiency.
 
 ### Technical Documentation
 
-The technical documentation, including code availability and model deployment details, is thorough and enhances reproducibility.
+The technical documentation is adequate but could be enhanced by providing more detailed explanations of the methodologies and algorithms used.
 
 ## R7 - Consistency
-### Score: 5/10
+### Score: 7/10
 
 ### Summary
-The study demonstrates a comprehensive evaluation of BMI estimation from smartphone camera images using deep learning on a large-scale real-world dataset. While the methods and results are generally aligned, there are critical issues in consistency and coherence across sections. Improvements in terminology consistency, hypothesis testing alignment, and interpretation depth are essential for enhancing the logical flow and overall coherence of the study. Addressing issues related to citation consistency, figure-text alignment, and supplementary material integration would further strengthen the research presentation and readability.
+Overall, the study demonstrates good alignment between methods and results, with consistent terminology and hypothesis-testing alignment. However, improvements are needed in organizing the Results section for better logical flow and enhancing the connection between results and conclusions. Attention to detail in figure-text alignment and clarity in presenting the sample size will further enhance the coherence and consistency of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: methods_results  
-**Location**: Abstract  
-**Issue**: The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset, but the actual results section reports MAPE values for different datasets and perspectives.  
+**Location**: Section 2.2.1  
+**Issue**: The text mentions 2,015 participants in the sample, but the flow diagram in Fig. 2 shows a total of 7,455 users. This discrepancy needs clarification.  
 **Severity**: medium  
-**Impact**: This inconsistency affects the alignment between the methods described in the abstract and the detailed results presented.
+**Impact**: Confusion in understanding the actual sample size and data representation.
 
 ### Remark 2
 
 **Category**: results_conclusions  
-**Location**: Results section  
-**Issue**: The results section provides detailed MAPE values for different datasets and perspectives, but the conclusions do not directly reference these specific results.  
+**Location**: Section 2.3  
+**Issue**: The association between user tracking behavior and self-reported menstrual health experiences needs more detailed explanation to bridge the gap between results and conclusions.  
 **Severity**: medium  
-**Impact**: This inconsistency weakens the link between the results obtained and the conclusions drawn from them.
+**Impact**: Lack of clarity in linking the findings to the study's main objectives.
 
 ### Remark 3
 
 **Category**: logical_flow  
-**Location**: Introduction  
-**Issue**: The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods, but it lacks a clear transition to the specific methodology used in the study.  
-**Severity**: medium  
-**Impact**: This lack of clear connection affects the logical flow between the introduction and the methodology section.
-
-### Remark 4
-
-**Category**: terminology  
-**Location**: Results section  
-**Issue**: The term 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.  
-**Severity**: medium  
-**Impact**: This inconsistency in terminology may confuse readers and hinder accurate interpretation of the results.
-
-### Remark 5
-
-**Category**: hypothesis  
-**Location**: Introduction  
-**Issue**: The introduction mentions previous studies achieving specific MAPE values, but it does not clearly state the hypothesis or research question of the current study.  
-**Severity**: medium  
-**Impact**: This lack of explicit hypothesis statement affects the alignment between the existing research context and the study's objectives.
-
-### Remark 6
-
-**Category**: interpretation  
-**Location**: Results section  
-**Issue**: The interpretation of results focuses on performance metrics but lacks deeper analysis of the implications of the findings for real-world applications.  
-**Severity**: medium  
-**Impact**: This limited interpretation hinders the discussion of practical implications and potential use cases of the study.
-
-### Remark 7
-
-**Category**: citations  
-**Location**: Literature Review  
-**Issue**: The literature review cites various studies without consistent formatting or citation style.  
-**Severity**: low  
-**Impact**: While not critical, inconsistent citation formatting may detract from the professionalism of the research.
-
-### Remark 8
-
-**Category**: figures  
-**Location**: Results section  
-**Issue**: The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.  
-**Severity**: medium  
-**Impact**: This lack of clear alignment between figures and text may confuse readers and reduce the effectiveness of visual aids.
-
-### Remark 9
-
-**Category**: tables  
-**Location**: Results section  
-**Issue**: The tables presented do not always correspond directly to the specific results discussed in the text.  
-**Severity**: medium  
-**Impact**: This inconsistency between tables and text may lead to confusion and hinder accurate data interpretation.
-
-### Remark 10
-
-**Category**: supplementary  
-**Location**: Supplementary section  
-**Issue**: The supplementary material lacks direct integration with the main text, making it challenging for readers to access additional details.  
-**Severity**: low  
-**Impact**: While not critical, better integration of supplementary material could enhance the overall coherence and completeness of the study.
+**Location**: Throughout the Results section  
+**Issue**: The Results section lacks a clear sub-section structure, making it challenging to follow the flow of information.  
+**Severity**: high  
+**Impact**: Difficulty in understanding the progression of results and their implications.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: results_conclusions  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: alignment with methodology  
 
 **Original Text**:  
-> The abstract mentions a Mean Absolute Percentage Error (MAPE) of 8% on the hold-out test dataset.
+> The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of n = 7,455 menstruating individuals aged between 18 and 49 years.
 
 **Improved Version**:  
-> The abstract should provide a concise summary of the key results, including the MAPE values achieved on different datasets and perspectives.
+> The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of 7,455 users, of which 2,015 were menstruating individuals aged between 18 and 49 years.
 
 **Explanation**:  
-This improvement ensures that the abstract aligns with the detailed results presented in the study, enhancing coherence.
+Clarifies the total number of users and specifies the subset of menstruating individuals in the sample.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: logical_flow  
-
-**Original Text**:  
-> The introduction discusses the importance of BMI estimation and the need for faster weight estimation methods.
-
-**Improved Version**:  
-> The introduction should clearly outline how the study's methodology addresses the need for faster weight estimation methods, providing a seamless transition to the methodology section.
-
-**Explanation**:  
-This improvement enhances the logical flow by establishing a direct link between the introduction and the methodology.
-
-### Suggestion 3
-
-**Location**: Results section  
+**Location**: Section 2.1.2  
 **Category**: results  
-**Focus**: results_conclusions  
+**Focus**: results-conclusions alignment  
 
 **Original Text**:  
-> The results section provides detailed MAPE values for different datasets and perspectives.
+> The findings indicate that recommended physical health videos were negatively associated with user content interactions.
 
 **Improved Version**:  
-> Ensure that the conclusions directly reference the specific MAPE values obtained for each dataset and perspective, reinforcing the significance of the results.
+> The findings suggest an inverse association between recommended physical health videos and user content interactions.
 
 **Explanation**:  
-This enhancement strengthens the alignment between the results presented and the conclusions drawn from them.
-
-### Suggestion 4
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: terminology  
-
-**Original Text**:  
-> The terminology 'Mean Absolute Error (MAE)' is used inconsistently, sometimes referring to BMI units and sometimes to kilograms or pounds.
-
-**Improved Version**:  
-> Consistently use 'Mean Absolute Error (MAE)' to refer to the error metric in BMI estimation, avoiding confusion with weight units.
-
-**Explanation**:  
-This consistency in terminology improves clarity and ensures accurate interpretation of the results.
-
-### Suggestion 5
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: hypothesis  
-
-**Original Text**:  
-> The introduction mentions previous studies achieving specific MAPE values.
-
-**Improved Version**:  
-> Explicitly state the hypothesis or research question of the study, highlighting the specific objectives and expected outcomes.
-
-**Explanation**:  
-This clarification enhances the alignment between the existing research context and the study's goals.
-
-### Suggestion 6
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: interpretation  
-
-**Original Text**:  
-> The interpretation of results focuses on performance metrics.
-
-**Improved Version**:  
-> Provide deeper analysis of how the study findings can be applied in real-world scenarios, discussing practical implications and potential use cases.
-
-**Explanation**:  
-This enriched interpretation enhances the discussion of the study's relevance and applicability.
-
-### Suggestion 7
-
-**Location**: Literature Review  
-**Category**: literature  
-**Focus**: citations  
-
-**Original Text**:  
-> The literature review cites various studies without consistent formatting or citation style.
-
-**Improved Version**:  
-> Ensure consistent formatting and citation style for all references in the literature review section.
-
-**Explanation**:  
-This improvement enhances the professionalism and credibility of the research by maintaining a uniform citation format.
-
-### Suggestion 8
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: figures  
-
-**Original Text**:  
-> The figures mentioned in the text are not directly aligned with specific results or analyses discussed in the text.
-
-**Improved Version**:  
-> Ensure that each figure is explicitly referenced and explained in the text, providing clear alignment between visual aids and textual content.
-
-**Explanation**:  
-This alignment enhances the effectiveness of visual aids in supporting the textual explanations.
-
-### Suggestion 9
-
-**Location**: Results section  
-**Category**: results  
-**Focus**: tables  
-
-**Original Text**:  
-> The tables presented do not always correspond directly to the specific results discussed in the text.
-
-**Improved Version**:  
-> Ensure that each table is introduced and explained in the text, directly linking the table content to the relevant results or analyses.
-
-**Explanation**:  
-This direct correspondence enhances the clarity and accuracy of data interpretation for readers.
-
-### Suggestion 10
-
-**Location**: Supplementary section  
-**Category**: supplementary  
-**Focus**: supplementary  
-
-**Original Text**:  
-> The supplementary material lacks direct integration with the main text.
-
-**Improved Version**:  
-> Integrate references to supplementary material within the main text where relevant, providing readers with easy access to additional details.
-
-**Explanation**:  
-This integration enhances the completeness and coherence of the study by making supplementary information more accessible.
+Provides a clearer and more specific statement on the relationship observed.
 
 ### Detailed Feedback
 ### Methods Results Alignment
 
-The methods and results are aligned in terms of presenting the approach used and the outcomes obtained. However, the detailed results could be more explicitly linked back to the specific methods employed.
+The methods and results are well-aligned, with clear descriptions of data collection and analysis methods leading to the reported findings.
 
 ### Results Conclusions Alignment
 
-The results are presented in detail, but the conclusions could better reflect the specific findings and their implications. Strengthening the direct link between results and conclusions is essential.
+The results are generally aligned with the conclusions, but some areas require more explicit connections to ensure a seamless transition.
 
 ### Logical Flow
 
-The logical flow between sections is generally coherent, but there could be clearer transitions between the introduction and methodology to improve the overall structure of the paper.
+The logical flow within the Results section needs improvement by organizing the content into clearer sub-sections to enhance readability and understanding.
 
 ### Terminology Consistency
 
-While the terminology is mostly consistent, there are instances of confusion between MAE and weight units. Ensuring consistent use of terms throughout the paper is crucial for clarity.
+The terminology used is consistent throughout the text, maintaining clarity and coherence.
 
 ### Hypothesis Testing
 
-The study lacks a clear statement of the hypothesis or research question, which could enhance the focus and direction of the research. Explicitly stating the research objectives is essential for hypothesis testing alignment.
+The study effectively aligns the research questions with the data analysis methods, providing a robust framework for hypothesis testing.
 
 ### Interpretation Consistency
 
-The interpretation of results focuses on performance metrics but lacks deeper analysis of practical implications. Enhancing the discussion of real-world applications based on the findings would improve interpretation consistency.
+The interpretation of results is consistent with the study objectives, but some areas could benefit from more detailed explanations.
 
 ### Citation Consistency
 
-While the literature review provides relevant citations, there are inconsistencies in formatting and citation style. Maintaining a uniform citation format throughout the paper is necessary for consistency and professionalism.
+Citations are consistent and appropriately used to support the presented information.
 
 ### Figure Text Alignment
 
-The figures mentioned in the text do not always align directly with specific results or analyses discussed. Ensuring clear references and explanations for each figure in the text would enhance alignment and understanding.
+The alignment between figures and text is generally good, providing visual aids to complement the narrative.
 
 ### Table Text Alignment
 
-The tables presented may not always correspond directly to the specific results discussed in the text. Introducing and explaining each table in relation to the relevant results would improve alignment and data interpretation.
+Tables are appropriately referenced in the text, enhancing the understanding of the presented data.
 
 ### Supplementary Consistency
 
-The supplementary material is not seamlessly integrated with the main text, making it challenging for readers to access additional details. Integrating references to supplementary material within the main text would enhance coherence and completeness.
+The supplementary material complements the main text and provides additional context and details.
 
 ### Writing Agents (W1-W8)
 
@@ -3186,386 +2849,416 @@ The supplementary material is not seamlessly integrated with the main text, maki
 ### Score: 7/10
 
 ### Summary
-The text demonstrates strong academic writing conventions with minor grammar and citation issues. Improvements in subject-verb agreement, punctuation, and reference formatting can enhance clarity and professionalism.
+Overall, the text demonstrates good grammar and adherence to academic writing conventions. However, there are areas for improvement in sentence structure, spelling accuracy, and punctuation usage to enhance readability and clarity. Attention to verb tense consistency, subject-verb agreement, and article usage could further refine the language style.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: grammar  
 **Location**: Abstract  
-**Issue**: Misplaced hyphen in 'real-world' dataset.  
-**Severity**: low  
-**Impact**: Minor impact on readability.
+**Issue**: Run-on sentence: 'Widespread gaps in menstrual health literacy – fueled by stigma, cultural taboos, and particularly, a lack of accessible education – have contributed to a longstanding neglect of menstrual health awareness and support.'  
+**Severity**: medium  
+**Impact**: Affects readability due to lack of clarity and coherence.
 
 ### Remark 2
 
-**Category**: subject_verb  
-**Location**: Introduction  
-**Issue**: Subject-verb agreement error in 'Body weight and weight changes are essential indicators.'  
-**Severity**: medium  
-**Impact**: Affects the clarity of the sentence.
+**Category**: spelling  
+**Location**: Abstract  
+**Issue**: Misspelled word: 'pbonferroni' should be 'Bonferroni'.  
+**Severity**: low  
+**Impact**: Minor spelling error that may affect credibility.
 
 ### Remark 3
 
-**Category**: academic_conventions  
-**Location**: References  
-**Issue**: Missing DOI for some references.  
+**Category**: sentence_structure  
+**Location**: Introduction  
+**Issue**: Complex sentence structure: 'However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.'  
 **Severity**: medium  
-**Impact**: Lack of proper citation information.
+**Impact**: Difficult to follow due to convoluted sentence structure.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
 **Category**: abstract  
-**Focus**: punctuation  
+**Focus**: sentence_structure  
 
 **Original Text**:  
-> real-world dataset
+> Widespread gaps in menstrual health literacy – fueled by stigma, cultural taboos, and particularly, a lack of accessible education – have contributed to a longstanding neglect of menstrual health awareness and support.
 
 **Improved Version**:  
-> real world dataset
+> Widespread gaps in menstrual health literacy, fueled by stigma, cultural taboos, and a lack of accessible education, have led to a long-standing neglect of menstrual health awareness and support.
 
 **Explanation**:  
-Hyphen is not needed in this context.
+Simplified the sentence structure for better readability and clarity.
 
 ### Suggestion 2
 
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: subject_verb  
+**Location**: Abstract  
+**Category**: abstract  
+**Focus**: spelling  
 
 **Original Text**:  
-> Body weight and weight changes are essential indicators.
+> pbonferroni
 
 **Improved Version**:  
-> Body weight and weight changes are essential indicators of health and disease risk.
+> Bonferroni
 
 **Explanation**:  
-Added clarity and completeness to the sentence.
+Corrected the spelling of the statistical term 'Bonferroni'.
 
 ### Suggestion 3
 
-**Location**: References  
-**Category**: references  
-**Focus**: academic_conventions  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: sentence_structure  
 
 **Original Text**:  
-> doi: 10.1186/s12916-021-02188-x.
+> However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.
 
 **Improved Version**:  
-> DOI: 10.1186/s12916-021-02188-x.
+> Research suggests that improving menstrual health awareness and literacy can enhance well-being and health outcomes.
 
 **Explanation**:  
-Standardize the format for DOI references.
+Simplified the sentence structure and improved clarity.
 
 ### Detailed Feedback
 ### Grammar Correctness
 
-The text generally demonstrates good grammar, with occasional errors like misplaced hyphens.
+The text generally demonstrates good grammar usage, but there are instances of run-on sentences and complex structures that could be simplified for better clarity.
 
 ### Spelling Accuracy
 
-Spelling is accurate throughout the text.
+Spelling is mostly accurate, but there are a few minor errors that need attention, such as 'pbonferroni'.
 
 ### Punctuation Usage
 
-Punctuation is mostly correct, but there are instances of missing commas or incorrect usage.
+Punctuation is used correctly overall, but there are areas where clarity could be improved with better punctuation choices.
 
 ### Sentence Structure
 
-Sentences are well-structured, but some could benefit from varied lengths for better flow.
+The sentence structure is varied, with some sentences being overly complex or run-on. Simplifying the structure would enhance readability.
 
 ### Verb Tense Consistency
 
-Verb tenses are consistent within sentences and paragraphs.
+Verb tenses are generally consistent, but there are a few instances where tense changes could be smoother for better flow.
 
 ### Subject Verb Agreement
 
-Subject-verb agreement is generally correct, but there are a few instances of errors.
+Subject-verb agreement is mostly correct, but there are a few instances where agreement could be improved for better clarity.
 
 ### Article Usage
 
-Articles are used appropriately in most cases.
+Articles are used appropriately, but there are areas where the choice of articles could be optimized for smoother reading.
 
 ### Preposition Usage
 
-Prepositions are generally used correctly, but there are a few instances of awkward phrasing.
+Prepositions are generally used correctly, but there are instances where prepositions could be better placed for clearer meaning.
 
 ### Conjunction Usage
 
-Conjunctions are used effectively to connect ideas and maintain coherence.
+Conjunctions are used effectively to connect ideas, but there are areas where conjunction choices could be refined for better coherence.
 
 ### Academic Conventions
 
-The text follows academic writing conventions well, but some references lack complete citation details.
+The text adheres to academic writing conventions well, with appropriate citation language and technical descriptions.
 
 ## W2 - Narrative and Structure
 ### Score: 7/10
 
 ### Summary
-Overall, the research demonstrates a well-structured narrative with logical progression and adequate paragraph organization. However, improvements are needed in evidence integration, conclusion alignment, and smoother section transitions to enhance narrative coherence and reader engagement.
+The research demonstrates a structured approach to investigating menstrual health experiences but requires improvements in paragraph organization, evidence integration, and conclusion alignment. Enhancing topic sentence effectiveness, visual element integration, and reader engagement can further elevate the narrative coherence and impact of the study.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: paragraph_organization  
-**Location**: Abstract  
-**Issue**: The abstract lacks a clear structure and concise summary of the study.  
+**Location**: Introduction  
+**Issue**: The introduction lacks a clear roadmap or preview of the subsequent sections, making it challenging for readers to anticipate the content flow.  
 **Severity**: medium  
-**Impact**: Readers may struggle to grasp the main objectives and findings of the research.
+**Impact**: Readers may struggle to grasp the overall structure of the research, leading to potential confusion and reduced engagement.
 
 ### Remark 2
 
 **Category**: evidence_integration  
-**Location**: Introduction  
-**Issue**: The introduction mentions past studies but lacks integration of their findings into the current research context.  
+**Location**: Results section  
+**Issue**: The presentation of data lacks contextualization and detailed explanation, making it difficult for readers to interpret the findings effectively.  
 **Severity**: high  
-**Impact**: The lack of evidence integration weakens the foundation of the study.
+**Impact**: Without proper integration of evidence, readers may struggle to understand the significance of the results and their implications.
 
 ### Remark 3
 
 **Category**: conclusion_alignment  
-**Location**: Conclusion  
-**Issue**: The conclusion briefly summarizes the results but fails to tie them back to the introduction.  
+**Location**: Discussion  
+**Issue**: The discussion section does not directly link the results to the research questions, leading to a disconnect between findings and their relevance.  
 **Severity**: medium  
-**Impact**: The disconnect between the conclusion and introduction may confuse readers.
+**Impact**: Failure to align the discussion with the research questions can diminish the coherence of the study and weaken the conclusion's impact.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Introduction  
-**Category**: literature  
-**Focus**: logical_progression  
+**Location**: Abstract  
+**Category**: abstract  
+**Focus**: narrative_coherence  
 
 **Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
+> Menstrual health remains underrecognized and underserved in public health, despite its fundamental role in the physical, mental, and social well-being of nearly half the global population.
 
 **Improved Version**:  
-> Current computer vision-based BMI estimation approaches have primarily focused on datasets containing up to 7,211 full-body images or 14,500 facial images.
+> Despite its crucial impact on the physical, mental, and social well-being of almost half the global population, menstrual health continues to be inadequately acknowledged and supported in public health.
 
 **Explanation**:  
-Clarifies the focus on current approaches and improves readability.
+Restructuring the sentence to emphasize the importance of menstrual health and improve readability.
 
 ### Suggestion 2
 
-**Location**: Results  
-**Category**: discussion  
+**Location**: Introduction  
+**Category**: introduction  
 **Focus**: logical_progression  
 
 **Original Text**:  
-> Moreover, we analyze the impact of image perspective on BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.
 
 **Improved Version**:  
-> Furthermore, we conduct an analysis of how image perspective affects BMI estimation performance within our real-world dataset, comparing full-body, torso-up, and face-only images.
+> Research indicates that improving menstrual health awareness and literacy can enhance well-being and health outcomes.
 
 **Explanation**:  
-Enhances clarity and strengthens the connection between the analysis and the dataset.
+Enhancing clarity and conciseness in conveying the impact of menstrual health awareness.
+
+### Suggestion 3
+
+**Location**: Results  
+**Category**: results  
+**Focus**: logical_progression  
+
+**Original Text**:  
+> Our findings revealed that users tracked health experiences (n = 359,194 logs) more frequently than they interacted with personalized health content (n = 12,937 logs).
+
+**Improved Version**:  
+> The analysis indicated that users engaged more in tracking health experiences (n = 359,194 logs) compared to interacting with personalized health content (n = 12,937 logs).
+
+**Explanation**:  
+Clarifying the comparison between user behaviors for better understanding.
+
+### Suggestion 4
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: paragraph_organization  
+
+**Original Text**:  
+> The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of n = 7,455 menstruating individuals aged between 18 and 49 years.
+
+**Improved Version**:  
+> Data collection spanned from November 7, 2023, to March 31, 2024, involving a cohort of n = 7,455 menstruating individuals aged 18 to 49 years.
+
+**Explanation**:  
+Streamlining the description of the study sample and timeline for clarity.
+
+### Suggestion 5
+
+**Location**: Methodology  
+**Category**: methodology  
+**Focus**: topic_sentences  
+
+**Original Text**:  
+> To answer RQ 2, and to assess how tracking and content engagement behaviors within the app associate with the direction and intensity of self-reported menstrual health experiences, we modeled two dependent variables: (1) the average intensity of negative menstrual health experiences and (2) the average intensity of positive menstrual health experiences.
+
+**Improved Version**:  
+> To address RQ 2 and evaluate the relationship between tracking and content engagement behaviors within the app and self-reported menstrual health experiences, we analyzed two dependent variables: (1) the average intensity of negative menstrual health experiences and (2) the average intensity of positive menstrual health experiences.
+
+**Explanation**:  
+Enhancing clarity and coherence in presenting the research focus and methodology.
 
 ### Detailed Feedback
 ### Narrative Coherence
 
-The text demonstrates a coherent flow of ideas, with clear connections between sections and subsections.
+The narrative flow is generally coherent, with a logical progression of ideas from the abstract to the conclusion. However, some sections lack clear transitions, impacting the overall coherence.
 
 ### Logical Progression
 
-The logical progression of ideas is generally well-maintained, with a clear development of the research topic.
+The logical progression of ideas is evident, with a structured approach to presenting research questions, methods, results, and discussion. However, some sections could benefit from better integration of evidence to strengthen the logical flow.
 
 ### Section Transitions
 
-Transitions between sections are adequate, but some sections could benefit from smoother transitions to enhance overall coherence.
+Transitions between sections are somewhat abrupt, requiring smoother connections to enhance the overall flow of the narrative.
 
 ### Paragraph Organization
 
-Paragraphs are generally well-structured, but some paragraphs could be more focused on a single idea to improve clarity.
+Paragraph organization is generally clear, but some paragraphs could be more focused and structured to improve readability and coherence.
 
 ### Topic Sentence Effectiveness
 
-Topic sentences effectively introduce the main idea of paragraphs, aiding in reader comprehension.
+Topic sentences effectively introduce the main ideas in most sections, setting the stage for subsequent discussions. However, enhancing the specificity and relevance of topic sentences could further improve the narrative structure.
 
 ### Supporting Evidence Integration
 
-The integration of supporting evidence is lacking in some sections, impacting the depth of analysis and argumentation.
+The integration of supporting evidence is adequate but could be enhanced by providing more detailed explanations and contextualization of data to strengthen the arguments.
 
 ### Conclusion Alignment
 
-The conclusion aligns with the main findings but could be strengthened by directly referencing the introduction and research questions.
+The conclusion aligns well with the research findings but could be strengthened by directly linking back to the research questions and hypotheses to provide a more cohesive closure.
 
 ### Hypothesis Tracking
 
-The research question and hypothesis are clearly stated and tracked throughout the study, providing a strong foundation for the research.
+The research questions and hypotheses are clearly defined and tracked throughout the study, ensuring alignment between the objectives and the analysis.
 
 ### Visual Element Integration
 
-Visual elements are used effectively to support the text, providing additional context and aiding in understanding.
+Visual elements are lacking in the text, limiting the presentation of data and potentially reducing reader engagement. Including relevant figures and tables could enhance the visual narrative.
 
 ### Reader Engagement
 
-The text engages readers through a mix of technical details and practical implications, making the research accessible and relevant.
+Reader engagement is moderate, with opportunities to improve by enhancing the narrative coherence, integrating more visual elements, and providing clearer transitions between sections.
 
 ## W3 - Clarity and Conciseness
-### Score: 7/10
+### Score: 5/10
 
 ### Summary
-The text exhibits a moderate level of clarity and conciseness, with room for improvement in simplifying language, reducing jargon, and enhancing readability. Addressing issues related to wordiness, redundancy, and ambiguity would significantly enhance the overall quality of the content.
+The text exhibits a mix of issues related to jargon usage, wordiness, and redundancy, impacting clarity and conciseness. Simplifying language, reducing technical terms, and streamlining content through concise writing would significantly enhance readability and accessibility for a broader audience.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: jargon  
 **Location**: Abstract  
-**Issue**: The use of technical terms like 'Mean Absolute Percentage Error (MAPE)' without explanation may hinder understanding for non-experts.  
-**Severity**: medium  
-**Impact**: Reduces accessibility and clarity for readers unfamiliar with the terminology.
+**Issue**: Complex jargon like 'linear mixed-effect models' may hinder understanding for non-experts.  
+**Severity**: high  
+**Impact**: Reduces accessibility and clarity of the abstract.
 
 ### Remark 2
 
 **Category**: wordiness  
 **Location**: Introduction  
-**Issue**: The introduction contains verbose descriptions of chronic diseases associated with high BMI, which could be more concise.  
-**Severity**: low  
-**Impact**: Increases unnecessary text length and may lose reader interest.
+**Issue**: The introduction contains verbose explanations of menstrual health without getting to the main research focus quickly.  
+**Severity**: medium  
+**Impact**: Increases reader fatigue and delays key message delivery.
 
 ### Remark 3
 
 **Category**: redundancy  
-**Location**: Methodology  
-**Issue**: Repetitive use of 'images' and 'dataset' in close proximity within the same paragraph.  
+**Location**: Results  
+**Issue**: Repetitive mention of 'menstrual health experiences' without adding new information.  
 **Severity**: low  
-**Impact**: Creates redundancy and can be confusing for readers.
+**Impact**: Adds unnecessary bulk to the text without enhancing understanding.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: abstract  
+**Location**: Methodology  
+**Category**: methodology  
 **Focus**: language_simplicity  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible.
+> We conducted a longitudinal observational study using linear mixed-effect models to examine how users’ tracking behaviors and interactions with personalized health content delivered via an artificial intelligence (AI) driven recommender system affected their self-reported menstrual health experiences.
 
 **Improved Version**:  
-> Estimating BMI from camera images enables quick weight assessment in challenging scenarios.
+> We conducted a study to analyze how user interactions with personalized health content via an AI-driven recommender system influenced their self-reported menstrual health experiences.
 
 **Explanation**:  
-Simplifies the language and reduces wordiness for better comprehension.
+Simplified language and removed technical jargon for better comprehension.
 
 ### Suggestion 2
-
-**Location**: Abstract  
-**Category**: abstract  
-**Focus**: sentence_length  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Recent BMI estimation methods using computer vision have mostly used datasets with around 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Restructures the sentence for better flow and clarity.
-
-### Suggestion 3
-
-**Location**: Introduction  
-**Category**: introduction  
-**Focus**: language_simplicity  
-
-**Original Text**:  
-> In medical emergencies, there is a well-documented need for faster weight estimation methods.
-
-**Improved Version**:  
-> Medical emergencies require rapid weight estimation methods.
-
-**Explanation**:  
-Concise wording conveys the same message more effectively.
-
-### Suggestion 4
 
 **Location**: Discussion  
 **Category**: discussion  
 **Focus**: wordiness  
 
 **Original Text**:  
-> Our model demonstrates strong generalizability to unseen data, as demonstrated by our evaluation on the full-body Visual-Body-To-BMI dataset, achieving a MAPE of 13.38%, despite not being trained on this dataset at all.
+> Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors (i.e., number of symptom logs) associated with improvements in menstrual health awareness, literacy, and outcomes.
 
 **Improved Version**:  
-> Our model shows robust generalizability to new data, achieving a MAPE of 13.38% on the Visual-Body-To-BMI dataset without prior training.
+> However, existing research on menstrual health apps has predominantly emphasized metrics like app usage frequency and symptom tracking, overlooking the impact of user engagement with health-related content.
 
 **Explanation**:  
-Streamlines the sentence for better readability and clarity.
+Condensed the information and simplified the language for clarity.
+
+### Suggestion 3
+
+**Location**: Results  
+**Category**: results  
+**Focus**: wordiness  
+
+**Original Text**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Improved Version**:  
+> A significant link was found between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Explanation**:  
+Reduced unnecessary wording for concise communication.
 
 ### Detailed Feedback
 ### Language Simplicity
 
-The text generally uses technical language and terms that may be challenging for non-experts to understand. Simplifying complex terms and explanations would enhance clarity and accessibility.
+The text uses technical terms and complex language that may hinder understanding for non-experts. Simplifying the language and avoiding jargon would enhance clarity.
 
 ### Jargon Usage
 
-The text contains a significant amount of jargon and technical terms without adequate explanations. Providing definitions or simplifying terminology would improve comprehension for a wider audience.
+The text is laden with technical jargon like 'linear mixed-effect models' and 'observational study,' which may be challenging for readers unfamiliar with these terms. Simplifying the language and providing explanations for technical terms would improve accessibility.
 
 ### Wordiness
 
-Certain sections exhibit wordiness, leading to unnecessary repetition and verbose descriptions. Streamlining sentences and removing redundant phrases would enhance conciseness.
+The text tends to be verbose, with repetitive explanations and unnecessary details that could be streamlined for better conciseness. Removing redundant information and focusing on essential points would enhance readability.
 
 ### Sentence Length
 
-The text contains a mix of long and short sentences. Some sentences could be shortened for better readability and flow, while others may benefit from more elaboration to clarify complex concepts.
+The sentences are often long and complex, making it challenging for readers to follow the text easily. Breaking down lengthy sentences into shorter, more digestible ones would improve readability.
 
 ### Paragraph Length
 
-Paragraphs vary in length, with some being overly long and others too brief. Balancing paragraph length for coherence and emphasis on key points would improve overall structure.
+Paragraphs are lengthy and cover multiple ideas, leading to information overload. Breaking down paragraphs into smaller, focused segments would enhance clarity and organization.
 
 ### Active Passive Voice
 
-The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would enhance readability and clarity.
+The text predominantly uses passive voice, which can make sentences less engaging and direct. Incorporating more active voice would improve readability and engagement.
 
 ### Redundancy
 
-Certain sections exhibit redundancy through repetitive use of terms or concepts. Removing redundant information and restructuring sentences would improve overall coherence.
+There are instances of redundant information, such as repetitive mentions of the same concepts without adding new insights. Removing redundancy would streamline the text and improve clarity.
 
 ### Ambiguity
 
-The text occasionally introduces ambiguity through unclear phrasing or vague descriptions. Providing more specific details and clarifications would enhance reader understanding.
+Certain sections contain ambiguous phrases or unclear explanations that may confuse readers. Providing precise and explicit details would eliminate ambiguity and enhance understanding.
 
 ### Readability
 
-Overall, the text is readable but could benefit from simplification of language, reduction of jargon, and clearer explanations. Improving readability would enhance accessibility for a wider audience.
+Overall, the text's readability could be improved by simplifying language, reducing jargon, breaking down complex sentences, and enhancing paragraph structure for better flow and comprehension.
 
 ### Information Density
 
-The text contains a high level of information density, presenting complex concepts and technical details. Balancing information density with clarity and simplicity would improve overall comprehension.
+The text contains dense information without sufficient breaks or explanations, making it challenging for readers to absorb the content easily. Balancing information density with clear explanations and visual aids would enhance comprehension.
 
 ## W4 - Terminology Consistency
 ### Score: 7/10
 
 ### Summary
-The text demonstrates a good level of terminology consistency overall, with clear usage of technical terms and field-specific terminology. However, there are some areas of improvement needed, such as maintaining consistency in variable naming, unit notation, and abbreviation usage. Addressing these issues can enhance the clarity and professionalism of the research paper.
+The text exhibits a good level of terminology consistency overall, with minor inconsistencies in term usage, acronyms, and variable naming. Improvements in these areas would enhance clarity and readability for readers. Notation, unit notation, and abbreviation consistency are well-maintained, contributing to the text's coherence. Ensuring consistent definitions and cross-references would further strengthen the scholarly quality of the research.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: term_usage  
-**Location**: Abstract  
-**Issue**: Inconsistency in using 'BMI estimation' and 'weight estimation' interchangeably.  
+**Location**: Introduction  
+**Issue**: Inconsistent use of terms 'menstrual health' and 'menstrual cycle health' throughout the text.  
 **Severity**: medium  
-**Impact**: Confusion for readers regarding the specific focus of the study.
+**Impact**: Confusion for readers and lack of clarity in conveying the intended meaning.
 
 ### Remark 2
 
-**Category**: variable_naming  
-**Location**: Methodology  
-**Issue**: Inconsistent variable naming conventions for image perspectives (e.g., 'full-body', 'torso-up', 'face-only').  
-**Severity**: medium  
-**Impact**: May lead to confusion in understanding the methodology and results.
+**Category**: acronyms  
+**Location**: Abstract  
+**Issue**: Acronym 'DHTs' is used without prior definition, potentially causing confusion.  
+**Severity**: low  
+**Impact**: Readers unfamiliar with the term may struggle to understand the context.
 
 ### Remark 3
 
-**Category**: unit_notation  
+**Category**: variable_naming  
 **Location**: Results  
-**Issue**: Mixing units for weight measurement (kg, lbs) without clear distinction or conversion.  
+**Issue**: Inconsistent variable naming conventions for tracking logs and content interactions.  
 **Severity**: medium  
-**Impact**: Could cause misinterpretation of results by readers.
+**Impact**: Lack of uniformity in variable names may lead to misinterpretation of data.
 
 ### Improvement Suggestions
 ### Suggestion 1
@@ -3575,217 +3268,232 @@ The text demonstrates a good level of terminology consistency overall, with clea
 **Focus**: term_usage  
 
 **Original Text**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment...
+> menstrual health experiences and 10,000 personalized health content interactions
 
 **Improved Version**:  
-> Estimating Body Mass Index (BMI) from camera images facilitates rapid BMI assessment...
+> menstrual health experiences and 10,000 interactions with personalized health content
 
 **Explanation**:  
-Consistently using 'BMI' instead of 'weight' improves clarity and precision.
+Simplify the sentence structure and maintain consistency in phrasing.
 
 ### Suggestion 2
 
-**Location**: Conclusion  
-**Category**: conclusion  
-**Focus**: notation  
+**Location**: Introduction  
+**Category**: introduction  
+**Focus**: term_usage  
 
 **Original Text**:  
-> We provide the code for training, deployment, and the mobile applications, as open-source contributions.
+> Awareness and literacy surrounding women’s health, particularly menstrual health, remain low among individuals assigned female at birth (AFAB) across diverse cultural, educational, and geographical contexts.
 
 **Improved Version**:  
-> We provide the code for training, deployment, and the mobile applications as open-source contributions.
+> Awareness and literacy regarding women’s health, especially menstrual health, are low among individuals assigned female at birth (AFAB) across diverse cultural, educational, and geographical contexts.
 
 **Explanation**:  
-Consistency in punctuation enhances readability and professionalism.
+Clarify the relationship between awareness, literacy, and women's health while maintaining consistency in terminology.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: technical_terms  
+**Location**: Discussion  
+**Category**: discussion  
+**Focus**: term_usage  
 
 **Original Text**:  
-> The base Densenet201 model is pre-trained on the ImageNet dataset...
+> The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences, while consistent interaction with women’s health-related content can lead to positive menstrual health experiences.
 
 **Improved Version**:  
-> The base DenseNet201 model is pre-trained on the ImageNet dataset...
+> The study suggests that continuous tracking of menstrual health may reduce negative experiences, while ongoing interaction with women’s health-related content may enhance positive menstrual health outcomes.
 
 **Explanation**:  
-Consistent capitalization of 'DenseNet' improves technical term usage.
+Rephrase to improve clarity and maintain consistency in conveying the study findings.
+
+### Suggestion 4
+
+**Location**: Methods  
+**Category**: methodology  
+**Focus**: term_usage  
+
+**Original Text**:  
+> The research presented here was granted exemption from <university name masked for review>'s IRB board in accordance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) as all data were deidentified, and no participant risks were associated with taking part in the study.
+
+**Improved Version**:  
+> The study obtained exemption from <university name masked for review>'s IRB board in compliance with the Federal Act on Research involving Human Beings (Human Research Act, HRA) due to deidentification of all data and absence of participant risks.
+
+**Explanation**:  
+Enhance readability and maintain consistency in describing the research ethics.
 
 ### Detailed Feedback
 ### Term Usage Consistency
 
-The text generally maintains consistency in using technical terms like 'Deep Learning' and 'Convolutional Neural Networks.' However, there are instances of interchangeably using 'BMI estimation' and 'weight estimation.' Consistent use of 'BMI estimation' throughout the text is recommended.
+The text demonstrates a moderate level of term usage consistency, with some areas requiring improvement to avoid confusion and enhance clarity.
 
 ### Notation Consistency
 
-Notation consistency is generally maintained, with clear use of mathematical symbols and equations. However, there are instances of inconsistent punctuation and capitalization that can be improved.
+Notation consistency is generally maintained throughout the text, with clear presentation of data and equations.
 
 ### Acronym Usage
 
-Acronyms like 'BMI' are consistently defined upon first use. However, there are instances where acronyms are used without prior definition, which can be confusing for readers.
+Acronyms are used without consistent definitions, leading to potential confusion for readers unfamiliar with the terms.
 
 ### Variable Naming Consistency
 
-Variable naming conventions are generally clear, but there are inconsistencies in naming perspectives like 'full-body', 'torso-up', and 'face-only.' Standardizing variable names for these perspectives is recommended.
+Variable naming conventions are inconsistent, impacting the interpretation of data and analysis.
 
 ### Unit Notation Consistency
 
-Units for weight measurement are inconsistently presented in kg and lbs without clear distinction or conversion. Maintaining a consistent unit notation or providing clear conversions is essential for clarity.
+Unit notation consistency is maintained, ensuring clarity in presenting numerical values.
 
 ### Abbreviation Consistency
 
-Abbreviations like 'MAPE' and 'MAE' are consistently used throughout the text. However, ensuring consistent abbreviation usage for terms like 'Body Mass Index' can enhance readability.
+Abbreviations are used consistently, aiding in readability and understanding.
 
 ### Technical Term Consistency
 
-Technical terms related to deep learning models and image processing are used consistently. Ensuring uniformity in technical terms and capitalization can improve clarity.
+Technical terms are used appropriately and consistently, contributing to the scholarly nature of the text.
 
 ### Field Terminology
 
-The field-specific terminology related to image processing and weight estimation is appropriately used. Maintaining consistency in terminology specific to the research domain is crucial for understanding.
+Field-specific terminology is well-incorporated, enhancing the relevance and depth of the research.
 
 ### Cross Reference Consistency
 
-Cross-references to datasets and prior research are generally clear. Ensuring consistent formatting and citation style for cross-references can enhance the overall coherence of the text.
+Cross-references are generally consistent, aiding in connecting related sections and concepts.
 
 ### Definition Consistency
 
-Definitions of terms like 'MAPE' and 'MAE' are provided consistently. Ensuring that all key terms are defined clearly upon first use can aid readers in understanding the concepts.
+Definitions are clear and consistent, providing a solid foundation for understanding key concepts.
 
 ## W5 - Inclusive Language
 ### Score: 7/10
 
 ### Summary
-The text shows good efforts towards inclusivity but can further enhance gender-neutral language, cultural sensitivity, and disability inclusion. Improvements in professional title usage and stereotype avoidance can also enhance inclusivity.
+The text demonstrates a good level of inclusivity through gender-neutral language and cultural sensitivity. However, there are opportunities to enhance disability inclusion, socioeconomic considerations, and geographic diversity. Improvements in age-appropriate terminology and historical context sensitivity could further enhance the overall inclusivity of the text.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: gender_neutrality  
 **Location**: Abstract  
-**Issue**: The text uses gender-specific pronouns like 'his' and 'her' instead of gender-neutral language.  
+**Issue**: The term 'menstruating individuals' could be more inclusive by using a broader term like 'people with menstrual cycles.'  
 **Severity**: medium  
-**Impact**: Excludes non-binary individuals and reinforces gender stereotypes.
+**Impact**: Excludes transgender and non-binary individuals who may also experience menstruation.
 
 ### Remark 2
 
 **Category**: cultural_sensitivity  
 **Location**: Introduction  
-**Issue**: The text assumes a Western-centric perspective in discussing health and weight issues.  
+**Issue**: The text assumes a binary gender perspective by referring to 'individuals assigned female at birth.'  
 **Severity**: medium  
-**Impact**: Neglects diverse cultural beliefs and practices related to body weight and health.
+**Impact**: Excludes individuals who may not identify with the gender they were assigned at birth.
 
 ### Remark 3
 
 **Category**: disability_inclusion  
-**Location**: Methodology  
-**Issue**: The text lacks considerations for accessibility features for individuals with disabilities.  
+**Location**: Discussion  
+**Issue**: No mention of accessibility considerations for individuals with disabilities using the app.  
 **Severity**: low  
-**Impact**: Excludes individuals with disabilities from participating in the study.
+**Impact**: Excludes important considerations for ensuring app accessibility for all users.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: abstract  
+**Category**: gender_neutrality  
 **Focus**: gender_neutrality  
 
 **Original Text**:  
-> his or her weight
+> menstruating individuals (aged 18–49 years)
 
 **Improved Version**:  
-> their weight
+> individuals with menstrual cycles (aged 18–49 years)
 
 **Explanation**:  
-Using 'their' is gender-neutral and inclusive of all genders.
+This change is more inclusive of transgender and non-binary individuals.
 
 ### Suggestion 2
 
 **Location**: Introduction  
-**Category**: introduction  
-**Focus**: cultural_sensitivity  
+**Category**: cultural_sensitivity  
+**Focus**: gender_neutrality  
 
 **Original Text**:  
-> Western-centric
+> individuals assigned female at birth (AFAB)
 
 **Improved Version**:  
-> diverse cultural perspectives
+> individuals with a uterus
 
 **Explanation**:  
-Acknowledging diverse cultural perspectives avoids bias towards Western norms.
+Avoids assumptions about gender identity and is more inclusive.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: methodology  
-**Focus**: disability_inclusion  
+**Location**: Discussion  
+**Category**: age_appropriate_terminology  
+**Focus**: age_terminology  
 
 **Original Text**:  
-> individuals with disabilities
+> our study extends this observation to five months
 
 **Improved Version**:  
-> participants with diverse abilities
+> our study extends this observation to a longer duration of five months
 
 **Explanation**:  
-Using 'diverse abilities' is more inclusive and respectful of different abilities.
+Provides clearer information on the duration of the study.
 
 ### Detailed Feedback
 ### Gender Neutral Language
 
-The text should consistently use gender-neutral pronouns and terms to be inclusive of all genders.
+The text generally uses gender-neutral language, but there are instances where more inclusive terms could be used to encompass a broader range of identities.
 
 ### Cultural Sensitivity
 
-Consider incorporating perspectives from various cultures to ensure inclusivity and respect for diverse beliefs.
+The text acknowledges cultural diversity but could benefit from more explicit recognition of diverse gender identities and cultural perspectives.
 
 ### Age Appropriate Terminology
 
-Ensure that the language used is appropriate for all age groups to avoid age-related stereotypes or biases.
+The text appropriately addresses age groups but could enhance clarity by providing more detailed age ranges in some sections.
 
 ### Disability Inclusive Language
 
-Include considerations for accessibility features and accommodations to ensure participation of individuals with disabilities.
+There is a lack of explicit mention of disability considerations, which could be improved by incorporating accessibility aspects.
 
 ### Socioeconomic Sensitivity
 
-Be mindful of language that may unintentionally perpetuate stereotypes or stigmas related to socioeconomic status.
+The text does not explicitly address socioeconomic factors, which could be important for understanding app accessibility and usage.
 
 ### Geographic Inclusivity
 
-Acknowledge and respect diverse geographical contexts and avoid assumptions based on a single location or culture.
+The text mentions global representation but could delve deeper into the implications of geographic diversity on app engagement.
 
 ### Professional Title Usage
 
-Use professional titles consistently and respectfully to avoid assumptions or biases based on job roles.
+Professional titles are used appropriately, but there could be more clarity on the roles and expertise of the authors.
 
 ### Stereotypes
 
-Avoid language or descriptions that reinforce stereotypes related to gender, race, ethnicity, or other characteristics.
+The text generally avoids stereotypes, but there could be more emphasis on challenging assumptions and biases.
 
 ### Identity Language
 
-Consider using person-first language to prioritize individuals over their identities or conditions.
+The text acknowledges gender diversity but could further emphasize the importance of inclusive language for all identities.
 
 ### Historical Context
 
-Be aware of historical implications of language or terms used and ensure sensitivity to past experiences or injustices.
+The text lacks explicit references to historical contexts related to menstrual health awareness and societal attitudes.
 
 ## W6 - Citation Formatting
 ### Score: 6/10
 
 ### Summary
-Overall, the text demonstrates good citation formatting with minor issues in author name consistency, DOI formatting, and missing volume/issue numbers. Improvements in these areas will enhance the professionalism and completeness of the citations.
+Overall, the citation formatting in the text is satisfactory but could be improved by ensuring consistency in author names, journal formatting, and DOI presentation. Attention to detail in these areas will enhance the professionalism and readability of the article.
 
 ### Critical Remarks
 ### Remark 1
 
 **Category**: author_format  
 **Location**: Abstract  
-**Issue**: Author names are not consistently formatted with initials and full names.  
+**Issue**: Anonymous author(s) should be formatted consistently with the rest of the text.  
 **Severity**: medium  
-**Impact**: Affects the professionalism and consistency of the citations.
+**Impact**: Inconsistency in author formatting affects the professionalism and credibility of the article.
 
 ### Remark 2
 
@@ -3793,302 +3501,279 @@ Overall, the text demonstrates good citation formatting with minor issues in aut
 **Location**: References  
 **Issue**: Some DOIs are missing or incorrectly formatted.  
 **Severity**: high  
-**Impact**: Impacts the ability to access the original sources for verification.
+**Impact**: Missing or incorrect DOIs can hinder readers' ability to access the cited sources.
 
 ### Remark 3
 
-**Category**: volume_format  
-**Location**: Methodology  
-**Issue**: Volume and issue numbers are missing for journal references.  
+**Category**: journal_format  
+**Location**: Results  
+**Issue**: Journal names should be consistently formatted in italics or quotation marks.  
 **Severity**: medium  
-**Impact**: Lacks specificity in identifying the exact source within the journal.
+**Impact**: Inconsistent journal name formatting may confuse readers and detract from the professionalism of the article.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
 **Location**: Abstract  
-**Category**: author_format  
+**Category**: abstract  
 **Focus**: author_format  
 
 **Original Text**:  
-> Frederik Rajiv Manichand
+> Anonymous author(s)
 
 **Improved Version**:  
-> Manichand, F. R.
+> Author(s) should be consistently named or anonymized throughout the text.
 
 **Explanation**:  
-Consistent use of initials and last name for author names.
+Consistent author attribution enhances the clarity and professionalism of the article.
 
 ### Suggestion 2
 
 **Location**: References  
-**Category**: doi_format  
+**Category**: references  
 **Focus**: doi_format  
 
 **Original Text**:  
-> DOI: 10.1186/s12916-021-02188-x
+> doi: 10.1186/s12905-023-02840-z
 
 **Improved Version**:  
-> https://doi.org/10.1186/s12916-021-02188-x
+> DOI: 10.1186/s12905-023-02840-z
 
 **Explanation**:  
-Correct formatting for DOIs with a clickable link.
+Standardizing DOI format improves readability and ensures proper citation practices.
 
 ### Suggestion 3
 
-**Location**: Methodology  
-**Category**: volume_format  
-**Focus**: volume_format  
+**Location**: Results  
+**Category**: results  
+**Focus**: journal_format  
 
 **Original Text**:  
-> Volume 2 (ASPLOS ’24)
+> Journal of the American Medical Informatics Association : JAMIA
 
 **Improved Version**:  
-> Volume 2, Issue 1 (ASPLOS '24)
+> "Journal of the American Medical Informatics Association: JAMIA"
 
 **Explanation**:  
-Including the issue number for better reference specificity.
+Consistent formatting of journal names enhances the professionalism of the citation.
 
 ### Detailed Feedback
 ### In Text Citation Format
 
-In-text citations are generally well-formatted with appropriate use of author names and publication years.
+In-text citations are generally well-formatted with proper use of numbers and references to sources.
 
 ### Reference List Format
 
-The reference list is organized and includes necessary details, but some improvements are needed in DOI formatting and volume/issue numbers.
+The reference list is comprehensive but lacks consistency in formatting, especially with DOIs and journal names.
 
 ### Citation Style Consistency
 
-Consistency in citation style is maintained throughout the text.
+Overall, the citation style is consistent but could benefit from more attention to detail in author names and journal formatting.
 
 ### Reference Completeness
 
-References are mostly complete, but missing DOIs and volume/issue numbers reduce completeness.
+The references are complete in terms of providing necessary information, but some DOIs are missing or incorrectly formatted.
 
 ### Doi Url Formatting
 
-DOIs should be formatted as clickable links for easy access to the original sources.
+DOIs should be consistently formatted with 'DOI:' prefix and correct hyperlink formatting for online sources.
 
 ### Author Name Formatting
 
-Author names should be consistently formatted with initials and last names for a professional appearance.
+Author names should be consistently formatted with proper capitalization and attribution.
 
 ### Publication Date Formatting
 
-Publication dates are correctly formatted with years included.
+Publication dates are appropriately formatted, providing clear information on the timeline of sources.
 
 ### Journal Name Formatting
 
-Journal names are appropriately formatted.
+Journal names should be consistently italicized or enclosed in quotation marks for uniformity.
 
 ### Volume Issue Page Formatting
 
-Volume and issue numbers should be included for journal references for better specificity.
+Volume, issue, and page numbers are generally well-formatted but could benefit from more consistent presentation.
 
 ### Cross Reference Accuracy
 
-Cross-references are accurate and relevant within the text.
+Cross-references are accurate and effectively link related content within the text.
 
 ## W7 - Target Audience Alignment
 ### Score: 0/10
 
 ### Summary
-The research demonstrates a strong technical depth and appropriate use of field-specific terminology. However, improvements are needed in organizing the methodology section for clarity, integrating visual elements for better data presentation, and enhancing the discussion depth. Overall, the study aligns well with a research audience but could benefit from minor adjustments to enhance audience engagement and comprehension.
+The text demonstrates a high level of technical depth and field-specific terminology usage, suitable for an academic audience. However, improvements in writing formality, visual integration, and reference depth could enhance accessibility and engagement for a broader readership. Addressing issues in terminology, visual elements, and conclusion format could significantly improve audience alignment and overall readability.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: terminology  
+**Category**: technical_depth  
 **Location**: Abstract  
-**Issue**: Lack of explanation for technical terms like MAPE and BMI, assuming audience familiarity.  
+**Issue**: The abstract lacks a concise summary of the methodology and key findings, making it challenging for non-experts to grasp the study's significance.  
 **Severity**: medium  
-**Impact**: May alienate readers unfamiliar with field-specific terminology.
+**Impact**: May deter broader audience engagement due to the complexity of the technical content.
 
 ### Remark 2
 
-**Category**: organization  
-**Location**: Methodology section  
-**Issue**: Methodology description lacks a clear step-by-step structure, making it hard to follow.  
+**Category**: terminology  
+**Location**: Introduction  
+**Issue**: The use of technical terms like 'linear mixed-effect models' without clear explanations may alienate readers unfamiliar with statistical methods.  
 **Severity**: high  
-**Impact**: May lead to confusion and hinder replication of the study.
+**Impact**: Could hinder understanding for non-specialist readers, reducing accessibility.
 
 ### Remark 3
 
-**Category**: results  
+**Category**: visuals  
 **Location**: Results section  
-**Issue**: Data presentation lacks visual aids like tables or graphs, making it text-heavy.  
+**Issue**: The text-heavy presentation without visual aids like charts or graphs may make it challenging for readers to interpret the data easily.  
 **Severity**: medium  
-**Impact**: May reduce reader engagement and comprehension.
+**Impact**: Lack of visual elements may reduce reader engagement and comprehension of results.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Abstract  
-**Category**: terminology  
-**Focus**: technical_depth  
-
-**Original Text**:  
-> Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.
-
-**Improved Version**:  
-> Current computer vision-based BMI estimation approaches have mostly utilized datasets containing up to 7,211 full-body images or 14,500 facial images.
-
-**Explanation**:  
-Clarifies the sentence structure and improves readability.
-
-### Suggestion 2
-
-**Location**: Results  
+**Location**: Results section  
 **Category**: results  
 **Focus**: technical_depth  
 
 **Original Text**:  
-> We achieve a Mean Absolute Percentage Error (MAPE) of 8% on our hold-out test dataset (real-world data only), using full-torso images.
+> Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.
 
 **Improved Version**:  
-> Our model achieves an 8% Mean Absolute Percentage Error (MAPE) on the hold-out test dataset, utilizing full-torso images.
+> Users engaged more frequently with tracking health experiences than with personalized health content.
 
 **Explanation**:  
-Enhances clarity and ensures the audience understands the technical metric.
+Simplifying the sentence structure improves readability and clarity.
 
-### Suggestion 3
+### Suggestion 2
 
-**Location**: Conclusion  
-**Category**: conclusion  
+**Location**: Methods section  
+**Category**: methodology  
 **Focus**: formality  
 
 **Original Text**:  
-> We demonstrate the real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework.
+> The study sample included data collected between November 7, 2023, and March 31, 2024, from a total of n = 7,455 menstruating individuals aged between 18 and 49 years.
 
 **Improved Version**:  
-> Our BMI estimation approach is practically demonstrated by implementing image filtering and BMI estimation algorithms in Python on mobile devices through the CLAID framework.
+> Data were collected from 7,455 menstruating individuals aged 18-49 between November 7, 2023, and March 31, 2024.
 
 **Explanation**:  
-Streamlines the sentence and improves readability.
+Simplifying the sentence structure and removing redundancy improves readability.
+
+### Suggestion 3
+
+**Location**: Discussion section  
+**Category**: discussion  
+**Focus**: organization  
+
+**Original Text**:  
+> The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.
+
+**Improved Version**:  
+> A significant association was found between negative menstrual health experience intensity and tracking behavior.
+
+**Explanation**:  
+Restructuring the sentence improves clarity and conciseness.
 
 ### Detailed Feedback
 ### Technical Depth
 
-The text provides a detailed explanation of the methodology and results, catering to an audience familiar with deep learning and computer vision.
+The text demonstrates a high level of technical depth appropriate for an academic audience familiar with statistical modeling and health research methodologies.
 
 ### Terminology Usage
 
-The field-specific terminology is used appropriately, but some terms could benefit from brief explanations for non-experts.
+The field-specific terminology is prevalent throughout the text, which may pose challenges for non-specialist readers. Providing clearer explanations or a glossary could enhance accessibility.
 
 ### Writing Formality
 
-The writing style is formal and academic, suitable for a research audience.
+The writing style is formal and suitable for an academic audience. However, some sections could benefit from increased clarity and conciseness to improve readability.
 
 ### Section Organization
 
-The sections are well-defined, but the methodology description could benefit from a clearer step-by-step structure.
+The sections are logically structured, with a clear flow from introduction to results and discussion. However, integrating more visual elements could enhance the organization and reader engagement.
 
 ### Visual Integration
 
-Visual aids like tables and graphs are lacking in the results section, which could enhance data presentation.
+The text lacks visual elements like graphs or tables to complement the data presentation. Incorporating visual aids could improve data interpretation and reader engagement.
 
 ### Reference Style
 
-The references are appropriately cited, providing context and background for the study.
+The reference style is consistent and appropriate for academic writing. However, expanding the reference depth with more recent studies could strengthen the literature review.
 
 ### Methodology Detail
 
-The methodology description is detailed but could be organized more clearly for better understanding.
+The methodology description provides sufficient detail on the study design and data collection process. Clarifying complex statistical methods could enhance understanding for a broader audience.
 
 ### Results Presentation
 
-The results are presented clearly but could be enhanced with visual elements for better comprehension.
+The results are presented in a detailed and data-driven manner. However, incorporating visual representations of the data could enhance clarity and interpretation.
 
 ### Discussion Depth
 
-The discussion provides insights into the findings but could delve deeper into the implications and future directions.
+The discussion delves into the implications of the findings but could benefit from deeper analysis and interpretation of the results in relation to existing literature.
 
 ### Conclusion Format
 
-The conclusion summarizes the key findings effectively but could be structured more succinctly.
+The conclusion summarizes the key findings but lacks a concise restatement of the study's significance and implications. A more structured conclusion format could enhance audience takeaway.
 
 ## W8 - Visual Presentation
 ### Score: 6/10
 
 ### Summary
-The manuscript lacks complete captions and clear labeling in some figures, impacting reader understanding. Improvements in clarity, completeness, and visual hierarchy are recommended to enhance the visual presentation quality.
+The manuscript would benefit from enhancing visual elements to improve clarity and aid reader comprehension. Detailed captions are necessary to provide context and guide readers through the data selection process.
 
 ### Critical Remarks
 ### Remark 1
 
-**Category**: Figure quality  
-**Location**: Figure 8  
-**Issue**: The dataset statistics plot lacks labels for the axes, making it difficult to interpret the data.  
+**Category**: Figure quality and clarity  
+**Location**: Fig. 1  
+**Issue**: The figure lacks visual elements to represent the associations between recommended personalized health content, user app tracking, and content engagement. It could benefit from visual aids like diagrams or charts to enhance clarity.  
 **Severity**: medium  
-**Impact**: Readers may struggle to understand the distribution of body weight, height, and BMI in the dataset.
+**Impact**: Readers may struggle to grasp the complex relationships without visual representation.
 
 ### Remark 2
 
 **Category**: Caption completeness  
-**Location**: Figure 9  
-**Issue**: The UMAP plot and elbow plot lack clear captions explaining the purpose and content of the visualizations.  
-**Severity**: low  
-**Impact**: Readers may not fully grasp the significance of the clustering results without proper context.
-
-### Remark 3
-
-**Category**: Visual hierarchy  
-**Location**: Figure 11  
-**Issue**: The loss, MAE, and MAPE per epoch plot lacks distinction between the different lines, making it hard to differentiate the metrics.  
+**Location**: Fig. 2  
+**Issue**: The flow diagram lacks detailed captions explaining the inclusion and exclusion criteria for the final study sample. This omission may lead to confusion about the data selection process.  
 **Severity**: medium  
-**Impact**: Difficulty in understanding the training and validation performance over epochs.
+**Impact**: Readers may struggle to understand the sample characteristics and selection process.
 
 ### Improvement Suggestions
 ### Suggestion 1
 
-**Location**: Figure 8  
+**Location**: Fig. 1  
 **Category**: Figure  
-**Focus**: Clarity and completeness  
+**Focus**: Clarity and information density  
 
 **Original Text**:  
-> Figure 8. Dataset statistics.
+> Fig. 1
 
 **Improved Version**:  
-> Figure 8. Distribution of Body Weight, Height, and BMI in the Dataset.
+> Enhance Fig. 1 with diagrams or charts illustrating the associations between recommended personalized health content, user app tracking, and content engagement.
 
 **Explanation**:  
-Adding clear labels to the axes will enhance the interpretability of the plot.
+Visual aids can help clarify complex relationships and improve reader comprehension.
 
 ### Suggestion 2
 
-**Location**: Figure 9  
+**Location**: Fig. 2  
 **Category**: Figure  
 **Focus**: Caption completeness  
 
 **Original Text**:  
-> Figure 9. Comparison of clustering results: (a) UMAP visualization for k=4 clusters and (b) elbow plot for k-means clustering of body keypoint data.
+> Fig. 2
 
 **Improved Version**:  
-> Figure 9. Clustering Results Visualization: (a) UMAP Plot for 4 Clusters and (b) Elbow Plot for K-means Clustering of Body Keypoint Data.
+> Add detailed captions to Fig. 2 explaining the inclusion and exclusion criteria for the final study sample.
 
 **Explanation**:  
-Adding descriptive captions will provide context and aid in understanding the purpose of the visualizations.
-
-### Suggestion 3
-
-**Location**: Figure 11  
-**Category**: Figure  
-**Focus**: Visual hierarchy  
-
-**Original Text**:  
-> Figure 11. Loss, MAE and MAPE per epoch for the training and validation sets of each model.
-
-**Improved Version**:  
-> Figure 11. Training and Validation Performance Metrics per Epoch.
-
-**Explanation**:  
-Differentiate the lines representing loss, MAE, and MAPE to improve clarity and readability.
+Detailed captions provide essential context and improve reader understanding of the data selection process.
 
 ### Detailed Feedback
 ### Figure Quality
 
-Improve labeling and clarity in Figure 8 for better interpretation. Ensure all figures have clear and informative captions.
+Figures lack visual elements to represent complex relationships.
 
 ### Table Formatting
 
@@ -4100,7 +3785,7 @@ N/A
 
 ### Caption Completeness
 
-Captions should provide context and explain the content of the visualizations.
+Captions need to be more detailed to provide context.
 
 ### Color Scheme
 
@@ -4108,20 +3793,20 @@ N/A
 
 ### Data Visualization
 
-Ensure data visualizations are clear and effectively convey the intended information.
+N/A
 
 ### Visual Hierarchy
 
-Differentiate elements in plots to aid in interpretation.
+N/A
 
 ### Accessibility
 
-Include labels, captions, and color contrasts for better accessibility.
+N/A
 
 ### Visual Consistency
 
-Maintain consistent style and formatting across visual elements.
+N/A
 
 ### Text Integration
 
-Ensure visual elements support and enhance the text by providing additional insights.
+N/A

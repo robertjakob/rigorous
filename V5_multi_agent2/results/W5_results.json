@@ -4,62 +4,62 @@
     {
       "category": "gender_neutrality",
       "location": "Abstract",
-      "issue": "The text uses gender-specific pronouns like 'his' and 'her' instead of gender-neutral language.",
+      "issue": "The use of 'menstruating individuals' instead of 'women' in the context of menstrual health experiences may exclude transgender men and non-binary individuals who also menstruate.",
       "severity": "medium",
-      "impact": "Excludes non-binary individuals and reinforces gender stereotypes."
+      "impact": "Excludes transgender men and non-binary individuals from the discussion on menstrual health."
     },
     {
       "category": "cultural_sensitivity",
       "location": "Introduction",
-      "issue": "The text assumes a Western-centric perspective in discussing health and weight issues.",
+      "issue": "The assumption that individuals assigned female at birth (AFAB) have low awareness and literacy regarding menstrual health may oversimplify cultural variations and experiences.",
       "severity": "medium",
-      "impact": "Neglects diverse cultural beliefs and practices related to body weight and health."
+      "impact": "May overlook cultural nuances and diversity in menstrual health awareness."
     },
     {
       "category": "disability_inclusion",
       "location": "Methodology",
-      "issue": "The text lacks considerations for accessibility features for individuals with disabilities.",
+      "issue": "The study does not explicitly address accessibility features for individuals with disabilities who may use the women's health app.",
       "severity": "low",
-      "impact": "Excludes individuals with disabilities from participating in the study."
+      "impact": "Lacks consideration for the accessibility needs of users with disabilities."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "his or her weight",
-      "improved_version": "their weight",
-      "explanation": "Using 'their' is gender-neutral and inclusive of all genders.",
+      "original_text": "menstruating individuals (aged 18\u201349 years)",
+      "improved_version": "individuals experiencing menstruation (aged 18\u201349 years)",
+      "explanation": "This change is more inclusive of transgender men and non-binary individuals who may also menstruate.",
       "location": "Abstract",
-      "category": "abstract",
+      "category": "gender_neutrality",
       "focus": "gender_neutrality"
     },
     {
-      "original_text": "Western-centric",
-      "improved_version": "diverse cultural perspectives",
-      "explanation": "Acknowledging diverse cultural perspectives avoids bias towards Western norms.",
+      "original_text": "individuals assigned female at birth (AFAB)",
+      "improved_version": "individuals with diverse experiences of menstruation",
+      "explanation": "Avoids oversimplification and acknowledges the diversity of experiences related to menstruation.",
       "location": "Introduction",
-      "category": "introduction",
+      "category": "cultural_sensitivity",
       "focus": "cultural_sensitivity"
     },
     {
-      "original_text": "individuals with disabilities",
-      "improved_version": "participants with diverse abilities",
-      "explanation": "Using 'diverse abilities' is more inclusive and respectful of different abilities.",
+      "original_text": "menstruating individuals",
+      "improved_version": "individuals managing menstrual health",
+      "explanation": "Broadens the scope to include individuals with varying health needs and experiences.",
       "location": "Methodology",
-      "category": "methodology",
+      "category": "disability_inclusion",
       "focus": "disability_inclusion"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The text should consistently use gender-neutral pronouns and terms to be inclusive of all genders.",
-    "cultural_sensitivity": "Consider incorporating perspectives from various cultures to ensure inclusivity and respect for diverse beliefs.",
-    "age_appropriate_terminology": "Ensure that the language used is appropriate for all age groups to avoid age-related stereotypes or biases.",
-    "disability_inclusive_language": "Include considerations for accessibility features and accommodations to ensure participation of individuals with disabilities.",
-    "socioeconomic_sensitivity": "Be mindful of language that may unintentionally perpetuate stereotypes or stigmas related to socioeconomic status.",
-    "geographic_inclusivity": "Acknowledge and respect diverse geographical contexts and avoid assumptions based on a single location or culture.",
-    "professional_title_usage": "Use professional titles consistently and respectfully to avoid assumptions or biases based on job roles.",
-    "stereotypes": "Avoid language or descriptions that reinforce stereotypes related to gender, race, ethnicity, or other characteristics.",
-    "identity_language": "Consider using person-first language to prioritize individuals over their identities or conditions.",
-    "historical_context": "Be aware of historical implications of language or terms used and ensure sensitivity to past experiences or injustices."
+    "gender_neutral_language": "The text generally uses gender-neutral language by referring to 'menstruating individuals' instead of exclusively 'women'. However, it could further enhance inclusivity by explicitly acknowledging the experiences of transgender men and non-binary individuals who may also menstruate.",
+    "cultural_sensitivity": "While the text acknowledges cultural and geographical variations in menstrual health awareness, it could benefit from a more nuanced discussion on how cultural factors influence individuals' health experiences.",
+    "age_appropriate_terminology": "The study appropriately focuses on individuals aged 18\u201349 years in the context of menstrual health, aligning with the typical reproductive age range for menstruation.",
+    "disability_inclusive_language": "There is a lack of explicit consideration for individuals with disabilities who may interact with the women's health app. Including accessibility features and addressing diverse needs could enhance disability inclusion.",
+    "socioeconomic_sensitivity": "The text does not explicitly discuss socioeconomic factors related to menstrual health experiences. Considering the impact of socioeconomic status on access to healthcare and resources could improve sensitivity in this aspect.",
+    "geographic_inclusivity": "The study mentions the global representation of users but does not delve into specific geographic challenges or variations in menstrual health awareness. Providing insights into regional differences could enhance geographic inclusivity.",
+    "professional_title_usage": "The study uses professional titles appropriately, maintaining a neutral and respectful tone in referring to researchers and authors.",
+    "stereotypes": "The text avoids perpetuating stereotypes related to menstrual health experiences and focuses on empirical data and observations.",
+    "identity_language": "The study could further explore the use of identity-first language versus person-first language in the context of menstrual health to ensure inclusivity and respect for diverse identities.",
+    "historical_context": "The study could benefit from a deeper exploration of the historical context of menstrual health awareness and how it has evolved over time, considering societal attitudes and advancements in healthcare."
   },
-  "summary": "The text shows good efforts towards inclusivity but can further enhance gender-neutral language, cultural sensitivity, and disability inclusion. Improvements in professional title usage and stereotype avoidance can also enhance inclusivity."
+  "summary": "Overall, the text demonstrates a good level of inclusivity through gender-neutral language and cultural awareness. However, there are opportunities to enhance disability inclusion, address socioeconomic factors, and provide more nuanced discussions on identity and historical context. Improvements in language usage and consideration of diverse perspectives can further enhance the inclusivity of the study."
 }

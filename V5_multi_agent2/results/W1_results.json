@@ -4,62 +4,54 @@
     {
       "category": "grammar",
       "location": "Abstract",
-      "issue": "Misplaced hyphen in 'real-world' dataset.",
-      "severity": "low",
-      "impact": "Minor impact on readability."
-    },
-    {
-      "category": "subject_verb",
-      "location": "Introduction",
-      "issue": "Subject-verb agreement error in 'Body weight and weight changes are essential indicators.'",
+      "issue": "Fragmented sentence structure and lack of subject-verb agreement.",
       "severity": "medium",
-      "impact": "Affects the clarity of the sentence."
+      "impact": "Affects clarity and readability."
     },
     {
       "category": "academic_conventions",
-      "location": "References",
-      "issue": "Missing DOI for some references.",
+      "location": "Introduction",
+      "issue": "Lack of citation language and formal academic tone.",
+      "severity": "high",
+      "impact": "Diminishes credibility and professionalism."
+    },
+    {
+      "category": "sentence_structure",
+      "location": "Methodology",
+      "issue": "Complex sentence structures affecting technical description clarity.",
       "severity": "medium",
-      "impact": "Lack of proper citation information."
+      "impact": "Hinders understanding of the study methodology."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "real-world dataset",
-      "improved_version": "real world dataset",
-      "explanation": "Hyphen is not needed in this context.",
+      "original_text": "Widespread gaps in menstrual health literacy \u2013 fueled by stigma, cultural taboos, and particularly, a lack of accessible education \u2013 have contributed to a longstanding neglect of menstrual health awareness and support.",
+      "improved_version": "Widespread gaps in menstrual health literacy, fueled by stigma, cultural taboos, and a lack of accessible education, have contributed to a longstanding neglect of menstrual health awareness and support.",
+      "explanation": "Simplified sentence structure for better flow and clarity.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "punctuation"
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "Body weight and weight changes are essential indicators.",
-      "improved_version": "Body weight and weight changes are essential indicators of health and disease risk.",
-      "explanation": "Added clarity and completeness to the sentence.",
+      "original_text": "However, research suggests that enhancing menstrual health awareness and literacy can improve well-being and health outcomes.",
+      "improved_version": "However, research indicates that improving menstrual health awareness and literacy can enhance well-being and health outcomes.",
+      "explanation": "Improved verb tense consistency and clarity.",
       "location": "Introduction",
       "category": "introduction",
-      "focus": "subject_verb"
-    },
-    {
-      "original_text": "doi: 10.1186/s12916-021-02188-x.",
-      "improved_version": "DOI: 10.1186/s12916-021-02188-x.",
-      "explanation": "Standardize the format for DOI references.",
-      "location": "References",
-      "category": "references",
-      "focus": "academic_conventions"
+      "focus": "verb_tense"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The text generally demonstrates good grammar, with occasional errors like misplaced hyphens.",
-    "spelling_accuracy": "Spelling is accurate throughout the text.",
-    "punctuation_usage": "Punctuation is mostly correct, but there are instances of missing commas or incorrect usage.",
-    "sentence_structure": "Sentences are well-structured, but some could benefit from varied lengths for better flow.",
-    "verb_tense_consistency": "Verb tenses are consistent within sentences and paragraphs.",
-    "subject_verb_agreement": "Subject-verb agreement is generally correct, but there are a few instances of errors.",
-    "article_usage": "Articles are used appropriately in most cases.",
-    "preposition_usage": "Prepositions are generally used correctly, but there are a few instances of awkward phrasing.",
-    "conjunction_usage": "Conjunctions are used effectively to connect ideas and maintain coherence.",
-    "academic_conventions": "The text follows academic writing conventions well, but some references lack complete citation details."
+    "grammar_correctness": "The text exhibits some issues with subject-verb agreement and fragmented sentence structures.",
+    "spelling_accuracy": "Spelling is generally accurate throughout the text.",
+    "punctuation_usage": "Punctuation is used correctly, but there are instances of comma splices and run-on sentences.",
+    "sentence_structure": "Complex sentence structures hinder readability and clarity, especially in technical descriptions.",
+    "verb_tense_consistency": "Verb tenses are generally consistent, but there are some instances of inconsistency.",
+    "subject_verb_agreement": "Subject-verb agreement is mostly correct, but there are some errors present.",
+    "article_usage": "Article usage is appropriate and consistent.",
+    "preposition_usage": "Prepositions are used correctly, but there are instances where clarity could be improved.",
+    "conjunction_usage": "Conjunctions are appropriately used to connect ideas and maintain coherence.",
+    "academic_conventions": "The text lacks formal academic tone and citation language, impacting credibility and professionalism."
   },
-  "summary": "The text demonstrates strong academic writing conventions with minor grammar and citation issues. Improvements in subject-verb agreement, punctuation, and reference formatting can enhance clarity and professionalism."
+  "summary": "Overall, the text demonstrates good grammar and spelling accuracy, but improvements are needed in sentence structure, verb tense consistency, and adherence to academic writing conventions. Enhancing clarity, formality, and citation language will significantly elevate the academic tone and credibility of the study."
 }

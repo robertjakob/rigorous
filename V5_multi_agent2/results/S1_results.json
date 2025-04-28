@@ -4,127 +4,48 @@
     {
       "category": "title_clarity",
       "location": "Title",
-      "issue": "The title is clear but could be more concise by removing redundant words.",
+      "issue": "The title lacks specificity and does not clearly convey the focus of the study.",
       "severity": "medium",
-      "impact": "Improving conciseness will enhance reader engagement."
+      "impact": "May lead to confusion among readers and reduce the attractiveness of the study."
+    },
+    {
+      "category": "title_length",
+      "location": "Title",
+      "issue": "The title is lengthy and could be more concise to improve readability.",
+      "severity": "low",
+      "impact": "May slightly affect the readability and memorability of the title."
     },
     {
       "category": "keywords_relevance",
       "location": "Keywords",
-      "issue": "The keywords are relevant but could include more specific terms related to the study.",
-      "severity": "medium",
-      "impact": "Enhancing keyword specificity will improve search engine optimization."
+      "issue": "No dedicated 'Keywords' section found in the text.",
+      "severity": "high",
+      "impact": "May reduce the discoverability and indexing of the manuscript."
     },
     {
       "category": "keywords_coverage",
       "location": "Keywords",
-      "issue": "The keywords cover the main concepts but lack some important terms related to the study.",
-      "severity": "medium",
-      "impact": "Expanding keyword coverage will increase the manuscript's visibility."
-    },
-    {
-      "category": "guidelines",
-      "location": "Title",
-      "issue": "The title lacks adherence to field-specific conventions, such as including abbreviations or acronyms.",
-      "severity": "low",
-      "impact": "Following conventions will enhance the professionalism of the manuscript."
-    },
-    {
-      "category": "discoverability",
-      "location": "Keywords",
-      "issue": "The keywords could be optimized for better search engine visibility by including synonyms or related terms.",
+      "issue": "No keywords extracted from the text due to the absence of a dedicated section.",
       "severity": "high",
-      "impact": "Improving discoverability will increase the likelihood of the manuscript being found by relevant audiences."
+      "impact": "May hinder the visibility and searchability of the manuscript."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Digital Scale: On-Device BMI Estimation from Smartphone Camera Images Trained on a Large-Scale Real-World Dataset",
-      "improved_version": "On-Device BMI Estimation from Smartphone Camera Images Using Large-Scale Real-World Data",
-      "explanation": "The improved version is more concise and removes redundant words.",
+      "original_text": "Longitudinal analysis of over 300,000 self-reported menstrual health experiences and 10,000 personalized health content interactions in a women\u2019s health app",
+      "improved_version": "Enhancing Women's Health: Insights from 300,000 Menstrual Health Experiences and Personalized Content Interactions",
+      "explanation": "The improved title is more concise, specific, and impactful. It highlights the focus on women's health, emphasizes the scale of the study, and improves search optimization.",
       "location": "Title",
       "category": "title",
-      "focus": "conciseness"
-    },
-    {
-      "original_text": "Estimating Body Mass Index (BMI) from camera images facilitates rapid weight assessment in situations where traditional measurement methods are impractical or inaccessible, such as telehealth services and emergency medical scenarios.",
-      "improved_version": "BMI Estimation from Camera Images for Rapid Weight Assessment in Telehealth and Emergency Scenarios",
-      "explanation": "The improved version is more concise and focuses on key terms for search optimization.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Recent computer vision-based approaches for BMI estimation have predominantly been limited to datasets of up to 7,211 full-body images or 14,500 facial images.",
-      "improved_version": "Limitations of Recent Computer Vision-Based BMI Estimation Approaches",
-      "explanation": "The improved version highlights the study's focus and adds specificity.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "real-world applicability of our BMI estimation approach by deploying our algorithms for image filtering and BMI estimation, implemented in Python, directly on mobile devices using the CLAID framework",
-      "improved_version": "Implementation of BMI Estimation Algorithm on Mobile Devices Using CLAID Framework",
-      "explanation": "The improved version is clearer and emphasizes the implementation aspect.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Body weight and weight changes are essential indicators of health and disease risk.",
-      "improved_version": "Significance of Body Weight Changes in Health Risk Assessment",
-      "explanation": "The improved version is more specific and highlights the importance of the study.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "Machine learning methods applied to images captured from different perspectives.",
-      "improved_version": "Machine Learning for Image Analysis from Various Perspectives",
-      "explanation": "The improved version clarifies the focus on image analysis and perspectives.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Various authors have proposed public benchmark datasets for body weight and BMI estimation, such as the Visual-Body-To-BMI dataset and the Celeb-FBI dataset.",
-      "improved_version": "Public Benchmark Datasets for Body Weight Estimation: Visual-Body-To-BMI and Celeb-FBI",
-      "explanation": "The improved version specifies the benchmark datasets for better understanding.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "relevance"
-    },
-    {
-      "original_text": "Our work also provides insights for remote weight estimation during telemedicine consultations.",
-      "improved_version": "Insights for Remote Weight Estimation in Telemedicine",
-      "explanation": "The improved version is more concise and highlights the practical application.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "conciseness"
-    },
-    {
-      "original_text": "The dataset used is proprietary and not publicly available.",
-      "improved_version": "Proprietary Dataset: Not Publicly Accessible",
-      "explanation": "The improved version clarifies the accessibility of the dataset.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Declaration of the use of AI-based tools.",
-      "improved_version": "AI-Based Tools Declaration",
-      "explanation": "The improved version is more concise and to the point.",
-      "location": "Keywords",
-      "category": "keywords",
-      "focus": "conciseness"
+      "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The title is clear and specific, indicating the focus on BMI estimation from smartphone images. However, it could be more concise and adhere to field-specific conventions.",
-    "keywords_analysis": "The keywords cover relevant concepts but lack specificity and could be optimized for better search engine visibility. Including more specific terms related to the study would enhance discoverability.",
-    "guidelines_compliance": "The title and keywords partially comply with field conventions but could be improved by adding abbreviations or acronyms commonly used in the field.",
-    "discoverability_assessment": "The title and keywords provide a good overview of the study but could benefit from more specific and optimized terms for better search engine optimization.",
-    "audience_alignment": "The title and keywords effectively convey the study's focus on BMI estimation from smartphone images, making it appealing to readers interested in digital health interventions."
+    "title_analysis": "The title lacks specificity and conciseness, impacting clarity and SEO. It could be improved to better reflect the study's focus and enhance discoverability.",
+    "keywords_analysis": "No keywords section found",
+    "guidelines_compliance": "The title does not fully comply with field conventions due to lack of specificity and conciseness.",
+    "discoverability_assessment": "The title could be optimized for search engines by including more relevant keywords and focusing on key terms related to women's health.",
+    "audience_alignment": "The title could be more appealing and significant by highlighting the unique insights and scale of the study, attracting a wider audience interested in women's health."
   },
-  "summary": "Overall, the title and keywords provide a clear indication of the study's focus on BMI estimation from smartphone images. Improvements in conciseness, specificity, and adherence to field conventions would enhance the manuscript's discoverability and search engine optimization. The study's relevance to digital health interventions is well-reflected in the title and keywords, appealing to a broad audience interested in health technology."
+  "summary": "The title and keywords section of the manuscript require improvement for better clarity, specificity, and search optimization. Enhancing the title's conciseness and relevance can significantly enhance the manuscript's visibility and appeal to the target audience."
 }
