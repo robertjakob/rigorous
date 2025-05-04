@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class CitationFormattingAgent(BaseReviewerAgent):
     """Agent responsible for evaluating citation formatting and consistency."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W6_Citation_Formatting_Agent"
         self.category = "Writing and Presentation"

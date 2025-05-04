@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class ConsistencyAgent(BaseReviewerAgent):
     """Agent responsible for checking logical coherence across sections."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R7_Consistency_Agent"
         self.category = "Scientific Rigor"

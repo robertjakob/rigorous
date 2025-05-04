@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class LanguageStyleAgent(BaseReviewerAgent):
     """Agent responsible for reviewing grammar, spelling, and punctuation."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W1_Language_Style_Agent"
         self.category = "Writing and Presentation"

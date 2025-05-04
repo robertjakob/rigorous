@@ -7,7 +7,7 @@ from ...core.base_agent import BaseReviewerAgent
 class VisualPresentationAgentW8(BaseReviewerAgent):
     """Agent responsible for evaluating visual presentation elements in the manuscript."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W8_Visual_Presentation_Agent"
         self.category = "Writing and Presentation"

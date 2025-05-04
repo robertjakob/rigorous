@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class InclusiveLanguageAgent(BaseReviewerAgent):
     """Agent responsible for evaluating inclusive, unbiased language usage."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W5_Inclusive_Language_Agent"
         self.category = "Writing and Presentation"

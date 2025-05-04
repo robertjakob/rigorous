@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class DataCodeAvailabilityAgent(BaseReviewerAgent):
     """Agent responsible for evaluating data and code availability."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R4_Data_Code_Availability_Agent"
         self.category = "Scientific Rigor"

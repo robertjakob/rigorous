@@ -1,90 +1,146 @@
 {
-  "data_code_availability_score": 6,
+  "data_code_availability_score": 4,
   "critical_remarks": [
     {
       "category": "data_sharing",
-      "location": "Abstract",
-      "issue": "The abstract lacks a clear statement on data availability, making it difficult for readers to assess the data sharing practices.",
-      "severity": "medium",
-      "impact": "This impacts research transparency as readers may question the reliability of the findings without access to the data."
+      "location": "Abstract, Introduction, Sections 2-7",
+      "issue": "The manuscript discusses a vast array of experimental data, models, and empirical results, but it does not provide or reference any publicly accessible datasets or repositories for the underlying data used in the cited experiments or for the supplementary data. There is no mention of data sharing policies or repositories where the raw or processed data can be accessed.",
+      "severity": "high",
+      "impact": "This significantly hampers research transparency and reproducibility, as readers cannot verify or reanalyze the empirical findings or use the data for further research."
     },
     {
       "category": "code_availability",
-      "location": "Code availability section",
-      "issue": "The code availability section does not provide clear instructions on how to access the code, impacting the reproducibility of the study.",
+      "location": "Abstract, Methodology, Sections 2-7",
+      "issue": "The paper references numerous experimental designs, models, and analytical methods but does not mention any publicly available code repositories, scripts, or software used for data analysis, model estimation, or simulation. There is no indication of code sharing or repositories like GitHub, OSF, or others.",
       "severity": "high",
-      "impact": "Without access to the code, other researchers cannot verify the results or build upon the study."
+      "impact": "This prevents independent replication of the analyses, model implementations, or simulations, reducing transparency and reproducibility."
     },
     {
       "category": "documentation",
-      "location": "Methods section",
-      "issue": "The documentation of data collection details and code implementation is insufficient, leading to ambiguity in the research process.",
+      "location": "Throughout the paper",
+      "issue": "There is a lack of detailed documentation, such as code comments, data dictionaries, or methodological protocols, which would enable others to understand and reuse the data and code effectively.",
       "severity": "medium",
-      "impact": "Incomplete documentation hinders reproducibility and transparency, affecting the credibility of the study."
+      "impact": "This limits the usability and interpretability of shared data and code, impeding reproducibility and secondary analyses."
     },
     {
       "category": "restrictions",
-      "location": "Conclusion section",
-      "issue": "The justification for access restrictions is not clearly explained, raising questions about the necessity of limiting data access.",
+      "location": "Abstract, Sections 2-7",
+      "issue": "No justification or explanation is provided regarding access restrictions, data privacy, or confidentiality concerns related to the datasets or code repositories.",
       "severity": "medium",
-      "impact": "Lack of clear justification for access restrictions may lead to skepticism about the study's transparency and openness."
+      "impact": "Lack of transparency about access restrictions prevents users from understanding potential barriers to data/code reuse or the reasons for restricted access."
     },
     {
       "category": "reproducibility",
-      "location": "Discussion section",
-      "issue": "The discussion lacks detailed considerations on reproducibility methods, making it challenging to assess the study's reproducibility support.",
-      "severity": "medium",
-      "impact": "Insufficient discussion on reproducibility limits the study's credibility and the ability for others to replicate the findings."
+      "location": "Throughout the manuscript",
+      "issue": "The absence of shared datasets, code, and detailed methodological documentation makes it impossible to reproduce the empirical results or models exactly as presented.",
+      "severity": "high",
+      "impact": "This severely limits the scientific rigor and verification of the findings, undermining research integrity."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The abstract lacks clarity on data availability.",
-      "improved_version": "Data from the study is available upon request for research purposes, subject to approval.",
-      "explanation": "Clearly states the availability of data and the process to request access, enhancing transparency.",
-      "location": "Abstract",
-      "category": "abstract",
+      "original_text": "This paper discusses extensive experimental data and models but does not specify data sharing policies.",
+      "improved_version": "The authors will make all underlying experimental datasets, including raw and processed data, publicly available through a dedicated data repository such as OSF or Zenodo, with clear access instructions.",
+      "explanation": "Providing open access to data enhances transparency, allows independent verification, and facilitates further research.",
+      "location": "Abstract, Introduction",
+      "category": "data_sharing",
       "focus": "data_sharing"
     },
     {
-      "original_text": "The code used for analysis is available upon request.",
-      "improved_version": "The code used for analysis is available on the research institution's GitHub repository for public access.",
-      "explanation": "Provides a specific location for accessing the code, improving transparency and reproducibility.",
-      "location": "Code availability section",
-      "category": "code_documentation",
+      "original_text": "No mention of code repositories or software used for analysis.",
+      "improved_version": "All analysis scripts, models, and code used for data processing and empirical analysis will be shared via a public repository such as GitHub or OSF, with version control and detailed README files.",
+      "explanation": "Sharing code ensures reproducibility of analyses and models, enabling others to verify and build upon the work.",
+      "location": "Methodology, Sections 2-7",
+      "category": "code_availability",
       "focus": "code_availability"
     },
     {
-      "original_text": "Data collection details and code implementation are briefly mentioned.",
-      "improved_version": "Comprehensive details on data collection methods, variables collected, and code implementation steps are provided.",
-      "explanation": "Enhances clarity and transparency in the research process, aiding reproducibility and understanding.",
-      "location": "Methods section",
-      "category": "methodology",
+      "original_text": "Lack of detailed documentation for data and code.",
+      "improved_version": "Comprehensive documentation, including data dictionaries, variable descriptions, code comments, and methodological protocols, will accompany the shared datasets and code repositories.",
+      "explanation": "Thorough documentation improves usability, understanding, and correct application of shared resources.",
+      "location": "Throughout the paper",
+      "category": "documentation",
       "focus": "documentation"
     },
     {
-      "original_text": "Access restrictions are in place to protect user privacy.",
-      "improved_version": "Access restrictions are in place to protect user privacy and prevent unauthorized use of sensitive data.",
-      "explanation": "Provides a more detailed rationale for access restrictions, enhancing understanding and justifying limitations.",
-      "location": "Conclusion section",
-      "category": "conclusion",
+      "original_text": "No explanation of restrictions or access controls.",
+      "improved_version": "Any access restrictions due to privacy or confidentiality will be clearly justified, with options for controlled access or data use agreements provided to legitimate researchers.",
+      "explanation": "Transparency about restrictions helps users understand how to access data and the reasons for limitations, promoting responsible reuse.",
+      "location": "Abstract, Sections 2-7",
+      "category": "restrictions",
       "focus": "restrictions"
     },
     {
-      "original_text": "Reproducibility methods are briefly discussed.",
-      "improved_version": "Detailed discussion on reproducibility methods, including data sharing protocols and code availability, is provided.",
-      "explanation": "Enhances transparency and credibility by explicitly addressing reproducibility considerations.",
-      "location": "Discussion section",
-      "category": "discussion",
+      "original_text": "No mention of reproducibility support measures.",
+      "improved_version": "The authors will provide a detailed reproducibility package, including data, code, and step-by-step instructions, to enable exact replication of key analyses and results upon request or via public repositories.",
+      "explanation": "Explicit reproducibility support fosters scientific verification and trustworthiness of findings.",
+      "location": "Throughout the paper",
+      "category": "reproducibility",
       "focus": "reproducibility"
+    },
+    {
+      "original_text": "The paper references many empirical studies but does not link to their datasets or supplementary materials.",
+      "improved_version": "All datasets, supplementary materials, and analysis code from the cited empirical studies will be referenced with persistent identifiers (e.g., DOIs) and linked via a dedicated project website or repository.",
+      "explanation": "Linking to original data sources enhances transparency and allows validation of cited results.",
+      "location": "Sections 3-7",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "No mention of data or code repositories for the models and experiments described.",
+      "improved_version": "All models, experimental protocols, and analysis scripts will be made publicly available in open repositories such as GitHub, with detailed README files and version control history.",
+      "explanation": "Open repositories facilitate transparency, reproducibility, and collaborative improvements.",
+      "location": "Methodology, Sections 2-7",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "Lack of explicit mention of data privacy or access restrictions.",
+      "improved_version": "Any restrictions due to data privacy or confidentiality will be clearly documented, with procedures for controlled access or data use agreements provided to qualified researchers.",
+      "explanation": "Transparency about restrictions helps manage expectations and promotes ethical data sharing.",
+      "location": "Abstract, Sections 2-7",
+      "category": "restrictions",
+      "focus": "restrictions"
+    },
+    {
+      "original_text": "No mention of efforts to support reproducibility beyond data and code sharing.",
+      "improved_version": "The authors will prepare a comprehensive reproducibility package, including detailed methodological protocols, analysis workflows, and environment specifications, to facilitate exact replication of results.",
+      "explanation": "Supporting reproducibility strengthens scientific validity and trust in the findings.",
+      "location": "Throughout the paper",
+      "category": "reproducibility",
+      "focus": "reproducibility"
+    },
+    {
+      "original_text": "The paper discusses many models and experiments but does not specify how to access the associated data or code.",
+      "improved_version": "All datasets, code, and supplementary materials related to the models and experiments will be deposited in open-access repositories with persistent links and clear instructions for access.",
+      "explanation": "Ensuring easy access to resources maximizes transparency and enables independent validation.",
+      "location": "Introduction, Sections 2-7",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "No mention of data or code availability statements in the manuscript.",
+      "improved_version": "A dedicated Data and Code Availability statement will be included in the manuscript, explicitly detailing where and how to access all relevant resources, including links and access conditions.",
+      "explanation": "Clear statements improve transparency and guide readers toward available resources.",
+      "location": "Abstract, Conclusion",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "The extensive references to empirical studies lack links to datasets or repositories.",
+      "improved_version": "All referenced datasets and supplementary materials from cited studies will be linked via persistent identifiers (DOIs) or official repositories, ensuring traceability and access.",
+      "explanation": "Linking references to data sources enhances transparency and allows verification of cited empirical results.",
+      "location": "Sections 3-7",
+      "category": "data_sharing",
+      "focus": "data_sharing"
     }
   ],
   "detailed_feedback": {
-    "data_sharing_assessment": "The study lacks clear statements on data availability and sharing practices, impacting transparency and reproducibility. Data collection details and code implementation are briefly mentioned, leading to ambiguity. Access restrictions are mentioned but not elaborated upon, raising questions about the necessity and justification. Reproducibility support is limited due to insufficient discussion on reproducibility methods.",
-    "code_availability": "The code availability statement is vague and lacks specific instructions on accessing the code. This hinders reproducibility and transparency in the study.",
-    "documentation_completeness": "Documentation of data collection details and code implementation is insufficient, leading to ambiguity in the research process. More comprehensive documentation is needed to enhance transparency and reproducibility.",
-    "restrictions_justification": "The justification for access restrictions is not clearly explained, impacting transparency and openness. Providing a detailed rationale for access restrictions is essential to ensure trust and understanding.",
-    "reproducibility_support": "The study lacks detailed considerations on reproducibility methods, hindering transparency and credibility. More explicit discussion on reproducibility is necessary to support the replicability of the findings."
+    "data_sharing_assessment": "The manuscript discusses a broad range of empirical studies, experiments, and models but does not provide any links or references to publicly accessible datasets or repositories. This absence of data sharing practices significantly limits the ability of other researchers to verify, reanalyze, or extend the findings, thereby reducing overall transparency and reproducibility.",
+    "code_availability": "There is no mention of publicly available code repositories, scripts, or software used for data analysis, model estimation, or simulations. Without access to the code, it is impossible for others to replicate the analyses or understand the implementation details, which hampers reproducibility.",
+    "documentation_completeness": "The paper lacks detailed documentation such as data dictionaries, code comments, or methodological protocols. This deficiency makes it difficult for others to interpret or reuse the shared resources effectively, impacting transparency and usability.",
+    "restrictions_justification": "The manuscript does not discuss any restrictions, privacy concerns, or access controls related to data or code sharing. Without such justifications, it remains unclear whether access is intentionally limited or if there are barriers that need to be addressed.",
+    "reproducibility_support": "The absence of shared datasets, code, and detailed documentation means that the empirical results and models cannot be exactly reproduced. This significantly undermines the scientific robustness and verification of the research."
   },
-  "summary": "The study requires significant improvements in data sharing practices, code availability, documentation completeness, access restrictions justification, and reproducibility support. Clear statements on data availability, specific instructions for code access, comprehensive documentation, detailed rationale for access restrictions, and explicit discussion on reproducibility are essential for enhancing transparency and credibility."
+  "summary": "Overall, the manuscript demonstrates a high level of research transparency is lacking in critical areas. To enhance scientific rigor, the authors should commit to sharing all relevant data and code via open repositories, provide comprehensive documentation, justify any access restrictions, and include explicit data and code availability statements. These steps will substantially improve reproducibility, verification, and the broader impact of the research."
 }

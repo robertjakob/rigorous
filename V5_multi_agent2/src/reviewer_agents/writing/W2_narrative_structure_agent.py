@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class NarrativeStructureAgent(BaseReviewerAgent):
     """Agent responsible for evaluating the overall flow, coherence, and logical organization of the paper."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W2_Narrative_Structure_Agent"
         self.category = "Writing and Presentation"

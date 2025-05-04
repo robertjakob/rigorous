@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class EthicsComplianceAgent(BaseReviewerAgent):
     """Agent responsible for reviewing ethical considerations and research standards."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R3_Ethics_Compliance_Agent"
         self.category = "Scientific Rigor"

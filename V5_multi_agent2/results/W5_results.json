@@ -1,65 +1,203 @@
 {
-  "inclusive_language_score": 7,
+  "inclusive_language_score": 4,
   "critical_remarks": [
     {
       "category": "gender_neutrality",
-      "location": "Abstract",
-      "issue": "The use of 'menstruating individuals' instead of 'women' in the context of menstrual health experiences may exclude transgender men and non-binary individuals who also menstruate.",
+      "location": "Introduction, paragraph 2",
+      "issue": "The phrase 'an individual i has social preferences' uses gendered language ('individual i') without gender-neutral alternatives, potentially implying gender bias.",
       "severity": "medium",
-      "impact": "Excludes transgender men and non-binary individuals from the discussion on menstrual health."
+      "impact": "Limits inclusivity by not explicitly acknowledging gender diversity, which could alienate or overlook non-binary or gender-diverse populations."
     },
     {
       "category": "cultural_sensitivity",
-      "location": "Introduction",
-      "issue": "The assumption that individuals assigned female at birth (AFAB) have low awareness and literacy regarding menstrual health may oversimplify cultural variations and experiences.",
-      "severity": "medium",
-      "impact": "May overlook cultural nuances and diversity in menstrual health awareness."
+      "location": "Section 3.2, paragraph 2",
+      "issue": "The discussion of merit and luck references 'modern societies' and 'Western populations' without acknowledging cultural diversity or different societal norms.",
+      "severity": "high",
+      "impact": "Risks implying cultural superiority or universality of concepts, which can perpetuate ethnocentric biases and reduce cultural inclusivity."
+    },
+    {
+      "category": "age_terminology",
+      "location": "Section 3.1.2, paragraph 2",
+      "issue": "Use of 'students' and 'broad population samples' without specifying age ranges or demographic diversity may obscure age-related differences.",
+      "severity": "low",
+      "impact": "May limit understanding of how age influences preferences, reducing nuance and inclusivity regarding age groups."
     },
     {
       "category": "disability_inclusion",
-      "location": "Methodology",
-      "issue": "The study does not explicitly address accessibility features for individuals with disabilities who may use the women's health app.",
+      "location": "Throughout the document",
+      "issue": "No explicit mention or consideration of individuals with disabilities or differing abilities in experimental design or interpretation.",
+      "severity": "high",
+      "impact": "Excludes or overlooks a significant portion of the population, reducing overall inclusivity and applicability of findings."
+    },
+    {
+      "category": "socioeconomic_sensitivity",
+      "location": "Section 3.2, paragraph 4",
+      "issue": "The discussion of 'broad population samples' and 'student samples' does not explicitly address socioeconomic status or access differences.",
+      "severity": "medium",
+      "impact": "Potentially masks socioeconomic biases and limits understanding of how social preferences vary across economic strata."
+    },
+    {
+      "category": "geographic_inclusivity",
+      "location": "Section 3.1.2, paragraph 2",
+      "issue": "References to 'Western populations' and 'European' or 'North American' samples dominate, with limited acknowledgment of non-Western or developing country contexts.",
+      "severity": "high",
+      "impact": "Risks ethnocentric bias, limiting the global relevance and cultural inclusivity of the research."
+    },
+    {
+      "category": "professional_titles",
+      "location": "Throughout the document",
+      "issue": "Use of academic titles (e.g., 'Professor', 'Doctor') is absent; the text relies on author names and affiliations without titles, which is appropriate for neutrality but may overlook formal respect in some contexts.",
       "severity": "low",
-      "impact": "Lacks consideration for the accessibility needs of users with disabilities."
+      "impact": "Minimal, but explicit use of titles could enhance respectfulness in certain cultural contexts."
+    },
+    {
+      "category": "stereotypes",
+      "location": "Section 3.2, paragraph 4",
+      "issue": "The phrase 'people with high education and income in the ALP sample' could inadvertently reinforce stereotypes about socioeconomic status correlating with social preferences.",
+      "severity": "medium",
+      "impact": "May perpetuate stereotypes linking education and income with prosocial behavior, reducing nuanced understanding."
+    },
+    {
+      "category": "identity_language",
+      "location": "Throughout the document",
+      "issue": "Predominant use of 'individuals' and 'subjects' rather than person-first language (e.g., 'people with social preferences') or identity-first language (e.g., 'socially motivated individuals').",
+      "severity": "medium",
+      "impact": "Lacks sensitivity to personal identity and may reduce respect for individual agency."
+    },
+    {
+      "category": "historical_context",
+      "location": "Section 7, paragraph 1",
+      "issue": "Discussion of 'democratic rights' and 'mass movements' does not explicitly acknowledge historical struggles or diverse cultural histories.",
+      "severity": "low",
+      "impact": "Potentially oversimplifies complex historical processes and marginalizes non-Western or marginalized groups."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "menstruating individuals (aged 18\u201349 years)",
-      "improved_version": "individuals experiencing menstruation (aged 18\u201349 years)",
-      "explanation": "This change is more inclusive of transgender men and non-binary individuals who may also menstruate.",
-      "location": "Abstract",
+      "original_text": "an individual i has social preferences",
+      "improved_version": "a person or individual with social preferences",
+      "explanation": "Using 'person' or 'individual with social preferences' promotes gender-neutral and inclusive language, acknowledging diversity.",
+      "location": "Introduction, paragraph 2",
       "category": "gender_neutrality",
       "focus": "gender_neutrality"
     },
     {
-      "original_text": "individuals assigned female at birth (AFAB)",
-      "improved_version": "individuals with diverse experiences of menstruation",
-      "explanation": "Avoids oversimplification and acknowledges the diversity of experiences related to menstruation.",
-      "location": "Introduction",
+      "original_text": "The topic of social preferences has received a great deal of attention in economics and in the broader social science literature",
+      "improved_version": "The topic of social preferences has received considerable attention across diverse cultures and societies in economics and social sciences",
+      "explanation": "Explicitly acknowledging cultural diversity enhances cultural sensitivity and global relevance.",
+      "location": "Introduction, paragraph 2",
       "category": "cultural_sensitivity",
       "focus": "cultural_sensitivity"
     },
     {
-      "original_text": "menstruating individuals",
-      "improved_version": "individuals managing menstrual health",
-      "explanation": "Broadens the scope to include individuals with varying health needs and experiences.",
-      "location": "Methodology",
+      "original_text": "participants in the experiments",
+      "improved_version": "individuals participating in the experiments",
+      "explanation": "Using 'individuals' emphasizes person-first language, respecting personal identity and agency.",
+      "location": "Throughout the document",
+      "category": "identity_language",
+      "focus": "person_first_language"
+    },
+    {
+      "original_text": "the broad population samples",
+      "improved_version": "diverse and socioeconomically varied population samples",
+      "explanation": "Specifying diversity and socioeconomic variation promotes socioeconomic sensitivity and inclusivity.",
+      "location": "Section 3.1.2",
+      "category": "socioeconomic_sensitivity",
+      "focus": "socioeconomic_sensitivity"
+    },
+    {
+      "original_text": "Western populations",
+      "improved_version": "populations from diverse cultural and geographic backgrounds, including non-Western societies",
+      "explanation": "Broadening the scope avoids ethnocentric bias and enhances geographic inclusivity.",
+      "location": "Section 3.1.2",
+      "category": "geographic_inclusivity",
+      "focus": "geographic_inclusivity"
+    },
+    {
+      "original_text": "Theories of social preferences differ in how exactly \ud835\udf0b\u0bdd affects player i\u2019s utility",
+      "improved_version": "Different theories of social preferences conceptualize how others\u2019 payoffs influence a person\u2019s utility",
+      "explanation": "Using neutral, inclusive language avoids implying stereotypes or biases about individuals\u2019 motivations.",
+      "location": "Introduction, paragraph 2",
+      "category": "stereotypes",
+      "focus": "stereotype_avoidance"
+    },
+    {
+      "original_text": "People may not only care directly about others\u2019 payoff or others\u2019 deservingness",
+      "improved_version": "Individuals may care about others\u2019 payoffs, deservingness, and social identities",
+      "explanation": "Including social identities recognizes diversity and avoids reducing individuals to a single trait.",
+      "location": "Section 4",
       "category": "disability_inclusion",
       "focus": "disability_inclusion"
+    },
+    {
+      "original_text": "The phrase 'an individual i has social preferences' uses gendered language ('individual i') without gender-neutral alternatives",
+      "improved_version": "A person with social preferences",
+      "explanation": "This change promotes gender neutrality and inclusivity, avoiding implicit gender bias.",
+      "location": "Throughout the document",
+      "category": "gender_neutrality",
+      "focus": "gender_neutrality"
+    },
+    {
+      "original_text": "The discussion of merit and luck references 'modern societies' and 'Western populations' without acknowledging cultural diversity",
+      "improved_version": "The discussion of merit and luck considers diverse societal norms across different cultures and regions",
+      "explanation": "Acknowledging cultural diversity enhances cultural sensitivity and reduces ethnocentric bias.",
+      "location": "Section 3.2",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "The research often uses 'subjects' rather than 'people' or 'participants'",
+      "improved_version": "individuals or participants in the research",
+      "explanation": "Using 'participants' or 'individuals' respects person-first language and emphasizes agency.",
+      "location": "Throughout the document",
+      "category": "identity_language",
+      "focus": "person_first_language"
+    },
+    {
+      "original_text": "The references to 'Western populations' and 'European' or 'North American' samples dominate",
+      "improved_version": "Research includes diverse populations from multiple regions, including Asia, Africa, and Latin America",
+      "explanation": "Explicitly broadening the scope promotes geographic inclusivity and cultural sensitivity.",
+      "location": "Section 3.1.2",
+      "category": "geographic_inclusivity",
+      "focus": "geographic_inclusivity"
+    },
+    {
+      "original_text": "The phrase 'people with high education and income' could inadvertently reinforce stereotypes",
+      "improved_version": "individuals across various educational and income levels",
+      "explanation": "Using inclusive language avoids stereotypes and emphasizes diversity.",
+      "location": "Section 3.2, paragraph 4",
+      "category": "stereotypes",
+      "focus": "stereotype_avoidance"
+    },
+    {
+      "original_text": "The paper discusses 'individuals' and 'subjects' rather than persons with identities or lived experiences",
+      "improved_version": "people with diverse identities and lived experiences",
+      "explanation": "This promotes recognition of personal identity and diversity, enhancing inclusivity.",
+      "location": "Throughout the document",
+      "category": "identity_language",
+      "focus": "person_first_language"
+    },
+    {
+      "original_text": "The discussion of 'Western populations' and 'European' or 'North American' samples dominates",
+      "improved_version": "populations from diverse cultural, geographic, and socioeconomic backgrounds worldwide",
+      "explanation": "This broadens the scope, reduces ethnocentric bias, and promotes global inclusivity.",
+      "location": "Section 3.1.2",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The text generally uses gender-neutral language by referring to 'menstruating individuals' instead of exclusively 'women'. However, it could further enhance inclusivity by explicitly acknowledging the experiences of transgender men and non-binary individuals who may also menstruate.",
-    "cultural_sensitivity": "While the text acknowledges cultural and geographical variations in menstrual health awareness, it could benefit from a more nuanced discussion on how cultural factors influence individuals' health experiences.",
-    "age_appropriate_terminology": "The study appropriately focuses on individuals aged 18\u201349 years in the context of menstrual health, aligning with the typical reproductive age range for menstruation.",
-    "disability_inclusive_language": "There is a lack of explicit consideration for individuals with disabilities who may interact with the women's health app. Including accessibility features and addressing diverse needs could enhance disability inclusion.",
-    "socioeconomic_sensitivity": "The text does not explicitly discuss socioeconomic factors related to menstrual health experiences. Considering the impact of socioeconomic status on access to healthcare and resources could improve sensitivity in this aspect.",
-    "geographic_inclusivity": "The study mentions the global representation of users but does not delve into specific geographic challenges or variations in menstrual health awareness. Providing insights into regional differences could enhance geographic inclusivity.",
-    "professional_title_usage": "The study uses professional titles appropriately, maintaining a neutral and respectful tone in referring to researchers and authors.",
-    "stereotypes": "The text avoids perpetuating stereotypes related to menstrual health experiences and focuses on empirical data and observations.",
-    "identity_language": "The study could further explore the use of identity-first language versus person-first language in the context of menstrual health to ensure inclusivity and respect for diverse identities.",
-    "historical_context": "The study could benefit from a deeper exploration of the historical context of menstrual health awareness and how it has evolved over time, considering societal attitudes and advancements in healthcare."
+    "gender_neutral_language": "The manuscript predominantly uses terms like 'individual i' and 'subjects' which can be perceived as impersonal or gendered. Replacing these with 'person', 'participant', or 'individual' promotes gender neutrality and respects personhood. For example, instead of 'an individual i has social preferences', use 'a person with social preferences'. This enhances inclusivity by acknowledging diverse gender identities and avoiding implicit biases.",
+    "cultural_sensitivity": "The references to 'Western populations' and 'European' or 'North American' samples risk ethnocentrism, implying that findings are universally applicable. To improve cultural sensitivity, explicitly acknowledge the diversity of populations studied, including non-Western societies, and discuss how cultural norms influence social preferences. For example, 'research includes diverse populations from multiple regions, including Asia, Africa, and Latin America, highlighting cultural differences in social preferences.'",
+    "age_appropriate_terminology": "The use of 'students' and 'broad population samples' without specifying age ranges can obscure age-related differences in social preferences. Clarify the demographic scope by specifying age ranges or generational cohorts, e.g., 'young adults aged 18-25' or 'adults aged 18-65'. This promotes clarity and inclusivity across age groups.",
+    "disability_inclusive_language": "The current text does not explicitly mention or consider individuals with disabilities or differing abilities. Incorporate language that recognizes diverse abilities, such as 'people with disabilities' or 'individuals with varying physical and cognitive abilities'. When discussing experimental participation, specify that accessibility considerations are included to ensure broad inclusivity.",
+    "socioeconomic_sensitivity": "Discussions of 'broad population samples' and 'students' often overlook socioeconomic diversity. Explicitly acknowledge socioeconomic variation and its influence on social preferences, e.g., 'samples include individuals from diverse socioeconomic backgrounds, which can influence social preferences and behaviors.' This promotes sensitivity to economic disparities.",
+    "geographic_inclusivity": "The focus on 'Western populations' limits the global relevance of findings. Broaden the scope by referencing studies from multiple regions, including Asia, Africa, and Latin America, and discuss how geographic and cultural contexts shape social preferences, e.g., 'including data from non-Western societies enhances understanding of cultural variability in social preferences.'",
+    "professional_titles": "The manuscript does not use professional titles, which is appropriate for neutrality. However, in contexts where authors or practitioners are referenced, consider using respectful titles if relevant, e.g., 'Professor', 'Dr.', especially in formal or cross-cultural settings, to show respect.",
+    "stereotypes": "Certain phrases, such as 'people with high education and income', may inadvertently reinforce stereotypes linking socioeconomic status with prosociality. Use neutral language like 'individuals across various educational and income levels' to avoid stereotypes and acknowledge diversity.",
+    "identity_language": "The predominant use of 'subjects' and 'individuals' rather than person-first language diminishes recognition of personal identity. Rephrasing to 'people with diverse identities' or 'participants' emphasizes personhood and respects individual differences.",
+    "historical_context": "Discussions of 'democratic rights' and 'mass movements' lack acknowledgment of historical struggles and diverse cultural narratives. Incorporate historical context that recognizes the varied pathways and cultural histories of democratic development worldwide, e.g., 'acknowledging the diverse historical struggles for democratic rights across different societies enhances cultural sensitivity.'",
+    "overall": "While the manuscript demonstrates a strong scientific approach, integrating more inclusive language, acknowledging cultural and demographic diversity, and avoiding stereotypes will significantly enhance its accessibility and relevance across diverse populations. Explicitly addressing these areas will foster a more respectful and globally aware scholarly discourse."
   },
-  "summary": "Overall, the text demonstrates a good level of inclusivity through gender-neutral language and cultural awareness. However, there are opportunities to enhance disability inclusion, address socioeconomic factors, and provide more nuanced discussions on identity and historical context. Improvements in language usage and consideration of diverse perspectives can further enhance the inclusivity of the study."
+  "summary": "Overall, the document exhibits a solid foundation of scientific rigor but falls short in explicitly incorporating inclusive and unbiased language. By adopting gender-neutral terms, broadening cultural and geographic references, explicitly recognizing diversity in age, ability, and socioeconomic status, and avoiding stereotypes, the manuscript can significantly improve its inclusivity. These enhancements will make the research more respectful, applicable, and sensitive to the diversity of human experiences, thereby enriching its scholarly and societal impact."
 }
