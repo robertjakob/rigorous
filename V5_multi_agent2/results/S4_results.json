@@ -3,122 +3,144 @@
   "critical_remarks": [
     {
       "category": "coverage",
-      "location": "Abstract",
-      "issue": "The abstract lacks a clear statement of the research objectives and key findings, making it challenging for readers to grasp the study's significance.",
+      "location": "Section 2 & 3",
+      "issue": "While the review covers a broad range of social preferences and distributional models, it underrepresents recent developments in neuroeconomic and cross-cultural research, especially in non-Western contexts beyond a few examples. Some important recent studies on the biological basis of social preferences are missing, which could deepen the understanding of their determinants.",
       "severity": "medium",
-      "impact": "This affects the initial understanding of the study's purpose and outcomes, potentially leading to reader disengagement."
+      "impact": "Limits the comprehensiveness and cutting-edge relevance of the review, potentially missing key insights into the origins and universality of social preferences."
     },
     {
       "category": "analysis",
-      "location": "Introduction",
-      "issue": "The introduction provides a broad overview of menstrual health but lacks a clear transition to the specific research questions addressed in the study.",
-      "severity": "medium",
-      "impact": "This hinders the reader's ability to understand the study's focus and relevance within the broader context of menstrual health research."
+      "location": "Section 3 & 4",
+      "issue": "The review often describes models and empirical findings but lacks critical evaluation of conflicting evidence or limitations of the models, such as issues with external validity, measurement error, or assumptions about stability over time.",
+      "severity": "high",
+      "impact": "Reduces the depth of analysis, making it more descriptive than critically insightful, which diminishes the scholarly contribution."
     },
     {
       "category": "structure",
-      "location": "Results",
-      "issue": "The results section lacks a clear subheading structure, making it challenging to navigate and identify key findings.",
-      "severity": "low",
-      "impact": "This may lead to reader confusion and difficulty in extracting important information from the results."
+      "location": "Overall organization",
+      "issue": "The review's structure, especially in Sections 3 and 4, tends to be dense and somewhat repetitive, with overlapping discussions of models and empirical evidence. Transitions between sections could be clearer to improve logical flow.",
+      "severity": "medium",
+      "impact": "Hampers readability and coherence, making it harder for readers to follow the development of arguments and thematic connections."
+    },
+    {
+      "category": "citations",
+      "location": "Throughout",
+      "issue": "While many foundational and recent studies are cited, some key recent papers (post-2020) on neurobiology, large-scale cross-cultural surveys, and field experiments are missing or underrepresented, especially in the context of emerging methodologies.",
+      "severity": "medium",
+      "impact": "Potentially outdated or incomplete citation coverage, which could undermine the review's currency and authority."
+    },
+    {
+      "category": "integration",
+      "location": "Sections 5 & 6",
+      "issue": "The review discusses various social preferences and their implications but does not sufficiently synthesize how different motives (e.g., fairness, image, reciprocity) interact or compete within individuals or across contexts, nor how they jointly influence policy and institutional design.",
+      "severity": "high",
+      "impact": "Misses an opportunity to provide a more holistic, integrated understanding of social preferences, limiting its theoretical and practical relevance."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Widespread gaps in menstrual health literacy \u2013 fueled by stigma, cultural taboos, and particularly, a lack of accessible education \u2013 have contributed to a longstanding neglect of menstrual health awareness and support.",
-      "improved_version": "The neglect of menstrual health awareness and support persists due to prevalent gaps in menstrual health literacy, driven by stigma, cultural taboos, and inadequate education accessibility.",
-      "explanation": "Restructuring the sentence for clarity and coherence.",
-      "location": "Abstract",
-      "category": "structure",
+      "original_text": "We review evidence on how social preferences affect (i) cooperation and (ii) employees\u2019 responses to wage inequality and wage cuts, (iii) the extent to which this affects firms\u2019 employment decisions, (iv) how they affect the allocation of workers with varying prosociality levels to different industries, (v) how they influence incentives and contract, and (vi) how they affect participating in protest movements against dictatorships and the political demand for redistribution.",
+      "improved_version": "We systematically review evidence on how social preferences influence (i) cooperation and social norms, (ii) employee responses to wage inequality and wage cuts, (iii) firm-level employment decisions and organizational behavior, (iv) the allocation of workers across industries based on prosocial traits, (v) the design and effectiveness of incentives and contracts, and (vi) participation in political protests and redistribution demands.",
+      "explanation": "Clarifies the scope and emphasizes the interconnectedness of social preferences across economic and political domains, improving thematic coherence.",
+      "location": "Section 6",
+      "category": "organization",
       "focus": "organization"
     },
     {
-      "original_text": "Despite these promising developments, research on engagement with menstrual health apps has primarily focused on metrics such as frequency and duration of app use or self-reported symptom-tracking behaviors.",
-      "improved_version": "However, existing research predominantly emphasizes metrics like app usage frequency and duration or self-reported symptom tracking, overlooking the impact of engaging with health-related content within menstrual tracking apps.",
-      "explanation": "Enhancing the contrast between existing research focus and the study's unique contribution.",
-      "location": "Introduction",
-      "category": "integration",
-      "focus": "relevance"
+      "original_text": "Theories of social preferences differ in how exactly \ud835\udf0b\u0bdd affects player i\u2019s utility \u2013 for example through social comparisons between \ud835\udf0b\u0bdc and \ud835\udf0b\u0bdd or through the perceived kindness associated with particular strategies that generate \ud835\udf0b\u0bdd; however, they all involve the assumption that other players\u2019 material payoffs enter i\u2019s utility function in some way.",
+      "improved_version": "Different theories of social preferences vary in their assumptions about how other players\u2019 payoffs influence utility\u2014ranging from social comparisons to kindness or fairness perceptions\u2014but they all posit that others\u2019 material payoffs are incorporated into individual utility functions in some form.",
+      "explanation": "Streamlines the explanation, reducing redundancy and clarifying the core conceptual distinction, enhancing clarity and precision.",
+      "location": "Section 3.1.1",
+      "category": "organization",
+      "focus": "organization"
     },
     {
-      "original_text": "This lack of health content interactions among a substantial subset of users introduces potential selection bias, limiting the generalizability of the findings to less active users.",
-      "improved_version": "The absence of health content interactions among a significant subset of users may introduce selection bias, restricting the applicability of the findings to less engaged users.",
-      "explanation": "Clarifying the impact of selection bias on generalizability.",
-      "location": "Limitations",
-      "category": "integration",
-      "focus": "breadth"
-    },
-    {
-      "original_text": "The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.",
-      "improved_version": "The counterintuitive negative correlation between user engagement with nutritional or mental health content and positive menstrual health experiences highlights the necessity to reassess the framing and delivery of dietary and mental health recommendations in digital health technologies for menstrual health.",
-      "explanation": "Enhancing clarity and specificity in addressing the study's implications.",
-      "location": "Discussion",
+      "original_text": "While this does not mean that these models are necessarily empirically correct \u2013 because this requires further empirical testing \u2013 it means that widespread seemingly selfish behaviors in certain strategic experiments can be perfectly consistent with the existence of widespread social preferences.",
+      "improved_version": "Although these models are not yet empirically validated in all contexts and require further testing, they demonstrate that observed selfish behaviors in strategic experiments can be compatible with the presence of widespread social preferences.",
+      "explanation": "Clarifies the tentative nature of empirical validation and emphasizes the compatibility of models with observed behaviors, strengthening analytical nuance.",
+      "location": "Section 3.1.2",
       "category": "analysis",
       "focus": "depth"
     },
     {
-      "original_text": "Furthermore, consistent with previous studies, app notifications underscore a pivotal role in fostering sustained app engagement, as users who enabled notifications exhibited higher tracking and content interaction rates.",
-      "improved_version": "Moreover, in line with prior research, app notifications play a crucial role in promoting continued app engagement, with users who activated notifications demonstrating increased rates of tracking and content interaction.",
-      "explanation": "Strengthening the connection to existing literature for better contextualization.",
-      "location": "Discussion",
-      "category": "integration",
+      "original_text": "The review often describes models and empirical findings but lacks critical evaluation of conflicting evidence or limitations of the models, such as issues with external validity, measurement error, or assumptions about stability over time.",
+      "improved_version": "The review would benefit from a more critical assessment of conflicting evidence, including limitations related to external validity, measurement challenges, and the stability of social preferences over time and across contexts. For example, discussing the potential biases in laboratory versus field settings would deepen the analysis.",
+      "explanation": "Encourages a balanced, critical perspective that acknowledges limitations, enhancing scholarly rigor.",
+      "location": "Sections 3, 4, 5, 6",
+      "category": "analysis",
       "focus": "depth"
     },
     {
-      "original_text": "However, the results also highlight that users tracked their menstrual health experiences more frequently than they engaged with recommended personalized health content, suggesting that self-monitoring behaviors (e.g., tracking menstrual health experiences) continue to be the dominant mode of engagement in women\u2019s health apps.",
-      "improved_version": "Nevertheless, the findings also reveal that users prioritize tracking their menstrual health experiences over engaging with personalized health content recommendations, indicating that self-monitoring behaviors remain the primary form of engagement in women\u2019s health apps.",
-      "explanation": "Enhancing the emphasis on user behavior patterns for clearer interpretation.",
-      "location": "Discussion",
-      "category": "analysis",
+      "original_text": "The review covers a broad range of social preferences and distributional models, but it underrepresents recent developments in neuroeconomic and cross-cultural research, especially in non-Western contexts beyond a few examples.",
+      "improved_version": "Expand coverage to include recent advances in neuroeconomic studies exploring the biological underpinnings of social preferences, as well as more comprehensive cross-cultural research beyond Western samples, to enhance global relevance and depth.",
+      "explanation": "Broadens the scope to include cutting-edge and diverse research, improving comprehensiveness.",
+      "location": "Section 2 & 3",
+      "category": "coverage",
       "focus": "breadth"
     },
     {
-      "original_text": "This suggests that this format may be less engaging or harder to integrate into users' app routines.",
-      "improved_version": "This indicates that video-based content may be less captivating or challenging to incorporate into users' app usage habits.",
-      "explanation": "Clarifying the impact of content format on user engagement.",
-      "location": "Discussion",
+      "original_text": "The review discusses various social preferences and their implications but does not sufficiently synthesize how different motives (e.g., fairness, image, reciprocity) interact or compete within individuals or across contexts.",
+      "improved_version": "Integrate a synthesis that explores how motives such as fairness, social image, and reciprocity coexist, interact, or compete within individuals and across different social and economic environments, providing a more unified theoretical framework.",
+      "explanation": "Enhances theoretical integration and offers a more holistic understanding of complex motives.",
+      "location": "Sections 4, 5, 6",
       "category": "analysis",
+      "focus": "synthesis"
+    },
+    {
+      "original_text": "While many foundational and recent studies are cited, some key recent papers (post-2020) on neurobiology, large-scale cross-cultural surveys, and field experiments are missing or underrepresented.",
+      "improved_version": "Incorporate recent literature (post-2020) on neurobiological mechanisms underlying social preferences, large-scale cross-cultural surveys, and innovative field experiments to ensure the review reflects the latest empirical advances.",
+      "explanation": "Keeps the review current and authoritative by including the latest research developments.",
+      "location": "Throughout",
+      "category": "citations",
       "focus": "relevance"
     },
     {
-      "original_text": "However, the analysis also showed a negative association between age and positive menstrual health experiences, suggesting that older adults might engage less with DHTs due to usability challenges and lower digital literacy.",
-      "improved_version": "Nevertheless, the study identified a negative correlation between age and positive menstrual health experiences, indicating that older adults may exhibit lower engagement with digital health technologies due to usability difficulties and reduced digital literacy.",
-      "explanation": "Strengthening the discussion on age-related factors influencing user engagement.",
-      "location": "Discussion",
-      "category": "analysis",
+      "original_text": "The review discusses the economic and political implications of social preferences but does not sufficiently connect these to normative debates or policy design considerations.",
+      "improved_version": "Deepen the discussion on how empirical findings on social preferences inform normative debates on fairness, justice, and policy design, including implications for welfare economics, tax policy, and institutional reforms.",
+      "explanation": "Strengthens the policy relevance and normative integration, broadening impact.",
+      "location": "Sections 6 & 7",
+      "category": "integration",
       "focus": "relevance"
     },
     {
-      "original_text": "For each model, we report regression coefficients (\u03b2), standard errors (SE), t-values, degrees of freedom (df), 95% confidence intervals (CIs), and both original and Bonferroni-corrected p-values.",
-      "improved_version": "Each model includes reporting of regression coefficients (\u03b2), standard errors (SE), t-values, degrees of freedom (df), 95% confidence intervals (CIs), and both original and Bonferroni-corrected p-values for comprehensive statistical analysis.",
-      "explanation": "Enhancing clarity in reporting statistical results.",
-      "location": "Methods",
-      "category": "structure",
+      "original_text": "The review often describes models and findings but could better highlight unresolved debates, open questions, and future research directions, especially regarding the measurement and stability of social preferences.",
+      "improved_version": "Explicitly identify unresolved debates, such as the measurement of social preferences, their stability over time, and cross-cultural variability, and outline promising avenues for future research to address these gaps.",
+      "explanation": "Provides clearer guidance for future scholarship, enhancing scholarly contribution.",
+      "location": "Section 7",
+      "category": "organization",
       "focus": "organization"
     },
     {
-      "original_text": "To assess (RQ 1) the associations between content characteristics (combination of recommended content, i.e. mental health blogs) and user DHT engagement behavior (tracking and content engagement behavior), and (RQ 2) the associations between user DHT engagement behavior and users\u2019 self-reported menstrual health experiences (intensity of menstrual health experiences), four linear mixed-effects models were employed.",
-      "improved_version": "To address (RQ 1) the relationships between content characteristics (e.g., mental health blogs) and user engagement behavior in digital health technologies (DHTs), and (RQ 2) the associations between user engagement behavior and self-reported menstrual health experiences, four linear mixed-effects models were utilized.",
-      "explanation": "Clarifying the research objectives and model application for better understanding.",
-      "location": "Methods",
-      "category": "structure",
-      "focus": "organization"
+      "original_text": "The review could benefit from a more explicit discussion of how different social motives may be integrated into a unified behavioral model, including potential interactions and trade-offs.",
+      "improved_version": "Discuss the prospects for integrating various social motives\u2014such as fairness, reciprocity, guilt, and image concerns\u2014into comprehensive behavioral models that account for their interactions, trade-offs, and context-dependent prominence.",
+      "explanation": "Encourages theoretical synthesis and advances understanding of complex social motives.",
+      "location": "Sections 4-6",
+      "category": "analysis",
+      "focus": "synthesis"
     },
     {
-      "original_text": "The dataset analyzed in this study is not publicly available. Access to anonymized data may be granted upon reasonable request and with approval from the corresponding author and the company.",
-      "improved_version": "The dataset used in this study is not publicly accessible. Interested parties can request access to deidentified data, subject to approval from the corresponding author and the organization.",
-      "explanation": "Providing clear guidelines on data availability and access.",
-      "location": "Methods",
-      "category": "structure",
-      "focus": "organization"
+      "original_text": "The review mentions the importance of cultural differences but does not systematically compare findings across cultures or discuss methodological challenges in cross-cultural research.",
+      "improved_version": "Include a systematic comparison of cross-cultural findings, discussing methodological challenges such as translation, framing effects, and sampling, to better understand the universality versus cultural specificity of social preferences.",
+      "explanation": "Enhances depth and critical perspective on cross-cultural generalizability.",
+      "location": "Section 3 & 4",
+      "category": "coverage",
+      "focus": "breadth"
+    },
+    {
+      "original_text": "The review discusses the stability of social preferences over time but could elaborate on the implications of stability versus malleability for policy and organizational interventions.",
+      "improved_version": "Elaborate on how the observed stability or malleability of social preferences over time informs the design of policies and organizational practices aimed at fostering prosocial behavior and cooperation.",
+      "explanation": "Connects empirical findings to practical applications, increasing policy relevance.",
+      "location": "Section 7",
+      "category": "analysis",
+      "focus": "relevance"
     }
   ],
   "detailed_feedback": {
-    "coverage_analysis": "The literature review provides a comprehensive overview of menstrual health issues, highlighting the significance of menstrual health awareness and the role of digital health technologies. However, there is room to expand the discussion to include a broader range of studies and perspectives to enhance the coverage breadth.",
-    "analysis_quality": "The critical analysis offers valuable insights into the associations between user behaviors, content engagement, and menstrual health outcomes. To further enhance the analysis, deeper exploration of the implications of the study findings and comparison with existing research could strengthen the critical evaluation.",
-    "structure_evaluation": "The organization of the literature review is generally logical, progressing from background information to research questions and results. However, clearer subheadings and transitions between sections could improve the overall flow and coherence of the manuscript.",
-    "citation_assessment": "The quality of citations is generally good, with a mix of recent and relevant references supporting the study's context. Ensuring consistent citation formatting and including a broader range of sources could enhance the citation quality.",
-    "integration_review": "The integration of the research within the broader context of menstrual health and digital health technologies is well-established. To further strengthen integration, explicit connections between the study findings and existing literature, as well as implications for future research, could be elaborated upon."
+    "coverage_analysis": "The review provides extensive coverage of classic and recent models of social preferences, including distributional, reciprocity, guilt, and image concerns, with a strong emphasis on laboratory and some field evidence. However, it underrepresents recent neuroeconomic and cross-cultural studies, especially those exploring biological bases and non-Western contexts, which are crucial for understanding the universality and origins of social preferences.",
+    "analysis_quality": "The analysis is descriptive and well-organized but often lacks critical evaluation of conflicting evidence, methodological limitations, and the robustness of findings. Incorporating discussions on measurement issues, external validity, and stability over time would deepen the critical insight and scholarly rigor.",
+    "structure_evaluation": "The review follows a logical thematic progression but tends to be dense in some sections, with overlapping discussions and limited transitions. Clearer subheadings, summaries, and signposting would improve readability and coherence, especially in complex sections on models and empirical evidence.",
+    "citation_assessment": "The citations are comprehensive, including foundational and recent works, but recent developments (post-2020) in neurobiology, large-scale surveys, and innovative field experiments are underrepresented. Updating with the latest literature would enhance credibility and relevance.",
+    "integration_review": "While the review covers various motives and domains, it does not sufficiently synthesize how different social motives interact within individuals or across contexts, nor how they jointly influence policy and institutional outcomes. A more integrated discussion would provide a holistic understanding of social preferences' roles in society."
   },
-  "summary": "The literature review provides a comprehensive overview of menstrual health issues and the study's focus on digital health technologies. While the critical analysis offers valuable insights, improvements in coverage breadth, analysis depth, and organizational clarity could enhance the overall quality and impact of the manuscript."
+  "summary": "Overall, this literature review offers a thorough and well-structured overview of social preferences, their models, empirical evidence, and implications. To elevate its quality, it should incorporate more critical evaluation of conflicting evidence, recent neuroeconomic and cross-cultural research, and deeper integration of motives and policy relevance. Enhancing clarity in organization and expanding normative and future research discussions would make it more comprehensive and impactful."
 }

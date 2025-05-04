@@ -3,128 +3,186 @@
   "critical_remarks": [
     {
       "category": "presentation",
-      "location": "Abstract",
-      "issue": "The abstract lacks a clear summary of the research questions, methods, and key findings.",
+      "location": "Section 2, Paragraph 2",
+      "issue": "The dense paragraph describing paradigmatic experiments is overly lengthy and contains multiple complex concepts without clear subheadings or visual cues, which hampers readability.",
       "severity": "medium",
-      "impact": "Affects the initial understanding of the study's scope and outcomes."
+      "impact": "Reduces clarity and makes it difficult for readers to quickly grasp key experimental designs and their implications."
     },
     {
       "category": "analysis",
-      "location": "Results Section",
-      "issue": "The statistical analysis lacks detailed explanation of the models used and their appropriateness.",
+      "location": "Section 3.1, Paragraph 3",
+      "issue": "The presentation of the distributional preference models (equations 1a and 1b) lacks sufficient explanation of parameters and their behavioral interpretations, which may confuse readers unfamiliar with the models.",
       "severity": "high",
-      "impact": "Affects the credibility and reproducibility of the study's findings."
+      "impact": "Impairs understanding of the models\u2019 assumptions and their empirical relevance, weakening the analysis."
     },
     {
       "category": "interpretation",
-      "location": "Discussion Section",
-      "issue": "The interpretation of results lacks depth and does not provide actionable insights.",
+      "location": "Section 3.1, Paragraph 4",
+      "issue": "The discussion of empirical frequency estimates (e.g., Table 1) reports averages without discussing potential heterogeneity or confidence intervals, which limits the depth of interpretation.",
       "severity": "medium",
-      "impact": "Diminishes the value of the study's implications."
+      "impact": "Limits the reader\u2019s ability to assess the robustness and variability of the prevalence of different preference types."
     },
     {
-      "category": "quality",
-      "location": "Methods Section",
-      "issue": "The methods section lacks clarity on data collection procedures and potential biases.",
+      "category": "visualization",
+      "location": "Figures 1 and A1",
+      "issue": "Figures illustrating indifference curves and distributions of parameters are referenced but not included in the text, and their descriptions are insufficiently detailed for standalone understanding.",
+      "severity": "medium",
+      "impact": "Reduces the effectiveness of visual aids in conveying complex model differences and empirical distributions."
+    },
+    {
+      "category": "significance",
+      "location": "Section 3.2, Paragraph 2",
+      "issue": "While the meta-analysis reports mean parameters, it does not sufficiently discuss the statistical significance or heterogeneity across studies, which is crucial for evaluating the importance of inequality aversion.",
       "severity": "high",
-      "impact": "Compromises the study's validity and reliability."
+      "impact": "Weakens confidence in the generalizability and importance of the reported average parameters."
     },
     {
-      "category": "impact",
-      "location": "Discussion Section",
-      "issue": "The discussion does not clearly address the significance and broader implications of the findings.",
+      "category": "presentation",
+      "location": "Section 4.1.1, Paragraph 2",
+      "issue": "The description of models of reciprocity (Rabin, Dufwenberg & Kirchsteiger, Charness & Rabin) is somewhat technical and dense, with limited intuitive explanation for non-specialist readers.",
       "severity": "medium",
-      "impact": "Reduces the overall impact and relevance of the study."
+      "impact": "Hinders accessibility and understanding of the core mechanisms underlying reciprocity."
+    },
+    {
+      "category": "analysis",
+      "location": "Section 4.1.2, Paragraph 4",
+      "issue": "The discussion of experimental evidence on reciprocity often cites percentages and significance levels without contextualizing effect sizes or practical relevance.",
+      "severity": "medium",
+      "impact": "Limits the reader\u2019s ability to judge the real-world importance of the findings."
+    },
+    {
+      "category": "interpretation",
+      "location": "Section 4.2, Paragraph 2",
+      "issue": "The discussion of guilt aversion theory\u2019s limitations (e.g., endogenous beliefs, measurement challenges) is somewhat superficial and lacks concrete suggestions for overcoming these issues.",
+      "severity": "medium",
+      "impact": "Reduces the critical depth and practical guidance for future research."
+    },
+    {
+      "category": "visualization",
+      "location": "Section 4.2, Figures 3 and related text",
+      "issue": "The description of the sequential exchange game and belief manipulations is complex, but no schematic or diagram is provided to clarify the game structure.",
+      "severity": "medium",
+      "impact": "Decreases clarity and makes it harder for readers to follow the experimental design."
+    },
+    {
+      "category": "significance",
+      "location": "Section 5.2, Paragraph 2",
+      "issue": "The summary of social image concerns cites multiple studies but does not quantify the magnitude of effects or discuss heterogeneity across contexts.",
+      "severity": "medium",
+      "impact": "Weakens the assessment of how impactful social image concerns are across different behaviors."
+    },
+    {
+      "category": "presentation",
+      "location": "Section 6.2, Paragraph 2",
+      "issue": "The discussion of field evidence on wage rigidity and fairness concerns is lengthy and somewhat repetitive, with limited focus on key empirical patterns.",
+      "severity": "low",
+      "impact": "Reduces overall clarity and focus of the narrative."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Our findings revealed that users tracked health experiences more frequently than they interacted with personalized health content.",
-      "improved_version": "Users engaged more frequently with tracking health experiences than interacting with personalized health content.",
-      "explanation": "Rephrasing for clarity and emphasis on user behavior.",
-      "location": "Results Section",
+      "original_text": "This Version: 13 September 2024",
+      "improved_version": "This version: 13 September 2024",
+      "explanation": "Lowercase 'version' improves consistency and professionalism in formal writing.",
+      "location": "Title page",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "Users who enabled app notifications logged significantly more menstrual health experiences, compared to those who did not.",
-      "improved_version": "Enabling app notifications was associated with significantly higher logs of menstrual health experiences.",
-      "explanation": "Restructuring for better flow and emphasis on the association.",
-      "location": "Results Section",
+      "original_text": "The paradigmatic experiments discussed in Section 2, while indicating the existence of social preferences and capturing essential components of important real-life interactions, are a poor",
+      "improved_version": "The paradigmatic experiments discussed in Section 2, while indicating the existence of social preferences and capturing key aspects of important real-life interactions, are limited in scope.",
+      "explanation": "Simplifies and clarifies the critique, making it more accessible and precise.",
+      "location": "Section 2, Paragraph 2",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "Users who engaged with health content recommended within the app consistently reported a higher average intensity of positive menstrual health experiences.",
-      "improved_version": "Consistent engagement with recommended health content in the app was associated with higher average intensity of positive menstrual health experiences.",
-      "explanation": "Enhancing clarity and specificity in the statement.",
-      "location": "Results Section",
+      "original_text": "Theories of social preferences differ in how exactly \ud835\udf0b\u0bdd affects player i\u2019s utility \u2013 for example through social comparisons between \ud835\udf0b\u0bdc and \ud835\udf0b\u0bdd or through the perceived kindness associated with particular strategies that generate \ud835\udf0b\u0bdd; however, they all involve the assumption that other players\u2019 material payoffs enter i\u2019s utility function in some way.",
+      "improved_version": "Different theories of social preferences specify how \ud835\udf0b\u0bdd influences player i\u2019s utility\u2014such as via social comparisons between \ud835\udf0b\u0bdc and \ud835\udf0b\u0bdd or perceptions of kindness\u2014but all assume that others\u2019 material payoffs are incorporated into i\u2019s utility function.",
+      "explanation": "Clarifies the sentence structure and emphasizes the common assumption across models, improving comprehension.",
+      "location": "Section 3.1, Paragraph 1",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "The study indicates that sustained menstrual health tracking can lead to less negative menstrual health experiences.",
-      "improved_version": "Sustained menstrual health tracking was associated with reduced negative menstrual health experiences.",
-      "explanation": "Streamlining the statement for better readability.",
-      "location": "Discussion Section",
+      "original_text": "The predictions for the experimental games mentioned above assume that the games are played one-shot and that interactions are anonymous.",
+      "improved_version": "All predictions for the experimental games assume that they are played as one-shot interactions with anonymity between players.",
+      "explanation": "Rephrases for clarity and emphasizes the key assumptions affecting the results.",
+      "location": "Section 2, Paragraph 4",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "The unexpected negative association between user interaction with nutritional or mental health content and positive menstrual health experiences underscores the need to re-evaluate how dietary and mental health recommendations are framed and delivered within DHTs for menstrual health.",
-      "improved_version": "The negative association between user interaction with nutritional or mental health content and positive menstrual health experiences suggests a need to reassess the framing and delivery of dietary and mental health recommendations in DHTs for menstrual health.",
-      "explanation": "Condensing and refining the statement for conciseness and clarity.",
-      "location": "Discussion Section",
+      "original_text": "Figures illustrating indifference curves and distributions of parameters are referenced but not included in the text, and their descriptions are insufficiently detailed for standalone understanding.",
+      "improved_version": "Include clear, high-resolution figures of the indifference curves and parameter distributions directly within the manuscript, accompanied by detailed captions explaining their significance and interpretation. For example, provide a figure showing the indifference curves for inequality aversion, envious preferences, and altruism, with annotations highlighting key differences.",
+      "explanation": "Enhances visual comprehension and allows readers to independently interpret the models and empirical distributions.",
+      "location": "Section 3.1, Figures 1 and A1",
+      "category": "visualization",
+      "focus": "visualization"
+    },
+    {
+      "original_text": "While the meta-analysis reports mean parameters, it does not sufficiently discuss the statistical significance or heterogeneity across studies, which is crucial for evaluating the importance of inequality aversion.",
+      "improved_version": "Complement the meta-analysis with confidence intervals, heterogeneity measures, and significance tests for the estimated mean parameters (e.g., \ud835\udefc and \ud835\udefd). Discuss the variability across studies and the implications for the robustness of inequality aversion as a widespread phenomenon.",
+      "explanation": "Provides a more rigorous and nuanced understanding of the empirical evidence\u2019s strength and consistency.",
+      "location": "Section 3.1, Paragraph 4",
+      "category": "analysis",
+      "focus": "statistics"
+    },
+    {
+      "original_text": "The description of models of reciprocity (Rabin, Dufwenberg & Kirchsteiger, Charness & Rabin) is somewhat technical and dense, with limited intuitive explanation for non-specialist readers.",
+      "improved_version": "Add intuitive explanations and real-world examples for each reciprocity model. For instance, explain Rabin\u2019s model as 'people respond positively when they perceive others\u2019 actions as kind, and negatively when they perceive unkindness,' supported by practical scenarios like gift exchanges or workplace interactions.",
+      "explanation": "Improves accessibility and helps non-expert readers grasp the core ideas behind complex models.",
+      "location": "Section 4.1.1, Paragraph 2",
       "category": "presentation",
       "focus": "clarity"
     },
     {
-      "original_text": "The analysis identified a statistically significant association between the intensity of negative menstrual health experiences and tracking behavior.",
-      "improved_version": "A significant association was found between tracking behavior and the intensity of negative menstrual health experiences.",
-      "explanation": "Simplifying and emphasizing the key finding.",
-      "location": "Results Section",
-      "category": "presentation",
-      "focus": "clarity"
+      "original_text": "The discussion of experimental evidence on reciprocity often cites percentages and significance levels without contextualizing effect sizes or practical relevance.",
+      "improved_version": "Include effect size measures (e.g., Cohen\u2019s d) and discuss the practical significance of the reported percentages. For example, explain how a 44% rejection rate indicates a substantial behavioral tendency toward reciprocity, and relate it to real-world contexts such as employer-employee relations.",
+      "explanation": "Enhances understanding of the real-world importance of statistical findings and avoids overemphasis on p-values alone.",
+      "location": "Section 4.1.2, Paragraph 4",
+      "category": "analysis",
+      "focus": "statistics"
     },
     {
-      "original_text": "Demographic and health-related factors, such as age and hormonal contraception use, showed no statistically significant associations with menstruating individuals\u2019 app tracking and content engagement behavior.",
-      "improved_version": "Factors like age and hormonal contraception use did not show significant associations with app tracking and content engagement among menstruating individuals.",
-      "explanation": "Enhancing readability and clarity of the statement.",
-      "location": "Results Section",
-      "category": "presentation",
-      "focus": "clarity"
+      "original_text": "The discussion of guilt aversion theory\u2019s limitations (e.g., endogenous beliefs, measurement challenges) is somewhat superficial and lacks concrete suggestions for overcoming these issues.",
+      "improved_version": "Expand on potential methodological approaches to address endogenous belief issues, such as using exogenous belief manipulations (e.g., belief elicitation with external sources) or experimental designs that vary belief formation independently. Provide specific examples of how future studies could implement these methods.",
+      "explanation": "Provides actionable guidance for advancing empirical testing and strengthens the critique.",
+      "location": "Section 4.2, Paragraph 2",
+      "category": "analysis",
+      "focus": "interpretation"
     },
     {
-      "original_text": "The findings suggest that general engagement with health-related content rather than specific types of content plays a more nuanced role in shaping user-reported health outcomes.",
-      "improved_version": "The study indicates that overall engagement with health-related content, rather than specific types, influences user-reported health outcomes.",
-      "explanation": "Clarifying the emphasis on general content engagement.",
-      "location": "Discussion Section",
-      "category": "presentation",
-      "focus": "clarity"
+      "original_text": "The description of the sequential exchange game and belief manipulations is complex, but no schematic or diagram is provided to clarify the game structure.",
+      "improved_version": "Include a clear, labeled diagram of the sequential exchange game, illustrating the sequence of moves, information sets, and belief updates. For example, a game tree showing the stages and possible actions would significantly aid comprehension.",
+      "explanation": "Visual aids clarify complex game structures, making the experimental design more accessible.",
+      "location": "Section 4.2, Figures 3 and related text",
+      "category": "visualization",
+      "focus": "visualization"
     },
     {
-      "original_text": "This study adds to research on women\u2019s health apps by providing new insights into the associations between content pillars, media formats, and users\u2019 tracking and content engagement behavior.",
-      "improved_version": "The study contributes new insights into the relationships between content pillars, media formats, and user engagement behaviors in women's health apps.",
-      "explanation": "Streamlining the introduction for better impact and clarity.",
-      "location": "Introduction Section",
-      "category": "presentation",
-      "focus": "clarity"
+      "original_text": "The summary of social image concerns cites multiple studies but does not quantify the magnitude of effects or discuss heterogeneity across contexts.",
+      "improved_version": "Quantify the typical effect sizes reported in key studies (e.g., increase in contributions or donations) and discuss variability across different settings (lab vs. field, cultural contexts). Highlight how consistent or variable the effects are, and specify conditions under which social image concerns are most influential.",
+      "explanation": "Provides a more comprehensive assessment of the importance and robustness of social image effects.",
+      "location": "Section 5.2, Paragraph 2",
+      "category": "significance",
+      "focus": "significance"
     },
     {
-      "original_text": "The analysis also showed a negative association between age and positive menstrual health experiences.",
-      "improved_version": "Furthermore, a negative association was observed between age and positive menstrual health experiences.",
-      "explanation": "Rephrasing for clarity and emphasis on the finding.",
-      "location": "Results Section",
+      "original_text": "The discussion of field evidence on downward wage rigidity is lengthy and somewhat repetitive, with limited focus on key empirical patterns.",
+      "improved_version": "Summarize the main empirical patterns in a concise table or bullet points, such as: 'Wage cuts are resisted in country X due to fairness concerns; evidence from Y shows lower effort following wage cuts.' This enhances clarity and focus.",
+      "explanation": "Improves readability and emphasizes key findings without unnecessary repetition.",
+      "location": "Section 6.2, Paragraph 2",
       "category": "presentation",
       "focus": "clarity"
     }
   ],
   "detailed_feedback": {
-    "presentation_analysis": "The data presentation is detailed and provides a comprehensive overview of the study's methodology and results. However, there are instances where the clarity and flow of information could be improved, especially in the abstract and results sections.",
-    "analysis_quality": "The statistical analysis is robust, utilizing appropriate methods like linear mixed-effects models. However, more detailed explanations of the models and their relevance to the research questions would enhance the analysis section.",
-    "interpretation_review": "The interpretation of results lacks depth and actionable insights. Providing more context and implications of the findings would strengthen the interpretation.",
-    "visualization_assessment": "The figures and tables are informative and well-organized, aiding in data visualization. However, some figures could benefit from clearer labeling and more detailed explanations.",
-    "significance_evaluation": "The reporting of statistical significance and effect sizes is adequate. However, the discussion on the broader significance and implications of the findings could be more detailed and impactful."
+    "presentation_analysis": "The results section contains dense, lengthy paragraphs that cover complex experimental designs, models, and empirical findings without sufficient subheadings or visual segmentation. Incorporating figures, tables, and clearer substructure would greatly enhance readability and comprehension, especially for readers less familiar with technical details.",
+    "analysis_quality": "The statistical analysis primarily relies on descriptive statistics, percentages, and meta-analytic averages without consistently reporting confidence intervals, effect sizes, or heterogeneity measures. Including these would strengthen the empirical claims and allow for better assessment of robustness and significance.",
+    "interpretation_review": "The interpretation of results often emphasizes the prevalence or significance of certain preferences or behaviors but sometimes lacks depth in discussing the implications, limitations, or heterogeneity across contexts. Explicitly addressing these aspects would deepen the understanding of the findings' relevance.",
+    "visualization_assessment": "Figures and tables are referenced but not always included or sufficiently detailed. Visual aids such as diagrams of experimental designs, distributions of parameters, and model illustrations would significantly improve clarity and engagement.",
+    "significance_evaluation": "While the manuscript reports many statistically significant findings, it often omits discussion of effect sizes and practical relevance. Incorporating these metrics would provide a more balanced and meaningful interpretation of the empirical evidence."
   },
-  "summary": "Overall, the study provides valuable insights into the associations between user engagement with health content and self-reported menstrual health experiences. While the data presentation and analysis are detailed, there are areas for improvement in clarity, interpretation, and significance reporting. Enhancing the presentation of results, providing more in-depth interpretations, and discussing the broader implications of the findings would strengthen the overall quality and impact of the study."
+  "summary": "Overall, the manuscript offers a comprehensive and detailed review of social preferences, their models, and empirical evidence. Its strengths lie in breadth and depth of coverage, but it would benefit from improved clarity through better organization, visual aids, and more rigorous statistical reporting. Addressing these issues would enhance accessibility, interpretability, and impact, making the results section more compelling and reader-friendly."
 }

@@ -18,7 +18,7 @@ class EditorAgent:
                 }
         """
         try:
-            self.client = OpenAIClient()
+        self.client = OpenAIClient()
         except Exception as e:
             raise RuntimeError(f"Failed to initialize OpenAI client: {str(e)}")
         
@@ -635,7 +635,7 @@ class EditorAgent:
         if model_key not in self.model_config:
             raise ValueError(f"Unknown model key: {model_key}. Must be one of: {list(self.model_config.keys())}")
         self.model_config["current"] = model_key
-
+    
     def analyze_paper(self, paper_text: str) -> Dict[str, Any]:
         """Analyze the paper to determine required expertise and review criteria.
         
@@ -670,7 +670,7 @@ class EditorAgent:
             
             if "error" in response:
                 raise Exception(response["error"])
-            
+                
             return response
             
         except Exception as e:
@@ -967,4 +967,4 @@ Ensure your response is valid JSON and includes all required fields."""
             "expertise": agent['expertise'],
             "focus_areas": agent['focus_areas'],
             "feedback": response
-        } 
+            } 

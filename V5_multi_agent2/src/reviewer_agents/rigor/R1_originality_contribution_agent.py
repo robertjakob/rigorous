@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class OriginalityContributionAgent(BaseReviewerAgent):
     """Agent responsible for assessing research novelty and unique contributions."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R1_Originality_Contribution_Agent"
         self.category = "Scientific Rigor"

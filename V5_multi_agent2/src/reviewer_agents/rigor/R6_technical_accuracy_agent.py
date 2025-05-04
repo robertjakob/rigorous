@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class TechnicalAccuracyAgent(BaseReviewerAgent):
     """Agent responsible for reviewing mathematical derivations, algorithms, and technical content."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R6_Technical_Accuracy_Agent"
         self.category = "Scientific Rigor"

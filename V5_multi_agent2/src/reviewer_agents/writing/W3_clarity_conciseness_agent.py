@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class ClarityConcisenessAgent(BaseReviewerAgent):
     """Agent responsible for evaluating clarity and conciseness of the manuscript."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W3_Clarity_Conciseness_Agent"
         self.category = "Writing and Presentation"

@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class AbstractAgentS2(BaseReviewerAgent):
     """Agent responsible for evaluating the abstract of a manuscript."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "S2_Abstract_Agent"
         self.category = "Section Review"

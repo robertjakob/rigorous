@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class StatisticalRigorAgent(BaseReviewerAgent):
     """Agent responsible for evaluating statistical methods appropriateness and correctness."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R5_Statistical_Rigor_Agent"
         self.category = "Scientific Rigor"

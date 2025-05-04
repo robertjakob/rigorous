@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class ImpactSignificanceAgent(BaseReviewerAgent):
     """Agent responsible for evaluating research impact and significance."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "R2_Impact_Significance_Agent"
         self.category = "Scientific Rigor"

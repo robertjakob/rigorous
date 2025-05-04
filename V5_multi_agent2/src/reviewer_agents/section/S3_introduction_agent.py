@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class IntroductionAgentS3(BaseReviewerAgent):
     """Agent responsible for evaluating the introduction of a manuscript."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "S3_Introduction_Agent"
         self.category = "Section Review"

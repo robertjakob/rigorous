@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class TargetAudienceAlignmentAgent(BaseReviewerAgent):
     """Agent responsible for evaluating writing style and formatting alignment with target audience."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W7_Target_Audience_Alignment_Agent"
         self.category = "Writing and Presentation"

@@ -6,7 +6,7 @@ from ...core.report_template import ReportTemplate
 class TerminologyConsistencyAgent(BaseReviewerAgent):
     """Agent responsible for ensuring consistent use of terms, notations, and acronyms."""
     
-    def __init__(self, model="gpt-4"):
+    def __init__(self, model="gpt-4.1-nano"):
         super().__init__(model)
         self.name = "W4_Terminology_Consistency_Agent"
         self.category = "Writing and Presentation"

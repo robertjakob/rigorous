@@ -1,51 +1,51 @@
 {
-  "title_keywords_score": 7,
+  "title_keywords_score": 4,
   "critical_remarks": [
     {
       "category": "title_clarity",
       "location": "Title",
-      "issue": "The title lacks specificity and does not clearly convey the focus of the study.",
+      "issue": "The current title 'Social Preferences: Fundamental Characteristics and Economic Consequences' is somewhat broad and generic, which may reduce immediate clarity about the specific focus of the paper.",
       "severity": "medium",
-      "impact": "May lead to confusion among readers and reduce the attractiveness of the study."
+      "impact": "This can hinder quick recognition of the paper's core contribution, affecting reader engagement and discoverability."
     },
     {
       "category": "title_length",
       "location": "Title",
-      "issue": "The title is lengthy and could be more concise to improve readability.",
+      "issue": "The title is relatively long and contains multiple concepts, which may dilute its impact and make it less memorable.",
       "severity": "low",
-      "impact": "May slightly affect the readability and memorability of the title."
+      "impact": "A lengthy title can reduce search engine optimization and reduce the likelihood of appearing in concise search queries."
     },
     {
       "category": "keywords_relevance",
       "location": "Keywords",
-      "issue": "No dedicated 'Keywords' section found in the text.",
+      "issue": "No keywords section is explicitly provided in the manuscript.",
       "severity": "high",
-      "impact": "May reduce the discoverability and indexing of the manuscript."
+      "impact": "Lack of keywords diminishes discoverability in digital searches, reducing the paper's visibility to targeted audiences."
     },
     {
-      "category": "keywords_coverage",
-      "location": "Keywords",
-      "issue": "No keywords extracted from the text due to the absence of a dedicated section.",
-      "severity": "high",
-      "impact": "May hinder the visibility and searchability of the manuscript."
+      "category": "guidelines",
+      "location": "Title",
+      "issue": "The title does not explicitly follow the standard convention of including specific keywords or phrases that enhance SEO or thematic clarity.",
+      "severity": "medium",
+      "impact": "This can limit the paper's ranking in relevant searches and reduce its academic reach."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Longitudinal analysis of over 300,000 self-reported menstrual health experiences and 10,000 personalized health content interactions in a women\u2019s health app",
-      "improved_version": "Enhancing Women's Health: Insights from 300,000 Menstrual Health Experiences and Personalized Content Interactions",
-      "explanation": "The improved title is more concise, specific, and impactful. It highlights the focus on women's health, emphasizes the scale of the study, and improves search optimization.",
+      "original_text": "Social Preferences: Fundamental Characteristics and Economic Consequences",
+      "improved_version": "Social Preferences: Key Traits, Distribution, and Economic Impacts in Experimental and Field Studies",
+      "explanation": "This revised title is more specific, highlighting core themes such as traits, distribution, and impacts, which improves clarity and relevance. It balances impact and SEO by including terms like 'traits,' 'distribution,' and 'impacts,' which are common search keywords in social preference literature, aligning with academic standards for descriptive precision.",
       "location": "Title",
       "category": "title",
       "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The title lacks specificity and conciseness, impacting clarity and SEO. It could be improved to better reflect the study's focus and enhance discoverability.",
+    "title_analysis": "The current title is somewhat broad and lacks specificity, which can impair immediate understanding of the paper's core focus. Its length and generality reduce its impact and searchability, especially in digital environments where concise, keyword-rich titles perform better. A more targeted and descriptive title would enhance clarity, impact, and discoverability, aligning with academic standards for effective titling.",
     "keywords_analysis": "No keywords section found",
-    "guidelines_compliance": "The title does not fully comply with field conventions due to lack of specificity and conciseness.",
-    "discoverability_assessment": "The title could be optimized for search engines by including more relevant keywords and focusing on key terms related to women's health.",
-    "audience_alignment": "The title could be more appealing and significant by highlighting the unique insights and scale of the study, attracting a wider audience interested in women's health."
+    "guidelines_compliance": "The manuscript's title does not explicitly follow the typical conventions of including specific, searchable keywords or phrases that enhance SEO and thematic clarity. Incorporating relevant keywords and a clear focus in the title is recommended to improve discoverability and align with field standards.",
+    "discoverability_assessment": "The absence of a dedicated keywords section and the broad nature of the current title limit the manuscript's visibility in search engines and academic databases. An optimized, keyword-rich title would significantly improve its search ranking and accessibility to targeted audiences interested in social preferences and their economic implications.",
+    "audience_alignment": "The current title may not fully capture the interest of researchers focusing on social preferences, economic impacts, or experimental studies, potentially reducing engagement. A more precise and descriptive title would better align with the interests of the target academic audience, emphasizing the paper's contributions to understanding traits, distribution, and consequences of social preferences."
   },
-  "summary": "The title and keywords section of the manuscript require improvement for better clarity, specificity, and search optimization. Enhancing the title's conciseness and relevance can significantly enhance the manuscript's visibility and appeal to the target audience."
+  "summary": "The manuscript's title currently suffers from broadness and length, which diminish clarity, impact, and searchability. The absence of explicit keywords further hampers discoverability. A more specific, keyword-optimized title that clearly indicates the focus on traits, distribution, and economic impacts of social preferences would greatly enhance its visibility and adherence to academic standards. The proposed revision aims to balance clarity, relevance, impact, and SEO, making the paper more accessible and attractive to its target audience."
 }
