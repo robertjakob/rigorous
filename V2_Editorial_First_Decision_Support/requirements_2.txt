@@ -1,0 +1,15 @@
+Manuscript must be under 10000 words
+Abstract should include key information about the study
+Figures should be clear and readable
+Methods section should describe the approach used
+Results should be clearly presented
+References should be consistent in format
+Abbreviations should be explained where used
+Conflict of interest statement is optional
+Ethics approval should be mentioned if required by local regulations
+Data availability statement is optional
+Funding information can be included if relevant
+Author contributions can be mentioned if desired
+Study limitations can be discussed if relevant
+Future work can be suggested if appropriate
+A conclusion section is recommended 

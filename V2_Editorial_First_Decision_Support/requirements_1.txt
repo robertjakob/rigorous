@@ -1,0 +1,15 @@
+Manuscript must be under 5000 words
+Abstract must be structured with Background, Methods, Results, and Conclusion sections
+All figures must be in high resolution (600 DPI minimum) with detailed captions
+Methods section must include comprehensive statistical analysis procedures
+Results must be presented with appropriate statistical tests and p-values
+References must follow APA format
+All abbreviations must be defined at first use with a list of abbreviations provided
+Conflict of interest statement must be included
+Ethics approval must be mentioned if human subjects were involved
+Data availability statement must be included
+Funding sources must be acknowledged
+Author contributions must be specified
+Limitations of the study must be discussed
+Future research directions must be suggested
+Key findings must be summarized in a conclusion section 
