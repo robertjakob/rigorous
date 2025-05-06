@@ -5,7 +5,6 @@ import tempfile
 import requests
 from urllib.parse import urlparse
 from tasks import run_analysis_task
-#from tasks2 import process_file_task
 
 app = Flask(__name__)
 
@@ -54,8 +53,11 @@ def analyze_paper():
     data = request.get_json()
     if not data or 'backblaze_url' not in data:
         return jsonify({'error': 'No backblaze_url provided'}), 400
+    if not data or 'email' not in data:
+        return jsonify({'error': 'No email provided'}), 400
     
     backblaze_url = data['backblaze_url']
+    email = data['email']
     
     try:
         # Download the file from Backblaze
@@ -68,7 +70,7 @@ def analyze_paper():
             temp_file_path = temp_file.name
         
         # Queue the analysis task
-        job = rq.get_queue().enqueue(run_analysis_task, temp_file_path)
+        job = rq.get_queue().enqueue(run_analysis_task, temp_file_path, email)
         
         return jsonify({
             'status': 'success',
@@ -88,11 +90,28 @@ def get_job_status(job_id):
         return jsonify({'error': 'Job not found'}), 404
     
     if job.is_finished:
-        return jsonify(job.result)
+        result = job.result
+        print(f"Job {job_id} completed successfully!")
+        print(f"Result: {result}")
+        
+        return jsonify({
+            'status': 'completed',
+            'message': 'Job completed successfully',
+            'result': result
+        })
     elif job.is_failed:
-        return jsonify({'error': str(job.exc_info)}), 500
+        error = str(job.exc_info)
+        print(f"Job {job_id} failed!")
+        print(f"Error: {error}")
+        return jsonify({
+            'status': 'failed',
+            'error': error
+        }), 500
     else:
-        return jsonify({'status': 'processing'})
+        return jsonify({
+            'status': 'processing',
+            'message': 'Job is still running'
+        })
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)
