@@ -1,0 +1,162 @@
+{
+  "language_style_score": 7,
+  "critical_remarks": [
+    {
+      "category": "grammar",
+      "location": "Abstract, paragraph 4",
+      "issue": "Inconsistent use of hyphenation in 'noncommunicable' and 'nonadherence'.",
+      "severity": "low",
+      "impact": "Minor inconsistency; standardization improves professionalism."
+    },
+    {
+      "category": "spelling",
+      "location": "Introduction, paragraph 2",
+      "issue": "The term 'hyperglycemia' is spelled correctly, but in some instances, similar terms like 'hyperglycemia' are misspelled as 'hyperglycemia' (e.g., in references).",
+      "severity": "low",
+      "impact": "Ensures consistency and accuracy in terminology, maintaining credibility."
+    },
+    {
+      "category": "punctuation",
+      "location": "Results, section 3.2.1",
+      "issue": "Numerous instances of missing commas after introductory phrases, e.g., 'Across the prediction windows from Week 2 to Week 13, the models achieved...'",
+      "severity": "medium",
+      "impact": "Reduces clarity and can cause reader confusion."
+    },
+    {
+      "category": "sentence_structure",
+      "location": "Discussion, paragraph 4.1",
+      "issue": "Long, complex sentences that could be split for clarity, e.g., the sentence starting with 'Given the conceptual link...'",
+      "severity": "medium",
+      "impact": "Improves readability and comprehension."
+    },
+    {
+      "category": "verb_tense",
+      "location": "Methodology, section 2.2",
+      "issue": "Inconsistent use of past and present tense, e.g., 'We selected features' (past) and 'we predict nonadherence' (present).",
+      "severity": "low",
+      "impact": "Consistency enhances professional tone and clarity."
+    },
+    {
+      "category": "subject-verb",
+      "location": "Results, section 3.2.2",
+      "issue": "In several instances, plural subjects are paired with singular verbs, e.g., 'the models achieved a mean AUC...' (correct), but in some cases, agreement is inconsistent.",
+      "severity": "low",
+      "impact": "Maintains grammatical correctness and professionalism."
+    },
+    {
+      "category": "articles",
+      "location": "Introduction, paragraph 2",
+      "issue": "Incorrect or missing articles, e.g., 'a systematic review of effectivity' should be 'a systematic review of effectiveness'.",
+      "severity": "low",
+      "impact": "Improves grammatical accuracy and clarity."
+    },
+    {
+      "category": "prepositions",
+      "location": "Discussion, paragraph 4.2",
+      "issue": "Incorrect preposition usage, e.g., 'detect users in the early stages of disengagement' could be 'detect users at the early stages of disengagement'.",
+      "severity": "low",
+      "impact": "Enhances precision and correctness of expression."
+    },
+    {
+      "category": "conjunctions",
+      "location": "Discussion, paragraph 4.4",
+      "issue": "Overuse of 'however' at the beginning of sentences, which can be stylistically repetitive.",
+      "severity": "low",
+      "impact": "Varying conjunctions improves flow and style."
+    },
+    {
+      "category": "academic_conventions",
+      "location": "Throughout the document",
+      "issue": "Inconsistent formatting of references and in-text citations, e.g., some citations are bracketed, others are not.",
+      "severity": "medium",
+      "impact": "Reduces professionalism and adherence to academic standards."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+      "improved_version": "The rich data collected by mHealth interventions raise the question of whether\u2014and to what extent\u2014nonadherence can be predicted using these data.",
+      "explanation": "Replacing hyphens with em dashes and removing spaces improves punctuation consistency and formal style.",
+      "location": "Abstract, paragraph 1",
+      "category": "punctuation",
+      "focus": "punctuation"
+    },
+    {
+      "original_text": "In the German SHI system [46].",
+      "improved_version": "In the German SHI system [46].",
+      "explanation": "Remove the period after the bracketed citation to adhere to standard referencing style.",
+      "location": "Methodology, section 2.1.1",
+      "category": "academic_conventions",
+      "focus": "citation format"
+    },
+    {
+      "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+      "improved_version": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), where nonadherence was defined as completing fewer than eight therapeutic exercises per week.",
+      "explanation": "Clarifies the definition of nonadherence and improves sentence flow by restructuring.",
+      "location": "Results, section 3.2.1",
+      "category": "sentence_structure",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+      "improved_version": "The use of DiGA data is strictly limited; therefore, only users who provided consent under Article 4, Section 2, and 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+      "explanation": "Using a semicolon improves sentence connection; adding 'and' clarifies the list structure.",
+      "location": "Methodology, section 2.1.1",
+      "category": "punctuation",
+      "focus": "punctuation"
+    },
+    {
+      "original_text": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
+      "improved_version": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13, based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises (continuous) from the preceding weeks.",
+      "explanation": "Adding a comma improves readability; removing 'variables' after 'exercises' avoids redundancy.",
+      "location": "Methodology, section 2.2",
+      "category": "sentence_structure",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
+      "improved_version": "Our findings demonstrate that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence\u2014relative to the intended use as defined by Sieverink et al. (2017)\u2014and in its most severe form: churn (i.e., complete discontinuation of use).",
+      "explanation": "Using em dashes and colons clarifies the structure and emphasizes key definitions, enhancing readability.",
+      "location": "Discussion, paragraph 4.1",
+      "category": "punctuation",
+      "focus": "punctuation"
+    },
+    {
+      "original_text": "The article 'predicts nonadherence' (present tense) but elsewhere, the methodology is described in past tense.",
+      "improved_version": "Ensure consistent tense usage throughout; for example, use past tense ('predicted') when describing the methodology and results, and present tense ('predicts') only when discussing general truths or ongoing implications.",
+      "explanation": "Consistency in verb tense aligns with academic standards and clarifies temporal context.",
+      "location": "General, throughout the document",
+      "category": "verb_tense",
+      "focus": "tense consistency"
+    },
+    {
+      "original_text": "The models achieved a mean AUC of 0.87 (SD = 0.06), a mean accuracy of 0.83 (SD = 0.05), a mean F1-score of 0.81 (SD = 0.13), a mean precision of 0.78 (SD = 0.12), and a mean recall of 0.86 (SD = 0.14) across all prediction points at the of Day 1 until 178, indicating a robust ability to discriminate between churned and non-churned users.",
+      "improved_version": "The models achieved a mean AUC of 0.87 (SD = 0.06), a mean accuracy of 0.83 (SD = 0.05), a mean F1-score of 0.81 (SD = 0.13), a mean precision of 0.78 (SD = 0.12), and a mean recall of 0.86 (SD = 0.14) across all prediction points from Day 1 until Day 178, indicating a robust ability to discriminate between churned and non-churned users.",
+      "explanation": "Corrects grammatical error ('at the of Day 1' to 'from Day 1') and improves clarity of time frame.",
+      "location": "Results, section 3.2.2",
+      "category": "grammar",
+      "focus": "grammar"
+    },
+    {
+      "original_text": "The overall assessment paragraph.",
+      "improved_version": "Overall, the analysis indicates that the manuscript demonstrates solid methodological rigor, clear structure, and comprehensive coverage of the topic, with room for minor stylistic and grammatical improvements to enhance clarity and professionalism.",
+      "explanation": "Provides a concise, balanced summary of the overall quality and areas for improvement.",
+      "location": "Summary",
+      "category": "general",
+      "focus": "overall assessment"
+    }
+  ],
+  "detailed_feedback": {
+    "grammar_correctness": "The manuscript generally maintains grammatical correctness, but some complex sentences could be simplified for clarity. Minor issues include inconsistent tense usage and occasional awkward phrasing that can be smoothed for better flow.",
+    "spelling_accuracy": "Spelling is accurate throughout; however, consistency in hyphenation (e.g., 'noncommunicable') and terminology (e.g., 'hyperglycemia') should be maintained. Also, ensure all references to technical terms are spelled uniformly.",
+    "punctuation_usage": "Punctuation is mostly correct but can be improved by standardizing the use of em dashes, commas, and semicolons, especially in complex sentences. Proper punctuation enhances readability and formal tone.",
+    "sentence_structure": "Many sentences are lengthy and contain multiple ideas, which can be split into shorter, clearer sentences. This improves readability and reduces cognitive load for the reader.",
+    "verb_tense_consistency": "The manuscript shifts between past and present tense, particularly when describing methods and results. Maintaining consistent tense\u2014preferably past tense for completed actions\u2014would improve clarity and professionalism.",
+    "subject-verb_agreement": "Subject-verb agreement is generally correct; however, careful review is recommended in complex sentences, especially where collective nouns or multiple subjects are involved.",
+    "article_usage": "Articles are mostly used correctly, but some instances lack definite or indefinite articles where needed, affecting grammatical correctness and clarity.",
+    "preposition_usage": "Prepositions are generally appropriate, but some phrases could be more precise, e.g., 'predict users in the early stages' should be 'predict users at the early stages'.",
+    "conjunction_usage": "Conjunctions are used appropriately, but overuse of 'however' at sentence starts can be stylistically monotonous. Varying conjunctions can improve flow.",
+    "academic_conventions": "Citation formatting is inconsistent; some references lack proper punctuation or formatting. Standardizing reference style and citation placement will enhance professionalism."
+  },
+  "summary": "The manuscript demonstrates strong academic writing with clear structure and comprehensive content. Minor language and stylistic improvements\u2014such as standardizing punctuation, tense, and reference formatting\u2014would elevate the clarity, professionalism, and readability of the work. Addressing these issues will ensure the manuscript aligns with high academic standards and enhances its impact."
+}

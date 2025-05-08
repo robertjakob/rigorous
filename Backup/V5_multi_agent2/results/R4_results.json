@@ -1,0 +1,130 @@
+{
+  "data_code_availability_score": 4,
+  "critical_remarks": [
+    {
+      "category": "data_sharing",
+      "location": "Abstract / Data Description",
+      "issue": "The datasets are described in detail, but there is no mention of publicly available data repositories or links where the data can be accessed by other researchers.",
+      "severity": "high",
+      "impact": "Lack of accessible data hampers reproducibility and independent validation of results, reducing transparency."
+    },
+    {
+      "category": "code_availability",
+      "location": "Methodology / Data Analysis",
+      "issue": "No mention of publicly available code repositories, scripts, or software used for analysis and modeling.",
+      "severity": "high",
+      "impact": "Absence of shared code limits reproducibility and impedes other researchers from verifying or building upon the work."
+    },
+    {
+      "category": "documentation",
+      "location": "Appendix / Methodology",
+      "issue": "Details about software packages and hyperparameter grids are referenced but not provided within the main text or accessible supplementary materials.",
+      "severity": "medium",
+      "impact": "Insufficient documentation reduces clarity for replication efforts and understanding of the modeling process."
+    },
+    {
+      "category": "restrictions",
+      "location": "Data / Ethics Declaration",
+      "issue": "Data use is limited to users who provided consent under specific regulations; no information on how others can access similar datasets or request data sharing.",
+      "severity": "medium",
+      "impact": "Restrictions limit external validation and broader reproducibility, especially for researchers outside the specific regulatory context."
+    },
+    {
+      "category": "reproducibility",
+      "location": "Discussion / Limitations",
+      "issue": "The paper emphasizes the potential for generalizability but lacks details on how to reproduce the predictive models in different settings or with different data.",
+      "severity": "medium",
+      "impact": "Limited guidance on reproducibility reduces the ability of others to validate and extend the findings."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+      "improved_version": "The datasets used in this study are not publicly available due to privacy and regulatory restrictions. However, de-identified versions or synthetic datasets mimicking the original data can be shared upon reasonable request and under data use agreements. Details are provided in the supplementary materials.",
+      "explanation": "Clarifies data sharing options within legal constraints, promoting transparency and enabling replication under controlled conditions.",
+      "location": "Data Description / Ethics Declaration",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "The dataset included data from 8,372 users who activated their first prescription between January 1, 2023, and March 31, 2024.",
+      "improved_version": "The datasets, including anonymized user engagement and outcome data, are available in a public repository such as [Repository Name], under accession number [XYZ], or upon request from the corresponding author. Access is subject to data use agreements to ensure privacy compliance.",
+      "explanation": "Provides concrete access pathways, facilitating external validation and further research.",
+      "location": "Data Description",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "No mention of publicly available code repositories.",
+      "improved_version": "All analysis scripts, preprocessing code, and modeling pipelines are openly available at [GitHub/Zenodo link], with detailed documentation on usage and dependencies.",
+      "explanation": "Ensures code transparency, enabling others to reproduce and build upon the analysis.",
+      "location": "Methodology / Data Analysis",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "Detailed hyperparameter grids are provided in Appendix 6.1.",
+      "improved_version": "Complete code for data preprocessing, feature extraction, model training, hyperparameter tuning, and evaluation, along with hyperparameter grids, are hosted in the public repository [Link], with step-by-step instructions in the README file.",
+      "explanation": "Enhances reproducibility by providing executable code and clear instructions.",
+      "location": "Appendix / Methodology",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "Details about software packages are referenced but not provided within the main text or accessible supplementary materials.",
+      "improved_version": "A comprehensive list of software packages, versions, and environment setup instructions are included in the repository's README and environment configuration files (e.g., environment.yml or requirements.txt).",
+      "explanation": "Facilitates environment replication, reducing setup barriers for other researchers.",
+      "location": "Appendix / Software environment",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "No explicit mention of code documentation or usage instructions.",
+      "improved_version": "All code repositories include detailed documentation, including data input formats, step-by-step analysis workflows, and instructions for reproducing the figures and results.",
+      "explanation": "Improves usability and transparency of the codebase for external users.",
+      "location": "Code Documentation",
+      "category": "documentation",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "The paper emphasizes the potential for generalizability but lacks details on how to reproduce models in different contexts.",
+      "improved_version": "We provide a reproducible pipeline with sample datasets, code, and detailed instructions in the supplementary materials, enabling researchers to adapt the models to new datasets or settings.",
+      "explanation": "Supports reproducibility and adaptation across different studies and populations.",
+      "location": "Discussion / Reproducibility",
+      "category": "reproducibility",
+      "focus": "reproducibility"
+    },
+    {
+      "original_text": "The datasets are described in detail, but no links or access procedures are provided.",
+      "improved_version": "Data sharing details, including access procedures, repository links, and licensing conditions, are provided in the Data Availability Statement and supplementary materials.",
+      "explanation": "Ensures transparency about data accessibility, encouraging external validation.",
+      "location": "Data Description",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "No mention of sharing analysis code or scripts.",
+      "improved_version": "All analysis scripts, including data preprocessing, feature engineering, and modeling code, are publicly available at [Repository Link], with comprehensive documentation and example workflows.",
+      "explanation": "Enables independent reproduction and validation of the results.",
+      "location": "Methodology / Data Analysis",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "The paper does not specify how to access supplementary materials or code repositories.",
+      "improved_version": "All supplementary materials, including code, hyperparameter configurations, and detailed methodological descriptions, are hosted at [Repository/DOI link], accessible to all researchers.",
+      "explanation": "Provides clear access points, promoting transparency and reproducibility.",
+      "location": "Conclusion / Data and Code Availability",
+      "category": "documentation",
+      "focus": "code_availability"
+    }
+  ],
+  "detailed_feedback": {
+    "data_sharing_assessment": "While the datasets are described thoroughly, their availability is restricted due to privacy and regulatory considerations. To enhance transparency, the authors should specify whether de-identified or synthetic datasets are available and provide access procedures, such as data repositories or request protocols.",
+    "code_availability": "The manuscript lacks any mention of publicly accessible code repositories or scripts used for data analysis and modeling. Sharing code via platforms like GitHub or Zenodo, along with documentation, would significantly improve reproducibility and facilitate external validation.",
+    "documentation_completeness": "The current documentation references appendices and supplementary materials but does not include explicit instructions, software environment details, or step-by-step workflows. Providing comprehensive documentation, including environment setup files and usage instructions, would support reproducibility.",
+    "restrictions_justification": "Data access is limited by consent and regulatory restrictions, which are justified but should be clearly communicated. Providing pathways for data access under controlled conditions or sharing synthetic datasets can help balance privacy with transparency.",
+    "reproducibility_support": "The paper emphasizes the potential for generalizability but does not include executable code, detailed workflows, or environment specifications. Including these elements in public repositories would enable others to reproduce and adapt the models effectively."
+  },
+  "summary": "Overall, the manuscript demonstrates strong methodological rigor but falls short in openly sharing data and code, which are critical for transparency and reproducibility. Addressing these gaps by providing access to datasets (where permissible), sharing analysis scripts, and including detailed documentation would substantially enhance the research's transparency and impact."
+}
