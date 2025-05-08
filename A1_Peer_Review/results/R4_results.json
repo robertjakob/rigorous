@@ -1,0 +1,130 @@
+{
+  "data_code_availability_score": 3,
+  "critical_remarks": [
+    {
+      "category": "data_sharing",
+      "location": "Abstract & Methods sections",
+      "issue": "The datasets used are described in detail, but there is no mention of publicly sharing the raw or processed data or how external researchers can access it. Data sharing practices are not explicitly stated, and access appears restricted.",
+      "severity": "high",
+      "impact": "Lack of explicit data sharing limits reproducibility and transparency, making it difficult for other researchers to validate or extend findings."
+    },
+    {
+      "category": "code_availability",
+      "location": "Appendix 1 and Methods sections",
+      "issue": "While the use of Python packages is mentioned, there is no link or repository provided for the code used to generate models, analyses, or evaluation metrics.",
+      "severity": "high",
+      "impact": "Absence of accessible code hampers reproducibility and independent validation of results."
+    },
+    {
+      "category": "documentation",
+      "location": "Throughout the manuscript",
+      "issue": "There is limited information on how to reproduce the analysis pipeline, including data preprocessing steps, hyperparameter tuning, and model training procedures. No detailed documentation or code comments are provided.",
+      "severity": "medium",
+      "impact": "Insufficient documentation reduces transparency and makes replication challenging."
+    },
+    {
+      "category": "restrictions",
+      "location": "Data description sections",
+      "issue": "Data access is limited due to strict consent and regulatory restrictions, but the justification for these restrictions is only briefly mentioned, without detailed rationale or potential for data sharing under controlled access.",
+      "severity": "medium",
+      "impact": "Unclear justification for restrictions may hinder external validation and limit collaborative research opportunities."
+    },
+    {
+      "category": "reproducibility",
+      "location": "Discussion & Methods",
+      "issue": "No mention of environment specifications, software versions, or containerization (e.g., Docker) to facilitate exact replication of the computational environment.",
+      "severity": "medium",
+      "impact": "Without environment details, reproducing the exact results is more difficult, reducing overall research transparency."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+      "improved_version": "The datasets used in this study are not publicly available due to strict regulatory and consent restrictions. However, de-identified data and analysis scripts will be made available upon reasonable request and under data use agreements that comply with GDPR and DiGA regulations.",
+      "explanation": "Clarifies data sharing intentions and provides a pathway for external researchers to access data, enhancing transparency and reproducibility.",
+      "location": "Data description / Abstract",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "While the use of Python packages is mentioned, there is no link or repository provided for the code used to generate models, analyses, or evaluation metrics.",
+      "improved_version": "All analysis code, including data preprocessing, model training, hyperparameter tuning, and evaluation scripts, will be publicly hosted on a GitHub repository at [URL], with version control and detailed README documentation.",
+      "explanation": "Provides direct access to code, facilitating independent validation and extension of the work.",
+      "location": "Appendix 1 / Methods",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "There is limited information on how to reproduce the analysis pipeline, including data preprocessing steps, hyperparameter tuning, and model training procedures.",
+      "improved_version": "A comprehensive reproducibility package, including scripts for data preprocessing, model training, hyperparameter tuning, and evaluation, along with environment specifications (e.g., conda environment file or Docker image), will be made available in the public repository.",
+      "explanation": "Ensures others can replicate the analysis exactly, improving transparency and scientific rigor.",
+      "location": "Methodology / Appendix",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "Data access is limited due to strict consent and regulatory restrictions, but the justification for these restrictions is only briefly mentioned.",
+      "improved_version": "Data access is restricted due to regulatory compliance and participant consent, but a controlled access process will be established, allowing qualified researchers to request data access under data use agreements that ensure privacy and ethical standards.",
+      "explanation": "Provides a clear, justified pathway for data sharing under ethical constraints, promoting transparency.",
+      "location": "Data description / Restrictions",
+      "category": "restrictions",
+      "focus": "restrictions"
+    },
+    {
+      "original_text": "No mention of environment specifications, software versions, or containerization.",
+      "improved_version": "The computational environment, including software versions, dependencies, and hardware specifications, will be documented and shared via containerization tools such as Docker or Singularity, with container images hosted on Docker Hub or similar platforms.",
+      "explanation": "Facilitates exact replication of the computational environment, enhancing reproducibility.",
+      "location": "Discussion / Methods",
+      "category": "reproducibility",
+      "focus": "reproducibility"
+    },
+    {
+      "original_text": "The datasets are described but not shared publicly.",
+      "improved_version": "The datasets used are available upon reasonable request from the corresponding author, subject to data sharing agreements that comply with GDPR and participant consent, or will be deposited in a recognized data repository such as [Repository Name] with controlled access options.",
+      "explanation": "Balances privacy with transparency, enabling external validation while respecting data restrictions.",
+      "location": "Data description",
+      "category": "data_sharing",
+      "focus": "data_sharing"
+    },
+    {
+      "original_text": "No links or references to code repositories are provided.",
+      "improved_version": "All code related to data analysis and model development will be publicly accessible at [GitHub/GitLab/OSF URL], with detailed instructions for reproduction and environment setup included in the repository.",
+      "explanation": "Ensures code transparency and ease of access for external researchers.",
+      "location": "Appendix 1 / Methods",
+      "category": "code_availability",
+      "focus": "code_availability"
+    },
+    {
+      "original_text": "Limited details on data preprocessing steps.",
+      "improved_version": "A detailed description of data preprocessing steps, including normalization, feature engineering, and handling of missing data, will be provided in supplementary materials or as part of the shared analysis scripts.",
+      "explanation": "Enhances transparency of the analysis pipeline, supporting reproducibility.",
+      "location": "Methodology",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "No mention of environment specifications.",
+      "improved_version": "The exact software environment, including versions of Python, libraries, and operating system details, will be documented and shared via environment files (e.g., environment.yml) or container images to facilitate exact replication.",
+      "explanation": "Supports precise reproduction of computational results, increasing research reliability.",
+      "location": "Discussion / Methods",
+      "category": "reproducibility",
+      "focus": "reproducibility"
+    },
+    {
+      "original_text": "The manuscript does not specify if the code or data will be made available after publication.",
+      "improved_version": "All analysis code and de-identified datasets will be made publicly available at [URL] upon publication, with clear licensing terms to promote open science and reproducibility.",
+      "explanation": "Clarifies data and code availability timeline, encouraging transparency.",
+      "location": "Conclusion",
+      "category": "code_availability / data_sharing",
+      "focus": "data_sharing"
+    }
+  ],
+  "detailed_feedback": {
+    "data_sharing_assessment": "The datasets are described in detail but are not publicly shared due to regulatory restrictions. Data access is limited to authorized researchers under data use agreements, which constrains external validation and replication efforts. Providing a controlled access process and sharing de-identified data upon request would significantly enhance transparency.",
+    "code_availability": "The analysis code is not currently accessible. Hosting the code in a public repository with detailed documentation and environment specifications would greatly improve reproducibility and allow others to validate and extend the work.",
+    "documentation_completeness": "The manuscript lacks detailed documentation on data preprocessing, feature engineering, and model training procedures. Including comprehensive scripts, comments, and environment setup instructions would facilitate exact replication of the analysis pipeline.",
+    "restrictions_justification": "Restrictions are justified by privacy and regulatory considerations, but the manuscript does not specify mechanisms for controlled data sharing or external collaboration. Clarifying these pathways would support transparency and broader scientific engagement.",
+    "reproducibility_support": "Environment details, software versions, and containerization are not provided. Sharing environment files or container images would enable precise reproduction of the computational environment, increasing research reliability."
+  },
+  "summary": "Overall, the manuscript demonstrates solid methodological rigor but falls short in openly sharing data and code, which are critical for full transparency and reproducibility. Implementing the suggested improvements\u2014such as hosting code repositories, clarifying data sharing procedures, and providing environment specifications\u2014would elevate the research quality to an excellent standard, fostering greater trust and utility in the scientific community."
+}

@@ -1,0 +1,242 @@
+{
+  "citation_formatting_score": 4,
+  "critical_remarks": [
+    {
+      "category": "in_text_format",
+      "location": "Introduction paragraph, lines 16-44",
+      "issue": "In-text citations are inconsistently formatted; some are bracketed with brackets and numbers, others are embedded with author names and years, and some lack proper punctuation or formatting.",
+      "severity": "high",
+      "impact": "Reduces readability and undermines the scholarly credibility of the manuscript, making it difficult to verify sources and follow citation conventions."
+    },
+    {
+      "category": "reference_format",
+      "location": "Bibliography section",
+      "issue": "References are inconsistently formatted: some entries include DOIs, URLs, and journal details properly, others omit critical information like volume, issue, or page numbers, and some have inconsistent punctuation and line breaks.",
+      "severity": "high",
+      "impact": "Impairs the professional appearance and hampers accurate indexing, retrieval, and verification of sources."
+    },
+    {
+      "category": "style_consistency",
+      "location": "Throughout the references list",
+      "issue": "Multiple citation styles are used interchangeably, including numbered brackets, author-year formats, and varying punctuation styles, leading to a lack of uniformity.",
+      "severity": "high",
+      "impact": "Creates confusion and diminishes the manuscript's scholarly rigor, potentially violating journal submission guidelines."
+    },
+    {
+      "category": "reference_completeness",
+      "location": "Multiple references, e.g., [1], [2], [3]",
+      "issue": "Several references lack complete bibliographic details, such as missing volume, issue, page numbers, or publication year, especially for online-only sources.",
+      "severity": "high",
+      "impact": "Prevents proper citation tracking and reduces the credibility of the references."
+    },
+    {
+      "category": "doi_format",
+      "location": "References, e.g., [1], [2], [3]",
+      "issue": "DOIs are inconsistently formatted; some are complete URLs (https://doi.org/...), others are just numeric, and some are missing entirely.",
+      "severity": "medium",
+      "impact": "Hinders direct access to sources and violates standard DOI formatting guidelines."
+    },
+    {
+      "category": "author_name_formatting",
+      "location": "References, e.g., [1], [2], [3]",
+      "issue": "Author names are inconsistently formatted; some use full names, others initials, and some have inconsistent ordering or punctuation.",
+      "severity": "medium",
+      "impact": "Reduces clarity and professionalism, complicates author attribution, and affects citation indexing."
+    },
+    {
+      "category": "publication_date_formatting",
+      "location": "References, e.g., [1], [2], [3]",
+      "issue": "Publication dates are inconsistently formatted; some include month and year, others only year, and some have extraneous information.",
+      "severity": "medium",
+      "impact": "Impairs chronological clarity and consistency across references."
+    },
+    {
+      "category": "journal_format",
+      "location": "References, e.g., [1], [2], [3]",
+      "issue": "Journal names are variably formatted; some are italicized, others are plain text, and some abbreviations are inconsistent or missing.",
+      "severity": "medium",
+      "impact": "Affects professional presentation and adherence to journal style guides."
+    },
+    {
+      "category": "volume_format",
+      "location": "References, e.g., [1], [2], [3]",
+      "issue": "Volume, issue, and page numbers are inconsistently formatted; some include parentheses, others omit issue numbers, and page ranges are sometimes missing or improperly formatted.",
+      "severity": "medium",
+      "impact": "Reduces clarity and hampers accurate source identification."
+    },
+    {
+      "category": "cross_reference",
+      "location": "Throughout the manuscript",
+      "issue": "In-text citations do not consistently match reference list entries; some citations are missing, and numbering or author-year references are mismatched or inconsistent.",
+      "severity": "high",
+      "impact": "Undermines the integrity of scholarly referencing and impairs verification of sources."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "In: (2025) (In preparation)",
+      "improved_version": "In: Jakob R, Benning L, S\u00e9vin CM, Von Wangenheim F, Fleisch E, Kowatsch T. (2025). Predicting Nonadherence to Mobile Health Interventions. (In preparation).",
+      "explanation": "Standardizes the in-text citation format for a forthcoming publication, aligning with common scholarly conventions.",
+      "location": "Reference entry for the planned publication",
+      "category": "references",
+      "focus": "reference_format"
+    },
+    {
+      "original_text": "[16, 26, 44, 64]",
+      "improved_version": "(Author et al., 2016; Author et al., 2020; Author et al., 2022; Author et al., 2015)",
+      "explanation": "Converts numeric citations to author-year format for clarity and consistency, especially in-text, aligning with common styles like APA or Vancouver with author-year.",
+      "location": "Introduction paragraph, lines 16-44",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[1]",
+      "improved_version": "(Alessa et al., 2018)",
+      "explanation": "Provides author name and year for clarity, making it easier for readers to identify sources without cross-referencing numbers.",
+      "location": "Introduction, paragraph 2, lines 16-44",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[54, 55]",
+      "improved_version": "Bl\u00fcmel et al., 2020; Teepe et al., 2022",
+      "explanation": "Replaces numeric references with author-year citations for consistency and readability.",
+      "location": "Introduction, paragraph 2, lines 16-44",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "https://doi.org/10.2196/10723",
+      "improved_version": "https://doi.org/10.2196/10723",
+      "explanation": "Ensure all DOIs are formatted as complete URLs starting with https://doi.org/ for uniformity and easy access.",
+      "location": "References, e.g., [1]",
+      "category": "doi_format",
+      "focus": "doi_format"
+    },
+    {
+      "original_text": "[2]",
+      "improved_version": "Ganju et al., 2020",
+      "explanation": "Replace numeric citation with author-year format for clarity and consistency in the references list.",
+      "location": "Throughout the manuscript, e.g., in-text citations",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[3]",
+      "improved_version": "Beger et al., 2023",
+      "explanation": "Standardizes citation style to author-year for consistency and easier source identification.",
+      "location": "Throughout the manuscript",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[4]",
+      "improved_version": "Bl\u00fcmel et al., 2020",
+      "explanation": "Provides full author names and year, aligning with common citation styles and improving clarity.",
+      "location": "Introduction, paragraph 2",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[5]",
+      "improved_version": "Bricker et al., 2023",
+      "explanation": "Ensures consistent author-year citation style for all references, enhancing uniformity.",
+      "location": "Results section, paragraph 3",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[6]",
+      "improved_version": "Donkin et al., 2011",
+      "explanation": "Aligns with the author-year citation style, facilitating easier cross-referencing and readability.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[7]",
+      "improved_version": "Drachen et al., 2016",
+      "explanation": "Standardizes citation style, improving consistency across the manuscript.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[8]",
+      "improved_version": "Ernsting et al., 2017",
+      "explanation": "Provides clarity and uniformity in referencing, aiding reader comprehension.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[9]",
+      "improved_version": "Eysenbach, 2005",
+      "explanation": "Ensures consistent author-year citation style, improving scholarly presentation.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[10]",
+      "improved_version": "Firth et al., 2017",
+      "explanation": "Aligns with the author-year citation style, aiding clarity and uniformity.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[11]",
+      "improved_version": "Fleming et al., 2018",
+      "explanation": "Provides consistent citation style, enhancing professional appearance.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[12]",
+      "improved_version": "Fowler et al., 2016",
+      "explanation": "Standardizes citation style for clarity and consistency.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[13]",
+      "improved_version": "F\u00fcrstenau et al., 2023",
+      "explanation": "Ensures uniform author-year citation style, improving readability.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[14]",
+      "improved_version": "Ganju et al., 2020",
+      "explanation": "Provides clarity and consistency in citations, aiding verification.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[15]",
+      "improved_version": "Geiler et al., 2022",
+      "explanation": "Standardizes citation style for uniformity and professionalism.",
+      "location": "Discussion, paragraph 4",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    }
+  ],
+  "detailed_feedback": {
+    "in_text_citation_format": "The manuscript employs a mixture of numeric bracketed citations and author-year formats, leading to inconsistency. For clarity and adherence to common academic standards, all in-text citations should follow a uniform style, preferably author-year, especially in the main text. This enhances readability and allows easier cross-referencing with the reference list.",
+    "reference_list_format": "The reference list exhibits inconsistent formatting: some entries include full journal titles, volume, issue, page numbers, and DOIs, while others omit these details. Standardizing the format according to a recognized style guide (e.g., APA, Vancouver) and ensuring all references contain complete bibliographic information will improve professionalism and facilitate source verification.",
+    "citation_style_consistency": "Currently, the manuscript switches between numbered citations and author-year formats, which can confuse readers and violate journal guidelines. Adopting a single, consistent citation style throughout the document is essential for scholarly rigor.",
+    "reference_completeness": "Many references lack complete details such as volume, issue, page ranges, or publication dates. Ensuring each reference includes all necessary bibliographic elements will improve accuracy and traceability.",
+    "doi_url_formatting": "DOIs are inconsistently formatted; some are presented as URLs (https://doi.org/...), others as plain numbers or missing entirely. All DOIs should be formatted as full URLs to enable direct access, following current standards.",
+    "author_name_formatting": "Author names are inconsistently formatted, with some entries using full names, others initials, and varying punctuation. Standardizing author name formats (e.g., Lastname, First Initials) across all references will enhance clarity.",
+    "publication_date_formatting": "Publication dates are variably formatted, with some including month and year, others only year. Consistent date formatting (e.g., Year, Month) across all references will improve chronological clarity.",
+    "journal_name_formatting": "Journal names are inconsistently italicized or abbreviated; some are fully spelled out, others abbreviated. Consistent formatting\u2014either full journal names italicized or standardized abbreviations\u2014will improve uniformity.",
+    "volume_issue_page_formatting": "Volume, issue, and page numbers are inconsistently formatted; some entries include parentheses, others omit issue numbers or page ranges. Uniform formatting following a style guide (e.g., Volume(Issue), pages) is recommended.",
+    "cross_reference_accuracy": "In-text citations do not always match reference list entries, with some missing references or mismatched numbering. Cross-checking all citations to ensure they correctly correspond to the reference list is crucial for scholarly integrity."
+  },
+  "summary": "Overall, the manuscript demonstrates a significant inconsistency in citation formatting and style. Addressing these issues by standardizing in-text citation formats, completing reference details, uniformly formatting journal titles, DOIs, author names, and publication dates, and ensuring accurate cross-referencing will markedly improve the scholarly quality, professionalism, and readability of the document. Implementing a consistent citation style aligned with journal guidelines is strongly recommended."
+}

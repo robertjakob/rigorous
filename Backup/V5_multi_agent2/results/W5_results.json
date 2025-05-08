@@ -1,0 +1,194 @@
+{
+  "inclusive_language_score": 4,
+  "critical_remarks": [
+    {
+      "category": "gender_neutrality",
+      "location": "Abstract",
+      "issue": "The abstract primarily uses gendered pronouns like 'users' without gender-specific language, but the presentation is neutral; however, the gender distribution is reported with '68.3% female' and '31.6% male,' which could be more inclusive by emphasizing diversity beyond binary categories.",
+      "severity": "low",
+      "impact": "Limited inclusivity in gender reporting; could overlook non-binary identities."
+    },
+    {
+      "category": "cultural_sensitivity",
+      "location": "Introduction",
+      "issue": "The description of health systems and interventions is Germany-centric, with limited acknowledgment of diverse global contexts, which may reduce cultural sensitivity and inclusivity for international audiences.",
+      "severity": "medium",
+      "impact": "Restricts the perceived applicability of findings across different cultural and healthcare settings."
+    },
+    {
+      "category": "age_terminology",
+      "location": "Participant descriptions (Vivira and Manoa datasets)",
+      "issue": "Age categories are described with ranges like '18\u201335 years' and 'over 75 years,' which are appropriate, but the language could be more inclusive by explicitly stating that age is a variable and avoiding implying age-related stereotypes.",
+      "severity": "low",
+      "impact": "Minimal, but more explicit acknowledgment of age diversity would improve inclusivity."
+    },
+    {
+      "category": "disability_inclusion",
+      "location": "Methodology",
+      "issue": "The language assumes all users are able-bodied and does not explicitly consider users with disabilities or impairments, which could marginalize those with disabilities.",
+      "severity": "high",
+      "impact": "Excludes or unintentionally marginalizes users with disabilities, reducing the inclusivity of the research."
+    },
+    {
+      "category": "socioeconomic_sensitivity",
+      "location": "Introduction and methodology",
+      "issue": "The socioeconomic background of users is not discussed; the focus on smartphone access and healthcare systems may overlook socioeconomic barriers faced by marginalized populations.",
+      "severity": "medium",
+      "impact": "Limits understanding of how socioeconomic factors influence adherence and engagement, reducing overall inclusivity."
+    },
+    {
+      "category": "geographic_inclusivity",
+      "location": "Introduction and datasets description",
+      "issue": "The study is Germany-centric, with references to German healthcare systems and regulations, which may limit applicability and inclusivity for populations in other geographic regions.",
+      "severity": "medium",
+      "impact": "May reduce relevance for international or non-European populations, limiting global inclusivity."
+    },
+    {
+      "category": "professional_titles",
+      "location": "Methodology and author contributions",
+      "issue": "The text uses titles like 'Jakob R,' 'Benning L,' etc., but does not specify professional titles or roles, which could be more respectful and precise.",
+      "severity": "low",
+      "impact": "Minor; clearer professional titles could enhance clarity and respect."
+    },
+    {
+      "category": "stereotype_avoidance",
+      "location": "Introduction and discussion",
+      "issue": "The language does not reinforce stereotypes; however, the focus on age and gender distributions without contextualizing diversity may inadvertently reinforce stereotypes about certain groups' engagement levels.",
+      "severity": "low",
+      "impact": "Minimal, but explicit acknowledgment of diversity would prevent stereotypes."
+    },
+    {
+      "category": "identity_language",
+      "location": "Participant descriptions",
+      "issue": "Participants are described with binary gender categories ('female,' 'male') and a small 'non-binary' label, but the language could be more inclusive by emphasizing that gender identity is diverse and fluid.",
+      "severity": "medium",
+      "impact": "Reduces recognition of gender diversity beyond binary categories."
+    },
+    {
+      "category": "historical_context",
+      "location": "Introduction and discussion",
+      "issue": "The discussion of digital health systems is historical and Germany-specific, with limited acknowledgment of global developments or the evolving nature of digital health, which could be more inclusive of diverse historical contexts.",
+      "severity": "low",
+      "impact": "Limits the understanding of global and historical diversity in digital health evolution."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "68.3% were female, 31.6% were male, and 0.1% non-binary.",
+      "improved_version": "68.3% identified as women, 31.6% as men, and 0.1% as non-binary or other gender identities.",
+      "explanation": "Using 'identified as' and inclusive categories acknowledges gender diversity beyond binary labels, promoting greater inclusivity.",
+      "location": "Participant descriptions (Vivira dataset)",
+      "category": "gender_neutrality",
+      "focus": "gender_neutrality"
+    },
+    {
+      "original_text": "The description of health systems and interventions is Germany-centric.",
+      "improved_version": "While this study focuses on the German healthcare context, the methodologies and findings may be adaptable to diverse international healthcare systems, emphasizing the importance of cultural and systemic differences.",
+      "explanation": "Acknowledging the context's specificity while highlighting potential for broader application enhances cultural sensitivity and inclusivity.",
+      "location": "Introduction",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "Participants are described with age ranges such as 18\u201335 years.",
+      "improved_version": "Participants' ages are categorized into ranges such as 18\u201335 years, with an emphasis that age is a variable that encompasses diverse life stages and experiences, avoiding stereotypes about engagement or health behaviors based on age.",
+      "explanation": "Explicitly framing age as a broad, inclusive variable helps prevent age-related stereotypes and promotes age diversity acknowledgment.",
+      "location": "Participant descriptions",
+      "category": "age_terminology",
+      "focus": "age_terminology"
+    },
+    {
+      "original_text": "The language assumes all users are able-bodied.",
+      "improved_version": "Future research should consider including users with disabilities or impairments, ensuring accessibility features are evaluated and that the language and design are inclusive of diverse physical abilities.",
+      "explanation": "Explicitly recognizing users with disabilities promotes inclusivity and encourages accessible design and research practices.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
+    },
+    {
+      "original_text": "The socioeconomic background of users is not discussed.",
+      "improved_version": "Future studies should explore socioeconomic factors influencing engagement, such as access to smartphones, internet connectivity, and health literacy, to better understand barriers faced by marginalized populations.",
+      "explanation": "Addressing socioeconomic barriers broadens the inclusivity of the research and highlights disparities that may affect adherence.",
+      "location": "Introduction and methodology",
+      "category": "socioeconomic_sensitivity",
+      "focus": "socioeconomic_sensitivity"
+    },
+    {
+      "original_text": "The study is Germany-centric, with references to German healthcare systems.",
+      "improved_version": "While this study is based on the German healthcare context, the methodologies and insights are intended to inform international applications, with adaptations made for different healthcare systems and cultural settings.",
+      "explanation": "Explicitly stating potential for international relevance promotes geographic inclusivity and acknowledges diversity in healthcare contexts.",
+      "location": "Introduction",
+      "category": "geographic_inclusivity",
+      "focus": "geographic_inclusivity"
+    },
+    {
+      "original_text": "Author contributions list names without titles.",
+      "improved_version": "Author contributions should include professional titles or roles (e.g., researcher, clinician, data scientist) to clarify expertise and foster respect.",
+      "explanation": "Using professional titles clarifies roles and promotes respectful acknowledgment of diverse expertise.",
+      "location": "Author contributions",
+      "category": "professional_titles",
+      "focus": "professional_titles"
+    },
+    {
+      "original_text": "Participants are described with binary gender categories.",
+      "improved_version": "Participants' gender identities are acknowledged as diverse, with options beyond binary categories, such as 'woman,' 'man,' 'non-binary,' 'prefer to self-describe,' or 'prefer not to say.'",
+      "explanation": "This approach respects gender diversity and reduces binary stereotypes, fostering inclusivity.",
+      "location": "Participant descriptions",
+      "category": "stereotypes",
+      "focus": "stereotypes"
+    },
+    {
+      "original_text": "Participants are described as 'users' without explicit mention of their gender identity.",
+      "improved_version": "Participants are described as 'individuals' or 'people' to emphasize personhood over labels, and gender identity is acknowledged as diverse and fluid where relevant.",
+      "explanation": "Using person-centered language avoids stereotypes and emphasizes individual diversity.",
+      "location": "Participant descriptions",
+      "category": "identity_language",
+      "focus": "identity_language"
+    },
+    {
+      "original_text": "Descriptions of health systems focus on Germany-specific policies.",
+      "improved_version": "The discussion of health systems includes a brief overview of global developments in digital health, recognizing the evolving and diverse nature of digital therapeutics worldwide.",
+      "explanation": "This broadens the historical and contextual perspective, making the content more globally inclusive.",
+      "location": "Introduction and discussion",
+      "category": "historical_context",
+      "focus": "historical_context"
+    },
+    {
+      "original_text": "The language in the discussion emphasizes technological and healthcare system specifics without addressing cultural diversity.",
+      "improved_version": "Future research should consider cultural differences in health behaviors, technology acceptance, and healthcare access, ensuring that models and interventions are adaptable across diverse populations.",
+      "explanation": "Acknowledging cultural diversity enhances the cultural sensitivity and global applicability of the research.",
+      "location": "Discussion",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "The participant demographics are primarily binary gender categories with minimal diversity acknowledgment.",
+      "improved_version": "Participant demographics should include a broader spectrum of gender identities, cultural backgrounds, and socioeconomic statuses, with explicit efforts to recruit diverse populations where possible.",
+      "explanation": "This promotes inclusivity and reduces marginalization of underrepresented groups.",
+      "location": "Participant descriptions",
+      "category": "gender_neutrality",
+      "focus": "gender_neutrality"
+    },
+    {
+      "original_text": "The language assumes all participants are able to engage with mobile technology equally.",
+      "improved_version": "Researchers should recognize and address barriers faced by users with disabilities or limited access to technology, designing interventions that are accessible and inclusive for all users.",
+      "explanation": "This promotes disability inclusion and broadens the reach of interventions.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
+    }
+  ],
+  "detailed_feedback": {
+    "gender_neutral_language": "The current text often reports gender data in binary terms, which can unintentionally reinforce gender stereotypes or exclude non-binary identities. Using inclusive language such as 'individuals identifying as women, men, non-binary, or other gender identities' respects gender diversity and promotes inclusivity. Additionally, emphasizing that gender is a spectrum and that data collection methods can be expanded to include more options enhances the research's sensitivity.",
+    "cultural_sensitivity": "The focus on German healthcare systems and regulations limits the cultural scope of the research. To improve cultural sensitivity, the manuscript should acknowledge that health behaviors, system structures, and acceptance of digital health vary globally. Including a discussion on how findings could be adapted or interpreted in different cultural contexts fosters inclusivity of diverse populations and international applicability.",
+    "age_appropriate_terminology": "The age ranges used are appropriate; however, the language could be more inclusive by explicitly stating that age is a variable representing diverse life stages and experiences. Avoiding implicit stereotypes about engagement or health behaviors based on age helps foster a more inclusive perspective. For example, recognizing that older adults may have different needs and capacities encourages broader participation.",
+    "disability_inclusive_language": "The current description assumes all users are able-bodied and does not explicitly consider users with disabilities. Incorporating language that emphasizes accessibility and invites inclusion of users with impairments\u2014such as 'designed to be accessible for users with diverse physical abilities'\u2014would promote disability inclusion and ensure the research considers a broader user base.",
+    "socioeconomic_sensitivity": "The manuscript does not address socioeconomic barriers, such as access to smartphones, internet, or digital literacy, which can significantly impact engagement. Including a discussion on how socioeconomic factors influence adherence and how interventions can be tailored or made accessible to marginalized groups enhances socioeconomic sensitivity and equity.",
+    "geographic_inclusivity": "The study's focus on Germany limits its geographic inclusivity. To broaden this, the authors should acknowledge that healthcare systems, cultural attitudes, and technology acceptance differ worldwide. Suggesting that future research validate models in diverse settings promotes a more inclusive and globally relevant approach.",
+    "professional_titles": "Author contributions list names without titles or roles. Including professional titles (e.g., 'Dr.', 'Professor', 'Data Scientist') clarifies expertise and fosters respect for diverse roles, enhancing transparency and inclusivity in acknowledgment.",
+    "stereotype_avoidance": "While the language does not overtly reinforce stereotypes, the demographic reporting could inadvertently imply stereotypes about engagement levels based on age or gender. Explicitly emphasizing diversity and avoiding assumptions about behavior based on demographic categories helps prevent stereotypes.",
+    "identity_language": "Participants are described with binary gender labels and a small 'non-binary' mention. Using inclusive language such as 'participants' with self-identified gender labels or open options like 'prefer to self-describe' respects gender fluidity and diversity, promoting a more inclusive approach.",
+    "historical_context": "The focus on German digital health policies and systems is specific and may overlook the broader evolution of digital therapeutics globally. Including a brief overview of international developments and acknowledging the dynamic, evolving nature of digital health ensures sensitivity to different historical and cultural contexts, making the research more inclusive."
+  },
+  "summary": "Overall, the manuscript demonstrates a generally neutral and objective tone but could significantly benefit from more explicit inclusive language and broader cultural, gender, and disability considerations. Addressing these areas will enhance the research's accessibility, relevance, and respect for diverse populations, aligning with best practices in inclusive and unbiased scientific communication. Implementing specific suggestions across sections will improve the manuscript's sensitivity and global applicability, fostering a more equitable scientific discourse."
+}

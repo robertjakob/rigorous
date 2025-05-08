@@ -1,0 +1,523 @@
+2025-05-08 18:34:40,550 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:34:40,550 - src.reviewer_agents.controller_agent - ERROR - Error in analysis: 'async for' requires an object with __aiter__ method, got generator
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 150, in run_analysis
+    async for agent_id, result in tqdm.as_completed(tasks, total=len(tasks), desc="Analyzing manuscript"):
+TypeError: 'async for' requires an object with __aiter__ method, got generator
+2025-05-08 18:34:59,820 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:34:59,907 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S4
+2025-05-08 18:34:59,908 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W7
+2025-05-08 18:34:59,908 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W1
+2025-05-08 18:34:59,908 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S2
+2025-05-08 18:34:59,909 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R2
+2025-05-08 18:34:59,909 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S6
+2025-05-08 18:34:59,909 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W8
+2025-05-08 18:34:59,909 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W2
+2025-05-08 18:34:59,910 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S1
+2025-05-08 18:34:59,910 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R3
+2025-05-08 18:34:59,911 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S7
+2025-05-08 18:34:59,911 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W3
+2025-05-08 18:34:59,911 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R4
+2025-05-08 18:34:59,911 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S8
+2025-05-08 18:34:59,911 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W4
+2025-05-08 18:34:59,912 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R5
+2025-05-08 18:34:59,912 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S9
+2025-05-08 18:34:59,912 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W5
+2025-05-08 18:34:59,913 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S5
+2025-05-08 18:34:59,913 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R6
+2025-05-08 18:34:59,913 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S10
+2025-05-08 18:34:59,914 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W6
+2025-05-08 18:34:59,914 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S3
+2025-05-08 18:34:59,914 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R7
+2025-05-08 18:34:59,914 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R1
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S4 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W7 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W1 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S6 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S2 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R2 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W2 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W8 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S1 in 0.01 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R3 in 0.00 seconds
+2025-05-08 18:34:59,915 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W3 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S7 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R4 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S8 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W4 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S9 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R5 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W5 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S5 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R6 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S10 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 1/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 2/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 3/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 4/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 5/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 6/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 7/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 8/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 9/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 10/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 11/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 12/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 13/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 14/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 15/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 16/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 17/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 18/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 19/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 20/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 21/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R7 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent W6 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S3 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent R1 in 0.00 seconds
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 22/25 analyses
+2025-05-08 18:34:59,916 - src.reviewer_agents.controller_agent - INFO - Completed 23/25 analyses
+2025-05-08 18:34:59,917 - src.reviewer_agents.controller_agent - INFO - Completed 24/25 analyses
+2025-05-08 18:34:59,917 - src.reviewer_agents.controller_agent - INFO - Completed 25/25 analyses
+2025-05-08 18:36:02,794 - __main__ - INFO - Found PDF file: manuscripts/Vivira&Manoa_paper.pdf
+2025-05-08 18:36:03,982 - __main__ - INFO - Running analysis...
+2025-05-08 18:36:03,983 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:36:04,034 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S4
+2025-05-08 18:36:04,036 - src.reviewer_agents.controller_agent - ERROR - Error in S4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,036 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W7
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - ERROR - Error in W7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W1
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - ERROR - Error in W1 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S2
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - ERROR - Error in S2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,037 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R2
+2025-05-08 18:36:04,038 - src.reviewer_agents.controller_agent - ERROR - Error in R2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,038 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S6
+2025-05-08 18:36:04,038 - src.reviewer_agents.controller_agent - ERROR - Error in S6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,038 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W8
+2025-05-08 18:36:04,038 - src.reviewer_agents.controller_agent - ERROR - Error in W8 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,039 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W2
+2025-05-08 18:36:04,039 - src.reviewer_agents.controller_agent - ERROR - Error in W2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,039 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S1
+2025-05-08 18:36:04,042 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R3
+2025-05-08 18:36:04,045 - src.reviewer_agents.controller_agent - ERROR - Error in R3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,046 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S7
+2025-05-08 18:36:04,047 - src.reviewer_agents.controller_agent - ERROR - Error in S7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,047 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W3
+2025-05-08 18:36:04,047 - src.reviewer_agents.controller_agent - ERROR - Error in W3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,047 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R4
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - ERROR - Error in R4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S8
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - ERROR - Error in S8 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W4
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - ERROR - Error in W4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,048 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R5
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - ERROR - Error in R5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S9
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - ERROR - Error in S9 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W5
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - ERROR - Error in W5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,049 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S5
+2025-05-08 18:36:04,050 - src.reviewer_agents.controller_agent - ERROR - Error in S5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,050 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R6
+2025-05-08 18:36:04,052 - src.reviewer_agents.controller_agent - ERROR - Error in R6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,053 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S10
+2025-05-08 18:36:04,056 - src.reviewer_agents.controller_agent - ERROR - Error in S10 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,057 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W6
+2025-05-08 18:36:04,058 - src.reviewer_agents.controller_agent - ERROR - Error in W6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,058 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S3
+2025-05-08 18:36:04,060 - src.reviewer_agents.controller_agent - ERROR - Error in S3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,060 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R7
+2025-05-08 18:36:04,060 - src.reviewer_agents.controller_agent - ERROR - Error in R7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,061 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R1
+2025-05-08 18:36:04,061 - src.reviewer_agents.controller_agent - ERROR - Error in R1 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_func()
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 1/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 2/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 3/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 4/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 5/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 6/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 7/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 8/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 9/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 10/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 11/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 12/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 13/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 14/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 15/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 16/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 17/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 18/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 19/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 20/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 21/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 22/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 23/25 analyses
+2025-05-08 18:36:04,062 - src.reviewer_agents.controller_agent - INFO - Completed 24/25 analyses
+2025-05-08 18:36:11,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 18:36:11,254 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S1 in 7.22 seconds
+2025-05-08 18:36:11,255 - src.reviewer_agents.controller_agent - INFO - Completed 25/25 analyses
+2025-05-08 18:36:11,258 - __main__ - INFO - Analysis complete. Results saved to results/analysis_results_20250508_183611.json
+2025-05-08 18:36:11,258 - __main__ - INFO - Cleaning up resources...
+2025-05-08 18:36:47,583 - __main__ - INFO - Found PDF file: manuscripts/Vivira&Manoa_paper.pdf
+2025-05-08 18:36:48,713 - __main__ - INFO - Running analysis...
+2025-05-08 18:36:48,714 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:36:48,764 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W2
+2025-05-08 18:36:48,765 - src.reviewer_agents.controller_agent - ERROR - Error in W2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,765 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R3
+2025-05-08 18:36:48,765 - src.reviewer_agents.controller_agent - ERROR - Error in R3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,765 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S7
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - ERROR - Error in S7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W8
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - ERROR - Error in W8 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W3
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - ERROR - Error in W3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R4
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - ERROR - Error in R4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,766 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S1
+2025-05-08 18:36:48,769 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S8
+2025-05-08 18:36:48,769 - src.reviewer_agents.controller_agent - ERROR - Error in S8 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,769 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S2
+2025-05-08 18:36:48,769 - src.reviewer_agents.controller_agent - ERROR - Error in S2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,772 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W4
+2025-05-08 18:36:48,772 - src.reviewer_agents.controller_agent - ERROR - Error in W4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,772 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R5
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in R5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W7
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in W7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S9
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in S9 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S3
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in S3 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R6
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in R6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S10
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in S10 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S4
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in S4 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W5
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in W5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R7
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - ERROR - Error in R7 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,773 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R1
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in R1 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S5
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in S5 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W6
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in W6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent W1
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in W1 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent R2
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in R2 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - INFO - Starting analysis for agent S6
+2025-05-08 18:36:48,774 - src.reviewer_agents.controller_agent - ERROR - Error in S6 analysis: object dict can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 171, in _run_agent_analysis
+    result = await analysis_coro
+             ^^^^^^^^^^^^^^^^^^^
+TypeError: object dict can't be used in 'await' expression
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 1/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 2/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 3/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 4/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 5/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 6/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 7/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 8/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 9/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 10/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 11/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 12/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 13/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 14/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 15/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 16/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 17/25 analyses
+2025-05-08 18:36:48,775 - src.reviewer_agents.controller_agent - INFO - Completed 18/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 19/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 20/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 21/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 22/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 23/25 analyses
+2025-05-08 18:36:48,776 - src.reviewer_agents.controller_agent - INFO - Completed 24/25 analyses
+2025-05-08 18:36:54,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 18:36:54,944 - src.reviewer_agents.controller_agent - INFO - Completed analysis for agent S1 in 6.18 seconds
+2025-05-08 18:36:54,944 - src.reviewer_agents.controller_agent - INFO - Completed 25/25 analyses
+2025-05-08 18:36:54,945 - __main__ - INFO - Analysis complete. Results saved to results/analysis_results_20250508_183654.json
+2025-05-08 18:36:54,945 - __main__ - INFO - Cleaning up resources...
+2025-05-08 18:37:55,128 - __main__ - INFO - Found PDF file: manuscripts/Vivira&Manoa_paper.pdf
+2025-05-08 18:37:56,289 - __main__ - INFO - Running analysis...
+2025-05-08 18:37:56,290 - src.reviewer_agents.controller_agent - ERROR - Error in analysis: object str can't be used in 'await' expression
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 105, in run_analysis
+    research_type = await self._determine_research_type(text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object str can't be used in 'await' expression
+2025-05-08 18:37:56,291 - __main__ - INFO - Analysis complete. Results saved to results/analysis_results_20250508_183756.json
+2025-05-08 18:37:56,291 - __main__ - INFO - Cleaning up resources...
+2025-05-08 18:38:25,321 - __main__ - INFO - Found PDF file: manuscripts/Vivira&Manoa_paper.pdf
+2025-05-08 18:38:26,486 - __main__ - INFO - Running analysis...
+2025-05-08 18:38:26,487 - src.reviewer_agents.controller_agent - ERROR - Error determining research type: 'ControllerAgent' object has no attribute 'llm'
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 183, in _determine_research_type
+    response = await self.llm(prompt)
+                     ^^^^^^^^
+AttributeError: 'ControllerAgent' object has no attribute 'llm'
+2025-05-08 18:38:26,487 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:38:26,487 - src.reviewer_agents.controller_agent - ERROR - Error in analysis: 'ControllerAgent' object has no attribute '_get_section_for_agent'
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 112, in run_analysis
+    section = self._get_section_for_agent(agent_id, text)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControllerAgent' object has no attribute '_get_section_for_agent'
+2025-05-08 18:38:26,487 - __main__ - INFO - Analysis complete. Results saved to results/analysis_results_20250508_183826.json
+2025-05-08 18:38:26,487 - __main__ - INFO - Cleaning up resources...
+2025-05-08 18:38:55,487 - __main__ - INFO - Found PDF file: manuscripts/Vivira&Manoa_paper.pdf
+2025-05-08 18:38:56,669 - __main__ - INFO - Running analysis...
+2025-05-08 18:38:57,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-08 18:38:57,391 - src.reviewer_agents.controller_agent - INFO - Research type determined: experimental
+2025-05-08 18:38:57,395 - src.reviewer_agents.controller_agent - ERROR - Error in analysis: 'OriginalityContributionAgent' object has no attribute 'analyze_rigor'
+Traceback (most recent call last):
+  File "/Users/robertjakob/rigorous-3/V6_multi_agent3/src/reviewer_agents/controller_agent.py", line 117, in run_analysis
+    task = self._run_agent_analysis(agent_id, agent.analyze_rigor(text, research_type))
+                                              ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OriginalityContributionAgent' object has no attribute 'analyze_rigor'
+2025-05-08 18:38:57,397 - __main__ - INFO - Analysis complete. Results saved to results/analysis_results_20250508_183857.json
+2025-05-08 18:38:57,397 - __main__ - INFO - Cleaning up resources...

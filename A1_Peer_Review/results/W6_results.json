@@ -1,0 +1,194 @@
+{
+  "citation_formatting_score": 2,
+  "critical_remarks": [
+    {
+      "category": "in_text_format",
+      "location": "Introduction paragraph (section 2)",
+      "issue": "In-text citations are inconsistently formatted, with some using brackets [number], others with parentheses (year), and some lacking consistent placement or punctuation.",
+      "severity": "high",
+      "impact": "Reduces readability and undermines citation credibility, making it difficult for readers to verify sources."
+    },
+    {
+      "category": "reference_format",
+      "location": "Bibliography section",
+      "issue": "References are inconsistently formatted: some include DOIs, others omit them; journal names are sometimes italicized, sometimes not; volume, issue, and page numbers are inconsistently presented.",
+      "severity": "high",
+      "impact": "Impairs professional appearance and hampers accurate source identification and retrieval."
+    },
+    {
+      "category": "style_consistency",
+      "location": "Entire document",
+      "issue": "Multiple citation styles are mixed (e.g., numbered [1], author-year (Year), and inconsistent abbreviation usage).",
+      "severity": "high",
+      "impact": "Creates confusion and diminishes the scholarly rigor of the manuscript."
+    },
+    {
+      "category": "reference_completeness",
+      "location": "Bibliography entries",
+      "issue": "Several references lack complete details such as volume, issue, page numbers, or publication dates, especially for online sources.",
+      "severity": "medium",
+      "impact": "Limits the ability of readers to locate sources and affects citation credibility."
+    },
+    {
+      "category": "doi_format",
+      "location": "References with DOIs",
+      "issue": "DOIs are inconsistently formatted; some include 'https://doi.org/', others just the DOI number, and some lack DOI altogether.",
+      "severity": "medium",
+      "impact": "Reduces uniformity and may hinder direct access to sources."
+    },
+    {
+      "category": "author_format",
+      "location": "Reference list",
+      "issue": "Author names are sometimes listed with initials only, sometimes with full first names, and inconsistent ordering (e.g., last name first or not).",
+      "severity": "medium",
+      "impact": "Impairs clarity and professional presentation."
+    },
+    {
+      "category": "date_format",
+      "location": "References",
+      "issue": "Publication dates are formatted variably, with some including month and day, others only year, and inconsistent placement.",
+      "severity": "low",
+      "impact": "Slightly affects citation uniformity but less critical."
+    },
+    {
+      "category": "journal_format",
+      "location": "Journal titles in references",
+      "issue": "Inconsistent formatting: some journal titles are italicized, others are not; abbreviations are inconsistent.",
+      "severity": "medium",
+      "impact": "Reduces professional appearance and may cause confusion."
+    },
+    {
+      "category": "volume_format",
+      "location": "Volume/issue/page numbers",
+      "issue": "Inconsistent presentation: some references include volume(issue):pages, others omit issue or pages, or format them differently.",
+      "severity": "medium",
+      "impact": "Impairs source identification and retrieval."
+    },
+    {
+      "category": "cross_reference",
+      "location": "In-text citations and reference list",
+      "issue": "Some in-text citations do not match the reference list entries (e.g., missing author names, mismatched numbering), reducing traceability.",
+      "severity": "high",
+      "impact": "Hinders verification and undermines scholarly integrity."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "In the Introduction, citations are inconsistent: e.g., [16, 26, 44, 64] and (2017).",
+      "improved_version": "Standardize all in-text citations to a single style, such as numerical brackets [16, 26, 44, 64], and ensure consistent placement and punctuation throughout.",
+      "explanation": "Uniform in-text citation style improves readability and professionalism.",
+      "location": "Introduction paragraph",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "[16, 26, 44, 64]",
+      "improved_version": "[16, 26, 44, 64]",
+      "explanation": "Use consistent brackets for all numerical citations to maintain uniformity.",
+      "location": "Throughout the document",
+      "category": "style_consistency",
+      "focus": "style_consistency"
+    },
+    {
+      "original_text": "References such as [1] and [2] are listed with inconsistent formatting.",
+      "improved_version": "Adopt a single reference style (e.g., Vancouver or APA) and apply it uniformly across all references, including author names, dates, journal titles, volume, issue, pages, and DOIs.",
+      "explanation": "Consistency enhances professional appearance and source traceability.",
+      "location": "Reference list",
+      "category": "reference_format",
+      "focus": "reference_format"
+    },
+    {
+      "original_text": "Some references lack complete details, e.g., missing volume or page numbers.",
+      "improved_version": "Update all references to include complete bibliographic details such as volume, issue, page range, and DOI or URL where available.",
+      "explanation": "Completeness ensures sources are easily locatable and credible.",
+      "location": "Bibliography section",
+      "category": "reference_completeness",
+      "focus": "reference_completeness"
+    },
+    {
+      "original_text": "DOIs are inconsistently formatted, e.g., some as 'https://doi.org/...' and others as just the number.",
+      "improved_version": "Format all DOIs uniformly as 'https://doi.org/xxxxx', ensuring clickable links and consistency.",
+      "explanation": "Standardized DOI formatting facilitates direct access and professional presentation.",
+      "location": "References",
+      "category": "doi_format",
+      "focus": "doi_format"
+    },
+    {
+      "original_text": "Author names are sometimes initials only, sometimes full names.",
+      "improved_version": "Standardize author name formatting to 'Last Name, First Initials' (e.g., Smith J) for all references.",
+      "explanation": "Consistent author formatting improves clarity and scholarly professionalism.",
+      "location": "Reference list",
+      "category": "author_format",
+      "focus": "author_format"
+    },
+    {
+      "original_text": "Publication dates appear variably as 'July 2018' or just '2018'.",
+      "improved_version": "Use a consistent date format, such as 'Year' only, or 'Month Year' throughout, based on the chosen citation style.",
+      "explanation": "Uniform date formatting enhances coherence and professionalism.",
+      "location": "References",
+      "category": "date_format",
+      "focus": "date_format"
+    },
+    {
+      "original_text": "Journal names are sometimes italicized, sometimes not.",
+      "improved_version": "Italicize all journal names uniformly, following the selected citation style guidelines.",
+      "explanation": "Consistent journal formatting improves visual coherence and adherence to scholarly standards.",
+      "location": "Reference list",
+      "category": "journal_format",
+      "focus": "journal_format"
+    },
+    {
+      "original_text": "Volume and issue numbers are inconsistently formatted, e.g., '6, 7' vs. '6(7)'.",
+      "improved_version": "Standardize volume and issue formatting as 'Volume(Issue): pages', e.g., '6(7): 123-130'.",
+      "explanation": "Consistent formatting aids in precise source identification.",
+      "location": "Reference list",
+      "category": "volume_format",
+      "focus": "volume_format"
+    },
+    {
+      "original_text": "In-text citations sometimes do not match reference list entries.",
+      "improved_version": "Ensure all in-text citation numbers correspond exactly to the numbered references, with no missing or extra entries, and verify cross-references before final submission.",
+      "explanation": "Accurate cross-referencing maintains scholarly integrity and facilitates source verification.",
+      "location": "Throughout the manuscript",
+      "category": "cross_reference",
+      "focus": "cross_reference"
+    },
+    {
+      "original_text": "References include URLs or DOIs without 'https://' prefix or with inconsistent formatting.",
+      "improved_version": "Ensure all URLs and DOIs are formatted as 'https://...' and are active hyperlinks in the document.",
+      "explanation": "Uniform formatting and active links improve accessibility and professionalism.",
+      "location": "Reference list",
+      "category": "doi_url_formatting",
+      "focus": "doi_format"
+    },
+    {
+      "original_text": "Some references list only the year, others include month and day.",
+      "improved_version": "Adopt a consistent date format, such as 'Year' only, or 'Month Year', throughout all references, according to the chosen style guide.",
+      "explanation": "Consistency in date formatting enhances the professional appearance and clarity.",
+      "location": "References",
+      "category": "date_format",
+      "focus": "date_format"
+    },
+    {
+      "original_text": "Author names are sometimes abbreviated with initials, sometimes with full first names.",
+      "improved_version": "Use a uniform author name format, such as 'Last Name, First Initials', for all references.",
+      "explanation": "Standardized author formatting improves clarity and scholarly consistency.",
+      "location": "Reference list",
+      "category": "author_format",
+      "focus": "author_format"
+    }
+  ],
+  "detailed_feedback": {
+    "in_text_citation_format": "The in-text citations are inconsistent, with some using brackets [number], others with parentheses (year), and varying punctuation. Adopting a single style, such as numbered brackets [1], throughout the manuscript will improve clarity and professionalism.",
+    "reference_list_format": "The reference list shows inconsistent formatting: some entries include DOIs, others omit them; journal titles are sometimes italicized, sometimes not; volume, issue, and page numbers are variably presented. Standardizing according to a specific style (e.g., Vancouver, APA) will enhance readability and credibility.",
+    "citation_style_consistency": "Multiple citation styles are used within the document, leading to confusion. Selecting one style and applying it uniformly across all in-text citations and references is essential for scholarly rigor.",
+    "reference_completeness": "Many references lack full bibliographic details, such as volume, issue, pages, or DOI. Ensuring each entry is complete will facilitate source verification and improve the manuscript's professionalism.",
+    "doi_url_formatting": "DOIs are inconsistently formatted; some include 'https://doi.org/', others do not. Formatting all DOIs as 'https://doi.org/xxxxx' and making them clickable enhances accessibility.",
+    "author_name_formatting": "Author names are inconsistently presented, with some initials only, others full names. Applying a uniform format, such as 'Last Name, First Initials', improves clarity.",
+    "publication_date_formatting": "Dates are variably formatted, with some including month and day, others only year. Standardizing to a single format (e.g., 'Year') maintains consistency.",
+    "journal_name_formatting": "Journal titles are inconsistently italicized and abbreviated. Italicizing all journal names and using standard abbreviations per style guide will improve visual coherence.",
+    "volume_issue_page_formatting": "Volume, issue, and page numbers are inconsistently formatted. Adopting a uniform style, such as 'Volume(Issue): pages', will aid in precise source identification.",
+    "cross_reference_accuracy": "In-text citations do not always match reference list entries, which can cause confusion. Cross-checking all citations and references ensures accurate traceability."
+  },
+  "summary": "Overall, the manuscript exhibits multiple citation formatting inconsistencies and style irregularities that diminish its scholarly professionalism. Implementing comprehensive standardization across in-text citations and reference list entries\u2014covering formatting, completeness, and cross-referencing\u2014will significantly enhance clarity, credibility, and adherence to academic standards."
+}

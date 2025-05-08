@@ -1,0 +1,178 @@
+{
+  "terminology_consistency_score": 3,
+  "critical_remarks": [
+    {
+      "category": "acronyms",
+      "location": "Abstract, paragraph 2",
+      "issue": "The acronym 'NCDs' is introduced without prior definition, which may cause confusion for readers unfamiliar with the abbreviation.",
+      "severity": "high",
+      "impact": "Reduces clarity and consistency in terminology, potentially impairing understanding of key concepts."
+    },
+    {
+      "category": "field_terminology",
+      "location": "Introduction, paragraph 1",
+      "issue": "The term 'digital health interventions (DHIs)' is used initially, then later 'mHealth interventions' without clear distinction or consistent usage, which may cause ambiguity.",
+      "severity": "medium",
+      "impact": "Impairs clarity regarding the scope and specific type of interventions discussed, affecting field-specific terminology consistency."
+    },
+    {
+      "category": "notation",
+      "location": "Equations and tables",
+      "issue": "Inconsistent notation for time periods, e.g., 'Weeks 2 to 13' vs. 'Months 2 to 6', sometimes with or without 'from' or 'between'.",
+      "severity": "medium",
+      "impact": "Reduces clarity and uniformity in representing temporal variables, complicating comprehension of prediction windows."
+    },
+    {
+      "category": "abbreviations",
+      "location": "Literature review, paragraph 3",
+      "issue": "The abbreviation 'PDT' is used for 'prescription digital therapies' without prior full-term introduction or consistent abbreviation definition.",
+      "severity": "medium",
+      "impact": "Potential confusion and inconsistency in abbreviation usage across the text."
+    },
+    {
+      "category": "variable_naming",
+      "location": "Methodology, section 2.2",
+      "issue": "Variables like 'active or inactive' are used without consistent naming conventions or clear variable labels, sometimes in parentheses, sometimes not.",
+      "severity": "low",
+      "impact": "Minor; may cause slight ambiguity in variable identification and interpretation."
+    },
+    {
+      "category": "unit_notation",
+      "location": "Results, section 3.1.1",
+      "issue": "The time units 'weeks' and 'months' are used interchangeably without explicit clarification or consistent notation, e.g., 'Week 2' vs. 'Month 2'.",
+      "severity": "medium",
+      "impact": "Impairs clarity in temporal analysis and comparison across different program durations."
+    },
+    {
+      "category": "technical_terms",
+      "location": "Discussion, paragraph 4.1",
+      "issue": "Terms like 'nonadherence' and 'churn' are used with overlapping meanings but are sometimes distinguished, sometimes conflated, without explicit clarification.",
+      "severity": "high",
+      "impact": "Creates ambiguity in key concepts, affecting technical precision and consistency."
+    },
+    {
+      "category": "cross_references",
+      "location": "Throughout the document",
+      "issue": "References to figures and tables (e.g., 'Figure 6.1') are inconsistent in formatting and sometimes lack context or description, which can hinder cross-referencing.",
+      "severity": "low",
+      "impact": "Minor; affects navigability and clarity of referencing."
+    },
+    {
+      "category": "definition",
+      "location": "Introduction, paragraph 3",
+      "issue": "Definitions of 'nonadherence' and 'churn' are provided, but their operationalization varies slightly across different contexts without explicit clarification, risking inconsistent interpretation.",
+      "severity": "medium",
+      "impact": "Potential inconsistency in understanding key operational definitions."
+    },
+    {
+      "category": "field_terminology",
+      "location": "Discussion, paragraph 4.1",
+      "issue": "The phrase 'predicting nonadherence relative to the intervention\u2019s intended use' is used, but the scope of 'intended use' varies between interventions without explicit clarification.",
+      "severity": "medium",
+      "impact": "Impairs precise understanding of the operationalization of 'nonadherence' across different contexts."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) present a significant challenge...",
+      "improved_version": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) \u2014 defined as chronic diseases such as cardiovascular diseases, diabetes, and cancers \u2014 present a significant challenge...",
+      "explanation": "Adding a brief definition or examples clarifies the scope of 'NCDs,' enhancing consistency and reader understanding.",
+      "location": "Abstract, paragraph 2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "Mobile health (mHealth) interventions, facilitated by the ubiquity of smartphones...",
+      "improved_version": "Mobile health (mHealth) interventions, a subset of digital health interventions (DHIs) that utilize mobile devices, facilitated by the ubiquity of smartphones...",
+      "explanation": "Explicitly defining 'mHealth' as a subset of 'DHIs' improves clarity and maintains consistent terminology throughout the paper.",
+      "location": "Introduction, paragraph 1",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "nonadherence, where users fail to use these tools as intended or discontinue use entirely before achieving desired outcomes.",
+      "improved_version": "nonadherence, defined as users failing to follow the prescribed intervention protocol or discontinuing use before achieving intended health outcomes.",
+      "explanation": "Providing a clear operational definition enhances consistency and understanding of the term across contexts.",
+      "location": "Abstract, paragraph 2",
+      "category": "definitions",
+      "focus": "definition"
+    },
+    {
+      "original_text": "Weeks 2 to 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+      "improved_version": "Weeks 2 to 13 in Vivira (mean AUC = 0.95), with nonadherence operationalized as completing fewer than eight therapeutic exercises per week.",
+      "explanation": "Clarifying the operational definition within the same sentence improves clarity and consistency in terminology use.",
+      "location": "Results, section 3.1.1",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "The term 'churn' refers to a user discontinuing use of a mobile application entirely and is thus closely related to nonadherence.",
+      "improved_version": "The term 'churn' refers to a user discontinuing use of the app entirely, representing the most severe form of nonadherence, which involves complete disengagement from the intervention.",
+      "explanation": "Explicitly linking 'churn' to 'nonadherence' clarifies their relationship and maintains consistent terminology.",
+      "location": "Introduction, paragraph 3",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "In Manoa, monthly nonadherence was defined as completing at least one measurement week per month.",
+      "improved_version": "In Manoa, nonadherence was operationalized as failing to complete at least one blood pressure measurement week per month, aligning with clinical guidelines.",
+      "explanation": "Specifying the operational definition and linking it to guidelines improves clarity and consistency.",
+      "location": "Methods, section 2.1.2",
+      "category": "definitions",
+      "focus": "definition"
+    },
+    {
+      "original_text": "The models predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables...",
+      "improved_version": "The models predicted nonadherence weekly from Weeks 2 to 13, operationalized as completing fewer than 8 exercises per week in Vivira and fewer than one blood pressure measurement week per month in Manoa, based on users\u2019 daily app activity variables.",
+      "explanation": "Including operational definitions for each intervention ensures clarity and consistency in terminology across datasets.",
+      "location": "Methodology, section 2.2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "The term 'predicting churn' is used throughout, sometimes conflated with nonadherence.",
+      "improved_version": "The term 'predicting churn' refers specifically to the prediction of complete disengagement or last login, which is a more severe form of nonadherence; the distinction between 'churn' and 'nonadherence' should be consistently maintained throughout.",
+      "explanation": "Clarifying and consistently applying the distinction between 'churn' and 'nonadherence' enhances technical precision.",
+      "location": "Discussion, paragraph 4.1",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "Figures and tables are referenced as 'Figure 6.1', 'Table 6.1', etc., with inconsistent formatting.",
+      "improved_version": "Ensure all figure and table references follow a consistent format, e.g., 'Figure 6.1' and 'Table 6.1', with proper captioning and cross-referencing style throughout the manuscript.",
+      "explanation": "Consistent referencing improves document navigability and professionalism.",
+      "location": "Throughout the document",
+      "category": "cross_references",
+      "focus": "cross_reference_consistency"
+    },
+    {
+      "original_text": "The definition of 'nonadherence' varies slightly between interventions without explicit clarification.",
+      "improved_version": "Explicitly state the operational definition of 'nonadherence' for each intervention early in the methodology section, clarifying any variations in measurement criteria.",
+      "explanation": "Clear, intervention-specific definitions prevent ambiguity and ensure consistent interpretation.",
+      "location": "Methods, section 2.1",
+      "category": "definitions",
+      "focus": "definition"
+    },
+    {
+      "original_text": "The phrase 'predicting nonadherence relative to the intervention\u2019s intended use' is used, but the scope varies across interventions.",
+      "improved_version": "Use precise language such as 'predicting nonadherence, operationalized as failure to meet the recommended exercise frequency in Vivira and blood pressure monitoring in Manoa, relative to each intervention's specific intended use,' to clarify scope.",
+      "explanation": "Explicitly linking operational definitions to intervention-specific intended use maintains consistency and clarity.",
+      "location": "Discussion, paragraph 4.1",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    }
+  ],
+  "detailed_feedback": {
+    "term_usage_consistency": "The manuscript generally uses key terms like 'nonadherence' and 'churn' appropriately, but occasional inconsistent usage or conflation occurs, especially when describing their relationship. Clarifying and maintaining consistent definitions and operationalizations throughout will improve clarity.",
+    "notation_consistency": "Time periods such as 'Weeks 2 to 13' and 'Months 2 to 6' are used variably with or without prepositions, which can cause confusion. Standardizing notation (e.g., 'from Week 2 to Week 13') and explicitly defining the time frames at first mention will enhance clarity.",
+    "acronym_usage": "Acronyms like 'NCDs', 'DHIs', and 'PDT' are introduced without full definitions or inconsistent usage. Ensuring each acronym is spelled out at first mention and used uniformly thereafter will improve understanding.",
+    "variable_naming": "Variables related to user activity, such as 'active or inactive', are sometimes ambiguously labeled. Using consistent variable names like 'daily_activity_status' or 'exercise_completion' will improve clarity.",
+    "unit_notation": "Units such as 'weeks' and 'months' are sometimes used interchangeably without explicit clarification. Consistent use and clear definitions of these units in context will prevent misinterpretation.",
+    "abbreviation_consistency": "Some abbreviations are used without prior definition or are introduced late in the text. Defining all abbreviations upon first use and maintaining uniformity will enhance professionalism.",
+    "technical_term_consistency": "Terms like 'adherence', 'nonadherence', and 'churn' are sometimes used interchangeably or without clear distinction. Explicitly defining each and consistently applying these definitions will improve technical accuracy.",
+    "field_terminology": "The manuscript switches between 'DHIs' and 'mHealth interventions' without explicit clarification of their relationship. Clarifying these terms and their scope will improve field-specific terminology clarity.",
+    "cross_reference_consistency": "References to figures and tables vary in formatting and style. Standardizing references (e.g., 'Figure 6.1') and ensuring all are correctly labeled will improve document coherence.",
+    "definition_consistency": "Definitions of key concepts like 'nonadherence' and 'churn' are sometimes inconsistent or lack operational clarity. Providing explicit, context-specific definitions early in the methods section will ensure consistent understanding."
+  },
+  "summary": "Overall, the manuscript demonstrates acceptable terminology consistency but exhibits areas needing clarification and standardization, especially regarding definitions, acronyms, and notation. Addressing these issues will significantly enhance clarity, precision, and professional presentation, elevating the manuscript's quality to an excellent standard."
+}

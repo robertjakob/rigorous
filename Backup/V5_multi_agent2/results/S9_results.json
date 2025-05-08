@@ -1,0 +1,14 @@
+{
+  "score": 0,
+  "critical_remarks": [],
+  "improvement_suggestions": [],
+  "detailed_feedback": {
+    "accuracy_analysis": "",
+    "completeness_analysis": "",
+    "format_analysis": "",
+    "quality_analysis": "",
+    "organization_analysis": ""
+  },
+  "summary": "Error in analysis: Error analyzing references: Unterminated string starting at: line 13 column 19 (char 600)",
+  "error": true
+}

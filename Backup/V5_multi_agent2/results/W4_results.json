@@ -1,0 +1,178 @@
+{
+  "terminology_consistency_score": 7,
+  "critical_remarks": [
+    {
+      "category": "term_usage",
+      "location": "Abstract, Paragraph 1",
+      "issue": "The term 'nonadherence' is introduced and used throughout, but sometimes it is contrasted with 'churn' without clear differentiation or consistent usage, leading to potential confusion.",
+      "severity": "medium",
+      "impact": "Inconsistent use of 'nonadherence' and 'churn' can cause ambiguity in understanding the scope of the study and the specific behaviors being predicted."
+    },
+    {
+      "category": "notation",
+      "location": "Equations and Tables, e.g., Table 6.1",
+      "issue": "Performance metrics such as AUC, accuracy, F1-score are presented with inconsistent formatting and sometimes without units or clear explanation, e.g., SD values are sometimes in parentheses, sometimes not.",
+      "severity": "low",
+      "impact": "Inconsistent notation reduces clarity and may cause misinterpretation of statistical results."
+    },
+    {
+      "category": "acronyms",
+      "location": "Introduction and Methods",
+      "issue": "Acronyms like NCDs, mHealth, DiGA, SHI, PHI are used before being explicitly defined, or their definitions are scattered, leading to potential confusion for readers unfamiliar with these terms.",
+      "severity": "high",
+      "impact": "Lack of clear, early definitions of acronyms hampers reader comprehension and consistency in terminology."
+    },
+    {
+      "category": "variable_naming",
+      "location": "Results and Tables, e.g., Table 6.1",
+      "issue": "Variables such as 'nonadherent users', 'churned users', 'active users' are used, but sometimes the criteria for these categories (e.g., thresholds) are described differently in different sections, risking inconsistency.",
+      "severity": "medium",
+      "impact": "Inconsistent variable definitions can lead to confusion about what exactly is being measured and predicted."
+    },
+    {
+      "category": "unit_notation",
+      "location": "Methodology, Descriptive Statistics",
+      "issue": "Time units such as days, weeks, and months are used variably with inconsistent formatting (e.g., 'Days 1-7', 'Week 1', 'Month 2') without uniform notation or clarification.",
+      "severity": "low",
+      "impact": "Inconsistent notation of time units can cause misinterpretation of the temporal scope of data and analysis."
+    },
+    {
+      "category": "abbreviations",
+      "location": "Throughout the document",
+      "issue": "Some abbreviations like 'SD', 'IQR', 'n' are used without initial expansion or clear explanation, and sometimes the same abbreviation is used for different concepts.",
+      "severity": "medium",
+      "impact": "Inconsistent abbreviation usage reduces clarity and may lead to misunderstandings."
+    },
+    {
+      "category": "technical_terms",
+      "location": "Discussion, Paragraph 1",
+      "issue": "Terms such as 'predictive performance', 'classification', 'model accuracy' are used interchangeably without precise definitions or distinctions, which could cause confusion.",
+      "severity": "low",
+      "impact": "Ambiguous technical terminology can impair precise understanding of the results."
+    },
+    {
+      "category": "field_terminology",
+      "location": "Introduction, Paragraph 2",
+      "issue": "Terms like 'adherence', 'nonadherence', 'churn', 'dropout' are used, but their definitions vary slightly across literature and are sometimes used interchangeably without clarification.",
+      "severity": "high",
+      "impact": "Inconsistent field-specific terminology affects the clarity of the conceptual framework."
+    },
+    {
+      "category": "cross_references",
+      "location": "Throughout the document",
+      "issue": "References to figures, tables, and appendices (e.g., 'Figure 6.1', 'Appendix 6.2') are sometimes inconsistent in formatting or missing, which can hinder navigation.",
+      "severity": "low",
+      "impact": "Inconsistent cross-referencing impacts document usability."
+    },
+    {
+      "category": "definition_consistency",
+      "location": "Methodology, Dataset descriptions",
+      "issue": "Definitions of adherence (e.g., 'completing eight exercises per week') are provided, but similar definitions for 'churn' or 'nonadherence' are sometimes described differently in various sections, risking inconsistency.",
+      "severity": "medium",
+      "impact": "Inconsistent definitions compromise the clarity of outcome measures."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "nonadherence was measured weekly, defined as completing eight or more exercises per week.",
+      "improved_version": "Nonadherence was measured weekly, defined as completing fewer than eight exercises per week.",
+      "explanation": "Clarifies the threshold for nonadherence, ensuring consistent understanding of the criterion.",
+      "location": "Methodology, Dataset descriptions",
+      "category": "term_usage",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "churn (users\u2019 last login within program duration)",
+      "improved_version": "churn, defined as the user's last login within the program duration, indicating complete discontinuation.",
+      "explanation": "Provides a clear, consistent definition of churn aligned with the literature and the context, reducing ambiguity.",
+      "location": "Introduction, Methods",
+      "category": "field_terminology",
+      "focus": "definitions"
+    },
+    {
+      "original_text": "The performance metrics such as AUC, accuracy, F1-score are presented with inconsistent formatting.",
+      "improved_version": "Performance metrics such as Area Under the Curve (AUC), accuracy, and F1-score are consistently formatted, with abbreviations defined at first use and values presented with standard decimal notation.",
+      "explanation": "Enhances clarity and uniformity in reporting statistical results.",
+      "location": "Results, Tables",
+      "category": "notation",
+      "focus": "notation"
+    },
+    {
+      "original_text": "Acronyms like NCDs, mHealth, DiGA, SHI, PHI are used before being explicitly defined.",
+      "improved_version": "Define all acronyms upon first mention, e.g., 'noncommunicable diseases (NCDs)', 'mobile health (mHealth)', 'Digital Healthcare Act (DiGA)', 'Statutory Health Insurance (SHI)', 'Private Health Insurance (PHI)'.",
+      "explanation": "Ensures all readers understand the acronyms from the first occurrence, improving clarity.",
+      "location": "Introduction, Methods",
+      "category": "acronyms",
+      "focus": "definition"
+    },
+    {
+      "original_text": "Variables such as 'nonadherent users', 'churned users' are used with thresholds described in different sections.",
+      "improved_version": "Standardize variable definitions throughout the manuscript, explicitly stating thresholds (e.g., 'nonadherent users: those completing fewer than 8 exercises per week') and maintaining consistent terminology.",
+      "explanation": "Prevents confusion by ensuring uniform understanding of key variables.",
+      "location": "Results, Discussion",
+      "category": "variable_naming",
+      "focus": "definition"
+    },
+    {
+      "original_text": "Time units such as days, weeks, and months are used variably with inconsistent formatting.",
+      "improved_version": "Adopt a uniform format for time units, e.g., always write 'Days 1-7', 'Week 1', 'Month 2', and clarify the time frame when first introduced.",
+      "explanation": "Reduces ambiguity and improves readability regarding temporal data.",
+      "location": "Methodology, Results",
+      "category": "unit_notation",
+      "focus": "notation"
+    },
+    {
+      "original_text": "Some abbreviations like 'SD', 'IQR', 'n' are used without initial expansion.",
+      "improved_version": "Initially define abbreviations such as 'Standard Deviation (SD)', 'Interquartile Range (IQR)', and 'sample size (n)' at their first appearance.",
+      "explanation": "Ensures clarity for readers unfamiliar with statistical abbreviations.",
+      "location": "Appendix, Descriptive statistics",
+      "category": "abbreviations",
+      "focus": "definition"
+    },
+    {
+      "original_text": "Terms like 'predictive performance', 'classification', 'model accuracy' are used interchangeably.",
+      "improved_version": "Use precise terminology: 'predictive performance' for overall assessment, 'classification accuracy' for specific metric, and clearly distinguish between 'model accuracy', 'precision', 'recall', etc., with definitions if necessary.",
+      "explanation": "Reduces ambiguity by clarifying technical terms and their specific meanings.",
+      "location": "Discussion, Results",
+      "category": "technical_terms",
+      "focus": "term_usage"
+    },
+    {
+      "original_text": "Terms like 'adherence', 'nonadherence', 'churn', 'dropout' are used interchangeably.",
+      "improved_version": "Differentiate clearly: 'adherence' refers to following the prescribed use, 'nonadherence' to failing to meet the threshold, 'churn' to complete discontinuation, and 'dropout' as a specific form of churn, with consistent definitions provided early.",
+      "explanation": "Ensures precise understanding of each concept and their relationships.",
+      "location": "Introduction, Methods",
+      "category": "field_terminology",
+      "focus": "definitions"
+    },
+    {
+      "original_text": "References to figures and tables (e.g., 'Figure 6.1') are sometimes inconsistent.",
+      "improved_version": "Ensure all cross-references follow a uniform format, e.g., 'Figure 6.1', 'Table 6.1', and verify that all references are correctly numbered and linked.",
+      "explanation": "Improves navigation and consistency in referencing visual aids.",
+      "location": "Throughout the document",
+      "category": "cross_references",
+      "focus": "formatting"
+    },
+    {
+      "original_text": "Definitions of adherence and nonadherence are scattered and sometimes inconsistent.",
+      "improved_version": "Provide a comprehensive, consistent definition of adherence and nonadherence early in the Methods section, and use these definitions uniformly throughout the manuscript.",
+      "explanation": "Maintains clarity and consistency in outcome measures and key concepts.",
+      "location": "Methods, Results, Discussion",
+      "category": "definition_consistency",
+      "focus": "definitions"
+    }
+  ],
+  "detailed_feedback": {
+    "term_usage_consistency": "The manuscript generally uses 'nonadherence' and 'churn' appropriately, but occasionally conflates or contrasts them without clear distinction. Consistent terminology should be maintained, with explicit definitions and consistent application across sections to avoid confusion.",
+    "notation_consistency": "Statistical metrics such as AUC, accuracy, and F1-score are presented with parentheses or without, and sometimes with SD values. Standardizing formatting\u2014such as always writing 'mean (SD)'\u2014will improve clarity. Also, ensure all units are explicitly stated and consistently formatted.",
+    "acronym_usage": "Many acronyms are introduced without initial expansion, which can hinder understanding for readers unfamiliar with the terms. All acronyms should be spelled out at first use, with the abbreviation in parentheses, and used consistently thereafter.",
+    "variable_naming_consistency": "Variables like 'nonadherent users' and 'churned users' are sometimes defined with thresholds in one section but not in others. Establish clear, uniform definitions early and apply them consistently throughout to avoid ambiguity.",
+    "unit_notation_consistency": "Time-related data are expressed as 'Days 1-7', 'Week 1', 'Month 2' with varying formats. Adopting a uniform notation and explicitly defining the time frames at first mention will enhance clarity.",
+    "abbreviation_consistency": "Abbreviations such as 'SD', 'IQR', 'n' are used without initial definitions or inconsistent formatting. All abbreviations should be defined upon first mention and used uniformly.",
+    "technical_term_consistency": "Terms like 'predictive performance' and 'classification' are used broadly without precise definitions. Clarify these terms when first introduced and maintain consistent usage to improve technical clarity.",
+    "field_terminology": "Key concepts like 'adherence', 'nonadherence', 'churn', and 'dropout' are sometimes used interchangeably or without clear distinctions. Explicit, consistent definitions aligned with the literature will strengthen conceptual clarity.",
+    "cross_reference_consistency": "References to figures, tables, and appendices should follow a uniform format and be checked for correctness. Proper cross-referencing improves navigation and reduces confusion.",
+    "definition_consistency": "Definitions of core concepts such as 'adherence' and 'nonadherence' are scattered and sometimes inconsistent. Providing comprehensive, early, and uniform definitions will improve overall clarity and understanding."
+  },
+  "summary": "Overall, the manuscript demonstrates good use of terminology but would benefit from systematic standardization across all sections. Clarifying definitions, maintaining consistent notation, and explicitly defining acronyms and technical terms will significantly enhance clarity, coherence, and the scientific rigor of the presentation."
+}
