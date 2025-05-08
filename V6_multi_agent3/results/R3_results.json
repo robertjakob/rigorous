@@ -1,0 +1,130 @@
+{
+  "ethics_compliance_score": 4,
+  "critical_remarks": [
+    {
+      "category": "conflicts",
+      "location": "Author Contributions and Conflicts of Interest section",
+      "issue": "Authors disclose affiliations and funding sources but do not explicitly clarify whether these sources influenced the study design, data interpretation, or reporting, which could raise concerns about potential bias.",
+      "severity": "medium",
+      "impact": "Potential conflicts of interest might influence objectivity; transparency is essential to uphold research integrity."
+    },
+    {
+      "category": "privacy",
+      "location": "Data collection sections (Vivira and Manoa datasets descriptions)",
+      "issue": "While datasets are described as anonymized, there is limited detail on specific data privacy measures, such as data encryption, storage security, or anonymization procedures beyond basic anonymization.",
+      "severity": "medium",
+      "impact": "Insufficient detail on privacy measures could undermine trust and compliance with data protection standards."
+    },
+    {
+      "category": "consent",
+      "location": "Abstract and Data collection sections",
+      "issue": "The manuscript states that only users who provided consent under specific regulations were included, but it lacks detailed description of the consent process, how consent was obtained, and whether participants were informed about data use and potential risks.",
+      "severity": "high",
+      "impact": "Insufficient transparency about informed consent procedures may compromise ethical standards and participant autonomy."
+    },
+    {
+      "category": "integrity",
+      "location": "Methodology and Results sections",
+      "issue": "The study relies on retrospective observational data; however, there is limited discussion of potential biases (e.g., selection bias, reporting bias) and how these were mitigated or acknowledged.",
+      "severity": "medium",
+      "impact": "Unaddressed biases could affect the validity and reproducibility of findings, impacting research integrity."
+    },
+    {
+      "category": "guidelines",
+      "location": "Ethics Declaration section",
+      "issue": "The ethics declaration states that the study was exempted from ethics approval but does not specify adherence to international ethical guidelines (e.g., Declaration of Helsinki, GDPR compliance), especially considering data from German and Swiss sources.",
+      "severity": "low",
+      "impact": "Lack of explicit mention of adherence to recognized ethical standards may raise questions about comprehensive ethical compliance."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+      "improved_version": "The manuscript should explicitly describe the informed consent process, including how users were informed about data collection, the scope of their consent, and their rights, ensuring transparency and compliance with ethical standards.",
+      "explanation": "Providing detailed consent procedures enhances transparency, respects participant autonomy, and aligns with ethical guidelines for human data research.",
+      "location": "Data collection sections",
+      "category": "consent",
+      "focus": "consent"
+    },
+    {
+      "original_text": "The study involves the analyses of two anonymous datasets. Therefore, it does not qualify as human subject research and has been exempted from ethics approval.",
+      "improved_version": "The manuscript should include a detailed statement confirming adherence to data privacy regulations such as GDPR and GDPR-equivalent standards, and specify whether data anonymization procedures were validated by an ethics committee or data protection officer.",
+      "explanation": "Explicitly stating compliance with data privacy laws reassures readers of ethical standards and legal adherence.",
+      "location": "Ethics Declaration section",
+      "category": "guidelines",
+      "focus": "guidelines"
+    },
+    {
+      "original_text": "Authors disclose affiliations and funding sources but do not explicitly clarify whether these sources influenced the study design, data interpretation, or reporting.",
+      "improved_version": "Authors should explicitly state whether funding sources or affiliations had any role in study design, data analysis, interpretation, or manuscript preparation, or clarify if they had no such influence.",
+      "explanation": "Clear declaration of influence or independence from funders enhances transparency and reduces perceived bias.",
+      "location": "Author Contributions and Conflicts of Interest section",
+      "category": "conflicts",
+      "focus": "conflicts"
+    },
+    {
+      "original_text": "Limited detail on data privacy measures beyond anonymization is provided.",
+      "improved_version": "The manuscript should specify specific data privacy measures implemented, such as data encryption, access controls, secure storage, and procedures for data destruction after study completion.",
+      "explanation": "Detailing technical privacy safeguards demonstrates commitment to data protection standards and ethical responsibility.",
+      "location": "Data collection sections",
+      "category": "privacy",
+      "focus": "privacy"
+    },
+    {
+      "original_text": "The study relies on retrospective data; however, potential biases are not thoroughly discussed.",
+      "improved_version": "The manuscript should include a dedicated discussion of potential biases (e.g., selection bias, reporting bias, attrition bias), how they were assessed, and steps taken to mitigate their impact, or acknowledge limitations arising from these biases.",
+      "explanation": "Addressing biases explicitly supports research integrity and transparency of findings.",
+      "location": "Discussion section",
+      "category": "integrity",
+      "focus": "integrity"
+    },
+    {
+      "original_text": "The ethics declaration states exemption from ethics approval but lacks mention of adherence to international guidelines.",
+      "improved_version": "The authors should explicitly state adherence to recognized ethical frameworks such as the Declaration of Helsinki, GDPR, and local data protection laws, and clarify how these standards were implemented in data handling and analysis.",
+      "explanation": "Explicitly referencing international guidelines ensures comprehensive ethical compliance and enhances credibility.",
+      "location": "Ethics Declaration section",
+      "category": "guidelines",
+      "focus": "guidelines"
+    },
+    {
+      "original_text": "The datasets are described as anonymized but without detailed privacy measures.",
+      "improved_version": "Include a detailed description of anonymization procedures, such as data de-identification methods, removal of identifiers, and validation steps to ensure privacy protection, aligned with GDPR and other relevant standards.",
+      "explanation": "Specific privacy procedures reinforce trust and demonstrate compliance with data protection laws.",
+      "location": "Data collection sections",
+      "category": "privacy",
+      "focus": "privacy"
+    },
+    {
+      "original_text": "Authors disclose affiliations but do not clarify potential conflicts of interest related to funding or commercial ties.",
+      "improved_version": "Authors should explicitly declare whether there are any financial or non-financial conflicts of interest related to funding, affiliations, or commercial interests that could influence the research outcomes.",
+      "explanation": "Full transparency about conflicts of interest maintains research integrity and public trust.",
+      "location": "Conflicts of interest section",
+      "category": "conflicts",
+      "focus": "conflicts"
+    },
+    {
+      "original_text": "The study does not specify how participants were informed about data use and their rights.",
+      "improved_version": "The manuscript should describe the process of informing participants about data collection, their rights to withdraw consent, data usage scope, and potential risks, ensuring compliance with informed consent standards.",
+      "explanation": "Clear communication about data use respects participant autonomy and aligns with ethical standards for human research.",
+      "location": "Data collection sections",
+      "category": "consent",
+      "focus": "consent"
+    },
+    {
+      "original_text": "The study's reliance on retrospective data limits understanding of underlying reasons for disengagement.",
+      "improved_version": "Future studies should incorporate prospective data collection, including qualitative assessments or surveys to understand reasons for nonadherence, thereby enhancing ethical engagement and participant understanding.",
+      "explanation": "Proactive engagement and understanding of participant perspectives uphold ethical principles and improve intervention design.",
+      "location": "Discussion section",
+      "category": "guidelines",
+      "focus": "guidelines"
+    }
+  ],
+  "detailed_feedback": {
+    "conflicts_assessment": "The manuscript discloses author affiliations and funding sources but does not explicitly clarify whether these sources influenced study design, data analysis, or reporting. Transparent conflict of interest declarations are essential to maintain objectivity and trustworthiness. Including explicit statements about the independence of the research from funders and affiliations would strengthen ethical standards.",
+    "privacy_compliance": "While datasets are described as anonymized, the manuscript lacks detailed descriptions of specific privacy measures such as data encryption, secure storage, and anonymization validation. Clarifying these procedures and referencing compliance with GDPR or local data protection laws would reinforce adherence to data privacy standards.",
+    "consent_procedures": "The study states that only users who provided consent under specific regulations were included but does not detail how consent was obtained, whether participants were informed about data use, and their rights. Providing a comprehensive description of the consent process, including information provided to participants and options for withdrawal, is necessary for ethical transparency.",
+    "research_integrity": "The study relies on retrospective observational data, yet it does not thoroughly discuss potential biases such as selection bias, reporting bias, or attrition bias. Addressing these biases explicitly, including mitigation strategies or limitations, would enhance the credibility and integrity of the research.",
+    "guidelines_adherence": "The ethics declaration states exemption from ethics approval but does not specify adherence to international standards like the Declaration of Helsinki or GDPR. Explicitly affirming compliance with these guidelines and describing how data protection and participant rights are safeguarded would improve ethical rigor."
+  },
+  "summary": "Overall, the manuscript demonstrates a good level of ethical awareness, particularly in data anonymization and regulatory compliance. However, it would benefit from more explicit transparency regarding informed consent procedures, conflict of interest disclosures, detailed data privacy measures, and adherence to international ethical standards. Addressing these aspects would elevate the research to an excellent standard, ensuring full compliance with research ethics and standards."
+}
