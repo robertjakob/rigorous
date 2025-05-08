@@ -1,9 +1,0 @@
-{
-  "error": true,
-  "message": "Error in analysis: Error in analysis: 'async for' requires an object with __aiter__ method, got generator",
-  "score": 0,
-  "critical_remarks": [],
-  "improvement_suggestions": [],
-  "detailed_feedback": {},
-  "summary": "Analysis failed due to error: Error in analysis: 'async for' requires an object with __aiter__ method, got generator"
-}

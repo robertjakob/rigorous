@@ -1,0 +1,1261 @@
+{
+  "W2": {
+    "narrative_structure_score": 3,
+    "critical_remarks": [
+      {
+        "category": "narrative_coherence",
+        "location": "Abstract and Introduction",
+        "issue": "The abstract provides a comprehensive overview but lacks a clear linkage to the specific research questions or hypotheses, which are only fully elaborated later in the introduction. This creates a disconnect in the narrative flow from broad context to specific aims.",
+        "severity": "medium",
+        "impact": "This affects the reader\u2019s ability to immediately grasp the core research focus and its significance, potentially reducing engagement and clarity."
+      },
+      {
+        "category": "logical_progression",
+        "location": "Results and Discussion",
+        "issue": "Results are presented with detailed statistical metrics but without explicit interpretation or connection to the hypotheses, which hampers understanding of how findings support or refute initial assumptions.",
+        "severity": "high",
+        "impact": "This diminishes the logical flow from data to interpretation, making it harder for readers to follow the narrative of evidence supporting the study\u2019s claims."
+      },
+      {
+        "category": "transitions",
+        "location": "Between sections (e.g., Methods to Results, Results to Discussion)",
+        "issue": "Transitions are abrupt; sections often end with data or technical details without guiding the reader into the next section\u2019s purpose or implications.",
+        "severity": "medium",
+        "impact": "This hampers smooth reading flow and can cause confusion about how sections relate, reducing overall narrative cohesion."
+      },
+      {
+        "category": "paragraph_organization",
+        "location": "Methods and Results",
+        "issue": "Some paragraphs contain dense technical details or multiple ideas without clear topic sentences or logical segmentation, leading to difficulty in following the argument or process.",
+        "severity": "medium",
+        "impact": "This affects clarity and makes it harder for readers to identify key points or follow the progression of ideas."
+      },
+      {
+        "category": "topic_sentences",
+        "location": "Multiple sections",
+        "issue": "Many paragraphs lack explicit topic sentences that clearly state their purpose or main idea, especially in the Methods and Results sections.",
+        "severity": "high",
+        "impact": "This reduces paragraph focus and hampers the reader\u2019s ability to quickly grasp the purpose of each paragraph, weakening overall coherence."
+      },
+      {
+        "category": "evidence_integration",
+        "location": "Introduction and Discussion",
+        "issue": "Supporting evidence is often listed with citations but not integrated into the narrative with critical analysis or synthesis, leading to a fragmented presentation of background and implications.",
+        "severity": "medium",
+        "impact": "This limits the development of a compelling, cohesive argument and diminishes reader engagement."
+      },
+      {
+        "category": "conclusion_alignment",
+        "location": "Conclusion",
+        "issue": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions, missing an opportunity to reinforce the narrative arc.",
+        "severity": "low",
+        "impact": "This affects the sense of closure and coherence of the research story."
+      },
+      {
+        "category": "hypothesis_tracking",
+        "location": "Throughout the paper",
+        "issue": "The research questions or hypotheses are not explicitly restated or tracked throughout the Results and Discussion, making it difficult to see how evidence addresses initial aims.",
+        "severity": "high",
+        "impact": "This hampers the logical flow from research questions to conclusions, reducing clarity of the research narrative."
+      },
+      {
+        "category": "visual_integration",
+        "location": "Figures and Tables",
+        "issue": "Figures and tables are detailed but lack explicit references or explanations within the text that guide interpretation, making it harder for readers to connect visual data with narrative points.",
+        "severity": "medium",
+        "impact": "This weakens visual storytelling and can cause disconnects between data and interpretation."
+      },
+      {
+        "category": "reader_engagement",
+        "location": "Entire document",
+        "issue": "The dense technical language and extensive data presentation, without narrative framing or storytelling elements, reduce overall engagement and accessibility.",
+        "severity": "high",
+        "impact": "This may discourage broader readership and make the complex data less approachable."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) present a significant challenge to patients and healthcare systems, calling for innovative, scalable, and cost-effective solutions.",
+        "improved_version": "Given the increasing prevalence and economic impact of noncommunicable diseases (NCDs), this study aims to explore whether machine learning models can predict nonadherence to mobile health interventions, thereby informing targeted strategies to improve health outcomes.",
+        "explanation": "This revision explicitly states the research aim, linking background context to the study\u2019s purpose, enhancing narrative coherence.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "hypothesis_tracking"
+      },
+      {
+        "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+        "improved_version": "The models achieved high accuracy, correctly identifying an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira, where nonadherence was defined as completing fewer than eight exercises weekly. This demonstrates the models\u2019 effectiveness in early detection.",
+        "explanation": "Adding interpretative context clarifies the significance of the metrics, improving evidence integration and reader understanding.",
+        "location": "Results",
+        "category": "evidence_integration",
+        "focus": "supporting_evidence_integration"
+      },
+      {
+        "original_text": "The introduction highlights the potential of mHealth interventions but does not clearly connect to the specific hypotheses or research questions.",
+        "improved_version": "Building on the established potential of mHealth interventions, this study investigates whether behavioral engagement data can reliably predict nonadherence and user churn, addressing a critical gap in the literature.",
+        "explanation": "This explicitly links background to research questions, improving logical progression and hypothesis tracking.",
+        "location": "Introduction",
+        "category": "introduction",
+        "focus": "hypothesis_tracking"
+      },
+      {
+        "original_text": "Results are presented with detailed statistical metrics but without explicit interpretation or connection to the hypotheses.",
+        "improved_version": "The results show that models can predict nonadherence with high accuracy over extended periods, supporting the hypothesis that behavioral app data are predictive of user engagement patterns.",
+        "explanation": "Connecting data to hypotheses clarifies how findings support the research aims, improving narrative coherence.",
+        "location": "Results",
+        "category": "results",
+        "focus": "hypothesis_tracking"
+      },
+      {
+        "original_text": "Many paragraphs contain dense technical details or multiple ideas without clear topic sentences.",
+        "improved_version": "This paragraph introduces the predictive modeling approach, focusing on the choice of algorithms and feature selection to ensure clarity.",
+        "explanation": "Adding clear topic sentences helps organize content and guides the reader through complex technical details.",
+        "location": "Methodology",
+        "category": "paragraph_organization",
+        "focus": "topic_sentences"
+      },
+      {
+        "original_text": "Figures and tables are detailed but lack explicit references or explanations within the text.",
+        "improved_version": "In Figure 6.5, the trend of increasing AUC over weeks illustrates the models\u2019 improving predictive performance, highlighting their robustness over time.",
+        "explanation": "Explicitly referencing figures and explaining their significance enhances visual integration and narrative flow.",
+        "location": "Results",
+        "category": "visual_integration",
+        "focus": "visual_element_integration"
+      },
+      {
+        "original_text": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions.",
+        "improved_version": "In conclusion, our findings confirm that behavioral app engagement data can reliably predict nonadherence and churn, aligning with our initial hypotheses and underscoring the potential for targeted intervention strategies.",
+        "explanation": "Restating hypotheses and linking findings to initial aims reinforces narrative closure and coherence.",
+        "location": "Conclusion",
+        "category": "conclusion",
+        "focus": "conclusion_alignment"
+      },
+      {
+        "original_text": "The discussion does not explicitly track the initial research questions or hypotheses.",
+        "improved_version": "This discussion explicitly revisits the research questions, evaluating how the results support the hypothesis that behavioral data can predict nonadherence and user disengagement.",
+        "explanation": "Explicitly tracking hypotheses throughout the discussion maintains narrative focus and clarity.",
+        "location": "Discussion",
+        "category": "hypothesis_tracking",
+        "focus": "hypothesis_tracking"
+      },
+      {
+        "original_text": "The extensive technical data presentation can be overwhelming without guiding narrative elements.",
+        "improved_version": "Integrate brief summaries of key data points within the narrative, such as: 'The high AUC values across weeks indicate consistent model performance, supporting the feasibility of real-time prediction.'",
+        "explanation": "Embedding summaries within the text improves engagement and comprehension, making complex data accessible.",
+        "location": "Results",
+        "category": "reader_engagement",
+        "focus": "reader_engagement"
+      },
+      {
+        "original_text": "The paper\u2019s dense technical language and data-heavy presentation reduce overall engagement.",
+        "improved_version": "Incorporate storytelling elements, such as case examples or user scenarios, to illustrate how predictions could be applied in real-world settings, thereby increasing engagement.",
+        "explanation": "Storytelling makes the technical content more relatable and engaging for a broader audience.",
+        "location": "Discussion",
+        "category": "reader_engagement",
+        "focus": "reader_engagement"
+      },
+      {
+        "original_text": "The paper lacks explicit signposting between sections, making navigation challenging.",
+        "improved_version": "Add transition sentences at the end of each section, e.g., 'Having established the predictive performance of our models, we now explore their implications for intervention strategies.'",
+        "explanation": "Clear transitions guide the reader smoothly through the narrative, enhancing structural coherence.",
+        "location": "Between sections",
+        "category": "transitions",
+        "focus": "transitions"
+      },
+      {
+        "original_text": "The hypotheses are not explicitly restated or revisited throughout the paper.",
+        "improved_version": "Restate the research hypotheses at the end of the introduction and explicitly evaluate how each is addressed in the results and discussion sections.",
+        "explanation": "Explicit hypothesis tracking clarifies the research narrative and helps readers assess how evidence supports initial aims.",
+        "location": "Throughout the paper",
+        "category": "hypothesis_tracking",
+        "focus": "hypothesis_tracking"
+      }
+    ],
+    "detailed_feedback": {
+      "narrative_coherence": "The paper begins with a broad overview of the importance of mHealth interventions and their challenges, but the connection to specific research questions is only implied rather than explicitly articulated early on. Clarifying the central aims upfront would strengthen coherence.",
+      "logical_progression": "The progression from background to methods, results, and discussion generally follows a logical sequence, but the absence of explicit hypothesis statements and their subsequent testing weakens the narrative flow. Explicitly linking each result back to the initial questions would improve this.",
+      "section_transitions": "Transitions between sections are often abrupt, with minimal guiding sentences. Incorporating signposting and linking sentences at the end of sections can improve flow and reader orientation.",
+      "paragraph_organization": "Many paragraphs are dense with technical details or multiple ideas, reducing clarity. Using topic sentences and breaking complex paragraphs into smaller, focused units would enhance readability.",
+      "topic_sentence_effectiveness": "Several paragraphs lack clear topic sentences, which hampers quick understanding of their purpose. Adding explicit topic sentences at the start of each paragraph would clarify their main idea.",
+      "supporting_evidence_integration": "Evidence is often presented as lists of metrics and citations without critical interpretation. Embedding explanations of what these metrics imply about model performance would strengthen argumentation.",
+      "conclusion_alignment": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions, missing an opportunity to reinforce the narrative arc and provide closure.",
+      "hypothesis_tracking": "The initial hypotheses are not explicitly restated or systematically revisited, which diminishes clarity about how the evidence supports or refutes the research aims. Restating and tracking them would improve coherence.",
+      "visual_element_integration": "Figures and tables are detailed but lack explicit references within the text that explain their relevance. Incorporating interpretative commentary would enhance visual storytelling.",
+      "reader_engagement": "The technical density and extensive data presentation can be overwhelming. Using storytelling techniques, case examples, or simplified summaries would make the content more engaging and accessible."
+    },
+    "summary": "Overall, the manuscript demonstrates solid technical rigor and comprehensive data presentation, but its narrative structure could benefit from clearer signposting, explicit hypothesis tracking, and improved paragraph and section organization. Enhancing coherence through explicit linking of sections, integrating visual data with narrative explanations, and adopting storytelling elements would significantly improve readability and engagement, making the complex findings more accessible and compelling for diverse audiences."
+  },
+  "W5": {
+    "inclusive_language_score": 4,
+    "critical_remarks": [
+      {
+        "category": "gender_neutrality",
+        "location": "Abstract",
+        "issue": "The abstract predominantly uses gendered terms such as 'users' with gender breakdowns but does not explicitly employ gender-neutral language or inclusive pronouns when referring to participants or populations.",
+        "severity": "low",
+        "impact": "Limited; does not significantly hinder understanding but could be more inclusive in language use."
+      },
+      {
+        "category": "cultural_sensitivity",
+        "location": "Introduction",
+        "issue": "The background description emphasizes healthcare systems and interventions in Germany and Switzerland, with limited acknowledgment of diverse cultural contexts or populations outside these regions.",
+        "severity": "medium",
+        "impact": "May limit applicability and sensitivity to diverse cultural settings, potentially excluding non-Western or non-European populations."
+      },
+      {
+        "category": "age_terminology",
+        "location": "Literature review",
+        "issue": "Age groups are described with specific ranges (e.g., 18\u201335 years), but the language does not explicitly acknowledge the diversity within these groups or avoid age-based stereotypes.",
+        "severity": "low",
+        "impact": "Minimal; however, more neutral language could improve inclusivity regarding age diversity."
+      },
+      {
+        "category": "disability_inclusion",
+        "location": "Methodology",
+        "issue": "The description of interventions and datasets does not explicitly consider participants with disabilities or accessibility needs, potentially implying a non-inclusive assumption.",
+        "severity": "medium",
+        "impact": "Could overlook the needs of users with disabilities, limiting the scope of inclusivity."
+      },
+      {
+        "category": "socioeconomic_sensitivity",
+        "location": "Introduction",
+        "issue": "The socioeconomic status of participants is not discussed, and the language assumes access to smartphones and digital literacy, which may not be universal.",
+        "severity": "high",
+        "impact": "May exclude or marginalize populations with lower socioeconomic status, reducing generalizability."
+      },
+      {
+        "category": "geographic_inclusivity",
+        "location": "Introduction",
+        "issue": "Focus is primarily on European healthcare systems, with limited mention of global diversity or interventions in non-Western contexts.",
+        "severity": "medium",
+        "impact": "Limits applicability and sensitivity to diverse geographic populations."
+      },
+      {
+        "category": "professional_titles",
+        "location": "Author contributions",
+        "issue": "Use of professional titles (e.g., 'RJ', 'LB') is consistent but does not include titles that reflect diversity or cultural backgrounds, which could be more inclusive.",
+        "severity": "low",
+        "impact": "Minimal; primarily a stylistic point."
+      },
+      {
+        "category": "stereotypes",
+        "location": "Discussion",
+        "issue": "The discussion emphasizes the effectiveness of behavioral features without addressing potential stereotypes about user motivation or engagement, which could unintentionally reinforce stereotypes.",
+        "severity": "low",
+        "impact": "Limited; awareness of stereotypes about user behavior could improve sensitivity."
+      },
+      {
+        "category": "identity_language",
+        "location": "Methodology",
+        "issue": "The description of gender data uses 'non-binary' as a category but does not specify whether the language is person-first ('person with non-binary gender') or identity-first, which could be clarified for inclusivity.",
+        "severity": "low",
+        "impact": "Minimal; clarity in language can enhance respect for diverse identities."
+      },
+      {
+        "category": "historical_context",
+        "location": "Introduction",
+        "issue": "The text references the German Digital Healthcare Act (2019) but does not contextualize historical disparities or the evolution of digital health policies globally.",
+        "severity": "low",
+        "impact": "Limited; more context could improve sensitivity to historical inequalities."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "68.3% were female, 31.6% were male, and 0.1% non-binary.",
+        "improved_version": "68.3% identified as women, 31.6% as men, and 0.1% as non-binary or other gender identities.",
+        "explanation": "Using inclusive and person-centered language respects gender diversity and avoids reinforcing binary gender assumptions.",
+        "location": "Section 2.1.2 Manoa participant description",
+        "category": "cultural_sensitivity",
+        "focus": "gender_neutrality"
+      },
+      {
+        "original_text": "The German Digital Healthcare Act in 2019",
+        "improved_version": "The German Digital Healthcare Act of 2019, which reflects recent policy developments in digital health regulation.",
+        "explanation": "Adding context about the policy's development emphasizes awareness of evolving healthcare landscapes and inclusivity of diverse regulatory environments.",
+        "location": "Introduction",
+        "category": "historical_context",
+        "focus": "historical_context"
+      },
+      {
+        "original_text": "The datasets include users from Germany and Switzerland.",
+        "improved_version": "The datasets include users from Germany, Switzerland, and other diverse regions, acknowledging the potential for broader applicability.",
+        "explanation": "Explicitly recognizing geographic diversity enhances inclusivity and signals openness to global contexts.",
+        "location": "Introduction",
+        "category": "geographic_inclusivity",
+        "focus": "geographic_inclusivity"
+      },
+      {
+        "original_text": "Participants are described by age ranges (e.g., 18\u201335 years).",
+        "improved_version": "Participants are described by age ranges (e.g., 18\u201335 years), with an acknowledgment of the diversity within these groups.",
+        "explanation": "Clarifying that age groups encompass diverse individuals helps avoid stereotypes and promotes age inclusivity.",
+        "location": "Section 2.1.2 Participant descriptions",
+        "category": "age_terminology",
+        "focus": "age_appropriate_terminology"
+      },
+      {
+        "original_text": "The study involves users who provided consent under specific regulations.",
+        "improved_version": "The study involves users who provided informed consent, emphasizing respect for autonomy and ethical considerations across diverse populations.",
+        "explanation": "Highlighting informed consent underscores ethical inclusivity, respecting diverse user rights.",
+        "location": "Section 2.1",
+        "category": "disability_inclusion",
+        "focus": "disability_inclusive_language"
+      },
+      {
+        "original_text": "The interventions assume access to smartphones and digital literacy.",
+        "improved_version": "The interventions are designed for users with varying levels of digital access and literacy, and future adaptations could include alternative formats to enhance accessibility.",
+        "explanation": "Acknowledging digital divides and suggesting inclusivity measures promotes socioeconomic and accessibility sensitivity.",
+        "location": "Introduction",
+        "category": "socioeconomic_sensitivity",
+        "focus": "socioeconomic_sensitivity"
+      },
+      {
+        "original_text": "The description of user demographics focuses on European systems.",
+        "improved_version": "The description of user demographics emphasizes the need for inclusive research across diverse geographic and cultural contexts worldwide.",
+        "explanation": "Broadening the scope promotes geographic inclusivity and cultural sensitivity.",
+        "location": "Introduction",
+        "category": "geographic_inclusivity",
+        "focus": "geographic_inclusivity"
+      },
+      {
+        "original_text": "Author contributions use initials without titles.",
+        "improved_version": "Author contributions are listed with full names and professional titles where appropriate, respecting diversity in academic and professional backgrounds.",
+        "explanation": "Using full names and titles can promote transparency and inclusivity in author recognition.",
+        "location": "Author contributions",
+        "category": "professional_titles",
+        "focus": "professional_titles"
+      },
+      {
+        "original_text": "The discussion emphasizes effectiveness without addressing potential stereotypes about user motivation.",
+        "improved_version": "The discussion highlights the effectiveness of behavioral features while acknowledging that user motivation and engagement may vary across diverse populations, avoiding stereotypes about user behavior.",
+        "explanation": "This approach promotes stereotype avoidance and recognizes diversity in user experiences.",
+        "location": "Discussion",
+        "category": "stereotypes",
+        "focus": "stereotypes"
+      },
+      {
+        "original_text": "Gender data is collected but not explicitly framed with person-first language.",
+        "improved_version": "Gender data is collected and presented with person-first language, such as 'individuals identifying as non-binary,' to respect diverse gender identities.",
+        "explanation": "Person-first language affirms individual identities beyond categorical labels, enhancing inclusivity.",
+        "location": "Methodology",
+        "category": "identity_language",
+        "focus": "identity-first_vs_person_first"
+      },
+      {
+        "original_text": "References focus on Western healthcare systems and policies.",
+        "improved_version": "References include a broader range of global health policies and contexts to reflect diverse historical and cultural backgrounds.",
+        "explanation": "Expanding references promotes historical context sensitivity and cultural inclusivity.",
+        "location": "References",
+        "category": "historical_context",
+        "focus": "historical_context"
+      },
+      {
+        "original_text": "The language assumes a universal acceptance of digital health interventions.",
+        "improved_version": "The language recognizes that acceptance and access to digital health interventions vary across different cultural, socioeconomic, and geographic populations, advocating for inclusive approaches.",
+        "explanation": "This promotes cultural sensitivity and socioeconomic inclusivity.",
+        "location": "Discussion",
+        "category": "cultural_sensitivity",
+        "focus": "cultural_sensitivity"
+      },
+      {
+        "original_text": "The study does not explicitly address accessibility for users with disabilities.",
+        "improved_version": "Future iterations of the intervention should consider accessibility features for users with disabilities, such as screen readers or alternative input methods, to promote disability inclusion.",
+        "explanation": "Explicitly addressing accessibility ensures inclusivity for users with disabilities.",
+        "location": "Limitations and future work",
+        "category": "disability_inclusion",
+        "focus": "disability_inclusive_language"
+      }
+    ],
+    "detailed_feedback": {
+      "gender_neutral_language": "The manuscript would benefit from adopting gender-neutral and inclusive language throughout, such as using 'individuals' or 'participants' rather than gendered terms, and clarifying gender identities with respectful terminology. This fosters an environment of respect and recognition of gender diversity.",
+      "cultural_sensitivity": "The current focus on European healthcare systems and policies may inadvertently suggest a narrow cultural perspective. Incorporating language that emphasizes the importance of adapting interventions to diverse cultural contexts and acknowledging global health disparities can improve cultural sensitivity and applicability.",
+      "age_appropriate_terminology": "While age ranges are used effectively, the language could be expanded to acknowledge the diversity within age groups and avoid stereotypes. Using phrases like 'individuals across various age groups, including older adults and youth' emphasizes inclusivity.",
+      "disability_inclusive_language": "The description of interventions and datasets does not explicitly consider users with disabilities. Including language about designing accessible interventions, such as accommodating users with visual, auditory, or motor impairments, enhances disability inclusion.",
+      "socioeconomic_sensitivity": "The assumption that all users have access to smartphones and digital literacy overlooks socioeconomic disparities. Explicitly mentioning efforts to include or adapt for users with limited digital access or literacy demonstrates socioeconomic sensitivity.",
+      "geographic_inclusivity": "The focus on Germany and Switzerland limits geographic diversity. Incorporating language that recognizes the importance of validating models across different regions and cultural settings promotes inclusivity and global relevance.",
+      "professional_titles": "Author contributions use initials without titles, which is acceptable stylistically but could be enhanced by including full names and titles to recognize diverse professional backgrounds and promote transparency.",
+      "stereotypes": "The discussion emphasizes behavioral features without addressing potential stereotypes about user motivation or engagement. Acknowledging variability in user behavior and avoiding assumptions about motivation levels fosters a more inclusive perspective.",
+      "identity_language": "Gender data is presented with categories like 'non-binary' but without person-first phrasing. Using person-first language, such as 'individuals identifying as non-binary,' respects diverse gender identities.",
+      "historical_context": "References focus on recent policies and systems in specific countries. Including historical perspectives on health disparities and the evolution of digital health globally can improve sensitivity to historical inequalities."
+    },
+    "summary": "Overall, the manuscript demonstrates a good level of inclusivity, particularly in its technical descriptions and data reporting. However, targeted improvements\u2014such as adopting gender-neutral language, expanding cultural and geographic references, explicitly addressing accessibility and socioeconomic disparities, and using respectful, inclusive terminology\u2014would elevate the quality and inclusivity of the work. These enhancements will ensure broader applicability, respect for diversity, and alignment with best practices in inclusive research."
+  },
+  "W4": {
+    "terminology_consistency_score": 3,
+    "critical_remarks": [
+      {
+        "category": "acronyms",
+        "location": "Abstract, paragraph 2",
+        "issue": "The acronym 'NCDs' is introduced without prior expansion or definition, which may cause confusion for readers unfamiliar with the abbreviation.",
+        "severity": "high",
+        "impact": "This affects clarity and consistency in terminology, especially for interdisciplinary audiences."
+      },
+      {
+        "category": "field_terminology",
+        "location": "Introduction, paragraph 2",
+        "issue": "The term 'nonadherence' is used interchangeably with 'disengagement' and 'dropout' without clear distinctions, potentially leading to ambiguity.",
+        "severity": "medium",
+        "impact": "This inconsistency can hinder precise understanding of the concepts being discussed."
+      },
+      {
+        "category": "notation",
+        "location": "Equations section",
+        "issue": "The notation for time points (e.g., Weeks 2, 13, Days 1-82) varies in style, sometimes including 'Days' explicitly, sometimes not, leading to inconsistency.",
+        "severity": "medium",
+        "impact": "This reduces clarity in mathematical and methodological descriptions."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "noncommunicable diseases (NCDs)",
+        "improved_version": "noncommunicable diseases (NCDs)",
+        "explanation": "Ensure the full term is expanded with the abbreviation in parentheses at first mention for clarity and consistency.",
+        "location": "Abstract, paragraph 2",
+        "category": "abstract",
+        "focus": "acronyms"
+      },
+      {
+        "original_text": "nonadherence",
+        "improved_version": "nonadherence (as defined by Sieverink et al., 2017)",
+        "explanation": "Add a brief clarification or reference when first introducing the term to maintain consistency and clarity in its usage throughout the paper.",
+        "location": "Introduction, paragraph 2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "Weeks 2 to 13",
+        "improved_version": "Weeks 2\u201313",
+        "explanation": "Use en-dash for ranges of weeks or days to standardize notation and improve readability in technical descriptions.",
+        "location": "Methodology, section 2.2",
+        "category": "notation",
+        "focus": "notation"
+      },
+      {
+        "original_text": "fewer than eight therapeutic exercises per week",
+        "improved_version": "fewer than 8 exercises per week",
+        "explanation": "Use consistent numeric notation (digits) for numbers in technical contexts to align with other numerical references in the text.",
+        "location": "Abstract, paragraph 2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "churn (users\u2019 last login within program duration)",
+        "improved_version": "churn, defined as the user's last login within the program duration",
+        "explanation": "Clarify the definition of 'churn' to maintain consistency and avoid ambiguity with other forms of disengagement.",
+        "location": "Introduction, paragraph 3",
+        "category": "definitions",
+        "focus": "definitions"
+      },
+      {
+        "original_text": "adherence ratio = 0.409",
+        "improved_version": "adherence ratio = 0.409 (or 40.9%)",
+        "explanation": "Include units or percentage notation for clarity, especially when reporting ratios or proportions.",
+        "location": "Results, section 3.2.1",
+        "category": "unit_notation",
+        "focus": "unit_notation"
+      },
+      {
+        "original_text": "active or inactive",
+        "improved_version": "active (user triggered an app event) or inactive (no app event triggered)",
+        "explanation": "Define categorical variables explicitly when first introduced to ensure consistent understanding of terminology.",
+        "location": "Methodology, section 2.2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "performance metrics (AUC, accuracy, F1-score, etc.)",
+        "improved_version": "performance metrics, including area under the curve (AUC), accuracy, F1-score, precision, and recall",
+        "explanation": "Spell out all abbreviations at first mention and ensure consistent terminology for metrics to improve clarity.",
+        "location": "Results, section 3.2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "predicting nonadherence relative to the intended use",
+        "improved_version": "predicting nonadherence based on the intended use of the intervention",
+        "explanation": "Use consistent phrasing to clearly link the concept of adherence to the intervention's intended use, avoiding ambiguity.",
+        "location": "Introduction, paragraph 4",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "model hyperparameters",
+        "improved_version": "model hyperparameters (e.g., number of trees, max depth)",
+        "explanation": "Provide examples or specify hyperparameters to clarify technical terminology and improve consistency.",
+        "location": "Methodology, section 2.2",
+        "category": "technical_terms",
+        "focus": "technical_terms"
+      },
+      {
+        "original_text": "user engagement data",
+        "improved_version": "user engagement data (e.g., login frequency, activity logs)",
+        "explanation": "Include examples to clarify the scope of engagement data, ensuring consistent understanding across sections.",
+        "location": "Methodology, section 2.2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "adherence and churn",
+        "improved_version": "adherence (compliance with intervention protocol) and churn (discontinuation of app use)",
+        "explanation": "Define key terms explicitly to maintain consistency and prevent misinterpretation.",
+        "location": "Discussion, paragraph 4",
+        "category": "definitions",
+        "focus": "definitions"
+      },
+      {
+        "original_text": "model performance (e.g., F1, AUC)",
+        "improved_version": "model performance metrics, including F1-score and AUC",
+        "explanation": "Use consistent terminology for performance metrics, and specify all abbreviations at first mention.",
+        "location": "Results, section 3.2",
+        "category": "field_terminology",
+        "focus": "field_terminology"
+      }
+    ],
+    "detailed_feedback": {
+      "term_usage_consistency": "The manuscript generally uses key terms like 'nonadherence,' 'churn,' and 'adherence' consistently, but occasionally switches between related terms such as 'disengagement' and 'dropout' without clear distinctions, which can cause confusion. Establishing precise definitions and maintaining consistent usage throughout will improve clarity.",
+      "notation_consistency": "Time points are variably expressed, sometimes with explicit 'Days' or 'Weeks,' other times with ranges like 'Days 1-7' or 'Weeks 2-13.' Adopting a uniform notation style, such as using en-dashes for ranges and consistent abbreviations, will enhance readability and technical precision.",
+      "acronym_usage": "Acronyms like 'NCDs,' 'DiGA,' and 'PDT' are introduced appropriately, but some are not expanded at first mention or lack consistent usage. Ensuring all acronyms are spelled out initially and used uniformly will support clarity for diverse audiences.",
+      "variable_naming_consistency": "Variables such as 'active or inactive,' 'number of exercises,' and 'session counts' are described clearly, but some variable names in equations or tables are not explicitly defined or are inconsistent in style. Standardizing variable naming conventions and providing definitions will improve interpretability.",
+      "unit_notation_consistency": "Numerical values are sometimes reported as ratios (e.g., 0.94) and other times as percentages (e.g., 94%). Consistently using either percentages with the '%' symbol or ratios throughout the manuscript will avoid confusion.",
+      "abbreviation_consistency": "Abbreviations like 'SD,' 'IQR,' and 'FPR' are used correctly, but some abbreviations such as 'F1' and 'AUC' are not always spelled out initially. Defining all abbreviations at first mention will improve accessibility.",
+      "technical_term_consistency": "Technical terms such as 'stratified 10-fold cross-validation,' 'Tomek Links undersampling,' and 'hyperparameter tuning' are used appropriately, but some terms could benefit from brief explanations or consistent formatting to reinforce understanding.",
+      "field_terminology": "Core concepts like 'adherence,' 'nonadherence,' 'churn,' and 'predictive performance' are generally well-maintained, but occasional ambiguous usage of related terms like 'disengagement' or 'dropout' could be clarified with explicit definitions.",
+      "cross_reference_consistency": "References to figures, tables, and appendices are generally consistent, but some figure references (e.g., 'Figure 6.1') could specify whether they are in the main text or appendix for clarity. Ensuring uniform referencing style will improve navigation.",
+      "definition_consistency": "Definitions of key concepts such as 'nonadherence' and 'churn' are provided but sometimes lack explicit boundaries or thresholds. Consistently including precise definitions and thresholds at first mention will strengthen conceptual clarity."
+    },
+    "summary": "Overall, the manuscript demonstrates a solid foundation of terminology use but exhibits areas where consistency can be improved, particularly in acronym expansion, notation style, and explicit definitions. Addressing these points will enhance clarity, reduce ambiguity, and strengthen the technical rigor of the paper, moving it toward an 'Excellent' rating."
+  },
+  "W3": {
+    "clarity_conciseness_score": 3,
+    "critical_remarks": [
+      {
+        "category": "language_simplicity",
+        "location": "Abstract",
+        "issue": "The abstract uses complex sentences and technical phrases that may challenge readers unfamiliar with the domain.",
+        "severity": "medium",
+        "impact": "Reduces overall accessibility and may hinder understanding for a broader audience."
+      },
+      {
+        "category": "jargon",
+        "location": "Introduction",
+        "issue": "Terms like 'reimbursable items,' 'DiGA,' and 'PDT' are used without immediate explanation.",
+        "severity": "high",
+        "impact": "Can confuse readers unfamiliar with specific healthcare policy terminology, impairing clarity."
+      },
+      {
+        "category": "wordiness",
+        "location": "Literature Review",
+        "issue": "Some sentences contain multiple clauses and lengthy lists, making them verbose.",
+        "severity": "medium",
+        "impact": "Obscures key points and hampers quick comprehension."
+      },
+      {
+        "category": "sentence_length",
+        "location": "Methodology",
+        "issue": "Several sentences are excessively long, especially when describing data collection and model training processes.",
+        "severity": "medium",
+        "impact": "Impairs readability and makes it difficult to follow procedural steps."
+      },
+      {
+        "category": "paragraph_length",
+        "location": "Results",
+        "issue": "Results sections contain large blocks of text with multiple statistics and figures, which can overwhelm readers.",
+        "severity": "medium",
+        "impact": "Reduces clarity by making it hard to distinguish between different findings."
+      },
+      {
+        "category": "voice",
+        "location": "Discussion",
+        "issue": "Use of passive voice in several instances (e.g., 'models were more adept') diminishes immediacy.",
+        "severity": "low",
+        "impact": "Slightly weakens engagement and directness of the narrative."
+      },
+      {
+        "category": "redundancy",
+        "location": "Introduction",
+        "issue": "Repeated mention of the high dropout rates and the importance of adherence without adding new insights.",
+        "severity": "low",
+        "impact": "Unnecessary repetition reduces conciseness."
+      },
+      {
+        "category": "ambiguity",
+        "location": "Methodology",
+        "issue": "Some definitions (e.g., 'nonadherence,' 'churn') are introduced with nuanced distinctions but are not always clearly differentiated in context.",
+        "severity": "medium",
+        "impact": "May cause confusion about the exact operationalization of key concepts."
+      },
+      {
+        "category": "readability",
+        "location": "Discussion",
+        "issue": "Heavy use of technical terms and complex sentences lowers the overall readability for non-specialist audiences.",
+        "severity": "medium",
+        "impact": "Limits accessibility and broad understanding."
+      },
+      {
+        "category": "information_density",
+        "location": "Results",
+        "issue": "Sections pack numerous statistics, figures, and methodological details into dense paragraphs.",
+        "severity": "medium",
+        "impact": "Makes it difficult to extract core findings quickly."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "The data collected by mHealth interventions raise the question: can we predict nonadherence using this data?",
+        "explanation": "Simplifies the sentence structure, making the key question clearer and more direct.",
+        "location": "Abstract",
+        "category": "language_simplicity",
+        "focus": "language_simplicity"
+      },
+      {
+        "original_text": "In particular, mobile health (mHealth) interventions have emerged as versatile tools to promote behavior change among patients, improve health outcomes, and reduce healthcare costs due to the widespread availability of smartphones.",
+        "improved_version": "Mobile health (mHealth) interventions are versatile tools that promote behavior change, improve health outcomes, and lower healthcare costs, thanks to widespread smartphone use.",
+        "explanation": "Reduces complexity and wordiness, enhancing clarity and flow.",
+        "location": "Introduction",
+        "category": "wordiness",
+        "focus": "wordiness"
+      },
+      {
+        "original_text": "A growing body of evidence suggests that mHealth interventions can effectively support the prevention and management of NCDs by addressing modifiable risk factors, including physical inactivity [52, 53], unhealthy diets [67], tobacco use [63], the harmful use of alcohol [12] and metabolic risk factors such as obesity [52], hypertension [1], and hyperglycemia [19].",
+        "improved_version": "Evidence indicates that mHealth interventions support prevention and management of NCDs by targeting risk factors like inactivity, poor diet, smoking, alcohol use, obesity, hypertension, and high blood sugar.",
+        "explanation": "Condenses lengthy lists into a clearer, more digestible format, improving readability.",
+        "location": "Introduction",
+        "category": "wordiness",
+        "focus": "wordiness"
+      },
+      {
+        "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+        "improved_version": "Because DiGA data use is limited, only users who consented under Article 4, Section 2, 4 of DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+        "explanation": "Clarifies causality and reduces passive phrasing, improving clarity.",
+        "location": "Methodology",
+        "category": "voice",
+        "focus": "active vs. passive voice"
+      },
+      {
+        "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+        "improved_version": "In Vivira, our models correctly predicted about 94% of nonadherent users from Weeks 2 to 13, where nonadherence meant completing fewer than eight exercises weekly.",
+        "explanation": "Breaks down complex sentence, clarifies definition, and improves flow.",
+        "location": "Results",
+        "category": "clarity",
+        "focus": "language_simplicity"
+      },
+      {
+        "original_text": "The descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn (i.e., users discontinuing entire use).",
+        "improved_version": "Analysis shows that the decline in adherence over time in Vivira and Manoa mainly results from users discontinuing use entirely (churn).",
+        "explanation": "Simplifies sentence structure and clarifies the relationship.",
+        "location": "Discussion",
+        "category": "language_simplicity",
+        "focus": "language_simplicity"
+      },
+      {
+        "original_text": "The models were more adept at identifying nonadherent users who had already churned than those active or in the process of churning, as highlighted in Figure 6.5.",
+        "improved_version": "Models better identified users who had already churned than those still active or in the process of churning, as shown in Figure 6.5.",
+        "explanation": "Uses clearer, more direct language, reducing passive voice and improving readability.",
+        "location": "Results",
+        "category": "voice",
+        "focus": "active vs. passive voice"
+      },
+      {
+        "original_text": "Features related to user app activity (e.g., daily logins) and app progress (e.g., completion of app-logged activities) are the most important for churn prediction in mHealth interventions [5, 21] and other app domains [7, 27, 29, 41, 56].",
+        "improved_version": "Features like daily logins and completed activities are key predictors of churn in mHealth and other apps [5, 21, 7, 27, 29, 41, 56].",
+        "explanation": "Simplifies technical phrasing and reduces redundancy, making it more accessible.",
+        "location": "Discussion",
+        "category": "jargon",
+        "focus": "jargon"
+      },
+      {
+        "original_text": "While these analyses can provide valuable insights, our results suggest that simple app engagement features, such as daily app activity, are sufficient to predict future user behavior.",
+        "improved_version": "Although sociodemographic factors can offer insights, our findings show that simple engagement data, like daily activity, can effectively predict future behavior.",
+        "explanation": "Clarifies the comparison and emphasizes the main point more directly.",
+        "location": "Discussion",
+        "category": "clarity",
+        "focus": "language_simplicity"
+      },
+      {
+        "original_text": "Future research should aim to replicate nonadherence prediction models in diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
+        "improved_version": "Future studies should test these prediction models across various mHealth settings and evaluate how combining them with targeted strategies affects app use, adherence, and health outcomes.",
+        "explanation": "Shortens and clarifies the sentence, making it more actionable and easier to understand.",
+        "location": "Limitations and Future Work",
+        "category": "wordiness",
+        "focus": "wordiness"
+      }
+    ],
+    "detailed_feedback": {
+      "language_simplicity": "Overall, the manuscript employs technical language and complex sentence structures that can challenge readers unfamiliar with the domain. Simplifying sentences and using more straightforward language would enhance accessibility and comprehension for a broader audience.",
+      "jargon_usage": "While domain-specific terms are necessary, some abbreviations and technical phrases (e.g., 'DiGA,' 'PDT') are introduced without immediate explanation. Providing brief definitions or context upon first mention would improve clarity and reduce confusion.",
+      "wordiness": "Many sections contain lengthy sentences and lists, especially in the literature review and results. Condensing these into more concise statements will improve flow and make key points stand out more clearly.",
+      "sentence_length": "Excessively long sentences, especially in methodology and results, hinder readability. Breaking complex sentences into shorter, focused ones will help readers follow procedures and findings more easily.",
+      "paragraph_length": "Large blocks of dense text, particularly in the results and discussion, can overwhelm readers. Dividing these into smaller, thematic paragraphs will improve readability and allow for easier navigation of key points.",
+      "active_passive_voice": "The manuscript uses passive voice in several places (e.g., 'models were more adept'), which can weaken immediacy. Rephrasing into active voice where possible will enhance engagement and clarity.",
+      "redundancy": "Repeated concepts, such as the importance of adherence and churn, are often restated without adding new information. Eliminating unnecessary repetition will streamline the narrative and focus on novel insights.",
+      "ambiguity": "Some definitions, particularly of 'nonadherence' and 'churn,' are nuanced but not always clearly distinguished in context. Clarifying these distinctions with explicit operational definitions will reduce potential confusion.",
+      "readability": "The dense technical language and complex sentence structures reduce overall readability, especially for non-specialist audiences. Simplifying language and sentence structure will broaden accessibility.",
+      "information_density": "Sections are packed with numerous statistics, figures, and methodological details, which can obscure main findings. Using summaries, bullet points, or visual aids can help distill key information effectively."
+    },
+    "summary": "The manuscript presents valuable insights into predicting nonadherence in mHealth interventions but is hampered by complex language, lengthy sentences, and dense paragraphs. Addressing these issues by simplifying language, clarifying definitions, and breaking down dense sections will significantly enhance clarity and accessibility, making the research more impactful and easier to understand for a diverse audience."
+  },
+  "W8": {
+    "visual_presentation_score": 2,
+    "critical_remarks": [
+      {
+        "category": "Figures",
+        "location": "Figures 1, 3, 5, 6, 8",
+        "issue": "All figures are presented as static images with low resolution, lacking clarity and detailed labels. They contain dense data visualizations without clear legends or annotations, making interpretation difficult.",
+        "severity": "high",
+        "impact": "Reduces readability and comprehension of complex data trends, hindering effective communication of results."
+      },
+      {
+        "category": "Tables",
+        "location": "Tables 5-11",
+        "issue": "Tables are densely packed with numerical data, with inconsistent formatting, minimal spacing, and lack of clear hierarchical structuring. Some tables combine multiple data types without clear separation.",
+        "severity": "medium",
+        "impact": "Impairs quick understanding and comparison of key data points, increasing cognitive load for readers."
+      },
+      {
+        "category": "Visual placement",
+        "location": "Throughout the manuscript",
+        "issue": "Figures and tables are embedded directly within dense text blocks without strategic placement or visual cues, disrupting flow and making it hard to correlate visuals with relevant sections.",
+        "severity": "medium",
+        "impact": "Hinders seamless reading experience and reduces the effectiveness of visual support."
+      },
+      {
+        "category": "Caption completeness",
+        "location": "Figures 1, 3, 5, 6, 8",
+        "issue": "Captions are minimal, often only describing the figure number without sufficient context or explanation of what the figure illustrates, especially regarding axes, units, and significance.",
+        "severity": "high",
+        "impact": "Limits understanding of visual data without referring back to text, reducing interpretability."
+      },
+      {
+        "category": "Color scheme",
+        "location": "Figures 1, 6, 8",
+        "issue": "Figures use monochrome or low-contrast color schemes, with no indication of color coding or differentiation, making it difficult for color-blind users or in grayscale printing.",
+        "severity": "medium",
+        "impact": "Decreases accessibility and clarity of data distinctions."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "Figure 1: Percentages of daily active users and cumulative percentage of users\u2019 last login across 90-Day program duration in Vivira (n = 8,372).",
+        "improved_version": "Figure 1: User engagement and churn over 90 days in Vivira. The top panel shows daily active user percentages; the bottom panel illustrates cumulative last login percentages. Clear axis labels, legends, and color coding are included.",
+        "explanation": "Enhances clarity by explicitly describing what each part of the figure shows, aiding quick comprehension.",
+        "location": "Figures 1, 3, 5, 6, 8",
+        "category": "Caption",
+        "focus": "Completeness"
+      },
+      {
+        "original_text": "Tables 5-11",
+        "improved_version": "Revise tables to include consistent formatting with clear headers, sufficient spacing, and hierarchical grouping of related data. Use bold fonts for key metrics and add summary rows for quick insights.",
+        "explanation": "Improves readability and allows readers to quickly identify key patterns and comparisons.",
+        "location": "Tables 5-11",
+        "category": "Tables",
+        "focus": "Formatting and readability"
+      },
+      {
+        "original_text": "Figures are presented as static images.",
+        "improved_version": "Use vector graphics with high resolution, incorporate color coding with accessible contrast, and add annotations or callouts highlighting key data points.",
+        "explanation": "Increases visual clarity and accessibility, making complex data easier to interpret.",
+        "location": "Figures 1, 3, 5, 6, 8",
+        "category": "Figures",
+        "focus": "Quality and effectiveness"
+      }
+    ],
+    "detailed_feedback": {
+      "figure_quality": "Low resolution and cluttered visualizations hinder clarity; better graphics and annotations are needed.",
+      "table_formatting": "Inconsistent formatting, dense data, and minimal spacing reduce quick comprehension; standardize styles and improve layout.",
+      "visual_placement": "Figures and tables are embedded without strategic positioning, disrupting flow; consider placing visuals near relevant text sections.",
+      "caption_completeness": "Captions lack detailed explanations, axes labels, and context, limiting interpretability; expand to include all relevant details.",
+      "color_scheme": "Limited contrast and monochrome palettes reduce accessibility; adopt color schemes with high contrast and consider color-blind friendly palettes.",
+      "data_visualization": "Charts and figures do not effectively highlight key trends or differences; incorporate clearer legends, annotations, and simplified visuals.",
+      "visual_hierarchy": "Lack of visual cues (size, bolding, spacing) makes it hard to prioritize information; implement consistent hierarchy to guide the reader.",
+      "accessibility": "Color choices and small font sizes in figures compromise accessibility; enhance contrast and font legibility.",
+      "visual_consistency": "Inconsistent styles across figures and tables; adopt a unified visual style for coherence.",
+      "text_integration": "Visuals are not optimally integrated with the text; include references and explanations that directly relate visuals to narrative points."
+    },
+    "summary": "Overall, the visual presentation quality is moderate but requires significant improvement in clarity, formatting, and accessibility. The current visuals do not fully support the detailed data and complex analyses presented in the manuscript. Enhancing graphics, standardizing formatting, and ensuring visual-text coherence will greatly improve reader comprehension and engagement."
+  },
+  "W1": {
+    "language_style_score": 3,
+    "critical_remarks": [
+      {
+        "category": "grammar",
+        "location": "Abstract, paragraph 2",
+        "issue": "Inconsistent use of hyphenation in 'cost-effective solutions' (hyphenated) and 'high nonadherence' (not hyphenated).",
+        "severity": "low",
+        "impact": "Reduces consistency and professionalism in technical writing."
+      },
+      {
+        "category": "spelling",
+        "location": "Introduction, paragraph 2",
+        "issue": "The term 'hyperglycemia' is correctly spelled, but in some instances, similar medical terms like 'hyperglycemia' are inconsistently capitalized or hyphenated in other parts of the text.",
+        "severity": "low",
+        "impact": "Minor; affects uniformity but not comprehension."
+      },
+      {
+        "category": "punctuation",
+        "location": "Results, section 3.2.1",
+        "issue": "Inconsistent use of commas in lists, e.g., 'mean AUC of 0.95 (SD = 0.02), a mean accuracy of 0.91 (SD = 0.04), a mean F1-score of 0.94 (SD = 0.04), a mean precision of 0.93 (SD = 0.04), and a mean recall of 0.94 (SD = 0.04)'\u2014the serial comma is missing before 'and'.",
+        "severity": "medium",
+        "impact": "Affects clarity and adherence to academic style conventions."
+      },
+      {
+        "category": "sentence_structure",
+        "location": "Discussion, paragraph 4.1",
+        "issue": "Several sentences are overly long and complex, making them difficult to follow, e.g., 'Given the conceptual link between churn and nonadherence \u2013 where fully disengaged users are inherently nonadherent \u2013 these results are intuitive.'",
+        "severity": "medium",
+        "impact": "Reduces readability and clarity."
+      },
+      {
+        "category": "verb_tense",
+        "location": "Introduction, paragraph 2",
+        "issue": "Inconsistent tense usage, e.g., 'A growing body of evidence suggests that mHealth interventions can effectively support...' (present tense) versus 'the prediction of nonadherence in accordance with the definition of Sieverink et al. (2017) constitutes a research gap' (present tense), but later 'Jakob et al. (2024) recently predicted churn' (past tense).",
+        "severity": "low",
+        "impact": "Slightly affects temporal clarity but generally understandable."
+      },
+      {
+        "category": "subject-verb",
+        "location": "Results, section 3.2.2",
+        "issue": "Inconsistent subject-verb agreement, e.g., 'models achieved a mean AUC of 0.87... indicating the models' ability to accurately identify nonadherent users'\u2014the plural 'models' correctly takes 'achieved,' but in some places, plural nouns are paired with singular verbs.",
+        "severity": "low",
+        "impact": "Minor; does not significantly affect understanding."
+      },
+      {
+        "category": "articles",
+        "location": "Methodology, section 2.2",
+        "issue": "Incorrect article use in 'a 7-Day prediction window was based on the DHIs\u2019 intended weekly use'\u2014'a' is correct, but elsewhere 'the' is omitted before specific terms, e.g., 'the German Digital Healthcare Act' (correct), but inconsistent elsewhere.",
+        "severity": "low",
+        "impact": "Minor; affects grammatical correctness and style consistency."
+      },
+      {
+        "category": "prepositions",
+        "location": "Discussion, paragraph 4.4",
+        "issue": "Incorrect or awkward preposition use, e.g., 'a user who last logs in during the final week of the cycle may not be a ",
+        "severity": "medium",
+        "impact": "Reduces clarity and grammatical correctness."
+      },
+      {
+        "category": "conjunctions",
+        "location": "Introduction, paragraph 2",
+        "issue": "Overuse of 'and' leading to lengthy, compound sentences that could be split for clarity.",
+        "severity": "medium",
+        "impact": "Reduces readability and makes sentences cumbersome."
+      },
+      {
+        "category": "academic_conventions",
+        "location": "Throughout the document",
+        "issue": "Inconsistent citation formatting; some references use brackets, others use parentheses, and some lack proper punctuation.",
+        "severity": "high",
+        "impact": "Impairs professionalism and adherence to academic standards."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "The rich data collected by mHealth interventions raise the question of whether\u2014and to what extent\u2014nonadherence can be predicted using these data.",
+        "explanation": "Replacing hyphens with en dashes improves typographical correctness and readability in formal writing.",
+        "location": "Abstract, paragraph 2",
+        "category": "punctuation",
+        "focus": "punctuation"
+      },
+      {
+        "original_text": "In Manoa, our models correctly identified an average of 86% of nonadherent users between months 2 and 6 (mean AUC = 0.82), defined as completing fewer than one blood pressure measurement week per month.",
+        "improved_version": "In Manoa, our models correctly identified an average of 86% of nonadherent users between months 2 and 6 (mean AUC = 0.82), defined as completing fewer than one blood pressure measurement week per month.",
+        "explanation": "Ensuring clarity in the phrase 'blood pressure measurement week' by maintaining consistent terminology enhances precision.",
+        "location": "Abstract, paragraph 2",
+        "category": "sentence_structure",
+        "focus": "sentence_structure"
+      },
+      {
+        "original_text": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
+        "improved_version": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the number of completed exercises (continuous) from the preceding weeks.",
+        "explanation": "Removing redundancy ('variables') and clarifying the phrase improves sentence clarity and conciseness.",
+        "location": "Methodology, section 2.2",
+        "category": "sentence_structure",
+        "focus": "sentence_structure"
+      },
+      {
+        "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+        "improved_version": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, and 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+        "explanation": "Adding 'and' clarifies the enumeration, aligning with standard list punctuation in formal writing.",
+        "location": "Methodology, section 2.1.1",
+        "category": "punctuation",
+        "focus": "punctuation"
+      },
+      {
+        "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
+        "improved_version": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use, as defined by Sieverink et al. (2017), and in its most severe form\u2014churn (i.e., complete discontinuation of use).",
+        "explanation": "Using commas to set off the clause improves readability; replacing the hyphen with an em dash aligns with academic style conventions.",
+        "location": "Discussion, paragraph 4.1",
+        "category": "punctuation",
+        "focus": "punctuation"
+      },
+      {
+        "original_text": "In contrast, the performance of nonadherence prediction models in Manoa was comparatively lower, correctly identifying an average of 86% (SD = 7.6%, mean AUC = 0.82) of nonadherent users between Months 2 and 6 at a relatively higher false positive rate of 49.5% (SD = 12.9%).",
+        "improved_version": "In contrast, the performance of nonadherence prediction models in Manoa was comparatively lower, correctly identifying an average of 86% (SD = 7.6; mean AUC = 0.82) of nonadherent users between Months 2 and 6, at a relatively higher false positive rate of 49.5% (SD = 12.9).",
+        "explanation": "Clarifying the punctuation around SD and separating clauses improves clarity and conforms to standard reporting of statistical data.",
+        "location": "Results, section 3.2.2",
+        "category": "punctuation",
+        "focus": "punctuation"
+      },
+      {
+        "original_text": "Our results further show that the predictive performance of daily churn prediction models improves over time as more behavioral app engagement data becomes available.",
+        "improved_version": "Our results further show that the predictive performance of daily churn prediction models improves over time as more behavioral app engagement data become available.",
+        "explanation": "Subject-verb agreement correction: 'data' is plural, so 'becomes' should be 'become' for grammatical correctness.",
+        "location": "Discussion, paragraph 4.1",
+        "category": "grammar",
+        "focus": "grammar"
+      },
+      {
+        "original_text": "This approach is further supported by prediction studies in other app domains that achieved superior performance with random forest models across multiple tested ML algorithms [14, 21, 39, 45, 59].",
+        "improved_version": "This approach is further supported by prediction studies in other app domains that have achieved superior performance with random forest models across multiple tested ML algorithms [14, 21, 39, 45, 59].",
+        "explanation": "Adding 'have' clarifies the tense and improves grammatical correctness in the present perfect context.",
+        "location": "Discussion, paragraph 4.3",
+        "category": "grammar",
+        "focus": "grammar"
+      },
+      {
+        "original_text": "Future research should aim to replicate nonadherence prediction models in diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
+        "improved_version": "Future research should aim to replicate nonadherence prediction models across diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
+        "explanation": "Replacing 'in' with 'across' improves lexical precision and aligns with standard academic phrasing for broad applicability.",
+        "location": "Discussion, section 4.4",
+        "category": "prepositions",
+        "focus": "prepositions"
+      },
+      {
+        "original_text": "The overall assessment paragraph: This detailed review indicates that the manuscript demonstrates solid command of scientific language, with minor issues related to punctuation consistency, sentence length, and style conventions. Addressing these will enhance clarity, professionalism, and adherence to academic standards, making the document more accessible and impactful for scholarly audiences.",
+        "improved_version": "Overall, the manuscript demonstrates a solid command of scientific language, with minor issues related to punctuation consistency, sentence length, and style conventions. Addressing these will enhance clarity, professionalism, and adherence to academic standards, thereby making the document more accessible and impactful for scholarly audiences.",
+        "explanation": "Adding 'Overall' and 'thereby' improves flow and emphasizes the conclusion, aligning with formal academic writing style.",
+        "location": "Summary",
+        "category": "academic_conventions",
+        "focus": "academic_conventions"
+      }
+    ],
+    "detailed_feedback": {
+      "grammar_correctness": "The manuscript generally maintains correct grammar, but some sentences are overly long or complex, which can lead to grammatical ambiguity. Minor issues include inconsistent subject-verb agreement with plural nouns like 'data' and occasional misplaced modifiers.",
+      "spelling_accuracy": "Spelling is accurate throughout; however, consistency in technical terms such as 'hyperglycemia' and 'hyperglycemia' is essential. Medical terminology is correctly spelled but should be uniformly capitalized or lowercase as per style guides.",
+      "punctuation_usage": "Punctuation inconsistencies include missing serial (Oxford) commas in lists, improper hyphenation, and inconsistent use of em dashes versus hyphens. Correct punctuation enhances clarity and aligns with academic style standards.",
+      "sentence_structure": "Many sentences are lengthy and contain multiple clauses, which hampers readability. Breaking complex sentences into shorter, clearer statements would improve comprehension and flow.",
+      "verb_tense_consistency": "While most of the manuscript uses present tense for general statements, some sections switch to past tense when describing previous studies or specific results. Maintaining a consistent tense, preferably present tense for ongoing relevance, would improve coherence.",
+      "subject-verb_agreement": "Most subject-verb agreements are correct; however, attention is needed when referring to plural data ('data' should be paired with 'are' rather than 'is'). Consistency in agreement throughout the manuscript is crucial.",
+      "article_usage": "Articles are generally used correctly, but some instances lack definite or indefinite articles where needed, especially before specific terms like 'prediction window' or 'app activity.' Proper article use enhances grammatical correctness.",
+      "preposition_usage": "Prepositions such as 'in,' 'on,' 'at,' and 'during' are mostly correct but occasionally awkward or inconsistent, affecting clarity. For example, 'predict churn at the end of Day 14' could be clearer as 'predict churn at Day 14.'",
+      "conjunction_usage": "Overuse of 'and' in lengthy sentences creates a cumbersome style. Breaking sentences with additional punctuation or splitting into multiple sentences would improve readability.",
+      "academic_conventions": "Citation formatting varies; some references lack proper punctuation or formatting. Consistent application of a specific style (e.g., APA, Vancouver) is recommended. Additionally, the use of hyphens, dashes, and abbreviations should conform to style guides to maintain professionalism."
+    },
+    "summary": "Overall, the manuscript exhibits a solid command of scientific language with clear reporting of complex data. Minor issues related to punctuation, sentence length, and style conventions are present but easily correctable. Addressing these will significantly enhance readability, professionalism, and adherence to academic standards, making the work more impactful for scholarly audiences."
+  },
+  "W6": {
+    "citation_formatting_score": 2,
+    "critical_remarks": [
+      {
+        "category": "in_text_format",
+        "location": "Introduction paragraph, e.g., '[16, 26, 44, 64]'",
+        "issue": "Inconsistent in-text citation style; some citations are bracketed numbers, others are parenthetical, and some lack consistent formatting.",
+        "severity": "high",
+        "impact": "Reduces clarity and professionalism; hampers reader understanding and citation traceability."
+      },
+      {
+        "category": "reference_format",
+        "location": "Bibliography section, e.g., '[1]', '[2]', etc.",
+        "issue": "References are numbered but lack uniform formatting; some entries have inconsistent spacing, punctuation, and ordering of elements.",
+        "severity": "high",
+        "impact": "Impairs the readability and standardization of references, complicating verification and citation management."
+      },
+      {
+        "category": "style_consistency",
+        "location": "Throughout the document, especially in references, e.g., journal titles, author names, dates.",
+        "issue": "Inconsistent citation style; mixes APA, Vancouver, and other styles without clear adherence to a single standard.",
+        "severity": "high",
+        "impact": "Creates confusion and diminishes scholarly rigor; reduces credibility."
+      },
+      {
+        "category": "reference_completeness",
+        "location": "References list, e.g., '[1]', '[2]', etc.",
+        "issue": "Some references lack complete information, such as missing volume, issue, page numbers, or publication dates.",
+        "severity": "high",
+        "impact": "Hinders proper source verification and academic integrity."
+      },
+      {
+        "category": "doi_format",
+        "location": "References with DOIs, e.g., '[1]', '[2]', etc.",
+        "issue": "DOIs are inconsistently formatted; some include 'https://doi.org/', others omit it, and some lack DOI entirely.",
+        "severity": "medium",
+        "impact": "Reduces accessibility and ease of locating sources."
+      },
+      {
+        "category": "author_format",
+        "location": "References, e.g., '[1]', '[2]', etc.",
+        "issue": "Author names are inconsistently formatted; some use full names, others initials, and order varies.",
+        "severity": "medium",
+        "impact": "Affects citation professionalism and proper attribution."
+      },
+      {
+        "category": "date_format",
+        "location": "References, e.g., '[1]', '[2]', etc.",
+        "issue": "Publication dates are formatted variably; some include month/year, others only year, and some have inconsistent placement.",
+        "severity": "medium",
+        "impact": "Impairs chronological clarity and citation accuracy."
+      },
+      {
+        "category": "journal_format",
+        "location": "References, e.g., '[1]', '[2]', etc.",
+        "issue": "Journal names are inconsistently abbreviated or spelled out; some are italicized, others not.",
+        "severity": "low",
+        "impact": "Affects visual consistency and adherence to citation standards."
+      },
+      {
+        "category": "volume_format",
+        "location": "References, e.g., '[1]', '[2]', etc.",
+        "issue": "Volume, issue, and page numbers are inconsistently formatted; some use parentheses, others commas or spaces.",
+        "severity": "medium",
+        "impact": "Complicates source identification and retrieval."
+      },
+      {
+        "category": "cross_reference",
+        "location": "Throughout the text, e.g., in the 'Introduction' and 'Discussion' sections.",
+        "issue": "In-text citations do not always match reference list numbering; some references are cited multiple times with inconsistent formats.",
+        "severity": "high",
+        "impact": "Undermines citation accuracy and scholarly reliability."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "[16, 26, 44, 64]",
+        "improved_version": "(e.g., '[16, 26, 44, 64]')",
+        "explanation": "Standardizes in-text citation style, ensuring clarity and consistency throughout the manuscript.",
+        "location": "Introduction paragraph",
+        "category": "in_text_format",
+        "focus": "in_text_format"
+      },
+      {
+        "original_text": "[1]",
+        "improved_version": "[1] Alessa, S., Abdi, S., Hawley, M. S., & de Witte, L. (2018). Mobile Apps to Support the Self-Management of Hypertension: Systematic Review of Effectiveness, Usability, and User Satisfaction. JMIR Mhealth Uhealth, 6(7), e10723. https://doi.org/10.2196/10723",
+        "explanation": "Provides a complete and standardized reference entry, improving traceability and scholarly rigor.",
+        "location": "References list",
+        "category": "reference_format",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[2]",
+        "improved_version": "[2] Baumel, A., Muench, F., Edan, S., & Kane, J. M. (2019). Objective User Engagement With Mental Health Apps: Systematic Search and Panel-Based Usage Analysis. Journal of Medical Internet Research, 21(9), e14567. https://doi.org/10.2196/14567",
+        "explanation": "Ensures consistent formatting, including journal name, volume, issue, page, and DOI, enhancing professionalism.",
+        "location": "References list",
+        "category": "reference_format",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[3]",
+        "improved_version": "[3] Beger, C., R\u00fcegger, D., Lenz, A., Wagner, S., Haller, H., Schmidt-Ott, K. M., ... & Limbourg, F. P. (2023). Blood pressure dynamics during home blood pressure monitoring with a digital blood pressure coach\u2014a prospective analysis of individual user data. Frontiers in Cardiovascular Medicine, 10, 1115987. https://doi.org/10.3389/fcvm.2023.1115987",
+        "explanation": "Completes all reference elements with proper formatting, improving source verification.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[16]",
+        "improved_version": "[16] Schmidt, M., Pawlitzki, M., Renard, B. Y., Meuth, S. G., & Masanneck, L. (2024). The three-year evolution of Germany\u2019s Digital Therapeutics reimbursement program and its path forward. npj Digital Medicine, 7(1), 1-8. https://doi.org/10.1038/s41746-024-01137-1",
+        "explanation": "Standardizes journal name, volume, issue, pages, and DOI, ensuring uniformity and ease of access.",
+        "location": "References list",
+        "category": "journal_format",
+        "focus": "journal_format"
+      },
+      {
+        "original_text": "[21]",
+        "improved_version": "[21] Jakob, R., Lepper, N., Fleisch, E., & Kowatsch, T. (2024). Predicting early user churn in a public digital weight loss intervention. Proceedings of the CHI Conference on Human Factors in Computing Systems, 1-16. https://doi.org/10.1145/3613904.3642321",
+        "explanation": "Provides complete citation with conference details and DOI, enhancing traceability.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[50]",
+        "improved_version": "[50] Sieverink, F., Kelders, S. M., & van Gemert-Pijnen, J. E. (2017). Clarifying the Concept of Adherence to eHealth Technology: Systematic Review on When Usage Becomes Adherence. Journal of Medical Internet Research, 19(12), e8578. https://doi.org/10.2196/jmir.8578",
+        "explanation": "Ensures consistent formatting and complete citation details, aiding in source retrieval.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "https://doi.org/10.2196/14567",
+        "improved_version": "https://doi.org/10.2196/14567",
+        "explanation": "Consistent DOI URL formatting across references improves accessibility.",
+        "location": "References list",
+        "category": "doi_format",
+        "focus": "doi_format"
+      },
+      {
+        "original_text": "[4]",
+        "improved_version": "[4] Bundesinstitut f\u00fcr Arzneimittel und Medizinprodukte (BfArM). (2019). Digital Healthcare Act in Germany. Retrieved from https://www.bundesgesundheitsministerium.de/digital-healthcare-act.html",
+        "explanation": "Adds complete authoring and retrieval info, improving transparency.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[19]",
+        "improved_version": "[19] Hou, C., Carter, B., Hewitt, J., Francisa, T., & Mayor, S. (2016). Do Mobile Phone Applications Improve Glycemic Control (HbA1c) in the Self-management of Diabetes? A Systematic Review, Meta-analysis, and GRADE of 14 Randomized Trials. Diabetes Care, 39(11), 2089\u20132095. https://doi.org/10.2337/dc16-0346",
+        "explanation": "Completes all citation elements with proper formatting, ensuring accurate referencing.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      },
+      {
+        "original_text": "[25]",
+        "improved_version": "[25] Keller, O. C., Budney, A. J., Struble, C. A., & Teepe, G. W. (2023). Chapter 5 - Blending digital therapeutics within the healthcare system. In N. Jacobson, T. Kowatsch, & L. Marsch (Eds.), Digital Therapeutics for Mental Health and Addiction (pp. 45\u201364). Academic Press. https://doi.org/10.1016/B978-0-323-90045-4.00016-2",
+        "explanation": "Provides complete book chapter citation with editors, pages, publisher, and DOI, improving reference clarity.",
+        "location": "References list",
+        "category": "reference_completeness",
+        "focus": "reference_completeness"
+      }
+    ],
+    "detailed_feedback": {
+      "in_text_citation_format": "The in-text citations are inconsistent, with some using brackets like '[16, 26]' and others not following a uniform style. Adopting a single style, such as brackets with comma-separated numbers, throughout the manuscript would improve clarity and professionalism.",
+      "reference_list_format": "References are numbered but vary in formatting, with inconsistent punctuation, spacing, and order of elements. Standardizing to a specific style, such as APA or Vancouver, with uniform punctuation, author formatting, and inclusion of all necessary details, would enhance readability and verification.",
+      "citation_style_consistency": "The manuscript mixes citation styles, leading to confusion. Choosing one style (e.g., Vancouver) and applying it consistently across in-text citations and references will improve scholarly appearance.",
+      "reference_completeness": "Several references lack complete bibliographic details, such as volume, issue, pages, or publication year. Ensuring each reference contains all necessary elements will facilitate source retrieval and uphold academic standards.",
+      "doi_url_formatting": "DOIs are inconsistently formatted; some include 'https://doi.org/', others do not. Standardizing DOI formatting to include the full URL enhances accessibility and ease of use.",
+      "author_name_formatting": "Author names are inconsistently formatted, with some full names, some initials, and varying order. Applying a uniform format, such as 'Last Name, First Initials', improves professionalism.",
+      "publication_date_formatting": "Dates are variably formatted, with some including month/year, others only year. Consistent date formatting (e.g., Year) across all references supports clarity.",
+      "journal_name_formatting": "Journal names are inconsistently abbreviated or spelled out, with inconsistent italics or capitalization. Uniform formatting, such as italics for journal titles, enhances visual consistency.",
+      "volume_issue_page_formatting": "Volume, issue, and page numbers are inconsistently presented, sometimes with parentheses, commas, or spaces. Standardizing this formatting improves source identification.",
+      "cross_reference_accuracy": "In-text citations do not always match reference list entries, and some references are cited multiple times with different formats. Ensuring accurate cross-referencing and consistent numbering is crucial for scholarly integrity."
+    },
+    "summary": "Overall, the manuscript exhibits significant inconsistencies in citation formatting, referencing completeness, and style adherence. Implementing a uniform citation style, ensuring complete and accurate reference entries, and maintaining consistency throughout will substantially improve the scholarly quality and professionalism of the document."
+  },
+  "W7": {
+    "audience_alignment_score": 3,
+    "critical_remarks": [
+      {
+        "category": "methodology",
+        "location": "Section 2.2, Paragraph 2",
+        "issue": "The description of feature selection and model training is detailed but lacks clarity on the rationale behind choosing specific features and hyperparameters, which may hinder comprehension for non-expert readers.",
+        "severity": "medium",
+        "impact": "This could reduce understanding among interdisciplinary audiences, limiting the accessibility of the methodological rigor."
+      },
+      {
+        "category": "results",
+        "location": "Section 3.2, Paragraph 2",
+        "issue": "The presentation of performance metrics is dense and data-heavy, which may overwhelm readers unfamiliar with statistical evaluation in machine learning.",
+        "severity": "medium",
+        "impact": "This may impede quick comprehension of key findings, affecting engagement of a broader audience."
+      },
+      {
+        "category": "discussion",
+        "location": "Section 4.1, Paragraph 2",
+        "issue": "The discussion on model performance comparison between nonadherence and churn predictions is somewhat superficial, lacking in-depth analysis of underlying causes.",
+        "severity": "low",
+        "impact": "This limits the depth of insight for readers seeking a nuanced understanding of model behavior."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "The extensive behavioral data collected through mHealth interventions enable the exploration of predictive models for nonadherence, raising questions about their accuracy and practical utility.",
+        "explanation": "Clarifies the potential and significance of data, making the statement more precise and engaging for readers interested in predictive analytics.",
+        "location": "Abstract, Paragraph 2",
+        "category": "abstract",
+        "focus": "technical_depth"
+      },
+      {
+        "original_text": "In light of this, first healthcare systems with population-wide coverage now include mHealth interventions as reimbursable items in patient coverage, and prescriptions for mHealth interventions are starting to become a more common part of treatment plans and health insurance benefits packages.",
+        "improved_version": "Currently, several healthcare systems with broad population coverage are integrating mHealth interventions into standard care, including reimbursement policies and treatment plans, reflecting growing institutional acceptance.",
+        "explanation": "Enhances clarity and professionalism, aligning with the formal tone suitable for a healthcare audience, and improves readability.",
+        "location": "Introduction, Paragraph 4",
+        "category": "introduction",
+        "focus": "formality"
+      },
+      {
+        "original_text": "A systematic review focusing on mHealth interventions for chronic diseases (17 studies) reported a pooled dropout rate of 43%, with observational studies exhibiting a higher rate (49%) compared to more controlled randomized controlled trials (40%) [34].",
+        "improved_version": "A systematic review of 17 studies on mHealth interventions for chronic diseases reported an overall dropout rate of 43%, with observational studies showing higher attrition (49%) than randomized controlled trials (40%) [34].",
+        "explanation": "Refines the sentence for clarity and conciseness, making the statistical data more accessible and emphasizing key findings for a research-oriented audience.",
+        "location": "Literature Review, Paragraph 3",
+        "category": "references",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "We predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
+        "improved_version": "Our models forecasted weekly nonadherence from Weeks 2 to 13, utilizing prior weeks\u2019 daily app activity (binary: active/inactive) and the daily count of completed exercises (continuous) as input features.",
+        "explanation": "Adds technical specificity and clarity, aiding readers familiar with machine learning feature types to understand the modeling approach.",
+        "location": "Methodology, Paragraph 2",
+        "category": "methodology",
+        "focus": "technical_depth"
+      },
+      {
+        "original_text": "Models predicting churn (users\u2019 last login within program duration) achieved mean AUCs of 0.87 for both apps, correctly identifying 84-86% of churned users.",
+        "improved_version": "Churn prediction models, based on users\u2019 last login within the program duration, achieved an average AUC of 0.87 across both interventions, with a true positive rate of approximately 85% in identifying churned users.",
+        "explanation": "Provides clearer quantitative context and emphasizes the model's effectiveness, appealing to a technical audience interested in performance metrics.",
+        "location": "Results, Paragraph 2",
+        "category": "results",
+        "focus": "results presentation"
+      },
+      {
+        "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn.",
+        "improved_version": "Our results demonstrate that nonadherence to mHealth interventions can be reliably forecasted over long-term programs, including adherence as defined by Sieverink et al. (2017) and the more severe outcome of complete disengagement (churn).",
+        "explanation": "Clarifies the scope and significance of findings, aligning technical terminology with audience expectations for precision.",
+        "location": "Discussion, Paragraph 1",
+        "category": "discussion",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Feature importance analyses across all prediction models showed that behavioral app engagement data collected closer to the prediction event had a stronger impact on model performance.",
+        "improved_version": "Analysis of feature importance revealed that behavioral engagement metrics obtained nearer to the prediction point contributed more significantly to model accuracy, highlighting the importance of recent activity data.",
+        "explanation": "Enhances technical clarity and emphasizes the temporal relevance of features, appealing to data-savvy readers.",
+        "location": "Discussion, Paragraph 4",
+        "category": "discussion",
+        "focus": "technical_depth"
+      },
+      {
+        "original_text": "The study used historical app engagement data to predict nonadherence. While the presented results are promising, prospective trials are necessary to fully establish the applicability of these models.",
+        "improved_version": "This study employed retrospective app engagement data to model nonadherence, but future prospective studies are essential to validate the real-world effectiveness and generalizability of these predictive models.",
+        "explanation": "Clarifies the research design and emphasizes the need for further validation, aligning with scientific rigor expectations for an academic audience.",
+        "location": "Limitations, Paragraph 1",
+        "category": "methodology",
+        "focus": "methodology"
+      },
+      {
+        "original_text": "The nonadherence prediction models described in this study also rely on the availability of rich, continuous behavioral app engagement data.",
+        "improved_version": "Our predictive models depend on continuous, high-resolution behavioral data collected via app usage logs, which may limit applicability in contexts with sparse engagement data.",
+        "explanation": "Specifies data requirements and potential limitations, aiding researchers in assessing model transferability.",
+        "location": "Limitations, Paragraph 2",
+        "category": "methodology",
+        "focus": "methodology"
+      },
+      {
+        "original_text": "Overall, the results suggest that prediction models can accurately predict who is likely to become nonadherent and when, but they do not provide insights into the underlying reasons why users disengage.",
+        "improved_version": "While the models effectively forecast nonadherence timing, they do not elucidate the underlying behavioral or contextual factors driving disengagement, indicating a need for complementary qualitative research.",
+        "explanation": "Adds nuance and acknowledges the scope of the models, fostering a balanced understanding for a scholarly audience.",
+        "location": "Discussion, Paragraph 4",
+        "category": "discussion",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The primary aim of mHealth interventions is to facilitate health behavior change and ultimately improve health outcomes.",
+        "improved_version": "The ultimate goal of mHealth interventions is to induce sustained health behavior change, leading to improved clinical outcomes, though the direct link remains to be fully established.",
+        "explanation": "Provides a more precise framing of intervention goals, aligning with clinical and research perspectives.",
+        "location": "Discussion, Paragraph 5",
+        "category": "discussion",
+        "focus": "conceptual clarity"
+      },
+      {
+        "original_text": "The overall assessment is that the manuscript is of acceptable quality with some areas for improvement, especially in clarity and technical depth for a broader academic audience.",
+        "improved_version": "Overall, the manuscript is of acceptable scholarly quality, with opportunities to enhance clarity, technical depth, and contextual explanations to better serve an interdisciplinary research audience.",
+        "explanation": "Offers constructive feedback with a professional tone, guiding future revisions for broader engagement.",
+        "location": "Summary",
+        "category": "conclusion",
+        "focus": "organization"
+      }
+    ],
+    "detailed_feedback": {
+      "technical_depth": "The manuscript demonstrates a solid understanding of machine learning methodologies applied to digital health data, but certain sections, especially the methodology and results, could benefit from clearer explanations of the technical choices, such as feature selection rationale, hyperparameter tuning, and model evaluation metrics. This would make the content more accessible to readers from diverse backgrounds, including clinicians and health researchers unfamiliar with advanced ML techniques.",
+      "terminology_usage": "The use of field-specific terminology like 'AUC,' 'stratified cross-validation,' 'hyperparameter tuning,' and 'feature importance' is appropriate and consistent. However, some terms, such as 'churn' and 'nonadherence,' should be briefly defined upon first mention to ensure clarity for interdisciplinary audiences. Additionally, maintaining consistent terminology throughout the manuscript enhances clarity.",
+      "writing_formality": "The writing style maintains a formal, academic tone suitable for a scientific journal. Nonetheless, some sentences are overly complex or lengthy, which could hinder readability. Simplifying sentence structures and avoiding excessive jargon where possible would improve accessibility without sacrificing professionalism.",
+      "section_organization": "The manuscript follows a logical structure, with clear sections for introduction, methods, results, and discussion. However, subheadings within sections could be more descriptive to guide readers through complex parts, such as detailed methodology or results analysis. Including summary statements at the end of sections can also improve coherence.",
+      "visual_integration": "The figures and tables are comprehensive and relevant, but their descriptions could be more integrated into the main text. Explicit references to figures and tables at appropriate points would help readers interpret the visual data more effectively. Additionally, simplifying complex figures or providing more interpretative captions could enhance understanding.",
+      "reference_style": "References are extensive and well-cited, following a consistent style. However, some references lack direct links to the specific data or claims made in the text, which could be improved by more precise citations. Including recent and highly relevant studies strengthens the manuscript's credibility.",
+      "methodology_detail": "The methodology section provides detailed descriptions of data sources, feature engineering, and modeling procedures. Nonetheless, some technical choices, such as the rationale for selecting random forest over other algorithms or the specific hyperparameter ranges, should be elaborated to clarify their appropriateness and improve reproducibility.",
+      "results_presentation": "Results are presented with comprehensive metrics and statistical details, but the dense data presentation may overwhelm readers. Summarizing key findings with emphasis on practical implications and highlighting the most relevant metrics would improve engagement. Including effect sizes or confidence intervals could also add depth.",
+      "discussion_depth": "The discussion contextualizes findings within existing literature and acknowledges limitations. To deepen analysis, the authors could explore potential causal mechanisms, compare model performances across different subgroups, and discuss implications for clinical practice more explicitly.",
+      "conclusion_format": "The conclusion effectively summarizes main findings but could be more impactful by explicitly outlining future research directions and practical applications. A concise statement on the significance of the work for stakeholders would enhance its closing strength."
+    },
+    "summary": "The manuscript presents a valuable contribution to the field of digital health and machine learning, demonstrating promising results in predicting nonadherence over extended periods. While the technical content is generally appropriate, enhancing clarity, technical explanations, and contextual framing will broaden its appeal and usability across interdisciplinary audiences. Addressing the identified issues will improve engagement, comprehension, and impact, positioning the work as a strong reference in mHealth adherence research."
+  }
+}
