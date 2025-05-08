@@ -1,0 +1,145 @@
+{
+  "terminology_consistency_score": 3,
+  "critical_remarks": [
+    {
+      "category": "acronyms",
+      "location": "Abstract, paragraph 2",
+      "issue": "The acronym 'NCDs' is introduced without prior expansion or definition, which may cause confusion for readers unfamiliar with the abbreviation.",
+      "severity": "high",
+      "impact": "This affects clarity and consistency in terminology, especially for interdisciplinary audiences."
+    },
+    {
+      "category": "field_terminology",
+      "location": "Introduction, paragraph 2",
+      "issue": "The term 'nonadherence' is used interchangeably with 'disengagement' and 'dropout' without clear distinctions, potentially leading to ambiguity.",
+      "severity": "medium",
+      "impact": "This inconsistency can hinder precise understanding of the concepts being discussed."
+    },
+    {
+      "category": "notation",
+      "location": "Equations section",
+      "issue": "The notation for time points (e.g., Weeks 2, 13, Days 1-82) varies in style, sometimes including 'Days' explicitly, sometimes not, leading to inconsistency.",
+      "severity": "medium",
+      "impact": "This reduces clarity in mathematical and methodological descriptions."
+    }
+  ],
+  "improvement_suggestions": [
+    {
+      "original_text": "noncommunicable diseases (NCDs)",
+      "improved_version": "noncommunicable diseases (NCDs)",
+      "explanation": "Ensure the full term is expanded with the abbreviation in parentheses at first mention for clarity and consistency.",
+      "location": "Abstract, paragraph 2",
+      "category": "abstract",
+      "focus": "acronyms"
+    },
+    {
+      "original_text": "nonadherence",
+      "improved_version": "nonadherence (as defined by Sieverink et al., 2017)",
+      "explanation": "Add a brief clarification or reference when first introducing the term to maintain consistency and clarity in its usage throughout the paper.",
+      "location": "Introduction, paragraph 2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "Weeks 2 to 13",
+      "improved_version": "Weeks 2\u201313",
+      "explanation": "Use en-dash for ranges of weeks or days to standardize notation and improve readability in technical descriptions.",
+      "location": "Methodology, section 2.2",
+      "category": "notation",
+      "focus": "notation"
+    },
+    {
+      "original_text": "fewer than eight therapeutic exercises per week",
+      "improved_version": "fewer than 8 exercises per week",
+      "explanation": "Use consistent numeric notation (digits) for numbers in technical contexts to align with other numerical references in the text.",
+      "location": "Abstract, paragraph 2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "churn (users\u2019 last login within program duration)",
+      "improved_version": "churn, defined as the user's last login within the program duration",
+      "explanation": "Clarify the definition of 'churn' to maintain consistency and avoid ambiguity with other forms of disengagement.",
+      "location": "Introduction, paragraph 3",
+      "category": "definitions",
+      "focus": "definitions"
+    },
+    {
+      "original_text": "adherence ratio = 0.409",
+      "improved_version": "adherence ratio = 0.409 (or 40.9%)",
+      "explanation": "Include units or percentage notation for clarity, especially when reporting ratios or proportions.",
+      "location": "Results, section 3.2.1",
+      "category": "unit_notation",
+      "focus": "unit_notation"
+    },
+    {
+      "original_text": "active or inactive",
+      "improved_version": "active (user triggered an app event) or inactive (no app event triggered)",
+      "explanation": "Define categorical variables explicitly when first introduced to ensure consistent understanding of terminology.",
+      "location": "Methodology, section 2.2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "performance metrics (AUC, accuracy, F1-score, etc.)",
+      "improved_version": "performance metrics, including area under the curve (AUC), accuracy, F1-score, precision, and recall",
+      "explanation": "Spell out all abbreviations at first mention and ensure consistent terminology for metrics to improve clarity.",
+      "location": "Results, section 3.2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "predicting nonadherence relative to the intended use",
+      "improved_version": "predicting nonadherence based on the intended use of the intervention",
+      "explanation": "Use consistent phrasing to clearly link the concept of adherence to the intervention's intended use, avoiding ambiguity.",
+      "location": "Introduction, paragraph 4",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "model hyperparameters",
+      "improved_version": "model hyperparameters (e.g., number of trees, max depth)",
+      "explanation": "Provide examples or specify hyperparameters to clarify technical terminology and improve consistency.",
+      "location": "Methodology, section 2.2",
+      "category": "technical_terms",
+      "focus": "technical_terms"
+    },
+    {
+      "original_text": "user engagement data",
+      "improved_version": "user engagement data (e.g., login frequency, activity logs)",
+      "explanation": "Include examples to clarify the scope of engagement data, ensuring consistent understanding across sections.",
+      "location": "Methodology, section 2.2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "adherence and churn",
+      "improved_version": "adherence (compliance with intervention protocol) and churn (discontinuation of app use)",
+      "explanation": "Define key terms explicitly to maintain consistency and prevent misinterpretation.",
+      "location": "Discussion, paragraph 4",
+      "category": "definitions",
+      "focus": "definitions"
+    },
+    {
+      "original_text": "model performance (e.g., F1, AUC)",
+      "improved_version": "model performance metrics, including F1-score and AUC",
+      "explanation": "Use consistent terminology for performance metrics, and specify all abbreviations at first mention.",
+      "location": "Results, section 3.2",
+      "category": "field_terminology",
+      "focus": "field_terminology"
+    }
+  ],
+  "detailed_feedback": {
+    "term_usage_consistency": "The manuscript generally uses key terms like 'nonadherence,' 'churn,' and 'adherence' consistently, but occasionally switches between related terms such as 'disengagement' and 'dropout' without clear distinctions, which can cause confusion. Establishing precise definitions and maintaining consistent usage throughout will improve clarity.",
+    "notation_consistency": "Time points are variably expressed, sometimes with explicit 'Days' or 'Weeks,' other times with ranges like 'Days 1-7' or 'Weeks 2-13.' Adopting a uniform notation style, such as using en-dashes for ranges and consistent abbreviations, will enhance readability and technical precision.",
+    "acronym_usage": "Acronyms like 'NCDs,' 'DiGA,' and 'PDT' are introduced appropriately, but some are not expanded at first mention or lack consistent usage. Ensuring all acronyms are spelled out initially and used uniformly will support clarity for diverse audiences.",
+    "variable_naming_consistency": "Variables such as 'active or inactive,' 'number of exercises,' and 'session counts' are described clearly, but some variable names in equations or tables are not explicitly defined or are inconsistent in style. Standardizing variable naming conventions and providing definitions will improve interpretability.",
+    "unit_notation_consistency": "Numerical values are sometimes reported as ratios (e.g., 0.94) and other times as percentages (e.g., 94%). Consistently using either percentages with the '%' symbol or ratios throughout the manuscript will avoid confusion.",
+    "abbreviation_consistency": "Abbreviations like 'SD,' 'IQR,' and 'FPR' are used correctly, but some abbreviations such as 'F1' and 'AUC' are not always spelled out initially. Defining all abbreviations at first mention will improve accessibility.",
+    "technical_term_consistency": "Technical terms such as 'stratified 10-fold cross-validation,' 'Tomek Links undersampling,' and 'hyperparameter tuning' are used appropriately, but some terms could benefit from brief explanations or consistent formatting to reinforce understanding.",
+    "field_terminology": "Core concepts like 'adherence,' 'nonadherence,' 'churn,' and 'predictive performance' are generally well-maintained, but occasional ambiguous usage of related terms like 'disengagement' or 'dropout' could be clarified with explicit definitions.",
+    "cross_reference_consistency": "References to figures, tables, and appendices are generally consistent, but some figure references (e.g., 'Figure 6.1') could specify whether they are in the main text or appendix for clarity. Ensuring uniform referencing style will improve navigation.",
+    "definition_consistency": "Definitions of key concepts such as 'nonadherence' and 'churn' are provided but sometimes lack explicit boundaries or thresholds. Consistently including precise definitions and thresholds at first mention will strengthen conceptual clarity."
+  },
+  "summary": "Overall, the manuscript demonstrates a solid foundation of terminology use but exhibits areas where consistency can be improved, particularly in acronym expansion, notation style, and explicit definitions. Addressing these points will enhance clarity, reduce ambiguity, and strengthen the technical rigor of the paper, moving it toward an 'Excellent' rating."
+}

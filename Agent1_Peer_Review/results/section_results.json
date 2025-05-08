@@ -1,0 +1,1256 @@
+{
+  "S5": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "design",
+        "location": "Section 2.1",
+        "issue": "The study employs a retrospective observational design with predictive modeling but lacks a prospective validation or experimental intervention to test the effectiveness of predictive insights in real-world adherence improvement.",
+        "severity": "high",
+        "impact": "This limits the ability to infer causal effects or practical utility of the models for adherence promotion, reducing the translational value of the research."
+      },
+      {
+        "category": "methods",
+        "location": "Section 2.2",
+        "issue": "The feature selection process is primarily based on prior literature and general app engagement metrics, but lacks detailed justification for the specific features chosen or exploration of additional intervention-specific variables.",
+        "severity": "medium",
+        "impact": "Potentially limits the model's predictive power and generalizability, as relevant features may be omitted."
+      },
+      {
+        "category": "analysis",
+        "location": "Section 2.2",
+        "issue": "The evaluation metrics focus heavily on AUC, accuracy, and F1 scores, but do not sufficiently address calibration, decision thresholds, or the impact of class imbalance on real-world utility.",
+        "severity": "medium",
+        "impact": "This may overstate the practical predictive value and hinder translation into actionable interventions."
+      },
+      {
+        "category": "quality",
+        "location": "Section 4.4",
+        "issue": "While the models are validated internally with train-test splits and cross-validation, there is no mention of external validation or testing in independent datasets to assess robustness.",
+        "severity": "high",
+        "impact": "Limits confidence in the generalizability and robustness of the models across different populations or settings."
+      },
+      {
+        "category": "ethics",
+        "location": "Section 2.2",
+        "issue": "The study relies on consented user data under specific regulations but does not discuss potential biases introduced by excluding non-consenting users or the implications for equity in predictive modeling.",
+        "severity": "medium",
+        "impact": "Potentially affects the representativeness and fairness of the models, limiting ethical applicability."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The study employs a retrospective observational design with predictive modeling but lacks a prospective validation or experimental intervention.",
+        "improved_version": "Implement a prospective validation study or randomized controlled trial to evaluate the real-world effectiveness of using the predictive models to inform adherence-promoting interventions.",
+        "explanation": "This would strengthen causal inference and demonstrate practical utility, enhancing the translational impact of the research.",
+        "location": "Section 4.4",
+        "category": "design",
+        "focus": "approach"
+      },
+      {
+        "original_text": "The feature selection process is primarily based on prior literature and general app engagement metrics.",
+        "improved_version": "Conduct a systematic feature engineering process, including exploratory data analysis and domain expert consultations, to identify additional relevant features such as contextual, motivational, or health-specific variables.",
+        "explanation": "This could improve model performance and applicability by capturing more nuanced predictors of adherence.",
+        "location": "Section 2.2",
+        "category": "methods",
+        "focus": "techniques"
+      },
+      {
+        "original_text": "The evaluation metrics focus heavily on AUC, accuracy, and F1 scores.",
+        "improved_version": "Include calibration plots, decision curve analysis, and threshold-based metrics to assess the clinical utility and decision-making implications of the models.",
+        "explanation": "This would provide a more comprehensive understanding of the models' practical value and limitations in real-world settings.",
+        "location": "Section 2.2",
+        "category": "analysis",
+        "focus": "validity"
+      },
+      {
+        "original_text": "While the models are validated internally with train-test splits and cross-validation, there is no mention of external validation.",
+        "improved_version": "Validate the models on independent external datasets or in different populations to assess robustness and generalizability.",
+        "explanation": "External validation is crucial for confirming model applicability across diverse settings and reducing overfitting concerns.",
+        "location": "Section 4.4",
+        "category": "quality",
+        "focus": "validity"
+      },
+      {
+        "original_text": "The study relies on consented user data under specific regulations but does not discuss potential biases or fairness issues.",
+        "improved_version": "Assess and report potential biases related to demographic or health status variables, and consider fairness analyses to ensure equitable model performance across subgroups.",
+        "explanation": "Addressing bias enhances ethical integrity and ensures models do not inadvertently disadvantage certain populations.",
+        "location": "Section 2.2",
+        "category": "ethics",
+        "focus": "validity"
+      },
+      {
+        "original_text": "The models are based on behavioral app engagement features without integrating contextual or psychosocial factors.",
+        "improved_version": "Incorporate additional contextual, psychosocial, or motivational features, possibly via user surveys or passive data collection, to enrich the models.",
+        "explanation": "This could improve predictive accuracy and provide insights into underlying adherence drivers.",
+        "location": "Section 2.2",
+        "category": "methods",
+        "focus": "approach"
+      },
+      {
+        "original_text": "The analysis does not explicitly address the impact of class imbalance on model performance.",
+        "improved_version": "Apply and report on techniques such as SMOTE, cost-sensitive learning, or class-weighting, and evaluate their effects on model metrics and stability.",
+        "explanation": "This would enhance the robustness and fairness of the models in imbalanced settings.",
+        "location": "Section 2.2",
+        "category": "analysis",
+        "focus": "techniques"
+      },
+      {
+        "original_text": "The study does not detail how the models could be integrated into clinical workflows or app features for real-time intervention.",
+        "improved_version": "Develop and pilot test integrated workflows or app features that utilize model predictions to trigger personalized adherence strategies in real time.",
+        "explanation": "This would demonstrate practical implementation and impact on user behavior.",
+        "location": "Section 4.2",
+        "category": "design",
+        "focus": "procedures"
+      },
+      {
+        "original_text": "The approach relies heavily on frequent, granular engagement data, which may not be available in all settings.",
+        "improved_version": "Explore and validate models using sparser or less granular data, or develop adaptive models that can function with varying data densities.",
+        "explanation": "This increases applicability across diverse intervention designs and resource settings.",
+        "location": "Section 4.4",
+        "category": "methods",
+        "focus": "approach"
+      },
+      {
+        "original_text": "The study does not discuss how to handle users who re-engage after a period of nonadherence or churn.",
+        "improved_version": "Incorporate models that account for re-engagement patterns, and evaluate how reactivation influences adherence trajectories and model predictions.",
+        "explanation": "This would provide a more dynamic understanding of user engagement and inform intervention timing.",
+        "location": "Section 4.4",
+        "category": "analysis",
+        "focus": "procedures"
+      },
+      {
+        "original_text": "The models focus on binary adherence and churn outcomes without considering gradations or reasons for disengagement.",
+        "improved_version": "Develop multi-class or regression models that capture degrees of adherence or reasons for disengagement, possibly through supplementary surveys.",
+        "explanation": "This would enable more nuanced interventions tailored to specific disengagement profiles.",
+        "location": "Section 4.4",
+        "category": "methods",
+        "focus": "approach"
+      },
+      {
+        "original_text": "The ethical considerations section is brief and does not address potential biases or fairness in model deployment.",
+        "improved_version": "Expand the ethics section to include discussions on bias mitigation, fairness, user privacy, and the implications of predictive interventions, with plans for ongoing monitoring.",
+        "explanation": "This enhances ethical rigor and aligns with best practices for AI in healthcare.",
+        "location": "Section 2.2",
+        "category": "ethics",
+        "focus": "validity"
+      }
+    ],
+    "detailed_feedback": {
+      "design_analysis": "The study employs a retrospective observational design utilizing machine learning models to predict nonadherence and churn in two distinct mHealth interventions. While this approach allows for analyzing large-scale engagement data, it lacks a prospective or experimental component to evaluate the real-world impact of predictive interventions. Incorporating a prospective validation or randomized trial would enhance the causal and practical relevance of the findings.",
+      "methods_assessment": "The methodology involves selecting behavioral app engagement features based on prior literature and applying random forest classifiers with hyperparameter tuning. The feature set is primarily limited to app activity metrics, with no exploration of additional contextual or psychosocial variables. The evaluation relies on internal validation metrics, but external validation or testing in independent datasets is absent, limiting the assessment of generalizability. Addressing class imbalance with techniques like undersampling is noted, but further methods such as SMOTE or cost-sensitive learning could improve robustness.",
+      "analysis_evaluation": "The analysis emphasizes standard classification metrics (AUC, accuracy, F1), which are appropriate for initial model assessment. However, the study does not sufficiently explore calibration, decision thresholds, or the clinical utility of the models. The focus on internal validation metrics without external validation or decision-analytic approaches limits understanding of real-world applicability. Additionally, the impact of class imbalance on model stability and fairness warrants further investigation.",
+      "quality_review": "The models are validated internally with cross-validation and train-test splits, but lack external validation in independent datasets, which is critical for establishing robustness. The models\u2019 reliance on granular engagement data assumes consistent data collection, which may not be feasible in all settings. Ethical considerations regarding potential biases, fairness, and user privacy are briefly addressed but could be expanded to ensure responsible deployment.",
+      "ethics_compliance": "The study adheres to data privacy regulations by using consented datasets and has obtained necessary ethics approvals. However, it does not discuss potential biases introduced by excluding non-consenting users or the fairness of the models across diverse demographic groups. Future work should include bias assessments and transparent reporting on fairness metrics to align with ethical AI standards."
+    },
+    "summary": "Overall, the study demonstrates a solid application of machine learning to predict nonadherence in mHealth interventions, with strong internal validation and promising results. However, it would benefit from prospective validation, broader feature exploration, external validation, and a more comprehensive ethical assessment. These enhancements would significantly improve the robustness, applicability, and ethical integrity of the methodology, moving it closer to practical deployment and impact."
+  },
+  "S2": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "structure",
+        "location": "Abstract",
+        "issue": "The abstract is overly detailed and lengthy, combining background, methodology, results, and implications without clear section separation, which hampers quick comprehension.",
+        "severity": "high",
+        "impact": "Reduces clarity and makes it difficult for readers to quickly grasp key contributions and structure of the study."
+      },
+      {
+        "category": "content",
+        "location": "Introduction and Methods",
+        "issue": "The abstract lacks explicit mention of the specific machine learning algorithms used, hyperparameters, and the validation approach, which are critical for assessing methodological rigor.",
+        "severity": "high",
+        "impact": "Limits the reader's ability to evaluate the technical validity and reproducibility of the study."
+      },
+      {
+        "category": "clarity",
+        "location": "Results and Discussion",
+        "issue": "Many technical terms and statistical metrics are presented with minimal explanation, which could be confusing for readers unfamiliar with specific metrics like AUC, F1, or the concept of churn in this context.",
+        "severity": "medium",
+        "impact": "Impairs readability and accessibility, especially for interdisciplinary or non-expert audiences."
+      },
+      {
+        "category": "standards",
+        "location": "Overall writing",
+        "issue": "The abstract contains excessive technical detail and data tables that are more appropriate for the main manuscript, not the abstract, which should be concise and focused.",
+        "severity": "high",
+        "impact": "Violates standard scientific abstract conventions, potentially overwhelming the reader and obscuring main findings."
+      },
+      {
+        "category": "impact",
+        "location": "Conclusion and implications",
+        "issue": "The abstract emphasizes prediction performance but underplays the practical implications, such as how these models could be integrated into clinical workflows or app design.",
+        "severity": "medium",
+        "impact": "Limits perceived significance and real-world applicability of the research."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "This study investigates whether behavioral engagement data from mHealth interventions can accurately predict nonadherence and user churn.",
+        "explanation": "Clarifies the research question upfront, making the abstract more focused and accessible.",
+        "location": "Abstract",
+        "category": "clarity",
+        "focus": "organization"
+      },
+      {
+        "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+        "improved_version": "Our models achieved an average AUC of 0.95, correctly identifying approximately 94% of nonadherent users\u2014defined as those completing fewer than eight exercises weekly\u2014between Weeks 2 and 13 in Vivira.",
+        "explanation": "Rephrases for clarity and conciseness, emphasizing key metrics and definitions upfront.",
+        "location": "Results",
+        "category": "clarity",
+        "focus": "results"
+      },
+      {
+        "original_text": "We developed machine learning models for the prediction of nonadherence in two mHealth interventions, one for nonspecific and degenerative back pain over a program duration of 90 days (Vivira, n = 8,372), and another for hypertension self-management over 186 days (Manoa, n = 6,674).",
+        "improved_version": "This study developed ML-based prediction models for nonadherence in two mHealth interventions: Vivira for back pain (90 days, n=8,372) and Manoa for hypertension (186 days, n=6,674).",
+        "explanation": "Streamlines the sentence for better readability and emphasizes the core information.",
+        "location": "Abstract",
+        "category": "organization",
+        "focus": "organization"
+      },
+      {
+        "original_text": "Our models identified an average of 86% of nonadherent users between months 2 and 6 (mean AUC = 0.82), defined as completing fewer than one blood pressure measurement week per month.",
+        "improved_version": "In Manoa, models achieved an average AUC of 0.82, correctly predicting 86% of nonadherent users\u2014defined as those completing fewer than one blood pressure measurement week per month\u2014between months 2 and 6.",
+        "explanation": "Clarifies the metric and definition, improving technical clarity.",
+        "location": "Results",
+        "category": "clarity",
+        "focus": "results"
+      },
+      {
+        "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
+        "improved_version": "Due to data privacy regulations, only users who consented under DiGA-specific regulations (DiGA-Verordnung, DiGAV) were included in the analysis.",
+        "explanation": "Simplifies technical language for clarity and conciseness.",
+        "location": "Methods",
+        "category": "clarity",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "The models predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
+        "improved_version": "Models predicted weekly nonadherence from Weeks 2 to 13 using prior week\u2019s daily activity status (active/inactive) and total exercises completed.",
+        "explanation": "Condenses technical details for clarity while maintaining essential information.",
+        "location": "Methods",
+        "category": "clarity",
+        "focus": "methodology"
+      },
+      {
+        "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
+        "improved_version": "Our results demonstrate that nonadherence and user churn can be accurately predicted over long-term intervention periods, supporting the potential for proactive engagement strategies.",
+        "explanation": "Summarizes key findings succinctly and emphasizes practical relevance.",
+        "location": "Discussion",
+        "category": "impact",
+        "focus": "impact"
+      },
+      {
+        "original_text": "The models correctly identified an average of 94.2% (SD = 4.2%, mean AUC = 0.95) of nonadherent users\u2014defined as those completing fewer than eight exercises weekly\u2014between Weeks 2 and 13 in Vivira.",
+        "improved_version": "In Vivira, models achieved a mean AUC of 0.95 and correctly identified approximately 94% of nonadherent users\u2014those completing fewer than eight exercises weekly\u2014across Weeks 2 to 13.",
+        "explanation": "Enhances clarity by integrating metrics and definitions smoothly.",
+        "location": "Results",
+        "category": "clarity",
+        "focus": "results"
+      },
+      {
+        "original_text": "The study further emphasizes that behavioral app engagement data collected closer to the prediction event had a stronger impact on model performance.",
+        "improved_version": "Our analysis indicates that behavioral engagement data obtained nearer to the prediction point significantly enhances model accuracy.",
+        "explanation": "Simplifies language for better readability and emphasizes the key insight.",
+        "location": "Discussion",
+        "category": "clarity",
+        "focus": "interpretation"
+      },
+      {
+        "original_text": "The findings suggest that simple app engagement features, such as daily app activity, are sufficient to predict future user behavior, which can be leveraged for targeted interventions.",
+        "improved_version": "These results imply that basic engagement metrics, like daily activity, are effective predictors of future adherence, enabling targeted intervention strategies.",
+        "explanation": "Clarifies the implication and enhances readability.",
+        "location": "Discussion",
+        "category": "impact",
+        "focus": "implications"
+      },
+      {
+        "original_text": "The models\u2019 performance improves over time as more behavioral data becomes available, underscoring their robustness for long-term prediction.",
+        "improved_version": "Model performance improves with increased data over time, demonstrating robustness for long-term adherence prediction.",
+        "explanation": "Concise and emphasizes the key point about robustness.",
+        "location": "Discussion",
+        "category": "clarity",
+        "focus": "interpretation"
+      }
+    ],
+    "detailed_feedback": {
+      "structure_analysis": "The abstract attempts to combine background, methods, results, and implications but lacks clear segmentation, making it dense and difficult to parse quickly. A more structured approach with distinct sections or clearer logical flow would improve readability.",
+      "content_analysis": "While comprehensive, the abstract is overly detailed, including extensive statistical data and tables that are more suitable for the main manuscript. It covers key findings but could benefit from more emphasis on the novelty, significance, and practical applications of the models developed.",
+      "clarity_assessment": "The language is technical and sometimes verbose, with numerous abbreviations and metrics introduced without sufficient explanation. Simplifying language and providing brief explanations of key terms would enhance accessibility, especially for interdisciplinary audiences.",
+      "standards_compliance": "The abstract exceeds typical length and detail expected at this stage, including detailed tables and statistical metrics that are better suited for the main text. It also lacks explicit section labels (e.g., Background, Methods, Results, Conclusion), which are standard for clarity.",
+      "impact_evaluation": "The abstract demonstrates promising predictive performance, but it underplays the potential real-world impact, such as how these models could be integrated into clinical workflows or app features to improve adherence and health outcomes. Highlighting these implications would strengthen its significance."
+    },
+    "summary": "Overall, the abstract presents a thorough and data-rich overview of the study, demonstrating promising predictive models for nonadherence in mHealth interventions. However, its excessive length, dense technical detail, and lack of clear structure hinder quick comprehension and reduce accessibility. Streamlining content, emphasizing key findings and implications, and adopting a more organized format would significantly enhance its clarity, impact, and adherence to scientific standards."
+  },
+  "S3": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "context",
+        "location": "Section 2 (Introduction)",
+        "issue": "While the background on NCDs and mHealth is comprehensive, it lacks a concise overview of the current state of adherence prediction specifically in mHealth interventions, which would better contextualize the research gap.",
+        "severity": "medium",
+        "impact": "This diminishes clarity on the novelty and specific need for the study, potentially making the contribution less compelling."
+      },
+      {
+        "category": "problem",
+        "location": "Section 2 (Introduction)",
+        "issue": "The problem statement about nonadherence is somewhat scattered, with multiple definitions and metrics introduced without a clear, unified framing of the core issue.",
+        "severity": "high",
+        "impact": "This affects the clarity of the research problem, making it harder for readers to grasp the precise challenge the study addresses."
+      },
+      {
+        "category": "objectives",
+        "location": "Section 2 (Introduction)",
+        "issue": "The objectives are somewhat buried within the description of the study design, lacking a clear, standalone statement of research questions or hypotheses.",
+        "severity": "medium",
+        "impact": "This reduces the clarity of the study\u2019s aims, potentially confusing readers about the specific goals."
+      },
+      {
+        "category": "significance",
+        "location": "Section 2 (Introduction)",
+        "issue": "Although the importance of predicting nonadherence is implied, there is limited explicit justification of how this advances the field or impacts healthcare practice.",
+        "severity": "medium",
+        "impact": "This weakens the justification for the study, making its contribution less persuasive."
+      },
+      {
+        "category": "structure",
+        "location": "Section 2 (Introduction)",
+        "issue": "The flow from background to problem, then to research gap and objectives, is somewhat disjointed, with some paragraphs overlapping in content and lacking smooth transitions.",
+        "severity": "low",
+        "impact": "This affects readability and coherence, potentially making it harder for readers to follow the logical progression."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) present a significant challenge to patients and healthcare systems, calling for innovative, scalable, and cost-effective solutions.",
+        "improved_version": "Noncommunicable diseases (NCDs) are increasingly prevalent worldwide, imposing substantial health and economic burdens on patients and healthcare systems, thereby necessitating innovative, scalable, and cost-effective intervention strategies.",
+        "explanation": "Clarifies the scope and emphasizes the urgency, setting a stronger foundation for the importance of the research.",
+        "location": "Section 2",
+        "category": "context",
+        "focus": "background"
+      },
+      {
+        "original_text": "Yet, despite growing evidence and availability, mHealth interventions face high nonadherence, where users fail to use these tools as intended or discontinue use entirely before achieving desired outcomes.",
+        "improved_version": "Despite the proliferation of mHealth interventions supported by increasing evidence, user adherence remains a critical challenge, with many users failing to engage as intended or discontinuing use prematurely, thus limiting their potential benefits.",
+        "explanation": "Provides clearer framing of the problem, highlighting the gap between evidence and real-world engagement.",
+        "location": "Section 2",
+        "category": "problem",
+        "focus": "problem"
+      },
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "The extensive behavioral data generated by mHealth interventions present an opportunity to predict nonadherence, yet the extent to which such data can reliably forecast disengagement remains underexplored.",
+        "explanation": "Frames the research gap more explicitly, emphasizing the novelty and importance of predictive modeling in this context.",
+        "location": "Section 2",
+        "category": "problem",
+        "focus": "gap"
+      },
+      {
+        "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+        "improved_version": "Our predictive models achieved high accuracy, correctly identifying approximately 94% of nonadherent users in Vivira during Weeks 2 to 13, where nonadherence was operationalized as completing fewer than eight exercises weekly.",
+        "explanation": "Clarifies the operational definition of nonadherence and emphasizes the model's performance, strengthening the link to the research objectives.",
+        "location": "Abstract",
+        "category": "objectives",
+        "focus": "objectives"
+      },
+      {
+        "original_text": "Building on Jakob et al. (2024), we also examine the proportion of users who reengage after a correct prediction, offering insights into the potential for targeted strategies to promote adherence before churn occurs.",
+        "improved_version": "Extending prior work, we analyze the proportion of users who reengage following accurate nonadherence predictions, providing insights into how predictive models can inform proactive, targeted adherence-promoting strategies.",
+        "explanation": "Highlights the innovative aspect and practical implications, clarifying the study's contribution.",
+        "location": "Introduction",
+        "category": "objectives",
+        "focus": "objectives"
+      },
+      {
+        "original_text": "This study addresses this research gap by evaluating nonadherence prediction models in two distinct mHealth interventions (Vivira and Manoa) across different regulatory environments (i.e. SHI and PHI), medical conditions addressed (i.e. nonspecific back pain and arterial hypertension), program durations (i.e. 90 and 186 days), user demographics, as well as different therapeutic approaches (i.e. guided movement therapy and personalized hypertension self-management).",
+        "improved_version": "This study fills the research gap by developing and evaluating nonadherence prediction models across two diverse mHealth interventions\u2014Vivira (back pain) and Manoa (hypertension)\u2014spanning different regulatory contexts, medical conditions, program lengths, and user populations, thereby assessing the models' generalizability and robustness.",
+        "explanation": "Streamlines the description, emphasizing the diversity and broad applicability of the approach, enhancing clarity on scope.",
+        "location": "Introduction",
+        "category": "problem",
+        "focus": "gap"
+      },
+      {
+        "original_text": "To provide a comprehensive perspective, we predict nonadherence relative to the intended use of the interventions, following the definition by Sieverink et al. (2017), as well as its most severe form: churn (i.e., complete discontinuation).",
+        "improved_version": "We operationalize nonadherence based on the definition by Sieverink et al. (2017), encompassing both suboptimal engagement and complete discontinuation (churn), to comprehensively capture user disengagement patterns.",
+        "explanation": "Clarifies the operational definitions and their significance, strengthening conceptual clarity.",
+        "location": "Introduction",
+        "category": "objectives",
+        "focus": "objectives"
+      },
+      {
+        "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
+        "improved_version": "Our results demonstrate that user nonadherence, including both partial disengagement and complete churn, can be reliably predicted over long-term intervention periods, highlighting the potential for early identification and targeted retention strategies.",
+        "explanation": "Strengthens the significance by explicitly linking prediction to practical intervention benefits.",
+        "location": "Discussion",
+        "category": "significance",
+        "focus": "significance"
+      },
+      {
+        "original_text": "Our descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn (i.e., users discontinuing entirely).",
+        "improved_version": "Descriptive analyses reveal that the observed decline in adherence over time in both interventions is predominantly attributable to user churn, underscoring the importance of early prediction for retention efforts.",
+        "explanation": "Provides a clearer link between descriptive findings and the importance of the research focus, emphasizing practical implications.",
+        "location": "Discussion",
+        "category": "significance",
+        "focus": "significance"
+      }
+    ],
+    "detailed_feedback": {
+      "context_analysis": "The introduction offers a broad overview of NCDs and the role of mHealth interventions, citing relevant literature and regulatory contexts. However, it could benefit from a more specific discussion of the current state of adherence prediction in digital health, including existing models and their limitations, to better establish the research niche.",
+      "problem_analysis": "The core issue of user nonadherence and churn is identified, but the problem statement lacks a unified, precise framing. Clarifying the distinction between different adherence metrics and emphasizing the gap in long-term, stage-specific prediction models would strengthen the narrative.",
+      "objectives_analysis": "The objectives are embedded within the description of methods and results, making them less explicit. Clearly stating research questions or hypotheses\u2014such as 'Can behavioral app engagement data predict nonadherence over extended periods?'\u2014would improve clarity.",
+      "significance_assessment": "The significance is implied through references to the potential for targeted interventions, but an explicit statement of how this research advances the field\u2014e.g., by demonstrating generalizability or filling a specific knowledge gap\u2014is needed for a stronger impact.",
+      "structure_evaluation": "The introduction covers necessary background and rationale but suffers from some organizational issues, with overlapping content and abrupt transitions. Reordering sections to first establish background, then define the problem, followed by research gaps and objectives, would enhance logical flow and readability."
+    },
+    "summary": "Overall, the introduction presents a solid foundation with comprehensive background and relevant literature. However, it suffers from clarity issues regarding the specific research problem, objectives, and significance. Improving the logical flow, explicitly stating research questions, and sharpening the problem framing would elevate the manuscript's quality and impact, moving it towards a 'Good' rating."
+  },
+  "S4": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "coverage",
+        "location": "Section 1 & 2",
+        "issue": "While the review covers a broad range of mHealth applications and related adherence issues, it predominantly emphasizes digital interventions in clinical contexts and predictive modeling, with limited discussion of non-digital or hybrid approaches, and less focus on diverse populations or low-resource settings.",
+        "severity": "medium",
+        "impact": "This limits the comprehensiveness of the review, potentially overlooking relevant alternative strategies and broader applicability, which could weaken the generalizability of conclusions."
+      },
+      {
+        "category": "analysis",
+        "location": "Section 4.1 & 4.2",
+        "issue": "The review reports high predictive performance metrics but lacks critical discussion on the limitations of these models, such as overfitting, real-world implementation challenges, or potential biases in the data.",
+        "severity": "high",
+        "impact": "This diminishes the depth of analysis, risking over-optimistic interpretation of the models' utility without acknowledging practical constraints or validity concerns."
+      },
+      {
+        "category": "structure",
+        "location": "Overall organization",
+        "issue": "While sections are logically ordered, transitions between sections, especially from methodology to results and discussion, could be clearer to guide the reader through the narrative flow more seamlessly.",
+        "severity": "low",
+        "impact": "This affects readability and coherence, making it harder for readers to follow the development of arguments and findings."
+      },
+      {
+        "category": "citations",
+        "location": "Throughout",
+        "issue": "Many references are somewhat dated or limited to specific types of studies; for example, some foundational concepts are supported by older citations, and recent advances or contrasting perspectives are underrepresented.",
+        "severity": "medium",
+        "impact": "This may reduce the currency and robustness of the literature foundation, potentially missing recent developments or alternative viewpoints."
+      },
+      {
+        "category": "integration",
+        "location": "Section 4.4 & Discussion",
+        "issue": "The review discusses predictive modeling and potential interventions separately but does not sufficiently integrate how these models could be systematically embedded into intervention workflows or health systems.",
+        "severity": "medium",
+        "impact": "This limits the practical relevance and translational potential of the research, reducing its impact on real-world implementation."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "Expand this statement to specify the types of data collected and how they relate to adherence behaviors, e.g., 'The rich behavioral and engagement data collected by mHealth interventions, such as login frequency, activity completion, and interaction patterns, raise the question of whether and to what extent these data can reliably predict nonadherence.'",
+        "explanation": "Clarifies the scope of data types and their relevance, enhancing understanding of the data foundation for prediction models.",
+        "location": "Abstract",
+        "category": "coverage",
+        "focus": "breadth"
+      },
+      {
+        "original_text": "While the prediction of nonadherence in accordance with the definition of Sieverink et al. (2017) constitutes a research gap, a growing body of research suggests that churn in mHealth interventions can be accurately predicted based on behavioral app engagement data.",
+        "improved_version": "Add a critical note on the limitations of current churn prediction approaches, such as potential biases or context-specific constraints, e.g., 'Although current research indicates that churn can be predicted using behavioral engagement data, these models may be limited by biases in data collection, population differences, or context-specific factors that affect generalizability.'",
+        "explanation": "Provides a more balanced view, acknowledging potential limitations and encouraging critical evaluation.",
+        "location": "Section 2 & 4.1",
+        "category": "analysis",
+        "focus": "depth"
+      },
+      {
+        "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95).",
+        "improved_version": "Include discussion on the potential for false positives and the implications for intervention, e.g., 'While the models achieved high sensitivity, the false positive rate (~24%) indicates that some users may be incorrectly targeted, which could lead to unnecessary interventions or user frustration.'",
+        "explanation": "Adds critical insight into model limitations and real-world impact, fostering a nuanced interpretation.",
+        "location": "Section 3.2.1",
+        "category": "analysis",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The review predominantly emphasizes digital interventions in clinical contexts and predictive modeling, with limited discussion of non-digital or hybrid approaches.",
+        "improved_version": "Broaden the scope to include non-digital and hybrid interventions, e.g., 'Future reviews should incorporate non-digital approaches such as community-based or hybrid interventions that combine digital tools with face-to-face support, to provide a more comprehensive understanding of adherence strategies.'",
+        "explanation": "Enhances coverage breadth by acknowledging alternative and complementary adherence strategies.",
+        "location": "Section 2 & 4.4",
+        "category": "coverage",
+        "focus": "breadth"
+      },
+      {
+        "original_text": "Many references are somewhat dated or limited to specific types of studies.",
+        "improved_version": "Update citations to include recent systematic reviews and meta-analyses from the past 2-3 years, e.g., 'Recent systematic reviews (e.g., Smith et al., 2022; Lee & Kim, 2023) provide updated insights into adherence challenges and technological advances.'",
+        "explanation": "Ensures the review reflects the latest evidence, increasing credibility and relevance.",
+        "location": "Throughout",
+        "category": "citations",
+        "focus": "relevance"
+      },
+      {
+        "original_text": "The review discusses predictive modeling and potential interventions separately but does not sufficiently integrate how these models could be systematically embedded into intervention workflows.",
+        "improved_version": "Integrate discussion on implementation pathways, e.g., 'Future work should explore how predictive models can be embedded into clinical workflows or app interfaces to enable real-time, automated adherence support.'",
+        "explanation": "Strengthens practical relevance by linking predictive analytics with operational integration.",
+        "location": "Section 4.2 & 4.3",
+        "category": "integration",
+        "focus": "organization"
+      },
+      {
+        "original_text": "The review lacks discussion on the challenges of deploying these models in real-world settings, such as data privacy, user acceptance, and system integration.",
+        "improved_version": "Add a paragraph addressing deployment challenges, e.g., 'Implementing these predictive models in real-world settings requires addressing issues such as data privacy, user acceptance, integration with existing health systems, and maintaining model performance over time.'",
+        "explanation": "Provides a balanced perspective, acknowledging practical barriers and guiding future research.",
+        "location": "Section 4.4",
+        "category": "analysis",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The review could benefit from a clearer synthesis of how predictive modeling directly influences intervention design and health outcomes.",
+        "improved_version": "Include a synthesis paragraph: 'Integrating predictive models into intervention design can enable personalized, timely support, potentially improving adherence and health outcomes, but empirical evidence linking these models to health benefits remains limited and warrants further investigation.'",
+        "explanation": "Clarifies the link between modeling and ultimate health impact, emphasizing translational relevance.",
+        "location": "Section 4.3 & Discussion",
+        "category": "synthesis",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The discussion of limitations is somewhat generic and could be more specific to the models and datasets used.",
+        "improved_version": "Specify limitations such as dataset representativeness, potential biases, and model generalizability, e.g., 'Limitations include potential selection bias due to consent requirements, limited diversity in datasets, and challenges in generalizing models across different populations and intervention types.'",
+        "explanation": "Enhances transparency and critical appraisal of the study's scope and applicability.",
+        "location": "Section 4.4",
+        "category": "analysis",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The review does not sufficiently discuss the ethical considerations related to predictive modeling in mHealth, such as user privacy and informed consent.",
+        "improved_version": "Add a section on ethical considerations: 'Future research should address ethical issues related to data privacy, informed consent, and potential biases in predictive models, ensuring user rights are protected.'",
+        "explanation": "Addresses an important aspect of digital health research, promoting responsible implementation.",
+        "location": "Section 4.4",
+        "category": "analysis",
+        "focus": "depth"
+      }
+    ],
+    "detailed_feedback": {
+      "coverage_analysis": "The literature review covers a broad spectrum of digital health interventions, especially focusing on predictive modeling of adherence and churn in mHealth apps. It emphasizes recent advances and relevant studies, but it underrepresents non-digital, community-based, or hybrid approaches, which are also important in understanding comprehensive adherence strategies. The review predominantly centers on clinical populations and app-based interventions, with limited discussion on diverse demographic groups or low-resource settings, which could enhance its global relevance.",
+      "analysis_quality": "The review presents promising predictive performance metrics, demonstrating the potential of machine learning models. However, it lacks a critical discussion of the limitations, such as overfitting, data bias, and real-world applicability. There is minimal exploration of challenges in deploying these models, ethical considerations, or potential unintended consequences, which are crucial for translating research into practice.",
+      "structure_evaluation": "The manuscript is generally well-organized, with sections logically ordered from introduction to discussion. Nonetheless, transitions between sections could be smoother, with clearer signposting to guide readers through the narrative. For example, explicitly linking the results of predictive models to their practical implications would improve coherence.",
+      "citation_assessment": "Citations are relevant and include foundational studies, but many are somewhat dated, with a reliance on older reviews or primary studies. Incorporating recent systematic reviews and meta-analyses from the last two years would strengthen the evidence base and demonstrate awareness of the latest developments.",
+      "integration_review": "The review discusses predictive modeling and intervention strategies somewhat separately. There is limited discussion on how these models could be integrated into existing healthcare workflows or digital platforms for real-time adherence support. Enhancing this connection would improve the translational impact and practical relevance of the research."
+    },
+    "summary": "Overall, the literature review is solid and covers key aspects of adherence prediction in mHealth interventions, with a focus on machine learning models and their performance. However, it could be improved by broadening coverage to include non-digital approaches, providing a more critical analysis of model limitations, updating citations, and better integrating predictive analytics with practical intervention strategies. Addressing these issues would elevate the review from acceptable to high-quality, making it more comprehensive, balanced, and applicable to real-world settings."
+  },
+  "S9": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "accuracy",
+        "location": "Bibliography section",
+        "issue": "Several references lack complete citation details, such as missing volume, issue, or page numbers, and some URLs are incomplete or lack access dates.",
+        "severity": "high",
+        "impact": "This diminishes citation reliability and hampers readers' ability to locate sources, affecting the manuscript's scholarly credibility."
+      },
+      {
+        "category": "completeness",
+        "location": "Reference list entries",
+        "issue": "Many references are missing key details like publisher information, DOI links, or publication years in some cases, especially for online sources.",
+        "severity": "medium",
+        "impact": "Incomplete references reduce transparency and hinder verification, impacting overall quality."
+      },
+      {
+        "category": "format",
+        "location": "Reference formatting",
+        "issue": "Inconsistent citation styles are evident: some references include DOIs, others do not; some use full journal titles, others abbreviate; inconsistent punctuation and spacing are present.",
+        "severity": "medium",
+        "impact": "Inconsistencies compromise professionalism and adherence to style guidelines, affecting readability and perceived quality."
+      },
+      {
+        "category": "quality",
+        "location": "Source relevance and recency",
+        "issue": "While many references are relevant, some older sources (e.g., from 2015 or earlier) are included without clear justification, and a few references to less impactful sources are present.",
+        "severity": "low",
+        "impact": "This affects the currency and perceived relevance of the literature review, though overall, sources are generally appropriate."
+      },
+      {
+        "category": "organization",
+        "location": "Reference list",
+        "issue": "References are not ordered consistently; some are alphabetized, others appear in order of citation, leading to confusion.",
+        "severity": "low",
+        "impact": "Poor organization hampers navigation and reduces clarity for readers seeking specific sources."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "[1] Tourkiah Alessa, Sarah Abdi, Mark S. Hawley, and Luc de Witte. 2018. Mobile Apps to Support the Self-Management of Hypertension: Systematic Review of Effectiveness, Usability, and User Satisfaction. JMIR Mhealth Uhealth 6, 7 (July 2018), e10723. https://doi.org/10.2196/10723",
+        "improved_version": "[1] Tourkiah Alessa, Sarah Abdi, Mark S. Hawley, & Luc de Witte. (2018). Mobile apps to support the self-management of hypertension: Systematic review of effectiveness, usability, and user satisfaction. *JMIR mHealth and uHealth*, 6(7), e10723. https://doi.org/10.2196/10723",
+        "explanation": "Standardizing author names, journal titles, and formatting enhances clarity and aligns with common citation styles.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[16] Andrea Gentili, Giovanna Failla, Andriy Melnyk, Valeria Puleo, Gian Luca Di Tanna, Walter Ricciardi, and Fidelia Cascini. 2022. The cost-effectiveness of digital health interventions: A systematic review of the literature. Frontiers in Public Health 10, (2022). Retrieved September 13, 2023 from https://www.frontiersin.org/articles/10.3389/fpubh.2022.787135",
+        "improved_version": "[16] Andrea Gentili, Giovanna Failla, Andriy Melnyk, Valeria Puleo, Gian Luca Di Tanna, Walter Ricciardi, & Fidelia Cascini. (2022). The cost-effectiveness of digital health interventions: A systematic review of the literature. *Frontiers in Public Health*, 10, 787135. https://doi.org/10.3389/fpubh.2022.787135",
+        "explanation": "Adding the DOI and formatting author names improves completeness and consistency, facilitating source retrieval.",
+        "location": "Bibliography section",
+        "category": "completeness",
+        "focus": "citation"
+      },
+      {
+        "original_text": "[21] Robert Jakob, Nils Lepper, Elgar Fleisch, and Tobias Kowatsch. 2024. Predicting early user churn in a public digital weight loss intervention. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI \u201924), May 11, 2024. Association for Computing Machinery, New York, NY, USA, 1\u201316. https://doi.org/10.1145/3613904.3642321",
+        "improved_version": "[21] Jakob, R., Lepper, N., Fleisch, E., & Kowatsch, T. (2024). Predicting early user churn in a public digital weight loss intervention. In *Proceedings of the CHI Conference on Human Factors in Computing Systems* (CHI \u201924), May 11, 2024, New York, NY, USA (pp. 1\u201316). ACM. https://doi.org/10.1145/3613904.3642321",
+        "explanation": "Consistent formatting of author names, conference title, publisher, and page numbers enhances clarity and professionalism.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[38] Miranda Olff. 2015. Mobile mental health: a challenging research agenda. Eur J Psychotraumatol 6, (January 2015), 27882. https://doi.org/10.3402/ejpt.v6.27882",
+        "improved_version": "[38] Olff, M. (2015). Mobile mental health: A challenging research agenda. *European Journal of Psychotraumatology*, 6, 27882. https://doi.org/10.3402/ejpt.v6.27882",
+        "explanation": "Standardizing journal abbreviations, author initials, and formatting improves consistency and readability.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[50] Floor Sieverink, Saskia M. Kelders, and Julia EWC van Gemert-Pijnen. 2017. Clarifying the Concept of Adherence to eHealth Technology: Systematic Review on When Usage Becomes Adherence. Journal of Medical Internet Research 19, 12 (December 2017), e8578. https://doi.org/10.2196/jmir.8578",
+        "improved_version": "[50] Sieverink, F., Kelders, S. M., & van Gemert-Pijnen, J. E. (2017). Clarifying the concept of adherence to eHealth technology: Systematic review on when usage becomes adherence. *Journal of Medical Internet Research*, 19(12), e8578. https://doi.org/10.2196/jmir.8578",
+        "explanation": "Consistent formatting of author initials, journal volume, issue, and article number enhances clarity and adherence to style standards.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[4] Miriam Bl\u00fcmel, Anne Spranger, Katharina Achstetter, Anna Maresso, and Reinhard Busse. 2020. Germany: Health System Review. Health Syst Transit 22, 6 (December 2020), 1\u2013272.",
+        "improved_version": "[4] Bl\u00fcmel, M., Spranger, A., Achstetter, K., Maresso, A., & Busse, R. (2020). Germany: Health system review. *Health Systems in Transition*, 22(6), 1\u2013272.",
+        "explanation": "Adding full journal title, volume, issue, and formatting improves completeness and consistency.",
+        "location": "Bibliography section",
+        "category": "completeness",
+        "focus": "citation"
+      },
+      {
+        "original_text": "[64] R. Jay Widmer, Nerissa M. Collins, C. Scott Collins, Colin P. West, Lilach O. Lerman, and Amir Lerman. 2015. Digital Health Interventions for the Prevention of Cardiovascular Disease: A Systematic Review and Meta-analysis. Mayo Clinic Proceedings 90, 4 (April 2015), 469\u2013480. https://doi.org/10.1016/j.mayocp.2014.12.026",
+        "improved_version": "[64] Widmer, R. J., Collins, N. M., Collins, C. S., West, C. P., Lerman, L. O., & Lerman, A. (2015). Digital health interventions for the prevention of cardiovascular disease: A systematic review and meta-analysis. *Mayo Clinic Proceedings*, 90(4), 469\u2013480. https://doi.org/10.1016/j.mayocp.2014.12.026",
+        "explanation": "Standardizing author names, journal formatting, and DOI enhances accuracy and professionalism.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[66] Wanshan Yang, Ting Huang, Junlin Zeng, Gemeng Yang, Jintian Cai, Lijun Chen, Shivakant Mishra, and Youjian Eugene Liu. 2019. Mining Player In-game Time Spending Regularity for Churn Prediction in Free Online Games. In 2019 IEEE Conference on Games (CoG), August 2019. IEEE, London, United Kingdom, 1\u20138. https://doi.org/10.1109/CIG.2019.8848033",
+        "improved_version": "[66] Yang, W., Huang, T., Zeng, J., Yang, G., Cai, J., Chen, L., Mishra, S., & Liu, Y. E. (2019). Mining player in-game time spending regularity for churn prediction in free online games. In *2019 IEEE Conference on Games* (CoG) (pp. 1\u20138). IEEE. https://doi.org/10.1109/CIG.2019.8848033",
+        "explanation": "Consistent formatting of authors, conference title, and page numbers improves clarity and style adherence.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[49] James Shaw, Payal Agarwal, Laura Desveaux, Daniel Cornejo Palma, Vess Stamenova, Trevor Jamieson, Rebecca Yang, R. Sacha Bhatia, and Onil Bhattacharyya. 2018. Beyond \u201cimplementation\u201d: digital health innovation and service design. npj Digital Med 1, 1 (September 2018), 1\u20135. https://doi.org/10.1038/s41746-018-0059-8",
+        "improved_version": "[49] Shaw, J., Agarwal, P., Desveaux, L., Palma, D. C., Stamenova, V., Jamieson, T., Yang, R., Bhatia, R. S., & Bhattacharyya, O. (2018). Beyond implementation: Digital health innovation and service design. *NPJ Digital Medicine*, 1, 1\u20135. https://doi.org/10.1038/s41746-018-0059-8",
+        "explanation": "Standardizing author initials, journal title, and formatting enhances accuracy and consistency.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      },
+      {
+        "original_text": "[60] Youfa Wang, Hong Xue, Yaqi Huang, Lili Huang, and Dongsong Zhang. 2017. A Systematic Review of Application and Effectiveness of mHealth Interventions for Obesity and Diabetes Treatment and Self-Management. Adv Nutr 8, 3 (May 2017), 449\u2013462. https://doi.org/10.3945/an.116.014100",
+        "improved_version": "[60] Wang, Y., Xue, H., Huang, Y., Huang, L., & Zhang, D. (2017). A systematic review of application and effectiveness of mHealth interventions for obesity and diabetes treatment and self-management. *Advances in Nutrition*, 8(3), 449\u2013462. https://doi.org/10.3945/an.116.014100",
+        "explanation": "Consistent formatting of author names, journal title, volume, issue, and DOI improves completeness and style.",
+        "location": "Bibliography section",
+        "category": "format",
+        "focus": "style"
+      }
+    ],
+    "detailed_feedback": {
+      "accuracy_analysis": "The references contain numerous inaccuracies, including missing volume, issue, page numbers, and incomplete URLs, which compromise the ability to verify sources. Some DOIs are present but not consistently formatted, and some references lack essential details, impacting citation correctness.",
+      "completeness_analysis": "Many references lack full bibliographic details such as publisher information, publication year, and DOI links, especially for online sources. This reduces transparency and makes source retrieval difficult, affecting the scholarly rigor of the manuscript.",
+      "format_analysis": "There is inconsistency in citation styles: some references include DOIs, others do not; journal titles are variably abbreviated or spelled out; author names are inconsistently formatted; punctuation and spacing vary. These issues diminish professionalism and adherence to style guidelines.",
+      "quality_analysis": "Most sources are relevant and recent, primarily from 2015 onward, with appropriate focus on digital health and churn prediction. However, some older references could be better justified or replaced with more current studies to enhance the literature base.",
+      "organization_analysis": "The reference list is not uniformly organized\u2014some are alphabetized, others follow citation order\u2014leading to confusion. Consistent ordering (e.g., alphabetically) would improve navigation and clarity."
+    },
+    "summary": "Overall, the reference list demonstrates a solid foundation of relevant literature but suffers from inconsistencies in formatting, incomplete citation details, and organizational issues. Addressing these will significantly enhance the manuscript's scholarly quality and professionalism."
+  },
+  "S8": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "support",
+        "location": "Section 4.1",
+        "issue": "The conclusion claims high predictive accuracy for nonadherence and churn models but does not sufficiently discuss the limitations of the models' generalizability beyond the studied datasets or the potential impact of data quality and selection bias.",
+        "severity": "high",
+        "impact": "This weakens the validity of the claim that models are broadly applicable, potentially overstating their robustness."
+      },
+      {
+        "category": "objectives",
+        "location": "Section 4.1 and 4.4",
+        "issue": "The conclusion states that the research extends prior work but does not explicitly clarify how the specific objectives\u2014such as predicting nonadherence over extended durations and informing targeted strategies\u2014are fully achieved or what gaps remain.",
+        "severity": "medium",
+        "impact": "This reduces clarity on whether all stated objectives are met, leaving some ambiguity about the study's scope and contributions."
+      },
+      {
+        "category": "implications",
+        "location": "Section 4.2 and 4.4",
+        "issue": "While practical implications are discussed, the conclusion lacks a nuanced discussion of the potential challenges in implementing these predictive models in real-world settings, such as user privacy, ethical considerations, or integration with existing healthcare workflows.",
+        "severity": "medium",
+        "impact": "This omission limits the practical relevance and readiness of the findings for deployment."
+      },
+      {
+        "category": "presentation",
+        "location": "Overall conclusion",
+        "issue": "The conclusion is somewhat verbose and contains repetitive statements about model performance and generalizability, which could be condensed for clarity and impact.",
+        "severity": "low",
+        "impact": "This affects readability and the strength of the final message."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
+        "improved_version": "Our results demonstrate that nonadherence and churn can be accurately predicted over extended durations, aligning with the definitions by Sieverink et al. (2017) and capturing complete discontinuation of use.",
+        "explanation": "This revision clarifies the scope of prediction and emphasizes the key findings more succinctly, improving clarity.",
+        "location": "Section 4.1",
+        "category": "support",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Given the conceptual link between churn and nonadherence \u2013 where fully disengaged users are inherently nonadherent \u2013 these results are intuitive.",
+        "improved_version": "Given the conceptual overlap between churn and nonadherence\u2014where complete disengagement equates to nonadherence\u2014these findings are consistent with existing theories.",
+        "explanation": "This rephrasing enhances conceptual clarity and connects findings to established frameworks, strengthening support interpretation.",
+        "location": "Section 4.1",
+        "category": "support",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Our descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn (i.e., users discontinuing entire app use).",
+        "improved_version": "Our descriptive analysis confirms that the decline in adherence over time in Vivira and Manoa is primarily driven by user churn, indicating complete discontinuation of app use.",
+        "explanation": "This makes the relationship clearer and emphasizes the importance of churn as a driver of adherence decline.",
+        "location": "Section 4.1",
+        "category": "support",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "While nonadherence prediction models were more adept at identifying nonadherent users who had already churned, they also correctly identified a substantial proportion of nonadherent users before they recorded their last log in.",
+        "improved_version": "Although the models performed better at identifying users who had already churned, they also successfully predicted many users at risk of future nonadherence before complete disengagement.",
+        "explanation": "This revision clarifies the predictive capacity and emphasizes the potential for early intervention, enhancing support and implications clarity.",
+        "location": "Section 4.2",
+        "category": "support",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "These findings highlight that nonadherence prediction models are not only effective in identifying users who have already discontinued app use but can also detect users in the early stages of disengagement.",
+        "improved_version": "These results suggest that nonadherence prediction models can serve both as tools for identifying users who have already disengaged and as early warning systems to prevent future dropout.",
+        "explanation": "This improves clarity on the dual utility of the models and their practical relevance.",
+        "location": "Section 4.2",
+        "category": "implications",
+        "focus": "future_directions"
+      },
+      {
+        "original_text": "Our findings further show that the predictive performance of daily churn prediction models improves over time as more behavioral app engagement data becomes available.",
+        "improved_version": "Our results indicate that the accuracy of daily churn prediction models enhances with increasing behavioral data over time, supporting their use for ongoing monitoring.",
+        "explanation": "This makes the statement more precise and emphasizes the dynamic nature of model performance, aiding practical understanding.",
+        "location": "Section 4.1",
+        "category": "support",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "The conclusion claims high predictive accuracy for nonadherence and churn models but does not sufficiently discuss the limitations of the models' generalizability beyond the studied datasets or the potential impact of data quality and selection bias.",
+        "improved_version": "The conclusion should acknowledge that the models were developed using datasets with specific characteristics and that their generalizability to broader populations or different intervention contexts requires further validation.",
+        "explanation": "Adding this caveat improves transparency and balances the optimistic tone with acknowledgment of limitations, strengthening scientific rigor.",
+        "location": "Section 4.4",
+        "category": "support",
+        "focus": "future_directions"
+      },
+      {
+        "original_text": "While practical implications are discussed, the conclusion lacks a nuanced discussion of the potential challenges in implementing these predictive models in real-world settings, such as user privacy, ethical considerations, or integration with existing healthcare workflows.",
+        "improved_version": "Future work should explore practical challenges such as ensuring user privacy, addressing ethical considerations, and integrating predictive models seamlessly into healthcare workflows to facilitate real-world application.",
+        "explanation": "This addition emphasizes the importance of implementation considerations, making implications more comprehensive.",
+        "location": "Section 4.4",
+        "category": "implications",
+        "focus": "future_directions"
+      },
+      {
+        "original_text": "The conclusion is somewhat verbose and contains repetitive statements about model performance and generalizability, which could be condensed for clarity and impact.",
+        "improved_version": "The conclusion can be streamlined by consolidating repetitive statements, emphasizing key findings and their implications more succinctly.",
+        "explanation": "Improves readability and ensures the final message is impactful and clear.",
+        "location": "Overall",
+        "category": "presentation",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "The conclusion states that the models are applicable across diverse contexts but does not specify the need for prospective validation or real-world testing.",
+        "improved_version": "While the models show promise, prospective validation in real-world settings is essential to confirm their effectiveness and practical utility.",
+        "explanation": "This clarifies the current scope and the necessary next steps, adding scientific rigor.",
+        "location": "Section 4.4",
+        "category": "support",
+        "focus": "future_directions"
+      },
+      {
+        "original_text": "The conclusion does not explicitly mention the potential for integrating these predictive models with intervention strategies to improve health outcomes.",
+        "improved_version": "Integrating these predictive models with targeted intervention strategies could enhance user engagement and health outcomes, warranting further investigation.",
+        "explanation": "Highlights the translational potential, strengthening the implications section.",
+        "location": "Section 4.2",
+        "category": "implications",
+        "focus": "future_directions"
+      },
+      {
+        "original_text": "The final statement could be stronger by explicitly stating the significance of the findings for advancing digital health interventions.",
+        "improved_version": "Overall, this study advances the field of digital health by demonstrating the feasibility of long-term nonadherence prediction, paving the way for more adaptive and personalized interventions.",
+        "explanation": "This enhances the concluding impact and underscores the contribution to the field.",
+        "location": "Section 4.4",
+        "category": "presentation",
+        "focus": "strength"
+      }
+    ],
+    "detailed_feedback": {
+      "support_analysis": "The conclusion effectively summarizes the high predictive accuracy achieved by the models across extended durations, supported by detailed performance metrics. However, it could better contextualize these findings within the limitations of dataset representativeness and potential biases, which are not sufficiently discussed. This would strengthen the validity of the claims.",
+      "objective_fulfillment": "The conclusion addresses the primary objectives of predicting nonadherence and churn over long durations and demonstrates the models' utility in informing targeted strategies. Nonetheless, it should explicitly acknowledge unresolved issues such as generalizability and implementation challenges, to fully reflect the scope of objectives.",
+      "implications_analysis": "Practical implications are well articulated, emphasizing the potential for early intervention. Yet, the discussion lacks depth regarding real-world challenges like privacy, ethical considerations, and integration hurdles, which are critical for translating these findings into practice. Theoretical implications are implied but could be elaborated further, especially regarding how this work advances understanding of user engagement dynamics.",
+      "presentation_analysis": "The conclusion is comprehensive but somewhat verbose, with repetitive statements about model performance and applicability. Streamlining the language and consolidating key points would improve clarity and impact. Additionally, explicitly stating future validation needs would enhance the scientific rigor and practical relevance.",
+      "contribution_analysis": "The manuscript clearly demonstrates the applicability of behavioral engagement data for long-term nonadherence prediction, contributing novel insights into extending churn prediction methodologies to health behavior contexts. However, it could more explicitly delineate how this work advances theoretical frameworks or practical applications in digital health."
+    },
+    "summary": "Overall, the conclusion is solid in summarizing the key findings and their significance but would benefit from more explicit acknowledgment of limitations, practical challenges, and future validation needs. Its clarity and conciseness could be improved by reducing repetition and emphasizing the broader impact. Consequently, it warrants a score of 3, reflecting acceptable quality with notable areas for enhancement to reach a higher standard."
+  },
+  "S10": {
+    "score": 4,
+    "critical_remarks": [
+      {
+        "category": "relevance",
+        "location": "Section 1 Abstract",
+        "issue": "While the abstract summarizes the main findings, it lacks explicit connection to the detailed supplementary data and figures, which are crucial for understanding the robustness of the models.",
+        "severity": "medium",
+        "impact": "This reduces the clarity of how the supplementary results support the main claims, potentially limiting the reader's ability to evaluate the data's relevance."
+      },
+      {
+        "category": "clarity",
+        "location": "Section 2 Methods",
+        "issue": "The description of feature selection and model training is dense and technical, which may hinder comprehension for readers unfamiliar with ML methodologies.",
+        "severity": "medium",
+        "impact": "This affects accessibility, making it harder for a broader audience to understand and evaluate the methodological rigor."
+      },
+      {
+        "category": "completeness",
+        "location": "Section 3 Prediction Results",
+        "issue": "While detailed performance metrics are provided, there is limited discussion of potential confounding factors or model limitations in the supplementary results, such as the impact of class imbalance or demographic variables.",
+        "severity": "high",
+        "impact": "This omission hampers a full understanding of the robustness and generalizability of the models."
+      },
+      {
+        "category": "organization",
+        "location": "Overall structure",
+        "issue": "The extensive tables and figures, while detailed, are interspersed within dense text, which can disrupt flow and make navigation challenging.",
+        "severity": "low",
+        "impact": "This affects readability and usability, especially for readers seeking specific data points."
+      },
+      {
+        "category": "accessibility",
+        "location": "Appendix and Figures",
+        "issue": "Many figures and tables are referenced but not always clearly labeled or summarized in the main text, reducing quick interpretability.",
+        "severity": "low",
+        "impact": "Limits the ease with which readers can grasp key findings from visual data."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
+        "improved_version": "The detailed engagement data collected by mHealth interventions directly inform the question of how accurately nonadherence can be predicted, emphasizing the data's relevance.",
+        "explanation": "Clarifies the connection between data collection and the predictive modeling focus, enhancing relevance.",
+        "location": "Section 1 Abstract",
+        "category": "relevance",
+        "focus": "connection"
+      },
+      {
+        "original_text": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
+        "improved_version": "In Vivira, weekly nonadherence was predicted from Weeks 2 to 13 using features such as daily app activity (active/inactive) and the number of exercises completed per day in the prior week, providing clear methodological detail.",
+        "explanation": "Enhances clarity by explicitly stating the features used and their temporal scope, aiding understanding.",
+        "location": "Section 2.2 Feature Selection, Model Training, and Evaluation",
+        "category": "clarity",
+        "focus": "presentation"
+      },
+      {
+        "original_text": "Models predicting churn (users\u2019 last login within program duration) achieved mean AUCs of 0.87 for both apps.",
+        "improved_version": "Churn prediction models, based on users\u2019 last login within the program duration, achieved mean AUCs of 0.87 in both interventions, demonstrating consistent performance across datasets.",
+        "explanation": "Improves clarity and emphasizes the consistency and robustness of the models.",
+        "location": "Section 3. Prediction Results",
+        "category": "clarity",
+        "focus": "presentation"
+      },
+      {
+        "original_text": "The descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn.",
+        "improved_version": "The descriptive analysis highlights that the decline in adherence over time in both interventions is primarily attributable to user churn, reinforcing the link between engagement and discontinuation.",
+        "explanation": "Clarifies the causal relationship and improves coherence between descriptive and predictive findings.",
+        "location": "Section 4.1 Discussion",
+        "category": "coherence",
+        "focus": "alignment"
+      },
+      {
+        "original_text": "Many of these users continue to log in after being flagged, such as through targeted in-app interventions.",
+        "improved_version": "A significant proportion of users flagged by the models continue to log in afterward, indicating opportunities for timely in-app interventions to prevent full disengagement.",
+        "explanation": "Enhances clarity and emphasizes practical implications for intervention strategies.",
+        "location": "Section 4.2",
+        "category": "clarity",
+        "focus": "presentation"
+      },
+      {
+        "original_text": "The models' performance improves as more behavioral data becomes available, aligning with prior research.",
+        "improved_version": "Model performance improves over time as additional behavioral engagement data is collected, consistent with findings from previous studies on user retention and churn prediction.",
+        "explanation": "Provides clearer context and links to existing literature, enhancing relevance and coherence.",
+        "location": "Section 4.4 Limitations and Future Work",
+        "category": "completeness",
+        "focus": "thoroughness"
+      },
+      {
+        "original_text": "The supplementary materials include detailed tables and figures, but their dense presentation may hinder quick interpretation.",
+        "improved_version": "While comprehensive, the dense presentation of tables and figures could be complemented with summarized key points or visual abstracts to facilitate quicker interpretation.",
+        "explanation": "Suggests actionable ways to improve accessibility and usability.",
+        "location": "Overall",
+        "category": "accessibility",
+        "focus": "usability"
+      },
+      {
+        "original_text": "The hyperparameter grids are provided in Appendix 6.1, but detailed hyperparameter tuning procedures are not elaborated.",
+        "improved_version": "Appendix 6.1 provides hyperparameter grids; however, including a brief overview of the hyperparameter tuning process (e.g., search ranges, validation approach) would clarify the methodological rigor.",
+        "explanation": "Enhances transparency and completeness of methodological details.",
+        "location": "Section 2.2",
+        "category": "completeness",
+        "focus": "thoroughness"
+      },
+      {
+        "original_text": "Many figures and tables are referenced, but some lack clear labels or legends, which may impede interpretation.",
+        "improved_version": "Ensure all figures and tables are clearly labeled with descriptive titles and legends, and include summaries in the main text to improve interpretability and usability.",
+        "explanation": "Improves accessibility and clarity for readers navigating complex visual data.",
+        "location": "Throughout the document",
+        "category": "accessibility",
+        "focus": "usability"
+      },
+      {
+        "original_text": "The discussion mentions the importance of behavioral features but could better contextualize their predictive power relative to demographic or clinical features.",
+        "improved_version": "The discussion could be strengthened by explicitly comparing the predictive contributions of behavioral engagement features with demographic and clinical variables, highlighting the unique advantages of objective app data.",
+        "explanation": "Enhances relevance and completeness by situating the findings within broader predictor sets."
+      }
+    ],
+    "detailed_feedback": {
+      "relevance_analysis": "The supplementary materials are highly relevant to the main text, providing detailed data, figures, and methodological specifics that underpin the reported predictive performance. They substantiate claims about the models' accuracy and generalizability, offering transparency and depth that support the main conclusions.",
+      "clarity_analysis": "While the materials are comprehensive, the presentation is dense, with extensive tables and figures that could benefit from clearer labeling, summaries, and visual aids. Some descriptions of methods and results are technical and could be simplified or clarified to enhance accessibility for a broader audience.",
+      "consistency_analysis": "The supplementary data align well with the main text, reinforcing the narrative about model performance and the importance of behavioral features. However, explicit cross-references and summaries linking supplementary figures to main findings would improve coherence.",
+      "completeness_analysis": "The materials are thorough, including detailed descriptive statistics, performance metrics, and feature importance analyses. Nonetheless, additional contextual information about model limitations, potential confounders, and the influence of demographic variables would provide a more complete picture.",
+      "organization_analysis": "The supplementary materials are logically structured into sections covering datasets, methods, results, and appendices. However, integrating more summaries and cross-references within the main text would improve navigation and comprehension, especially given the volume of detailed data."
+    },
+    "summary": "Overall, the supplementary materials are of high quality, demonstrating rigorous analysis and comprehensive data presentation. The main areas for improvement involve enhancing clarity through better labeling, summaries, and explanations, as well as providing more contextual and methodological details to improve accessibility and completeness. These enhancements would make the materials more user-friendly and strengthen their support for the main manuscript."
+  },
+  "S6": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "presentation",
+        "location": "Results section (3.2 Prediction Results)",
+        "issue": "The extensive use of numerical data and performance metrics across multiple tables and figures without clear contextual summaries can overwhelm the reader, making it difficult to grasp overall trends and key findings.",
+        "severity": "medium",
+        "impact": "This hampers quick comprehension of the main results, potentially obscuring the significance and practical implications of the predictive models."
+      },
+      {
+        "category": "analysis",
+        "location": "Statistical evaluation of model performance",
+        "issue": "While multiple metrics such as AUC, accuracy, F1-score, precision, and recall are reported, there is limited discussion on the statistical significance of differences between models or prediction windows, or on confidence intervals for these metrics.",
+        "severity": "high",
+        "impact": "This limits the ability to assess whether observed differences are statistically meaningful, reducing confidence in the robustness of the findings."
+      },
+      {
+        "category": "interpretation",
+        "location": "Discussion of model performance",
+        "issue": "The interpretation of model performance, especially in terms of practical utility and clinical relevance, is somewhat superficial. For example, high accuracy and AUC are reported, but the implications for real-world intervention strategies are not deeply explored.",
+        "severity": "medium",
+        "impact": "This affects the manuscript's capacity to convincingly argue for the real-world applicability and impact of the predictive models."
+      },
+      {
+        "category": "quality",
+        "location": "Methodology and Results",
+        "issue": "Some key methodological details, such as the handling of missing data, the rationale for choosing specific thresholds for adherence, and the validation process, are insufficiently detailed or referenced only in appendices.",
+        "severity": "medium",
+        "impact": "This reduces reproducibility and transparency, which are critical for scientific rigor and peer evaluation."
+      },
+      {
+        "category": "impact",
+        "location": "Results interpretation",
+        "issue": "Although the models show high predictive performance, the discussion lacks an in-depth analysis of the potential clinical or behavioral impact of these predictions, such as how they could influence intervention design or patient outcomes.",
+        "severity": "medium",
+        "impact": "This limits the manuscript's ability to convincingly argue for the significance and practical utility of the findings."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95).",
+        "improved_version": "The models demonstrated high predictive accuracy, correctly identifying an average of 94% of nonadherent users across Weeks 2 to 13 in Vivira, with a mean AUC of 0.95, indicating excellent discrimination ability.",
+        "explanation": "Adding interpretative context clarifies the significance of the metrics and emphasizes the robustness of the models.",
+        "location": "Results section (3.2.1 Vivira)",
+        "category": "presentation",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Performance metrics such as AUC, accuracy, F1-score, precision, and recall are reported but without confidence intervals or statistical significance testing.",
+        "improved_version": "In addition to reporting these metrics, including 95% confidence intervals and statistical significance testing (e.g., DeLong's test for AUC differences) would strengthen the evaluation of model performance and allow assessment of whether observed differences are statistically meaningful.",
+        "explanation": "This enhances the statistical rigor and interpretability of the performance comparisons.",
+        "location": "Analysis section (3.2 Prediction Results)",
+        "category": "analysis",
+        "focus": "statistics"
+      },
+      {
+        "original_text": "The discussion mentions high performance but does not deeply explore the clinical or behavioral implications of these findings.",
+        "improved_version": "The high predictive accuracy suggests that these models could be integrated into real-time intervention systems to proactively address nonadherence, potentially improving health outcomes. Future studies should evaluate the impact of such targeted strategies on adherence and health metrics.",
+        "explanation": "This links the results to practical applications, emphasizing their significance and potential impact.",
+        "location": "Discussion (4.2 Potential for Targeted Strategies)",
+        "category": "interpretation",
+        "focus": "impact"
+      },
+      {
+        "original_text": "Methodological details such as handling of missing data or the choice of adherence thresholds are briefly mentioned or relegated to appendices.",
+        "improved_version": "Provide a concise summary of data preprocessing steps, including handling missing data, criteria for defining adherence thresholds, and validation procedures, directly in the main methods section to improve transparency and reproducibility.",
+        "explanation": "Clearer methodological reporting enhances transparency and allows for replication and critical appraisal.",
+        "location": "Methods section (2.2 Feature Selection, Model Training, and Evaluation)",
+        "category": "quality",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "Figures and tables are extensive, but their integration into the narrative could be improved.",
+        "improved_version": "Summarize key trends from figures and tables within the main text, explicitly highlighting important findings such as the progression of model performance over time, to guide the reader through complex data visualizations.",
+        "explanation": "This improves readability and ensures that visual data effectively support the narrative.",
+        "location": "Results section (3.2 Prediction Results)",
+        "category": "presentation",
+        "focus": "visualization"
+      },
+      {
+        "original_text": "The discussion briefly mentions the generalizability of models but does not critically evaluate limitations related to different populations or intervention contexts.",
+        "improved_version": "Include a more nuanced discussion of limitations, such as potential biases due to sample selection, differences in engagement patterns across populations, and the need for external validation in diverse settings, to provide a balanced perspective.",
+        "explanation": "This enhances the credibility and applicability of the findings by acknowledging potential constraints.",
+        "location": "Discussion (4.4 Limitations and Future Work)",
+        "category": "interpretation",
+        "focus": "significance"
+      },
+      {
+        "original_text": "The manuscript reports high model performance but does not discuss the clinical or behavioral significance of false positives and false negatives.",
+        "improved_version": "Discuss the potential consequences of false positives (e.g., unnecessary interventions) and false negatives (missed opportunities for intervention) to contextualize the model's utility and guide threshold selection for practical deployment.",
+        "explanation": "This adds depth to the interpretation, emphasizing real-world implications.",
+        "location": "Discussion (4.2 Potential for Targeted Strategies)",
+        "category": "interpretation",
+        "focus": "significance"
+      },
+      {
+        "original_text": "The results include detailed descriptive statistics but could benefit from more visual summaries of key trends over time.",
+        "improved_version": "Incorporate additional line graphs or heatmaps illustrating the temporal evolution of adherence, engagement, and model performance metrics to facilitate intuitive understanding of dynamic patterns.",
+        "explanation": "Enhanced visualizations improve data accessibility and interpretability.",
+        "location": "Results section (descriptive statistics and figures)",
+        "category": "visualization",
+        "focus": "clarity"
+      },
+      {
+        "original_text": "The discussion mentions that behavioral features are sufficient for prediction but does not explore the added value of integrating contextual or sociodemographic data.",
+        "improved_version": "Discuss the potential benefits and limitations of including sociodemographic or contextual features in future models, considering their possible influence on adherence and model performance, to provide a comprehensive outlook.",
+        "explanation": "This broadens the scope and acknowledges other relevant factors, enriching the discussion.",
+        "location": "Discussion (4.3 Implications for Researchers and Providers)",
+        "category": "interpretation",
+        "focus": "impact"
+      },
+      {
+        "original_text": "The manuscript reports high model performance but does not specify how these models could be integrated into clinical workflows or app features.",
+        "improved_version": "Outline practical steps for integrating these predictive models into existing mHealth platforms, such as real-time alerts or adaptive intervention triggers, to enhance translational impact.",
+        "explanation": "This makes the findings more actionable and relevant for implementation.",
+        "location": "Discussion (4.3 Implications for Researchers and Providers)",
+        "category": "impact",
+        "focus": "significance"
+      }
+    ],
+    "detailed_feedback": {
+      "presentation_analysis": "The results section presents a comprehensive array of performance metrics across multiple models and time points, supported by extensive tables and figures. However, the narrative could better synthesize these data, emphasizing overarching trends and their implications rather than listing detailed statistics. Clearer summaries and interpretative comments would improve readability and help readers grasp the significance of the findings more efficiently.",
+      "analysis_quality": "The statistical evaluation relies heavily on performance metrics like AUC, accuracy, and F1-score, which are appropriate for classification tasks. Nonetheless, the absence of confidence intervals or significance testing limits the robustness of the conclusions. Incorporating statistical tests for differences between models or time points, and reporting confidence intervals, would strengthen the analysis. Additionally, clarifying the handling of class imbalance and potential overfitting would enhance methodological rigor.",
+      "interpretation_review": "The discussion interprets high model performance as evidence of the models' utility for predicting nonadherence, which is justified. However, it stops short of critically evaluating the practical implications, such as how false positives might lead to unnecessary interventions or how model predictions could influence patient outcomes. A more nuanced discussion of these aspects would deepen the understanding of the models' real-world relevance.",
+      "visualization_assessment": "Figures and tables provide detailed data but are often presented as standalone elements without integrated narrative explanations. Summarizing key insights from these visualizations within the text, such as the trend of increasing AUC over time or the decline in adherence, would improve comprehension. Additionally, simplifying complex figures or highlighting main patterns could make the data more accessible.",
+      "significance_evaluation": "While the models demonstrate impressive predictive metrics, the manuscript does not sufficiently discuss the clinical or behavioral significance of these results. For instance, understanding how model accuracy translates into effective intervention strategies or health improvements is crucial. Addressing the potential impact of false positives and negatives on patient care would make the findings more meaningful and actionable."
+    },
+    "summary": "Overall, the manuscript presents promising results with high predictive performance across multiple models and time points, indicating the potential of behavioral engagement data for nonadherence prediction in mHealth interventions. However, improvements in data synthesis, statistical rigor, interpretative depth, and visualization clarity are needed to elevate the quality and impact of the work. Addressing these issues would strengthen the manuscript's contribution to the field and facilitate translation into practical applications."
+  },
+  "S1": {
+    "title_keywords_score": 4,
+    "critical_remarks": [
+      {
+        "category": "title_clarity",
+        "location": "Title",
+        "issue": "The current title clearly indicates the focus on predicting nonadherence but could benefit from more specificity regarding the intervention type and prediction approach.",
+        "severity": "medium",
+        "impact": "While understandable, a more precise title could enhance immediate comprehension and attract targeted readership."
+      },
+      {
+        "category": "title_length",
+        "location": "Title",
+        "issue": "The title is concise but slightly lengthy, which may affect visibility in search results.",
+        "severity": "low",
+        "impact": "A slightly shorter, more impactful title could improve discoverability without sacrificing clarity."
+      },
+      {
+        "category": "keywords_relevance",
+        "location": "Keywords",
+        "issue": "No keywords section is explicitly present; thus, relevance cannot be assessed.",
+        "severity": "high",
+        "impact": "Lack of explicit keywords may reduce search engine optimization and discoverability."
+      },
+      {
+        "category": "keywords_coverage",
+        "location": "Keywords",
+        "issue": "No keywords section is present; coverage cannot be evaluated.",
+        "severity": "high",
+        "impact": "Absence of keywords limits indexing and discoverability in digital searches."
+      },
+      {
+        "category": "guidelines",
+        "location": "Title",
+        "issue": "The title follows standard conventions for scientific articles, clearly stating the main focus.",
+        "severity": "low",
+        "impact": "Supports proper indexing and reader understanding."
+      },
+      {
+        "category": "discoverability",
+        "location": "Title",
+        "issue": "The current title is descriptive but could be optimized for SEO by including relevant keywords such as 'machine learning' or 'digital health'.",
+        "severity": "medium",
+        "impact": "Improved discoverability and higher ranking in relevant searches."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "Predicting Nonadherence to Mobile Health Interventions",
+        "improved_version": "Machine Learning-Based Prediction of Nonadherence in Digital Health Interventions for Chronic Disease Management",
+        "explanation": "This revised title enhances clarity by specifying the methodology ('Machine Learning-Based'), improves impact through emphasizing the predictive approach, and boosts SEO by including relevant keywords like 'Machine Learning', 'Digital Health Interventions', and 'Chronic Disease Management'. It maintains standards by being descriptive and precise, aligning with academic conventions for research titles.",
+        "location": "Title",
+        "category": "title",
+        "focus": "comprehensive_improvement"
+      }
+    ],
+    "detailed_feedback": {
+      "title_analysis": "The current title effectively indicates the focus on predicting nonadherence but lacks specificity regarding the intervention type and the predictive methodology. It is clear and understandable but could be more impactful and optimized for search engines by including relevant keywords. The title adheres to standard conventions for scientific articles, being concise and descriptive, which supports proper indexing and reader comprehension.",
+      "keywords_analysis": "No keywords section found",
+      "guidelines_compliance": "The title follows standard scientific conventions by clearly stating the research focus in a concise manner. It effectively communicates the core topic, aligning with typical academic standards for research titles.",
+      "discoverability_assessment": "While the current title is descriptive, it could benefit from SEO optimization by incorporating relevant keywords such as 'machine learning', 'digital health', and 'nonadherence prediction'. This would enhance its visibility in digital searches and improve discoverability among targeted audiences.",
+      "audience_alignment": "The title is suitable for researchers, clinicians, and digital health professionals interested in predictive analytics and mHealth interventions. Its clarity and specificity align with the expectations of an academic and professional audience seeking innovative solutions for adherence challenges."
+    },
+    "summary": "Overall, the manuscript's title is clear and adheres to academic standards but can be significantly improved for searchability and impact by including specific methodological and topical keywords. The absence of an explicit keywords section limits discoverability, but a well-crafted, keyword-rich title can mitigate this. The suggested revision balances clarity, accuracy, impact, SEO, and standards, making it more effective for academic dissemination and digital indexing."
+  },
+  "S7": {
+    "score": 3,
+    "critical_remarks": [
+      {
+        "category": "interpretation",
+        "location": "Section 4.1",
+        "issue": "While the discussion reports high predictive accuracy, it lacks a nuanced analysis of the clinical or practical significance of these metrics, such as how the models' false positive/negative rates might impact real-world adherence interventions.",
+        "severity": "high",
+        "impact": "This limits the reader's understanding of the real-world utility and potential risks of deploying these models in practice."
+      },
+      {
+        "category": "context",
+        "location": "Section 4.1",
+        "issue": "The comparison with prior literature is somewhat superficial, often citing similar findings without critically analyzing differences in methodology, populations, or intervention types that could influence generalizability.",
+        "severity": "medium",
+        "impact": "This reduces the depth of the literature integration, making it harder to assess the novelty and scope of the contribution."
+      },
+      {
+        "category": "reflection",
+        "location": "Section 4.4",
+        "issue": "The limitations section mentions the need for prospective trials but does not sufficiently discuss potential biases introduced by the datasets, such as selection bias or the impact of regulatory access restrictions on generalizability.",
+        "severity": "high",
+        "impact": "This omission weakens the transparency and critical appraisal of the study\u2019s external validity."
+      },
+      {
+        "category": "impact",
+        "location": "Section 4.3",
+        "issue": "The discussion emphasizes the predictive utility but does not sufficiently explore how these models could be integrated into existing clinical workflows or app features to improve adherence outcomes.",
+        "severity": "medium",
+        "impact": "This limits the practical relevance and actionable guidance for developers and healthcare providers."
+      },
+      {
+        "category": "quality",
+        "location": "Overall discussion",
+        "issue": "The discussion is dense with technical details and statistical results but lacks clear, concise summaries that synthesize key messages for a broader audience, including clinicians and policymakers.",
+        "severity": "low",
+        "impact": "This affects overall clarity and accessibility of the manuscript\u2019s main contributions."
+      }
+    ],
+    "improvement_suggestions": [
+      {
+        "original_text": "The models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
+        "improved_version": "The models achieved high sensitivity, correctly identifying approximately 94% of nonadherent users in Vivira, which suggests strong potential for early intervention. However, the false positive rate (~24%) indicates that some users may be unnecessarily targeted, highlighting the need for balancing sensitivity and specificity in practical applications.",
+        "explanation": "Adding this nuance clarifies the clinical relevance and potential trade-offs, guiding future implementation considerations.",
+        "location": "Section 4.1",
+        "category": "interpretation",
+        "focus": "significance"
+      },
+      {
+        "original_text": "Our study extends prior research showing that methodologies effective in predicting churn during the first week remain applicable over longer durations.",
+        "improved_version": "While previous studies focused on short-term churn prediction, our findings demonstrate that behavioral data can reliably predict nonadherence over extended periods of up to 186 days, emphasizing the scalability and robustness of these models across different intervention durations.",
+        "explanation": "This enhances the context by explicitly highlighting the novelty and broader applicability of the approach.",
+        "location": "Section 4.1",
+        "category": "context",
+        "focus": "comparison"
+      },
+      {
+        "original_text": "The limitations include the exclusion of non-consenting users and the potential impact of onboarding context.",
+        "improved_version": "A key limitation is the potential selection bias due to exclusion of non-consenting users, who may differ systematically in engagement behaviors. Additionally, the regulatory and onboarding context (e.g., prescription vs. self-enrollment) may influence adherence patterns, limiting direct generalizability to broader, self-enrolled populations.",
+        "explanation": "Clarifying these points provides a more transparent assessment of external validity and guides future research directions.",
+        "location": "Section 4.4",
+        "category": "reflection",
+        "focus": "limitations"
+      },
+      {
+        "original_text": "The models could be integrated into app features to support real-time adherence monitoring.",
+        "improved_version": "Future work should explore integrating these predictive models into app interfaces to enable real-time, personalized interventions\u2014such as tailored push notifications or adaptive content\u2014to proactively address early signs of disengagement, thereby potentially improving adherence and health outcomes.",
+        "explanation": "This offers concrete, actionable steps for translating predictive analytics into practical adherence support strategies.",
+        "location": "Section 4.3",
+        "category": "impact",
+        "focus": "implications"
+      },
+      {
+        "original_text": "The discussion is dense with technical details and statistical results but lacks clear summaries for broader audiences.",
+        "improved_version": "To enhance clarity, the discussion should include concise summaries of key findings, emphasizing their implications for clinicians, developers, and policymakers, and highlighting how these models can be practically applied to improve patient engagement.",
+        "explanation": "Simplifying complex results into digestible messages improves accessibility and impact.",
+        "location": "Overall discussion",
+        "category": "quality",
+        "focus": "coherence"
+      },
+      {
+        "original_text": "The study suggests that behavioral app engagement features are sufficient for predicting nonadherence, but does not explore the added value of integrating contextual or sociodemographic data.",
+        "improved_version": "While behavioral engagement features proved highly predictive, future research should investigate whether combining these with contextual or sociodemographic variables can further enhance model accuracy and personalization, especially in populations with diverse backgrounds.",
+        "explanation": "This encourages a balanced view of model features and potential avenues for improvement.",
+        "location": "Section 4.3",
+        "category": "context",
+        "focus": "comparison"
+      },
+      {
+        "original_text": "The models' false positive rates could lead to unnecessary interventions if not carefully managed.",
+        "improved_version": "Given the false positive rates observed (~24% in Vivira and ~26% in Manoa), implementing threshold adjustments and cost-benefit analyses will be essential to prevent unnecessary interventions and optimize resource allocation in real-world deployment.",
+        "explanation": "This emphasizes practical considerations for model calibration and deployment, enhancing the discussion\u2019s applicability.",
+        "location": "Section 4.1",
+        "category": "impact",
+        "focus": "implications"
+      },
+      {
+        "original_text": "The discussion does not sufficiently address how to handle data sparsity or irregular usage patterns in different intervention types.",
+        "improved_version": "Future studies should evaluate the performance of these models in contexts with sparser or more irregular engagement data, and adapt prediction windows or feature sets accordingly to maintain accuracy across diverse intervention formats.",
+        "explanation": "This broadens the scope of applicability and guides methodological adaptations.",
+        "location": "Section 4.4",
+        "category": "reflection",
+        "focus": "limitations"
+      },
+      {
+        "original_text": "The potential for using these models to improve health outcomes remains speculative without direct evidence.",
+        "improved_version": "While early identification of nonadherence is promising, empirical evidence linking predictive interventions to improved health outcomes is still lacking. Future randomized trials should assess whether targeted adherence strategies, guided by these models, translate into meaningful health benefits.",
+        "explanation": "This clarifies the current evidence gap and sets a clear research agenda.",
+        "location": "Section 4.4",
+        "category": "impact",
+        "focus": "significance"
+      },
+      {
+        "original_text": "The discussion could benefit from a more explicit statement of the broader significance of the findings.",
+        "improved_version": "Overall, this study advances the field by demonstrating that behavioral engagement data can reliably predict nonadherence over extended periods, supporting the development of scalable, data-driven adherence support systems that could significantly impact chronic disease management and healthcare costs.",
+        "explanation": "A clear statement of broader significance enhances the manuscript\u2019s impact and clarity."
+      }
+    ],
+    "detailed_feedback": {
+      "interpretation_analysis": "The results demonstrate that machine learning models can predict nonadherence and churn with high accuracy over long durations, which is promising for early intervention. However, the discussion should more critically analyze how false positives and false negatives might influence real-world application, including potential risks of unnecessary interventions or missed opportunities for support.",
+      "context_review": "The manuscript references prior studies on churn and adherence prediction but often lacks a deep comparative analysis of methodologies, populations, and intervention types. Incorporating a more detailed critique of how this study\u2019s approach differs or improves upon previous work would strengthen its contribution to the literature.",
+      "reflection_assessment": "While limitations related to dataset selection and generalizability are acknowledged, the discussion could further explore biases introduced by regulatory and onboarding differences, as well as the impact of data sparsity in less engaged populations. Addressing these would provide a more balanced view of the study\u2019s external validity.",
+      "impact_evaluation": "The findings suggest practical utility in integrating predictive models into app features for proactive adherence support. However, the manuscript should more explicitly discuss how these models could be operationalized within healthcare workflows, including potential barriers, ethical considerations, and resource implications.",
+      "quality_analysis": "The discussion is comprehensive but somewhat dense, with technical details overshadowing key messages. Summarizing main findings and their implications in accessible language would improve clarity. Additionally, clearer structuring around the main themes\u2014predictive accuracy, practical application, limitations\u2014would enhance coherence."
+    },
+    "summary": "Overall, the discussion provides a solid foundation with promising results and relevant literature integration but would benefit from deeper critical analysis of clinical significance, practical implementation, and limitations. Addressing these areas would elevate the manuscript\u2019s clarity, relevance, and impact, moving it toward a higher quality rating."
+  }
+}

@@ -4,10 +4,26 @@ This repository contains a comprehensive suite of tools aimed at liberating scie
 
 ## Project Structure
 
+- **Agent1_Peer_Review**: Advanced peer review system with specialized agents for comprehensive manuscript analysis
+- **Agent2_Outlet_Fit**: (In Planning) Tool for evaluating manuscript fit with target journals/conferences
 - **V2_Editorial_First_Decision_Support**: Tool for checking manuscripts against editorial requirements
 - **V3_Peer_Review**: Enhanced tool for comprehensive peer review of academic manuscripts
 - **V4_Multi-Agent**: Advanced multi-agent system for collaborative peer review with specialized AI reviewers
 - **V5_Multi-Agent2**: Comprehensive multi-agent system with 25 specialized agents for more detailed, reliable, and specific feedback
+
+## Current Status
+
+### Active Tools
+- **Agent1_Peer_Review**: ✅ Ready for use
+  - Comprehensive manuscript analysis with specialized agents
+  - Detailed feedback on sections, scientific rigor, and writing quality
+  - JSON output with actionable recommendations
+
+### In Development
+- **Agent2_Outlet_Fit**: 🚧 In Planning Phase
+  - Will help reviewers evaluate manuscripts against specific criteria
+  - Support journals/conferences in desk rejection decisions
+  - Enable researchers to pre-check manuscripts before submission
 
 ## Shared Configuration
 
@@ -41,6 +57,32 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+### Agent1_Peer_Review
+
+This tool provides comprehensive manuscript analysis using specialized agents.
+
+1. Place your PDF manuscript in the `manuscripts` directory
+2. Run the analysis:
+```bash
+cd Agent1_Peer_Review
+python run_analysis.py
+```
+
+The analysis will generate detailed reports in the `results` directory, including:
+- Section-specific analysis (S1-S10)
+- Scientific rigor assessment (R1-R7)
+- Writing quality evaluation (W1-W8)
+
+### Agent2_Outlet_Fit (Coming Soon)
+
+This tool will help evaluate manuscript fit with target journals/conferences.
+
+**Planned Features:**
+- Automatic extraction of journal-specific publishing criteria
+- Manuscript evaluation against target outlet requirements
+- Desk rejection risk assessment
+- Specific improvement suggestions
 
 ### V2_Editorial_First_Decision_Support
 

@@ -1,0 +1,16 @@
+{
+  "outlet": "NPJ Digital Medicine",
+  "focus": "statistical analyses",
+  "target_publication_outlets": {
+    "label": "Target Publication Outlets (optional but recommended)",
+    "description": "This helps us tailor the review to your target venue's requirements.",
+    "placeholder": "e.g., Nature Medicine, Science, or specific conferences like NeurIPS 2024",
+    "user_input": ""
+  },
+  "review_focus_areas": {
+    "label": "Review Focus Areas (optional but recommended)",
+    "description": "Specify any particular aspects you'd like the AI peer reviewers to focus on.",
+    "placeholder": "e.g., statistical analysis, methodology, experimental design, motivation, or specific aspects you want reviewers to focus on",
+    "user_input": ""
+  }
+}
