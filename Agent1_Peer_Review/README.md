@@ -208,7 +208,7 @@ For detailed guidelines on how to contribute, please see [CONTRIBUTING.md](CONTR
 
 ## Join the Project
 
-**We Need Your Help!** This is Version 6.0 - a work in progress, which means:
+**We Need Your Help!** This a work in progress, which means:
 
 - **Expect imperfections**: The system is continuously being improved
 - **Your expertise matters**: Help us improve agent accuracy, especially specialized agents
