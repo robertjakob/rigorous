@@ -1,0 +1,633 @@
+{
+  "section_results": {
+    "S1": {
+      "section_name": "Title and Keywords",
+      "score": 4,
+      "summary": "The manuscript's title is clear, specific, and accurately reflects the focus on user churn prediction in mobile apps via a systematic review. However, the title is somewhat lengthy and could be optimized for immediate impact and searchability by including more targeted keywords. The absence of a dedicated keywords section is a significant omission, as it limits discoverability and indexing. The title adheres to academic conventions, but further refinement and the addition of a keyword list would enhance the manuscript's visibility and accessibility.",
+      "suggestions": [
+        {
+          "remarks": "The title, while clear, is somewhat long and could be more concise and keyword-rich to improve discoverability.",
+          "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
+          "improved_version": "Mobile App User Churn Prediction: Systematic Review of Machine Learning Algorithms and Features",
+          "explanation": "This revision increases clarity, incorporates relevant keywords (e.g., 'machine learning algorithms', 'features'), and maintains a concise structure, which improves both searchability and immediate comprehension."
+        },
+        {
+          "remarks": "The manuscript lacks an explicit keywords section, which is essential for indexing and discoverability.",
+          "original_text": "(No keywords section present)",
+          "improved_version": "Keywords: churn prediction, mobile apps, machine learning, user retention, systematic review",
+          "explanation": "Including a dedicated keywords section with relevant terms enhances the manuscript's visibility in academic databases and search engines."
+        },
+        {
+          "remarks": "The title could better emphasize the primary methodological focus to attract the intended audience.",
+          "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
+          "improved_version": "Systematic Review of Machine Learning Approaches for Mobile App User Churn Prediction",
+          "explanation": "Reordering the title to foreground the systematic review and machine learning focus may better align with the interests of the target audience and improve clarity."
+        }
+      ]
+    },
+    "S2": {
+      "section_name": "Abstract",
+      "score": 3,
+      "summary": "The abstract provides a comprehensive overview of the review's scope, methodology, and findings, but is overly detailed and includes technical specifics more appropriate for the main text. This density reduces clarity and accessibility, especially for non-specialist readers. The abstract also lacks explicit mention of inclusion/exclusion criteria and underrepresents the limitations and practical implications of the findings. Condensing the abstract, simplifying language, and focusing on key contributions and implications would improve its impact and readability.",
+      "suggestions": [
+        {
+          "remarks": "The abstract is overly detailed and technical, which reduces clarity and accessibility.",
+          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+          "improved_version": "The review identifies a range of machine learning algorithms used for predicting user churn and survival times in mobile apps, including logistic regression and deep neural networks.",
+          "explanation": "Reducing technical detail and focusing on the main findings improves clarity and makes the abstract more suitable for a broad audience."
+        },
+        {
+          "remarks": "The abstract lacks clear specification of the review's scope and inclusion/exclusion criteria.",
+          "original_text": "This systematic literature review investigates applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies from an initial pool of 1,502 screened articles.",
+          "improved_version": "This systematic review synthesizes methodologies and outcomes from 50 studies focused on churn prediction in mobile apps, selected from 1,502 screened articles based on predefined inclusion and exclusion criteria.",
+          "explanation": "Explicitly mentioning the use of predefined criteria clarifies the review's scope and enhances transparency."
+        },
+        {
+          "remarks": "The abstract underemphasizes limitations and future research needs.",
+          "original_text": "Additionally, the review underscores the importance of behavioral features related to users\u2019 activity and progress within apps, and discusses the promising but limited results related to the effectiveness of churn prevention strategies informed by prediction models.",
+          "improved_version": "The review highlights behavioral features as key predictors but notes that evidence for effective churn prevention strategies remains limited, indicating a need for further validation in real-world settings.",
+          "explanation": "Emphasizing limitations and the need for future research provides a balanced perspective and strengthens the abstract's impact."
+        }
+      ]
+    },
+    "S3": {
+      "section_name": "Introduction",
+      "score": 3,
+      "summary": "The introduction establishes the importance of churn prediction and outlines the review's objectives, but lacks a focused discussion on the unique challenges of mobile app environments. The research gap is not emphasized early or clearly enough, and the flow from background to objectives could be improved for better readability. Explicitly articulating the novelty, significance, and specific aims of the review, as well as providing smoother transitions, would enhance the clarity and impact of this section.",
+      "suggestions": [
+        {
+          "remarks": "The introduction does not clearly articulate the research gap or the unique challenges in mobile app churn prediction.",
+          "original_text": "However, despite the progress and high accuracies achieved in churn prediction studies, no review has yet been undertaken to summarize them in the context of mobile apps.",
+          "improved_version": "Despite significant advances and high predictive accuracies reported in individual churn prediction studies, there remains a notable gap: no comprehensive systematic review has synthesized these efforts specifically within the mobile app domain. Addressing this gap is essential to understand current methodologies, identify best practices, and guide future research tailored to mobile environments.",
+          "explanation": "Explicitly stating the research gap and its importance strengthens the justification for the review."
+        },
+        {
+          "remarks": "The objectives and significance of the review are not clearly and explicitly stated.",
+          "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
+          "improved_version": "This review aims to systematically analyze the methodologies, features, algorithms, and performance metrics used in mobile app churn prediction studies, while also examining the effectiveness of strategies employed to prevent churn based on these models. By doing so, it provides a comprehensive understanding of both predictive performance and practical applications.",
+          "explanation": "Clarifying the dual focus on methodology and practical outcomes enhances the reader's understanding of the review's aims."
+        },
+        {
+          "remarks": "The flow from background to objectives is somewhat disjointed, affecting readability.",
+          "original_text": "The flow from background to problem statement, then to objectives and significance, is somewhat disjointed, with some repetition and lack of clear transitions.",
+          "improved_version": "Reorganize the introduction to follow a logical progression: start with the broad importance of user retention, narrow down to the specific challenges in mobile apps, identify the research gap of lacking a systematic review, and then clearly state the study's objectives and significance. Use transition sentences to connect these sections smoothly.",
+          "explanation": "Improving the structure and transitions enhances readability and logical coherence."
+        }
+      ]
+    },
+    "S4": {
+      "section_name": "Literature Review",
+      "score": 3,
+      "summary": "The literature review covers a broad range of app domains and machine learning algorithms, providing a solid foundation. However, it lacks depth in critical analysis, particularly regarding why certain models perform better in specific contexts and the limitations of existing studies. Recent advances in explainable AI and model interpretability are underrepresented, and the review could benefit from more recent references and stronger integration with practical and theoretical frameworks. Improving the analytical depth, updating references, and clarifying the structure would enhance the comprehensiveness and utility of this section.",
+      "suggestions": [
+        {
+          "remarks": "The review lacks critical analysis of why certain algorithms perform better in specific contexts.",
+          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+          "improved_version": "Expand this statement by explicitly comparing the contexts in which different ML algorithms excel or underperform, and discuss the implications for model selection based on data size, interpretability needs, and computational resources.",
+          "explanation": "Providing nuanced guidance on algorithm selection enhances the review's practical value."
+        },
+        {
+          "remarks": "Recent developments in explainable AI and model interpretability are not sufficiently discussed.",
+          "original_text": "The review identified a wide range of algorithms that have been applied to predict users\u2019 churn probability in mobile apps across multiple app domains.",
+          "improved_version": "Add a discussion on the emerging trends, such as the use of explainable AI, transfer learning, or multi-task learning, and how these could shape future research directions.",
+          "explanation": "Including recent advances ensures the review remains current and comprehensive."
+        },
+        {
+          "remarks": "The review does not sufficiently connect findings to practical implications or broader theoretical frameworks.",
+          "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps.",
+          "improved_version": "Include a critical discussion on the limitations of behavioral features, such as potential biases, data sparsity, or temporal relevance, and suggest strategies to mitigate these issues.",
+          "explanation": "Addressing limitations and mitigation strategies deepens the analytical quality and practical relevance."
+        }
+      ]
+    },
+    "S5": {
+      "section_name": "Methodology",
+      "score": 3,
+      "summary": "The methodology section outlines a systematic approach, including protocol registration and adherence to PRISMA guidelines. However, it lacks detailed justification for inclusion/exclusion criteria, insufficiently describes search term validation, and does not apply standardized quality assessment or bias evaluation tools. The analysis is mostly descriptive, with limited statistical synthesis. Addressing these gaps by providing more transparency, applying formal quality assessments, and incorporating meta-analytic techniques would improve methodological rigor and reproducibility.",
+      "suggestions": [
+        {
+          "remarks": "The review protocol lacks detailed justification for inclusion/exclusion criteria and search strategy validation.",
+          "original_text": "The review protocol was submitted to OSF Registries on May 5, 2023.",
+          "improved_version": "The review protocol was registered with detailed inclusion/exclusion criteria, search strategies, and quality assessment procedures on OSF Registries prior to data extraction.",
+          "explanation": "Comprehensive pre-registration enhances transparency and reproducibility."
+        },
+        {
+          "remarks": "The synthesis of performance metrics is primarily descriptive, lacking statistical pooling or heterogeneity assessment.",
+          "original_text": "The synthesis of findings was conducted with a primary focus on features, algorithms, and performance metrics.",
+          "improved_version": "A meta-analytic approach was considered to statistically synthesize performance metrics across studies, accounting for heterogeneity using random-effects models where applicable.",
+          "explanation": "Applying meta-analytic techniques increases rigor and enables quantitative comparison."
+        },
+        {
+          "remarks": "No standardized quality assessment or bias evaluation tools were applied to included studies.",
+          "original_text": "The review notes the heterogeneity and inconsistent reporting but does not specify quality assessment tools.",
+          "improved_version": "A standardized quality assessment tool, such as QUADAS-2 or PROBAST, was applied to evaluate the risk of bias and methodological quality of each included study, with findings reported in supplementary materials.",
+          "explanation": "Systematic quality assessment enhances validity and interpretability of evidence."
+        }
+      ]
+    },
+    "S6": {
+      "section_name": "Results",
+      "score": 3,
+      "summary": "The results section provides comprehensive coverage of features, algorithms, and performance metrics across studies. However, the presentation is dense and heavily text-based, making it difficult to quickly interpret key findings. Reporting of performance metrics is inconsistent, and the interpretation of feature importance lacks nuance regarding context and potential confounders. Limited reporting on the effectiveness of prevention strategies weakens the evidence base for practical application. Incorporating visual summaries, standardizing performance metrics, and deepening interpretation would improve clarity and robustness.",
+      "suggestions": [
+        {
+          "remarks": "The presentation is dense and lacks visual aids, making it difficult to quickly interpret key findings.",
+          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+          "improved_version": "The section could benefit from a summarized table or figure illustrating the distribution of ML algorithms used, their relative performance, and contexts, enhancing clarity and quick reference.",
+          "explanation": "Visual summaries facilitate comprehension and allow readers to grasp complex data efficiently."
+        },
+        {
+          "remarks": "Performance metrics are reported inconsistently, limiting comparability across studies.",
+          "original_text": "Performance metrics are reported inconsistently across studies, with some studies only reporting one metric.",
+          "improved_version": "Standardize reporting by advocating for a core set of performance metrics (e.g., AUC, accuracy, F1-score, precision, recall) to be reported in all studies, and include a summary table highlighting these metrics across studies.",
+          "explanation": "Consistent metrics facilitate comparison and meta-analysis, strengthening the validity of conclusions."
+        },
+        {
+          "remarks": "Interpretation of feature importance lacks discussion of context-specific relevance and potential confounders.",
+          "original_text": "The most important features are identified without discussing their context-specific relevance or potential confounders.",
+          "improved_version": "Add a discussion on how the importance of features may vary across different app domains and user populations, including potential confounders or biases influencing feature relevance.",
+          "explanation": "Deepening interpretation enhances understanding of model generalizability and practical applicability."
+        }
+      ]
+    },
+    "S7": {
+      "section_name": "Discussion",
+      "score": 3,
+      "summary": "The discussion section effectively summarizes key findings and methodological diversity but lacks depth in analyzing the mechanisms behind model performance and feature importance. It does not sufficiently address the generalizability of findings, ethical considerations, or practical implementation challenges. The narrative could be more cohesive, with clearer synthesis and linkage of insights. Addressing these issues would provide a more balanced, insightful, and actionable discussion for both researchers and practitioners.",
+      "suggestions": [
+        {
+          "remarks": "The discussion of prevention strategies is superficial, lacking analysis of why certain strategies succeed or fail.",
+          "original_text": "Few studies have tested churn prevention strategies in controlled trials.",
+          "improved_version": "The limited number of studies evaluating intervention effectiveness underscores the need for rigorous, controlled trials to establish causal impacts of churn prediction-informed strategies, and to assess their scalability and user acceptance.",
+          "explanation": "Clarifying the research gap and guiding future work strengthens the discussion's practical relevance."
+        },
+        {
+          "remarks": "The discussion does not sufficiently address the impact of dataset bias (e.g., dominance of mobile games) on generalizability.",
+          "original_text": "Most studies focused on mobile games, with fewer on health or social media apps.",
+          "improved_version": "While the majority of studies concentrate on mobile games, the review should explicitly analyze how the unique features of health and social media apps influence churn prediction performance, and discuss the potential for cross-domain model transferability.",
+          "explanation": "Analyzing domain-specific factors enhances the context and generalizability of findings."
+        },
+        {
+          "remarks": "The discussion lacks emphasis on ethical, privacy, and user experience considerations.",
+          "original_text": "The review does not sufficiently discuss ethical considerations of deploying churn models.",
+          "improved_version": "The discussion should include potential ethical issues, such as user privacy, data security, and the risk of manipulative interventions, which are critical for responsible deployment of churn prediction systems.",
+          "explanation": "Addressing ethical considerations broadens the review's societal relevance and responsibility."
+        }
+      ]
+    },
+    "S8": {
+      "section_name": "Conclusion",
+      "score": 3,
+      "summary": "The conclusion summarizes the main findings and emphasizes the potential of churn prediction models and behavioral features. However, it lacks specific references to quantitative results, does not clearly state how well the research questions were answered, and provides only broad implications. The section would benefit from more explicit evidence, concise language, and actionable recommendations for future research and practice. Enhancing clarity and specificity would strengthen the conclusion's impact.",
+      "suggestions": [
+        {
+          "remarks": "The conclusion lacks specific quantitative evidence to support key claims.",
+          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+          "improved_version": "The results show a broad spectrum of ML algorithms used for churn prediction, including logistic regression, Random Forest, and deep neural networks, with performance metrics such as AUC averaging around 0.83, supporting their effectiveness.",
+          "explanation": "Including specific performance metrics strengthens the support for the claims and enhances credibility."
+        },
+        {
+          "remarks": "The conclusion does not clearly specify the extent to which research questions were answered.",
+          "original_text": "While the review mentions the potential of churn prediction models, it does not specify the extent to which research questions were answered.",
+          "improved_version": "The review demonstrates that most research questions were addressed comprehensively, such as the variety of algorithms used and the importance of behavioral features, though some areas like real-world deployment remain underexplored.",
+          "explanation": "Explicitly stating how well the questions were answered clarifies the fulfillment of objectives."
+        },
+        {
+          "remarks": "The implications are broad and lack actionable recommendations.",
+          "original_text": "Implications are discussed broadly without specific, actionable insights.",
+          "improved_version": "The implications suggest prioritizing behavioral features in model development and recommend standardizing reporting practices to improve comparability across studies.",
+          "explanation": "Providing specific recommendations enhances practical and theoretical impact."
+        }
+      ]
+    },
+    "S9": {
+      "section_name": "References",
+      "score": 3,
+      "summary": "The reference list includes relevant and foundational sources but suffers from inconsistent formatting, incomplete citation details, and a lack of recent peer-reviewed articles. These issues reduce the credibility, professionalism, and traceability of the manuscript. Standardizing citation style, ensuring complete bibliographic information, and updating the references with recent literature would significantly improve the quality and authority of this section.",
+      "suggestions": [
+        {
+          "remarks": "References lack complete citation details and consistent formatting.",
+          "original_text": "[1] Ammara Ahmed and D. Maheswari Linen. 2017. A review and analysis of churn prediction methods for customer retention in telecom industries. In 2017 4th International Conference on Advanced Computing and Communication Systems (ICACCS), January 2017. 1\u20137. https://doi.org/10.1109/ICACCS.2017.8014605",
+          "improved_version": "[1] Ahmed, M., & Linen, D. M. (2017). A review and analysis of churn prediction methods for customer retention in telecom industries. In *Proceedings of the 2017 4th International Conference on Advanced Computing and Communication Systems (ICACCS)* (pp. 1-7). IEEE. https://doi.org/10.1109/ICACCS.2017.8014605",
+          "explanation": "Standardizing citation format with complete details improves clarity, traceability, and adherence to academic standards."
+        },
+        {
+          "remarks": "The references are not consistently formatted, with variations in author names, journal titles, and DOI inclusion.",
+          "original_text": "[2] Mehreen Ahmed, Hammad Afzal, Awais Majeed, and Behram Khan. 2017. A Survey of Evolution in Predictive Models and Impacting Factors in Customer Churn. Adv. Data Sci. Adapt. Data Anal. 09, 03 (July 2017), 1750007. https://doi.org/10.1142/S2424922X17500073",
+          "improved_version": "[2] Ahmed, M., Afzal, H., Majeed, A., & Khan, B. (2017). A survey of evolution in predictive models and impacting factors in customer churn. *Advances in Data Science and Adaptive Data Analytics*, 9(3), 1750007. https://doi.org/10.1142/S2424922X17500073",
+          "explanation": "Consistent formatting with full journal name, volume, issue, and DOI improves professionalism and ease of source identification."
+        },
+        {
+          "remarks": "The reference list lacks recent peer-reviewed journal articles, affecting the currency and robustness of the review.",
+          "original_text": "(Multiple references from 2017-2021, few from 2022-2023)",
+          "improved_version": "Update the reference list to include more recent peer-reviewed journal articles from 2022-2024, particularly in areas such as deep learning, explainable AI, and mobile health.",
+          "explanation": "Including recent literature ensures the review reflects the latest advancements and maintains scholarly relevance."
+        }
+      ]
+    },
+    "S10": {
+      "section_name": "Supplementary Materials",
+      "score": 3,
+      "summary": "The supplementary materials provide comprehensive methodological details and data synthesis, effectively supporting the main text. However, some sections, such as those on prevention strategies and standardization guidance, are less detailed, limiting practical relevance. The presentation can be dense, and clarity would benefit from additional visual aids and clearer subheadings. Enhancing the completeness, clarity, and practical guidance in these materials will improve their utility for researchers and practitioners.",
+      "suggestions": [
+        {
+          "remarks": "The section on prevention strategies lacks practical implementation details.",
+          "original_text": "Limited discussion on how prevention strategies are practically implemented or evaluated beyond a few studies, reducing the relevance of this section to the main aim of understanding effective prevention.",
+          "improved_version": "Expand the discussion to include specific examples of how prevention strategies are implemented and evaluated in practice, and provide recommendations for future research on intervention effectiveness.",
+          "explanation": "Adding practical details and recommendations enhances the section's relevance and utility."
+        },
+        {
+          "remarks": "The presentation of model comparisons and performance metrics is dense and complex.",
+          "original_text": "The paragraph discussing the comparison of models and performance metrics is dense and contains complex sentences, which may hinder comprehension.",
+          "improved_version": "Simplify the presentation of model comparisons and performance metrics by using summary tables or visual aids, and break down complex sentences for better readability.",
+          "explanation": "Visual summaries and clearer language improve accessibility and comprehension."
+        },
+        {
+          "remarks": "The materials do not sufficiently elaborate on standardization for future research.",
+          "original_text": "While it discusses dataset heterogeneity, it does not sufficiently elaborate on how future research can standardize or improve reporting practices.",
+          "improved_version": "Provide detailed recommendations for standardizing reporting practices, including dataset descriptions, performance metrics, and feature definitions, to facilitate comparability and reproducibility in future studies.",
+          "explanation": "Offering concrete guidance on standardization supports methodological rigor and future research quality."
+        }
+      ]
+    }
+  },
+  "rigor_results": {
+    "R1": {
+      "section_name": "Originality and Contribution",
+      "score": 4,
+      "summary": "The review provides a comprehensive synthesis of mobile app churn prediction research, offering a valuable taxonomy of algorithms and features. Its main strength lies in organizing and clarifying the current state of the field, identifying research gaps, and providing practical recommendations. However, the review's originality is somewhat limited, as it does not introduce new theoretical frameworks or operational models. The contribution could be further strengthened by proposing standardized frameworks, operational guidelines, or experimental protocols for future research. Overall, the work is impactful in its breadth and organization, but future iterations should aim for greater methodological innovation and practical advancement.",
+      "suggestions": [
+        {
+          "remarks": "The review lacks a novel methodological or theoretical framework, which limits its perceived originality.",
+          "original_text": "The review claims to be the first to systematically synthesize mobile app churn prediction studies, but it primarily aggregates existing algorithms and features without proposing a new theoretical or methodological framework.",
+          "improved_version": "While pioneering in its comprehensive synthesis, this review uniquely integrates a taxonomy of features, algorithms, and performance metrics, offering a structured framework to guide future research and model development.",
+          "explanation": "Reframing the contribution as a structured framework elevates the originality beyond aggregation, positioning the review as a methodological resource."
+        },
+        {
+          "remarks": "There is insufficient discussion of how dataset variability impacts model performance and generalizability.",
+          "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
+          "improved_version": "The review highlights the wide variability in dataset sizes and discusses how this heterogeneity impacts model performance and generalizability, emphasizing the need for benchmarking standards.",
+          "explanation": "Explicitly addressing dataset heterogeneity and its impact adds depth to the review's contribution and guides future research toward standardization."
+        },
+        {
+          "remarks": "The review does not propose new operational frameworks or practical deployment strategies.",
+          "original_text": "The paper emphasizes behavioral features as most predictive but does not propose new models or frameworks for integrating these features into practical systems.",
+          "improved_version": "Building on the identified importance of behavioral features, the review proposes a conceptual framework for integrating these features into adaptive, real-time churn prediction and intervention systems.",
+          "explanation": "Suggesting a conceptual operational framework advances the contribution from theoretical insight to practical application."
+        }
+      ]
+    },
+    "R2": {
+      "section_name": "Impact and Significance",
+      "score": 4,
+      "summary": "This review makes a significant contribution by synthesizing the state of churn prediction in mobile apps, highlighting the importance of behavioral features and the diversity of machine learning approaches. Its impact is evident in the potential to inform future research, practical applications, and policy development. However, the review's influence is somewhat constrained by its focus on gaming and health apps, limited discussion of real-world deployment challenges (such as privacy and ethics), and lack of specific recommendations for standardization. Addressing these gaps would further enhance the societal and scientific significance of the work.",
+      "suggestions": [
+        {
+          "remarks": "The review does not sufficiently address the challenges of real-world deployment, such as privacy and ethical considerations.",
+          "original_text": "The discussion highlights the potential of behavioral features but underemphasizes the challenges in deploying models in real-world settings, such as data privacy and ethical considerations.",
+          "improved_version": "The discussion should include considerations of ethical implications related to deploying churn prediction models, including risks of user manipulation, privacy breaches, and informed user awareness.",
+          "explanation": "Explicitly addressing deployment challenges ensures the review's insights are applicable and impactful in real-world and policy contexts."
+        },
+        {
+          "remarks": "There is a lack of specific proposals for standardized frameworks or protocols for future research.",
+          "original_text": "The review notes heterogeneity in datasets and inconsistent reporting but does not propose specific standardized frameworks or protocols for future research.",
+          "improved_version": "Establishing and promoting standardized reporting protocols for datasets, features, and performance metrics will enhance transparency, comparability, and policy adoption.",
+          "explanation": "Proposing standardization directly addresses a key barrier to scientific progress and increases the review's impact."
+        },
+        {
+          "remarks": "The review emphasizes the potential of churn prevention strategies despite limited empirical evidence.",
+          "original_text": "Limited empirical evidence exists on the effectiveness of churn prevention strategies in controlled trials, yet the review emphasizes their potential.",
+          "improved_version": "Future research should prioritize controlled trials assessing the real-world effectiveness of churn prevention strategies informed by predictive models, to validate their practical utility.",
+          "explanation": "Encouraging rigorous validation of interventions strengthens the practical significance and credibility of the review's recommendations."
+        }
+      ]
+    },
+    "R3": {
+      "section_name": "Ethics and Compliance",
+      "score": 3,
+      "summary": "The review demonstrates a reasonable foundation in ethical considerations, including disclosure of affiliations and funding. However, it falls short in explicitly addressing key ethical issues such as data privacy, informed consent, conflicts of interest, and adherence to established guidelines (e.g., GDPR, IRB approval). There is also limited discussion of model fairness, bias, and the potential harms of deploying predictive models. Addressing these gaps would enhance the ethical rigor and compliance of the work, moving it toward best practices in responsible research.",
+      "suggestions": [
+        {
+          "remarks": "There is insufficient detail on data privacy and anonymization procedures in the original studies.",
+          "original_text": "The review mentions the use of datasets with user engagement data but does not specify how data privacy and anonymization procedures were handled in the original studies.",
+          "improved_version": "The review should detail whether the original studies reported procedures for data anonymization, privacy safeguards, and compliance with data protection regulations such as GDPR or HIPAA.",
+          "explanation": "Explicitly addressing privacy measures ensures adherence to data protection standards and reassures readers of ethical compliance."
+        },
+        {
+          "remarks": "The review does not discuss whether informed consent was obtained in the original studies.",
+          "original_text": "There is no discussion on whether the original studies obtained informed consent from users for data collection and analysis, particularly in health-related or behavioral datasets.",
+          "improved_version": "The review should include an assessment of whether the primary studies reported obtaining informed consent from participants, especially in sensitive health or behavioral data contexts.",
+          "explanation": "Acknowledging consent procedures aligns with ethical standards for participant autonomy and rights."
+        },
+        {
+          "remarks": "The review lacks explicit statements about adherence to ethical guidelines or IRB approvals.",
+          "original_text": "The review does not explicitly state adherence to established ethical guidelines such as the Declaration of Helsinki, GDPR, or IRB approvals for the included studies.",
+          "improved_version": "The authors should explicitly state whether the included studies reported adherence to ethical guidelines such as the Declaration of Helsinki, GDPR compliance, or IRB approval, and discuss how ethical standards were maintained.",
+          "explanation": "Explicit acknowledgment of ethical guideline adherence demonstrates commitment to research standards and ethical compliance."
+        }
+      ]
+    },
+    "R4": {
+      "section_name": "Data and Code Availability",
+      "score": 2,
+      "summary": "The review makes moderate efforts toward transparency by referencing data extraction sheets and appendices, but it does not provide open access to raw data, analysis scripts, or code repositories. This lack of accessible resources limits reproducibility, independent validation, and the potential for other researchers to build upon the work. To improve, the authors should host all relevant materials in open repositories, provide explicit access links, and include detailed documentation and licensing information.",
+      "suggestions": [
+        {
+          "remarks": "The review does not provide open access to data extraction sheets or analysis scripts.",
+          "original_text": "The full data extraction sheet is provided in Appendix 4.2.",
+          "improved_version": "The full data extraction sheet and analysis scripts are publicly hosted on a repository such as GitHub or OSF, with clear instructions for access and reuse.",
+          "explanation": "Open access to data and scripts enhances transparency, reproducibility, and future research replication."
+        },
+        {
+          "remarks": "There is no mention of code sharing or repositories.",
+          "original_text": "There is no mention of code sharing or repositories.",
+          "improved_version": "Publish all analysis code, data processing scripts, and review workflows in a version-controlled repository such as GitHub, GitLab, or OSF, with detailed README files and documentation.",
+          "explanation": "Sharing code repositories supports reproducibility, transparency, and community engagement."
+        },
+        {
+          "remarks": "The review lacks explicit statements about the availability and licensing of data and code.",
+          "original_text": "The review does not specify whether datasets or code are shared publicly.",
+          "improved_version": "Explicitly state the availability status of all datasets and code, including links to repositories, and specify licensing terms to clarify reuse permissions.",
+          "explanation": "Clear statements about data and code availability improve transparency and set expectations for reuse and validation."
+        }
+      ]
+    },
+    "R5": {
+      "section_name": "Statistical Rigor",
+      "score": 3,
+      "summary": "The review covers a wide range of machine learning algorithms and performance metrics but exhibits notable gaps in statistical rigor. Key issues include insufficient discussion of assumption checks, lack of multiple comparison corrections, absence of effect size and confidence interval reporting, and limited details on sample size justification and power analysis. Addressing these concerns would significantly enhance the credibility, reproducibility, and interpretability of the findings.",
+      "suggestions": [
+        {
+          "remarks": "There is minimal mention of assumption checks for statistical models.",
+          "original_text": "There is minimal mention of assumption checks for statistical models, such as verifying the proportional hazards assumption in Cox models or the distributional assumptions for parametric tests.",
+          "improved_version": "Include explicit statements about assumption verification steps, such as testing proportional hazards in Cox models or normality and homoscedasticity in regression analyses.",
+          "explanation": "Verifying assumptions ensures the validity of model inferences and prevents misinterpretation of results."
+        },
+        {
+          "remarks": "Few studies report confidence intervals for key performance metrics.",
+          "original_text": "Few studies report confidence intervals for performance metrics like AUC, accuracy, or F1 scores, which are essential for assessing estimate precision.",
+          "improved_version": "Recommend including 95% confidence intervals for all key performance metrics to quantify estimate uncertainty.",
+          "explanation": "Confidence intervals improve transparency and help assess the stability of the results across samples."
+        },
+        {
+          "remarks": "There is no mention of statistical power analyses or sample size calculations.",
+          "original_text": "No mention of statistical power analyses or sample size calculations to ensure sufficient power for detecting differences or effects.",
+          "improved_version": "Recommend conducting and reporting power analyses during study design to justify sample sizes and interpret non-significant results appropriately.",
+          "explanation": "Ensures studies are adequately powered, reducing the risk of Type II errors."
+        }
+      ]
+    },
+    "R6": {
+      "section_name": "Technical Accuracy",
+      "score": 3,
+      "summary": "The review provides a solid overview of churn prediction methodologies and categorizes algorithms and features comprehensively. However, it lacks explicit mathematical derivations, core equations for survival analysis models, and standardized reporting of validation procedures. There is also inconsistent use of technical terminology and insufficient detail on model training and evaluation protocols. Addressing these gaps would improve transparency, reproducibility, and technical rigor.",
+      "suggestions": [
+        {
+          "remarks": "The review does not include explicit mathematical formulas for key models.",
+          "original_text": "The review references various statistical and survival analysis models (e.g., Cox Regression, Kaplan-Meier) but does not provide explicit derivations or formulas.",
+          "improved_version": "Include the explicit mathematical formulas for Cox regression (e.g., hazard function, partial likelihood) and Kaplan-Meier estimator (e.g., survival function formula), with references to their derivations or standard texts.",
+          "explanation": "Providing these formulas enhances clarity, allows verification of correctness, and supports deeper understanding of the models discussed."
+        },
+        {
+          "remarks": "There is limited discussion on hyperparameter tuning, validation strategies, and convergence criteria.",
+          "original_text": "While the categorization of ML algorithms by complexity and their application is comprehensive, there is limited discussion on the specific hyperparameter tuning, model validation procedures, or convergence criteria used in the studies.",
+          "improved_version": "Add a subsection summarizing common hyperparameters, validation strategies (e.g., cross-validation, train-test splits), and convergence criteria reported across studies.",
+          "explanation": "This improves understanding of algorithm correctness, reproducibility, and efficiency."
+        },
+        {
+          "remarks": "Some technical terms are used without precise definitions or context.",
+          "original_text": "Some technical terms such as 'survival ensemble', 'heterogeneous multi-source data', and 'recency of data' are used without precise definitions or context-specific clarifications.",
+          "improved_version": "Include brief definitions or references for specialized terms like 'survival ensemble' (e.g., ensemble methods applied to survival analysis), 'heterogeneous multi-source data' (e.g., combining data from different modalities), and 'recency of data' (e.g., temporal relevance of features).",
+          "explanation": "Clarifying terminology ensures accurate interpretation and reduces ambiguity for readers unfamiliar with these concepts."
+        }
+      ]
+    },
+    "R7": {
+      "section_name": "Consistency",
+      "score": 3,
+      "summary": "The review is generally well-structured and consistent in its use of core terminology, but there are notable areas for improvement. The logical flow between methods and results could be strengthened with clearer linking statements. There are inconsistencies in the reporting of performance metrics, incomplete or missing figures and tables, and variable definitions for some feature categories. Supplementary materials are referenced but not provided, limiting transparency. Addressing these issues would enhance the manuscript's coherence, clarity, and academic rigor.",
+      "suggestions": [
+        {
+          "remarks": "Transitions between sections lack explicit linking statements, affecting logical flow.",
+          "original_text": "Transitions between sections lack explicit linking statements.",
+          "improved_version": "Add transition sentences such as 'Building on the methodology outlined, the following results detail the algorithms evaluated and their performance,' to guide the reader smoothly from methods to results.",
+          "explanation": "Improves logical flow and coherence between sections."
+        },
+        {
+          "remarks": "Figure 2 is referenced but not included, impairing understanding.",
+          "original_text": "Figure 2 is referenced but not included.",
+          "improved_version": "Ensure that Figure 2 is embedded within the manuscript or provided as an appendix, with a detailed caption explaining the categorization of algorithms, to facilitate understanding.",
+          "explanation": "Enhances comprehension and visual support for the text."
+        },
+        {
+          "remarks": "Terminology for feature categories is variably defined, leading to potential confusion.",
+          "original_text": "Terms like 'behavioral features' and 'transactional features' are variably defined.",
+          "improved_version": "Include a clear, standardized glossary or definitions table early in the manuscript that explicitly defines each feature category and provides examples, ensuring consistent terminology use.",
+          "explanation": "Reduces confusion and enhances terminology consistency across the review."
+        }
+      ]
+    }
+  },
+  "writing_results": {
+    "W1": {
+      "section_name": "Language and Style",
+      "score": 4,
+      "summary": "The manuscript demonstrates strong academic writing with a clear structure and detailed content. Most sentences are grammatically correct, and the tone is appropriate for a scholarly audience. However, there are occasional issues with verb tense consistency, sentence complexity, and minor typographical errors. Addressing these, particularly by simplifying overly long sentences and ensuring consistent punctuation and article usage, will further enhance clarity and professionalism. Overall, the writing is effective, but targeted refinements will improve readability and adherence to academic standards.",
+      "suggestions": [
+        {
+          "remarks": "Inconsistent verb tense usage reduces clarity and can confuse readers about the timeline of events.",
+          "original_text": "The research field of churn prediction developed to detect...",
+          "improved_version": "The research field of churn prediction has developed to detect...",
+          "explanation": "Using the present perfect tense aligns with the rest of the manuscript and clarifies the ongoing relevance of the research field."
+        },
+        {
+          "remarks": "Some sentences are overly long and complex, which impairs readability.",
+          "original_text": "Mean performance metrics of reported best-performing models, including AUC, F1-Score, and Accuracy, were calculated across all included studies, and the results showed a range of 82%-86% for AUC and 75%-80% for F1-Score.",
+          "improved_version": "Mean performance metrics for the best-performing models\u2014including AUC, F1-Score, and Accuracy\u2014were calculated across all included studies. The results showed an AUC range of 82%\u201386% and an F1-Score range of 75%\u201380%.",
+          "explanation": "Splitting the sentence and using en dashes for ranges improves clarity and aligns with academic style."
+        },
+        {
+          "remarks": "Minor typographical and punctuation errors affect professionalism.",
+          "original_text": "tranforming",
+          "improved_version": "transforming",
+          "explanation": "Correcting typographical errors ensures accuracy and maintains a professional tone."
+        }
+      ]
+    },
+    "W2": {
+      "section_name": "Narrative and Structure",
+      "score": 3,
+      "summary": "The manuscript presents a logical and comprehensive structure, moving from introduction to methods, results, and discussion. However, the narrative flow is occasionally disrupted by abrupt transitions, weak topic sentences, and insufficient explicit linking of findings to research questions. Paragraphs sometimes contain multiple ideas without clear organization, and visual elements are not well integrated into the text. Addressing these issues by improving transitions, strengthening topic sentences, and explicitly referencing research questions and visuals will enhance coherence and reader engagement.",
+      "suggestions": [
+        {
+          "remarks": "Transitions between major sections are minimal, leading to a choppy reading experience.",
+          "original_text": "The screening process for the selection of articles was conducted in several steps. After applying the outlined search strategies, the resulting database reference lists were imported into the web-based systematic review program Covidence.",
+          "improved_version": "The article screening process involved multiple steps: first, applying the search strategies and importing results into Covidence, a systematic review tool, to manage duplicates and facilitate independent review.",
+          "explanation": "Providing a clearer, more logical sequence of steps improves narrative flow and understanding of methodology."
+        },
+        {
+          "remarks": "Results and discussion sections lack explicit linking of findings to research questions, weakening the argument.",
+          "original_text": "The results section presents a wealth of data and statistics, but the logical connection between findings and their implications in the discussion is sometimes weak, with limited explicit linking of results to research questions.",
+          "improved_version": "While the results provide detailed data, explicitly linking each key finding back to the corresponding research questions in the discussion would clarify how the evidence supports or refutes each hypothesis.",
+          "explanation": "Encourages clearer hypothesis tracking and strengthens the logical flow between results and discussion."
+        },
+        {
+          "remarks": "Figures and tables are not always explicitly referenced or integrated into the narrative.",
+          "original_text": "Figures and tables are used effectively but are not always explicitly referenced or integrated into the narrative, reducing their impact.",
+          "improved_version": "Explicitly referencing and discussing each figure and table within the text would enhance their integration, helping readers connect visual data with the narrative points.",
+          "explanation": "Improves visual element integration, making visual data more accessible and impactful."
+        }
+      ]
+    },
+    "W3": {
+      "section_name": "Clarity and Conciseness",
+      "score": 3,
+      "summary": "The manuscript is comprehensive and detailed but would benefit from greater clarity and conciseness. Complex language, lengthy sentences, and dense paragraphs can hinder quick understanding, especially for non-specialist readers. Reducing jargon, breaking up long sentences and paragraphs, and summarizing key findings will improve readability and accessibility without sacrificing scientific rigor.",
+      "suggestions": [
+        {
+          "remarks": "Complex phrases and technical jargon may hinder understanding for non-specialist readers.",
+          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+          "improved_version": "The findings show many ML algorithms used for predicting user churn and survival times, from logistic regression to deep neural networks.",
+          "explanation": "Simplifies language and reduces complexity, making the sentence clearer and more concise."
+        },
+        {
+          "remarks": "Long sentences, especially those describing algorithms and performance metrics, impair readability.",
+          "original_text": "Many sentences, especially those describing algorithms and performance metrics, are lengthy and contain multiple clauses.",
+          "improved_version": "Break long sentences into shorter ones, especially when describing algorithms and metrics. For example, separate the description of algorithms from performance results.",
+          "explanation": "Improves readability by reducing sentence length and complexity."
+        },
+        {
+          "remarks": "Dense technical language and lack of transition sentences hinder smooth reading.",
+          "original_text": "The dense technical language and lack of transition sentences in the discussion hinder smooth reading.",
+          "improved_version": "Add transition sentences and simplify technical language where possible to improve flow and accessibility.",
+          "explanation": "Enhances overall readability and comprehension."
+        }
+      ]
+    },
+    "W4": {
+      "section_name": "Terminology Consistency",
+      "score": 3,
+      "summary": "Terminology is generally consistent, but there are notable areas for improvement. The manuscript sometimes uses synonyms (e.g., 'user churn', 'user attrition', 'dropout') interchangeably without clear definitions, and acronyms are not always introduced or used consistently. Standardizing definitions, acronym usage, and formatting of technical terms and metrics will improve clarity and reduce ambiguity.",
+      "suggestions": [
+        {
+          "remarks": "Key terms are used interchangeably without clear definitions, which can cause confusion.",
+          "original_text": "The term 'user attrition' is used interchangeably with 'user churn' and 'dropout' in different sections.",
+          "improved_version": "For consistency, define all these terms at the outset, e.g., 'User attrition, user churn, and dropout are used interchangeably to refer to users discontinuing app use.'",
+          "explanation": "Provides clear, consistent terminology and reduces ambiguity."
+        },
+        {
+          "remarks": "Acronyms are used without initial definitions, which may confuse readers unfamiliar with the terms.",
+          "original_text": "Acronyms like ML, SVM, RNN, LSTM are used without initial definitions in some instances.",
+          "improved_version": "Introduce each acronym with its full form upon first use, e.g., 'Support Vector Machine (SVM)', 'Recurrent Neural Network (RNN)', 'Long Short-Term Memory (LSTM)'.",
+          "explanation": "Enhances clarity for readers unfamiliar with abbreviations."
+        },
+        {
+          "remarks": "Performance metrics are reported with inconsistent formatting.",
+          "original_text": "The performance metrics such as AUC, F1-Score, Accuracy are reported with inconsistent formatting.",
+          "improved_version": "Performance metrics such as AUC, F1-Score, and Accuracy should be consistently formatted, e.g., always capitalized and hyphenated as 'F1-Score' and 'AUC'.",
+          "explanation": "Ensures uniform presentation of metrics, improving professionalism."
+        }
+      ]
+    },
+    "W5": {
+      "section_name": "Inclusive Language",
+      "score": 3,
+      "summary": "The manuscript generally uses inclusive language, with gender-neutral terms like 'users' and 'their.' However, there are opportunities to further enhance inclusivity by explicitly acknowledging diversity in gender, culture, ability, and socioeconomic status. Addressing the exclusion of non-English studies and avoiding overgeneralizations about user behavior will improve fairness and applicability across diverse populations.",
+      "suggestions": [
+        {
+          "remarks": "Explicitly acknowledging diversity and gender neutrality can further promote inclusivity.",
+          "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
+          "improved_version": "User churn, referring to the discontinuation of a product or service by individuals of all genders and backgrounds, poses significant challenges across various industry domains, including gaming, healthcare, and education.",
+          "explanation": "Specifies that the language is inclusive of all genders and backgrounds, promoting gender neutrality and broad applicability."
+        },
+        {
+          "remarks": "The review does not address the exclusion of non-English studies, which limits geographic and cultural inclusivity.",
+          "original_text": "The review only includes articles published in English, which may exclude relevant research from non-English speaking regions.",
+          "improved_version": "The review primarily includes articles published in English; future research should incorporate multilingual sources to enhance geographic and cultural diversity.",
+          "explanation": "Acknowledges language limitations while encouraging broader inclusion to improve inclusivity."
+        },
+        {
+          "remarks": "Discussion of behavioral features as universally applicable could reinforce stereotypes.",
+          "original_text": "The discussion emphasizes behavioral features as universally applicable, which could inadvertently reinforce stereotypes about user behavior.",
+          "improved_version": "The discussion highlights behavioral features as significant predictors, while recognizing the diversity of user behaviors influenced by cultural, socioeconomic, and individual differences, avoiding overgeneralizations.",
+          "explanation": "Promotes awareness of diversity and prevents stereotypes by emphasizing variability in user behavior."
+        }
+      ]
+    },
+    "W6": {
+      "section_name": "Citation Formatting",
+      "score": 3,
+      "summary": "Citation formatting is moderately consistent but suffers from mixed styles, inconsistent use of brackets and parentheses, and occasional mismatches between in-text citations and the reference list. Adopting a uniform citation style (such as APA author-year), ensuring consistent formatting, and verifying cross-references will improve clarity and professionalism.",
+      "suggestions": [
+        {
+          "remarks": "Numeric in-text citations are used inconsistently and should be replaced with a standard author-year format.",
+          "original_text": "[1, 23, 28, 68, 84]",
+          "improved_version": "(Ahmed & Linen, 2017; Mehreen Ahmed et al., 2017; Eysenbach, 2005; Sifa, 2021; Jakob et al., 2022)",
+          "explanation": "Switching to author-year format enhances clarity, aligns with APA style, and improves consistency."
+        },
+        {
+          "remarks": "Unpublished or in-press works are cited in a non-standard way.",
+          "original_text": "(2025) (In preparation)",
+          "improved_version": "[Author, in press]",
+          "explanation": "Using '[Author, in press]' clearly indicates unpublished work per style guidelines and maintains consistency."
+        },
+        {
+          "remarks": "References to numeric citations should be replaced with author-year format for consistency.",
+          "original_text": "[12, 77, 80]",
+          "improved_version": "(Kwon et al., 2021; Yang et al., 2022; Li et al., 2021)",
+          "explanation": "Replacing numeric citations with author-year format improves readability and aligns with common academic standards."
+        }
+      ]
+    },
+    "W7": {
+      "section_name": "Target Audience Alignment",
+      "score": 4,
+      "summary": "The manuscript is well-structured and demonstrates a high level of technical rigor suitable for an academic audience. It covers algorithms, features, and performance metrics comprehensively. However, dense technical language and the lack of visual summaries may limit accessibility for practitioners or interdisciplinary readers. Incorporating more visual aids, simplifying complex sentences, and explicitly highlighting practical implications will broaden the manuscript's impact.",
+      "suggestions": [
+        {
+          "remarks": "Dense methodology and technical terminology may overwhelm non-expert readers.",
+          "original_text": "The methodology section is densely packed with procedural details and extensive technical terminology, which may overwhelm non-expert readers or practitioners seeking a high-level overview.",
+          "improved_version": "Summarize key methodological steps in a flowchart or checklist and provide brief explanations of technical terms to make the methodology more accessible to non-experts.",
+          "explanation": "Visual summaries and simplified explanations improve accessibility and comprehension for a broader audience."
+        },
+        {
+          "remarks": "Results lack visual summaries, making it harder for readers to grasp key findings efficiently.",
+          "original_text": "Results are presented with numerous statistical metrics and dataset specifics, but lack visual summaries like tables or figures that could facilitate quick understanding.",
+          "improved_version": "Include summary tables or figures to present key performance metrics and dataset characteristics, enabling readers to quickly grasp main findings.",
+          "explanation": "Visual aids facilitate efficient understanding and comparison of results."
+        },
+        {
+          "remarks": "Discussion could better highlight practical implications for practitioners and broader audiences.",
+          "original_text": "The discussion emphasizes technical comparisons and nuanced insights but could benefit from clearer implications for practitioners and broader audiences.",
+          "improved_version": "Add a subsection in the discussion that outlines practical recommendations and implications for practitioners and policymakers.",
+          "explanation": "Explicitly addressing practical implications increases relevance and engagement for a wider audience."
+        }
+      ]
+    },
+    "W8": {
+      "section_name": "Visual Presentation",
+      "score": 1,
+      "summary": "The manuscript currently lacks visual presentation elements such as figures and tables, which significantly diminishes clarity, accessibility, and overall effectiveness. The absence of visual aids makes it difficult for readers to quickly interpret complex data and understand the study selection process. Incorporating well-designed figures, tables, and visual summaries, along with clear captions and consistent styling, will greatly enhance comprehension, engagement, and the professional quality of the paper.",
+      "suggestions": [
+        {
+          "remarks": "The PRISMA flowchart is referenced but not included, severely limiting understanding of the study selection process.",
+          "original_text": "Figure 1: PRISMA flowchart illustrating the study selection process and app domains of included studies.",
+          "improved_version": "Insert a high-resolution PRISMA flowchart illustrating the study selection process, including stages of screening, eligibility, and inclusion, with clear labels for reasons for exclusion. Ensure the diagram is visually distinct, with consistent style and color contrast.",
+          "explanation": "A visual flowchart enhances transparency, allows quick understanding of the study selection process, and improves overall clarity."
+        },
+        {
+          "remarks": "Tables summarizing performance metrics and feature prevalence are referenced but not included.",
+          "original_text": "Tables 1 and 2 are referenced but not included.",
+          "improved_version": "Include well-formatted tables summarizing performance metrics (Table 1) and feature prevalence (Table 2). Use clear headers, consistent font, and adequate spacing. Highlight key data points with shading or bolding where appropriate.",
+          "explanation": "Tables facilitate quick comparison and comprehension of complex quantitative data, supporting the narrative effectively."
+        },
+        {
+          "remarks": "No visual summaries (charts or diagrams) are provided for performance metrics or feature importance.",
+          "original_text": "Descriptive text about performance metrics and features.",
+          "improved_version": "Complement textual descriptions with visual summaries such as bar charts or box plots showing performance metric distributions and feature importance rankings. Use color coding for different algorithms or feature categories.",
+          "explanation": "Visual summaries improve data interpretation speed and highlight key differences or trends more effectively than text alone."
+        }
+      ]
+    }
+  }
+}

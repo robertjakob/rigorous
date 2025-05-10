@@ -31,7 +31,7 @@ The system consists of three main categories of agents:
 - R6: Technical Accuracy
 - R7: Consistency
 
-### Writing Agents (W1-W8)
+### Writing Agents (W1-W7)
 - W1: Language and Style
 - W2: Narrative and Structure
 - W3: Clarity and Conciseness
@@ -39,7 +39,17 @@ The system consists of three main categories of agents:
 - W5: Inclusive Language
 - W6: Citation Formatting
 - W7: Target Audience Alignment
-- W8: Visual Presentation
+
+### Quality Control Agent
+The Quality Control Agent serves as a final validation layer that:
+- Reviews and validates outputs from all other agents
+- Ensures consistency and quality across all analyses
+- Provides a comprehensive final report with:
+  - Validated scores and feedback
+  - Critical remarks and improvement suggestions
+  - Detailed explanations for each suggestion
+  - Overall quality assessment
+- Uses GPT-4.1 for high-quality structured output
 
 ## Installation
 
@@ -56,6 +66,10 @@ pip install -r requirements.txt
 ```bash
 python run_analysis.py
 ```
+3. Run quality control:
+```bash
+python run_quality_control.py
+```
 
 ## Output
 
@@ -63,6 +77,7 @@ The system generates JSON files in the `results/` directory containing:
 - Individual agent results (`{agent_name}_results.json`)
 - Combined results (`combined_results.json`)
 - Manuscript data (`manuscript_data.json`)
+- Quality control results (`quality_control_results.json`)
 
 Each agent's analysis follows a consistent JSON structure:
 
@@ -110,7 +125,8 @@ V6_multi_agent3/
 │   ├── reviewer_agents/
 │   │   ├── section/      # Section agents (S1-S10)
 │   │   ├── rigor/        # Rigor agents (R1-R7)
-│   │   ├── writing/      # Writing agents (W1-W8)
+│   │   ├── writing/      # Writing agents (W1-W7)
+│   │   ├── quality/      # Quality control agent
 │   │   └── controller_agent.py
 │   ├── core/            # Core functionality and configuration
 │   └── utils/           # Utility functions
