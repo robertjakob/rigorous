@@ -2,7 +2,7 @@
 
 > **Note:** This repository is currently private but is intended to be released as open source once the first functional version is made public on [https://www.rigorous.company/](https://www.rigorous.company/). We believe in transparency for how ratings and reviews are conducted, and we encourage others to experiment with and improve the code to advance open, rigorous peer review in science.
 
-We want to change how scientific work is created, evaluated, and shared. This repository provides tools to make scientific publishing more transparent, affordable, and agile.
+We want to change how scientific work is created, evaluated, and shared. This repository intends to provide the tools to make scientific publishing more transparent, affordable, and agile.
 
 ## Project Structure
 
