@@ -3,136 +3,128 @@
   "critical_remarks": [
     {
       "category": "context",
-      "location": "Section 2 (Introduction)",
-      "issue": "While the background on user churn and machine learning is comprehensive, it lacks a clear, concise overview of the specific challenges and nuances of mobile app churn compared to other domains, which could better justify the focus on mobile apps.",
+      "location": "Introduction (Section 1)",
+      "issue": "The background provides extensive detail on environmental impacts and dietary trends but lacks a clear, concise overview of the specific research gap that this study addresses, making it difficult to grasp the unique contribution.",
       "severity": "medium",
-      "impact": "This limits the reader's understanding of why mobile app churn prediction warrants a dedicated review, potentially weakening the perceived importance of the study."
+      "impact": "This diminishes clarity about the novelty and necessity of the research, potentially confusing readers about the study's precise focus."
     },
     {
       "category": "problem",
-      "location": "Section 2 (Introduction)",
-      "issue": "The problem statement mentions the lack of a review in the mobile app context but does not explicitly specify the limitations of existing studies or the specific gaps in methodology, features, or performance reporting that this review aims to address.",
+      "location": "Introduction (Section 1-2)",
+      "issue": "While the problem of dietary impact on climate change is discussed, the specific gap\u2014such as the lack of empirical evidence on consumer responses to targeted product swap recommendations\u2014is insufficiently emphasized.",
       "severity": "high",
-      "impact": "This reduces clarity on the unique problem this review tackles, making the contribution less compelling and specific."
+      "impact": "This weakens the justification for the experimental approach and reduces perceived urgency or importance of the study."
     },
     {
       "category": "objectives",
-      "location": "Section 2 (Introduction)",
-      "issue": "The research questions are clearly listed but could benefit from more explicit linkage to the identified gaps, such as how they address inconsistencies or the need for standardization in reporting.",
-      "severity": "low",
-      "impact": "This affects the perceived clarity of how the objectives directly respond to the literature gaps, slightly weakening the focus."
+      "location": "Introduction (Section 1-2)",
+      "issue": "The objectives are embedded within the description of the intervention rather than explicitly stated as clear, standalone research questions or hypotheses at the outset.",
+      "severity": "medium",
+      "impact": "This affects clarity, making it harder for readers to quickly understand the specific aims and hypotheses guiding the research."
     },
     {
       "category": "significance",
-      "location": "Section 2 (Introduction)",
-      "issue": "While the importance of churn prediction is discussed broadly, the introduction does not sufficiently emphasize the specific impact of this review on practical applications like health, education, or personalized systems, which could strengthen justification.",
-      "severity": "medium",
-      "impact": "This limits the reader's appreciation of the review's broader implications and real-world significance."
+      "location": "Introduction (Section 1-2)",
+      "issue": "Although the potential impact on consumer behavior and sustainability is discussed, the broader implications for policy, retail practice, or environmental outcomes are not explicitly articulated.",
+      "severity": "low",
+      "impact": "This limits the perceived importance and real-world relevance of the study\u2019s findings."
     },
     {
       "category": "structure",
-      "location": "Section 2 (Introduction)",
-      "issue": "The flow from background to problem statement to objectives is somewhat dense and could be better organized with clearer signposting or subheadings to guide the reader.",
+      "location": "Introduction (Section 1-2)",
+      "issue": "The flow from broad background to specific research aims is somewhat disjointed, with some sections overlapping or lacking smooth transitions, reducing overall coherence.",
       "severity": "low",
-      "impact": "This affects readability and the logical progression, potentially making it harder for readers to grasp the core motivations quickly."
+      "impact": "This hampers readability and may cause confusion about the logical progression of ideas."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "User churn, also referred to as user attrition, loss, abandonment, or dropout, is a well-recognized phenomenon characterized by users' discontinuation of a product or service. It has posed significant challenges across diverse industries, calling for strategies to mitigate its impact [1, 23, 28, 68, 84].",
-      "improved_version": "User churn, or attrition, refers to users discontinuing a product or service prematurely. This phenomenon presents critical challenges across various industries\u2014such as gaming, healthcare, and education\u2014necessitating effective prediction and intervention strategies to improve user retention and engagement.",
-      "explanation": "This revision clarifies the scope and importance of churn in specific domains, setting a more targeted background that justifies the focus on mobile apps.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
+      "improved_version": "Dietary choices are a key driver of both human health outcomes and environmental sustainability, notably through their contribution to food-related greenhouse gas emissions (GHGE), which significantly influence climate change.",
+      "explanation": "This revision clarifies the dual importance of dietary choices and emphasizes the significance of GHGE as a climate driver, setting a clearer background.",
+      "location": "Introduction (Section 1)",
       "category": "context",
       "focus": "background"
     },
     {
-      "original_text": "While the progress in churn prediction research is acknowledged, no review has yet been undertaken to summarize them in the context of mobile apps.",
-      "improved_version": "Despite extensive research on churn prediction in domains like telecommunications and finance, there is a notable gap: no comprehensive review has synthesized studies specifically focused on mobile app contexts, which differ in data types, features, and user behaviors.",
-      "explanation": "This explicitly states the gap, emphasizing the novelty and necessity of the review, strengthening the problem statement.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "While broad dietary guidelines advocate for reducing animal-based food consumption, these recommendations often lack the specific and actionable direction to motivate behaviour change.",
+      "improved_version": "Although general dietary guidelines recommend reducing animal-based food intake, they often fall short in providing specific, actionable strategies that effectively motivate consumers to change their behaviour.",
+      "explanation": "This enhances clarity by explicitly stating the limitation of current guidelines and framing the research gap more precisely.",
+      "location": "Introduction (Section 1)",
       "category": "problem",
       "focus": "gap"
     },
     {
-      "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
-      "improved_version": "This review aims to analyze not only the machine learning algorithms and features used but also to evaluate the effectiveness of various churn prevention strategies integrated with prediction models, addressing a key gap in understanding their practical impact.",
-      "explanation": "Clarifies the dual focus on methodological synthesis and practical outcomes, making the objectives more explicit and comprehensive.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "This study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+      "improved_version": "This study investigates whether providing consumers with specific, actionable product swap recommendations\u2014such as substituting animal-based products with plant-based alternatives\u2014can effectively influence their purchasing decisions in an experimental online supermarket environment.",
+      "explanation": "This makes the research aim more explicit, highlighting the intervention and setting, which improves clarity of objectives.",
+      "location": "Introduction (Section 1)",
       "category": "objectives",
       "focus": "objectives"
     },
     {
-      "original_text": "The significance of this review lies in its potential to guide developers and researchers in selecting appropriate models and features for mobile app churn prediction.",
-      "improved_version": "The significance of this review stems from its potential to inform both researchers and practitioners about effective algorithms, features, and strategies for mobile app churn prediction, ultimately supporting the development of more personalized and adaptive user retention systems.",
-      "explanation": "Enhances justification by linking the review\u2019s outcomes to tangible improvements in system personalization and user engagement.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+      "improved_version": "Results indicate that participants generally responded positively to product swap recommendations, achieving an average reduction of 25% in their basket\u2019s GHGE and swapping approximately four products, with nearly 90% swapping at least one item.",
+      "explanation": "Rephrasing improves flow and emphasizes the significance of these preliminary findings, linking them directly to the intervention\u2019s potential impact.",
+      "location": "Introduction (Section 1)",
       "category": "significance",
-      "focus": "significance"
+      "focus": "impact"
     },
     {
-      "original_text": "The paper is organized as follows: Methods, Results, Discussion, and Conclusion.",
-      "improved_version": "The paper is organized into sections covering Methods, Results, Discussion, and Conclusions, with clear subheadings guiding the reader through the systematic review process, findings, and implications.",
-      "explanation": "Adding detail about organization improves readability and signals a well-structured approach, enhancing flow.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
+      "improved_version": "While targeted recommendations successfully increased the selection of the most effective GHGE-reducing swap, they did not lead to a statistically significant overall reduction in basket GHGE for most participants, indicating potential limitations of the approach.",
+      "explanation": "This clarifies the nuanced outcome, highlighting the discrepancy between specific behavior and overall impact, which enhances understanding of the research findings.",
+      "location": "Introduction (Section 1)",
+      "category": "problem",
+      "focus": "gap"
+    },
+    {
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "This study was preregistered to ensure transparency and was designed to be incentive-compatible, reflecting real-world shopping motivations.",
+      "explanation": "Adding context about the importance of preregistration and incentives clarifies the methodological rigor and relevance, strengthening the background.",
+      "location": "Introduction (Section 1)",
       "category": "structure",
       "focus": "flow"
     },
     {
-      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
-      "improved_version": "The datasets across studies exhibited significant variability in size, from small samples of 61 users to large-scale datasets with up to 37 million users, reflecting diverse data sources and contexts in mobile app research.",
-      "explanation": "Clarifies the implication of dataset variability, emphasizing the heterogeneity in data sources and challenges in standardization.",
-      "location": "Section 3.1 (Results)",
-      "category": "context",
-      "focus": "background"
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
+      "improved_version": "The intervention involved a dedicated product swap recommendations page that included: (1) explanatory text highlighting how substituting animal-based with plant-based products can significantly reduce environmental impact, and (2) a tailored list of specific swap suggestions matching each animal-based product to the closest plant-based analogue (see Fig. 1a).",
+      "explanation": "This revision improves clarity, conciseness, and logical flow, making the intervention components easier to understand and follow.",
+      "location": "Introduction (Section 1)",
+      "category": "structure",
+      "focus": "flow"
     },
     {
-      "original_text": "Most studies evaluated and compared multiple ML algorithms, but no single model consistently outperformed others across all contexts.",
-      "improved_version": "While many studies evaluated multiple machine learning algorithms, no single model emerged as universally superior; instead, performance depended on specific datasets, features, and application contexts, underscoring the need for tailored model selection.",
-      "explanation": "Highlights the importance of context-specific model choice, guiding practitioners to adopt an iterative, empirical approach.",
-      "location": "Section 3.2 (Results)",
-      "category": "problem",
-      "focus": "gap"
+      "original_text": "Participants were randomly exposed to one of four experimental conditions of a 2 x 2 experimental design on the product swap recommendation page: Targeted(Yes vs. No) and Information(Yes vs. No), shown in Figure 1.",
+      "improved_version": "Participants were randomly assigned to one of four experimental conditions within a 2 x 2 factorial design, varying in whether the most effective GHGE-reducing swap was highlighted (Targeted: Yes/No) and whether GHGE reduction information was provided alongside recommendations (Information: Yes/No), as illustrated in Fig. 1.",
+      "explanation": "This enhances clarity by explicitly describing the factorial design and its components, improving logical flow.",
+      "location": "Introduction (Section 1)",
+      "category": "structure",
+      "focus": "flow"
     },
     {
-      "original_text": "Behavioral features related to users\u2019 activity and progress within apps were identified as most important for predicting churn.",
-      "improved_version": "Across multiple studies, behavioral features capturing user activity and progress\u2014such as login frequency and completed tasks\u2014consistently ranked as the most influential predictors of churn, highlighting their universal applicability.",
-      "explanation": "Strengthens the statement by emphasizing consistency and universality, supporting the focus on behavioral data.",
-      "location": "Section 3.3 (Results)",
-      "category": "significance",
-      "focus": "background"
-    },
-    {
-      "original_text": "Few studies have rigorously evaluated churn prevention strategies in controlled settings, indicating a gap in evidence for practical deployment.",
-      "improved_version": "Despite the recognized potential of churn prediction models to enable targeted interventions, only a limited number of studies have empirically tested the effectiveness of such strategies in controlled trials, revealing a critical gap between predictive modeling and real-world application.",
-      "explanation": "Clarifies the gap and emphasizes the importance of bridging research and practice, strengthening the significance argument.",
-      "location": "Section 3.4 (Results)",
-      "category": "problem",
-      "focus": "gap"
-    },
-    {
-      "original_text": "Inconsistent reporting standards hinder meta-analyses and cross-study comparisons.",
-      "improved_version": "The lack of standardized reporting on datasets, features, and performance metrics impedes the ability to conduct comprehensive meta-analyses and compare findings across studies, highlighting the need for unified reporting guidelines.",
-      "explanation": "Explicitly states the consequence and the need for standardization, which can guide future research practices.",
-      "location": "Section 5 (Limitations and Recommendations)",
-      "category": "problem",
-      "focus": "problem"
-    },
-    {
-      "original_text": "This review aims to provide a detailed overview of churn prediction research in mobile apps, identifying effective ML algorithms and features.",
-      "improved_version": "This review aims to systematically synthesize existing research on churn prediction in mobile apps, identifying effective machine learning algorithms, key features, and methodological best practices to inform future studies and applications.",
-      "explanation": "Provides a clearer scope and emphasizes the systematic nature and practical relevance of the review.",
-      "location": "Section 2 (Introduction)",
+      "original_text": "The primary dependent variable was basket GHGE reduction following the product swap recommendations intervention.",
+      "improved_version": "The primary outcome measure was the percentage reduction in greenhouse gas emissions (GHGE) of the shopping basket after implementing the product swap recommendations.",
+      "explanation": "Clarifies the dependent variable, emphasizing the measurement and its relevance to the intervention\u2019s goal.",
+      "location": "Introduction (Section 1)",
       "category": "objectives",
       "focus": "objectives"
+    },
+    {
+      "original_text": "The study was approved by the University of Zurich Ethics Committee. The preregistration and the data of this study are publicly available on the Open Science Framework project page.",
+      "improved_version": "The study received ethical approval from the University of Zurich Ethics Committee, and all preregistration details, data, and analysis scripts are publicly accessible via the Open Science Framework (OSF) to ensure transparency and reproducibility.",
+      "explanation": "This emphasizes transparency and aligns with best practices, strengthening the justification for the study\u2019s credibility.",
+      "location": "Introduction (Section 1)",
+      "category": "significance",
+      "focus": "impact"
     }
   ],
   "detailed_feedback": {
-    "context_analysis": "The introduction offers a broad overview of user churn and its significance across industries, with particular emphasis on mobile apps. However, it would benefit from a more focused discussion on the unique challenges and characteristics of mobile app churn, such as data granularity, user engagement patterns, and the rapid evolution of app ecosystems, to better justify the specific need for a dedicated review in this domain.",
-    "problem_analysis": "While the introduction highlights the absence of a systematic review in mobile app churn prediction, it does not sufficiently detail the limitations of existing studies, such as inconsistent methodologies, feature sets, or reporting standards. Clarifying these gaps would strengthen the argument for the review\u2019s necessity and its potential to advance the field.",
-    "objectives_analysis": "The research questions are comprehensive and well-structured, covering algorithms, features, performance, and intervention outcomes. Nonetheless, explicitly linking these questions to the identified gaps\u2014such as the lack of standardization and limited evaluation of prevention strategies\u2014would enhance clarity and focus.",
-    "significance_assessment": "The introduction underscores the economic and practical importance of churn prediction but could more explicitly articulate how this review will impact specific domains like digital health or personalized systems. Highlighting potential improvements in user retention, health outcomes, or system adaptability would strengthen the justification.",
-    "structure_evaluation": "The organization follows a conventional format, but transitions between background, problem, and objectives sections could be smoother. Incorporating clear subheadings or signposting phrases would improve readability, guiding the reader more effectively through the logical flow of motivations, gaps, and aims."
+    "context_analysis": "The background effectively discusses the importance of sustainable diets and environmental impacts of food choices, but it could be more concise and focused on the specific research niche. Currently, it provides extensive general information, which, while informative, dilutes the emphasis on the precise gap the study addresses.",
+    "problem_analysis": "The manuscript identifies that broad dietary guidelines lack specificity and actionable advice, yet it underplays the gap in empirical evidence regarding consumer responses to targeted product swap recommendations. Clarifying this gap would strengthen the rationale for the experimental approach.",
+    "objectives_analysis": "The objectives are embedded within the methodological description rather than explicitly stated as clear research questions or hypotheses. Explicitly listing these at the end of the introduction would improve clarity and guide the reader through the study\u2019s aims.",
+    "significance_assessment": "The potential policy and retail implications are touched upon but not elaborated. Explicitly discussing how this research advances knowledge or practice in sustainable food consumption would enhance the perceived importance.",
+    "structure_evaluation": "The introduction covers multiple themes\u2014background, problem, objectives, and significance\u2014without always maintaining a smooth logical flow. Reorganizing to start with a concise background, clearly state the research gap, then outline objectives and significance would improve coherence."
   },
-  "summary": "Overall, the introduction provides a solid foundation with comprehensive background and clear research questions. However, it would benefit from sharper focus on the unique challenges of mobile app churn, explicit articulation of research gaps, and stronger justification of the review\u2019s practical significance. Enhancing the clarity and organization will improve reader engagement and set a more compelling stage for the systematic review."
+  "summary": "Overall, the introduction demonstrates a solid foundation with relevant background and a clear experimental focus. However, it suffers from a somewhat scattered flow, insufficiently explicit research questions, and a need for sharper emphasis on the unique contribution and practical implications. Addressing these issues would elevate the clarity, coherence, and impact of the manuscript."
 }

@@ -3,176 +3,160 @@
   "critical_remarks": [
     {
       "category": "acronyms",
-      "location": "Abstract, paragraph 1",
-      "issue": "The acronym 'ML' is introduced without prior definition, which may cause confusion for readers unfamiliar with the abbreviation.",
+      "location": "Abstract, paragraph 2",
+      "issue": "GHGE is introduced as 'greenhouse gas emissions' but later inconsistently referred to as 'GHGE' without a prior full definition.",
       "severity": "medium",
-      "impact": "This affects clarity and consistency in acronym usage throughout the paper."
-    },
-    {
-      "category": "term_usage",
-      "location": "Introduction, paragraph 2",
-      "issue": "Terms such as 'user churn', 'attrition', 'loss', 'abandonment', and 'dropout' are used interchangeably without clear distinction or consistent terminology, which may lead to ambiguity.",
-      "severity": "high",
-      "impact": "This significantly impacts clarity and consistency in terminology, potentially confusing readers about the specific concept being discussed."
-    },
-    {
-      "category": "notation",
-      "location": "Equations section (not provided but implied in methodology)",
-      "issue": "Inconsistent notation style for variables and parameters across equations, e.g., some variables are italicized while others are not.",
-      "severity": "medium",
-      "impact": "This reduces readability and professional presentation, affecting overall quality."
+      "impact": "This inconsistency may cause confusion for readers unfamiliar with the acronym, affecting clarity and comprehension."
     },
     {
       "category": "field_terminology",
-      "location": "Results, section 3.2",
-      "issue": "The term 'best-performing models' is used repeatedly without specifying whether this refers to models with highest accuracy, AUC, or other metrics, leading to ambiguity.",
-      "severity": "medium",
-      "impact": "This impacts clarity in understanding which models are considered superior and based on what criteria."
-    },
-    {
-      "category": "cross_reference",
-      "location": "Throughout the document",
-      "issue": "Inconsistent referencing of figures and tables, e.g., 'Figure 2' is referenced without consistent formatting or placement, and some references to tables lack proper numbering.",
+      "location": "Introduction, paragraph 3",
+      "issue": "Terms like 'dietary guidelines' and 'recommendations' are used interchangeably without clear distinction, which may lead to ambiguity.",
       "severity": "low",
-      "impact": "This affects navigability and professional presentation but not core content understanding."
-    },
-    {
-      "category": "abbreviations",
-      "location": "Methodology, section 2",
-      "issue": "The abbreviation 'ICs' (Inclusion Criteria) is used without prior definition, which could cause confusion.",
-      "severity": "low",
-      "impact": "This impacts clarity for readers unfamiliar with the abbreviation."
-    },
-    {
-      "category": "technical_terms",
-      "location": "Discussion, paragraph 2",
-      "issue": "Terms like 'ensemble model' and 'hybrid strategies' are used without explicit definitions or references, risking misinterpretation.",
-      "severity": "medium",
-      "impact": "This affects precise understanding of technical concepts."
+      "impact": "While generally acceptable, clearer differentiation could improve precision in terminology."
     },
     {
       "category": "variable_naming",
-      "location": "Results, section 3.2",
-      "issue": "Variables such as 'F1-Score', 'Accuracy', 'AUC' are used interchangeably with different capitalizations and hyphenation (e.g., 'F1-Score', 'F1 score'), reducing consistency.",
-      "severity": "low",
-      "impact": "This impacts professionalism and readability."
+      "location": "Results, regression tables",
+      "issue": "Variables such as 'Targeted' and 'Information' are sometimes capitalized and sometimes lowercase, leading to inconsistency.",
+      "severity": "medium",
+      "impact": "Inconsistent variable naming reduces clarity and may cause confusion during interpretation."
     },
     {
       "category": "unit_notation",
-      "location": "Results, tables",
-      "issue": "Performance metrics are reported with inconsistent units or formats, e.g., some as percentages, others as decimal fractions, e.g., 'Accuracy = 86%' vs. 'mean = 0.83'.",
+      "location": "Methodology, section 2.4 Measures",
+      "issue": "Willingness-to-swap is expressed as a percentage, but sometimes the notation (e.g., 'WTS') is used without a consistent format or explanation.",
+      "severity": "low",
+      "impact": "Inconsistent notation can hinder understanding of measurement units and variables."
+    },
+    {
+      "category": "abbreviations",
+      "location": "Throughout the document",
+      "issue": "Some abbreviations like 'GWP' and 'GHGE' are defined, but others like 'LCA' are used without explicit definition.",
       "severity": "medium",
-      "impact": "This hampers direct comparison and reduces clarity."
+      "impact": "This inconsistency may impair reader comprehension, especially for field outsiders."
+    },
+    {
+      "category": "technical_terms",
+      "location": "Methodology, 2.1",
+      "issue": "Terms like 'bottom-up life cycle assessment (LCA)' are used, but the explanation varies in detail and sometimes lacks clarity.",
+      "severity": "low",
+      "impact": "Inconsistent technical term explanations can affect the perceived rigor and clarity of methodology."
+    },
+    {
+      "category": "cross_reference",
+      "location": "Results, 3.1.1",
+      "issue": "References to tables (e.g., Table 2, Table 3) are sometimes inconsistent in formatting or placement, and some references to figures (e.g., Fig. 1) lack clarity.",
+      "severity": "low",
+      "impact": "Inconsistent cross-referencing reduces navigability and professional presentation."
     },
     {
       "category": "definition",
       "location": "Introduction, paragraph 2",
-      "issue": "The term 'user churn' is defined broadly but without specifying the precise operational definition used across studies, leading to potential inconsistency.",
-      "severity": "high",
-      "impact": "This affects the comparability of studies and clarity of the concept."
+      "issue": "Key terms like 'product swap recommendations' are introduced but not always explicitly defined or consistently used throughout.",
+      "severity": "medium",
+      "impact": "Lack of clear, consistent definitions can lead to ambiguity in understanding core concepts."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
-      "improved_version": "User churn, defined as the premature discontinuation of a product or service by users, poses significant challenges across various industry domains such as gaming, healthcare, and education.",
-      "explanation": "Clarifies the definition and maintains consistency in terminology, improving readability.",
-      "location": "Abstract, paragraph 1",
-      "category": "term_usage",
-      "focus": "term_usage"
-    },
-    {
-      "original_text": "The acronym 'ML' is used throughout the paper without prior definition.",
-      "improved_version": "Machine Learning (ML) is used throughout the paper; ensure to define 'ML' at first mention.",
-      "explanation": "Provides clear initial definition, improving clarity and consistency.",
-      "location": "Abstract, paragraph 1",
-      "category": "acronyms",
+      "original_text": "GHGE is used throughout the text without a full prior definition.",
+      "improved_version": "Greenhouse Gas Emissions (GHGE) are used consistently after their first full mention.",
+      "explanation": "Ensuring the first mention fully defines the acronym improves clarity and consistency.",
+      "location": "Abstract, paragraph 2",
+      "category": "field_terminology",
       "focus": "acronyms"
     },
     {
-      "original_text": "Terms such as 'user churn', 'attrition', 'loss', 'abandonment', and 'dropout' are used interchangeably.",
-      "improved_version": "Use 'user churn' consistently throughout the manuscript, and define it explicitly as the discontinuation of app usage within the context of this review.",
-      "explanation": "Reduces ambiguity by standardizing terminology and clarifying definitions.",
-      "location": "Introduction, paragraph 2",
-      "category": "term_usage",
+      "original_text": "Terms like 'recommendations' and 'guidelines' are used interchangeably.",
+      "improved_version": "Use 'recommendations' when referring to specific suggested actions, and reserve 'guidelines' for broader policy or nutritional advice, maintaining clear distinctions.",
+      "explanation": "This clarifies terminology and prevents ambiguity between general and specific advice.",
+      "location": "Introduction, paragraph 3",
+      "category": "field_terminology",
       "focus": "term_usage"
     },
     {
-      "original_text": "In equations, variables are not consistently formatted.",
-      "improved_version": "Adopt a uniform notation style, e.g., italicize all variables (e.g., *x*, *y*, *\u03b8*) and keep parameters upright, following standard mathematical conventions.",
-      "explanation": "Enhances readability and professional presentation of equations.",
-      "location": "Equations section",
-      "category": "notation",
-      "focus": "notation"
-    },
-    {
-      "original_text": "Performance metrics like accuracy, F1-Score, and AUC are reported inconsistently.",
-      "improved_version": "Standardize reporting as percentages (e.g., Accuracy = 86%) or decimal fractions (e.g., AUC = 0.83), and specify units clearly in the text and tables.",
-      "explanation": "Facilitates direct comparison and improves clarity.",
-      "location": "Results, tables",
-      "category": "unit_notation",
-      "focus": "unit_notation"
-    },
-    {
-      "original_text": "The term 'best-performing models' is used without specifying the criteria.",
-      "improved_version": "Specify the performance metric used to determine 'best-performing,' such as 'highest AUC' or 'highest F1-Score,' in each context.",
-      "explanation": "Clarifies the basis for model comparison, improving transparency.",
-      "location": "Results, section 3.2",
-      "category": "field_terminology",
-      "focus": "field_terminology"
-    },
-    {
-      "original_text": "The abbreviation 'ICs' is used without prior definition.",
-      "improved_version": "Define 'ICs' as 'Inclusion Criteria' at its first occurrence: 'Inclusion Criteria (ICs):' and then use the abbreviation thereafter.",
-      "explanation": "Ensures clarity for all readers and maintains consistency.",
-      "location": "Methodology, section 2",
-      "category": "abbreviations",
-      "focus": "abbreviations"
-    },
-    {
-      "original_text": "Terms like 'ensemble model' and 'hybrid strategies' are used without explicit definitions.",
-      "improved_version": "Include brief definitions or references for 'ensemble model' (e.g., combining multiple models) and 'hybrid strategies' (e.g., combining sampling techniques) when first introduced.",
-      "explanation": "Enhances technical clarity and prevents misinterpretation.",
-      "location": "Discussion, paragraph 2",
-      "category": "technical_terms",
-      "focus": "technical_terms"
-    },
-    {
-      "original_text": "Variables such as 'F1-Score', 'Accuracy', 'AUC' are inconsistently capitalized and hyphenated.",
-      "improved_version": "Use consistent formatting, e.g., 'F1 score', 'accuracy', 'AUC', throughout the manuscript, following journal style guides.",
-      "explanation": "Improves professionalism and consistency in presentation.",
-      "location": "Results, section 3.2",
+      "original_text": "Variable names such as 'Targeted' and 'Information' are inconsistently capitalized.",
+      "improved_version": "Standardize variable names to lowercase (e.g., 'targeted', 'information') throughout all sections.",
+      "explanation": "Consistent naming conventions improve readability and reduce confusion in data interpretation.",
+      "location": "Results, tables and text",
       "category": "variable_naming",
-      "focus": "variable_naming"
+      "focus": "naming conventions"
     },
     {
-      "original_text": "Performance metrics are reported with inconsistent formats, e.g., 'Accuracy = 86%' vs. 'mean = 0.83'.",
-      "improved_version": "Report all performance metrics uniformly, either as percentages (e.g., 86%) or as decimal fractions (e.g., 0.83), and clarify in the text which format is used.",
-      "explanation": "Facilitates comparison and enhances clarity.",
-      "location": "Results, tables",
-      "category": "unit_notation",
-      "focus": "unit_notation"
+      "original_text": "Willingness-to-swap is sometimes abbreviated as 'WTS' without explanation.",
+      "improved_version": "Introduce 'WTS' as 'Willingness-to-Swap (WTS)' at first use, then use the abbreviation consistently afterward.",
+      "explanation": "Explicit initial definition ensures clarity for all readers, especially those unfamiliar with the abbreviation.",
+      "location": "Methods, section 2.4",
+      "category": "abbreviations",
+      "focus": "abbreviation usage"
     },
     {
-      "original_text": "The term 'user churn' is broadly defined but lacks operational clarity across studies.",
-      "improved_version": "Explicitly define 'user churn' as the specific operational criterion used in each study, such as inactivity period or uninstallation, to improve comparability.",
-      "explanation": "Ensures consistent understanding and comparison of churn definitions.",
+      "original_text": "Some abbreviations like 'LCA' are used without explicit definition.",
+      "improved_version": "Define all abbreviations at their first occurrence, e.g., 'Life Cycle Assessment (LCA)'.",
+      "explanation": "Consistent definitions prevent confusion and improve technical precision.",
+      "location": "Methodology, section 2.1",
+      "category": "abbreviations",
+      "focus": "abbreviation usage"
+    },
+    {
+      "original_text": "Technical term 'bottom-up life cycle assessment' is used with varying levels of explanation.",
+      "improved_version": "Provide a concise, uniform explanation of 'bottom-up life cycle assessment (LCA)' at first mention, and use the abbreviation thereafter.",
+      "explanation": "Consistency in technical terminology enhances clarity and demonstrates methodological rigor.",
+      "location": "Methodology, section 2.1",
+      "category": "technical_terms",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "References to tables and figures are inconsistent in format.",
+      "improved_version": "Standardize cross-references as 'Table 2', 'Figure 1', etc., with consistent formatting and placement throughout the manuscript.",
+      "explanation": "Uniform referencing improves document professionalism and ease of navigation.",
+      "location": "Results and figures sections",
+      "category": "cross_references",
+      "focus": "formatting"
+    },
+    {
+      "original_text": "Key concepts like 'product swap recommendations' are not always explicitly defined.",
+      "improved_version": "Include a clear, explicit definition of 'product swap recommendations' early in the methodology, e.g., 'Product swap recommendations refer to suggested substitutions of animal-based products with plant-based analogues to reduce environmental impact.'",
+      "explanation": "Explicit definitions ensure consistent understanding of core concepts across the paper.",
       "location": "Introduction, paragraph 2",
-      "category": "definition",
-      "focus": "definitions"
+      "category": "definitions",
+      "focus": "concept clarity"
+    },
+    {
+      "original_text": "Units such as percentages are sometimes presented without clear notation.",
+      "improved_version": "Use consistent notation such as '25%' or '25 percent' throughout, and clarify in the methods that all percentage values are in percent units.",
+      "explanation": "Consistency in units and notation prevents misinterpretation and maintains professional standards.",
+      "location": "Results, tables, and text",
+      "category": "unit_notation",
+      "focus": "notation consistency"
+    },
+    {
+      "original_text": "Some terms like 'climate-friendly' and 'sustainable' are used interchangeably without clarification.",
+      "improved_version": "Define 'climate-friendly' and 'sustainable' explicitly when first introduced, and use them consistently in the same context.",
+      "explanation": "Clear definitions prevent semantic ambiguity and improve conceptual clarity.",
+      "location": "Discussion, paragraph 1",
+      "category": "field_terminology",
+      "focus": "term usage"
+    },
+    {
+      "original_text": "The phrase 'product swap recommendations' is sometimes used broadly and sometimes specifically.",
+      "improved_version": "Maintain a consistent definition: 'Product swap recommendations are specific suggestions to replace animal-based products with plant-based alternatives, aimed at reducing greenhouse gas emissions.' Use this definition throughout.",
+      "explanation": "Consistent terminology reinforces understanding and reduces ambiguity.",
+      "location": "Throughout the document"
     }
   ],
   "detailed_feedback": {
-    "term_usage_consistency": "The manuscript occasionally switches between synonyms like 'user attrition', 'loss', 'dropout', and 'abandonment' without clarifying whether these are interchangeable or have distinct meanings. Standardizing the terminology to 'user churn' throughout, with clear definitions, would improve clarity and reduce ambiguity.",
-    "notation_consistency": "Mathematical and statistical notation for variables and parameters is inconsistent, with some variables italicized and others not. Adopting a uniform style, such as italicizing all variables and keeping parameters upright, will enhance readability and professional presentation.",
-    "acronym_usage": "Acronyms such as 'ML', 'ICs', and 'AUC' are used without initial definitions. Introducing each acronym at first mention with its full form ensures clarity, especially for interdisciplinary readers.",
-    "variable_naming_consistency": "Performance metrics like 'F1-Score', 'Accuracy', and 'AUC' are variably capitalized and hyphenated. Consistent formatting, following a style guide, improves professionalism and reduces distraction.",
-    "unit_notation_consistency": "Metrics are reported in mixed formats\u2014percentages and decimal fractions\u2014without clear indication. Standardizing to one format and explicitly stating it in figure/table captions will facilitate comparison.",
-    "abbreviation_consistency": "Abbreviations like 'ICs' and 'RQs' are used without prior definition. Defining all abbreviations on first use maintains clarity and consistency.",
-    "technical_term_consistency": "Terms such as 'ensemble model' and 'hybrid strategies' are used without explanation. Providing brief definitions or references when first introduced will help readers unfamiliar with these concepts.",
-    "field_terminology": "The manuscript uses 'best models' and 'top features' without specifying the criteria or metrics used for these rankings. Clarifying whether these are based on accuracy, AUC, or other metrics improves transparency.",
-    "cross_reference_consistency": "References to figures and tables (e.g., 'Figure 2') are sometimes inconsistent in formatting and placement. Ensuring uniform referencing style and proper placement enhances navigability.",
-    "definition_consistency": "Definitions of key concepts like 'user churn' vary across sections. Providing a precise, operational definition early in the manuscript and maintaining it throughout ensures comparability."
+    "term_usage_consistency": "The manuscript generally employs key terms like 'product swap recommendations' and 'GHGE' but occasionally uses synonyms or omits definitions, leading to minor confusion. Ensuring consistent use and explicit definitions of core terms will enhance clarity.",
+    "notation_consistency": "Numerical data such as percentages are sometimes presented with the '%' symbol and sometimes written in words or without units. Standardizing notation (e.g., always using '25%') and clarifying units in methods will improve professionalism.",
+    "acronym_usage": "While many acronyms like 'GHGE' and 'GWP' are defined early, some are introduced without explanation or inconsistent formatting. A comprehensive list of abbreviations and consistent initial definitions will strengthen technical precision.",
+    "variable_naming": "Variables such as 'Targeted' and 'Information' are inconsistently capitalized across tables and text. Adopting a uniform style (preferably lowercase) will improve readability.",
+    "unit_notation": "Percentages and other units are not always formatted uniformly. Consistent use of symbols and clear explanations in the methods section will prevent misinterpretation.",
+    "abbreviation_consistency": "Some abbreviations are used without full expansion, especially in tables. Ensuring all abbreviations are defined at first use and used uniformly will aid understanding.",
+    "technical_term_consistency": "Technical terms like 'life cycle assessment' are sometimes explained in detail and sometimes assumed known. Providing a standard, concise explanation at first mention and reusing it maintains clarity.",
+    "field_terminology": "Terms like 'sustainability' and 'climate-friendly' are used variably. Defining these terms explicitly and using them consistently will improve conceptual clarity.",
+    "cross_reference_consistency": "References to tables and figures vary in format and placement. Standardizing references (e.g., 'Table 2', 'Fig. 1') and ensuring they are correctly numbered enhances document professionalism.",
+    "definition_consistency": "Core concepts such as 'product swap recommendations' are not always explicitly defined. Including clear, consistent definitions at the outset will improve understanding and reduce ambiguity."
   },
-  "summary": "Overall, the manuscript demonstrates acceptable terminology consistency with some areas needing refinement. The primary issues relate to inconsistent acronym definitions, variable formatting, and terminology ambiguity. Addressing these will significantly enhance clarity, professionalism, and the scholarly quality of the work. Minor improvements in notation and cross-referencing will further elevate the manuscript's presentation."
+  "summary": "Overall, the manuscript demonstrates acceptable consistency in terminology but exhibits several areas for improvement, particularly in acronym definitions, variable naming conventions, and cross-referencing. Addressing these issues will elevate the clarity, professionalism, and scientific rigor of the work, making it more accessible and precise for readers across disciplines."
 }

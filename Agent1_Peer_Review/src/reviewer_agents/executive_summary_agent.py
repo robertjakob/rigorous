@@ -217,7 +217,12 @@ Keep the summary within half a page (about 250 words), use professional language
             raise RuntimeError(f"Failed to load quality control results: {str(e)}")
         
         # Extract manuscript text
-        manuscript_text = self.extract_pdf_text(inputs['manuscript_path'])
+        manuscript_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "manuscripts")
+        pdf_files = [f for f in os.listdir(manuscript_dir) if f.lower().endswith('.pdf')]
+        if not pdf_files:
+            raise FileNotFoundError("No PDF files found in the manuscripts folder.")
+        manuscript_path = os.path.join(manuscript_dir, pdf_files[0])
+        manuscript_text = self.extract_pdf_text(manuscript_path)
         
         # Step 1: Generate independent review
         independent_review = self.generate_independent_review(manuscript_text, context)

@@ -3,250 +3,250 @@
     "S1": {
       "section_name": "Title and Keywords",
       "score": 4,
-      "summary": "The title clearly communicates the manuscript's focus on user churn prediction and systematic review, which is a positive aspect. However, it could be more specific by explicitly mentioning 'mobile apps' and 'machine learning,' which would improve clarity and searchability. The absence of a keywords section is a significant oversight, as it reduces the manuscript's discoverability in academic databases and search engines. Overall, the title is informative and aligns with academic standards, but optimizing it for SEO and including a dedicated keywords section would enhance its impact.",
+      "summary": "The title accurately reflects the manuscript's focus on sustainable food choices and product swap recommendations, but it could be improved for clarity, conciseness, and search engine optimization (SEO). The current title is somewhat lengthy, contains line breaks, and lacks key SEO terms such as 'climate change,' 'behavioral intervention,' or 'food choices,' which are important for discoverability. While the title is descriptive and aligns with academic standards, incorporating more specific keywords and clarifying the experimental context would enhance its impact and visibility. Overall, the title is solid but could be optimized for both academic and practitioner audiences.",
       "suggestions": [
         {
-          "remarks": "The title could be more specific about the application domain and methodological focus, improving clarity and discoverability.",
-          "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
-          "improved_version": "Mobile App User Churn Prediction Using Machine Learning: Systematic Review of Algorithms and Features",
-          "explanation": "This revision specifies the domain ('Mobile App'), the methodological approach ('Machine Learning'), and the scope ('Algorithms and Features'), making the title more targeted and discoverable."
+          "remarks": "The title is lengthy and contains line breaks, which may hinder immediate comprehension and online discoverability.",
+          "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
+          "improved_version": "Enhancing Climate-Friendly Food Choices Through Targeted Product Swaps and Behavioral Interventions: An Online Experimental Study",
+          "explanation": "This revision improves clarity by clearly stating the focus on climate-friendly food choices and behavioral interventions. It enhances impact by emphasizing the study's experimental nature and relevance to sustainability. SEO is optimized with keywords like 'climate-friendly,' 'product swaps,' and 'behavioral interventions,' aligning with common search queries. The title follows academic standards by being descriptive yet concise, suitable for scholarly audiences."
         },
         {
-          "remarks": "The manuscript lacks a keywords section, which is essential for search engine optimization and indexing.",
-          "original_text": "No keywords section is present.",
-          "improved_version": "Add a dedicated keywords section with terms such as 'mobile app churn,' 'machine learning,' 'user retention,' 'predictive modeling,' and 'systematic review.'",
-          "explanation": "Including relevant keywords will improve the manuscript's visibility in academic databases and help attract a targeted readership."
+          "remarks": "The title lacks strong keywords that highlight the significance of behavioral change and environmental impact, which may reduce its visibility to researchers interested in these areas.",
+          "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
+          "improved_version": "Promoting Climate Change Mitigation Through Behavioral Interventions: The Effectiveness of Product Swap Recommendations in Food Choices",
+          "explanation": "Adding terms such as 'climate change mitigation,' 'behavioral interventions,' and 'food choices' increases the manuscript's discoverability and appeal to a broader academic and practitioner audience."
         },
         {
-          "remarks": "The title is somewhat lengthy, which may reduce immediate readability and impact.",
-          "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
-          "improved_version": "Mobile App Churn Prediction: A Systematic Review of Machine Learning Approaches",
-          "explanation": "This version shortens the title while retaining essential information, enhancing readability and impact without sacrificing clarity."
+          "remarks": "The title could specify the experimental context for greater precision and alignment with the study's methodology.",
+          "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
+          "improved_version": "An Experimental Study of Targeted Product Swap Recommendations for Sustainable Food Choices",
+          "explanation": "Explicitly mentioning the experimental nature of the study clarifies the research approach and sets appropriate expectations for the reader."
         }
       ]
     },
     "S2": {
       "section_name": "Abstract",
       "score": 3,
-      "summary": "The abstract provides a comprehensive overview of the review's background, methodology, and key findings, which is a strength. However, it is densely written and lacks clear segmentation, making it harder to quickly grasp the main points. The absence of specific quantitative results and performance metrics reduces the impact and clarity of the study's contributions. Additionally, the abstract could more explicitly state the research design at the outset and better articulate the practical implications of the findings. Enhancing structure, including concrete data, and emphasizing the review's significance would improve its effectiveness.",
+      "summary": "The abstract presents a relevant and methodologically sound study, but suffers from issues related to structure, excessive technical detail, and clarity. The lack of clear section delineation and the inclusion of dense statistical data make it difficult for readers to quickly grasp the study's key components and findings. While the abstract effectively communicates the potential of product swap recommendations for sustainable food choices, it overstates implications without adequately discussing limitations. Refining the organization, simplifying language, and emphasizing key messages would significantly enhance its quality and effectiveness.",
       "suggestions": [
         {
-          "remarks": "The abstract lacks specific quantitative results, which limits its ability to communicate the significance of the findings.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "The results reveal a diverse range of machine learning algorithms, including logistic regression, support vector machines, and advanced deep neural networks, used to predict both user churn probabilities and the timing of churn events in mobile applications. For example, the average AUC across studies was 0.81 (SD = 0.07), indicating strong predictive performance.",
-          "explanation": "Adding quantitative performance metrics strengthens the abstract by providing concrete evidence of the study's contributions."
+          "remarks": "The abstract lacks clear section delineation, leading to a dense and unstructured flow.",
+          "original_text": "Abstract\nDietary choices significantly impact both huma...",
+          "improved_version": "Background: Dietary choices significantly impact both human health and the environment. Methods: We conducted an online experimental study to assess the impact of targeted product swap recommendations and GHGE information. Results: Participants reduced their basket GHGE by 25% on average, but targeted recommendations did not significantly lower overall GHGE. Conclusion: Specific, actionable recommendations can promote sustainable choices, though broader impacts require further research.",
+          "explanation": "Adding clear sections (Background, Methods, Results, Conclusion) improves readability and allows readers to quickly identify key aspects of the study."
         },
         {
-          "remarks": "The abstract does not clearly state the research design in the opening sentence, which is important for transparency.",
-          "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
-          "improved_version": "This systematic review comprehensively analyzes existing literature on user churn prediction in mobile apps, focusing on machine learning methodologies and features.",
-          "explanation": "Explicitly stating the research design at the outset clarifies the nature of the study and aligns with best practices for abstracts."
+          "remarks": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
+          "original_text": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
+          "improved_version": "Results are summarized narratively, highlighting main findings (e.g., 'Participants reduced basket GHGE by 25% on average; targeted recommendations increased uptake of the most effective swap but did not significantly lower overall emissions'). Detailed statistics are moved to the main text or supplementary materials.",
+          "explanation": "Summarizing results in plain language and moving detailed statistics to the main text improves accessibility and ensures the abstract remains concise."
         },
         {
-          "remarks": "The abstract mentions implications generally but lacks specific insights into how the review advances the field.",
-          "original_text": "Furthermore, it emphasizes the necessity for consistent methodologies and reporting standards to enhance future research.",
-          "improved_version": "The findings provide actionable insights for researchers and practitioners, emphasizing behavioral features as key predictors and highlighting the need for standardized reporting to facilitate future meta-analyses and practical implementations.",
-          "explanation": "Specifying the contribution and practical relevance of the findings strengthens the impact of the abstract."
+          "remarks": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
+          "original_text": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
+          "improved_version": "The conclusions highlight promising strategies but should be interpreted cautiously, considering the controlled experimental setting and sample limitations.",
+          "explanation": "A more balanced and cautious interpretation aligns with scientific standards and maintains credibility."
         }
       ]
     },
     "S3": {
       "section_name": "Introduction",
       "score": 3,
-      "summary": "The introduction offers a comprehensive background on user churn and its significance, with clear research questions. However, it could better highlight the unique challenges of churn prediction in mobile apps compared to other domains, and more explicitly articulate the specific gaps in the literature that this review addresses. The practical significance and broader implications for fields such as health and education could be emphasized further. Improved organization and clearer linkage between background, problem statement, and objectives would enhance readability and focus.",
+      "summary": "The introduction provides a solid foundation with relevant background and a clear experimental focus, but it is somewhat scattered and lacks explicit research questions. The unique contribution and practical implications are not sharply emphasized, and the flow from background to objectives could be more coherent. Explicitly stating the research gap, objectives, and broader significance would improve clarity, coherence, and impact.",
       "suggestions": [
         {
-          "remarks": "The introduction does not sufficiently highlight the unique challenges of mobile app churn prediction.",
-          "original_text": "User churn, also referred to as user attrition, loss, abandonment, or dropout, is a well-recognized phenomenon characterized by users' discontinuation of a product or service.",
-          "improved_version": "User churn, or attrition, refers to users discontinuing a product or service prematurely. This phenomenon presents critical challenges across various industries\u2014such as gaming, healthcare, and education\u2014necessitating effective prediction and intervention strategies to improve user retention and engagement.",
-          "explanation": "This revision clarifies the scope and importance of churn in specific domains, better justifying the focus on mobile apps."
+          "remarks": "The background provides extensive detail but lacks a clear, concise overview of the specific research gap.",
+          "original_text": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
+          "improved_version": "Dietary choices are a key driver of both human health outcomes and environmental sustainability, notably through their contribution to food-related greenhouse gas emissions (GHGE), which significantly influence climate change. However, there is limited empirical evidence on how targeted product swap recommendations affect consumer behavior.",
+          "explanation": "This revision clarifies the dual importance of dietary choices and emphasizes the research gap, setting a clearer context for the study."
         },
         {
-          "remarks": "The problem statement lacks explicit articulation of the gaps in existing literature.",
-          "original_text": "While the progress in churn prediction research is acknowledged, no review has yet been undertaken to summarize them in the context of mobile apps.",
-          "improved_version": "Despite extensive research on churn prediction in domains like telecommunications and finance, there is a notable gap: no comprehensive review has synthesized studies specifically focused on mobile app contexts, which differ in data types, features, and user behaviors.",
-          "explanation": "Explicitly stating the gap emphasizes the novelty and necessity of the review."
+          "remarks": "Objectives are embedded within the intervention description rather than explicitly stated.",
+          "original_text": "This study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+          "improved_version": "This study investigates whether providing consumers with specific, actionable product swap recommendations\u2014such as substituting animal-based products with plant-based alternatives\u2014can effectively influence their purchasing decisions in an experimental online supermarket environment. The main objectives are: (1) to assess the impact of targeted recommendations on GHGE reduction, and (2) to evaluate the role of GHGE information in promoting sustainable choices.",
+          "explanation": "Explicitly listing the objectives improves clarity and guides the reader through the study\u2019s aims."
         },
         {
-          "remarks": "The objectives are clear but could be more explicitly linked to the identified gaps.",
-          "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
-          "improved_version": "This review aims to analyze not only the machine learning algorithms and features used but also to evaluate the effectiveness of various churn prevention strategies integrated with prediction models, addressing a key gap in understanding their practical impact.",
-          "explanation": "Clarifies the dual focus on methodological synthesis and practical outcomes, making the objectives more explicit."
+          "remarks": "The broader implications for policy, retail practice, or environmental outcomes are not explicitly articulated.",
+          "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+          "improved_version": "Results indicate that participants generally responded positively to product swap recommendations, achieving an average reduction of 25% in their basket\u2019s GHGE and swapping approximately four products, with nearly 90% swapping at least one item. These findings have potential implications for policy and retail strategies aimed at promoting sustainable consumption.",
+          "explanation": "Rephrasing improves flow and emphasizes the significance of the findings, linking them to broader implications."
         }
       ]
     },
     "S4": {
       "section_name": "Literature Review",
       "score": 3,
-      "summary": "The literature review covers a broad range of app domains and machine learning algorithms, providing a solid synthesis of features and methodologies. However, it underrepresents emerging areas such as wearable health devices and social media, and lacks critical analysis of why certain models perform better in specific contexts. The organization could be improved to avoid overlapping content, and the references should be updated to include more recent high-impact publications. Better integration with theoretical frameworks and practical implications would further enhance the depth and utility of the review.",
+      "summary": "The literature review covers key environmental impacts and behavioral interventions but lacks breadth in discussing behavioral theories, policy mechanisms, and technological innovations. The review tends to summarize studies without sufficient synthesis or connection to the current research. Updating citations, expanding theoretical coverage, and improving organization would enhance the review\u2019s depth, clarity, and relevance.",
       "suggestions": [
         {
-          "remarks": "Emerging areas and recent advances are underrepresented, limiting the review's comprehensiveness.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "Expand this statement to include recent developments such as transformer-based models or explainable AI techniques, emphasizing their potential relevance.",
-          "explanation": "Including emerging models and methods ensures the review is current and comprehensive."
+          "remarks": "The review lacks comprehensive coverage of behavioral theories and policy frameworks relevant to promoting sustainable food choices.",
+          "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+          "improved_version": "Expand the discussion to include a broader range of behavioral theories (e.g., Theory of Planned Behavior, Nudge Theory) and policy frameworks (e.g., labeling policies, subsidies) that underpin or complement product swap interventions.",
+          "explanation": "Incorporating theoretical and policy perspectives enriches the contextual understanding and demonstrates how the intervention fits within existing strategies."
         },
         {
-          "remarks": "The review lacks critical discussion of the limitations of relying solely on behavioral features.",
-          "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps.",
-          "improved_version": "Add a critical discussion on the limitations of relying solely on behavioral features, such as potential biases or data sparsity issues, and suggest avenues for integrating contextual or psychological factors.",
-          "explanation": "Acknowledging limitations and proposing future research directions deepens the analysis."
+          "remarks": "The review reports null effects for targeted recommendations and GHGE information but does not sufficiently explore potential reasons or limitations.",
+          "original_text": "The regression analysis did not reveal any statistically significant effects of Targeted or Information treatments on GHGE reduction compared to the reference group.",
+          "improved_version": "Add a critical discussion of potential reasons for null findings, such as ceiling effects, participant engagement levels, or measurement limitations, and suggest avenues for future research to address these issues.",
+          "explanation": "This deepens critical analysis by acknowledging limitations and fostering a more nuanced interpretation of results."
         },
         {
-          "remarks": "The references are somewhat outdated, missing recent high-impact publications.",
-          "original_text": "Many references are somewhat outdated or lack recent high-impact publications.",
-          "improved_version": "Update the bibliography to include recent studies from 2021-2023, especially those published in top-tier venues or with high citation counts, to reflect the latest advancements.",
-          "explanation": "Ensuring the review is up-to-date increases its relevance and authority."
+          "remarks": "There is an over-reliance on older references and limited inclusion of recent advances.",
+          "original_text": "While nutrition fact labels are already established, sustainability labels have also been shown to support more environmentally conscious food choices.",
+          "improved_version": "Include recent references (post-2020) on digital nudging, environmental labeling, and behavioral economics to ensure the review reflects cutting-edge developments.",
+          "explanation": "Enhances currency and relevance, positioning the review within the latest research landscape."
         }
       ]
     },
     "S5": {
       "section_name": "Methodology",
-      "score": 3,
-      "summary": "The methodology section demonstrates strengths such as adherence to PRISMA guidelines and comprehensive database searches. However, it lacks detailed discussion of the theoretical framework, search string validation, and strategies for including gray literature, which limits transparency and reproducibility. The absence of formal quality assessment and minimal discussion of ethical considerations further weaken the methodological rigor. Addressing these issues would enhance the validity, reliability, and ethical standards of the review.",
+      "score": 4,
+      "summary": "The methodology demonstrates a well-structured experimental approach with rigorous analysis, but is constrained by sample limitations, ecological validity concerns, and a narrow focus on environmental metrics. The sample lacks diversity, and the simulated environment may not reflect real-world behavior. Addressing these issues through broader sampling, real-world validation, and comprehensive environmental assessment would elevate the quality and impact of the research.",
       "suggestions": [
         {
-          "remarks": "The rationale behind inclusion/exclusion criteria and theoretical framework is insufficiently detailed.",
-          "original_text": "The review protocol was submitted to OSF Registries on May 5, 2023.",
-          "improved_version": "Include a detailed description of the theoretical framework and rationale behind the inclusion/exclusion criteria, clarifying how these choices align with the research questions and scope.",
-          "explanation": "This enhances transparency and justifies methodological decisions, improving reproducibility."
+          "remarks": "The sample is restricted to German-speaking, non-vegan/non-vegetarian participants, with an overrepresentation of young males.",
+          "original_text": "The sample is restricted to German-speaking, non-vegan/non-vegetarian participants, with an overrepresentation of young males.",
+          "improved_version": "Expand recruitment to include diverse linguistic, cultural, and dietary backgrounds, ensuring balanced representation across age, gender, and dietary preferences to improve external validity.",
+          "explanation": "A more representative sample allows for broader generalization of results across populations."
         },
         {
-          "remarks": "Search strategy validation and inclusion of gray literature are not adequately addressed.",
-          "original_text": "The electronic databases were searched using predefined search terms.",
-          "improved_version": "Conduct a validation or pilot test of the search strategy, possibly including a search for known key studies, and document any adjustments made to ensure comprehensive coverage, including gray literature and preprints.",
-          "explanation": "This reduces publication bias and ensures the search strategy captures all relevant literature."
+          "remarks": "The experimental design tests short-term behavioral responses in a simulated online environment, limiting ecological validity.",
+          "original_text": "The experimental design primarily tests short-term behavioural responses in a simulated online environment, which may limit ecological validity and generalizability.",
+          "improved_version": "Incorporate field experiments or longitudinal studies in real-world retail settings to validate whether short-term simulated responses translate into actual purchasing behaviour over time.",
+          "explanation": "This enhances external validity and ensures findings are applicable to real consumer contexts."
         },
         {
-          "remarks": "No formal quality assessment tool was applied to included studies.",
-          "original_text": "The review highlights the inconsistency in reporting standards across studies.",
-          "improved_version": "Apply a standardized quality assessment tool, such as QUADAS-2 or PROBAST, to evaluate the risk of bias and reporting quality of each included study, and include these assessments in the synthesis.",
-          "explanation": "This enhances the rigor and helps interpret the reliability of the evidence base."
+          "remarks": "The primary outcome analysis relies on linear regression without explicit mention of assumptions testing.",
+          "original_text": "The primary outcome analysis relies on linear regression without explicit mention of assumptions testing.",
+          "improved_version": "Perform and report diagnostic tests for regression assumptions (e.g., residual normality, homoscedasticity) and consider alternative models (e.g., robust regression) if assumptions are violated.",
+          "explanation": "This ensures the statistical validity and robustness of the inference drawn from the analysis."
         }
       ]
     },
     "S6": {
       "section_name": "Results",
       "score": 3,
-      "summary": "The results section provides a thorough synthesis of algorithms, features, and performance metrics, which is a strength. However, the presentation is dense and lacks visual aids such as tables or figures, making it difficult to quickly grasp key findings. The analysis relies on descriptive statistics without inferential testing, limiting the robustness of conclusions. Interpretation of results, especially regarding feature importance, could be more nuanced and supported by quantitative evidence. Including visual summaries and more rigorous statistical analysis would improve clarity and scientific rigor.",
+      "summary": "The results are presented with comprehensive tables and figures, but dense regression tables and combined model presentations hinder quick understanding. Effect sizes and confidence intervals are not consistently reported, and some interpretations overstate the significance of non-significant findings. Improving clarity, consistently reporting effect sizes, and enhancing visualizations would strengthen the presentation and interpretation of results.",
       "suggestions": [
         {
-          "remarks": "Dense narrative presentation hinders quick comprehension of key findings.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "Present a comparative table summarizing the performance metrics (e.g., accuracy, AUC) for each ML algorithm, highlighting the best performers and their contexts.",
-          "explanation": "A table enhances clarity, allows quick comparison, and makes the data more accessible for readers."
+          "remarks": "The presentation of regression coefficients for GHGE reduction lacks clarity; tables combine multiple models without clear differentiation.",
+          "original_text": "The regression analysis did not reveal any statistically significant effects of Targeted or Information treatments on GHGE reduction compared to the reference group.",
+          "improved_version": "The regression analysis showed no statistically significant main effects of Targeted or Information treatments on overall GHGE reduction (p > 0.05).",
+          "explanation": "Clarifies the statistical outcome and emphasizes the non-significance, improving transparency."
         },
         {
-          "remarks": "Lack of inferential statistics limits the robustness of conclusions about model performance.",
-          "original_text": "The performance metrics are summarized with means and ranges but lack statistical testing or confidence intervals to support claims of equivalence or differences across models.",
-          "improved_version": "Incorporate statistical tests or confidence intervals to assess the significance of differences in model performance across studies.",
-          "explanation": "Statistical analysis strengthens the scientific rigor and supports more reliable conclusions."
+          "remarks": "Effect sizes are not consistently reported across models.",
+          "original_text": "The effect sizes are not consistently reported across models.",
+          "improved_version": "Include standardized coefficients (beta) and effect size measures (e.g., Cohen's d) alongside p-values to better illustrate the magnitude of effects.",
+          "explanation": "Enhances understanding of practical significance, aiding interpretation."
         },
         {
-          "remarks": "Interpretation of feature importance is somewhat superficial and lacks quantitative backing.",
-          "original_text": "The predictive performance of effective models is primarily driven by behavioral app engagement features, particularly those related to user activity and progress within apps.",
-          "improved_version": "Conduct a multivariate analysis or meta-regression (if data permits) to statistically assess the contribution of different feature categories to model performance, reporting effect sizes and confidence intervals.",
-          "explanation": "Quantitative assessment provides stronger evidence for the relative importance of feature types."
+          "remarks": "The exploratory subgroup analyses lack detailed reporting of effect sizes and confidence intervals.",
+          "original_text": "The effect sizes for subgroup analyses are not reported.",
+          "improved_version": "Report effect sizes and confidence intervals for subgroup analyses to quantify the magnitude of effects within high meat consumers.",
+          "explanation": "Improves the completeness and interpretability of subgroup findings."
         }
       ]
     },
     "S7": {
       "section_name": "Discussion",
       "score": 3,
-      "summary": "The discussion synthesizes findings on algorithms, features, and prevention strategies, and acknowledges methodological limitations. However, it relies on limited evidence for the effectiveness of interventions and does not sufficiently analyze how dataset characteristics or operational definitions influence results. The discussion of reporting standards and standardization is somewhat superficial, lacking concrete recommendations. More critical evaluation, explicit guidance, and integration of practical and theoretical implications would strengthen the discussion.",
+      "summary": "The discussion interprets the findings and highlights practical implications, but lacks depth in exploring mechanisms behind null results and does not sufficiently situate the study within broader behavioral theory or real-world intervention literature. The limitations section could be more comprehensive, and the discussion is somewhat repetitive. Greater integration of behavioral theories, nuanced interpretation, and explicit future research directions would enhance scholarly rigor and practical relevance.",
       "suggestions": [
         {
-          "remarks": "The discussion of intervention effectiveness is based on limited, non-controlled studies, weakening the validity of practical claims.",
-          "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps, and discusses the promising but limited results related to the effectiveness of churn prevention strategies.",
-          "improved_version": "The discussion should include a critical analysis of the methodological limitations of existing prevention studies, such as small sample sizes, lack of control groups, or short follow-up periods, to contextualize the promising results.",
-          "explanation": "Acknowledging evidence limitations provides a balanced view and guides future research toward more rigorous designs."
+          "remarks": "The interpretation of the non-significant effects of targeted recommendations on overall GHGE reduction lacks depth.",
+          "original_text": "Targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly lower overall basket GHGE.",
+          "improved_version": "While targeted recommendations successfully increased the selection of the most effective GHGE-reducing swap, they did not translate into a significant overall reduction in basket GHGE, possibly due to participants accepting multiple swaps that diluted the impact of highlighting a single optimal choice.",
+          "explanation": "Clarifies the potential reason behind the null effect on overall GHGE, providing a more nuanced interpretation."
         },
         {
-          "remarks": "Insufficient analysis of how dataset characteristics and definitions influence model performance.",
-          "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
-          "improved_version": "The review should analyze how dataset size and diversity impact model performance and generalizability, possibly including a discussion of overfitting risks in small datasets.",
-          "explanation": "This deepens understanding of methodological robustness and informs best practices."
+          "remarks": "The literature comparison is somewhat superficial and does not adequately situate the findings within broader behavioral change theories.",
+          "original_text": "The literature comparison is somewhat superficial, primarily referencing simulation studies and prior intervention research.",
+          "improved_version": "The discussion could be strengthened by integrating findings from real-world dietary intervention studies and behavioral change frameworks, such as the Theory of Planned Behavior or Nudge Theory, to better contextualize the effectiveness of product swap recommendations.",
+          "explanation": "Enhances the literature review by situating findings within established behavioral theories and empirical evidence, enriching the scholarly context."
         },
         {
-          "remarks": "Recommendations for standardization are not specific or actionable.",
-          "original_text": "The review highlights the need for standardized reporting items for churn prediction studies.",
-          "improved_version": "It should specify concrete items or a checklist for reporting, such as dataset characteristics, feature engineering details, evaluation protocols, and statistical significance testing, to facilitate reproducibility.",
-          "explanation": "Providing clear steps for reporting improves research quality and comparability."
+          "remarks": "The limitations section does not sufficiently discuss potential biases from the simulated environment or the short-term nature of the intervention.",
+          "original_text": "The limitations section mentions sample restrictions but does not sufficiently discuss potential biases from the simulated environment.",
+          "improved_version": "Future research should address potential biases stemming from the online, simulated shopping environment, such as reduced emotional engagement or social desirability effects, which may differ from real-world purchasing behavior.",
+          "explanation": "Provides a more comprehensive reflection on limitations, guiding future validation efforts."
         }
       ]
     },
     "S8": {
       "section_name": "Conclusion",
       "score": 4,
-      "summary": "The conclusion is well-structured, summarizing key findings and emphasizing the potential of churn prediction models and behavioral features. However, it could more explicitly link claims to specific results, clarify how all research questions were addressed, and elaborate on practical and theoretical implications. The language could be more concise and impactful. Including concrete recommendations for future research and standardization would further strengthen the conclusion.",
+      "summary": "The conclusion is well-structured and reflects the main findings, but could more clearly link results to hypotheses, discuss statistical support, and frame implications cautiously regarding long-term and real-world applications. Explicitly stating how each hypothesis was addressed, clarifying statistical significance, and providing actionable guidance for future research and implementation would further strengthen the conclusion.",
       "suggestions": [
         {
-          "remarks": "The conclusion lacks explicit linkage to specific results or data points.",
-          "original_text": "This synthesis demonstrates the potential of churn prediction models, identifying a range of machine learning algorithms such as logistic regression, random forest, boosting models, or recurrent neural networks that generally achieve robust prediction results across different mobile app domains.",
-          "improved_version": "The review demonstrates that various machine learning algorithms\u2014including logistic regression, random forest, boosting models, and recurrent neural networks\u2014consistently achieve strong predictive performance across diverse mobile app domains, with average AUC values ranging from 0.78 to 0.85.",
-          "explanation": "Including quantitative data strengthens the evidentiary support for the claims."
+          "remarks": "The conclusion does not explicitly restate how each hypothesis was addressed or supported.",
+          "original_text": "The conclusion does not explicitly restate how each hypothesis was addressed or supported.",
+          "improved_version": "This study addressed four hypotheses: (1) that product swap recommendations promote climate-friendly shopping; (2) that highlighting the most effective swap increases its adoption; (3) that GHGE information enhances behaviour change; and (4) that combining highlighting and information yields stronger effects. The results support some hypotheses (e.g., increased targeted swap selection) but not others (e.g., overall GHGE reduction).",
+          "explanation": "Explicitly links results to hypotheses, clarifying the fulfillment of research objectives."
         },
         {
-          "remarks": "The conclusion could better specify how all research questions were addressed.",
-          "original_text": "The conclusion claims to synthesize key methodologies and findings but does not clearly articulate how all research questions (e.g., about features, algorithms, and prevention strategies) are comprehensively addressed.",
-          "improved_version": "This review systematically addresses all research questions by analyzing the algorithms used, the most predictive features, their relative importance, and the current state of prevention strategies, providing a comprehensive overview of mobile app churn prediction.",
-          "explanation": "Clarifies the scope and completeness of the synthesis, aligning the conclusion with the research objectives."
+          "remarks": "The practical implications are discussed but lack specific guidance on implementation in real-world retail settings.",
+          "original_text": "The conclusion states that the approach is highly feasible for retailers, but it does not specify how to address data limitations or implementation challenges.",
+          "improved_version": "While the approach is promising, practical implementation requires access to reliable environmental impact data and integration into existing retail systems, which should be addressed in future research.",
+          "explanation": "Provides a more balanced and realistic view, acknowledging limitations and guiding future work."
         },
         {
-          "remarks": "The conclusion could be more concise and impactful.",
-          "original_text": "The conclusion is somewhat lengthy and contains complex sentences that could be condensed for clarity and impact.",
-          "improved_version": "The conclusion could be streamlined by consolidating lengthy sentences and emphasizing key takeaways for clarity and stronger impact.",
-          "explanation": "Concise writing improves readability and the strength of the final statement."
+          "remarks": "The final statement introduces new ideas about long-term effects and novelty effects without sufficient evidence.",
+          "original_text": "The final statement introduces new ideas about long-term effects and novelty effects without sufficient evidence.",
+          "improved_version": "Future research should investigate the long-term sustainability of these interventions and assess whether initial engagement levels are maintained over time, as current findings are based on short-term experimental data.",
+          "explanation": "Avoids introducing unsubstantiated claims and emphasizes the need for further evidence, improving clarity and strength."
         }
       ]
     },
     "S9": {
       "section_name": "References",
       "score": 3,
-      "summary": "The reference list includes relevant and foundational sources but suffers from inconsistencies in completeness, formatting, and organization. Many references lack full publication details, and formatting styles are inconsistent, reducing professionalism and making it harder for readers to locate sources. Some references are from preprints or less formal sources without clear indication of peer review status. Standardizing formatting, ensuring completeness, and clarifying publication types will enhance the scholarly quality and credibility of the manuscript.",
+      "summary": "The reference list is generally relevant and scholarly, but suffers from inconsistencies in formatting, incomplete citation details, and organizational issues. Many references lack full citation information and DOIs, and formatting varies across entries. Standardizing citation style, completing missing information, and organizing references systematically will significantly enhance the manuscript's academic quality and credibility.",
       "suggestions": [
         {
-          "remarks": "Many references lack complete publication details, hindering source verification.",
-          "original_text": "[3] Dmitry Alexandrovsky, Maximilian Achim Friehs, Jendrik Grittner, Susanne Putze, Max V. Birk, Rainer Malaka, and Regan L Mandryk. 2021.",
-          "improved_version": "[3] Alexandrovsky, D., Friehs, M. A., Grittner, J., Putze, S., Birk, M. V., Malaka, R., & Mandryk, R. L. (2021). Serious Snacking: A Survival Analysis of How Snacking Mechanics Affect Attrition in a Mobile Serious Game. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, 1\u201312. https://doi.org/10.1145/3411764.3445689",
-          "explanation": "Adding complete publication details, including conference name, pages, and DOI, ensures traceability and scholarly rigor."
+          "remarks": "Several references lack complete citation details such as journal volume, issue, page numbers, or DOI links.",
+          "original_text": "[3] Tukker, A. et al. Analysis of the life cycle environmental impacts related to the final consumption of the EU-25. Environmental Impact of Products (2006).",
+          "improved_version": "[3] Tukker, A., et al. (2006). Analysis of the life cycle environmental impacts related to the final consumption of the EU-25. Environmental Impact of Products, 12(3), 45-67. https://doi.org/xxxxx",
+          "explanation": "Adding complete citation details such as volume, issue, page numbers, and DOI improves traceability and scholarly credibility."
         },
         {
-          "remarks": "Formatting styles are inconsistent, reducing professionalism and readability.",
-          "original_text": "[50] Xi Liu, Muhe Xie, Xidao Wen, Rui Chen, Yong Ge, Nick Duffield, and Na Wang. 2018.",
-          "improved_version": "[50] Liu, X., Xie, M., Wen, X., Chen, R., Ge, Y., Duffield, N., & Wang, N. (2018). A Semi-Supervised and Inductive Embedding Model for Churn Prediction of Large-Scale Mobile Games. arXiv preprint arXiv:1808.06573.",
-          "explanation": "Consistent formatting according to a recognized style (e.g., APA, IEEE) improves professionalism and ease of use."
+          "remarks": "Inconsistent formatting styles are evident, such as variation in journal name presentation and inconsistent use of DOI links.",
+          "original_text": "[7] Willett, W. et al. Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems. The Lancet 393 (10170), 447\u2013492 (2019).",
+          "improved_version": "[7] Willett, W., et al. (2019). Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems. The Lancet, 393(10170), 447\u2013492. https://doi.org/xxxxx",
+          "explanation": "Consistent formatting with journal volume, issue, page range, and DOI improves clarity and professional presentation."
         },
         {
-          "remarks": "Some references are from preprints or less formal sources without clear indication of peer review status.",
-          "original_text": "[4] Saki Amagai, Sarah Pila, Aaron J. Kaat, Cindy J. Nowinski, and Richard C. Gershon. 2022.",
-          "improved_version": "[4] Amagai, S., Pila, S., Kaat, A. J., Nowinski, C. J., & Gershon, R. C. (2022). Challenges in Participant Engagement and Retention Using Mobile Health Apps: Literature Review. Journal of Medical Internet Research, 24(4), e35120. https://doi.org/10.2196/35120",
-          "explanation": "Clarifying publication type and ensuring peer-reviewed sources are prioritized strengthens the reference list's credibility."
+          "remarks": "Some references are older or less impactful, and could be supplemented with more recent or higher-impact studies.",
+          "original_text": "[28] O\u2019Sullivan, K. et al. A Single Specific and Actionable Swap Recommendation Can Lead to Substantial Reductions in Households\u2019 Dietary Carbon Footprints. (Working Paper) (2024).",
+          "improved_version": "[28] O\u2019Sullivan, K., et al. (2024). A single specific and actionable swap recommendation can lead to substantial reductions in households\u2019 dietary carbon footprints. [Working Paper]. Retrieved from https://osf.io/xxxxx",
+          "explanation": "Including a complete title, consistent formatting, and a link or DOI improves accessibility and professionalism."
         }
       ]
     },
     "S10": {
       "section_name": "Supplementary Materials",
-      "score": 4,
-      "summary": "The supplementary materials are thorough and relevant, providing detailed methodological descriptions and supporting data. However, some referenced appendices and visual elements (tables, figures) are missing, which affects transparency and reproducibility. The presentation is dense and could benefit from clearer organization, visual summaries, and inclusion of all referenced materials. Addressing these issues would enhance clarity, accessibility, and the overall utility of the supplementary materials.",
+      "score": 3,
+      "summary": "The supplementary materials are comprehensive and contain valuable detailed analyses, but they suffer from issues related to clarity, organization, and explicit relevance to the main manuscript. Tables and figures often lack sufficient legends or explanations, and the appendix structure is fragmented. Addressing these issues through clearer structuring, improved legends, and explicit linkages would elevate their quality and usability.",
       "suggestions": [
         {
-          "remarks": "Referenced appendices and visual elements are missing, reducing transparency and reproducibility.",
-          "original_text": "Appendix 4.1, 4.2, and 4.3 are mentioned but not provided.",
-          "improved_version": "Include all appendices with detailed search strategies, data extraction sheets, and reporting standards to enable reproducibility.",
-          "explanation": "Providing all referenced materials ensures transparency and allows for independent verification."
+          "remarks": "Some tables are referenced but lack comprehensive legends or contextual explanations.",
+          "original_text": "Tables 4, 5, 6 are referenced but lack comprehensive legends or explanations.",
+          "improved_version": "Add detailed legends below each table, explaining the variables, units, and sample characteristics. For example, for Table 4, specify that it summarizes demographic data, including age, gender, and dietary habits, with standard deviations where applicable.",
+          "explanation": "Improves interpretability and usability of tables, making the supplementary data more self-contained."
         },
         {
-          "remarks": "The presentation is dense and could be improved with visual summaries.",
-          "original_text": "Feature importance analyses are summarized but could benefit from clearer visualization.",
-          "improved_version": "Add a visual summary (e.g., bar chart or heatmap) of the top five most important features across studies, highlighting their categories.",
-          "explanation": "Visual summaries improve accessibility and facilitate quick understanding of key predictors."
+          "remarks": "Figures are embedded with minimal captions and no clear legends, reducing interpretability of the visual data.",
+          "original_text": "Figures 2 and 3 are embedded with minimal captions.",
+          "improved_version": "Enhance figure captions to explicitly describe what each figure illustrates, including sample groups, variables plotted, and key findings. For example, 'Figure 2 shows the effect of intervention conditions on average GHGE reduction across all participants, with error bars representing standard errors.'",
+          "explanation": "Increases accessibility and immediate comprehension of visual data, aiding interpretation."
         },
         {
-          "remarks": "Some referenced figures and tables are not included, hampering usability.",
-          "original_text": "Figures and tables are referenced but not included.",
-          "improved_version": "Ensure that all referenced figures and tables (e.g., Figure 1, Table 1, Figure 2) are included in the supplementary materials or appendices.",
-          "explanation": "Complete visual data supports transparency and allows independent verification of findings."
+          "remarks": "The organization of the appendix is somewhat fragmented, with tables and sections appearing out of logical order.",
+          "original_text": "The organization of the appendix is somewhat fragmented, with tables and sections appearing out of logical order.",
+          "improved_version": "Reorganize the appendix to follow a logical flow: first, participant characteristics; second, detailed measures; third, statistical results; and finally, supplementary analyses. Use clear section headings and a table of contents for navigation.",
+          "explanation": "Enhances coherence and ease of navigation, making it more user-friendly for readers seeking specific information."
         }
       ]
     }
@@ -255,175 +255,175 @@
     "R1": {
       "section_name": "Originality and Contribution",
       "score": 4,
-      "summary": "The review provides a comprehensive synthesis of machine learning approaches for churn prediction in mobile apps, highlighting the importance of behavioral features and summarizing current methodologies. While the manuscript excels in breadth and practical recommendations, it is somewhat limited in introducing novel frameworks or empirical innovations specific to mobile app churn prediction. The contribution is primarily incremental, focusing on consolidation rather than transformative advancement. To further elevate originality and impact, the manuscript should propose new frameworks, benchmarking protocols, or empirical validation strategies, and more explicitly compare findings to related domains. Nonetheless, the review is a valuable resource for the field and lays a strong foundation for future methodological innovation.",
+      "summary": "The manuscript offers a valuable empirical investigation into the effectiveness of real-time, personalized product swap recommendations for reducing dietary greenhouse gas emissions (GHGE) in an online shopping context. Its originality lies in moving beyond simulation studies to test behavioral interventions with real participants. However, the novelty claim is somewhat overstated, as similar approaches have been explored in prior research, albeit less empirically. The contribution is meaningful in demonstrating high consumer receptivity and some behavioral influence, particularly among high meat consumers, but the limited effect on overall GHGE reduction tempers the practical impact. To strengthen the section, the manuscript should more clearly distinguish its empirical approach from prior simulation studies, contextualize its contribution relative to existing interventions, and acknowledge the need for long-term and real-world validation.",
       "suggestions": [
         {
-          "remarks": "The manuscript's originality is constrained by its focus on synthesis rather than the introduction of new frameworks or models.",
-          "original_text": "This systematic literature review investigates applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies.",
-          "improved_version": "This review introduces a novel framework for categorizing ML algorithms and features tailored specifically to mobile app contexts, aiming to identify gaps and propose new hybrid models for improved churn prediction.",
-          "explanation": "Shifting from a purely descriptive synthesis to proposing a new framework or hybrid model increases the manuscript's originality and contribution."
+          "remarks": "Clarify the study's advancement beyond prior simulation-based research to emphasize empirical novelty.",
+          "original_text": "While prior research has focused on simulating the impact of targeted dietary changes, there is limited evidence on whether consumers will adopt such changes when presented with targeted recommendations.",
+          "improved_version": "To strengthen the claim of novelty, explicitly state how this study advances beyond simulation by testing real-time, personalized recommendations in a controlled online shopping environment, and clarify how this fills a gap in empirical behavioral evidence.",
+          "explanation": "Clarifying this distinction emphasizes the study\u2019s contribution to empirical validation, enhancing the perceived novelty."
         },
         {
-          "remarks": "The review lacks critical analysis of why certain models outperform others and how insights can guide future research.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "The review critically analyzes the performance trade-offs between simple and complex ML models, proposing a new hybrid approach that combines interpretability with high accuracy for mobile app churn prediction.",
-          "explanation": "Providing actionable, theory-driven insights or proposing hybrid approaches enhances the manuscript's contribution and practical value."
+          "remarks": "Temper claims about the intervention's impact by acknowledging the modest and non-significant overall GHGE reductions.",
+          "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+          "improved_version": "While participants showed initial receptivity, the actual reduction in overall GHGE was modest and not statistically significant, indicating that willingness does not necessarily translate into sustained behavior change.",
+          "explanation": "This nuanced framing provides a more accurate contribution assessment, acknowledging behavioral complexity."
         },
         {
-          "remarks": "Claims about feature importance and model performance are not sufficiently verified through meta-analytical techniques.",
-          "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps.",
-          "improved_version": "The review identifies behavioral features as most predictive but also develops a new feature importance ranking methodology tailored for mobile app data, providing more robust insights.",
-          "explanation": "Developing and applying a new methodology for feature importance ranking would strengthen the originality and empirical contribution of the review."
+          "remarks": "Address the need for long-term and broader validation to enhance the contribution's significance.",
+          "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+          "improved_version": "While simple product swaps appear effective for many consumers, long-term studies are necessary to confirm whether these behaviors are sustained and lead to meaningful reductions in dietary GHGE over time.",
+          "explanation": "Adding this qualification tempers overstatement and enhances the contribution by indicating the need for further validation."
         }
       ]
     },
     "R2": {
       "section_name": "Impact and Significance",
       "score": 4,
-      "summary": "The manuscript effectively synthesizes the landscape of churn prediction in mobile apps, emphasizing the practical relevance of behavioral features and the diversity of machine learning approaches. Its impact is notable in guiding practitioners and researchers toward best practices and highlighting the need for standardization. However, the discussion could be strengthened by more explicitly addressing the broader societal, economic, and policy implications of deploying churn prediction models, especially in sensitive domains like health. Recommendations for standardizing datasets, metrics, and reporting would further enhance the field's progression and facilitate meta-analyses. Overall, the review is significant, but deeper engagement with policy, ethical, and cross-domain benchmarking issues would maximize its influence.",
+      "summary": "The study provides important insights into consumer responses to climate-friendly food interventions, particularly the use of specific product swaps in an online shopping context. The intervention demonstrates high engagement and some behavioral change, but the limited effect on overall GHGE reduction and the post hoc nature of subgroup findings constrain the broader impact. The manuscript would benefit from more explicit discussion of real-world scalability, integration with other behavioral strategies, and policy implications. Emphasizing the cumulative potential of small changes and proposing multi-component interventions would enhance the significance and applicability of the findings.",
       "suggestions": [
         {
-          "remarks": "The review underemphasizes the potential for standardization and benchmarking, which are crucial for field-wide impact.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "The abstract should explicitly state the potential for standardizing ML methodologies to enable cross-study comparability, thereby accelerating field-wide progress.",
-          "explanation": "Highlighting standardization and benchmarking would enhance the review's impact by promoting methodological consistency and facilitating cumulative knowledge."
+          "remarks": "Expand on real-world applicability and operational guidance for implementation.",
+          "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+          "improved_version": "Expand the discussion to include how these recommendations could be integrated into real-world retail platforms, emphasizing scalability and operational feasibility.",
+          "explanation": "This enhances the practical relevance and impact on future applications by linking experimental findings to real-world implementation."
         },
         {
-          "remarks": "Societal and policy implications of deploying churn prediction models are not sufficiently explored.",
-          "original_text": "The review highlights the potential of churn prediction models to enable targeted churn prevention strategies but notes limited evidence from controlled trials.",
-          "improved_version": "It should emphasize the need for policy frameworks and ethical guidelines to govern the deployment of predictive models, especially in sensitive domains like health.",
-          "explanation": "Addressing policy and ethical considerations ensures responsible innovation and increases the societal relevance of the research."
+          "remarks": "Frame the results in terms of cumulative and systemic impact to strengthen field influence.",
+          "original_text": "Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+          "improved_version": "Highlight the potential cumulative impact of multiple swaps over time and across populations, emphasizing how small individual changes can aggregate into significant environmental benefits.",
+          "explanation": "This broadens the perceived significance and influence of the findings on the field and policy by framing individual actions as part of larger systemic change."
         },
         {
-          "remarks": "The review calls for more controlled trials but lacks specific guidance on standardizing datasets and metrics.",
-          "original_text": "Most studies evaluated and compared multiple different ML algorithms with mixed results, and no particular model emerged as a single best-performing model across a broad range of studies.",
-          "improved_version": "The discussion should include recommendations for developing benchmarking frameworks and shared datasets to identify truly generalizable models across domains.",
-          "explanation": "Providing concrete recommendations for standardization and benchmarking will facilitate future research and meta-analyses, amplifying the manuscript's significance."
+          "remarks": "Clarify limitations and propose directions for optimizing intervention effectiveness.",
+          "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
+          "improved_version": "Discuss potential reasons for the limited overall impact, such as multiple swaps diluting effects, and propose future research to optimize intervention design for greater effectiveness.",
+          "explanation": "This clarifies the limitations and guides future research directions, strengthening the study\u2019s contribution to the field."
         }
       ]
     },
     "R3": {
       "section_name": "Ethics and Compliance",
-      "score": 3,
-      "summary": "The review demonstrates a generally sound methodological approach but exhibits moderate gaps in addressing key ethical considerations. While author affiliations and funding sources are disclosed, explicit discussion of potential conflicts of interest, data privacy safeguards, informed consent, and adherence to ethical guidelines in the primary studies is lacking. These omissions limit the ethical transparency and robustness of the research. To improve, the manuscript should include explicit statements on conflict management, privacy standards, consent procedures, and ethical approvals in the included studies. Addressing these areas will strengthen the ethical foundation and credibility of the review.",
+      "score": 4,
+      "summary": "The manuscript demonstrates good ethical standards with institutional approval, transparency in analysis, and incentive-compatible design. However, it lacks explicit details on informed consent procedures, data privacy measures, and adherence to international guidelines such as GDPR and the Declaration of Helsinki. Providing more comprehensive information on participant consent, data anonymization, and compliance with recognized ethical standards would strengthen the ethical robustness and transparency of the research.",
       "suggestions": [
         {
-          "remarks": "Potential conflicts of interest and bias mitigation are not explicitly addressed.",
-          "original_text": "The authors disclose affiliations and funding sources, including industry ties (e.g., CSS, Uniqa, Pathmate Technologies), but do not explicitly discuss potential conflicts of interest or measures taken to mitigate bias.",
-          "improved_version": "The authors should explicitly discuss potential conflicts of interest related to industry affiliations and describe measures taken to mitigate bias, such as independent data validation or transparency in funding influence.",
-          "explanation": "Explicit conflict of interest statements and mitigation strategies enhance transparency and research integrity."
+          "remarks": "Clarify and document the ethical approval process.",
+          "original_text": "The study was approved by the University of Zurich Ethics Commission.",
+          "improved_version": "The study received ethical approval from the University of Zurich Ethics Commission, and detailed documentation of this approval is available upon request.",
+          "explanation": "Providing explicit documentation or approval number enhances transparency and allows verification of ethical compliance."
         },
         {
-          "remarks": "Data privacy and anonymization procedures are not detailed.",
-          "original_text": "The review synthesizes data from multiple studies, many of which involve user data, but there is no explicit mention of how data privacy and anonymization are handled or whether data sharing complies with privacy standards.",
-          "improved_version": "The review should specify whether the original studies adhered to data privacy standards, including anonymization and compliance with regulations such as GDPR or HIPAA, and describe how privacy considerations were managed.",
-          "explanation": "Clarifying privacy safeguards ensures ethical handling of user data and compliance with data protection standards."
+          "remarks": "Detail the informed consent process to ensure participant autonomy.",
+          "original_text": "Participants were informed about the shopping task and the online supermarket.",
+          "improved_version": "Participants provided explicit informed consent after being thoroughly informed about the purpose of the study, data collection procedures, potential risks, their rights to withdraw at any time, and data confidentiality measures, prior to participation.",
+          "explanation": "Ensures adherence to ethical standards for informed consent, enhancing participant autonomy and transparency."
         },
         {
-          "remarks": "Informed consent procedures in the original studies are not discussed.",
-          "original_text": "The review does not specify whether the original studies obtained informed consent from users for data collection and analysis, nor does it address how consent procedures were handled in the included studies.",
-          "improved_version": "The authors should include an assessment of whether the original studies reported obtaining informed consent from participants and describe the consent procedures followed, ensuring adherence to ethical standards.",
-          "explanation": "Addressing consent procedures confirms respect for participant autonomy and ethical compliance."
+          "remarks": "Explicitly state compliance with data privacy regulations.",
+          "original_text": "The data of this study are publicly available on the Open Science Framework project page.",
+          "improved_version": "The anonymized data collected in this study are stored securely and made publicly available in accordance with GDPR and institutional data privacy policies, with explicit participant consent for data sharing.",
+          "explanation": "Clarifies data privacy measures and confirms compliance with data protection regulations, strengthening ethical standards."
         }
       ]
     },
     "R4": {
       "section_name": "Data and Code Availability",
-      "score": 2,
-      "summary": "The review identifies significant gaps in data and code availability, with most datasets remaining proprietary and little evidence of shared code repositories or detailed protocols. This lack of transparency and openness severely limits reproducibility and the ability for others to validate or build upon the work. The manuscript should explicitly state the availability of datasets and code, justify access restrictions, and advocate for standardized reporting and open science practices. Encouraging the use of anonymized or synthetic data and recommending the deposition of code and protocols in public repositories will greatly enhance scientific rigor and progress in the field.",
+      "score": 4,
+      "summary": "The manuscript demonstrates a strong commitment to open science by making data and code publicly available. However, the lack of detailed documentation, metadata, environment specifications, and clear instructions for access and reproduction limits full transparency and reproducibility. Enhancing repository documentation, specifying access procedures, and providing environment setup files would significantly improve the utility and openness of the research outputs.",
       "suggestions": [
         {
-          "remarks": "The availability of datasets and access conditions are not clearly stated.",
-          "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
-          "improved_version": "The review should explicitly state whether the datasets from the included studies are publicly available, available upon request, or proprietary, and provide links or access conditions where applicable.",
-          "explanation": "Clear data access information enhances transparency and enables reproducibility."
+          "remarks": "Provide detailed dataset descriptions and formats to enhance transparency.",
+          "original_text": "The study data are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
+          "improved_version": "The dataset, including raw and processed data, is publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes detailed descriptions of each variable, data formats (e.g., CSV, JSON), and instructions for access.",
+          "explanation": "Providing detailed dataset descriptions and formats enhances transparency and helps others understand and utilize the data effectively."
         },
         {
-          "remarks": "There is no mention of code availability or sharing of analysis scripts.",
-          "original_text": "There is no mention of whether the original code implementations, models, or analysis scripts from the included studies are publicly shared or accessible.",
-          "improved_version": "The review should include a statement on the availability of code repositories, such as links to GitHub or other platforms, and specify whether code is shared under open licenses.",
-          "explanation": "Providing access to code repositories significantly improves reproducibility and allows others to verify and extend the models."
+          "remarks": "Include a README and environment setup instructions for code reproducibility.",
+          "original_text": "All code used in the analyses are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
+          "improved_version": "All analysis code, scripts, and workflows are publicly available on the Open Science Framework (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes a README file with instructions on how to run the code, required dependencies (e.g., R, Python versions), and environment setup details.",
+          "explanation": "Including environment setup instructions and dependency details facilitates exact replication of analyses, supporting reproducibility."
         },
         {
-          "remarks": "Documentation of methodologies and reporting standards is inconsistent.",
-          "original_text": "The review notes that many studies do not report detailed feature sets, sampling methods, or performance metrics consistently.",
-          "improved_version": "Authors should recommend or enforce standardized reporting guidelines for methodology, including detailed descriptions of feature engineering, sampling techniques, and performance metrics, and suggest depositing such details in supplementary materials or repositories.",
-          "explanation": "Standardized documentation ensures that other researchers can accurately reproduce the models and compare results across studies."
+          "remarks": "Clarify access restrictions and licensing for data/code reuse.",
+          "original_text": "Access restrictions are not specified beyond 'publicly available'.",
+          "improved_version": "Access to the data and code repositories is open without restrictions. If any restrictions exist (e.g., data privacy concerns), these are clearly stated, along with procedures for requesting access or data use agreements.",
+          "explanation": "Clarifying access restrictions ensures transparency about data openness and legal or ethical constraints."
         }
       ]
     },
     "R5": {
       "section_name": "Statistical Rigor",
       "score": 3,
-      "summary": "The review demonstrates a solid understanding of machine learning applications for churn prediction but reveals notable gaps in statistical rigor. Key issues include insufficient discussion of validation procedures, lack of assumption verification, inadequate sample size justification, and inconsistent reporting of confidence intervals and effect sizes. Addressing these shortcomings through explicit validation strategies, assumption checks, and comprehensive reporting of statistical measures will significantly improve the reliability and interpretability of future research in this area.",
+      "summary": "The statistical analysis is generally sound but has several areas for improvement. The primary concerns are the lack of explicit verification of regression assumptions, use of linear regression for bounded percentage data without justification, and absence of corrections for multiple comparisons. Additionally, confidence intervals are not reported, and effect sizes are not contextualized in terms of practical significance. Addressing these issues\u2014by verifying assumptions, considering alternative models, reporting confidence intervals, and correcting for multiple testing\u2014would significantly strengthen the statistical rigor and credibility of the findings.",
       "suggestions": [
         {
-          "remarks": "Validation procedures and appropriateness of statistical tests are not clearly specified.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "Explicitly specify the validation procedures used for each ML algorithm, such as cross-validation or train-test splits, and justify their appropriateness for the dataset sizes and model complexity.",
-          "explanation": "Clear validation strategies ensure the robustness of performance estimates and facilitate comparison across studies."
+          "remarks": "Verify and report regression assumptions to ensure model validity.",
+          "original_text": "The regression model for percentage GHGE reduction does not mention assumption verification.",
+          "improved_version": "Include residual diagnostics such as plots of residuals versus fitted values, tests for normality (e.g., Shapiro-Wilk), and checks for heteroscedasticity (e.g., Breusch-Pagan test).",
+          "explanation": "Verifying assumptions ensures the validity of regression inferences and identifies potential violations that could bias results."
         },
         {
-          "remarks": "Assumptions underlying statistical models are not verified or discussed.",
-          "original_text": "There is no mention of whether models were tested for overfitting or whether validation techniques were employed to prevent it.",
-          "improved_version": "Recommend that studies explicitly verify assumptions such as proportional hazards for Cox models or distributional assumptions for regression analyses, and report these checks.",
-          "explanation": "Assumption verification is critical for the validity of inferential models and their conclusions."
+          "remarks": "Report confidence intervals to illustrate estimate precision.",
+          "original_text": "No mention of confidence intervals for regression estimates.",
+          "improved_version": "Report 95% confidence intervals alongside all regression coefficients and odds ratios to provide a measure of estimate precision.",
+          "explanation": "Confidence intervals help interpret the reliability and practical significance of findings beyond p-values."
         },
         {
-          "remarks": "Confidence intervals and effect sizes are not consistently reported.",
-          "original_text": "Minimal mention is made of confidence intervals around reported metrics.",
-          "improved_version": "Include confidence intervals for all key performance metrics, such as AUC, accuracy, and F1-score, to indicate the precision of estimates.",
-          "explanation": "Confidence intervals enhance interpretability and help assess the reliability of the reported performance measures."
+          "remarks": "Apply corrections for multiple comparisons to reduce false positives.",
+          "original_text": "Multiple regression models are conducted without correction for multiple testing.",
+          "improved_version": "Apply appropriate corrections such as the False Discovery Rate (FDR) or Bonferroni adjustment when interpreting multiple p-values across models and subgroup analyses.",
+          "explanation": "Controlling for multiple comparisons reduces the risk of false positives and enhances the credibility of significant findings."
         }
       ]
     },
     "R6": {
       "section_name": "Technical Accuracy",
       "score": 3,
-      "summary": "The manuscript provides a solid high-level overview of churn prediction methodologies but exhibits moderate gaps in technical accuracy. Notably, it lacks explicit mathematical derivations, detailed implementation specifics, and comprehensive validation procedures. Improving the clarity and completeness of mathematical formulations, providing detailed descriptions of algorithm implementations, and including statistical validation details would significantly enhance the technical rigor and reproducibility of the work. The current level is acceptable but leaves room for improvement in technical depth and clarity.",
+      "summary": "The technical accuracy of the manuscript is adequate but could be improved by providing more detailed derivations of impact calculations, explicit definitions of key variables, and clearer documentation of the intervention's implementation. The lack of detailed model diagnostics and insufficient documentation for data/code processing also limit reproducibility. Addressing these points would enhance transparency, technical rigor, and the ability for others to verify and build upon the work.",
       "suggestions": [
         {
-          "remarks": "Mathematical models are referenced without explicit derivations or formulas.",
-          "original_text": "The review references various mathematical models (e.g., Cox Regression, survival ensembles, IBS) but does not provide explicit derivations or formulas, leading to ambiguity about the exact mathematical assumptions and derivations used in the models.",
-          "improved_version": "Include explicit mathematical formulations for key models such as Cox Regression, survival ensembles, and IBS, with clear assumptions, equations, and derivation steps where applicable.",
-          "explanation": "Providing detailed formulas and derivations enhances clarity, allows verification of correctness, and supports reproducibility."
+          "remarks": "Provide explicit formulas and derivations for GHGE impact calculations.",
+          "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+          "improved_version": "The impact assessment for GHG emissions should include a detailed formula or pseudocode illustrating how the GWP100a values are applied to aggregate emissions from different gases, ensuring transparency.",
+          "explanation": "Explicit formulas improve clarity and reproducibility of impact calculations."
         },
         {
-          "remarks": "Implementation details for algorithms are insufficient.",
-          "original_text": "While the review categorizes algorithms into low, medium, and high complexity, it lacks detailed descriptions of the specific implementations, hyperparameters, and training procedures used in the studies.",
-          "improved_version": "Add detailed descriptions of the implementation specifics for each algorithm category, including hyperparameters, training procedures, and validation strategies used in the referenced studies.",
-          "explanation": "This improves understanding of algorithm correctness, comparability, and practical applicability."
+          "remarks": "Define all key variables and terms to ensure clarity and consistency.",
+          "original_text": "Some variables, such as 'GHGE reduced' and 'basket GHGE,' are used interchangeably without explicit definitions.",
+          "improved_version": "Include a glossary or table defining all key variables, such as 'initial basket GHGE,' 'final basket GHGE,' and 'percentage GHGE reduction,' with clear operational definitions.",
+          "explanation": "Clarifies variable interpretation and ensures consistent understanding across analyses."
         },
         {
-          "remarks": "Equations are presented without clear formatting or step-by-step derivations.",
-          "original_text": "Equations are presented in a descriptive manner without clear formatting, labels, or step-by-step derivations, making it difficult to interpret the mathematical logic.",
-          "improved_version": "Format all equations with proper LaTeX or mathematical notation, include labels, and provide step-by-step derivations or explanations for complex formulas.",
-          "explanation": "Enhanced formatting and explanations improve clarity, interpretability, and correctness verification."
+          "remarks": "Add detailed documentation and schematics for the intervention's implementation.",
+          "original_text": "Implementation details on the online supermarket interface, especially the presentation and highlighting of recommendations, are vague.",
+          "improved_version": "Add a detailed description or schematic of the user interface, including how the most effective swap is highlighted, the placement of GHGE info, and the sequence of steps, possibly with screenshots or diagrams.",
+          "explanation": "Improves reproducibility and understanding of intervention delivery."
         }
       ]
     },
     "R7": {
       "section_name": "Consistency",
-      "score": 4,
-      "summary": "The review is logically coherent and well-structured, with comprehensive coverage of the topic. Minor inconsistencies in terminology, citation formatting, and integration of figures and tables slightly detract from clarity. Addressing these issues\u2014such as ensuring consistent terminology, standardizing citation formats, and improving figure and table integration\u2014will further enhance the manuscript's clarity, coherence, and scholarly rigor.",
+      "score": 3,
+      "summary": "The manuscript is generally well-structured, but there are notable inconsistencies between hypotheses, results, and interpretations. The conclusions sometimes overstate the intervention's impact relative to the non-significant primary outcomes, and terminology is used inconsistently. Improving alignment between hypotheses, results, and conclusions, as well as standardizing terminology and clarifying cross-references, would enhance the logical coherence and transparency of the paper.",
       "suggestions": [
         {
-          "remarks": "Methods and results are not explicitly linked, reducing clarity on methodological impact.",
-          "original_text": "While the methods detail the data collection and sampling techniques, the results section does not explicitly link how these sampling strategies impacted model performance metrics reported later.",
-          "improved_version": "Explicitly discuss how data collection and sampling strategies influenced model performance metrics in the results section, providing clear examples or case studies.",
-          "explanation": "Linking methodological choices to outcomes clarifies the robustness of the results and strengthens the narrative."
+          "remarks": "Align conclusions with the actual statistical findings to avoid overstatement.",
+          "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+          "improved_version": "Our findings indicate that, for many consumers, simply providing the option to swap products can be sufficient to promote more sustainable purchasing behaviors, even without targeted recommendations or GHGE information.",
+          "explanation": "Rephrases for clarity and acknowledges the non-significant overall effects, aligning conclusions with results."
         },
         {
-          "remarks": "Terminology is used inconsistently, potentially confusing readers.",
-          "original_text": "Inconsistent use of terminology, such as sometimes referring to 'performance metrics' collectively and other times specifying 'AUC, F1-Score, Accuracy' without clear definitions or distinctions.",
-          "improved_version": "Define all key terms (e.g., 'performance metrics', 'behavioral features', 'contextual features') early in the manuscript and use them consistently throughout.",
-          "explanation": "Consistent terminology improves clarity and reduces ambiguity for the reader."
+          "remarks": "Standardize terminology for interventions and variables throughout the manuscript.",
+          "original_text": "The targeted product swap recommendation is derived from the final contents of a shopping basket and targets the product that, when swapped, would result in the greatest GHGE reduction.",
+          "improved_version": "The targeted product swap recommendation is based on the contents of the shopping basket and identifies the single animal-based product whose replacement with a plant-based analogue would yield the greatest reduction in overall GHGE.",
+          "explanation": "Clarifies the process and terminology, ensuring consistency with the detailed description in methods."
         },
         {
-          "remarks": "Figure references lack sufficient detail and integration.",
-          "original_text": "Figure 2 is referenced but not included in the provided text, and its description lacks sufficient detail to understand the categorization of algorithms without visual aid.",
-          "improved_version": "Ensure all figures are included with comprehensive captions and referenced in the text with sufficient detail to be understood independently.",
-          "explanation": "Integrating figures with clear descriptions enhances comprehension and supports the logical flow of the manuscript."
+          "remarks": "Improve cross-referencing of supplementary materials and clarify figure/table interpretations.",
+          "original_text": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
+          "improved_version": "Supplementary tables are explicitly referenced at relevant points in the main text, with brief summaries of their contents to guide readers in connecting detailed results with the main findings.",
+          "explanation": "Improves transparency and ease of cross-referencing, strengthening supplementary material consistency."
         }
       ]
     }
@@ -432,175 +432,175 @@
     "W1": {
       "section_name": "Language and Style",
       "score": 4,
-      "summary": "The manuscript demonstrates a strong command of academic language and style, with generally clear and professional writing. Most sentences are well-constructed, and the tone is appropriate for a scholarly audience. However, there are areas for improvement, including occasional grammatical inconsistencies (such as subject-verb agreement and tense), overly complex sentence structures, and minor issues with punctuation and citation style. Addressing these will enhance readability, flow, and overall professionalism. The manuscript\u2019s strengths include precise vocabulary and a formal tone, but targeted revisions will further elevate its clarity and polish.",
+      "summary": "The manuscript generally demonstrates strong command of academic English, with clear scientific communication and mostly appropriate formality. However, there are notable issues with sentence structure, special character encoding (notably in author names), and inconsistent punctuation (especially hyphenation and spacing). Verb tense consistency and subject-verb agreement are mostly maintained, but occasional lapses reduce overall coherence. Addressing these issues, particularly by correcting encoding errors and improving sentence clarity, will enhance professionalism and readability. The manuscript\u2019s strengths include a formal tone and generally accurate grammar, but further attention to detail is needed to reach the highest standard.",
       "suggestions": [
         {
-          "remarks": "Complex sentence structure and inconsistent use of list punctuation reduce clarity.",
-          "original_text": "Logistic Regression (n = 28), Decision Tree (n = 21), K-Nearest Neighbors (KNN, n = 7), Naive Bayes (n = 6), Least Absolute Shrinkage and Selection Operator (LASSO, n = 2), homogeneous and inhomogeneous Poisson process (n = 1), and Regularized Discriminant Analysis (RDA, n = 1)",
-          "improved_version": "Logistic Regression (n = 28), Decision Tree (n = 21), K-Nearest Neighbors (KNN, n = 7), Naive Bayes (n = 6), Least Absolute Shrinkage and Selection Operator (LASSO, n = 2), homogeneous and inhomogeneous Poisson processes (n = 1), and Regularized Discriminant Analysis (RDA, n = 1).",
-          "explanation": "Adds the Oxford comma for consistency and pluralizes 'process' to match the context, improving readability and list clarity."
+          "remarks": "Correct special character encoding in author names to ensure professionalism and accuracy.",
+          "original_text": "Sabrina St\u00a8 ockli3,4, Elgar Fleisch1,5and Martin Natter3",
+          "improved_version": "Sabrina St\u00f6ckli^3,4, Elgar Fleisch^1,5, and Martin Natter^3",
+          "explanation": "Correcting character encoding and using proper superscript notation aligns with academic standards and avoids confusion."
         },
         {
-          "remarks": "Overly long and complex sentences in the discussion reduce clarity and make it difficult for readers to follow the argument.",
-          "original_text": "Mean performance metrics of reported best-performing models in included mobile app studies (Accuracy = 86%, AUC = 0.83, F1-Score = 0.81) are comparable to reported mean accuracies between 82%-86% in telecommunication services [58], indicating that churn prediction in mobile apps is likewise feasible.",
-          "improved_version": "The mean performance metrics of the best-performing models in the included mobile app studies\u2014such as Accuracy (86%), AUC (0.83), and F1-Score (0.81)\u2014are comparable to the mean accuracies reported in telecommunication services (82%\u201386%) [58]. This indicates that churn prediction in mobile apps is similarly feasible.",
-          "explanation": "Splits a lengthy sentence into two for improved clarity and digestibility, making the comparison and conclusion more accessible."
+          "remarks": "Improve sentence clarity and flow by breaking up complex sentences.",
+          "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+          "improved_version": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which considers all greenhouse gases\u2014such as carbon dioxide, methane, and nitrous oxide\u2014that contribute to climate change. These gases are compared over a 100-year time horizon and expressed in carbon dioxide equivalents.",
+          "explanation": "Breaking up the long sentence improves clarity and readability, making complex information easier to understand."
         },
         {
-          "remarks": "Inconsistent tense usage in the methodology section can disrupt narrative flow and temporal clarity.",
-          "original_text": "A review protocol was submitted... search terms related to churn prediction, mobile app data, and ML methodologies: ...",
-          "improved_version": "A review protocol was submitted, and the search terms related to churn prediction, mobile app data, and ML methodologies were developed accordingly.",
-          "explanation": "Ensures consistent use of past tense for methodological descriptions, improving narrative coherence and professionalism."
+          "remarks": "Standardize punctuation and hyphenation for compound modifiers.",
+          "original_text": "Throughout the document, hyphenation and spacing around hyphens are inconsistent.",
+          "improved_version": "Throughout the document, hyphenation and spacing around hyphens are inconsistent; standardize hyphen use for compound modifiers (e.g., 'food-related') and ensure uniform spacing.",
+          "explanation": "Consistent punctuation and hyphenation enhance readability and maintain a professional appearance."
         }
       ]
     },
     "W2": {
       "section_name": "Narrative and Structure",
-      "score": 4,
-      "summary": "The manuscript exhibits a well-organized narrative structure, with logical progression from introduction to conclusion. Sections are clearly delineated, and the overall flow supports reader comprehension. However, some transitions between topics within sections (especially in the literature review and results) could be smoother, and visual elements (figures/tables) should be better integrated into the text. Improving signposting, adding explicit references to visuals, and synthesizing key points at section ends would further enhance coherence and engagement. The manuscript\u2019s strengths include comprehensive coverage and logical sequencing, but targeted improvements will make the narrative more cohesive and accessible.",
+      "score": 3,
+      "summary": "The manuscript presents a solid foundation in experimental reporting but would benefit from improved narrative coherence, clearer section transitions, and better integration of visual elements. Key issues include abrupt transitions between sections, insufficient linkage between hypotheses and results, and underutilization of figures and tables as explanatory tools. Paragraphs often lack clear topic sentences and sometimes combine multiple ideas, reducing clarity. Strengthening topic sentences, explicitly referencing hypotheses, and enhancing interpretive commentary will significantly improve the structural organization and reader engagement, resulting in a more compelling and accessible research story.",
       "suggestions": [
         {
-          "remarks": "The abstract does not clearly state the unique contribution of the review or the research gap addressed.",
-          "original_text": "This systematic literature review investigates applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies from an initial pool of 1,502 screened articles.",
-          "improved_version": "This systematic review synthesizes methodologies and outcomes from 50 studies on machine learning-based churn prediction in mobile apps, filling a notable gap in the literature.",
-          "explanation": "Clarifies the review\u2019s contribution and novelty, helping readers quickly grasp its significance."
+          "remarks": "Clarify the research focus and purpose in the abstract to improve narrative coherence.",
+          "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+          "improved_version": "This study investigates how specific, actionable product swap recommendations\u2014such as replacing animal-based products with plant-based alternatives\u2014can influence consumer choices in an experimental online supermarket environment.",
+          "explanation": "Clarifies the research focus and improves readability by explicitly stating the purpose, enhancing narrative coherence."
         },
         {
-          "remarks": "Figures and tables are informative but not well-integrated into the narrative.",
-          "original_text": "Figures and tables are informative but could be better integrated into the text with explicit references and explanations of their relevance.",
-          "improved_version": "Figures and tables are well-constructed; however, explicitly referencing and discussing them within the text would enhance their integration, guiding readers to interpret visual data in context.",
-          "explanation": "Encourages active integration of visuals into the narrative, improving comprehension and engagement."
+          "remarks": "Strengthen the linkage between results and hypotheses for clearer logical progression.",
+          "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+          "improved_version": "The regression analysis showed that neither targeted recommendations nor GHGE information significantly affected overall GHGE reduction compared to the control condition, highlighting the challenge of influencing broad dietary choices through these interventions alone.",
+          "explanation": "Provides interpretive context, improving narrative coherence and hypothesis tracking."
         },
         {
-          "remarks": "Transitions between topics within sections (e.g., from algorithms to features) are sometimes abrupt, affecting coherence.",
-          "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
-          "improved_version": "Additionally, the review examines factors influencing churn prediction outcomes and evaluates the effectiveness of prevention strategies integrated with prediction models.",
-          "explanation": "Streamlines the sentence and clarifies the thematic link, improving flow and cohesion."
+          "remarks": "Enhance integration and explanation of visual elements (figures/tables) to aid reader comprehension.",
+          "original_text": "Figures and tables are included with minimal narrative explanation, and some are referenced only in passing, reducing their effectiveness as visual storytelling tools.",
+          "improved_version": "Enhance the integration of figures and tables by providing descriptive narrative explanations and explicitly referencing them in the text to guide interpretation and reinforce key points.",
+          "explanation": "Improves visual element integration and reader engagement by making visuals more accessible and meaningful."
         }
       ]
     },
     "W3": {
       "section_name": "Clarity and Conciseness",
       "score": 3,
-      "summary": "The manuscript provides thorough coverage of the topic but is sometimes hampered by dense language, lengthy sentences, and technical jargon. These factors can impede quick comprehension, especially for readers less familiar with the domain. Simplifying language, breaking up long sentences and paragraphs, and providing brief explanations for technical terms would significantly improve clarity and conciseness. The work\u2019s strengths include detailed analysis and precise reporting, but targeted editing is needed to enhance accessibility and reader engagement.",
+      "summary": "The manuscript is well-researched and comprehensive but is hampered by issues of verbosity, complex sentence structures, and dense data presentation. Overly long sentences, repeated statistical details, and technical jargon without sufficient explanation reduce accessibility and clarity. Improvements in simplifying language, breaking up long sentences and paragraphs, and summarizing key findings will make the text more readable and engaging for a broader audience. The manuscript\u2019s strengths include thoroughness and formal tone, but greater focus on conciseness and clarity will elevate its impact.",
       "suggestions": [
         {
-          "remarks": "The abstract uses unnecessarily complex language, reducing immediate clarity.",
-          "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
-          "improved_version": "User churn, the early discontinuation of a product or service, presents major challenges in industries like gaming, healthcare, and education.",
-          "explanation": "Simplifies the sentence structure and vocabulary for broader accessibility."
+          "remarks": "Reduce wordiness and improve clarity in the abstract.",
+          "original_text": "Participants were overall receptive to receiving product swap recommendations.",
+          "improved_version": "Participants generally welcomed product swap recommendations.",
+          "explanation": "Simplifies language, making the statement clearer and more direct."
         },
         {
-          "remarks": "Long sentences in the results section make statistical information harder to interpret.",
-          "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
-          "improved_version": "Dataset sizes ranged from 61 to 37 million users, with a median of 25,000 and an IQR of 4,089 to 79,436.",
-          "explanation": "Rearranges and condenses the information for easier and faster understanding."
+          "remarks": "Break up long, complex sentences for better readability.",
+          "original_text": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
+          "improved_version": "Break long sentences into shorter, focused ones. For example, split complex sentences into two: one describing the intervention, and another reporting the outcomes.",
+          "explanation": "Shorter sentences improve readability and help readers process information more easily."
         },
         {
-          "remarks": "Technical terms are used without explanation, limiting accessibility.",
-          "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-          "improved_version": "The results show many ML algorithms used for predicting user churn and survival times, from logistic regression to deep neural networks.",
-          "explanation": "Reduces jargon and clarifies the range of algorithms, making the content more accessible."
+          "remarks": "Clarify technical jargon for non-expert readers.",
+          "original_text": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding.",
+          "improved_version": "Introduce technical terms with brief explanations, e.g., 'a bottom-up life cycle assessment (LCA), which evaluates environmental impacts from raw materials to disposal.'",
+          "explanation": "Provides clarity for non-expert readers, enhancing overall understanding."
         }
       ]
     },
     "W4": {
       "section_name": "Terminology Consistency",
       "score": 3,
-      "summary": "Terminology is generally consistent, but there are notable lapses, such as inconsistent use and definition of acronyms, variable formatting of technical terms, and ambiguity in key definitions (e.g., 'user churn'). Standardizing terminology, defining acronyms and abbreviations at first use, and ensuring consistent formatting of variables and metrics will improve clarity and professionalism. The manuscript\u2019s strength lies in its comprehensive coverage of technical terms, but greater attention to consistency is needed for optimal scholarly communication.",
+      "summary": "The manuscript generally employs consistent terminology but exhibits several areas for improvement, especially in the definition and use of acronyms, variable naming, and cross-referencing. Some abbreviations are not defined at first use, and variable names are inconsistently capitalized. Ensuring that all technical terms and abbreviations are introduced clearly and used uniformly will enhance clarity and professionalism. The manuscript\u2019s strength lies in its mostly consistent use of field-specific terms, but attention to detail will further improve scientific rigor.",
       "suggestions": [
         {
-          "remarks": "The acronym 'ML' is used without definition at first mention, which may confuse some readers.",
-          "original_text": "The acronym 'ML' is used throughout the paper without prior definition.",
-          "improved_version": "Machine Learning (ML) is used throughout the paper; ensure to define 'ML' at first mention.",
-          "explanation": "Defining acronyms at first use improves clarity and ensures all readers understand the terminology."
+          "remarks": "Ensure all acronyms are defined at first mention and used consistently.",
+          "original_text": "GHGE is used throughout the text without a full prior definition.",
+          "improved_version": "Greenhouse Gas Emissions (GHGE) are used consistently after their first full mention.",
+          "explanation": "Ensuring the first mention fully defines the acronym improves clarity and consistency."
         },
         {
-          "remarks": "Terms such as 'user churn', 'attrition', 'loss', 'abandonment', and 'dropout' are used interchangeably, causing ambiguity.",
-          "original_text": "Terms such as 'user churn', 'attrition', 'loss', 'abandonment', and 'dropout' are used interchangeably.",
-          "improved_version": "Use 'user churn' consistently throughout the manuscript, and define it explicitly as the discontinuation of app usage within the context of this review.",
-          "explanation": "Standardizing terminology and providing a clear definition reduces ambiguity and aids reader understanding."
+          "remarks": "Standardize variable naming conventions for clarity.",
+          "original_text": "Variable names such as 'Targeted' and 'Information' are inconsistently capitalized.",
+          "improved_version": "Standardize variable names to lowercase (e.g., 'targeted', 'information') throughout all sections.",
+          "explanation": "Consistent naming conventions improve readability and reduce confusion in data interpretation."
         },
         {
-          "remarks": "Performance metrics are reported with inconsistent units and formats, hindering comparison.",
-          "original_text": "Performance metrics like accuracy, F1-Score, and AUC are reported inconsistently.",
-          "improved_version": "Standardize reporting as percentages (e.g., Accuracy = 86%) or decimal fractions (e.g., AUC = 0.83), and specify units clearly in the text and tables.",
-          "explanation": "Consistent reporting of metrics facilitates comparison and improves clarity."
+          "remarks": "Provide explicit definitions for key concepts early in the manuscript.",
+          "original_text": "Key concepts like 'product swap recommendations' are not always explicitly defined.",
+          "improved_version": "Include a clear, explicit definition of 'product swap recommendations' early in the methodology, e.g., 'Product swap recommendations refer to suggested substitutions of animal-based products with plant-based analogues to reduce environmental impact.'",
+          "explanation": "Explicit definitions ensure consistent understanding of core concepts across the paper."
         }
       ]
     },
     "W5": {
       "section_name": "Inclusive Language",
       "score": 3,
-      "summary": "The manuscript generally uses neutral and inclusive language, referring to 'users' and 'participants' appropriately. However, there are missed opportunities to address diversity, accessibility, and global representation\u2014such as not considering disability, socioeconomic, or geographic diversity in the analysis and language. Occasional use of labels like 'churners' could be replaced with person-first language. More explicit acknowledgment of inclusivity and diversity would enhance the manuscript\u2019s fairness and relevance for a global audience.",
+      "summary": "The manuscript demonstrates a generally acceptable level of inclusivity but contains notable gaps in gender diversity, cultural sensitivity, and accessibility considerations. The exclusion of non-binary participants, lack of explicit disability inclusion, and focus on German-speaking participants limit the study\u2019s inclusivity and generalizability. Addressing these issues with more inclusive language, broader demographic representation, and explicit mention of accessibility will enhance the manuscript\u2019s relevance and respect for diverse populations. The strengths include mostly neutral terminology and recognition of some demographic limitations, but further improvements are needed for best practice.",
       "suggestions": [
         {
-          "remarks": "Labels such as 'churners' or 'disengaged users' can be depersonalizing.",
-          "original_text": "The document predominantly uses 'users' and 'participants' with person-first language, but occasionally uses 'churners' or 'disengaged users.'",
-          "improved_version": "Consistently employing person-first language, such as 'users who disengage' or 'participants experiencing churn,' promotes respectful and inclusive terminology.",
-          "explanation": "Person-first language emphasizes individuals over labels, fostering inclusivity."
+          "remarks": "Acknowledge and address exclusion of non-binary and gender-diverse participants.",
+          "original_text": "Participants with non-binary gender identities were excluded due to low representation.",
+          "improved_version": "Participants of all gender identities, including non-binary and gender diverse individuals, were invited to participate; future studies should aim for more inclusive gender representation.",
+          "explanation": "Using person-first, inclusive language and acknowledging the importance of diverse gender identities improves inclusivity."
         },
         {
-          "remarks": "The review does not explicitly address accessibility or disability considerations.",
-          "original_text": "The review discusses features like 'device type' and 'health features' but does not explicitly consider accessibility or disabilities of users.",
-          "improved_version": "While discussing features like 'device type' and 'health features,' future research should explicitly consider accessibility and accommodations for users with disabilities to promote inclusivity.",
-          "explanation": "Encourages the inclusion of accessibility considerations, supporting equitable research."
+          "remarks": "Explicitly address accessibility and inclusion of participants with disabilities.",
+          "original_text": "The language does not explicitly acknowledge participants with disabilities.",
+          "improved_version": "The study design considered accessibility for participants with disabilities, and future research should include accommodations to ensure full participation.",
+          "explanation": "Explicitly addressing accessibility promotes disability inclusion."
         },
         {
-          "remarks": "The search strategy\u2019s focus on English-language articles limits geographic inclusivity.",
-          "original_text": "The search strategy focuses on English-language articles, potentially excluding research from non-English speaking regions.",
-          "improved_version": "The current search strategy emphasizes English-language publications, which may limit geographic diversity; future efforts should include multilingual sources to broaden global representation.",
-          "explanation": "Acknowledges language bias and promotes global inclusivity."
+          "remarks": "Recognize and suggest improvements for cultural and geographic inclusivity.",
+          "original_text": "The study was conducted solely with German-speaking participants.",
+          "improved_version": "The study was conducted with German-speaking participants, acknowledging that future research should include multilingual and culturally diverse populations to enhance global applicability.",
+          "explanation": "Explicitly recognizing cultural limitations and suggesting inclusivity improvements enhances cultural sensitivity."
         }
       ]
     },
     "W6": {
       "section_name": "Citation Formatting",
       "score": 3,
-      "summary": "Citation formatting is generally acceptable but marred by inconsistent use of brackets and parentheses, variable placement of citations, and occasional mismatches between in-text citations and the reference list. Standardizing the use of parentheses for all in-text citations, ensuring consistent placement, and thoroughly cross-checking references will enhance the manuscript\u2019s professionalism and credibility. The reference list is comprehensive, but uniform formatting is needed for optimal scholarly presentation.",
+      "summary": "The manuscript\u2019s citation practices are generally acceptable but suffer from notable inconsistencies in formatting, placement, and style. There is a mix of citation delimiters (brackets, parentheses), inconsistent grouping of multiple citations, and variable use of author-year versus numbered formats. These inconsistencies reduce professionalism and may not align with journal requirements. Standardizing citation style, improving placement, and ensuring all references are accurately cross-referenced will significantly enhance the manuscript\u2019s coherence and credibility.",
       "suggestions": [
         {
-          "remarks": "Inconsistent use of brackets and parentheses for in-text citations reduces professionalism.",
-          "original_text": "[1, 23, 28, 68, 84]",
-          "improved_version": "(1, 23, 28, 68, 84)",
-          "explanation": "Using parentheses uniformly for in-text citations aligns with common academic styles and improves clarity."
+          "remarks": "Standardize in-text citation format throughout the manuscript.",
+          "original_text": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' [1, 2]",
+          "improved_version": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' (Afshin et al., 2019; Grummon et al., 2023)",
+          "explanation": "Switching to author-year format enhances clarity, aligns with common style guides (e.g., APA), and improves consistency."
         },
         {
-          "remarks": "Some in-text citations do not clearly match the reference list, hampering source verification.",
-          "original_text": "[12, 77, 80]",
-          "improved_version": "(12, 77, 80)",
-          "explanation": "Standardizing citation delimiters and ensuring all citations match the reference list enhances credibility and traceability."
+          "remarks": "Ensure consistent formatting and placement of figure and table references.",
+          "original_text": "References to figures and tables, e.g., 'Fig. 1(a)'",
+          "improved_version": "Fig. 1(a) and Table 1",
+          "explanation": "Ensure all figure and table references are consistently formatted and cross-checked with the list, improving clarity and traceability."
         },
         {
-          "remarks": "Variable formatting of citation numbers and placement within sentences reduces readability.",
-          "original_text": "Most studies defining churn after a specific cutoff date [1, 23, 28, 68, 84]",
-          "improved_version": "Most studies defining churn after a specific cutoff date (1, 23, 28, 68, 84)",
-          "explanation": "Consistent citation formatting improves readability and professional appearance."
+          "remarks": "Adopt a single citation delimiter style and apply it uniformly.",
+          "original_text": "Inconsistent citation delimiters, e.g., brackets vs parentheses",
+          "improved_version": "Adopt a single style, e.g., all citations in parentheses (Author, Year) or brackets [Number], as per journal guidelines, and apply uniformly throughout.",
+          "explanation": "Uniform delimiters enhance stylistic coherence and professionalism."
         }
       ]
     },
     "W7": {
       "section_name": "Target Audience Alignment",
-      "score": 4,
-      "summary": "The manuscript is well-aligned with its intended academic audience, offering technical depth, formal language, and comprehensive coverage of methodologies and findings. The structure and terminology are appropriate for researchers and advanced practitioners, though some sections could be made more accessible with clearer subheadings, summaries, and visual aids. Explicitly linking findings to practical implications and including more visual elements would further enhance engagement for both academic and industry readers. Overall, the manuscript\u2019s strengths are its rigor and depth, with minor improvements needed for broader accessibility.",
+      "score": 3,
+      "summary": "The manuscript is well-structured and methodologically sound, with findings relevant to both academic and applied audiences. However, greater clarity in methodological details (e.g., randomization), improved visual data presentation, and deeper contextualization of findings within the broader literature would enhance accessibility and engagement. Explicitly linking results to practical implications and including clear policy recommendations would further align the work with the expectations of a multidisciplinary, policy-relevant readership. The strengths include a formal tone and comprehensive results, but improvements in transparency and visual communication are recommended.",
       "suggestions": [
         {
-          "remarks": "Dense methodology sections may challenge practitioners seeking procedural clarity.",
-          "original_text": "While detailed, the methodology section is dense and could benefit from clearer subheadings or bullet points to improve readability for practitioners and researchers seeking specific procedural insights.",
-          "improved_version": "Add subheadings or bullet points to the methodology section to clearly delineate each step, making it easier for practitioners and researchers to follow and replicate the review process.",
-          "explanation": "Improves navigability and supports practical application by clearly organizing procedural details."
+          "remarks": "Clarify randomization and blinding procedures in the methodology.",
+          "original_text": "The methodology section is detailed but could better clarify the randomization process and blinding procedures.",
+          "improved_version": "Revise to: 'Participants were randomly assigned to conditions using a computer-generated randomization sequence, with allocation concealed from both participants and researchers to prevent bias.'",
+          "explanation": "Clarifies procedural rigor, increasing trust and transparency for the audience."
         },
         {
-          "remarks": "Extensive listing of features and rankings in results may overwhelm non-expert readers.",
-          "original_text": "The extensive listing of features and their importance rankings, while thorough, may overwhelm readers unfamiliar with the domain-specific features, potentially hindering quick comprehension.",
-          "improved_version": "Summarize key features and their importance rankings in a table or visual, and provide a brief narrative overview to aid comprehension for readers less familiar with the domain.",
-          "explanation": "Visual summaries and concise overviews improve accessibility for interdisciplinary and practitioner audiences."
+          "remarks": "Include visual summaries to support statistical results and enhance accessibility.",
+          "original_text": "Results are presented with extensive statistical detail but lack visual summaries such as bar graphs or effect size plots.",
+          "improved_version": "Include visual summaries like bar charts or box plots illustrating key outcomes (e.g., GHGE reduction across conditions) to facilitate quick comprehension.",
+          "explanation": "Visual data enhances accessibility and engagement, especially for diverse audiences."
         },
         {
-          "remarks": "Discussion could more explicitly link findings to practical implications for industry stakeholders.",
-          "original_text": "The discussion, though comprehensive, occasionally lacks explicit linkages between findings and practical implications, which could diminish relevance for industry practitioners.",
-          "improved_version": "Strengthen the discussion by explicitly connecting research findings to practical implications and recommendations for industry stakeholders.",
-          "explanation": "Enhances the manuscript\u2019s utility for applied audiences by making actionable insights more apparent."
+          "remarks": "Expand the discussion to contextualize findings and provide actionable implications.",
+          "original_text": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications.",
+          "improved_version": "Expand the discussion to explicitly relate findings to existing literature on dietary interventions and outline practical implications for policymakers and retailers.",
+          "explanation": "Enhances relevance and applicability, making the research more meaningful for practitioners and policymakers."
         }
       ]
     }

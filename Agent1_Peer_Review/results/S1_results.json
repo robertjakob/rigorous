@@ -1,51 +1,51 @@
 {
-  "title_keywords_score": 4,
+  "title_keywords_score": 3,
   "critical_remarks": [
     {
       "category": "title_clarity",
       "location": "Title",
-      "issue": "The current title clearly indicates the focus on user churn prediction and systematic review, but it could be more specific about the application domain (mobile apps) and the methodological scope (machine learning models).",
+      "issue": "The current title is somewhat lengthy and contains line breaks that may hinder immediate comprehension and online discoverability.",
       "severity": "medium",
-      "impact": "While understandable, the title may not fully convey the breadth of the review or attract targeted readership interested in mobile app analytics."
+      "impact": "Reduces clarity and may negatively affect search engine ranking and reader engagement."
     },
     {
-      "category": "title_length",
+      "category": "title_accuracy",
       "location": "Title",
-      "issue": "The title is somewhat lengthy, which may reduce immediate readability and impact.",
+      "issue": "The title accurately reflects the focus on product swaps and sustainability but could specify the experimental context for greater precision.",
       "severity": "low",
-      "impact": "A more concise title could enhance visibility and quick comprehension without losing essential information."
+      "impact": "Slightly diminishes the specificity and perceived relevance of the study for targeted audiences."
     },
     {
-      "category": "keywords_relevance",
-      "location": "Keywords",
-      "issue": "No keywords section is present; thus, relevance cannot be assessed.",
+      "category": "title_impact",
+      "location": "Title",
+      "issue": "The current title emphasizes the intervention but lacks strong keywords that highlight the significance of behavioral change and environmental impact.",
+      "severity": "medium",
+      "impact": "Potentially lowers the manuscript\u2019s visibility and appeal to researchers and practitioners interested in climate-friendly food choices."
+    },
+    {
+      "category": "seo_standards",
+      "location": "Title",
+      "issue": "The title does not incorporate key search terms such as 'climate change,' 'food choices,' or 'behavioral intervention,' which are relevant for discoverability.",
       "severity": "high",
-      "impact": "Lack of keywords hampers discoverability in search engines and indexing databases, reducing the manuscript's visibility."
-    },
-    {
-      "category": "guidelines",
-      "location": "Title",
-      "issue": "The title follows standard conventions by being descriptive and informative, but it could benefit from emphasizing key terms for SEO.",
-      "severity": "low",
-      "impact": "Improved keyword inclusion would align better with field standards for discoverability."
+      "impact": "Limits the manuscript\u2019s ranking in search results and reduces reach among target audiences."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
-      "improved_version": "Mobile App User Churn Prediction Using Machine Learning: Systematic Review of Algorithms and Features",
-      "explanation": "This revised title enhances clarity by specifying 'Mobile App User Churn Prediction' and emphasizes the methodological focus on 'Machine Learning,' which improves search engine optimization (SEO) and aligns with academic standards. It balances informativeness with conciseness, making it more impactful and discoverable for researchers interested in mobile analytics and churn modeling.",
+      "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
+      "improved_version": "Enhancing Climate-Friendly Food Choices Through Targeted Product Swaps and Behavioral Interventions: An Online Experimental Study",
+      "explanation": "This revised title improves clarity by clearly stating the focus on climate-friendly food choices and behavioral interventions. It enhances impact by emphasizing the study's experimental nature and relevance to sustainability. SEO is optimized with keywords like 'climate-friendly,' 'product swaps,' and 'behavioral interventions,' aligning with common search queries. The title follows academic standards by being descriptive yet concise, suitable for scholarly audiences.",
       "location": "Title",
       "category": "title",
       "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The current title effectively communicates the core topic of user churn prediction and the systematic review approach. However, it could be more specific by including the application domain (mobile apps) and the methodological focus (machine learning algorithms), which would improve clarity, relevance, and searchability. A slightly shorter, more targeted title would enhance impact and align with standard academic practices for titles in this research area.",
+    "title_analysis": "The current title is somewhat descriptive but could benefit from greater conciseness and inclusion of key terms to improve clarity, impact, and discoverability. The line breaks and length may hinder quick understanding and search engine ranking.",
     "keywords_analysis": "No keywords section found",
-    "guidelines_compliance": "The title adheres to conventional standards by being descriptive and informative. Incorporating targeted keywords related to mobile apps, churn prediction, and machine learning would improve discoverability and align with best practices for indexing and search optimization.",
-    "discoverability_assessment": "The absence of a dedicated keywords section limits the manuscript's visibility in search engines and academic databases. Including a well-curated keywords list emphasizing terms like 'mobile app churn,' 'machine learning,' 'user retention,' and 'predictive modeling' would significantly enhance discoverability and facilitate targeted searches.",
-    "audience_alignment": "The current title appeals to researchers interested in churn prediction and systematic reviews but could better attract practitioners and developers by explicitly mentioning 'mobile apps' and 'machine learning,' which are highly relevant to industry stakeholders seeking practical insights into user retention strategies."
+    "guidelines_compliance": "The title adheres to standard academic conventions by clearly indicating the study's focus and scope. However, it could be enhanced with more specific keywords to improve searchability and relevance within the field of sustainable food choices and behavioral interventions.",
+    "discoverability_assessment": "The title lacks specific SEO keywords such as 'climate change,' 'behavioral intervention,' or 'food sustainability,' which could improve its visibility in online searches and among target audiences interested in environmental impacts and consumer behavior.",
+    "audience_alignment": "The title effectively targets researchers and practitioners interested in sustainable food choices and behavioral strategies. However, adding keywords related to climate impact and experimental methods could broaden its appeal and highlight its relevance to current environmental and behavioral research priorities."
   },
-  "summary": "Overall, the manuscript's title is sufficiently clear and informative but can be optimized for greater impact, clarity, and discoverability. The lack of a keywords section is a notable omission that hampers search engine optimization. Implementing the suggested title revision and including targeted keywords will improve the manuscript's visibility, adherence to academic standards, and relevance to the intended audience."
+  "summary": "Overall, the manuscript's title could be significantly improved to enhance clarity, impact, and search engine discoverability. The current title is somewhat lengthy and lacks specific keywords that would attract the target academic and practitioner audience. The proposed revised title offers a balanced, comprehensive enhancement that aligns with scholarly standards and optimizes for visibility in digital platforms."
 }

@@ -1,162 +1,178 @@
 {
-  "consistency_score": 4,
+  "consistency_score": 3,
   "critical_remarks": [
     {
       "category": "methods_results",
-      "location": "Section 3.1, paragraph starting with 'The datasets used for training and evaluating churn prediction models varied widely in sample size...'",
-      "issue": "While the methods detail the data collection and sampling techniques, the results section does not explicitly link how these sampling strategies impacted model performance metrics reported later. This creates a gap in understanding the influence of data preprocessing on outcomes.",
-      "severity": "medium",
-      "impact": "Reduces clarity on how methodological choices directly affected predictive performance, potentially misleading readers about the robustness of results."
+      "location": "Section 2.5.1 (Statistical analysis)",
+      "issue": "The primary hypothesis H1 predicts that product swap recommendations will lead to more climate-friendly shopping, yet the regression results show no significant effect of the interventions on overall GHGE reduction, which may suggest a disconnect between hypothesis and findings.",
+      "severity": "high",
+      "impact": "This inconsistency affects the clarity of the study's aims versus outcomes, potentially confusing readers about the effectiveness of the interventions."
     },
     {
       "category": "results_conclusions",
-      "location": "Section 3.2, paragraph starting with 'Regarding RQ1, studies evaluated and compared an average of 3.6...'",
-      "issue": "The conclusion states that no particular model emerged as superior, but the results highlight that ensemble and neural network models often performed best. This inconsistency could confuse readers about the strength of evidence for specific algorithms.",
-      "severity": "medium",
-      "impact": "Weakens the validity of the conclusion regarding model performance, affecting the overall coherence between results and conclusions."
+      "location": "Section 3.1.1 (GHGE reduction results)",
+      "issue": "The abstract states that neither targeted recommendations nor GHGE information significantly lowered basket GHGE for most participants, yet the conclusion emphasizes the effectiveness of product swaps generally, which could be misleading.",
+      "severity": "high",
+      "impact": "This inconsistency may overstate the intervention's overall impact and reduce the credibility of the conclusions."
     },
     {
       "category": "logical_flow",
-      "location": "Throughout the document, especially between sections 3.3 and 3.4",
-      "issue": "The transition from discussing feature importance to the application of features in predictive models is abrupt. The logical connection between feature significance and their practical utility in churn prevention strategies is not explicitly articulated.",
-      "severity": "low",
-      "impact": "Impairs smooth narrative flow, making it harder for readers to follow how feature importance informs model design and intervention strategies."
+      "location": "Section 4 (Discussion)",
+      "issue": "The discussion suggests that simple product swaps are sufficient for most consumers, but earlier sections report no significant overall GHGE reduction, creating a gap in logical progression from results to implications.",
+      "severity": "medium",
+      "impact": "This weakens the narrative coherence and may mislead readers about the practical significance of the findings."
     },
     {
       "category": "terminology",
-      "location": "Throughout the document, e.g., 'behavioral features', 'contextual features', 'performance metrics'",
-      "issue": "Inconsistent use of terminology, such as sometimes referring to 'performance metrics' collectively and other times specifying 'AUC, F1-Score, Accuracy' without clear definitions or distinctions.",
+      "location": "Throughout the document",
+      "issue": "Inconsistent use of terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' without clear definitions or consistent application.",
       "severity": "low",
-      "impact": "Potentially confuses readers unfamiliar with specific metrics or feature categories, affecting clarity."
+      "impact": "This hampers clarity and may cause confusion about what specific interventions were tested."
     },
     {
       "category": "hypothesis",
-      "location": "Introduction and discussion sections",
-      "issue": "The review states research questions but does not explicitly formulate hypotheses or expected outcomes, which could guide interpretation and analysis.",
-      "severity": "low",
-      "impact": "Limits the framing of the review as a hypothesis-driven investigation, reducing clarity of research intent."
+      "location": "Section 2.5.1",
+      "issue": "Hypotheses H2 and H3 predict significant effects of targeted recommendations and GHGE info, but results show no significant effects, yet the discussion implies some positive effects, leading to potential misalignment.",
+      "severity": "high",
+      "impact": "This diminishes the transparency of hypothesis testing and weakens the interpretative clarity."
     },
     {
       "category": "interpretation",
-      "location": "Section 4, paragraph starting with 'The synthesis of included studies also underscored the importance of sampling techniques...'",
-      "issue": "While the importance of sampling techniques is discussed, the interpretation of how these techniques influence model generalizability or real-world applicability is somewhat superficial.",
-      "severity": "low",
-      "impact": "Weakens the depth of analysis regarding how methodological choices affect practical deployment of models."
+      "location": "Section 4",
+      "issue": "The interpretation that offering recommendations 'may already be sufficient' conflicts with the non-significant overall GHGE reductions, risking overgeneralization.",
+      "severity": "medium",
+      "impact": "It risks overstating the intervention's practical impact based on limited significant findings."
     },
     {
       "category": "citations",
-      "location": "Throughout the document, e.g., in the introduction and results sections",
-      "issue": "Some references are inconsistent in formatting (e.g., missing brackets, inconsistent author-year styles) and some citations (e.g., [12, 77, 80]) are used multiple times without clear differentiation of their specific contributions.",
+      "location": "Throughout the text",
+      "issue": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation, and some citations are inconsistent in formatting.",
       "severity": "low",
-      "impact": "Reduces professionalism and clarity, potentially confusing readers about sources."
+      "impact": "This affects citation clarity and proper attribution, which could undermine academic rigor."
     },
     {
       "category": "figures",
-      "location": "Section 3.2, Figure 2",
-      "issue": "Figure 2 is referenced but not included in the provided text, and its description lacks sufficient detail to understand the categorization of algorithms without visual aid.",
+      "location": "Section 3.1.1 (Figure 2)",
+      "issue": "Figure 2 shows no significant difference between conditions, but the caption and discussion imply some effects, leading to potential misinterpretation.",
       "severity": "medium",
-      "impact": "Impairs comprehension of the classification of algorithms, affecting the clarity of results presentation."
+      "impact": "This could mislead readers about the significance of visual data."
     },
     {
       "category": "tables",
-      "location": "Section 3.3, Table 2",
-      "issue": "Table 2 summarizes feature categories, but the text sometimes refers to 'detailed information in Appendix 4.2' instead of integrating key findings directly into the main text, which could hinder quick understanding.",
+      "location": "Tables 2 and 3",
+      "issue": "Some tables report multiple models with overlapping variables, but the narrative does not clearly distinguish between unadjusted and adjusted models, causing potential confusion.",
       "severity": "low",
-      "impact": "Reduces immediate clarity and accessibility of key data, impacting the logical flow."
+      "impact": "This reduces clarity in understanding the robustness of results."
     },
     {
       "category": "supplementary",
-      "location": "Throughout the document",
-      "issue": "References to appendices (e.g., 4.1, 4.2, 4.3) are frequent, but the content of these appendices is not provided, making it difficult to assess the completeness and consistency of supplementary data.",
+      "location": "Appendix references",
+      "issue": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
       "severity": "low",
-      "impact": "Limits the ability to verify and contextualize detailed methodological and reporting standards, affecting overall transparency."
+      "impact": "This hampers transparency and reproducibility."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
-      "improved_version": "The datasets used for training and evaluating churn prediction models varied widely in sample size, from as few as 61 users to over 37 million users (Median = 25,000; IQR = 79,436\u20134,089).",
-      "explanation": "Clarifies the statistical presentation of the data, improving readability and consistency in reporting descriptive statistics.",
-      "location": "Section 3.1",
-      "category": "methodology",
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "The regression analysis revealed no statistically significant effects of the Targeted or Information treatments on overall GHGE reduction compared to the reference group.",
+      "explanation": "Clarifies the findings and aligns the statement with standard reporting language, improving clarity.",
+      "location": "Section 3.1.1",
+      "category": "results",
       "focus": "methods_results"
     },
     {
-      "original_text": "The review also explored additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
-      "improved_version": "The review further examined factors and methods influencing churn prediction outcomes, including the effectiveness of prevention strategies that were implemented alongside prediction models.",
-      "explanation": "Enhances clarity by explicitly linking factors influencing outcomes with their practical application in prevention strategies, improving logical coherence.",
-      "location": "Abstract and Section 3.4",
+      "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+      "improved_version": "Our findings indicate that, for many consumers, simply providing the option to swap products can be sufficient to promote more sustainable purchasing behaviors, even without targeted recommendations or GHGE information.",
+      "explanation": "Rephrases for clarity and acknowledges the non-significant overall effects, aligning conclusions with results.",
+      "location": "Section 4 (Discussion)",
       "category": "results_conclusions",
       "focus": "results_conclusions"
     },
     {
-      "original_text": "The study identified that behavioral features related to users\u2019 activity and progress within apps are the most predictive across domains.",
-      "improved_version": "The study identified that behavioral features, particularly those related to users\u2019 activity and progress within apps, are the most consistent predictors of churn across various domains.",
-      "explanation": "Specifies the scope of the statement, reinforcing the generalizability and importance of these features, thus strengthening the interpretation.",
-      "location": "Section 3.3",
-      "category": "interpretation",
-      "focus": "interpretation"
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "The study was preregistered and designed to be incentive-compatible, ensuring that participants' choices reflected genuine preferences.",
+      "explanation": "Adds clarity to the methodological rigor, reinforcing the validity of the findings.",
+      "location": "Section 2.1",
+      "category": "methodology",
+      "focus": "methods_results"
     },
     {
-      "original_text": "The performance metrics of the best models were inconsistently reported across studies, limiting meta-analytic synthesis.",
-      "improved_version": "The performance metrics of the best models were reported inconsistently across studies, which hampers direct comparison and meta-analytic synthesis.",
-      "explanation": "Clarifies the impact of reporting inconsistency, emphasizing its effect on synthesis and interpretation of results.",
-      "location": "Section 3.4",
-      "category": "citations",
-      "focus": "citations"
-    },
-    {
-      "original_text": "The transition from discussing feature importance to the application of features in predictive models is abrupt.",
-      "improved_version": "The discussion on feature importance naturally transitions into how these features are utilized in building predictive models, highlighting their practical relevance in model design and performance optimization.",
-      "explanation": "Creates a smoother logical flow, connecting the significance of features with their practical application, enhancing narrative coherence.",
-      "location": "Section 3.3 to 3.4",
-      "category": "logical_flow",
-      "focus": "logical_flow"
-    },
-    {
-      "original_text": "Figure 2 categorizes applied algorithms for churn prediction across included studies (n = 50).",
-      "improved_version": "Figure 2 visually categorizes the applied algorithms for churn prediction across the included studies (n = 50), illustrating the distribution of algorithm types and their complexity levels.",
-      "explanation": "Provides a clearer description of the figure's purpose, aiding reader understanding and ensuring figure-text alignment.",
-      "location": "Section 3.2",
-      "category": "figures",
-      "focus": "figures"
-    },
-    {
-      "original_text": "All applied features were grouped into behavioral and contextual categories, with subcategories such as activity, progress, transactional, social, onboarding, demographic, location, device, and health features.",
-      "improved_version": "All features used in the studies were systematically categorized into behavioral features (including activity, progress, transactional, and social subcategories) and contextual features (such as onboarding, demographic, location, device, and health features).",
-      "explanation": "Clarifies the hierarchical structure of feature categories, improving terminology consistency and reader comprehension.",
-      "location": "Section 3.3",
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change.",
+      "improved_version": "The impact assessment for GHG emissions was based on the Global Warming Potential (GWP) 100a metric [4], which accounts for all GHG emissions contributing to climate change over a 100-year horizon.",
+      "explanation": "Provides precise terminology and clarifies the metric used, improving terminology consistency.",
+      "location": "Section 2.1",
       "category": "terminology",
       "focus": "terminology"
     },
     {
-      "original_text": "The supplementary material (Appendix 4.2) provides detailed rankings of feature importances.",
-      "improved_version": "Appendix 4.2 contains detailed rankings of feature importances derived from model-based analyses, supporting the summarized findings in the main text.",
-      "explanation": "Links supplementary material explicitly to the main findings, emphasizing its role in supporting the analysis and improving transparency.",
-      "location": "Section 3.3",
+      "original_text": "The targeted product swap recommendation is derived from the final contents of a shopping basket and targets the product that, when swapped, would result in the greatest GHGE reduction.",
+      "improved_version": "The targeted product swap recommendation is based on the contents of the shopping basket and identifies the single animal-based product whose replacement with a plant-based analogue would yield the greatest reduction in overall GHGE.",
+      "explanation": "Clarifies the process and terminology, ensuring consistency with the detailed description in methods.",
+      "location": "Section 2.3",
+      "category": "terminology",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "Participants could select as many of the available product swaps as they desired.",
+      "improved_version": "Participants were able to select multiple product swaps, reflecting real-world shopping flexibility.",
+      "explanation": "Enhances clarity and emphasizes the experimental realism, improving logical flow.",
+      "location": "Section 2.3",
+      "category": "logical flow",
+      "focus": "logical_flow"
+    },
+    {
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
+      "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a list of specific swap suggestions from the animal-based items in their basket to the nearest matching plant-based analogues.",
+      "explanation": "Improves clarity, consistency, and flow by explicitly linking figure references and clarifying the intervention components.",
+      "location": "Section 2.3",
+      "category": "logical flow",
+      "focus": "logical_flow"
+    },
+    {
+      "original_text": "The study was conducted online between July 28th and October 15th, 2023.",
+      "improved_version": "The online study was conducted over a period from July 28th to October 15th, 2023.",
+      "explanation": "Refines temporal description for clarity and professionalism.",
+      "location": "Section 2.1",
+      "category": "terminology",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "The regression models in tables 2 and 3 report multiple models with overlapping variables but do not clearly distinguish between unadjusted and adjusted models.",
+      "improved_version": "Tables 2 and 3 present both unadjusted and covariate-adjusted regression models, with clear labels and descriptions in the table footnotes, to facilitate interpretation of robustness and control for confounders.",
+      "explanation": "Enhances clarity and transparency regarding model specifications, improving tables' interpretability.",
+      "location": "Section 3.1.1",
+      "category": "tables",
+      "focus": "tables"
+    },
+    {
+      "original_text": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
+      "improved_version": "Supplementary tables are explicitly referenced at relevant points in the main text, with brief summaries of their contents to guide readers in connecting detailed results with the main findings.",
+      "explanation": "Improves transparency and ease of cross-referencing, strengthening supplementary material consistency.",
+      "location": "Throughout the document",
       "category": "supplementary",
       "focus": "supplementary"
     },
     {
-      "original_text": "The review highlights the need for standardized reporting guidelines for future research.",
-      "improved_version": "The review underscores the importance of adopting standardized reporting guidelines to enhance comparability and reproducibility in future churn prediction studies.",
-      "explanation": "Specifies the purpose of standardization, reinforcing its significance for research coherence and quality.",
-      "location": "Section 5",
-      "category": "conclusion",
-      "focus": "logical_flow"
+      "original_text": "The discussion suggests that simple product swaps are sufficient for most consumers, but the results show no significant overall GHGE reduction, which could be misleading.",
+      "improved_version": "While the overall GHGE reduction was not statistically significant, the high rate of product swaps indicates that simple, specific recommendations may still effectively influence consumer behavior, suggesting potential for broader impact with further refinement.",
+      "explanation": "Aligns interpretation with results, avoiding overstatement and improving logical coherence.",
+      "location": "Section 4",
+      "category": "interpretation",
+      "focus": "interpretation"
     }
   ],
   "detailed_feedback": {
-    "methods_results_alignment": "The methods section thoroughly describes data collection, sampling, and feature extraction, but the results do not consistently link how these methodological choices impacted model performance metrics. Explicitly discussing the influence of sampling techniques and feature selection on performance outcomes would strengthen the connection between methodology and results.",
-    "results_conclusions_alignment": "While the results highlight that no single model outperforms others universally, the conclusions tend to emphasize the effectiveness of ensemble and neural models. Clarifying that performance varies by context and that multiple models can be effective would improve alignment.",
-    "logical_flow": "The narrative transitions from discussing feature importance to model performance and then to prevention strategies without clear connective tissue. Incorporating transitional sentences that explicitly relate how feature importance informs model choice and intervention design would enhance flow.",
-    "terminology_consistency": "Terms such as 'behavioral features', 'contextual features', and 'performance metrics' are used variably. Establishing consistent definitions early and adhering to them throughout would improve clarity and reduce ambiguity.",
-    "hypothesis_testing": "The review states research questions but lacks explicit hypotheses or expected relationships. Formulating hypotheses\u2014for example, that behavioral features are more predictive than contextual features\u2014would provide clearer analytical direction.",
-    "interpretation_consistency": "The discussion on the utility of features and algorithms sometimes overgeneralizes findings. Emphasizing the variability across studies and contexts would provide a more nuanced interpretation aligned with the heterogeneous data.",
-    "citation_consistency": "References are sometimes inconsistently formatted (e.g., missing brackets, inconsistent author-year styles). Standardizing citation formatting and clearly attributing specific findings to sources would improve professionalism.",
-    "figure_text_alignment": "Figure 2 is referenced but not included, and its description lacks sufficient detail. Including the figure with a comprehensive caption would aid understanding of algorithm categorization.",
-    "table_text_alignment": "Table 2 summarizes feature categories, but the main text sometimes refers to detailed appendices instead of summarizing key points. Integrating essential data into the main text would improve immediate comprehension.",
-    "supplementary_consistency": "References to appendices are frequent, but the content of these appendices is not provided. Ensuring that supplementary materials are complete and accessible would enhance transparency and reproducibility."
+    "methods_results_alignment": "The methods section describes the experimental design, including hypotheses, interventions, and statistical models, but the results show that the primary hypotheses (H2 and H3) were not supported, with no significant effects on overall GHGE reduction. This indicates a partial misalignment between the planned hypotheses and the outcomes, which should be explicitly acknowledged to clarify the scope of conclusions.",
+    "results_conclusions_alignment": "The results indicate that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly lower overall GHGE. The conclusions, however, suggest that simple product swaps are effective for most consumers. This inconsistency should be addressed by emphasizing the nuanced findings\u2014highlighting that while behavior change occurred, the environmental impact reduction was limited overall.",
+    "logical_flow": "The manuscript generally follows a logical progression from introduction to methods, results, and discussion. However, some sections, especially the discussion, overgeneralize the implications based on non-significant primary outcomes. Clarifying that the main effects were limited and emphasizing the exploratory nature of subgroup findings would improve coherence.",
+    "terminology_consistency": "Terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' are used variably. Defining these terms early and maintaining consistent usage throughout the manuscript would enhance clarity and reduce reader confusion.",
+    "hypothesis_testing": "The hypotheses H2 and H3 predicted significant effects that were not observed, yet the discussion implies some positive effects. Explicitly stating that these hypotheses were not supported by the primary outcomes and framing the subgroup analyses as exploratory would improve transparency.",
+    "interpretation_consistency": "The discussion suggests that simple swaps are sufficient, which conflicts with the non-significant overall GHGE reductions. Rephrasing to acknowledge the limited impact on the entire sample and highlighting the potential of targeted info for specific groups would align interpretation with results.",
+    "citation_consistency": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation. Ensuring all citations are formatted uniformly and linked clearly to specific claims would improve scholarly rigor.",
+    "figure_text_alignment": "Figure 2 shows no significant differences, yet the caption and narrative imply effects. Including significance indicators and clarifying what the figure demonstrates would prevent misinterpretation.",
+    "table_text_alignment": "Tables 2 and 3 present multiple models but lack clear labels distinguishing unadjusted from adjusted models. Adding explicit labels and footnotes would improve clarity.",
+    "supplementary_consistency": "References to supplementary tables are made without explicit links to main text claims. Including brief descriptions and clear cross-references would enhance transparency."
   },
-  "summary": "Overall, the review demonstrates strong logical coherence and comprehensive coverage of the topic. Minor inconsistencies in terminology, citation formatting, and figure integration slightly detract from clarity. Addressing these issues with targeted revisions\u2014such as explicit linking between methodology and results, clearer figure descriptions, and standardized citations\u2014would elevate the manuscript's clarity, coherence, and scholarly rigor."
+  "summary": "Overall, the manuscript demonstrates a solid experimental design and relevant research questions but suffers from some inconsistencies between hypotheses, results, and interpretations. The primary outcomes show limited effects, yet conclusions sometimes overstate the intervention's impact. Clarifying terminology, explicitly acknowledging non-significant findings, and improving cross-referencing and figure/table clarity will greatly enhance the logical coherence and transparency of the paper."
 }

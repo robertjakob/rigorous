@@ -1,121 +1,167 @@
 {
-  "audience_alignment_score": 4,
+  "audience_alignment_score": 3,
   "critical_remarks": [
     {
       "category": "methodology",
-      "location": "Section 2 Methods (paragraphs 2-3)",
-      "issue": "While detailed, the methodology section is dense and could benefit from clearer subheadings or bullet points to improve readability for practitioners and researchers seeking specific procedural insights.",
-      "severity": "medium",
-      "impact": "Reduces ease of understanding for readers trying to replicate or assess the systematic review process."
+      "location": "Section 2.1 - Design and procedure",
+      "issue": "The methodology description, while detailed, lacks clarity on how the experimental conditions were operationalized and how the randomization was implemented, which could hinder reproducibility.",
+      "severity": "high",
+      "impact": "This affects the audience's ability to assess the rigor and reproducibility of the study, potentially undermining trust in the findings."
     },
     {
       "category": "results",
-      "location": "Section 3.3 Applied Features and Feature Importances",
-      "issue": "The extensive listing of features and their importance rankings, while thorough, may overwhelm readers unfamiliar with the domain-specific features, potentially hindering quick comprehension.",
+      "location": "Section 3.1 - Main analyses",
+      "issue": "Results are presented with extensive statistical detail, but lack visual summaries such as graphs or effect size plots that could aid comprehension.",
       "severity": "medium",
-      "impact": "May limit accessibility for interdisciplinary audiences or practitioners seeking high-level insights."
+      "impact": "This reduces accessibility for readers who prefer visual data interpretation, impacting engagement and clarity."
     },
     {
       "category": "discussion",
-      "location": "Section 4",
-      "issue": "The discussion, though comprehensive, occasionally lacks explicit linkages between findings and practical implications, which could diminish relevance for industry practitioners.",
+      "location": "Section 4 - Discussion",
+      "issue": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications, limiting depth.",
+      "severity": "medium",
+      "impact": "This diminishes the perceived relevance and applicability of the research to the target audience, especially practitioners."
+    },
+    {
+      "category": "conclusion",
+      "location": "Section 4 - Conclusion",
+      "issue": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications, which are crucial for applied audiences.",
       "severity": "low",
-      "impact": "Potentially reduces engagement from applied audiences looking for actionable insights."
+      "impact": "This reduces the practical value and actionability of the research for stakeholders."
+    },
+    {
+      "category": "visuals",
+      "location": "Throughout the document",
+      "issue": "References to figures (e.g., Fig. 1) are made, but the figures are not included or sufficiently described, impairing comprehension.",
+      "severity": "high",
+      "impact": "This hampers understanding of key experimental setups and results, especially for visual learners."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The systematic literature review investigates applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies from an initial pool of 1,502 screened articles.",
-      "improved_version": "This systematic review synthesizes methodologies and outcomes from 50 studies\u2014selected from an initial pool of 1,502\u2014that apply machine learning algorithms and features to predict user churn in mobile applications.",
-      "explanation": "Rephrasing enhances clarity and conciseness, making the core focus immediately apparent to readers, including practitioners and researchers.",
-      "location": "Abstract",
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
+      "improved_version": "Revise to: 'The intervention included a dedicated product swap recommendations page featuring (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a tailored list of specific swap suggestions from the original basket items to closely matching plant-based analogues.'",
+      "explanation": "Enhances clarity and flow, making the intervention components more explicit and reader-friendly.",
+      "location": "Section 2.1",
       "category": "organization",
       "focus": "clarity"
     },
     {
-      "original_text": "User churn, also referred to as user attrition, loss, abandonment, or dropout, is a well-recognized phenomenon characterized by users' discontinuation of a product or service.",
-      "improved_version": "User churn\u2014also known as attrition, loss, abandonment, or dropout\u2014is a well-documented phenomenon marked by users ceasing to engage with a product or service.",
-      "explanation": "Simplifies terminology and emphasizes the phenomenon, improving accessibility for a broad academic and industry audience.",
-      "location": "Introduction",
-      "category": "terminology",
-      "focus": "clarity"
+      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+      "improved_version": "Revise to: 'Participants showed a high level of receptivity to product swap recommendations, with 88.4% swapping at least one item and an average of 4.2 swaps per participant.'",
+      "explanation": "Provides specific data to support the statement, increasing credibility and audience engagement.",
+      "location": "Section 3.1",
+      "category": "results",
+      "focus": "results presentation"
     },
     {
-      "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps, and discusses the promising but limited results related to the effectiveness of churn prevention strategies informed by prediction models.",
-      "improved_version": "The review highlights behavioral features\u2014such as user activity and progress\u2014as key predictors, while noting that evidence on the effectiveness of churn prevention strategies based on these models remains limited but promising.",
-      "explanation": "Clarifies the significance of behavioral features and contextualizes the current evidence on prevention strategies, making it more relevant for practitioners seeking actionable insights.",
-      "location": "Abstract",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "The literature search and selection was conducted per the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines.",
-      "improved_version": "The literature search and selection followed the PRISMA guidelines, ensuring a transparent and standardized review process.",
-      "explanation": "Simplifies language and emphasizes the rigor of the methodology, appealing to both academic and industry audiences concerned with quality standards.",
-      "location": "Section 2 Methods",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
-      "improved_version": "Dataset sizes for training and evaluating churn models ranged from as small as 61 users to over 37 million, with a median of 25,000 users and an interquartile range of 4,089 to 79,436.",
-      "explanation": "Rephrasing improves clarity and precision, aiding readers in quickly grasping the scope of data variability relevant for research and industry applications.",
-      "location": "Section 3.1 Study Characteristics",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Most studies evaluated and compared multiple different ML models with mixed results, and no particular model emerged as a single best-performing model across a broad range of studies.",
-      "improved_version": "Most studies compared multiple machine learning models, yielding mixed results; no single algorithm consistently outperformed others across different contexts.",
-      "explanation": "Enhances clarity and emphasizes the variability in model performance, which is critical for practitioners considering model selection strategies.",
-      "location": "Section 3.2 Prediction Algorithms and Performances",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "The review also identified additional important behavioral features for churn prediction that are, however, more agnostic to certain app characteristics, such as Transactional Features (e.g., in-app purchases) applicable only in apps that include payments.",
-      "improved_version": "The review highlights behavioral features\u2014such as transactional data (e.g., in-app purchases)\u2014that are broadly applicable across app types, regardless of specific app characteristics.",
-      "explanation": "Clarifies the generalizability of certain features, making the insight more accessible for diverse application contexts.",
-      "location": "Section 3.3 Applied Features",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "The discussion, though comprehensive, occasionally lacks explicit linkages between findings and practical implications, which could diminish relevance for industry practitioners.",
-      "improved_version": "While comprehensive, the discussion would benefit from clearer connections between research findings and practical applications, enhancing its relevance for industry practitioners seeking actionable insights.",
-      "explanation": "Explicitly states the need for stronger links to practice, making the discussion more audience-oriented for industry readers.",
+      "original_text": "Results indicate that offering specific and actionable product swap recommendations, derived from the final contents of baskets and presented before checkout, is an effective strategy.",
+      "improved_version": "Revise to: 'Our results demonstrate that providing consumers with specific, actionable product swap recommendations\u2014based on their current basket contents and delivered at the point of decision\u2014effectively promotes climate-friendly food choices.'",
+      "explanation": "Refines technical language for clarity and emphasizes the practical intervention point, aligning with audience expectations.",
       "location": "Section 4",
-      "category": "organization",
+      "category": "discussion",
       "focus": "organization"
     },
     {
-      "original_text": "The conclusion, while summarizing key findings, could be strengthened by explicitly outlining future research directions and practical implications for industry stakeholders.",
-      "improved_version": "The conclusion effectively summarizes key findings but would be more impactful by explicitly detailing future research avenues and practical recommendations for industry stakeholders.",
-      "explanation": "Enhances the conclusion's utility by guiding future work and industry application, increasing its relevance for a broad audience.",
-      "location": "Section 6",
-      "category": "organization",
-      "focus": "organization"
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "Revise to: 'This study was preregistered and designed to be incentive-compatible, ensuring that participant choices reflect real-world decision-making.'",
+      "explanation": "Clarifies the importance of incentive compatibility for validity, making it more accessible to a broader audience.",
+      "location": "Section 2.1",
+      "category": "methodology",
+      "focus": "clarity"
     },
     {
-      "original_text": "Figures and tables, such as Figure 1 and Table 1, are referenced but not included in the provided text, limiting visual engagement.",
-      "improved_version": "Including visual elements like the PRISMA flowchart (Figure 1) and performance summary tables (Table 1) would significantly enhance clarity, facilitate quick comprehension, and improve engagement for visual learners.",
-      "explanation": "Explicitly recommends visual aids to improve understanding and retention, especially for complex data summaries.",
-      "location": "Section 3 and 4",
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "Revise to: 'Regression analyses showed no statistically significant differences in overall GHGE reduction between the Targeted or Information treatment groups and the control condition.'",
+      "explanation": "Simplifies language for clarity and improves readability for non-statistical audiences.",
+      "location": "Section 3.1.1",
+      "category": "results",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Figures are referenced but not included, which impairs comprehension.",
+      "improved_version": "Add the actual figures or include detailed descriptions within the text, such as: 'Figure 1 illustrates the product swap recommendations page, showing the explanation and the experimental conditions.'",
+      "explanation": "Ensures visual elements are accessible and understood, improving overall clarity and engagement.",
+      "location": "Throughout the document",
       "category": "visuals",
       "focus": "visual integration"
+    },
+    {
+      "original_text": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications.",
+      "improved_version": "Expand the discussion to explicitly relate findings to existing literature on dietary interventions and outline practical implications for policymakers and retailers.",
+      "explanation": "Enhances relevance and applicability, making the research more meaningful for practitioners and policymakers.",
+      "location": "Section 4",
+      "category": "discussion",
+      "focus": "contextualization"
+    },
+    {
+      "original_text": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications.",
+      "improved_version": "Add a closing paragraph: 'Future research should explore long-term effects of such interventions in real-world settings, and policymakers could consider integrating targeted product swap strategies into sustainability initiatives.'",
+      "explanation": "Provides clear guidance for future work and policy relevance, increasing the practical impact.",
+      "location": "Section 4",
+      "category": "conclusion",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "References are extensive but could benefit from a consistent, journal-appropriate style.",
+      "improved_version": "Standardize all references to a uniform citation style (e.g., APA, Vancouver), ensuring completeness and consistency, and include DOIs where available.",
+      "explanation": "Improves professionalism and ease of cross-referencing, enhancing credibility.",
+      "location": "References section",
+      "category": "references",
+      "focus": "style"
+    },
+    {
+      "original_text": "The methodology section is detailed but could better clarify the randomization process and blinding procedures.",
+      "improved_version": "Revise to: 'Participants were randomly assigned to conditions using a computer-generated randomization sequence, with allocation concealed from both participants and researchers to prevent bias.'",
+      "explanation": "Clarifies procedural rigor, increasing trust and transparency for the audience.",
+      "location": "Section 2.1",
+      "category": "methodology",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Results are presented with extensive statistical detail but lack visual summaries such as bar graphs or effect size plots.",
+      "improved_version": "Include visual summaries like bar charts or box plots illustrating key outcomes (e.g., GHGE reduction across conditions) to facilitate quick comprehension.",
+      "explanation": "Visual data enhances accessibility and engagement, especially for diverse audiences.",
+      "location": "Section 3",
+      "category": "visuals",
+      "focus": "visual integration"
+    },
+    {
+      "original_text": "The discussion could deepen analysis by exploring potential mechanisms behind the findings and implications for different consumer segments.",
+      "improved_version": "Expand to discuss possible psychological or behavioral mechanisms influencing responses, and tailor implications for high versus low baseline consumers.",
+      "explanation": "Provides richer insights, making the findings more actionable and relevant.",
+      "location": "Section 4",
+      "category": "discussion",
+      "focus": "depth"
+    },
+    {
+      "original_text": "The conclusion should explicitly state the policy and practical implications derived from the findings.",
+      "improved_version": "Add: 'These findings suggest that online retailers can implement simple, targeted product swap prompts to promote sustainable purchasing, with potential policy support for broader adoption.'",
+      "explanation": "Clarifies real-world applications, increasing relevance for stakeholders.",
+      "location": "Section 4",
+      "category": "conclusion",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The references include a wide range of sources but lack consistency in formatting and missing some DOIs.",
+      "improved_version": "Standardize all references to a consistent style (e.g., APA), include complete citation details, and add DOIs where available to enhance professionalism.",
+      "explanation": "Improves credibility and ease of verification for academic readers.",
+      "location": "References",
+      "category": "references",
+      "focus": "style"
     }
   ],
   "detailed_feedback": {
-    "technical_depth": "The manuscript demonstrates a high level of technical depth, appropriate for an academic audience familiar with machine learning and churn prediction. It covers various algorithms, performance metrics, and feature types in detail, supporting its suitability for researchers and advanced practitioners. However, some sections could benefit from more explicit explanations of complex models or metrics for interdisciplinary readers.",
-    "terminology_usage": "The use of field-specific terminology such as 'AUC,' 'F1-Score,' 'survival analysis,' 'ensemble models,' and 'feature importance' aligns well with expert audiences. To improve accessibility, occasional brief definitions or context for less common terms (e.g., 'IBS,' 'Tomek Links') would be beneficial for a broader readership.",
-    "writing_formality": "The writing style maintains a high level of formality consistent with academic publications. It employs precise language, passive constructions, and technical jargon appropriately. Minor adjustments to reduce verbosity and improve clarity could make the text more engaging without sacrificing professionalism.",
-    "section_organization": "The manuscript is logically structured, with clear sections for methods, results, discussion, and conclusions. Subsections effectively break down complex topics. However, some sections, particularly the results, are densely packed with data, which could be improved with more subheadings or summarized key points to aid navigation.",
-    "visual_integration": "References to figures and tables are present, but actual visual elements are missing in the provided text. Incorporating well-designed visual summaries, such as flowcharts, performance comparison charts, or feature importance graphs, would greatly enhance comprehension and engagement, especially for complex data and model comparisons.",
-    "reference_style": "References are comprehensive and follow a consistent citation style, suitable for scholarly work. Including more recent or seminal works explicitly linked to key findings could strengthen the literature grounding. Additionally, summarizing key references within the text would improve contextual understanding.",
-    "methodology_detail": "The methodology section is detailed, covering search strategies, inclusion criteria, and data extraction procedures. Providing a flowchart or checklist for the screening process could further clarify the systematic approach for readers unfamiliar with PRISMA guidelines.",
-    "results_presentation": "Results are presented with detailed statistics, tables, and figures. To improve clarity, summarizing key findings in bullet points or executive summaries at the beginning of each subsection would help readers quickly grasp major insights.",
-    "discussion_depth": "The discussion thoroughly interprets findings but could benefit from more explicit links to practical applications and limitations. Incorporating case examples or industry scenarios would enhance relevance for applied audiences.",
-    "conclusion_format": "The conclusion effectively summarizes key points but would be strengthened by explicitly outlining future research directions, practical implications, and potential industry applications to guide stakeholders."
+    "technical_depth": "The manuscript demonstrates a solid understanding of experimental design and statistical analysis appropriate for an academic audience. However, some sections, particularly the methodology, could benefit from more explicit detail on procedures like randomization and blinding to enhance reproducibility and rigor perception.",
+    "terminology_usage": "The use of field-specific terms such as 'GHGE,' 'life cycle assessment,' and 'effect size' is generally appropriate and consistent. Nonetheless, some technical terms could be briefly defined upon first use to aid interdisciplinary readers, such as policymakers or practitioners unfamiliar with specific scientific jargon.",
+    "writing_formality": "The writing maintains a formal academic tone suitable for a research article. Minor adjustments, such as replacing colloquial phrases like 'move beyond previous research' with 'advance existing literature,' could improve tone consistency.",
+    "section_organization": "The structure follows standard scientific conventions, but some sections could be more logically ordered\u2014for example, integrating the detailed methodology earlier or summarizing key findings more prominently in the results for clarity. Clearer headings and subheadings would also aid navigation.",
+    "visual_integration": "References to figures are made, but the actual figures are missing, which hampers comprehension. Including well-designed, labeled figures and ensuring they are referenced appropriately would significantly enhance understanding, especially of complex experimental setups and data trends.",
+    "reference_style": "References are comprehensive but inconsistent in formatting. Adopting a uniform style, such as APA or Vancouver, and including DOIs would improve professionalism and facilitate further literature review.",
+    "methodology_detail": "While the methodology is detailed, it lacks explicit description of key procedures like participant randomization, blinding, and control conditions. Clarifying these aspects would strengthen the perceived rigor and reproducibility.",
+    "results_presentation": "Results are primarily text-based with extensive statistical reporting. Incorporating visual summaries such as bar graphs, effect size plots, or confidence intervals would make the data more accessible and engaging for a diverse audience.",
+    "discussion_depth": "The discussion interprets findings but could deepen analysis by exploring underlying behavioral mechanisms, limitations, and broader implications. Connecting results more explicitly to existing literature would also enhance relevance.",
+    "conclusion_format": "The conclusion summarizes key findings but would benefit from a concise statement of practical implications, policy recommendations, and future research directions to maximize impact."
   },
-  "summary": "Overall, the manuscript is well-aligned with an academic audience, demonstrating high technical depth, appropriate terminology, and a formal writing style. Its comprehensive structure supports detailed understanding, though enhancements in visual integration, section summarization, and explicit practical linkages would further improve accessibility and engagement for both research and industry stakeholders. Minor adjustments to clarity, organization, and visual aids are recommended to maximize its impact across diverse audiences."
+  "summary": "Overall, the manuscript presents a well-structured and methodologically sound study with relevant findings for academic and applied audiences. However, improvements in clarity, visual data presentation, and contextualization would significantly enhance its accessibility and engagement. Addressing detailed methodological transparency and explicitly linking findings to broader implications will better align the work with the expectations of a multidisciplinary, policy-relevant readership, elevating its overall quality to a good or excellent standard."
 }
