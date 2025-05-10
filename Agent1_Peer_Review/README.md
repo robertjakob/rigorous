@@ -51,6 +51,22 @@ The Quality Control Agent serves as a final validation layer that:
   - Overall quality assessment
 - Uses GPT-4.1 for high-quality structured output
 
+### Executive Summary Agent
+The Executive Summary Agent provides a high-level synthesis through a two-step reasoning process:
+1. Independent Review Generation
+   - Analyzes the manuscript without bias
+   - Generates comprehensive review including summary, strengths/weaknesses, and suggestions
+   - Focuses on target journal requirements and user priorities
+
+2. Balanced Summary Generation
+   - Synthesizes insights from both independent review and quality control results
+   - Creates a unified executive summary in three paragraphs:
+     * Overview of content and contribution
+     * Balanced assessment of strengths and weaknesses
+     * Actionable recommendations
+   - Ensures natural flow while incorporating key insights
+   - Maintains consistency with detailed assessment
+
 ## Installation
 
 1. Clone the repository
@@ -70,6 +86,10 @@ python run_analysis.py
 ```bash
 python run_quality_control.py
 ```
+4. Generate executive summary:
+```bash
+python run_executive_summary.py
+```
 
 ## Output
 
@@ -78,6 +98,7 @@ The system generates JSON files in the `results/` directory containing:
 - Combined results (`combined_results.json`)
 - Manuscript data (`manuscript_data.json`)
 - Quality control results (`quality_control_results.json`)
+- Executive summary (`executive_summary.json`)
 
 Each agent's analysis follows a consistent JSON structure:
 
@@ -110,6 +131,28 @@ Each agent's analysis follows a consistent JSON structure:
 }
 ```
 
+The executive summary follows a specific structure:
+```json
+{
+    "manuscript_title": str,
+    "executive_summary": str,  // Three-paragraph synthesis
+    "independent_review": {
+        "summary": str,
+        "strengths_weaknesses": {
+            "strengths": [str],
+            "weaknesses": [str]
+        },
+        "critical_suggestions": [str]
+    },
+    "scores": {
+        "section_score": float,
+        "rigor_score": float,
+        "writing_score": float,
+        "final_score": float
+    }
+}
+```
+
 ## Configuration
 
 - Environment variables are managed in `.env`
@@ -120,18 +163,19 @@ Each agent's analysis follows a consistent JSON structure:
 
 ### Project Structure
 ```
-V6_multi_agent3/
+Agent1_Peer_Review/
 ├── src/
 │   ├── reviewer_agents/
 │   │   ├── section/      # Section agents (S1-S10)
 │   │   ├── rigor/        # Rigor agents (R1-R7)
 │   │   ├── writing/      # Writing agents (W1-W7)
 │   │   ├── quality/      # Quality control agent
-│   │   └── controller_agent.py
+│   │   └── executive_summary_agent.py
 │   ├── core/            # Core functionality and configuration
 │   └── utils/           # Utility functions
 ├── manuscripts/         # Input manuscripts
 ├── results/            # Analysis results
+├── context/           # User context and preferences
 └── tests/             # Test suite
 ```
 
@@ -177,6 +221,6 @@ For detailed guidelines on how to contribute, please see [CONTRIBUTING.md](CONTR
 
 **Share your feedback**: Contact us at rjakob@ethz.ch with your experiences and suggestions
 
-**Use more powerful models**: The default implementation uses GPT-4.1-nano for accessibility, but you can configure the system to use more sophisticated models with your own API keys.
+**Use more powerful models**: The default implementation uses GPT-4.1 for accessibility, but you can configure the system to use more sophisticated models with your own API keys.
 
 Together, we can build the best review agent team and improve the quality of scientific publishing!
