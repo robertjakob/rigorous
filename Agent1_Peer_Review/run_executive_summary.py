@@ -12,10 +12,15 @@ def main():
     agent = ExecutiveSummaryAgent()
     
     # Define input paths
+    manuscript_dir = os.path.join(os.path.dirname(__file__), "manuscripts")
+    pdf_files = [f for f in os.listdir(manuscript_dir) if f.lower().endswith('.pdf')]
+    if not pdf_files:
+        raise FileNotFoundError("No PDF files found in the manuscripts folder.")
+    manuscript_path = os.path.join(manuscript_dir, pdf_files[0])
     inputs = {
-        'manuscript_path': 'manuscripts/Systematic Review.pdf',
-        'context_path': 'context/context.json',
-        'quality_control_results_path': 'results/quality_control_results.json'
+        'manuscript_path': manuscript_path,
+        'context_path': os.path.join(os.path.dirname(__file__), "context", "context.json"),
+        'quality_control_results_path': os.path.join(os.path.dirname(__file__), "results", "quality_control_results.json")
     }
     
     # Define output path

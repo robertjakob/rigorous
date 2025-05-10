@@ -3,192 +3,200 @@
   "critical_remarks": [
     {
       "category": "derivations",
-      "location": "Mathematical Framework section, pages 14-16",
-      "issue": "The review references various mathematical models (e.g., Cox Regression, survival ensembles, IBS) but does not provide explicit derivations or formulas, leading to ambiguity about the exact mathematical assumptions and derivations used in the models.",
+      "location": "Mathematical Framework, Sections 2.1 and 2.4",
+      "issue": "The derivation of GHGE impact assessment relies on bottom-up life cycle assessment (LCA) data from [28], but the specifics of the calculation, including how the GWP100a values are integrated, are not fully detailed. This limits verification of the derivation correctness.",
       "severity": "medium",
-      "impact": "This limits the ability to verify the correctness of the models' mathematical underpinnings, potentially affecting reproducibility and understanding of the models' validity."
+      "impact": "This affects the transparency and reproducibility of the impact calculations, potentially undermining confidence in the exact GHGE estimates."
     },
     {
       "category": "algorithms",
-      "location": "Algorithm description, pages 9-11",
-      "issue": "While the review categorizes algorithms into low, medium, and high complexity, it lacks detailed descriptions of the specific implementations, hyperparameters, and training procedures used in the studies.",
+      "location": "Statistical analysis, Sections 2.5.1 and 2.5.2",
+      "issue": "Regression models are used extensively, but assumptions such as linearity, multicollinearity, and distributional assumptions are not discussed or tested, which could impact the validity of the results.",
       "severity": "medium",
-      "impact": "This hampers assessment of algorithm correctness and comparability across studies, affecting the overall technical rigor."
+      "impact": "This could lead to misinterpretation of the significance and effect sizes of predictors, affecting the robustness of conclusions."
     },
     {
       "category": "terminology",
-      "location": "Throughout the document, especially pages 4-6",
-      "issue": "Some technical terms (e.g., 'survival ensemble', 'custom neural network') are used without precise definitions or references, which could lead to misunderstandings among readers unfamiliar with specific models.",
+      "location": "Throughout the document",
+      "issue": "Terms like 'GHGE reduction' are used interchangeably with 'climate-friendly' or 'environmentally sustainable' without precise definitions, which could cause ambiguity.",
       "severity": "low",
-      "impact": "This may cause minor confusion but generally does not impact the core technical accuracy."
+      "impact": "This impacts clarity and precision in communicating the technical scope of the impact assessment."
     },
     {
       "category": "equations",
-      "location": "Mathematical Framework, pages 14-16",
-      "issue": "Equations are presented in a descriptive manner without clear formatting, labels, or step-by-step derivations, making it difficult to interpret the mathematical logic.",
-      "severity": "high",
-      "impact": "This significantly affects clarity, reproducibility, and verification of the models' mathematical correctness."
+      "location": "Section 2.1 and 2.4",
+      "issue": "Equations for GHGE impact calculations are described but not explicitly formatted or numbered, reducing clarity for readers attempting to verify or replicate the calculations.",
+      "severity": "low",
+      "impact": "This affects equation clarity and presentation, hindering reproducibility."
     },
     {
       "category": "completeness",
-      "location": "Methodology and Results sections, pages 6-10",
-      "issue": "The review summarizes performance metrics but does not include detailed statistical validation procedures, confidence intervals, or significance testing results.",
+      "location": "Methodology, Sections 2.1 and 2.4",
+      "issue": "Details on how the impact data are assigned to individual products, especially in cases where multiple packages are recommended, are insufficient. The process for matching weights and handling missing data is not fully described.",
       "severity": "medium",
-      "impact": "This limits the assessment of the robustness and reliability of the reported models' performances."
+      "impact": "This limits the ability to assess the accuracy of impact attribution, affecting overall content completeness."
     },
     {
-      "category": "logical_consistency",
-      "location": "Discussion section, pages 16-19",
-      "issue": "The narrative suggests that complex models do not always outperform simpler ones, but lacks detailed analysis or statistical evidence supporting this claim, leading to potential logical gaps.",
+      "category": "consistency",
+      "location": "Throughout the document",
+      "issue": "Some variables, such as 'GHGE reduced' and 'basket GHGE,' are used interchangeably without explicit definitions, which could cause confusion.",
       "severity": "low",
-      "impact": "This affects the logical robustness of the conclusions regarding model selection strategies."
+      "impact": "This impacts logical consistency and clarity in variable interpretation."
     },
     {
       "category": "implementation",
-      "location": "Methodology, pages 6-7",
-      "issue": "Details about data preprocessing, feature engineering, and model training procedures are summarized but lack specifics such as parameter tuning, cross-validation strategies, or software tools used.",
+      "location": "Section 2.2 and 2.3",
+      "issue": "Details on how the online supermarket interface was implemented, especially the presentation of swap recommendations and highlighting, are vague. The process for randomization and control of presentation order is not fully described.",
       "severity": "medium",
-      "impact": "This impairs reproducibility and assessment of the technical correctness of the implementations."
+      "impact": "This affects the reproducibility and understanding of the intervention implementation."
     },
     {
       "category": "edge_cases",
-      "location": "Results and discussion, pages 10-19",
-      "issue": "The review mentions dataset imbalances and sampling techniques but does not elaborate on how models perform on edge cases, such as very short or very long user engagement durations.",
-      "severity": "medium",
-      "impact": "This limits understanding of model robustness in atypical or challenging scenarios."
+      "location": "Section 2.4 and 2.5",
+      "issue": "Handling of participants who swap multiple products or none at all is not explicitly discussed, nor are potential outliers or non-compliance addressed.",
+      "severity": "low",
+      "impact": "This could influence the robustness of the statistical analysis and interpretation."
     },
     {
       "category": "complexity",
-      "location": "Algorithm categorization, pages 9-11",
-      "issue": "While the review discusses model complexity qualitatively, it does not provide quantitative complexity analysis (e.g., computational complexity, training time), which is essential for practical deployment considerations.",
+      "location": "Section 2.5.2",
+      "issue": "The complexity of models with multiple interaction terms, especially in subgroup analyses, is high, but no discussion on model diagnostics or power considerations for these interactions is provided.",
       "severity": "medium",
-      "impact": "This affects the assessment of algorithm efficiency and scalability."
+      "impact": "This impacts confidence in the validity of the exploratory findings."
     },
     {
       "category": "documentation",
-      "location": "Throughout the review, especially pages 6-7",
-      "issue": "The description of data extraction, feature importance analysis, and performance metrics lacks detailed documentation of procedures, criteria, and thresholds used.",
-      "severity": "medium",
-      "impact": "This hampers transparency, reproducibility, and critical evaluation of the reported findings."
+      "location": "Throughout the manuscript",
+      "issue": "While the analysis code and data are said to be publicly available, detailed documentation on the data processing steps, variable coding, and model specifications is lacking.",
+      "severity": "low",
+      "impact": "This hampers reproducibility and independent validation of the results."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The review references various mathematical models (e.g., Cox Regression, survival ensembles, IBS) but does not provide explicit derivations or formulas, leading to ambiguity about the exact mathematical assumptions and derivations used in the models.",
-      "improved_version": "Include explicit mathematical formulations for key models such as Cox Regression, survival ensembles, and IBS, with clear assumptions, equations, and derivation steps where applicable.",
-      "explanation": "Providing detailed formulas and derivations enhances clarity, allows verification of correctness, and supports reproducibility.",
-      "location": "Mathematical Framework section, pages 14-16",
-      "category": "derivations",
-      "focus": "derivations"
-    },
-    {
-      "original_text": "While the review categorizes algorithms into low, medium, and high complexity, it lacks detailed descriptions of the specific implementations, hyperparameters, and training procedures used in the studies.",
-      "improved_version": "Add detailed descriptions of the implementation specifics for each algorithm category, including hyperparameters, training procedures, and validation strategies used in the referenced studies.",
-      "explanation": "This improves understanding of algorithm correctness, comparability, and practical applicability.",
-      "location": "Algorithm description, pages 9-11",
-      "category": "implementation",
-      "focus": "implementation"
-    },
-    {
-      "original_text": "Equations are presented in a descriptive manner without clear formatting, labels, or step-by-step derivations, making it difficult to interpret the mathematical logic.",
-      "improved_version": "Format all equations with proper LaTeX or mathematical notation, include labels, and provide step-by-step derivations or explanations for complex formulas.",
-      "explanation": "Enhanced formatting and explanations improve clarity, interpretability, and correctness verification.",
-      "location": "Mathematical Framework, pages 14-16",
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+      "improved_version": "The impact assessment for GHG emissions should include a detailed formula or pseudocode illustrating how the GWP100a values are applied to aggregate emissions from different gases, ensuring transparency.",
+      "explanation": "Explicit formulas improve clarity and reproducibility of impact calculations.",
+      "location": "Mathematical Framework, Sections 2.1 and 2.4",
       "category": "equations",
       "focus": "equations"
     },
     {
-      "original_text": "The review summarizes performance metrics but does not include detailed statistical validation procedures, confidence intervals, or significance testing results.",
-      "improved_version": "Incorporate detailed descriptions of statistical validation methods, including confidence intervals, p-values, and significance tests used to evaluate model performance.",
-      "explanation": "This enhances the technical robustness and credibility of performance claims.",
-      "location": "Results, pages 10-11",
-      "category": "content_completeness",
+      "original_text": "Regression models are used extensively, but assumptions such as linearity, multicollinearity, and distributional assumptions are not discussed or tested.",
+      "improved_version": "Include diagnostic tests for regression assumptions such as residual plots for linearity, Variance Inflation Factor (VIF) for multicollinearity, and normality tests for residuals, with results summarized in supplementary materials.",
+      "explanation": "Verifying assumptions strengthens confidence in the regression results and their interpretation.",
+      "location": "Section 2.5.1 and 2.5.2",
+      "category": "algorithm correctness",
+      "focus": "algorithm correctness"
+    },
+    {
+      "original_text": "Terms like 'GHGE reduction' are used interchangeably with 'climate-friendly' or 'environmentally sustainable' without precise definitions.",
+      "improved_version": "Define 'GHGE reduction' explicitly as the percentage decrease in total greenhouse gas emissions relative to baseline, and clarify how 'climate-friendly' is operationalized in the context of the study.",
+      "explanation": "Precise terminology reduces ambiguity and enhances clarity for technical readers.",
+      "location": "Throughout the document",
+      "category": "terminology",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "Equations for GHGE impact calculations are described but not explicitly formatted or numbered.",
+      "improved_version": "Format all key equations with proper LaTeX or equation editor syntax, number them sequentially, and refer to them explicitly in the text (e.g., Eq. 1).",
+      "explanation": "Numbered, well-formatted equations improve readability and facilitate referencing.",
+      "location": "Section 2.1 and 2.4",
+      "category": "equations",
+      "focus": "equations"
+    },
+    {
+      "original_text": "Details on how impact data are assigned to individual products, especially in cases where multiple packages are recommended, are insufficient.",
+      "improved_version": "Provide a detailed step-by-step description of how impact data are allocated to products, including handling of partial matches, multi-package swaps, and missing data, possibly with flowcharts or pseudocode.",
+      "explanation": "Enhances transparency and allows replication of impact attribution methodology.",
+      "location": "Methodology, Sections 2.1 and 2.4",
+      "category": "completeness",
       "focus": "completeness"
     },
     {
-      "original_text": "The narrative suggests that complex models do not always outperform simpler ones, but lacks detailed analysis or statistical evidence supporting this claim, leading to potential logical gaps.",
-      "improved_version": "Include statistical comparisons, such as paired tests or confidence intervals, to substantiate claims about the relative performance of simple versus complex models.",
-      "explanation": "This strengthens the logical consistency and validity of the conclusions drawn.",
-      "location": "Discussion, pages 16-19",
-      "category": "logical_consistency",
-      "focus": "logical consistency"
+      "original_text": "Some variables, such as 'GHGE reduced' and 'basket GHGE,' are used interchangeably without explicit definitions.",
+      "improved_version": "Include a glossary or table defining all key variables, such as 'initial basket GHGE,' 'final basket GHGE,' and 'percentage GHGE reduction,' with clear operational definitions.",
+      "explanation": "Clarifies variable interpretation and ensures consistent understanding across analyses.",
+      "location": "Throughout the manuscript",
+      "category": "terminology",
+      "focus": "terminology"
     },
     {
-      "original_text": "Details about data preprocessing, feature engineering, and model training procedures are summarized but lack specifics such as parameter tuning, cross-validation strategies, or software tools used.",
-      "improved_version": "Provide comprehensive details on data preprocessing steps, feature engineering methods, hyperparameter tuning procedures, cross-validation strategies, and software or frameworks employed.",
-      "explanation": "This improves reproducibility and ensures the correctness of implementation procedures.",
-      "location": "Methodology, pages 6-7",
+      "original_text": "Implementation details on the online supermarket interface, especially the presentation and highlighting of recommendations, are vague.",
+      "improved_version": "Add a detailed description or schematic of the user interface, including how the most effective swap is highlighted, the placement of GHGE info, and the sequence of steps, possibly with screenshots or diagrams.",
+      "explanation": "Improves reproducibility and understanding of intervention delivery.",
+      "location": "Section 2.3",
       "category": "implementation",
       "focus": "implementation"
     },
     {
-      "original_text": "The review mentions dataset imbalances and sampling techniques but does not elaborate on how models perform on edge cases, such as very short or very long user engagement durations.",
-      "improved_version": "Include analysis of model performance on edge cases, such as users with minimal or extensive engagement durations, and discuss how models handle such scenarios.",
-      "explanation": "This enhances understanding of model robustness and applicability in diverse real-world situations.",
-      "location": "Results, pages 10-19",
+      "original_text": "Handling of participants who swap multiple products or none at all is not explicitly discussed.",
+      "improved_version": "Describe the data processing rules for participants with zero swaps, multiple swaps, or non-compliance, including how these are incorporated into the analysis and whether any outliers are excluded.",
+      "explanation": "Ensures clarity in data handling and robustness of statistical analysis.",
+      "location": "Section 2.4 and 2.5",
       "category": "edge_cases",
       "focus": "edge_cases"
     },
     {
-      "original_text": "While the review discusses model complexity qualitatively, it does not provide quantitative complexity analysis (e.g., computational complexity, training time), which is essential for practical deployment considerations.",
-      "improved_version": "Add quantitative assessments of model complexity, including computational complexity (Big O notation), training and inference times, and resource requirements.",
-      "explanation": "This supports practical decision-making regarding model deployment and scalability.",
-      "location": "Algorithm categorization, pages 9-11",
+      "original_text": "The complexity of models with multiple interaction terms is high, but no discussion on diagnostics or power considerations is provided.",
+      "improved_version": "Include a brief discussion on model diagnostics (e.g., residual analysis, multicollinearity checks) and power considerations for interaction effects, especially in subgroup analyses.",
+      "explanation": "Supports the validity of complex models and subgroup findings.",
+      "location": "Section 2.5.2",
       "category": "complexity",
       "focus": "complexity"
     },
     {
-      "original_text": "The description of data extraction, feature importance analysis, and performance metrics lacks detailed documentation of procedures, criteria, and thresholds used.",
-      "improved_version": "Document detailed procedures for data extraction, feature importance ranking criteria, thresholds for feature selection, and performance evaluation protocols, including any software tools or libraries used.",
-      "explanation": "This improves transparency, reproducibility, and critical evaluation of the findings.",
-      "location": "Methodology, pages 6-7",
+      "original_text": "While the analysis code and data are publicly available, detailed documentation on data processing steps and variable coding is lacking.",
+      "improved_version": "Provide comprehensive documentation in the repository, including data dictionaries, code comments, variable coding schemes, and step-by-step analysis scripts, ideally with README files.",
+      "explanation": "Enhances reproducibility and facilitates independent validation.",
+      "location": "Data and code sharing sections",
       "category": "documentation",
       "focus": "documentation"
     },
     {
-      "original_text": "The review references various models but does not specify the hyperparameter tuning process or validation strategies employed in the studies.",
-      "improved_version": "Include detailed descriptions of hyperparameter tuning methods (grid search, random search, Bayesian optimization), validation strategies (k-fold, hold-out), and criteria for model selection.",
-      "explanation": "This ensures the correctness of model training procedures and facilitates replication.",
-      "location": "Algorithm description, pages 9-11",
-      "category": "implementation",
-      "focus": "implementation"
+      "original_text": "The impact of the intervention on actual long-term behavior change is not discussed.",
+      "improved_version": "Add a discussion on the limitations regarding the sustainability of effects and suggest avenues for future longitudinal or real-world studies to assess long-term impact.",
+      "explanation": "Provides context on the scope and limitations of the current findings, guiding future research.",
+      "location": "Discussion, final paragraph",
+      "category": "completeness",
+      "focus": "completeness"
     },
     {
-      "original_text": "The discussion on model performance lacks mention of potential overfitting issues or methods used to prevent overfitting, such as regularization or early stopping.",
-      "improved_version": "Discuss strategies employed in the studies to prevent overfitting, including regularization techniques, early stopping, dropout, or cross-validation, and how these impact model correctness.",
-      "explanation": "This enhances understanding of model robustness and correctness in real-world deployment.",
-      "location": "Discussion, pages 16-19",
+      "original_text": "The presentation of the regression results in tables sometimes lacks explicit mention of model assumptions or diagnostics.",
+      "improved_version": "Include a supplementary table or appendix summarizing model assumptions tests (e.g., residual plots, VIFs) and any steps taken to address violations, such as transformations or robust methods.",
+      "explanation": "Ensures transparency and robustness of statistical conclusions.",
+      "location": "Tables 2, 3, 8-13",
+      "category": "technical_documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "The description of the impact assessment methodology refers to [28], but the specific steps, assumptions, and data sources used in impact attribution are not fully elaborated.",
+      "improved_version": "Summarize the key steps, assumptions, and data sources from [28] relevant to impact attribution within this manuscript, or include a schematic diagram of the impact calculation process.",
+      "explanation": "Improves transparency and allows readers to understand the basis of impact estimates without consulting external sources.",
+      "location": "Mathematical Framework, Sections 2.1 and 2.4",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "The study discusses the potential for a novelty effect but does not propose methods to measure or control for it.",
+      "improved_version": "Suggest implementing follow-up measures such as repeated measures over time or control groups to assess the persistence of effects, and discuss how to control for novelty bias in future studies.",
+      "explanation": "Addresses potential biases and enhances the validity of behavioral findings.",
+      "location": "Discussion, final sections",
       "category": "edge_cases",
       "focus": "edge_cases"
-    },
-    {
-      "original_text": "The review does not specify the software frameworks or tools used for model development and evaluation, which are relevant for reproducibility.",
-      "improved_version": "Specify the software frameworks, libraries, or tools (e.g., scikit-learn, TensorFlow, PyTorch) used in the referenced studies for model implementation and evaluation.",
-      "explanation": "This improves technical reproducibility and correctness verification.",
-      "location": "Methodology, pages 6-7",
-      "category": "documentation",
-      "focus": "documentation"
-    },
-    {
-      "original_text": "The review mentions the importance of feature recency but does not specify how temporal dependencies are modeled or validated in the models.",
-      "improved_version": "Describe how temporal dependencies and recency effects are explicitly modeled (e.g., time-series features, LSTM architectures) and validated in the studies.",
-      "explanation": "This clarifies the correctness of temporal modeling approaches and their impact on model accuracy.",
-      "location": "Mathematical Framework, pages 14-16",
-      "category": "derivations",
-      "focus": "derivations"
     }
   ],
   "detailed_feedback": {
-    "derivation_correctness": "The review references various statistical and machine learning models but lacks explicit derivations or formulas, which are essential for verifying the mathematical correctness of the models. Including detailed equations, assumptions, and derivation steps would enhance transparency and allow for independent validation.",
-    "algorithm_accuracy": "While the review categorizes algorithms and reports performance metrics, it does not detail the implementation specifics, hyperparameter tuning, or validation procedures used in the studies. Providing such details would improve confidence in the reported algorithm correctness and performance claims.",
-    "terminology_accuracy": "Most technical terms are used appropriately; however, some terms like 'survival ensemble' or 'custom neural network' could benefit from precise definitions or references to standard models to avoid ambiguity and ensure clarity for readers.",
-    "equation_clarity": "Equations are presented in a narrative style without proper formatting, labels, or step-by-step derivations, which diminishes clarity. Using LaTeX formatting and including derivation steps would significantly improve interpretability.",
-    "content_completeness": "The review summarizes performance metrics but lacks detailed statistical validation, confidence intervals, or significance testing results. Including these would provide a more comprehensive assessment of model robustness and reliability.",
-    "logical_consistency": "The discussion suggests that complex models do not always outperform simpler ones, but lacks statistical evidence or detailed analysis. Incorporating formal comparisons or significance testing would strengthen the logical consistency of these claims.",
-    "implementation_details": "Details about data preprocessing, feature engineering, hyperparameter tuning, and software tools are summarized but insufficient for replication. Providing explicit procedures and parameters would improve implementation correctness and reproducibility.",
-    "edge_case_handling": "The review mentions dataset imbalances but does not analyze model performance on edge cases, such as users with minimal activity or extremely long engagement durations. Addressing this would clarify model robustness in diverse scenarios.",
-    "complexity_analysis": "The categorization of models by complexity is qualitative; including quantitative assessments such as computational complexity, training times, and resource requirements would better inform practical deployment considerations.",
-    "technical_documentation": "Descriptions of data extraction, feature importance, and performance evaluation lack detailed documentation of procedures, criteria, and thresholds. Enhancing this documentation would improve transparency and facilitate replication."
+    "derivation_correctness": "The impact assessment relies on established LCA data and GWP100a values, but the manuscript lacks explicit formulas or detailed steps showing how these data are combined to produce product-specific GHGE estimates. Including detailed derivations or pseudocode would improve transparency.",
+    "algorithm_accuracy": "The statistical models used are standard, but the manuscript does not report diagnostic tests for assumptions such as residual normality, homoscedasticity, or multicollinearity. Incorporating these diagnostics and discussing their results would strengthen confidence in the findings.",
+    "terminology_accuracy": "Terms like 'GHGE reduction' are used broadly; providing precise operational definitions (e.g., percentage decrease relative to baseline) and clarifying how 'climate-friendly' is quantified would improve clarity.",
+    "equation_clarity": "Equations are described narratively but not formatted or numbered, which hampers referencing. Proper formatting with equation numbers and clear notation would enhance readability.",
+    "content_completeness": "Details on how impact data are assigned to products, especially in cases of multi-package swaps, are insufficient. Explicit procedures or algorithms should be provided to ensure reproducibility.",
+    "logical_consistency": "Variables such as 'GHGE reduced' and 'basket GHGE' are used inconsistently. Defining key variables in a dedicated glossary or table would improve internal consistency.",
+    "implementation_details": "The description of the online supermarket interface and how recommendations are presented lacks detail. Including interface schematics or screenshots would clarify the intervention delivery process.",
+    "edge_case_handling": "The manuscript does not specify how participants with no swaps or multiple swaps are handled analytically. Clarifying data inclusion/exclusion criteria and handling of outliers is necessary.",
+    "complexity": "The models include multiple interaction terms, but no discussion of model diagnostics or statistical power for these complex models is provided. Including such information would support the robustness of subgroup analyses.",
+    "technical_documentation": "While data and code are shared publicly, detailed documentation on data processing steps, variable coding, and analysis scripts is missing. Providing comprehensive documentation would facilitate reproducibility."
   },
-  "summary": "Overall, the review provides a solid high-level overview of churn prediction methodologies in mobile apps but exhibits moderate gaps in mathematical derivations, implementation specifics, and detailed validation procedures. Addressing these issues with explicit formulas, comprehensive procedural descriptions, and statistical validation would elevate the technical rigor and reproducibility of the work, moving it toward a 'Good' (4) or 'Excellent' (5) rating. Currently, it is acceptable but leaves room for improvement in technical depth and clarity."
+  "summary": "Overall, the manuscript demonstrates a solid foundation in applying experimental methods to evaluate dietary impact interventions. However, it would benefit from increased transparency in the derivation of impact data, detailed reporting of statistical diagnostics, clearer definitions of key variables, and thorough documentation. Addressing these issues would elevate the technical rigor and reproducibility of the study, moving it towards an 'excellent' rating. Currently, it is rated as 'average' due to these notable but addressable gaps."
 }

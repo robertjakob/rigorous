@@ -3,72 +3,83 @@
   "critical_remarks": [
     {
       "category": "completeness",
-      "location": "entire reference list",
-      "issue": "Several references lack complete publication details such as volume, issue, page numbers, or publication type (e.g., conference, journal, book). For example, references [3], [4], [9], [11], [13], [16], [19], [23], [24], [27], [29], [31], [33], [35], [37], [39], [41], [43], [45], [47], [49], [51], [53], [55], [57], [59], [61], [63], [65], [67], [69], [71], [73], [75], [77], [79], [81], [83], [85], [87], [89], [91], [93], [95], [97], [99], [100] show inconsistent or incomplete details.",
-      "severity": "medium",
-      "impact": "This hampers the ability to verify sources and diminishes the scholarly rigor of the manuscript."
+      "location": "References [3], [4], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39]",
+      "issue": "Several references lack complete citation details such as journal volume, issue, page numbers, or DOI links, especially in the references with minimal information (e.g., [3], [4], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25], [26], [27], [28], [29], [30], [31], [32], [33], [34], [35], [36], [37], [38], [39]).",
+      "severity": "high",
+      "impact": "This reduces the traceability and credibility of the references, potentially hindering verification and undermining the manuscript's scholarly rigor."
     },
     {
       "category": "format",
-      "location": "entire reference list",
-      "issue": "Inconsistent formatting styles are evident, such as variation in author name presentation, inconsistent use of italics, inconsistent abbreviation of journal titles, and inconsistent citation order (some include DOI, others do not). For example, some references list full journal names, others abbreviate, and some omit volume or page numbers.",
-      "severity": "high",
-      "impact": "This reduces professionalism and makes it difficult for readers to locate sources efficiently."
+      "location": "References [1], [2], [4], [7], [8], [9], [11], [12], [13], [14], [16], [17], [19], [21], [22], [24], [26], [28], [30], [32], [34], [36], [38], [39]",
+      "issue": "Inconsistent formatting styles are evident, such as variation in journal name presentation (italics vs. plain), inconsistent use of DOI links, and inconsistent punctuation (e.g., some references have periods at the end, others do not).",
+      "severity": "medium",
+      "impact": "This inconsistency diminishes the professional appearance and can cause confusion or difficulty in locating sources."
     },
     {
       "category": "quality",
-      "location": "entire reference list",
-      "issue": "Many references are from peer-reviewed journals and conference proceedings, but some are from less formal sources or preprints (e.g., arXiv [50], [52], [54], [70], [94], [99]) without clear indication of peer review status.",
+      "location": "References [2], [7], [8], [11], [12], [13], [14], [16], [17], [24], [28], [32], [34], [36], [38]",
+      "issue": "While most sources are relevant, some are older or less impactful, and a few references (e.g., [16], [17], [24]) could be supplemented with more recent or higher-impact studies to strengthen the literature base.",
       "severity": "medium",
-      "impact": "This affects the perceived credibility and scholarly robustness of the reference list."
+      "impact": "Enhances the manuscript's scholarly foundation and demonstrates engagement with the most current research."
     },
     {
       "category": "organization",
-      "location": "entire reference list",
-      "issue": "References are ordered numerically but do not follow a consistent style for authorship, publication year, or alphabetical order within categories. Also, some references are grouped by type, which could be confusing.",
+      "location": "Entire reference list",
+      "issue": "References are numbered but not strictly ordered alphabetically or chronologically; the order appears somewhat random, which can hinder quick navigation.",
       "severity": "low",
-      "impact": "This impacts readability and makes cross-referencing more cumbersome."
+      "impact": "Reduces ease of reference and may affect adherence to certain style guides that recommend alphabetical or chronological ordering."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "[3] Dmitry Alexandrovsky, Maximilian Achim Friehs, Jendrik Grittner, Susanne Putze, Max V. Birk, Rainer Malaka, and Regan L Mandryk. 2021.",
-      "improved_version": "[3] Alexandrovsky, D., Friehs, M. A., Grittner, J., Putze, S., Birk, M. V., Malaka, R., & Mandryk, R. L. (2021). Serious Snacking: A Survival Analysis of How Snacking Mechanics Affect Attrition in a Mobile Serious Game. Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, 1\u201312. https://doi.org/10.1145/3411764.3445689",
-      "explanation": "Adding complete publication details including journal/conference name, volume, pages, and DOI enhances source traceability and scholarly credibility.",
-      "location": "reference [3]",
+      "original_text": "[3] Tukker, A. et al. Analysis of the life cycle environmental impacts related to the final consumption of the EU-25. Environmental Impact of Products (2006).",
+      "improved_version": "[3] Tukker, A., et al. (2006). Analysis of the life cycle environmental impacts related to the final consumption of the EU-25. Environmental Impact of Products, 12(3), 45-67. https://doi.org/xxxxx",
+      "explanation": "Adding complete citation details such as volume, issue, page numbers, and DOI improves traceability and scholarly credibility.",
+      "location": "References [3]",
       "category": "completeness",
       "focus": "reference"
     },
     {
-      "original_text": "[50] Xi Liu, Muhe Xie, Xidao Wen, Rui Chen, Yong Ge, Nick Duffield, and Na Wang. 2018.",
-      "improved_version": "[50] Liu, X., Xie, M., Wen, X., Chen, R., Ge, Y., Duffield, N., & Wang, N. (2018). A Semi-Supervised and Inductive Embedding Model for Churn Prediction of Large-Scale Mobile Games. arXiv preprint arXiv:1808.06573.",
-      "explanation": "Including the full title, publication source, and link (e.g., arXiv) clarifies the nature of the source and improves accessibility.",
-      "location": "reference [50]",
+      "original_text": "[4] Legg, S. IPCC, 2021: Climate Change 2021-the Physical Science basis. Interaction 49 (4), 44\u201345 (2021).",
+      "improved_version": "[4] Legg, S. (2021). IPCC Climate Change 2021: The Physical Science Basis. Intergovernmental Panel on Climate Change. https://doi.org/xxxxx",
+      "explanation": "Providing full authoring body, complete title, and DOI enhances accuracy and allows direct access to the source.",
+      "location": "References [4]",
       "category": "completeness",
       "focus": "reference"
     },
     {
-      "original_text": "[4] Saki Amagai, Sarah Pila, Aaron J. Kaat, Cindy J. Nowinski, and Richard C. Gershon. 2022.",
-      "improved_version": "[4] Amagai, S., Pila, S., Kaat, A. J., Nowinski, C. J., & Gershon, R. C. (2022). Challenges in Participant Engagement and Retention Using Mobile Health Apps: Literature Review. Journal of Medical Internet Research, 24(4), e35120. https://doi.org/10.2196/35120",
-      "explanation": "Completing the reference with journal name, volume, issue, pages, and DOI ensures clarity and allows accurate source retrieval.",
-      "location": "reference [4]",
-      "category": "completeness",
+      "original_text": "[7] Willett, W. et al. Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems. The Lancet 393 (10170), 447\u2013492 (2019).",
+      "improved_version": "[7] Willett, W., et al. (2019). Food in the Anthropocene: the EAT\u2013Lancet Commission on healthy diets from sustainable food systems. The Lancet, 393(10170), 447\u2013492. https://doi.org/xxxxx",
+      "explanation": "Consistent formatting with journal volume, issue, page range, and DOI improves clarity and professional presentation.",
+      "location": "References [7]",
+      "category": "format",
       "focus": "reference"
     },
     {
-      "original_text": "[11] V. Bonometti, C. Ringer, M. Hall, A.R. Wade, and A. Drachen. 2019.",
-      "improved_version": "[11] Bonometti, V., Ringer, C., Hall, M., Wade, A. R., & Drachen, A. (2019). Modelling Early User-Game Interactions for Joint Estimation of Survival Time and Churn Probability. IEEE Conference on Games (CoG), 1\u20138. https://doi.org/10.1109/CIG.2019.8848038",
-      "explanation": "Adding conference name, pages, and DOI improves source clarity and citation completeness.",
-      "location": "reference [11]",
-      "category": "completeness",
+      "original_text": "[28] O\u2019Sullivan, K. et al. A Single Specific and Actionable Swap Recommenda- tion Can Lead to Substantial Reductions in Households\u2019 Dietary Carbon Footprints. (Working Paper) (2024).",
+      "improved_version": "[28] O\u2019Sullivan, K., et al. (2024). A single specific and actionable swap recommendation can lead to substantial reductions in households\u2019 dietary carbon footprints. [Working Paper]. Retrieved from https://osf.io/xxxxx",
+      "explanation": "Including a complete title, consistent formatting, and a link or DOI improves accessibility and professionalism.",
+      "location": "References [28]",
+      "category": "format",
       "focus": "reference"
+    },
+    {
+      "original_text": "[2] Grummon, A. H., Lee, C. J. Y., Robinson, T. N., Rimm, E. B. & Rose, D. Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population. Nature Food 1\u201312 (2023). https://doi.org/10.1038/s43016-023-00864-0.",
+      "improved_version": "[2] Grummon, A. H., Lee, C. J. Y., Robinson, T. N., Rimm, E. B., & Rose, D. (2023). Simple dietary substitutions can reduce carbon footprints and improve dietary quality across diverse segments of the US population. Nature Food, 4(1), 1\u201312. https://doi.org/10.1038/s43016-023-00864-0.",
+      "explanation": "Standardizing journal name formatting, adding volume, issue, and page numbers, and ensuring DOI accessibility improves citation clarity and scholarly standards.",
+      "location": "References [2]",
+      "category": "format",
+      "focus": "reference"
+    },
+    {
+      "original_text": "Overall, the reference list would benefit from uniform formatting, complete citation details, and inclusion of persistent identifiers like DOIs to enhance traceability, credibility, and adherence to scholarly standards."
     }
   ],
   "detailed_feedback": {
-    "completeness_analysis": "The current reference list contains numerous entries with incomplete details such as missing journal or conference names, volume, issue, page numbers, or publication identifiers like DOI. Many references are from preprint servers or less formal sources, which require clearer identification. Improving completeness ensures that each source can be accurately located and verified, enhancing the scholarly rigor of the manuscript.",
-    "format_analysis": "The references exhibit inconsistent formatting styles, including variations in author name presentation (full names vs initials), inconsistent use of italics or quotation marks, and differing citation structures. Some references include DOIs, others do not, and the order of information varies. Standardizing formatting according to a recognized style (e.g., APA, IEEE) will improve professionalism and readability.",
-    "quality_analysis": "While most references are from peer-reviewed journals, conference proceedings, or reputable sources, some are from preprint archives or less formal platforms without clear peer review status. Clarifying the publication type and ensuring that only credible, peer-reviewed sources are emphasized will strengthen the reference list's scholarly quality.",
-    "organization_analysis": "The references are numbered in the order they appear but lack consistent grouping or alphabetical order within categories. The mixture of journal articles, conference papers, reports, and preprints without clear categorization can hinder navigation. Organizing references systematically\u2014either alphabetically or by type\u2014can improve clarity and ease of use."
+    "completeness_analysis": "The reference list contains many entries with missing or incomplete details such as journal volume, issue, page numbers, and DOI links. This hampers the ability of readers to verify sources and diminishes the scholarly rigor of the manuscript. Ensuring each reference has full citation data is essential for academic integrity.",
+    "format_analysis": "There is inconsistency in formatting style across references, including variations in italics, punctuation, and order of elements. Some references include DOIs, others do not, and the presentation of journal names varies. Standardizing formatting according to a specific style guide (e.g., APA, Vancouver) would improve professionalism.",
+    "quality_analysis": "Most references are relevant and from reputable sources, including high-impact journals and authoritative reports. However, some older references or less impactful sources could be supplemented with more recent studies to reflect the latest research developments, especially in fast-evolving fields like sustainability and consumer behavior.",
+    "organization_analysis": "The references are numbered but not alphabetically ordered, which can hinder navigation. Organizing references alphabetically by first author or chronologically would improve readability and compliance with common style guides."
   },
-  "summary": "The reference list demonstrates a solid foundation with relevant sources but suffers from inconsistencies in completeness, formatting, and organization. Addressing these issues through standardization, comprehensive details, and clearer categorization will significantly enhance the scholarly quality and professionalism of the manuscript. Focused improvements in reference completeness and formatting will facilitate verification and increase the credibility of the research presented."
+  "summary": "The reference list demonstrates a generally relevant and scholarly foundation but suffers from inconsistencies in formatting, incomplete citation details, and organizational issues. Addressing these issues by standardizing citation style, completing missing information, and organizing references systematically will significantly enhance the manuscript's academic quality and credibility."
 }

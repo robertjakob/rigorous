@@ -2,177 +2,167 @@
   "clarity_conciseness_score": 3,
   "critical_remarks": [
     {
-      "category": "language_simplicity",
+      "category": "wordiness",
       "location": "Abstract",
-      "issue": "The abstract contains complex phrases like 'synthesizing methodologies and outcomes' which could be simplified for clarity.",
-      "severity": "medium",
-      "impact": "Reduces immediate understanding for readers unfamiliar with technical language."
+      "issue": "The abstract contains redundant phrases such as 'participants were overall receptive to receiving product swap recommendations' and lengthy explanations of the experimental setup that could be condensed.",
+      "severity": "high",
+      "impact": "Reduces clarity and makes it harder for readers to grasp the key findings quickly."
+    },
+    {
+      "category": "sentence_length",
+      "location": "Introduction",
+      "issue": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
+      "severity": "high",
+      "impact": "Obscures main points and burdens the reader with complex sentence structures."
     },
     {
       "category": "jargon",
-      "location": "Introduction",
-      "issue": "Use of technical terms like 'predictive models,' 'performance metrics,' and 'survival analyses' without brief explanations may hinder comprehension for non-expert readers.",
+      "location": "Methodology",
+      "issue": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding for non-expert readers.",
       "severity": "medium",
       "impact": "Limits accessibility and clarity for a broader audience."
     },
     {
-      "category": "wordiness",
-      "location": "Methods",
-      "issue": "Some sentences are overly lengthy, such as the description of database search strategies, which could be broken into shorter, clearer sentences.",
-      "severity": "high",
-      "impact": "Impairs readability and makes details harder to follow."
-    },
-    {
-      "category": "sentence_length",
-      "location": "Results - Study Selection and Characteristics",
-      "issue": "Multiple sentences in this section are very long, containing multiple clauses, which can overwhelm readers.",
-      "severity": "high",
-      "impact": "Reduces clarity and makes it difficult to parse key information quickly."
-    },
-    {
-      "category": "paragraph_length",
-      "location": "Discussion",
-      "issue": "Some paragraphs, especially the one discussing algorithm performance, are very dense and lengthy, containing multiple ideas.",
-      "severity": "medium",
-      "impact": "Hinders reader engagement and comprehension."
-    },
-    {
-      "category": "active_passive_voice",
-      "location": "Methodology",
-      "issue": "Use of passive voice in descriptions like 'Articles were imported into the web-based systematic review program' could be replaced with active voice for clarity.",
-      "severity": "low",
-      "impact": "Minor but improves directness and clarity."
-    },
-    {
       "category": "redundancy",
-      "location": "Results - Prediction Algorithms and Performances",
-      "issue": "Repeated mention of the number of algorithms evaluated and their categories could be condensed.",
+      "location": "Results",
+      "issue": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
       "severity": "medium",
-      "impact": "Reduces unnecessary repetition, making the text more concise."
+      "impact": "Dilutes focus and makes it difficult to identify core findings."
     },
     {
       "category": "ambiguity",
-      "location": "Results - Features and Feature Importances",
-      "issue": "Descriptions of feature importance rankings sometimes lack clarity about the significance of the rankings.",
-      "severity": "low",
-      "impact": "May cause confusion about which features are most impactful."
+      "location": "Discussion",
+      "issue": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague about the scope and limitations.",
+      "severity": "medium",
+      "impact": "Creates uncertainty about the generalizability and practical implications."
     },
     {
       "category": "readability",
-      "location": "Discussion",
-      "issue": "Complex sentences with multiple technical details reduce overall readability.",
+      "location": "Throughout",
+      "issue": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
       "severity": "medium",
-      "impact": "Makes it harder for readers to follow key arguments."
+      "impact": "Impairs smooth reading and comprehension."
     },
     {
       "category": "information_density",
-      "location": "Results - Prediction Algorithms and Performances",
-      "issue": "The section packs in a large amount of data and percentages, which could be summarized more succinctly.",
-      "severity": "high",
-      "impact": "Overwhelms readers and obscures main findings."
+      "location": "Results and Methods",
+      "issue": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
+      "severity": "medium",
+      "impact": "Reduces overall clarity and makes key messages less accessible."
+    },
+    {
+      "category": "paragraph_length",
+      "location": "Introduction and Discussion",
+      "issue": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
+      "severity": "low",
+      "impact": "Affects readability and ease of navigation."
+    },
+    {
+      "category": "active_passive_voice",
+      "location": "Methods and Results",
+      "issue": "Overuse of passive voice (e.g., 'Greenhouse gas emissions data were adapted from') diminishes immediacy and engagement.",
+      "severity": "low",
+      "impact": "Makes sentences less direct and engaging."
+    },
+    {
+      "category": "technical_content",
+      "location": "Methodology",
+      "issue": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
+      "severity": "medium",
+      "impact": "Hinders understanding of key concepts and methods."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
-      "improved_version": "User churn, the early discontinuation of a product or service, presents major challenges in industries like gaming, healthcare, and education.",
-      "explanation": "Simplifies language and clarifies the concept for broader understanding.",
+      "original_text": "Participants were overall receptive to receiving product swap recommendations.",
+      "improved_version": "Participants generally welcomed product swap recommendations.",
+      "explanation": "Simplifies language, making the statement clearer and more direct.",
       "location": "Abstract",
       "category": "language_simplicity",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-      "improved_version": "The results show many ML algorithms used for predicting user churn and survival times, from logistic regression to deep neural networks.",
-      "explanation": "Reduces complexity and clarifies the range of algorithms for easier comprehension.",
-      "location": "Abstract",
-      "category": "wordiness",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "This trend has been accompanied by studies that predict churn with mobile app data across various app domains such as gaming, healthcare, or social media.",
-      "improved_version": "Studies now predict churn using mobile app data across domains like gaming, healthcare, and social media.",
-      "explanation": "Shortens the sentence and improves clarity by removing unnecessary words.",
+      "original_text": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
+      "improved_version": "Break long sentences into shorter, focused ones. For example, split complex sentences into two: one describing the intervention, and another reporting the outcomes.",
+      "explanation": "Shorter sentences improve readability and help readers process information more easily.",
       "location": "Introduction",
-      "category": "wordiness",
+      "category": "sentence_length",
+      "focus": "sentence_length"
+    },
+    {
+      "original_text": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding.",
+      "improved_version": "Introduce technical terms with brief explanations, e.g., 'a bottom-up life cycle assessment (LCA), which evaluates environmental impacts from raw materials to disposal.'",
+      "explanation": "Provides clarity for non-expert readers, enhancing overall understanding.",
+      "location": "Methodology",
+      "category": "jargon",
+      "focus": "jargon"
+    },
+    {
+      "original_text": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
+      "improved_version": "Summarize key findings in the text, referring to detailed tables in appendices. For example, 'As shown in Table 2, the treatments did not significantly affect overall GHGE reduction.'",
+      "explanation": "Reduces clutter and emphasizes main results for clearer communication.",
+      "location": "Results",
+      "category": "redundancy",
       "focus": "wordiness"
     },
     {
-      "original_text": "The screening process for the selection of articles was conducted in several steps. After applying the outlined search strategies, the resulting database reference lists were imported into the web-based systematic review program Covidence.",
-      "improved_version": "We conducted article screening in several steps. After applying search strategies, references were imported into Covidence for review.",
-      "explanation": "Uses active voice and simplifies sentence structure for clarity and conciseness.",
-      "location": "Methods",
+      "original_text": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague.",
+      "improved_version": "Offering consumers simple product swaps without additional information can already lead to meaningful reductions in most cases.",
+      "explanation": "Clarifies the scope and practical implications, reducing ambiguity.",
+      "location": "Discussion",
+      "category": "ambiguity",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
+      "improved_version": "Rewrite passive sentences in active voice where possible. For example, change 'Greenhouse gas emissions data were adapted from' to 'We adapted greenhouse gas emissions data from.'",
+      "explanation": "Active voice enhances engagement and clarity.",
+      "location": "Throughout",
       "category": "voice",
       "focus": "active_passive_voice"
     },
     {
-      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
-      "improved_version": "Dataset sizes ranged from 61 to 37 million users, with a median of 25,000 and an IQR of 4,089 to 79,436.",
-      "explanation": "Rearranged for clarity and brevity, making statistical information easier to interpret quickly.",
-      "location": "Results - Study Characteristics",
-      "category": "wordiness",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "Most studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms for churn prediction with 16% (8/50) of studies only evaluating a single algorithm.",
-      "improved_version": "On average, studies tested 3.6 ML algorithms for churn prediction, with 16% evaluating only one.",
-      "explanation": "Simplifies statistical data presentation for clearer understanding.",
-      "location": "Results - Prediction Algorithms",
-      "category": "wordiness",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "Use of clustering and segmentation strategies that group similar users before applying models also enhanced churn prediction outcomes, suggesting another approach for improving model performance through refined data segmentation.",
-      "improved_version": "Clustering users before modeling improved churn predictions, highlighting the value of data segmentation.",
-      "explanation": "Condenses complex ideas into a clearer, more direct statement.",
-      "location": "Discussion",
-      "category": "wordiness",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "Descriptions of feature importance rankings sometimes lack clarity about the significance of the rankings.",
-      "improved_version": "Some feature importance rankings are unclear about their significance, which may confuse readers about which features matter most.",
-      "explanation": "Clarifies the issue and emphasizes its impact on understanding results.",
-      "location": "Results - Features and Importances",
-      "category": "ambiguity",
-      "focus": "ambiguity"
-    },
-    {
-      "original_text": "The review also identified additional important behavioral features for churn prediction that are, however, more agnostic to certain app characteristics, such as Transactional Features (e.g., in-app purchases) applicable only in apps that include payments.",
-      "improved_version": "The review found behavioral features like transactional data (e.g., in-app purchases) to be important, especially in apps with payment options.",
-      "explanation": "Simplifies complex sentence and clarifies the applicability of features across app types.",
-      "location": "Results - Features",
-      "category": "language_simplicity",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "The overall assessment paragraph: 'This systematic review provides a comprehensive synthesis of churn prediction studies in mobile applications, highlighting key methodologies, machine learning algorithms, and features employed across diverse app domains.'",
-      "improved_version": "This review summarizes key methods, algorithms, and features used in mobile app churn prediction across various domains, highlighting their potential and limitations.",
-      "explanation": "Provides a clearer, more balanced overview with emphasis on both strengths and limitations.",
-      "location": "Summary",
-      "category": "readability",
+      "original_text": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
+      "improved_version": "Include brief summaries after detailed data sections, highlighting the main takeaway points to aid quick comprehension.",
+      "explanation": "Improves readability by distilling complex data into key messages.",
+      "location": "Results and Methods",
+      "category": "information_density",
       "focus": "readability"
     },
     {
-      "original_text": "Adopting these recommendations will enhance the quality and consistency of churn prediction studies, making it easier to compare findings, identify best practices, and extend insights across diverse app domains and contexts in the future.",
-      "improved_version": "Following these recommendations will improve study quality and consistency, facilitating comparisons and the identification of best practices across app domains.",
-      "explanation": "Shortens and clarifies the sentence for better readability and impact.",
-      "location": "Limitations and Recommendations",
-      "category": "wordiness",
-      "focus": "wordiness"
+      "original_text": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
+      "improved_version": "Divide lengthy paragraphs into smaller ones, each focusing on a single main idea or result.",
+      "explanation": "Enhances navigation and makes the document less intimidating.",
+      "location": "Introduction and Discussion",
+      "category": "paragraph_length",
+      "focus": "paragraph_length"
+    },
+    {
+      "original_text": "Overuse of passive voice diminishes immediacy and engagement.",
+      "improved_version": "Convert passive sentences to active voice. For example, 'Participants were presented with' becomes 'We presented participants with.'",
+      "explanation": "Active voice creates a more direct and engaging tone.",
+      "location": "Methods and Results",
+      "category": "active_passive_voice",
+      "focus": "active_passive_voice"
+    },
+    {
+      "original_text": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
+      "improved_version": "Add brief definitions or explanations for technical terms at first mention, such as 'Global Warming Potential (GWP), which measures the climate impact of greenhouse gases.'",
+      "explanation": "Enhances accessibility and understanding for a broader audience.",
+      "location": "Methodology"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The overall language is somewhat technical and dense, especially in sections describing algorithms and methodologies. Simplifying complex phrases and avoiding jargon where possible will make the text more accessible to a broader audience.",
-    "jargon_usage": "While necessary for technical accuracy, excessive use of specialized terms without explanation can hinder understanding. Providing brief definitions or context for terms like 'survival analysis' or 'ensemble models' would improve clarity.",
-    "wordiness": "Many sentences contain redundant or overly detailed information that could be condensed. Breaking long sentences into shorter, clearer ones will enhance readability and focus.",
-    "sentence_length": "Numerous sentences are lengthy with multiple clauses, which can overwhelm readers. Shortening sentences and focusing on one idea per sentence will improve comprehension.",
-    "paragraph_length": "Some paragraphs are very dense, covering multiple ideas. Dividing these into smaller, focused paragraphs will help readers process information more effectively.",
-    "active_passive_voice": "The text predominantly uses passive voice, which can obscure agency and reduce clarity. Rephrasing to active voice where appropriate will make statements more direct and engaging.",
-    "redundancy": "Repeated mentions of similar concepts, such as the number of algorithms or features, could be streamlined. Eliminating unnecessary repetitions will make the text more concise.",
-    "ambiguity": "Certain descriptions, especially around feature importance and performance metrics, lack clarity about their significance. Clarifying the context and implications of rankings and metrics will aid understanding.",
-    "readability": "The dense technical language and complex sentence structures reduce overall readability. Simplifying language and sentence structure will make the content more approachable.",
-    "information_density": "Sections packed with data, percentages, and technical details can be overwhelming. Summarizing key points and presenting data more succinctly will improve digestibility."
+    "language_simplicity": "The language often employs complex structures and formal phrasing that can be simplified. Using straightforward language and shorter sentences would improve clarity, especially for interdisciplinary readers or non-native English speakers.",
+    "jargon_usage": "While technical terms are necessary, their frequent use without explanation can hinder understanding. Providing definitions or context for specialized terms will make the content more accessible.",
+    "wordiness": "Many sentences and paragraphs include redundant phrases or overly detailed descriptions that could be condensed. Eliminating redundancies and focusing on core messages will streamline the text.",
+    "sentence_length": "Long, compound sentences reduce readability. Breaking them into shorter, focused sentences will help readers follow the logic more easily.",
+    "paragraph_length": "Extensive paragraphs covering multiple ideas can be overwhelming. Shorter paragraphs, each centered on a single point, will improve navigation and comprehension.",
+    "active_passive_voice": "The frequent use of passive voice makes the text less direct. Rephrasing sentences in active voice will increase engagement and clarity.",
+    "redundancy": "Repeated information, especially in tables and results, can be summarized to avoid clutter. Using summaries and referring to detailed appendices will make the main narrative clearer.",
+    "ambiguity": "Some statements lack specificity, leading to potential misinterpretation. Clarifying scope and practical implications will enhance understanding.",
+    "readability": "Overall, complex sentence structures, passive voice, and dense data presentation hinder smooth reading. Simplification and better structuring will improve flow.",
+    "information_density": "Overloading sections with detailed data without summaries reduces clarity. Incorporating concise summaries and highlighting key points will aid quick understanding."
   },
-  "summary": "This review covers a broad and detailed analysis of churn prediction in mobile apps, but its clarity and conciseness could be improved by simplifying language, reducing sentence and paragraph length, and clarifying technical terms. Addressing these issues will enhance accessibility and comprehension, making the insights more actionable for a wider audience. Overall, the work is solid but would benefit from targeted editing to optimize clarity and reader engagement."
+  "summary": "Overall, the manuscript demonstrates solid research and comprehensive analysis but suffers from issues related to language complexity, verbosity, and dense presentation of data. Addressing these areas by simplifying language, breaking up long paragraphs and sentences, clarifying technical jargon, and summarizing key findings will significantly enhance clarity and accessibility, elevating the overall quality to an excellent standard."
 }

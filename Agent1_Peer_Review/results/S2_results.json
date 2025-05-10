@@ -4,143 +4,159 @@
     {
       "category": "structure",
       "location": "Abstract",
-      "issue": "The abstract combines background, methodology, results, and implications in a dense paragraph without clear sectional separation, making it hard to quickly grasp key points.",
+      "issue": "The abstract lacks clear section delineation (e.g., background, methods, results, conclusion), leading to a dense, unstructured flow.",
       "severity": "medium",
-      "impact": "Reduces readability and quick comprehension, potentially hindering the reader's ability to assess the study's scope and findings efficiently."
+      "impact": "Reduces clarity and makes it harder for readers to quickly grasp key components of the study."
     },
     {
       "category": "content",
       "location": "Abstract",
-      "issue": "While it mentions synthesizing 50 studies and key findings, it lacks specific quantitative results or detailed performance metrics that would demonstrate the significance of the findings.",
+      "issue": "The methodology description is overly detailed and fragmented, with excessive technical specifics that could be moved to the main text.",
       "severity": "high",
-      "impact": "Limits the abstract's ability to communicate the study's contribution and the strength of evidence, reducing its impact."
+      "impact": "Diminishes the abstract's conciseness and clarity, potentially overwhelming readers and obscuring main findings."
     },
     {
       "category": "clarity",
-      "location": "Abstract",
-      "issue": "Some technical terms and concepts (e.g., 'survival times,' 'performance metrics') are introduced without sufficient context or explanation for a broad audience.",
-      "severity": "low",
-      "impact": "May hinder understanding for readers unfamiliar with specific ML or churn prediction terminology."
+      "location": "Results presentation",
+      "issue": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
+      "severity": "high",
+      "impact": "Impairs quick understanding of key findings and reduces readability for a broad audience."
     },
     {
       "category": "standards",
       "location": "Abstract",
-      "issue": "The abstract does not explicitly state the research design (systematic review) in the opening sentence, which is a key standard for clarity in review articles.",
-      "severity": "medium",
-      "impact": "Could cause confusion about the nature of the study, affecting transparency and reproducibility."
+      "issue": "The abstract contains typographical inconsistencies (e.g., inconsistent use of abbreviations, formatting of percentages), and some technical terms are not clearly defined.",
+      "severity": "low",
+      "impact": "Minor; affects professionalism and clarity for readers unfamiliar with specific terminology."
     },
     {
       "category": "impact",
-      "location": "Abstract",
-      "issue": "The implications and practical significance of the findings are mentioned generally but lack specific insights into how this review advances the field or informs future research/practice.",
+      "location": "Discussion",
+      "issue": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
       "severity": "medium",
-      "impact": "Weakens the abstract's ability to communicate the study's importance and potential impact on the field."
+      "impact": "Potentially overpromises the study's significance, affecting credibility."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
-      "improved_version": "User churn, defined as the premature discontinuation of a product or service, presents significant challenges across multiple industries such as gaming, healthcare, and education.",
-      "explanation": "Clarifies the definition and improves readability by reducing redundancy and enhancing flow.",
-      "location": "Abstract",
+      "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
+      "improved_version": "Driving Sustainable Food Choices Through Specific and Actionable Product Swap Recommendations",
+      "explanation": "Refines the title for clarity and focus, making the study's core contribution immediately apparent.",
+      "location": "Title",
+      "category": "structure",
+      "focus": "organization"
+    },
+    {
+      "original_text": "The Impact of Specific and Actionable Product Swap Recommendations.",
+      "improved_version": "The Impact of Targeted Product Swap Recommendations and GHGE Information on Consumer Food Choices",
+      "explanation": "Clarifies the abstract's focus by explicitly mentioning the two main interventions studied, aiding reader understanding.",
+      "location": "Title",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
-      "improved_version": "The results reveal a diverse range of machine learning algorithms, including logistic regression, support vector machines, and advanced deep neural networks, used to predict both user churn probabilities and the timing of churn events in mobile applications.",
-      "explanation": "Adds specificity and clarity about the types of algorithms and outcomes, emphasizing the breadth and technical scope.",
-      "location": "Abstract",
-      "category": "content",
-      "focus": "completeness"
+      "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+      "improved_version": "Participants generally responded positively to the recommendations, reducing their basket's GHGE by approximately 25% and swapping an average of 4 products, with nearly 90% swapping at least one item.",
+      "explanation": "Simplifies language for clarity and improves flow, making key results more accessible.",
+      "location": "Results summary",
+      "category": "clarity",
+      "focus": "readability"
     },
     {
-      "original_text": "Furthermore, it emphasizes the necessity for consistent methodologies and reporting standards to enhance future research.",
-      "improved_version": "Additionally, the review highlights the critical need for standardized methodologies and reporting practices to improve comparability and reproducibility in future churn prediction research.",
-      "explanation": "Specifies the importance of standardization and its role in advancing the field, making the statement more impactful.",
-      "location": "Abstract",
-      "category": "impact",
-      "focus": "significance"
+      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
+      "improved_version": "While targeted recommendations increased the selection of the most effective swap, neither this nor GHGE reduction information led to significant overall reductions in basket GHGE for most participants.",
+      "explanation": "Enhances clarity by breaking complex sentences and emphasizing key findings.",
+      "location": "Results summary",
+      "category": "clarity",
+      "focus": "readability"
     },
     {
-      "original_text": "The literature search and selection was conducted per the PRISMA guidelines.",
-      "improved_version": "The literature search and selection process strictly adhered to the PRISMA guidelines, ensuring transparency and methodological rigor.",
-      "explanation": "Clarifies the quality standard and emphasizes the systematic approach, enhancing credibility.",
+      "original_text": "Exploratory analyses suggest that GHGE reduction information has a notably positive impact on daily meat consumers, resulting in lower basket GHGE, more products swapped, an increased willingness-to-swap meat products and in increase in their self-efficacy to reduce animal-product consumption.",
+      "improved_version": "Exploratory analyses indicate that providing GHGE reduction information notably benefits daily meat consumers, leading to greater GHGE reductions, more product swaps, higher willingness to replace meat, and increased self-efficacy in reducing animal-product intake.",
+      "explanation": "Improves readability by simplifying sentence structure and clarifying key outcomes.",
+      "location": "Results summary",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "This study investigates how specific and actionable product swap recommendations, derived from the final contents of consumers\u2019 shopping baskets and presented before checkout, influence climate-friendly food choices.",
+      "improved_version": "This study examines how specific, actionable product swap recommendations\u2014based on consumers\u2019 basket contents and presented before checkout\u2014affect climate-friendly food choices.",
+      "explanation": "Streamlines sentence for clarity and conciseness.",
+      "location": "Introduction",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents (e.g. swap beef burger for plant-based burger).",
+      "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how swapping animal-based for plant-based products can reduce environmental impact, and (2) a list of recommended swaps from each animal-based product to the closest matching plant-based analogue (e.g., beef burger replaced with a plant-based burger).",
+      "explanation": "Clarifies structure, reduces redundancy, and improves readability.",
+      "location": "Methods",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "Participants could select as many of the available product swaps as they desired. We evaluate the efficacy of the product swap recommendations as the differences between the experimental conditions on shopping task outcomes, such as final basket GHGE and swap recommendations selected.",
+      "improved_version": "Participants could choose multiple swaps. The effectiveness of these recommendations was assessed by comparing outcomes across conditions, focusing on measures such as final basket GHGE and the number of swaps selected.",
+      "explanation": "Simplifies and clarifies the evaluation approach for better comprehension.",
+      "location": "Methods",
+      "category": "clarity",
+      "focus": "readability"
+    },
+    {
+      "original_text": "Regression analyses were employed to test hypotheses, including multiple linear regression for GHGE reduction and logistic regression for swap selection.",
+      "improved_version": "Regression analyses, including multiple linear regression for GHGE reduction and logistic regression for swap choice, were used to test the study hypotheses.",
+      "explanation": "Concise and clearer description of analytical methods.",
       "location": "Methods",
       "category": "standards",
       "focus": "methodology"
     },
     {
-      "original_text": "Most studies focused on mobile games, followed by mobile health applications.",
-      "improved_version": "The majority of included studies (66%) focused on mobile games, with subsequent research on mobile health applications and other domains, reflecting research trends over time.",
-      "explanation": "Provides clearer quantification and contextualizes the distribution, improving completeness and understanding of research landscape.",
+      "original_text": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
+      "improved_version": "Results include detailed statistical tables and figures, but key findings are summarized narratively to enhance readability for a broader audience.",
+      "explanation": "Provides guidance on balancing technical detail with clarity, improving overall comprehension.",
       "location": "Results",
-      "category": "content",
-      "focus": "completeness"
+      "category": "standards",
+      "focus": "readability"
     },
     {
-      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
-      "improved_version": "The datasets employed across studies exhibited substantial variability in size, from small samples of 61 users to large-scale datasets comprising up to 37 million users, indicating diverse data availability and scalability challenges.",
-      "explanation": "Highlights the range and implications for generalizability and scalability, adding depth to the content.",
-      "location": "Results",
-      "category": "content",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "Most studies defined churn as a function of user inactivity, most commonly after a specific cutoff date.",
-      "improved_version": "The predominant definition of churn across studies was based on user inactivity, typically after a predefined period without activity, though definitions varied and impacted prediction outcomes.",
-      "explanation": "Clarifies the variability and its relevance, providing context for interpretation of results.",
-      "location": "Results",
-      "category": "content",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "The review synthesized the five most important features across all included studies that conducted model-based feature importance analyses.",
-      "improved_version": "The review identified and synthesized the top five most influential features, based on model-based importance analyses, across studies that evaluated feature contributions to prediction performance.",
-      "explanation": "Clarifies the process and significance of feature importance ranking, improving technical clarity.",
-      "location": "Results",
-      "category": "content",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "Studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms for churn prediction.",
-      "improved_version": "On average, studies evaluated approximately 3.6 machine learning algorithms (SD = 1.9, range 1\u201310), highlighting the exploratory and comparative nature of model selection in this research area.",
-      "explanation": "Provides clearer interpretation of the data and emphasizes the comparative approach, enhancing clarity.",
-      "location": "Results",
-      "category": "content",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "Few studies have rigorously evaluated churn prevention strategies in controlled settings.",
-      "improved_version": "Despite the promising potential of churn prediction models, only a limited number of studies have rigorously tested targeted churn prevention strategies within controlled experimental settings.",
-      "explanation": "Strengthens the statement by emphasizing the gap and its significance for practical application.",
+      "original_text": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
+      "improved_version": "The conclusions highlight promising strategies but should be interpreted cautiously, considering the controlled experimental setting and sample limitations.",
+      "explanation": "Provides a more balanced and cautious interpretation, aligning with scientific standards.",
       "location": "Discussion",
       "category": "impact",
-      "focus": "significance"
+      "focus": "impact"
     },
     {
-      "original_text": "The abstract does not explicitly state the research design (systematic review) in the opening sentence.",
-      "improved_version": "This systematic review comprehensively analyzes existing literature on user churn prediction in mobile apps, focusing on machine learning methodologies and features.",
-      "explanation": "Clarifies the research design upfront, aligning with scientific standards for transparency.",
+      "original_text": "The abstract contains typographical inconsistencies (e.g., inconsistent use of abbreviations, formatting of percentages), and some technical terms are not clearly defined.",
+      "improved_version": "Ensure consistent formatting of abbreviations and percentages throughout the abstract, and define technical terms at first mention for clarity.",
+      "explanation": "Improves professionalism and clarity, aiding reader understanding.",
       "location": "Abstract",
       "category": "standards",
-      "focus": "organization"
+      "focus": "standards"
     },
     {
-      "original_text": "The implications and practical significance of the findings are mentioned generally but lack specific insights into how this review advances the field or informs future research/practice.",
-      "improved_version": "The findings provide actionable insights for researchers and practitioners, emphasizing behavioral features as key predictors and highlighting the need for standardized reporting to facilitate future meta-analyses and practical implementations.",
-      "explanation": "Specifies the contribution and practical relevance, strengthening impact communication.",
+      "original_text": "The abstract is overly detailed in methodology and results, which could be condensed to emphasize key findings and implications.",
+      "improved_version": "Condense detailed methodological descriptions and statistical data, focusing instead on main findings, their significance, and implications for practice and policy.",
+      "explanation": "Enhances impact and readability by prioritizing core messages.",
       "location": "Abstract",
       "category": "impact",
-      "focus": "significance"
+      "focus": "impact"
+    },
+    {
+      "original_text": "The discussion suggests broad policy implications without sufficiently discussing the study's limitations or the need for further research.",
+      "improved_version": "The discussion should explicitly acknowledge limitations, such as sample representativeness and experimental constraints, and recommend avenues for future research to validate and extend these findings.",
+      "explanation": "Provides a more balanced and scientifically rigorous conclusion.",
+      "location": "Discussion",
+      "category": "standards",
+      "focus": "standards"
     }
   ],
   "detailed_feedback": {
-    "structure_analysis": "The abstract initially presents the background and motivation, followed by the aims and scope of the review, then briefly describes the methodology, key findings, and implications. However, it could benefit from clearer segmentation into background, methods, results, and conclusions to improve readability and logical flow.",
-    "content_analysis": "The abstract covers the scope, methodology, and broad findings, but lacks specific quantitative results such as performance metrics or effect sizes that demonstrate the significance of the findings. Including concrete data would strengthen the impact and clarity of the contribution.",
-    "clarity_assessment": "While generally well-written, some sentences are dense and contain technical jargon that could be simplified or clarified for broader audiences. Certain terms are introduced without context, which may hinder understanding for non-specialist readers.",
-    "standards_compliance": "The abstract mentions the systematic review approach and adherence to PRISMA guidelines, but it could explicitly state the research type at the outset for clarity. It also lacks explicit mention of the review's novelty or specific contribution compared to existing literature.",
-    "impact_evaluation": "The abstract communicates the potential of churn prediction models and highlights behavioral features' importance. However, it underplays the practical implications and the novelty of the review\u2019s insights, which could be emphasized more to demonstrate its significance for advancing research and practice."
+    "structure_analysis": "The abstract attempts to cover background, methods, results, and conclusions but lacks clear section separation, leading to a dense and somewhat disorganized presentation. Clearer segmentation or summarization of key points would improve readability and flow.",
+    "content_analysis": "While comprehensive, the abstract includes excessive technical detail, particularly regarding statistical models and regression tables, which could be summarized more succinctly. Essential findings and their implications should be emphasized over methodological minutiae.",
+    "clarity_assessment": "The language is often dense with technical jargon and complex sentences, which hampers quick understanding. Simplifying sentence structures, reducing redundancy, and highlighting key results would enhance readability for a broader audience.",
+    "standards_compliance": "The abstract generally follows scientific conventions but contains minor typographical inconsistencies and formatting issues, especially with abbreviations and percentages. Ensuring consistency and defining technical terms would improve professionalism.",
+    "impact_evaluation": "The abstract effectively communicates the potential of product swap recommendations for sustainable food choices but overstates implications without adequately discussing limitations. A more cautious tone and acknowledgment of scope would strengthen credibility."
   },
-  "summary": "Overall, the abstract provides a comprehensive overview of the systematic review, including background, methodology, and key findings. However, it would benefit from clearer structural segmentation, inclusion of specific quantitative results, and more explicit articulation of its contribution and practical implications. Enhancing clarity and emphasizing the novelty and impact of the findings would elevate its quality and effectiveness in communicating the study\u2019s significance."
+  "summary": "Overall, the abstract presents a relevant and methodologically sound study with important findings on consumer behavior and sustainability interventions. However, it suffers from issues related to structure, excessive technical detail, and clarity, which hinder quick comprehension and reduce overall impact. Refining the organization, simplifying language, and emphasizing key messages would significantly enhance its quality and effectiveness."
 }
