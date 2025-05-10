@@ -4,119 +4,135 @@
     {
       "category": "context",
       "location": "Section 2 (Introduction)",
-      "issue": "While the background on NCDs and mHealth is comprehensive, it lacks a concise overview of the current state of adherence prediction specifically in mHealth interventions, which would better contextualize the research gap.",
+      "issue": "While the background on user churn and machine learning is comprehensive, it lacks a clear, concise overview of the specific challenges and nuances of mobile app churn compared to other domains, which could better justify the focus on mobile apps.",
       "severity": "medium",
-      "impact": "This diminishes clarity on the novelty and specific need for the study, potentially making the contribution less compelling."
+      "impact": "This limits the reader's understanding of why mobile app churn prediction warrants a dedicated review, potentially weakening the perceived importance of the study."
     },
     {
       "category": "problem",
       "location": "Section 2 (Introduction)",
-      "issue": "The problem statement about nonadherence is somewhat scattered, with multiple definitions and metrics introduced without a clear, unified framing of the core issue.",
+      "issue": "The problem statement mentions the lack of a review in the mobile app context but does not explicitly specify the limitations of existing studies or the specific gaps in methodology, features, or performance reporting that this review aims to address.",
       "severity": "high",
-      "impact": "This affects the clarity of the research problem, making it harder for readers to grasp the precise challenge the study addresses."
+      "impact": "This reduces clarity on the unique problem this review tackles, making the contribution less compelling and specific."
     },
     {
       "category": "objectives",
       "location": "Section 2 (Introduction)",
-      "issue": "The objectives are somewhat buried within the description of the study design, lacking a clear, standalone statement of research questions or hypotheses.",
-      "severity": "medium",
-      "impact": "This reduces the clarity of the study\u2019s aims, potentially confusing readers about the specific goals."
+      "issue": "The research questions are clearly listed but could benefit from more explicit linkage to the identified gaps, such as how they address inconsistencies or the need for standardization in reporting.",
+      "severity": "low",
+      "impact": "This affects the perceived clarity of how the objectives directly respond to the literature gaps, slightly weakening the focus."
     },
     {
       "category": "significance",
       "location": "Section 2 (Introduction)",
-      "issue": "Although the importance of predicting nonadherence is implied, there is limited explicit justification of how this advances the field or impacts healthcare practice.",
+      "issue": "While the importance of churn prediction is discussed broadly, the introduction does not sufficiently emphasize the specific impact of this review on practical applications like health, education, or personalized systems, which could strengthen justification.",
       "severity": "medium",
-      "impact": "This weakens the justification for the study, making its contribution less persuasive."
+      "impact": "This limits the reader's appreciation of the review's broader implications and real-world significance."
     },
     {
       "category": "structure",
       "location": "Section 2 (Introduction)",
-      "issue": "The flow from background to problem, then to research gap and objectives, is somewhat disjointed, with some paragraphs overlapping in content and lacking smooth transitions.",
+      "issue": "The flow from background to problem statement to objectives is somewhat dense and could be better organized with clearer signposting or subheadings to guide the reader.",
       "severity": "low",
-      "impact": "This affects readability and coherence, potentially making it harder for readers to follow the logical progression."
+      "impact": "This affects readability and the logical progression, potentially making it harder for readers to grasp the core motivations quickly."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) present a significant challenge to patients and healthcare systems, calling for innovative, scalable, and cost-effective solutions.",
-      "improved_version": "Noncommunicable diseases (NCDs) are increasingly prevalent worldwide, imposing substantial health and economic burdens on patients and healthcare systems, thereby necessitating innovative, scalable, and cost-effective intervention strategies.",
-      "explanation": "Clarifies the scope and emphasizes the urgency, setting a stronger foundation for the importance of the research.",
-      "location": "Section 2",
+      "original_text": "User churn, also referred to as user attrition, loss, abandonment, or dropout, is a well-recognized phenomenon characterized by users' discontinuation of a product or service. It has posed significant challenges across diverse industries, calling for strategies to mitigate its impact [1, 23, 28, 68, 84].",
+      "improved_version": "User churn, or attrition, refers to users discontinuing a product or service prematurely. This phenomenon presents critical challenges across various industries\u2014such as gaming, healthcare, and education\u2014necessitating effective prediction and intervention strategies to improve user retention and engagement.",
+      "explanation": "This revision clarifies the scope and importance of churn in specific domains, setting a more targeted background that justifies the focus on mobile apps.",
+      "location": "Section 2 (Introduction)",
       "category": "context",
       "focus": "background"
     },
     {
-      "original_text": "Yet, despite growing evidence and availability, mHealth interventions face high nonadherence, where users fail to use these tools as intended or discontinue use entirely before achieving desired outcomes.",
-      "improved_version": "Despite the proliferation of mHealth interventions supported by increasing evidence, user adherence remains a critical challenge, with many users failing to engage as intended or discontinuing use prematurely, thus limiting their potential benefits.",
-      "explanation": "Provides clearer framing of the problem, highlighting the gap between evidence and real-world engagement.",
-      "location": "Section 2",
+      "original_text": "While the progress in churn prediction research is acknowledged, no review has yet been undertaken to summarize them in the context of mobile apps.",
+      "improved_version": "Despite extensive research on churn prediction in domains like telecommunications and finance, there is a notable gap: no comprehensive review has synthesized studies specifically focused on mobile app contexts, which differ in data types, features, and user behaviors.",
+      "explanation": "This explicitly states the gap, emphasizing the novelty and necessity of the review, strengthening the problem statement.",
+      "location": "Section 2 (Introduction)",
+      "category": "problem",
+      "focus": "gap"
+    },
+    {
+      "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
+      "improved_version": "This review aims to analyze not only the machine learning algorithms and features used but also to evaluate the effectiveness of various churn prevention strategies integrated with prediction models, addressing a key gap in understanding their practical impact.",
+      "explanation": "Clarifies the dual focus on methodological synthesis and practical outcomes, making the objectives more explicit and comprehensive.",
+      "location": "Section 2 (Introduction)",
+      "category": "objectives",
+      "focus": "objectives"
+    },
+    {
+      "original_text": "The significance of this review lies in its potential to guide developers and researchers in selecting appropriate models and features for mobile app churn prediction.",
+      "improved_version": "The significance of this review stems from its potential to inform both researchers and practitioners about effective algorithms, features, and strategies for mobile app churn prediction, ultimately supporting the development of more personalized and adaptive user retention systems.",
+      "explanation": "Enhances justification by linking the review\u2019s outcomes to tangible improvements in system personalization and user engagement.",
+      "location": "Section 2 (Introduction)",
+      "category": "significance",
+      "focus": "significance"
+    },
+    {
+      "original_text": "The paper is organized as follows: Methods, Results, Discussion, and Conclusion.",
+      "improved_version": "The paper is organized into sections covering Methods, Results, Discussion, and Conclusions, with clear subheadings guiding the reader through the systematic review process, findings, and implications.",
+      "explanation": "Adding detail about organization improves readability and signals a well-structured approach, enhancing flow.",
+      "location": "Section 2 (Introduction)",
+      "category": "structure",
+      "focus": "flow"
+    },
+    {
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
+      "improved_version": "The datasets across studies exhibited significant variability in size, from small samples of 61 users to large-scale datasets with up to 37 million users, reflecting diverse data sources and contexts in mobile app research.",
+      "explanation": "Clarifies the implication of dataset variability, emphasizing the heterogeneity in data sources and challenges in standardization.",
+      "location": "Section 3.1 (Results)",
+      "category": "context",
+      "focus": "background"
+    },
+    {
+      "original_text": "Most studies evaluated and compared multiple ML algorithms, but no single model consistently outperformed others across all contexts.",
+      "improved_version": "While many studies evaluated multiple machine learning algorithms, no single model emerged as universally superior; instead, performance depended on specific datasets, features, and application contexts, underscoring the need for tailored model selection.",
+      "explanation": "Highlights the importance of context-specific model choice, guiding practitioners to adopt an iterative, empirical approach.",
+      "location": "Section 3.2 (Results)",
+      "category": "problem",
+      "focus": "gap"
+    },
+    {
+      "original_text": "Behavioral features related to users\u2019 activity and progress within apps were identified as most important for predicting churn.",
+      "improved_version": "Across multiple studies, behavioral features capturing user activity and progress\u2014such as login frequency and completed tasks\u2014consistently ranked as the most influential predictors of churn, highlighting their universal applicability.",
+      "explanation": "Strengthens the statement by emphasizing consistency and universality, supporting the focus on behavioral data.",
+      "location": "Section 3.3 (Results)",
+      "category": "significance",
+      "focus": "background"
+    },
+    {
+      "original_text": "Few studies have rigorously evaluated churn prevention strategies in controlled settings, indicating a gap in evidence for practical deployment.",
+      "improved_version": "Despite the recognized potential of churn prediction models to enable targeted interventions, only a limited number of studies have empirically tested the effectiveness of such strategies in controlled trials, revealing a critical gap between predictive modeling and real-world application.",
+      "explanation": "Clarifies the gap and emphasizes the importance of bridging research and practice, strengthening the significance argument.",
+      "location": "Section 3.4 (Results)",
+      "category": "problem",
+      "focus": "gap"
+    },
+    {
+      "original_text": "Inconsistent reporting standards hinder meta-analyses and cross-study comparisons.",
+      "improved_version": "The lack of standardized reporting on datasets, features, and performance metrics impedes the ability to conduct comprehensive meta-analyses and compare findings across studies, highlighting the need for unified reporting guidelines.",
+      "explanation": "Explicitly states the consequence and the need for standardization, which can guide future research practices.",
+      "location": "Section 5 (Limitations and Recommendations)",
       "category": "problem",
       "focus": "problem"
     },
     {
-      "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
-      "improved_version": "The extensive behavioral data generated by mHealth interventions present an opportunity to predict nonadherence, yet the extent to which such data can reliably forecast disengagement remains underexplored.",
-      "explanation": "Frames the research gap more explicitly, emphasizing the novelty and importance of predictive modeling in this context.",
-      "location": "Section 2",
-      "category": "problem",
-      "focus": "gap"
-    },
-    {
-      "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
-      "improved_version": "Our predictive models achieved high accuracy, correctly identifying approximately 94% of nonadherent users in Vivira during Weeks 2 to 13, where nonadherence was operationalized as completing fewer than eight exercises weekly.",
-      "explanation": "Clarifies the operational definition of nonadherence and emphasizes the model's performance, strengthening the link to the research objectives.",
-      "location": "Abstract",
+      "original_text": "This review aims to provide a detailed overview of churn prediction research in mobile apps, identifying effective ML algorithms and features.",
+      "improved_version": "This review aims to systematically synthesize existing research on churn prediction in mobile apps, identifying effective machine learning algorithms, key features, and methodological best practices to inform future studies and applications.",
+      "explanation": "Provides a clearer scope and emphasizes the systematic nature and practical relevance of the review.",
+      "location": "Section 2 (Introduction)",
       "category": "objectives",
       "focus": "objectives"
-    },
-    {
-      "original_text": "Building on Jakob et al. (2024), we also examine the proportion of users who reengage after a correct prediction, offering insights into the potential for targeted strategies to promote adherence before churn occurs.",
-      "improved_version": "Extending prior work, we analyze the proportion of users who reengage following accurate nonadherence predictions, providing insights into how predictive models can inform proactive, targeted adherence-promoting strategies.",
-      "explanation": "Highlights the innovative aspect and practical implications, clarifying the study's contribution.",
-      "location": "Introduction",
-      "category": "objectives",
-      "focus": "objectives"
-    },
-    {
-      "original_text": "This study addresses this research gap by evaluating nonadherence prediction models in two distinct mHealth interventions (Vivira and Manoa) across different regulatory environments (i.e. SHI and PHI), medical conditions addressed (i.e. nonspecific back pain and arterial hypertension), program durations (i.e. 90 and 186 days), user demographics, as well as different therapeutic approaches (i.e. guided movement therapy and personalized hypertension self-management).",
-      "improved_version": "This study fills the research gap by developing and evaluating nonadherence prediction models across two diverse mHealth interventions\u2014Vivira (back pain) and Manoa (hypertension)\u2014spanning different regulatory contexts, medical conditions, program lengths, and user populations, thereby assessing the models' generalizability and robustness.",
-      "explanation": "Streamlines the description, emphasizing the diversity and broad applicability of the approach, enhancing clarity on scope.",
-      "location": "Introduction",
-      "category": "problem",
-      "focus": "gap"
-    },
-    {
-      "original_text": "To provide a comprehensive perspective, we predict nonadherence relative to the intended use of the interventions, following the definition by Sieverink et al. (2017), as well as its most severe form: churn (i.e., complete discontinuation).",
-      "improved_version": "We operationalize nonadherence based on the definition by Sieverink et al. (2017), encompassing both suboptimal engagement and complete discontinuation (churn), to comprehensively capture user disengagement patterns.",
-      "explanation": "Clarifies the operational definitions and their significance, strengthening conceptual clarity.",
-      "location": "Introduction",
-      "category": "objectives",
-      "focus": "objectives"
-    },
-    {
-      "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
-      "improved_version": "Our results demonstrate that user nonadherence, including both partial disengagement and complete churn, can be reliably predicted over long-term intervention periods, highlighting the potential for early identification and targeted retention strategies.",
-      "explanation": "Strengthens the significance by explicitly linking prediction to practical intervention benefits.",
-      "location": "Discussion",
-      "category": "significance",
-      "focus": "significance"
-    },
-    {
-      "original_text": "Our descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn (i.e., users discontinuing entirely).",
-      "improved_version": "Descriptive analyses reveal that the observed decline in adherence over time in both interventions is predominantly attributable to user churn, underscoring the importance of early prediction for retention efforts.",
-      "explanation": "Provides a clearer link between descriptive findings and the importance of the research focus, emphasizing practical implications.",
-      "location": "Discussion",
-      "category": "significance",
-      "focus": "significance"
     }
   ],
   "detailed_feedback": {
-    "context_analysis": "The introduction offers a broad overview of NCDs and the role of mHealth interventions, citing relevant literature and regulatory contexts. However, it could benefit from a more specific discussion of the current state of adherence prediction in digital health, including existing models and their limitations, to better establish the research niche.",
-    "problem_analysis": "The core issue of user nonadherence and churn is identified, but the problem statement lacks a unified, precise framing. Clarifying the distinction between different adherence metrics and emphasizing the gap in long-term, stage-specific prediction models would strengthen the narrative.",
-    "objectives_analysis": "The objectives are embedded within the description of methods and results, making them less explicit. Clearly stating research questions or hypotheses\u2014such as 'Can behavioral app engagement data predict nonadherence over extended periods?'\u2014would improve clarity.",
-    "significance_assessment": "The significance is implied through references to the potential for targeted interventions, but an explicit statement of how this research advances the field\u2014e.g., by demonstrating generalizability or filling a specific knowledge gap\u2014is needed for a stronger impact.",
-    "structure_evaluation": "The introduction covers necessary background and rationale but suffers from some organizational issues, with overlapping content and abrupt transitions. Reordering sections to first establish background, then define the problem, followed by research gaps and objectives, would enhance logical flow and readability."
+    "context_analysis": "The introduction offers a broad overview of user churn and its significance across industries, with particular emphasis on mobile apps. However, it would benefit from a more focused discussion on the unique challenges and characteristics of mobile app churn, such as data granularity, user engagement patterns, and the rapid evolution of app ecosystems, to better justify the specific need for a dedicated review in this domain.",
+    "problem_analysis": "While the introduction highlights the absence of a systematic review in mobile app churn prediction, it does not sufficiently detail the limitations of existing studies, such as inconsistent methodologies, feature sets, or reporting standards. Clarifying these gaps would strengthen the argument for the review\u2019s necessity and its potential to advance the field.",
+    "objectives_analysis": "The research questions are comprehensive and well-structured, covering algorithms, features, performance, and intervention outcomes. Nonetheless, explicitly linking these questions to the identified gaps\u2014such as the lack of standardization and limited evaluation of prevention strategies\u2014would enhance clarity and focus.",
+    "significance_assessment": "The introduction underscores the economic and practical importance of churn prediction but could more explicitly articulate how this review will impact specific domains like digital health or personalized systems. Highlighting potential improvements in user retention, health outcomes, or system adaptability would strengthen the justification.",
+    "structure_evaluation": "The organization follows a conventional format, but transitions between background, problem, and objectives sections could be smoother. Incorporating clear subheadings or signposting phrases would improve readability, guiding the reader more effectively through the logical flow of motivations, gaps, and aims."
   },
-  "summary": "Overall, the introduction presents a solid foundation with comprehensive background and relevant literature. However, it suffers from clarity issues regarding the specific research problem, objectives, and significance. Improving the logical flow, explicitly stating research questions, and sharpening the problem framing would elevate the manuscript's quality and impact, moving it towards a 'Good' rating."
+  "summary": "Overall, the introduction provides a solid foundation with comprehensive background and clear research questions. However, it would benefit from sharper focus on the unique challenges of mobile app churn, explicit articulation of research gaps, and stronger justification of the review\u2019s practical significance. Enhancing the clarity and organization will improve reader engagement and set a more compelling stage for the systematic review."
 }

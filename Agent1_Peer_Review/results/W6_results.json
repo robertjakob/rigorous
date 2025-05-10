@@ -1,178 +1,118 @@
 {
-  "citation_formatting_score": 2,
+  "citation_formatting_score": 3,
   "critical_remarks": [
     {
       "category": "in_text_format",
-      "location": "Introduction paragraph, e.g., '[16, 26, 44, 64]'",
-      "issue": "Inconsistent in-text citation style; some citations are bracketed numbers, others are parenthetical, and some lack consistent formatting.",
-      "severity": "high",
-      "impact": "Reduces clarity and professionalism; hampers reader understanding and citation traceability."
-    },
-    {
-      "category": "reference_format",
-      "location": "Bibliography section, e.g., '[1]', '[2]', etc.",
-      "issue": "References are numbered but lack uniform formatting; some entries have inconsistent spacing, punctuation, and ordering of elements.",
-      "severity": "high",
-      "impact": "Impairs the readability and standardization of references, complicating verification and citation management."
-    },
-    {
-      "category": "style_consistency",
-      "location": "Throughout the document, especially in references, e.g., journal titles, author names, dates.",
-      "issue": "Inconsistent citation style; mixes APA, Vancouver, and other styles without clear adherence to a single standard.",
-      "severity": "high",
-      "impact": "Creates confusion and diminishes scholarly rigor; reduces credibility."
-    },
-    {
-      "category": "reference_completeness",
-      "location": "References list, e.g., '[1]', '[2]', etc.",
-      "issue": "Some references lack complete information, such as missing volume, issue, page numbers, or publication dates.",
-      "severity": "high",
-      "impact": "Hinders proper source verification and academic integrity."
-    },
-    {
-      "category": "doi_format",
-      "location": "References with DOIs, e.g., '[1]', '[2]', etc.",
-      "issue": "DOIs are inconsistently formatted; some include 'https://doi.org/', others omit it, and some lack DOI entirely.",
+      "location": "Section 2, Paragraph 1",
+      "issue": "Inconsistent use of brackets and parentheses around multiple citations, e.g., '[1, 23, 28, 68, 84]' versus '(2025) (In preparation)' in the title page.",
       "severity": "medium",
-      "impact": "Reduces accessibility and ease of locating sources."
-    },
-    {
-      "category": "author_format",
-      "location": "References, e.g., '[1]', '[2]', etc.",
-      "issue": "Author names are inconsistently formatted; some use full names, others initials, and order varies.",
-      "severity": "medium",
-      "impact": "Affects citation professionalism and proper attribution."
-    },
-    {
-      "category": "date_format",
-      "location": "References, e.g., '[1]', '[2]', etc.",
-      "issue": "Publication dates are formatted variably; some include month/year, others only year, and some have inconsistent placement.",
-      "severity": "medium",
-      "impact": "Impairs chronological clarity and citation accuracy."
-    },
-    {
-      "category": "journal_format",
-      "location": "References, e.g., '[1]', '[2]', etc.",
-      "issue": "Journal names are inconsistently abbreviated or spelled out; some are italicized, others not.",
-      "severity": "low",
-      "impact": "Affects visual consistency and adherence to citation standards."
-    },
-    {
-      "category": "volume_format",
-      "location": "References, e.g., '[1]', '[2]', etc.",
-      "issue": "Volume, issue, and page numbers are inconsistently formatted; some use parentheses, others commas or spaces.",
-      "severity": "medium",
-      "impact": "Complicates source identification and retrieval."
+      "impact": "This inconsistency can confuse readers and undermine the perceived professionalism of the manuscript."
     },
     {
       "category": "cross_reference",
-      "location": "Throughout the text, e.g., in the 'Introduction' and 'Discussion' sections.",
-      "issue": "In-text citations do not always match reference list numbering; some references are cited multiple times with inconsistent formats.",
+      "location": "Throughout the manuscript",
+      "issue": "Some in-text citations (e.g., [12, 77, 80]) refer to studies that are not clearly matched with the reference list, or the references are not consistently formatted in the list.",
       "severity": "high",
-      "impact": "Undermines citation accuracy and scholarly reliability."
+      "impact": "This hampers verification of sources and reduces the credibility of the manuscript."
+    },
+    {
+      "category": "style_consistency",
+      "location": "Section 3.2, Paragraph 3",
+      "issue": "Inconsistent formatting of multiple citations, e.g., '(46/50)', '(n = 50)', and '(n = 50)' are used interchangeably without a standard style.",
+      "severity": "low",
+      "impact": "Reduces readability and creates a perception of unprofessional presentation."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "[16, 26, 44, 64]",
-      "improved_version": "(e.g., '[16, 26, 44, 64]')",
-      "explanation": "Standardizes in-text citation style, ensuring clarity and consistency throughout the manuscript.",
-      "location": "Introduction paragraph",
+      "original_text": "[1, 23, 28, 68, 84]",
+      "improved_version": "(1, 23, 28, 68, 84)",
+      "explanation": "Using parentheses consistently for in-text citations aligns with common styles like APA, enhancing clarity.",
+      "location": "Section 2, Paragraph 1",
       "category": "in_text_format",
       "focus": "in_text_format"
     },
     {
-      "original_text": "[1]",
-      "improved_version": "[1] Alessa, S., Abdi, S., Hawley, M. S., & de Witte, L. (2018). Mobile Apps to Support the Self-Management of Hypertension: Systematic Review of Effectiveness, Usability, and User Satisfaction. JMIR Mhealth Uhealth, 6(7), e10723. https://doi.org/10.2196/10723",
-      "explanation": "Provides a complete and standardized reference entry, improving traceability and scholarly rigor.",
-      "location": "References list",
-      "category": "reference_format",
-      "focus": "reference_completeness"
+      "original_text": "[12, 77, 80]",
+      "improved_version": "(12, 77, 80)",
+      "explanation": "Standardizing citation delimiters to parentheses improves consistency and readability across the manuscript.",
+      "location": "Section 3.2, Paragraph 1",
+      "category": "style_consistency",
+      "focus": "style_consistency"
     },
     {
-      "original_text": "[2]",
-      "improved_version": "[2] Baumel, A., Muench, F., Edan, S., & Kane, J. M. (2019). Objective User Engagement With Mental Health Apps: Systematic Search and Panel-Based Usage Analysis. Journal of Medical Internet Research, 21(9), e14567. https://doi.org/10.2196/14567",
-      "explanation": "Ensures consistent formatting, including journal name, volume, issue, page, and DOI, enhancing professionalism.",
-      "location": "References list",
-      "category": "reference_format",
-      "focus": "reference_completeness"
+      "original_text": "Most studies defining churn after a specific cutoff date [1, 23, 28, 68, 84]",
+      "improved_version": "Most studies defining churn after a specific cutoff date (1, 23, 28, 68, 84)",
+      "explanation": "Replacing brackets with parentheses for multiple citations maintains stylistic consistency with the rest of the manuscript.",
+      "location": "Section 2, Paragraph 2",
+      "category": "style_consistency",
+      "focus": "style_consistency"
     },
     {
-      "original_text": "[3]",
-      "improved_version": "[3] Beger, C., R\u00fcegger, D., Lenz, A., Wagner, S., Haller, H., Schmidt-Ott, K. M., ... & Limbourg, F. P. (2023). Blood pressure dynamics during home blood pressure monitoring with a digital blood pressure coach\u2014a prospective analysis of individual user data. Frontiers in Cardiovascular Medicine, 10, 1115987. https://doi.org/10.3389/fcvm.2023.1115987",
-      "explanation": "Completes all reference elements with proper formatting, improving source verification.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "Studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms [19, 47]",
+      "improved_version": "Studies evaluated and compared an average of 3.6 (SD = 1.9, range = 1\u201310) different ML algorithms (19, 47)",
+      "explanation": "Consistent use of parentheses for citation numbers and lowercase 'range' improves style uniformity.",
+      "location": "Section 3.2, Paragraph 2",
+      "category": "style_consistency",
+      "focus": "style_consistency"
     },
     {
-      "original_text": "[16]",
-      "improved_version": "[16] Schmidt, M., Pawlitzki, M., Renard, B. Y., Meuth, S. G., & Masanneck, L. (2024). The three-year evolution of Germany\u2019s Digital Therapeutics reimbursement program and its path forward. npj Digital Medicine, 7(1), 1-8. https://doi.org/10.1038/s41746-024-01137-1",
-      "explanation": "Standardizes journal name, volume, issue, pages, and DOI, ensuring uniformity and ease of access.",
-      "location": "References list",
-      "category": "journal_format",
-      "focus": "journal_format"
+      "original_text": "The performance metrics are summarized in Table 1: Performance metrics across best-performing models of included studies applying classification models (n = 46).",
+      "improved_version": "The performance metrics are summarized in Table 1 (see below): performance metrics across best-performing models of included studies applying classification models (n = 46).",
+      "explanation": "Clarifies the reference to the table and maintains citation style consistency.",
+      "location": "Section 3.2, Paragraph 3",
+      "category": "placement",
+      "focus": "placement"
     },
     {
-      "original_text": "[21]",
-      "improved_version": "[21] Jakob, R., Lepper, N., Fleisch, E., & Kowatsch, T. (2024). Predicting early user churn in a public digital weight loss intervention. Proceedings of the CHI Conference on Human Factors in Computing Systems, 1-16. https://doi.org/10.1145/3613904.3642321",
-      "explanation": "Provides complete citation with conference details and DOI, enhancing traceability.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "Most studies evaluated multiple ML algorithms [19, 47]",
+      "improved_version": "Most studies evaluated multiple ML algorithms (19, 47)",
+      "explanation": "Using parentheses for citations aligns with standard academic style and improves readability.",
+      "location": "Section 3.2, Paragraph 2",
+      "category": "style_consistency",
+      "focus": "style_consistency"
     },
     {
-      "original_text": "[50]",
-      "improved_version": "[50] Sieverink, F., Kelders, S. M., & van Gemert-Pijnen, J. E. (2017). Clarifying the Concept of Adherence to eHealth Technology: Systematic Review on When Usage Becomes Adherence. Journal of Medical Internet Research, 19(12), e8578. https://doi.org/10.2196/jmir.8578",
-      "explanation": "Ensures consistent formatting and complete citation details, aiding in source retrieval.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "In the reference list, the citation [2] corresponds to a survey published in July 2017.",
+      "improved_version": "In the reference list, the citation (2) corresponds to a survey published in July 2017.",
+      "explanation": "Ensures uniformity in citation delimiters throughout the manuscript, especially if parentheses are preferred style."
     },
     {
-      "original_text": "https://doi.org/10.2196/14567",
-      "improved_version": "https://doi.org/10.2196/14567",
-      "explanation": "Consistent DOI URL formatting across references improves accessibility.",
-      "location": "References list",
-      "category": "doi_format",
-      "focus": "doi_format"
+      "original_text": "The study by Geiler et al. (2022) found that different undersampling methods can significantly impact model performance [26].",
+      "improved_version": "The study by Geiler et al. (2022) found that different undersampling methods can significantly impact model performance (26).",
+      "explanation": "Consistent use of parentheses for in-text citations maintains style uniformity."
     },
     {
-      "original_text": "[4]",
-      "improved_version": "[4] Bundesinstitut f\u00fcr Arzneimittel und Medizinprodukte (BfArM). (2019). Digital Healthcare Act in Germany. Retrieved from https://www.bundesgesundheitsministerium.de/digital-healthcare-act.html",
-      "explanation": "Adds complete authoring and retrieval info, improving transparency.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "Some citations, e.g., [1], are placed at the end of sentences, while others, e.g., [12], are within sentences.",
+      "improved_version": "Some citations, e.g., (1), are placed at the end of sentences, while others, e.g., (12), are within sentences.",
+      "explanation": "Uniform placement of citations enhances clarity and stylistic consistency."
     },
     {
-      "original_text": "[19]",
-      "improved_version": "[19] Hou, C., Carter, B., Hewitt, J., Francisa, T., & Mayor, S. (2016). Do Mobile Phone Applications Improve Glycemic Control (HbA1c) in the Self-management of Diabetes? A Systematic Review, Meta-analysis, and GRADE of 14 Randomized Trials. Diabetes Care, 39(11), 2089\u20132095. https://doi.org/10.2337/dc16-0346",
-      "explanation": "Completes all citation elements with proper formatting, ensuring accurate referencing.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "The authors evaluated models using metrics like AUC, F1-Score, and Accuracy [31, 46, 50].",
+      "improved_version": "The authors evaluated models using metrics like AUC, F1-score, and accuracy (31, 46, 50).",
+      "explanation": "Standardizing the format of performance metrics and citation style improves overall coherence."
     },
     {
-      "original_text": "[25]",
-      "improved_version": "[25] Keller, O. C., Budney, A. J., Struble, C. A., & Teepe, G. W. (2023). Chapter 5 - Blending digital therapeutics within the healthcare system. In N. Jacobson, T. Kowatsch, & L. Marsch (Eds.), Digital Therapeutics for Mental Health and Addiction (pp. 45\u201364). Academic Press. https://doi.org/10.1016/B978-0-323-90045-4.00016-2",
-      "explanation": "Provides complete book chapter citation with editors, pages, publisher, and DOI, improving reference clarity.",
-      "location": "References list",
-      "category": "reference_completeness",
-      "focus": "reference_completeness"
+      "original_text": "Inconsistent citation styles, e.g., [1], (2), and (3), are scattered throughout the manuscript.",
+      "improved_version": "Inconsistent citation styles, e.g., (1), (2), and (3), are scattered throughout the manuscript.",
+      "explanation": "Using parentheses uniformly for all in-text citations enhances style consistency."
+    },
+    {
+      "original_text": "The reference list includes entries like [3], [4], and [5], which are formatted differently.",
+      "improved_version": "The reference list includes entries like (3), (4), and (5), which are formatted consistently.",
+      "explanation": "Ensures the reference list and in-text citations follow the same formatting style."
+    },
+    {
+      "original_text": "Throughout the manuscript, citations such as [12, 77, 80] are used to reference multiple studies.",
+      "improved_version": "Throughout the manuscript, citations such as (12, 77, 80) are used to reference multiple studies.",
+      "explanation": "Consistent use of parentheses for multiple citations improves readability and style uniformity."
     }
   ],
   "detailed_feedback": {
-    "in_text_citation_format": "The in-text citations are inconsistent, with some using brackets like '[16, 26]' and others not following a uniform style. Adopting a single style, such as brackets with comma-separated numbers, throughout the manuscript would improve clarity and professionalism.",
-    "reference_list_format": "References are numbered but vary in formatting, with inconsistent punctuation, spacing, and order of elements. Standardizing to a specific style, such as APA or Vancouver, with uniform punctuation, author formatting, and inclusion of all necessary details, would enhance readability and verification.",
-    "citation_style_consistency": "The manuscript mixes citation styles, leading to confusion. Choosing one style (e.g., Vancouver) and applying it consistently across in-text citations and references will improve scholarly appearance.",
-    "reference_completeness": "Several references lack complete bibliographic details, such as volume, issue, pages, or publication year. Ensuring each reference contains all necessary elements will facilitate source retrieval and uphold academic standards.",
-    "doi_url_formatting": "DOIs are inconsistently formatted; some include 'https://doi.org/', others do not. Standardizing DOI formatting to include the full URL enhances accessibility and ease of use.",
-    "author_name_formatting": "Author names are inconsistently formatted, with some full names, some initials, and varying order. Applying a uniform format, such as 'Last Name, First Initials', improves professionalism.",
-    "publication_date_formatting": "Dates are variably formatted, with some including month/year, others only year. Consistent date formatting (e.g., Year) across all references supports clarity.",
-    "journal_name_formatting": "Journal names are inconsistently abbreviated or spelled out, with inconsistent italics or capitalization. Uniform formatting, such as italics for journal titles, enhances visual consistency.",
-    "volume_issue_page_formatting": "Volume, issue, and page numbers are inconsistently presented, sometimes with parentheses, commas, or spaces. Standardizing this formatting improves source identification.",
-    "cross_reference_accuracy": "In-text citations do not always match reference list entries, and some references are cited multiple times with different formats. Ensuring accurate cross-referencing and consistent numbering is crucial for scholarly integrity."
+    "in_text_citation_format": "The manuscript exhibits a mix of citation delimiters, including brackets [ ] and parentheses ( ). For consistency and adherence to common styles like APA, it is recommended to uniformly use parentheses for in-text citations, especially when listing multiple references. Additionally, the formatting of author names, years, and citation numbers should be standardized, with all citations including only the reference number(s) enclosed in parentheses, without mixing brackets and parentheses.",
+    "placement_analysis": "Citations are generally well-placed within the text, often following the relevant statement. However, some citations are placed at sentence ends, while others are embedded within sentences, leading to inconsistency. It is advisable to adopt a uniform approach\u2014either always placing citations at the end of sentences or within the text\u2014to improve clarity and flow.",
+    "style_consistency_analysis": "The manuscript inconsistently applies citation delimiters, with some instances using brackets [ ] and others parentheses ( ). The style should be harmonized across the entire document, preferably using parentheses for all in-text citations, which is common in many academic styles. Furthermore, the formatting of multiple citations should be uniform, with all references separated by commas within parentheses.",
+    "cross_reference_accuracy": "While most in-text citations appear to correspond to entries in the reference list, the manuscript does not explicitly verify each. Given the extensive reference list, a thorough cross-check is recommended to ensure all cited numbers match the correct references. This is crucial for maintaining academic integrity and facilitating verification by readers."
   },
-  "summary": "Overall, the manuscript exhibits significant inconsistencies in citation formatting, referencing completeness, and style adherence. Implementing a uniform citation style, ensuring complete and accurate reference entries, and maintaining consistency throughout will substantially improve the scholarly quality and professionalism of the document."
+  "summary": "Overall, the manuscript demonstrates acceptable in-text citation practices but suffers from style inconsistency and mixed delimiters. Standardizing citation formatting\u2014using parentheses uniformly, ensuring consistent placement, and verifying cross-references\u2014will significantly enhance the manuscript's professionalism and readability. Minor adjustments in style and placement are recommended to elevate the quality of in-text citations to a good or excellent standard."
 }

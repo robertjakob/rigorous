@@ -3,168 +3,176 @@
   "critical_remarks": [
     {
       "category": "grammar",
-      "location": "Abstract, paragraph 2",
-      "issue": "Inconsistent use of hyphenation in 'cost-effective solutions' (hyphenated) and 'high nonadherence' (not hyphenated).",
-      "severity": "low",
-      "impact": "Reduces consistency and professionalism in technical writing."
+      "location": "Abstract, paragraph 1",
+      "issue": "Inconsistent use of singular and plural forms, e.g., 'applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies' (plural 'features' with singular 'predicting').",
+      "severity": "medium",
+      "impact": "Reduces clarity and grammatical correctness, potentially confusing readers."
     },
     {
       "category": "spelling",
-      "location": "Introduction, paragraph 2",
-      "issue": "The term 'hyperglycemia' is correctly spelled, but in some instances, similar medical terms like 'hyperglycemia' are inconsistently capitalized or hyphenated in other parts of the text.",
+      "location": "References section",
+      "issue": "Several references contain minor typographical inconsistencies, e.g., 'Perisic' vs. 'Perianez' (possible typo), and inconsistent use of diacritics in author names.",
       "severity": "low",
-      "impact": "Minor; affects uniformity but not comprehension."
+      "impact": "Minimal impact on readability but affects professionalism and citation accuracy."
     },
     {
       "category": "punctuation",
-      "location": "Results, section 3.2.1",
-      "issue": "Inconsistent use of commas in lists, e.g., 'mean AUC of 0.95 (SD = 0.02), a mean accuracy of 0.91 (SD = 0.04), a mean F1-score of 0.94 (SD = 0.04), a mean precision of 0.93 (SD = 0.04), and a mean recall of 0.94 (SD = 0.04)'\u2014the serial comma is missing before 'and'.",
-      "severity": "medium",
-      "impact": "Affects clarity and adherence to academic style conventions."
+      "location": "Results, section 3.2",
+      "issue": "Inconsistent use of commas in lists, e.g., 'Logistic Regression (n = 28), Decision Tree (n = 21), K-Nearest Neighbors (KNN, n = 7), Naive Bayes (n = 6), Least Absolute Shrinkage and Selection Operator (LASSO, n = 2), homogeneous and inhomogeneous Poisson process (n = 1), and Regularized Discriminant Analysis (RDA, n = 1)' (missing Oxford comma).",
+      "severity": "low",
+      "impact": "Affects readability and consistency in list formatting."
     },
     {
       "category": "sentence_structure",
-      "location": "Discussion, paragraph 4.1",
-      "issue": "Several sentences are overly long and complex, making them difficult to follow, e.g., 'Given the conceptual link between churn and nonadherence \u2013 where fully disengaged users are inherently nonadherent \u2013 these results are intuitive.'",
+      "location": "Discussion, paragraph 2",
+      "issue": "Long, complex sentences with multiple clauses, e.g., 'Mean performance metrics of reported best-performing models in included mobile app studies (Accuracy = 86%, AUC = 0.83, F1-Score = 0.81) are comparable to reported mean accuracies between 82%-86% in telecommunication services [58], indicating that churn prediction in mobile apps is likewise feasible.'",
       "severity": "medium",
-      "impact": "Reduces readability and clarity."
+      "impact": "Reduces clarity; readers may struggle to parse the sentence."
     },
     {
-      "category": "verb_tense",
+      "category": "verb tense",
+      "location": "Methodology, section 2",
+      "issue": "Inconsistent tense usage, e.g., 'A review protocol was submitted' (past) vs. 'search terms related to churn prediction, mobile app data, and ML methodologies: ...' (present).",
+      "severity": "low",
+      "impact": "Slightly affects temporal clarity; consistency would improve flow."
+    },
+    {
+      "category": "subject-verb agreement",
+      "location": "Results, section 3.1",
+      "issue": "Inconsistent agreement, e.g., 'The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).'",
+      "severity": "low",
+      "impact": "Minor, but consistency in plural/singular forms enhances professionalism."
+    },
+    {
+      "category": "article usage",
       "location": "Introduction, paragraph 2",
-      "issue": "Inconsistent tense usage, e.g., 'A growing body of evidence suggests that mHealth interventions can effectively support...' (present tense) versus 'the prediction of nonadherence in accordance with the definition of Sieverink et al. (2017) constitutes a research gap' (present tense), but later 'Jakob et al. (2024) recently predicted churn' (past tense).",
+      "issue": "Incorrect article use, e.g., 'Churn prediction combines user-specific data with ML algorithms to estimate the likelihood and timing of a user churning.' (should be 'the likelihood and timing of user churning').",
       "severity": "low",
-      "impact": "Slightly affects temporal clarity but generally understandable."
+      "impact": "Slightly affects grammatical correctness and clarity."
     },
     {
-      "category": "subject-verb",
-      "location": "Results, section 3.2.2",
-      "issue": "Inconsistent subject-verb agreement, e.g., 'models achieved a mean AUC of 0.87... indicating the models' ability to accurately identify nonadherent users'\u2014the plural 'models' correctly takes 'achieved,' but in some places, plural nouns are paired with singular verbs.",
+      "category": "preposition usage",
+      "location": "Results, section 3.2",
+      "issue": "Incorrect preposition, e.g., 'studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms for churn prediction with 16% (8/50) of studies only evaluating a single algorithm.' (should be 'studies evaluated and compared an average of 3.6 ... across studies').",
       "severity": "low",
-      "impact": "Minor; does not significantly affect understanding."
+      "impact": "Reduces clarity of the comparative statement."
     },
     {
-      "category": "articles",
-      "location": "Methodology, section 2.2",
-      "issue": "Incorrect article use in 'a 7-Day prediction window was based on the DHIs\u2019 intended weekly use'\u2014'a' is correct, but elsewhere 'the' is omitted before specific terms, e.g., 'the German Digital Healthcare Act' (correct), but inconsistent elsewhere.",
-      "severity": "low",
-      "impact": "Minor; affects grammatical correctness and style consistency."
-    },
-    {
-      "category": "prepositions",
-      "location": "Discussion, paragraph 4.4",
-      "issue": "Incorrect or awkward preposition use, e.g., 'a user who last logs in during the final week of the cycle may not be a ",
+      "category": "conjunction usage",
+      "location": "Discussion, paragraph 3",
+      "issue": "Overuse of 'and' leading to lengthy sentences, e.g., 'These algorithms match and, in some instances where researchers developed custom NN models, also extend approaches applied in non-mobile app contexts, particularly in the telecommunications and financial services domain, which have traditionally been the most studied fields in churn prediction research.'",
       "severity": "medium",
-      "impact": "Reduces clarity and grammatical correctness."
+      "impact": "Impairs readability; splitting into shorter sentences would improve clarity."
     },
     {
-      "category": "conjunctions",
-      "location": "Introduction, paragraph 2",
-      "issue": "Overuse of 'and' leading to lengthy, compound sentences that could be split for clarity.",
+      "category": "academic conventions",
+      "location": "Throughout the manuscript",
+      "issue": "Inconsistent citation style, e.g., '[1, 23, 28, 68, 84]' vs. '(2017)', inconsistent formatting of references, and occasional missing or inconsistent use of abbreviations.",
       "severity": "medium",
-      "impact": "Reduces readability and makes sentences cumbersome."
-    },
-    {
-      "category": "academic_conventions",
-      "location": "Throughout the document",
-      "issue": "Inconsistent citation formatting; some references use brackets, others use parentheses, and some lack proper punctuation.",
-      "severity": "high",
-      "impact": "Impairs professionalism and adherence to academic standards."
+      "impact": "Hinders professional presentation and may confuse readers."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
-      "improved_version": "The rich data collected by mHealth interventions raise the question of whether\u2014and to what extent\u2014nonadherence can be predicted using these data.",
-      "explanation": "Replacing hyphens with en dashes improves typographical correctness and readability in formal writing.",
-      "location": "Abstract, paragraph 2",
+      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
+      "improved_version": "User churn, defined as users prematurely discontinuing the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, and education.",
+      "explanation": "Clarifies the definition of user churn and corrects the list punctuation by replacing 'or' with 'and' for clarity.",
+      "location": "Abstract, paragraph 1",
+      "category": "abstract",
+      "focus": "sentence_structure"
+    },
+    {
+      "original_text": "Inconsistent use of singular and plural forms, e.g., 'applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies' (plural 'features' with singular 'predicting').",
+      "improved_version": "The applied machine learning (ML) algorithms and features used to predict churn in mobile apps are synthesized from the methodologies and outcomes of 50 selected studies.",
+      "explanation": "Ensures subject-verb agreement and clarifies the sentence structure for better readability.",
+      "location": "Abstract, paragraph 1",
+      "category": "grammar",
+      "focus": "sentence_structure"
+    },
+    {
+      "original_text": "Several references contain minor typographical inconsistencies, e.g., 'Perisic' vs. 'Perianez' (possible typo), and inconsistent use of diacritics in author names.",
+      "improved_version": "Ensure consistency in author names and diacritics in all references, e.g., verify correct spelling of 'Peri\u0161i\u0107' and 'Perianez'.",
+      "explanation": "Corrects potential typos and maintains consistency in citations, enhancing professionalism.",
+      "location": "References section",
+      "category": "spelling",
+      "focus": "spelling"
+    },
+    {
+      "original_text": "Inconsistent use of commas in lists, e.g., 'Logistic Regression (n = 28), Decision Tree (n = 21), K-Nearest Neighbors (KNN, n = 7), Naive Bayes (n = 6), Least Absolute Shrinkage and Selection Operator (LASSO, n = 2), homogeneous and inhomogeneous Poisson process (n = 1), and Regularized Discriminant Analysis (RDA, n = 1)' (missing Oxford comma).",
+      "improved_version": "Logistic Regression (n = 28), Decision Tree (n = 21), K-Nearest Neighbors (KNN, n = 7), Naive Bayes (n = 6), Least Absolute Shrinkage and Selection Operator (LASSO, n = 2), homogeneous and inhomogeneous Poisson processes (n = 1), and Regularized Discriminant Analysis (RDA, n = 1).",
+      "explanation": "Adds Oxford comma for list consistency and pluralizes 'process' to match the context.",
+      "location": "Results, section 3.2",
       "category": "punctuation",
       "focus": "punctuation"
     },
     {
-      "original_text": "In Manoa, our models correctly identified an average of 86% of nonadherent users between months 2 and 6 (mean AUC = 0.82), defined as completing fewer than one blood pressure measurement week per month.",
-      "improved_version": "In Manoa, our models correctly identified an average of 86% of nonadherent users between months 2 and 6 (mean AUC = 0.82), defined as completing fewer than one blood pressure measurement week per month.",
-      "explanation": "Ensuring clarity in the phrase 'blood pressure measurement week' by maintaining consistent terminology enhances precision.",
-      "location": "Abstract, paragraph 2",
+      "original_text": "Long, complex sentences with multiple clauses, e.g., 'Mean performance metrics of reported best-performing models in included mobile app studies (Accuracy = 86%, AUC = 0.83, F1-Score = 0.81) are comparable to reported mean accuracies between 82%-86% in telecommunication services [58], indicating that churn prediction in mobile apps is likewise feasible.'",
+      "improved_version": "The mean performance metrics of the best-performing models in the included mobile app studies\u2014such as Accuracy (86%), AUC (0.83), and F1-Score (0.81)\u2014are comparable to the mean accuracies reported in telecommunication services (82%\u201386%) [58]. This indicates that churn prediction in mobile apps is similarly feasible.",
+      "explanation": "Splits a lengthy sentence into clearer, digestible parts, improving readability and clarity.",
+      "location": "Discussion, section 3.2",
       "category": "sentence_structure",
       "focus": "sentence_structure"
     },
     {
-      "original_text": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the daily number of completed exercises variables (continuous) of the preceding weeks.",
-      "improved_version": "In Vivira, we predicted nonadherence weekly from Weeks 2 to 13 based on users\u2019 daily app activity variables (active or inactive) and the number of completed exercises (continuous) from the preceding weeks.",
-      "explanation": "Removing redundancy ('variables') and clarifying the phrase improves sentence clarity and conciseness.",
-      "location": "Methodology, section 2.2",
-      "category": "sentence_structure",
-      "focus": "sentence_structure"
+      "original_text": "Inconsistent tense usage, e.g., 'A review protocol was submitted' (past) vs. 'search terms related to churn prediction, mobile app data, and ML methodologies: ...' (present).",
+      "improved_version": "Maintain consistent tense throughout; for example, use past tense for all methodological descriptions: 'A review protocol was submitted, and the search terms related to churn prediction, mobile app data, and ML methodologies were developed accordingly.'",
+      "explanation": "Ensures temporal consistency, which enhances clarity and professionalism.",
+      "location": "Methodology, section 2",
+      "category": "verb_tense",
+      "focus": "verb_tense"
     },
     {
-      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
-      "improved_version": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, and 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
-      "explanation": "Adding 'and' clarifies the enumeration, aligning with standard list punctuation in formal writing.",
-      "location": "Methodology, section 2.1.1",
-      "category": "punctuation",
-      "focus": "punctuation"
+      "original_text": "Inconsistent agreement, e.g., 'The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.'",
+      "improved_version": "The datasets used for training and evaluating churn prediction models vary widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
+      "explanation": "Aligns tense with the general discussion, ensuring consistency.",
+      "location": "Results, section 3.1",
+      "category": "subject-verb",
+      "focus": "subject-verb agreement"
     },
     {
-      "original_text": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use as defined by Sieverink et al. (2017) and in its most severe form \u2013 churn (i.e., complete discontinuation of use).",
-      "improved_version": "Our findings show that nonadherence to mHealth interventions can be accurately predicted over extended program durations, both in terms of adherence relative to intended use, as defined by Sieverink et al. (2017), and in its most severe form\u2014churn (i.e., complete discontinuation of use).",
-      "explanation": "Using commas to set off the clause improves readability; replacing the hyphen with an em dash aligns with academic style conventions.",
-      "location": "Discussion, paragraph 4.1",
-      "category": "punctuation",
-      "focus": "punctuation"
+      "original_text": "Incorrect article use, e.g., 'Churn prediction combines user-specific data with ML algorithms to estimate the likelihood and timing of a user churning.' (should be 'the likelihood and timing of user churning').",
+      "improved_version": "Churn prediction combines user-specific data with ML algorithms to estimate the likelihood and timing of user churn.",
+      "explanation": "Removes unnecessary article and improves grammatical correctness.",
+      "location": "Introduction, paragraph 2",
+      "category": "articles",
+      "focus": "article usage"
     },
     {
-      "original_text": "In contrast, the performance of nonadherence prediction models in Manoa was comparatively lower, correctly identifying an average of 86% (SD = 7.6%, mean AUC = 0.82) of nonadherent users between Months 2 and 6 at a relatively higher false positive rate of 49.5% (SD = 12.9%).",
-      "improved_version": "In contrast, the performance of nonadherence prediction models in Manoa was comparatively lower, correctly identifying an average of 86% (SD = 7.6; mean AUC = 0.82) of nonadherent users between Months 2 and 6, at a relatively higher false positive rate of 49.5% (SD = 12.9).",
-      "explanation": "Clarifying the punctuation around SD and separating clauses improves clarity and conforms to standard reporting of statistical data.",
-      "location": "Results, section 3.2.2",
-      "category": "punctuation",
-      "focus": "punctuation"
-    },
-    {
-      "original_text": "Our results further show that the predictive performance of daily churn prediction models improves over time as more behavioral app engagement data becomes available.",
-      "improved_version": "Our results further show that the predictive performance of daily churn prediction models improves over time as more behavioral app engagement data become available.",
-      "explanation": "Subject-verb agreement correction: 'data' is plural, so 'becomes' should be 'become' for grammatical correctness.",
-      "location": "Discussion, paragraph 4.1",
-      "category": "grammar",
-      "focus": "grammar"
-    },
-    {
-      "original_text": "This approach is further supported by prediction studies in other app domains that achieved superior performance with random forest models across multiple tested ML algorithms [14, 21, 39, 45, 59].",
-      "improved_version": "This approach is further supported by prediction studies in other app domains that have achieved superior performance with random forest models across multiple tested ML algorithms [14, 21, 39, 45, 59].",
-      "explanation": "Adding 'have' clarifies the tense and improves grammatical correctness in the present perfect context.",
-      "location": "Discussion, paragraph 4.3",
-      "category": "grammar",
-      "focus": "grammar"
-    },
-    {
-      "original_text": "Future research should aim to replicate nonadherence prediction models in diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
-      "improved_version": "Future research should aim to replicate nonadherence prediction models across diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
-      "explanation": "Replacing 'in' with 'across' improves lexical precision and aligns with standard academic phrasing for broad applicability.",
-      "location": "Discussion, section 4.4",
+      "original_text": "Incorrect preposition, e.g., 'studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms for churn prediction with 16% (8/50) of studies only evaluating a single algorithm.'",
+      "improved_version": "studies evaluated and compared an average of 3.6 (SD = 1.9, range = 1\u201310) different ML algorithms for churn prediction, with 16% (8/50) of studies evaluating only a single algorithm.",
+      "explanation": "Improves prepositional phrase clarity and sentence flow.",
+      "location": "Results, section 3.2",
       "category": "prepositions",
-      "focus": "prepositions"
+      "focus": "preposition usage"
     },
     {
-      "original_text": "The overall assessment paragraph: This detailed review indicates that the manuscript demonstrates solid command of scientific language, with minor issues related to punctuation consistency, sentence length, and style conventions. Addressing these will enhance clarity, professionalism, and adherence to academic standards, making the document more accessible and impactful for scholarly audiences.",
-      "improved_version": "Overall, the manuscript demonstrates a solid command of scientific language, with minor issues related to punctuation consistency, sentence length, and style conventions. Addressing these will enhance clarity, professionalism, and adherence to academic standards, thereby making the document more accessible and impactful for scholarly audiences.",
-      "explanation": "Adding 'Overall' and 'thereby' improves flow and emphasizes the conclusion, aligning with formal academic writing style.",
-      "location": "Summary",
-      "category": "academic_conventions",
-      "focus": "academic_conventions"
+      "original_text": "Overuse of 'and' leading to lengthy sentences, e.g., 'These algorithms match and, in some instances where researchers developed custom NN models, also extend approaches applied in non-mobile app contexts, particularly in the telecommunications and financial services domain, which have traditionally been the most studied fields in churn prediction research.'",
+      "improved_version": "These algorithms match and, in some cases where researchers developed custom neural network models, extend approaches used in non-mobile app contexts. Notably, these include the telecommunications and financial services domains, which have traditionally been the most studied fields in churn prediction research.",
+      "explanation": "Splits a complex sentence into clearer parts, enhancing readability.",
+      "location": "Discussion, paragraph 3",
+      "category": "conjunctions",
+      "focus": "conjunction usage"
+    },
+    {
+      "original_text": "Inconsistent citation style, e.g., '[1, 23, 28, 68, 84]' vs. '(2017)', inconsistent formatting of references, and occasional missing or inconsistent use of abbreviations.",
+      "improved_version": "Standardize citation style throughout the manuscript, following a consistent format such as '[1, 23, 28, 68, 84]' or '(Author, Year)'. Ensure all abbreviations are defined upon first use and used consistently.",
+      "explanation": "Enhances professionalism and clarity in referencing, facilitating easier cross-referencing.",
+      "location": "Throughout the manuscript",
+      "category": "academic conventions",
+      "focus": "citation style"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The manuscript generally maintains correct grammar, but some sentences are overly long or complex, which can lead to grammatical ambiguity. Minor issues include inconsistent subject-verb agreement with plural nouns like 'data' and occasional misplaced modifiers.",
-    "spelling_accuracy": "Spelling is accurate throughout; however, consistency in technical terms such as 'hyperglycemia' and 'hyperglycemia' is essential. Medical terminology is correctly spelled but should be uniformly capitalized or lowercase as per style guides.",
-    "punctuation_usage": "Punctuation inconsistencies include missing serial (Oxford) commas in lists, improper hyphenation, and inconsistent use of em dashes versus hyphens. Correct punctuation enhances clarity and aligns with academic style standards.",
-    "sentence_structure": "Many sentences are lengthy and contain multiple clauses, which hampers readability. Breaking complex sentences into shorter, clearer statements would improve comprehension and flow.",
-    "verb_tense_consistency": "While most of the manuscript uses present tense for general statements, some sections switch to past tense when describing previous studies or specific results. Maintaining a consistent tense, preferably present tense for ongoing relevance, would improve coherence.",
-    "subject-verb_agreement": "Most subject-verb agreements are correct; however, attention is needed when referring to plural data ('data' should be paired with 'are' rather than 'is'). Consistency in agreement throughout the manuscript is crucial.",
-    "article_usage": "Articles are generally used correctly, but some instances lack definite or indefinite articles where needed, especially before specific terms like 'prediction window' or 'app activity.' Proper article use enhances grammatical correctness.",
-    "preposition_usage": "Prepositions such as 'in,' 'on,' 'at,' and 'during' are mostly correct but occasionally awkward or inconsistent, affecting clarity. For example, 'predict churn at the end of Day 14' could be clearer as 'predict churn at Day 14.'",
-    "conjunction_usage": "Overuse of 'and' in lengthy sentences creates a cumbersome style. Breaking sentences with additional punctuation or splitting into multiple sentences would improve readability.",
-    "academic_conventions": "Citation formatting varies; some references lack proper punctuation or formatting. Consistent application of a specific style (e.g., APA, Vancouver) is recommended. Additionally, the use of hyphens, dashes, and abbreviations should conform to style guides to maintain professionalism."
+    "grammar_correctness": "The manuscript generally maintains grammatical correctness, but some sentences are overly long or complex, which can hinder clarity. Ensuring subject-verb agreement and consistent tense usage across sections will improve readability.",
+    "spelling_accuracy": "Most spelling is accurate; however, proper nouns such as author names should be verified for correct diacritics and spelling consistency. Minor typographical errors in references should be corrected for professionalism.",
+    "punctuation_usage": "Punctuation inconsistencies, especially in lists and complex sentences, can affect clarity. Using Oxford commas and proper list punctuation will enhance readability.",
+    "sentence_structure": "Several sentences are lengthy and contain multiple clauses, which can be difficult to parse. Breaking long sentences into shorter, clearer ones will improve comprehension.",
+    "verb_tense_consistency": "The manuscript shifts between past and present tense, particularly in methodological descriptions. Maintaining a consistent tense, usually past tense for methods and results, will enhance coherence.",
+    "subject-verb_agreement": "Minor issues with agreement, especially in sentences describing dataset characteristics and model performance, should be addressed to uphold grammatical standards.",
+    "article_usage": "Articles such as 'the' and 'a' are sometimes misused or omitted, affecting grammatical correctness. Correct article placement will improve sentence clarity.",
+    "preposition_usage": "Incorrect prepositions appear in some sentences, impacting the clarity of relationships between concepts. Correct preposition choice will clarify meaning.",
+    "conjunction_usage": "Overuse of conjunctions like 'and' in lengthy sentences reduces readability. Splitting complex sentences will help.",
+    "academic_conventions": "Inconsistent citation formats and abbreviation use detract from the manuscript\u2019s professionalism. Adhering to a standard referencing style and defining abbreviations upon first use will improve the scholarly presentation."
   },
-  "summary": "Overall, the manuscript exhibits a solid command of scientific language with clear reporting of complex data. Minor issues related to punctuation, sentence length, and style conventions are present but easily correctable. Addressing these will significantly enhance readability, professionalism, and adherence to academic standards, making the work more impactful for scholarly audiences."
+  "summary": "Overall, the manuscript demonstrates solid academic writing but would benefit from targeted revisions to improve clarity, consistency, and professionalism. Addressing complex sentence structures, ensuring grammatical and stylistic consistency, and standardizing citations will significantly enhance readability and scholarly quality."
 }

@@ -4,62 +4,48 @@
     {
       "category": "title_clarity",
       "location": "Title",
-      "issue": "The current title clearly indicates the focus on predicting nonadherence but could benefit from more specificity regarding the intervention type and prediction approach.",
+      "issue": "The current title clearly indicates the focus on user churn prediction and systematic review, but it could be more specific about the application domain (mobile apps) and the methodological scope (machine learning models).",
       "severity": "medium",
-      "impact": "While understandable, a more precise title could enhance immediate comprehension and attract targeted readership."
+      "impact": "While understandable, the title may not fully convey the breadth of the review or attract targeted readership interested in mobile app analytics."
     },
     {
       "category": "title_length",
       "location": "Title",
-      "issue": "The title is concise but slightly lengthy, which may affect visibility in search results.",
+      "issue": "The title is somewhat lengthy, which may reduce immediate readability and impact.",
       "severity": "low",
-      "impact": "A slightly shorter, more impactful title could improve discoverability without sacrificing clarity."
+      "impact": "A more concise title could enhance visibility and quick comprehension without losing essential information."
     },
     {
       "category": "keywords_relevance",
       "location": "Keywords",
-      "issue": "No keywords section is explicitly present; thus, relevance cannot be assessed.",
+      "issue": "No keywords section is present; thus, relevance cannot be assessed.",
       "severity": "high",
-      "impact": "Lack of explicit keywords may reduce search engine optimization and discoverability."
-    },
-    {
-      "category": "keywords_coverage",
-      "location": "Keywords",
-      "issue": "No keywords section is present; coverage cannot be evaluated.",
-      "severity": "high",
-      "impact": "Absence of keywords limits indexing and discoverability in digital searches."
+      "impact": "Lack of keywords hampers discoverability in search engines and indexing databases, reducing the manuscript's visibility."
     },
     {
       "category": "guidelines",
       "location": "Title",
-      "issue": "The title follows standard conventions for scientific articles, clearly stating the main focus.",
+      "issue": "The title follows standard conventions by being descriptive and informative, but it could benefit from emphasizing key terms for SEO.",
       "severity": "low",
-      "impact": "Supports proper indexing and reader understanding."
-    },
-    {
-      "category": "discoverability",
-      "location": "Title",
-      "issue": "The current title is descriptive but could be optimized for SEO by including relevant keywords such as 'machine learning' or 'digital health'.",
-      "severity": "medium",
-      "impact": "Improved discoverability and higher ranking in relevant searches."
+      "impact": "Improved keyword inclusion would align better with field standards for discoverability."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Predicting Nonadherence to Mobile Health Interventions",
-      "improved_version": "Machine Learning-Based Prediction of Nonadherence in Digital Health Interventions for Chronic Disease Management",
-      "explanation": "This revised title enhances clarity by specifying the methodology ('Machine Learning-Based'), improves impact through emphasizing the predictive approach, and boosts SEO by including relevant keywords like 'Machine Learning', 'Digital Health Interventions', and 'Chronic Disease Management'. It maintains standards by being descriptive and precise, aligning with academic conventions for research titles.",
+      "original_text": "User Churn Prediction with Mobile App Data: Systematic Review",
+      "improved_version": "Mobile App User Churn Prediction Using Machine Learning: Systematic Review of Algorithms and Features",
+      "explanation": "This revised title enhances clarity by specifying 'Mobile App User Churn Prediction' and emphasizes the methodological focus on 'Machine Learning,' which improves search engine optimization (SEO) and aligns with academic standards. It balances informativeness with conciseness, making it more impactful and discoverable for researchers interested in mobile analytics and churn modeling.",
       "location": "Title",
       "category": "title",
       "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The current title effectively indicates the focus on predicting nonadherence but lacks specificity regarding the intervention type and the predictive methodology. It is clear and understandable but could be more impactful and optimized for search engines by including relevant keywords. The title adheres to standard conventions for scientific articles, being concise and descriptive, which supports proper indexing and reader comprehension.",
+    "title_analysis": "The current title effectively communicates the core topic of user churn prediction and the systematic review approach. However, it could be more specific by including the application domain (mobile apps) and the methodological focus (machine learning algorithms), which would improve clarity, relevance, and searchability. A slightly shorter, more targeted title would enhance impact and align with standard academic practices for titles in this research area.",
     "keywords_analysis": "No keywords section found",
-    "guidelines_compliance": "The title follows standard scientific conventions by clearly stating the research focus in a concise manner. It effectively communicates the core topic, aligning with typical academic standards for research titles.",
-    "discoverability_assessment": "While the current title is descriptive, it could benefit from SEO optimization by incorporating relevant keywords such as 'machine learning', 'digital health', and 'nonadherence prediction'. This would enhance its visibility in digital searches and improve discoverability among targeted audiences.",
-    "audience_alignment": "The title is suitable for researchers, clinicians, and digital health professionals interested in predictive analytics and mHealth interventions. Its clarity and specificity align with the expectations of an academic and professional audience seeking innovative solutions for adherence challenges."
+    "guidelines_compliance": "The title adheres to conventional standards by being descriptive and informative. Incorporating targeted keywords related to mobile apps, churn prediction, and machine learning would improve discoverability and align with best practices for indexing and search optimization.",
+    "discoverability_assessment": "The absence of a dedicated keywords section limits the manuscript's visibility in search engines and academic databases. Including a well-curated keywords list emphasizing terms like 'mobile app churn,' 'machine learning,' 'user retention,' and 'predictive modeling' would significantly enhance discoverability and facilitate targeted searches.",
+    "audience_alignment": "The current title appeals to researchers interested in churn prediction and systematic reviews but could better attract practitioners and developers by explicitly mentioning 'mobile apps' and 'machine learning,' which are highly relevant to industry stakeholders seeking practical insights into user retention strategies."
   },
-  "summary": "Overall, the manuscript's title is clear and adheres to academic standards but can be significantly improved for searchability and impact by including specific methodological and topical keywords. The absence of an explicit keywords section limits discoverability, but a well-crafted, keyword-rich title can mitigate this. The suggested revision balances clarity, accuracy, impact, SEO, and standards, making it more effective for academic dissemination and digital indexing."
+  "summary": "Overall, the manuscript's title is sufficiently clear and informative but can be optimized for greater impact, clarity, and discoverability. The lack of a keywords section is a notable omission that hampers search engine optimization. Implementing the suggested title revision and including targeted keywords will improve the manuscript's visibility, adherence to academic standards, and relevance to the intended audience."
 }

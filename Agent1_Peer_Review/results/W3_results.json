@@ -4,167 +4,175 @@
     {
       "category": "language_simplicity",
       "location": "Abstract",
-      "issue": "The abstract uses complex sentences and technical phrases that may challenge readers unfamiliar with the domain.",
+      "issue": "The abstract contains complex phrases like 'synthesizing methodologies and outcomes' which could be simplified for clarity.",
       "severity": "medium",
-      "impact": "Reduces overall accessibility and may hinder understanding for a broader audience."
+      "impact": "Reduces immediate understanding for readers unfamiliar with technical language."
     },
     {
       "category": "jargon",
       "location": "Introduction",
-      "issue": "Terms like 'reimbursable items,' 'DiGA,' and 'PDT' are used without immediate explanation.",
-      "severity": "high",
-      "impact": "Can confuse readers unfamiliar with specific healthcare policy terminology, impairing clarity."
+      "issue": "Use of technical terms like 'predictive models,' 'performance metrics,' and 'survival analyses' without brief explanations may hinder comprehension for non-expert readers.",
+      "severity": "medium",
+      "impact": "Limits accessibility and clarity for a broader audience."
     },
     {
       "category": "wordiness",
-      "location": "Literature Review",
-      "issue": "Some sentences contain multiple clauses and lengthy lists, making them verbose.",
-      "severity": "medium",
-      "impact": "Obscures key points and hampers quick comprehension."
+      "location": "Methods",
+      "issue": "Some sentences are overly lengthy, such as the description of database search strategies, which could be broken into shorter, clearer sentences.",
+      "severity": "high",
+      "impact": "Impairs readability and makes details harder to follow."
     },
     {
       "category": "sentence_length",
-      "location": "Methodology",
-      "issue": "Several sentences are excessively long, especially when describing data collection and model training processes.",
-      "severity": "medium",
-      "impact": "Impairs readability and makes it difficult to follow procedural steps."
+      "location": "Results - Study Selection and Characteristics",
+      "issue": "Multiple sentences in this section are very long, containing multiple clauses, which can overwhelm readers.",
+      "severity": "high",
+      "impact": "Reduces clarity and makes it difficult to parse key information quickly."
     },
     {
       "category": "paragraph_length",
-      "location": "Results",
-      "issue": "Results sections contain large blocks of text with multiple statistics and figures, which can overwhelm readers.",
+      "location": "Discussion",
+      "issue": "Some paragraphs, especially the one discussing algorithm performance, are very dense and lengthy, containing multiple ideas.",
       "severity": "medium",
-      "impact": "Reduces clarity by making it hard to distinguish between different findings."
+      "impact": "Hinders reader engagement and comprehension."
     },
     {
-      "category": "voice",
-      "location": "Discussion",
-      "issue": "Use of passive voice in several instances (e.g., 'models were more adept') diminishes immediacy.",
+      "category": "active_passive_voice",
+      "location": "Methodology",
+      "issue": "Use of passive voice in descriptions like 'Articles were imported into the web-based systematic review program' could be replaced with active voice for clarity.",
       "severity": "low",
-      "impact": "Slightly weakens engagement and directness of the narrative."
+      "impact": "Minor but improves directness and clarity."
     },
     {
       "category": "redundancy",
-      "location": "Introduction",
-      "issue": "Repeated mention of the high dropout rates and the importance of adherence without adding new insights.",
-      "severity": "low",
-      "impact": "Unnecessary repetition reduces conciseness."
+      "location": "Results - Prediction Algorithms and Performances",
+      "issue": "Repeated mention of the number of algorithms evaluated and their categories could be condensed.",
+      "severity": "medium",
+      "impact": "Reduces unnecessary repetition, making the text more concise."
     },
     {
       "category": "ambiguity",
-      "location": "Methodology",
-      "issue": "Some definitions (e.g., 'nonadherence,' 'churn') are introduced with nuanced distinctions but are not always clearly differentiated in context.",
-      "severity": "medium",
-      "impact": "May cause confusion about the exact operationalization of key concepts."
+      "location": "Results - Features and Feature Importances",
+      "issue": "Descriptions of feature importance rankings sometimes lack clarity about the significance of the rankings.",
+      "severity": "low",
+      "impact": "May cause confusion about which features are most impactful."
     },
     {
       "category": "readability",
       "location": "Discussion",
-      "issue": "Heavy use of technical terms and complex sentences lowers the overall readability for non-specialist audiences.",
+      "issue": "Complex sentences with multiple technical details reduce overall readability.",
       "severity": "medium",
-      "impact": "Limits accessibility and broad understanding."
+      "impact": "Makes it harder for readers to follow key arguments."
     },
     {
       "category": "information_density",
-      "location": "Results",
-      "issue": "Sections pack numerous statistics, figures, and methodological details into dense paragraphs.",
-      "severity": "medium",
-      "impact": "Makes it difficult to extract core findings quickly."
+      "location": "Results - Prediction Algorithms and Performances",
+      "issue": "The section packs in a large amount of data and percentages, which could be summarized more succinctly.",
+      "severity": "high",
+      "impact": "Overwhelms readers and obscures main findings."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The rich data collected by mHealth interventions raise the question of whether \u2013 and to what extent \u2013 nonadherence can be predicted using these data.",
-      "improved_version": "The data collected by mHealth interventions raise the question: can we predict nonadherence using this data?",
-      "explanation": "Simplifies the sentence structure, making the key question clearer and more direct.",
+      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
+      "improved_version": "User churn, the early discontinuation of a product or service, presents major challenges in industries like gaming, healthcare, and education.",
+      "explanation": "Simplifies language and clarifies the concept for broader understanding.",
       "location": "Abstract",
       "category": "language_simplicity",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "In particular, mobile health (mHealth) interventions have emerged as versatile tools to promote behavior change among patients, improve health outcomes, and reduce healthcare costs due to the widespread availability of smartphones.",
-      "improved_version": "Mobile health (mHealth) interventions are versatile tools that promote behavior change, improve health outcomes, and lower healthcare costs, thanks to widespread smartphone use.",
-      "explanation": "Reduces complexity and wordiness, enhancing clarity and flow.",
+      "original_text": "The findings demonstrate a wide variety of applied ML algorithms - from logistic regression to custom deep neural networks - to predict users' churn probabilities and survival times in mobile apps.",
+      "improved_version": "The results show many ML algorithms used for predicting user churn and survival times, from logistic regression to deep neural networks.",
+      "explanation": "Reduces complexity and clarifies the range of algorithms for easier comprehension.",
+      "location": "Abstract",
+      "category": "wordiness",
+      "focus": "wordiness"
+    },
+    {
+      "original_text": "This trend has been accompanied by studies that predict churn with mobile app data across various app domains such as gaming, healthcare, or social media.",
+      "improved_version": "Studies now predict churn using mobile app data across domains like gaming, healthcare, and social media.",
+      "explanation": "Shortens the sentence and improves clarity by removing unnecessary words.",
       "location": "Introduction",
       "category": "wordiness",
       "focus": "wordiness"
     },
     {
-      "original_text": "A growing body of evidence suggests that mHealth interventions can effectively support the prevention and management of NCDs by addressing modifiable risk factors, including physical inactivity [52, 53], unhealthy diets [67], tobacco use [63], the harmful use of alcohol [12] and metabolic risk factors such as obesity [52], hypertension [1], and hyperglycemia [19].",
-      "improved_version": "Evidence indicates that mHealth interventions support prevention and management of NCDs by targeting risk factors like inactivity, poor diet, smoking, alcohol use, obesity, hypertension, and high blood sugar.",
-      "explanation": "Condenses lengthy lists into a clearer, more digestible format, improving readability.",
-      "location": "Introduction",
-      "category": "wordiness",
-      "focus": "wordiness"
-    },
-    {
-      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
-      "improved_version": "Because DiGA data use is limited, only users who consented under Article 4, Section 2, 4 of DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
-      "explanation": "Clarifies causality and reduces passive phrasing, improving clarity.",
-      "location": "Methodology",
+      "original_text": "The screening process for the selection of articles was conducted in several steps. After applying the outlined search strategies, the resulting database reference lists were imported into the web-based systematic review program Covidence.",
+      "improved_version": "We conducted article screening in several steps. After applying search strategies, references were imported into Covidence for review.",
+      "explanation": "Uses active voice and simplifies sentence structure for clarity and conciseness.",
+      "location": "Methods",
       "category": "voice",
-      "focus": "active vs. passive voice"
+      "focus": "active_passive_voice"
     },
     {
-      "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
-      "improved_version": "In Vivira, our models correctly predicted about 94% of nonadherent users from Weeks 2 to 13, where nonadherence meant completing fewer than eight exercises weekly.",
-      "explanation": "Breaks down complex sentence, clarifies definition, and improves flow.",
-      "location": "Results",
-      "category": "clarity",
-      "focus": "language_simplicity"
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
+      "improved_version": "Dataset sizes ranged from 61 to 37 million users, with a median of 25,000 and an IQR of 4,089 to 79,436.",
+      "explanation": "Rearranged for clarity and brevity, making statistical information easier to interpret quickly.",
+      "location": "Results - Study Characteristics",
+      "category": "wordiness",
+      "focus": "wordiness"
     },
     {
-      "original_text": "The descriptive analysis further emphasizes this relationship, showing that the decline in adherence over time in Vivira and Manoa is largely driven by churn (i.e., users discontinuing entire use).",
-      "improved_version": "Analysis shows that the decline in adherence over time in Vivira and Manoa mainly results from users discontinuing use entirely (churn).",
-      "explanation": "Simplifies sentence structure and clarifies the relationship.",
+      "original_text": "Most studies evaluated and compared an average of 3.6 (SD = 1.9, Range = 1-10) different ML algorithms for churn prediction with 16% (8/50) of studies only evaluating a single algorithm.",
+      "improved_version": "On average, studies tested 3.6 ML algorithms for churn prediction, with 16% evaluating only one.",
+      "explanation": "Simplifies statistical data presentation for clearer understanding.",
+      "location": "Results - Prediction Algorithms",
+      "category": "wordiness",
+      "focus": "wordiness"
+    },
+    {
+      "original_text": "Use of clustering and segmentation strategies that group similar users before applying models also enhanced churn prediction outcomes, suggesting another approach for improving model performance through refined data segmentation.",
+      "improved_version": "Clustering users before modeling improved churn predictions, highlighting the value of data segmentation.",
+      "explanation": "Condenses complex ideas into a clearer, more direct statement.",
       "location": "Discussion",
+      "category": "wordiness",
+      "focus": "wordiness"
+    },
+    {
+      "original_text": "Descriptions of feature importance rankings sometimes lack clarity about the significance of the rankings.",
+      "improved_version": "Some feature importance rankings are unclear about their significance, which may confuse readers about which features matter most.",
+      "explanation": "Clarifies the issue and emphasizes its impact on understanding results.",
+      "location": "Results - Features and Importances",
+      "category": "ambiguity",
+      "focus": "ambiguity"
+    },
+    {
+      "original_text": "The review also identified additional important behavioral features for churn prediction that are, however, more agnostic to certain app characteristics, such as Transactional Features (e.g., in-app purchases) applicable only in apps that include payments.",
+      "improved_version": "The review found behavioral features like transactional data (e.g., in-app purchases) to be important, especially in apps with payment options.",
+      "explanation": "Simplifies complex sentence and clarifies the applicability of features across app types.",
+      "location": "Results - Features",
       "category": "language_simplicity",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "The models were more adept at identifying nonadherent users who had already churned than those active or in the process of churning, as highlighted in Figure 6.5.",
-      "improved_version": "Models better identified users who had already churned than those still active or in the process of churning, as shown in Figure 6.5.",
-      "explanation": "Uses clearer, more direct language, reducing passive voice and improving readability.",
-      "location": "Results",
-      "category": "voice",
-      "focus": "active vs. passive voice"
+      "original_text": "The overall assessment paragraph: 'This systematic review provides a comprehensive synthesis of churn prediction studies in mobile applications, highlighting key methodologies, machine learning algorithms, and features employed across diverse app domains.'",
+      "improved_version": "This review summarizes key methods, algorithms, and features used in mobile app churn prediction across various domains, highlighting their potential and limitations.",
+      "explanation": "Provides a clearer, more balanced overview with emphasis on both strengths and limitations.",
+      "location": "Summary",
+      "category": "readability",
+      "focus": "readability"
     },
     {
-      "original_text": "Features related to user app activity (e.g., daily logins) and app progress (e.g., completion of app-logged activities) are the most important for churn prediction in mHealth interventions [5, 21] and other app domains [7, 27, 29, 41, 56].",
-      "improved_version": "Features like daily logins and completed activities are key predictors of churn in mHealth and other apps [5, 21, 7, 27, 29, 41, 56].",
-      "explanation": "Simplifies technical phrasing and reduces redundancy, making it more accessible.",
-      "location": "Discussion",
-      "category": "jargon",
-      "focus": "jargon"
-    },
-    {
-      "original_text": "While these analyses can provide valuable insights, our results suggest that simple app engagement features, such as daily app activity, are sufficient to predict future user behavior.",
-      "improved_version": "Although sociodemographic factors can offer insights, our findings show that simple engagement data, like daily activity, can effectively predict future behavior.",
-      "explanation": "Clarifies the comparison and emphasizes the main point more directly.",
-      "location": "Discussion",
-      "category": "clarity",
-      "focus": "language_simplicity"
-    },
-    {
-      "original_text": "Future research should aim to replicate nonadherence prediction models in diverse mHealth contexts and evaluate their integration with targeted preventive strategies in prospective trials to assess the impact of these combined approaches on app usage, adherence, and health outcomes.",
-      "improved_version": "Future studies should test these prediction models across various mHealth settings and evaluate how combining them with targeted strategies affects app use, adherence, and health outcomes.",
-      "explanation": "Shortens and clarifies the sentence, making it more actionable and easier to understand.",
-      "location": "Limitations and Future Work",
+      "original_text": "Adopting these recommendations will enhance the quality and consistency of churn prediction studies, making it easier to compare findings, identify best practices, and extend insights across diverse app domains and contexts in the future.",
+      "improved_version": "Following these recommendations will improve study quality and consistency, facilitating comparisons and the identification of best practices across app domains.",
+      "explanation": "Shortens and clarifies the sentence for better readability and impact.",
+      "location": "Limitations and Recommendations",
       "category": "wordiness",
       "focus": "wordiness"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "Overall, the manuscript employs technical language and complex sentence structures that can challenge readers unfamiliar with the domain. Simplifying sentences and using more straightforward language would enhance accessibility and comprehension for a broader audience.",
-    "jargon_usage": "While domain-specific terms are necessary, some abbreviations and technical phrases (e.g., 'DiGA,' 'PDT') are introduced without immediate explanation. Providing brief definitions or context upon first mention would improve clarity and reduce confusion.",
-    "wordiness": "Many sections contain lengthy sentences and lists, especially in the literature review and results. Condensing these into more concise statements will improve flow and make key points stand out more clearly.",
-    "sentence_length": "Excessively long sentences, especially in methodology and results, hinder readability. Breaking complex sentences into shorter, focused ones will help readers follow procedures and findings more easily.",
-    "paragraph_length": "Large blocks of dense text, particularly in the results and discussion, can overwhelm readers. Dividing these into smaller, thematic paragraphs will improve readability and allow for easier navigation of key points.",
-    "active_passive_voice": "The manuscript uses passive voice in several places (e.g., 'models were more adept'), which can weaken immediacy. Rephrasing into active voice where possible will enhance engagement and clarity.",
-    "redundancy": "Repeated concepts, such as the importance of adherence and churn, are often restated without adding new information. Eliminating unnecessary repetition will streamline the narrative and focus on novel insights.",
-    "ambiguity": "Some definitions, particularly of 'nonadherence' and 'churn,' are nuanced but not always clearly distinguished in context. Clarifying these distinctions with explicit operational definitions will reduce potential confusion.",
-    "readability": "The dense technical language and complex sentence structures reduce overall readability, especially for non-specialist audiences. Simplifying language and sentence structure will broaden accessibility.",
-    "information_density": "Sections are packed with numerous statistics, figures, and methodological details, which can obscure main findings. Using summaries, bullet points, or visual aids can help distill key information effectively."
+    "language_simplicity": "The overall language is somewhat technical and dense, especially in sections describing algorithms and methodologies. Simplifying complex phrases and avoiding jargon where possible will make the text more accessible to a broader audience.",
+    "jargon_usage": "While necessary for technical accuracy, excessive use of specialized terms without explanation can hinder understanding. Providing brief definitions or context for terms like 'survival analysis' or 'ensemble models' would improve clarity.",
+    "wordiness": "Many sentences contain redundant or overly detailed information that could be condensed. Breaking long sentences into shorter, clearer ones will enhance readability and focus.",
+    "sentence_length": "Numerous sentences are lengthy with multiple clauses, which can overwhelm readers. Shortening sentences and focusing on one idea per sentence will improve comprehension.",
+    "paragraph_length": "Some paragraphs are very dense, covering multiple ideas. Dividing these into smaller, focused paragraphs will help readers process information more effectively.",
+    "active_passive_voice": "The text predominantly uses passive voice, which can obscure agency and reduce clarity. Rephrasing to active voice where appropriate will make statements more direct and engaging.",
+    "redundancy": "Repeated mentions of similar concepts, such as the number of algorithms or features, could be streamlined. Eliminating unnecessary repetitions will make the text more concise.",
+    "ambiguity": "Certain descriptions, especially around feature importance and performance metrics, lack clarity about their significance. Clarifying the context and implications of rankings and metrics will aid understanding.",
+    "readability": "The dense technical language and complex sentence structures reduce overall readability. Simplifying language and sentence structure will make the content more approachable.",
+    "information_density": "Sections packed with data, percentages, and technical details can be overwhelming. Summarizing key points and presenting data more succinctly will improve digestibility."
   },
-  "summary": "The manuscript presents valuable insights into predicting nonadherence in mHealth interventions but is hampered by complex language, lengthy sentences, and dense paragraphs. Addressing these issues by simplifying language, clarifying definitions, and breaking down dense sections will significantly enhance clarity and accessibility, making the research more impactful and easier to understand for a diverse audience."
+  "summary": "This review covers a broad and detailed analysis of churn prediction in mobile apps, but its clarity and conciseness could be improved by simplifying language, reducing sentence and paragraph length, and clarifying technical terms. Addressing these issues will enhance accessibility and comprehension, making the insights more actionable for a wider audience. Overall, the work is solid but would benefit from targeted editing to optimize clarity and reader engagement."
 }

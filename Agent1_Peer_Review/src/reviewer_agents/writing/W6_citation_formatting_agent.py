@@ -13,27 +13,22 @@ class CitationFormattingAgent(BaseReviewerAgent):
         
     def analyze_citation_formatting(self, text: str, research_type: str) -> Dict[str, Any]:
         """Analyzes the formatting and consistency of citations in the text."""
-        prompt = f"""Analyze the following text for citation formatting and consistency. Focus on:
-        1. In-text citation format
-        2. Reference list formatting
-        3. Citation style consistency
-        4. Reference completeness
-        5. DOI/URL formatting
-        6. Author name formatting
-        7. Publication date formatting
-        8. Journal name formatting
-        9. Volume/issue/page formatting
-        10. Cross-reference accuracy
+        prompt = f"""Analyze the following manuscript text for in-text citation formatting, style, and consistency. Focus exclusively on in-text citations (not the reference list). Assess:
+        1. In-text citation style (e.g., APA, Vancouver, Harvard, etc.)
+        2. Consistency of in-text citation formatting throughout the manuscript
+        3. Correct placement and ordering of in-text citations
+        4. Proper use of et al., author names, and years (if applicable)
+        5. Consistency in citation delimiters (parentheses, brackets, superscripts, etc.)
+        6. Cross-reference accuracy (do all in-text citations correspond to entries in the reference list?)
+        7. Handling of multiple citations in a single location
+        8. Citation of figures, tables, and supplementary materials (if applicable)
+        9. Adherence to the required style guide for in-text citations
 
         For each section, provide at least 2-3 improvement suggestions. Consider these categories:
-        - Abstract: Citation style
-        - Introduction: First citations
-        - Literature Review: Multiple citations
-        - Methodology: Method citations
-        - Results: Data citations
-        - Discussion: Comparison citations
-        - Conclusion: Summary citations
-        - References: List formatting
+        - In-text format: Is the citation style consistent and correct?
+        - Placement: Are citations placed appropriately in the text?
+        - Style consistency: Are delimiters, author lists, and years handled consistently?
+        - Cross-reference: Do all in-text citations match the reference list?
 
         Text to analyze: {text}
         Research type: {research_type}
@@ -41,42 +36,37 @@ class CitationFormattingAgent(BaseReviewerAgent):
         Provide a detailed analysis in the following JSON format:
         {{
             "citation_formatting_score": int,  # Single comprehensive score (1-5)
-            
+            # 1 = Poor: Major issues that significantly impact citation quality
+            # 2 = Below Average: Several notable issues that need attention
+            # 3 = Average: Some issues but generally acceptable
+            # 4 = Good: Minor issues that don't significantly impact quality
+            # 5 = Excellent: Very few or no issues, high quality
             "critical_remarks": [{{
-                "category": str,  # "in_text_format", "reference_format", "style_consistency", "reference_completeness", "doi_format", "author_format", "date_format", "journal_format", "volume_format", "cross_reference"
+                "category": str,  # "in_text_format", "placement", "style_consistency", "cross_reference"
                 "location": str,  # Section/paragraph reference
                 "issue": str,  # Detailed description of the issue
                 "severity": str,  # "high", "medium", "low"
                 "impact": str  # How this affects citation quality
             }}],
-            
             "improvement_suggestions": [{{
-                "original_text": str,  # The problematic text
+                "original_text": str,  # The problematic in-text citation
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
                 "location": str,  # Where to apply this change
-                "category": str,  # "abstract", "introduction", "literature", "methodology", "results", "discussion", "conclusion", "references"
-                "focus": str  # "in_text_format", "reference_format", "style_consistency", "reference_completeness", "doi_format", "author_format", "date_format", "journal_format", "volume_format", "cross_reference"
+                "category": str,  # "in_text_format", "placement", "style_consistency", "cross_reference"
+                "focus": str  # "in_text_format", "placement", "style_consistency", "cross_reference"
             }}],
-            
             "detailed_feedback": {{
                 "in_text_citation_format": str,  # Detailed paragraph about in-text citation format
-                "reference_list_format": str,  # Detailed paragraph about reference list formatting
-                "citation_style_consistency": str,  # Detailed paragraph about citation style consistency
-                "reference_completeness": str,  # Detailed paragraph about reference completeness
-                "doi_url_formatting": str,  # Detailed paragraph about DOI/URL formatting
-                "author_name_formatting": str,  # Detailed paragraph about author name formatting
-                "publication_date_formatting": str,  # Detailed paragraph about publication date formatting
-                "journal_name_formatting": str,  # Detailed paragraph about journal name formatting
-                "volume_issue_page_formatting": str,  # Detailed paragraph about volume/issue/page formatting
+                "placement_analysis": str,  # Detailed paragraph about citation placement
+                "style_consistency_analysis": str,  # Detailed paragraph about style consistency
                 "cross_reference_accuracy": str  # Detailed paragraph about cross-reference accuracy
             }},
-            
             "summary": str  # Overall assessment paragraph
         }}
 
-        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
-        Each suggestion should be specific, actionable, and include clear explanations of how it enhances citation formatting.
+        Important: Generate at least 10-15 improvement suggestions across different categories, focusing only on in-text citations.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances in-text citation formatting and consistency.
         """
         
         try:
@@ -94,14 +84,8 @@ class CitationFormattingAgent(BaseReviewerAgent):
             "improvement_suggestions": [],
             "detailed_feedback": {
                 "in_text_citation_format": "",
-                "reference_list_format": "",
-                "citation_style_consistency": "",
-                "reference_completeness": "",
-                "doi_url_formatting": "",
-                "author_name_formatting": "",
-                "publication_date_formatting": "",
-                "journal_name_formatting": "",
-                "volume_issue_page_formatting": "",
+                "placement_analysis": "",
+                "style_consistency_analysis": "",
                 "cross_reference_accuracy": ""
             },
             "summary": f"Error in analysis: {error_message}",

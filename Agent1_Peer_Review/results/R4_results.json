@@ -3,125 +3,136 @@
   "critical_remarks": [
     {
       "category": "data_sharing",
-      "location": "Abstract, Paragraph 1",
-      "issue": "No explicit statement or link provided regarding the availability of the datasets used in the study.",
+      "location": "Abstract & Methods section",
+      "issue": "While the review mentions that 16% of studies used publicly available datasets, there is no explicit statement about the availability of datasets used in the reviewed studies or whether datasets are shared openly or upon request.",
       "severity": "high",
-      "impact": "This significantly hampers research transparency and reproducibility, as other researchers cannot access the underlying data to validate or extend findings."
+      "impact": "This significantly hampers reproducibility and transparency, as researchers cannot verify or reuse the data without clear access information."
     },
     {
       "category": "code_availability",
-      "location": "Methodology, Paragraph 2.2",
-      "issue": "While it mentions that Python packages are listed in Appendix 6.1, there is no mention of publicly sharing the actual code or scripts used for data analysis, model training, or evaluation.",
+      "location": "Introduction & Methods section",
+      "issue": "There is no mention of whether the original code implementations, models, or analysis scripts from the included studies are publicly shared or accessible.",
       "severity": "high",
-      "impact": "Lack of accessible code impairs reproducibility and limits the ability of others to verify or build upon the computational methods."
+      "impact": "This limits the ability of other researchers to reproduce or build upon the models, reducing transparency and scientific rigor."
     },
     {
       "category": "documentation",
-      "location": "Methodology, Paragraph 2.2",
-      "issue": "No detailed documentation or repository links are provided for the code or analysis pipelines, making it difficult to understand or replicate the procedures.",
+      "location": "Methodology & Data Description sections",
+      "issue": "The review notes that many studies do not report detailed feature sets, sampling methods, or performance metrics consistently, indicating incomplete documentation of methodologies.",
       "severity": "medium",
-      "impact": "Insufficient documentation reduces transparency and hampers reproducibility efforts."
+      "impact": "Poor documentation impairs reproducibility and understanding of the models' development and evaluation processes."
     },
     {
       "category": "restrictions",
-      "location": "Abstract, Paragraph 1",
-      "issue": "Data use is described as strictly limited and only accessible upon consent, but no details on how external researchers can request access or whether data sharing is possible under certain conditions.",
+      "location": "Discussion section",
+      "issue": "The review highlights that most datasets are private, with only a minority being publicly available, but it does not justify or explain the access restrictions or whether data sharing is feasible under certain conditions.",
       "severity": "medium",
-      "impact": "Unclear access restrictions limit external validation and secondary analyses, affecting transparency."
+      "impact": "Lack of justification for restrictions limits transparency about data accessibility and hampers efforts to facilitate open science."
     },
     {
       "category": "reproducibility",
-      "location": "Discussion, Paragraph 4.4",
-      "issue": "While the study mentions the use of publicly available Python packages, it does not specify whether the entire analysis pipeline, trained models, or hyperparameters are shared openly.",
-      "severity": "medium",
-      "impact": "This limits the ability of others to reproduce the exact results or adapt the models for further research."
+      "location": "Discussion & Conclusion sections",
+      "issue": "There is no indication that the review or the original studies provide detailed protocols, code repositories, or data sharing guidelines to support reproducibility.",
+      "severity": "high",
+      "impact": "This severely restricts the ability of others to replicate findings or validate models, undermining scientific credibility."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The use of DiGA data is strictly limited. Therefore, only users who provided consent under Article 4, Section 2, 4 of the DiGA regulations (DiGA-Verordnung, DiGAV) were included.",
-      "improved_version": "Include a statement explicitly providing access to the anonymized datasets through a data repository or upon reasonable request, with clear instructions for data access procedures, respecting privacy regulations.",
-      "explanation": "Explicitly sharing anonymized data enhances transparency and allows external validation, improving research reproducibility.",
-      "location": "Methodology, Paragraph 2.1.1",
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
+      "improved_version": "The review should explicitly state whether the datasets from the included studies are publicly available, available upon request, or proprietary, and provide links or access conditions where applicable.",
+      "explanation": "Clear data access information enhances transparency and enables reproducibility by allowing other researchers to obtain the same data for validation or further analysis.",
+      "location": "Data Description section",
       "category": "data_sharing",
       "focus": "data_sharing"
     },
     {
-      "original_text": "While it mentions that Python packages are listed in Appendix 6.1, there is no mention of publicly sharing the actual code or scripts used for data analysis, model training, or evaluation.",
-      "improved_version": "Provide a link to a public code repository (e.g., GitHub, GitLab) containing all scripts, notebooks, and configuration files used for data preprocessing, model training, and evaluation, with detailed README documentation.",
-      "explanation": "Sharing the complete codebase enables full reproducibility and facilitates adoption and extension by other researchers.",
-      "location": "Methodology, Paragraph 2.2",
+      "original_text": "There is no mention of whether the original code implementations, models, or analysis scripts from the included studies are publicly shared or accessible.",
+      "improved_version": "The review should include a statement on the availability of code repositories, such as links to GitHub or other platforms, and specify whether code is shared under open licenses.",
+      "explanation": "Providing access to code repositories significantly improves reproducibility and allows others to verify and extend the models used in the studies.",
+      "location": "Methodology section",
       "category": "code_availability",
       "focus": "code_availability"
     },
     {
-      "original_text": "No detailed documentation or repository links are provided for the code or analysis pipelines, making it difficult to understand or replicate the procedures.",
-      "improved_version": "Develop comprehensive documentation, including step-by-step instructions, environment setup, dependencies, and example commands, hosted alongside the code repository.",
-      "explanation": "Well-documented code significantly improves usability and reproducibility for external researchers.",
-      "location": "Methodology, Paragraph 2.2",
+      "original_text": "The review notes that many studies do not report detailed feature sets, sampling methods, or performance metrics consistently.",
+      "improved_version": "Authors should recommend or enforce standardized reporting guidelines for methodology, including detailed descriptions of feature engineering, sampling techniques, and performance metrics, and suggest depositing such details in supplementary materials or repositories.",
+      "explanation": "Standardized documentation ensures that other researchers can accurately reproduce the models and compare results across studies.",
+      "location": "Methodology & Data Description sections",
       "category": "documentation",
       "focus": "documentation"
     },
     {
-      "original_text": "Data use is described as strictly limited and only accessible upon consent, but no details on how external researchers can request access or whether data sharing is possible under certain conditions.",
-      "improved_version": "Add a dedicated 'Data Availability' section specifying conditions for data access, including contact details or links to data access portals, and any necessary data use agreements.",
-      "explanation": "Clarifying access procedures promotes transparency and enables other researchers to validate findings or conduct secondary analyses.",
-      "location": "Abstract, Paragraph 1",
+      "original_text": "Most datasets are private, with only a minority being publicly available, but it does not justify or explain the access restrictions.",
+      "improved_version": "The review should include a discussion on the reasons for data access restrictions and recommend best practices for data anonymization and sharing under ethical guidelines to facilitate open science.",
+      "explanation": "Justifying restrictions and providing pathways for data sharing under ethical standards can promote transparency while respecting privacy concerns.",
+      "location": "Discussion section",
       "category": "restrictions",
       "focus": "restrictions"
     },
     {
-      "original_text": "While the study mentions the use of publicly available Python packages, it does not specify whether the entire analysis pipeline, trained models, or hyperparameters are shared openly.",
-      "improved_version": "Publish the trained models, hyperparameter configurations, and analysis pipelines in the public repository, with version control and detailed documentation on how to reproduce the results.",
-      "explanation": "Sharing trained models and configurations ensures that others can replicate the exact experiments and validate the reported performance metrics.",
-      "location": "Discussion, Paragraph 4.4",
+      "original_text": "There is no indication that the review or the original studies provide detailed protocols, code repositories, or data sharing guidelines.",
+      "improved_version": "The review should advocate for the inclusion of publicly accessible repositories containing code, data, and detailed protocols, and encourage authors to publish these alongside their studies.",
+      "explanation": "Open repositories enhance reproducibility and facilitate cumulative science by providing ready access to all necessary resources.",
+      "location": "Conclusion section",
       "category": "reproducibility",
       "focus": "reproducibility"
     },
     {
-      "original_text": "The datasets are anonymized and access is limited, but no mention of data sharing under controlled access or data use agreements.",
-      "improved_version": "Establish a controlled access data sharing framework, such as a data use agreement or data enclave, and provide detailed instructions for researchers to apply for access, ensuring privacy compliance.",
-      "explanation": "Controlled access mechanisms balance data privacy with the need for external validation, enhancing transparency and reproducibility.",
-      "location": "Abstract, Paragraph 1",
+      "original_text": "The review mentions that many studies do not report performance metrics consistently, hindering comparison.",
+      "improved_version": "It should recommend adopting standardized reporting frameworks, such as including all relevant performance metrics (AUC, F1, accuracy, precision, recall) with confidence intervals, and depositing results in open repositories.",
+      "explanation": "Consistent reporting standards improve comparability and meta-analyses, advancing the field's transparency.",
+      "location": "Results section",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "The review highlights that datasets are often proprietary and not shared openly.",
+      "improved_version": "Where possible, authors should be encouraged to share anonymized datasets or synthetic data that mimic the original data, and provide access instructions or data repositories.",
+      "explanation": "Sharing data, even in anonymized form, greatly enhances reproducibility and validation efforts.",
+      "location": "Data Description section",
       "category": "data_sharing",
       "focus": "data_sharing"
     },
     {
-      "original_text": "The paper references Appendix 6.1 for hyperparameter grids but does not provide code or scripts for hyperparameter tuning.",
-      "improved_version": "Share the hyperparameter tuning scripts and configuration files in the public repository, along with logs or records of the tuning process.",
-      "explanation": "Transparency in hyperparameter selection supports reproducibility and allows others to evaluate the robustness of the models.",
-      "location": "Methodology, Paragraph 2.2",
+      "original_text": "There is no mention of whether the original code implementations, models, or analysis scripts from the included studies are publicly shared or accessible.",
+      "improved_version": "The review should recommend that all studies deposit their code and models in open platforms like GitHub, GitLab, or Zenodo, with clear licensing and versioning information.",
+      "explanation": "Open code repositories are critical for reproducibility, peer validation, and further development of models.",
+      "location": "Methodology section",
       "category": "code_availability",
       "focus": "code_availability"
     },
     {
-      "original_text": "No explicit mention of the software environment or containerization (e.g., Docker) for reproducing the analysis.",
-      "improved_version": "Provide a Dockerfile or environment.yml file specifying all software dependencies and environment setup instructions to facilitate environment replication.",
-      "explanation": "Containerized environments ensure consistent software configurations, reducing reproducibility barriers caused by dependency issues.",
-      "location": "Discussion, Paragraph 4.4",
+      "original_text": "The review notes inconsistent reporting of performance metrics across studies.",
+      "improved_version": "It should suggest adopting a common set of evaluation metrics and reporting standards, such as the TRIPOD guidelines for predictive modeling, and encourage sharing of raw results and code for independent validation.",
+      "explanation": "Standardized reporting improves transparency, comparability, and cumulative knowledge building.",
+      "location": "Results & Discussion sections",
+      "category": "documentation",
+      "focus": "documentation"
+    },
+    {
+      "original_text": "The review indicates that most datasets are private, limiting access.",
+      "improved_version": "Authors should be encouraged to share datasets under appropriate ethical and privacy constraints, possibly via controlled access repositories or synthetic data generation, and clearly state access procedures.",
+      "explanation": "Facilitating data access under ethical standards promotes transparency and reproducibility without compromising privacy.",
+      "location": "Discussion section",
+      "category": "restrictions",
+      "focus": "restrictions"
+    },
+    {
+      "original_text": "There is no explicit mention of whether the review or the original studies provide detailed protocols, code repositories, or data sharing guidelines.",
+      "improved_version": "The review should recommend that authors include detailed methodological protocols, analysis scripts, and data sharing instructions in supplementary materials or dedicated repositories to support reproducibility.",
+      "explanation": "Comprehensive documentation ensures that other researchers can accurately replicate and validate the models and analyses.",
+      "location": "Conclusion section",
       "category": "reproducibility",
       "focus": "reproducibility"
-    },
-    {
-      "original_text": "The analysis relies on proprietary or restricted datasets, but no mention of synthetic or simulated datasets for methodological validation.",
-      "improved_version": "Create and share synthetic datasets that mimic the statistical properties of the original data, or provide detailed data simulation scripts, to enable method validation without privacy concerns.",
-      "explanation": "Synthetic data allows broader testing and validation of methods, enhancing transparency while respecting privacy restrictions.",
-      "location": "Discussion, Paragraph 4.4",
-      "category": "data_sharing",
-      "focus": "data_sharing"
-    },
-    {
-      "original_text": "The paper does not specify whether the analysis code has been peer-reviewed or validated independently.",
-      "improved_version": "Include validation reports or peer review comments on the shared code and models, or specify that the code has been independently validated, to increase trustworthiness.",
-      "explanation": "Independent validation of code and models enhances credibility and supports research transparency."
     }
   ],
   "detailed_feedback": {
-    "data_sharing_assessment": "The manuscript does not provide explicit links or instructions for accessing the datasets used, citing strict limitations due to consent and privacy regulations. This restricts external validation and replication efforts, reducing overall transparency.",
-    "code_availability": "There is no indication that the analysis scripts, models, or hyperparameter configurations are publicly shared. This omission hampers reproducibility and limits the ability of others to verify or extend the computational methods.",
-    "documentation_completeness": "The manuscript references appendices for hyperparameter grids but lacks comprehensive documentation, such as detailed setup instructions, environment specifications, or usage guides, which are essential for reproducibility.",
-    "restrictions_justification": "Data access restrictions are justified by privacy and consent limitations, but the absence of clear procedures for data requests or controlled access mechanisms diminishes transparency and external validation potential.",
-    "reproducibility_support": "While the study mentions the use of standard Python packages, it does not provide code repositories, environment files, or trained models, which are critical for reproducing the exact results and verifying findings."
+    "data_sharing_assessment": "The review indicates that most datasets are proprietary, with only a minority being publicly available, and lacks explicit statements about data sharing policies or access conditions. This limits reproducibility and transparency, as external researchers cannot verify or reuse the data unless access is clarified.",
+    "code_availability": "There is no mention of whether the original codebases, models, or analysis scripts from the included studies are publicly accessible. This omission hampers efforts to reproduce results or extend the models, reducing overall transparency.",
+    "documentation_completeness": "Many studies do not report detailed feature engineering processes, sampling methods, or performance metrics consistently. This incomplete documentation impairs understanding and replication of the methodologies used.",
+    "restrictions_justification": "While the review notes that datasets are often private, it does not justify these restrictions or discuss potential pathways for sharing data under ethical or privacy constraints, which could enhance transparency.",
+    "reproducibility_support": "The absence of references to publicly available code repositories, detailed protocols, or data sharing guidelines indicates limited support for reproducibility, undermining confidence and scientific rigor."
   },
-  "summary": "Overall, the study demonstrates solid methodological rigor but falls short in providing accessible data and code resources. To enhance research transparency and reproducibility, the authors should consider sharing anonymized datasets where possible, providing comprehensive code repositories with documentation, and establishing clear procedures for data access within privacy constraints. These steps would elevate the quality and impact of the research, aligning with best practices in open science."
+  "summary": "Overall, the review demonstrates significant gaps in data and code availability, with most datasets remaining proprietary and no clear evidence of shared code repositories. While the research field shows promising methodologies, the lack of explicit sharing policies and comprehensive documentation hampers reproducibility and transparency. To improve, the field should adopt standardized reporting, promote open data and code sharing, and justify access restrictions where necessary. These steps will enhance scientific rigor, facilitate validation, and accelerate progress in churn prediction research."
 }

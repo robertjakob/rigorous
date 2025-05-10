@@ -1,0 +1,12 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Blue circle -->
+  <circle cx="50" cy="50" r="30" stroke="#4A7CFF" stroke-width="6"></circle>
+
+  <!-- Rounded blue checkmark -->
+  <path d="M38 50l7 7 13-13" stroke="#4A7CFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- "rigorous." text -->
+  <text x="95" y="64" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#0F0F1A" font-weight="bold">
+    rigorous.
+  </text>
+</svg>

@@ -224,3 +224,36 @@ For detailed guidelines on how to contribute, please see [CONTRIBUTING.md](CONTR
 **Use more powerful models**: The default implementation uses GPT-4.1 for accessibility, but you can configure the system to use more sophisticated models with your own API keys.
 
 Together, we can build the best review agent team and improve the quality of scientific publishing!
+
+## PDF Report Generation
+
+This project includes a PDF report generator that creates a professional peer review report based on the outputs of the review agents.
+
+### How to Generate the PDF Report
+
+1. Ensure you have the required dependencies installed:
+   - `reportlab`
+   - `pillow`
+   - (Other dependencies as listed in requirements.txt)
+
+2. Make sure the following files are present and up to date:
+   - `executive_summary.json` (executive summary and overall scores)
+   - `quality_control_results.json` (detailed section, rigor, and writing results)
+   - `logo.png` (logo for the report header)
+
+3. Run the PDF generator script:
+
+   ```bash
+   python pdf_generator.py
+   ```
+
+4. The generated PDF will be saved to:
+   - `results/review_report.pdf`
+
+### Features
+- Cover page with logo, manuscript title, and overall scores
+- Executive summary and detailed analysis pages for all assessment items (S1–S10, R1–R7, W1–W7)
+- Visually appealing tables for scores and suggestions
+- Professional layout, color coding, and consistent formatting
+
+For more details, see the comments in `pdf_generator.py`.

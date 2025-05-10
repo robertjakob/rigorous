@@ -36,7 +36,6 @@ from .writing.W4_terminology_consistency_agent import TerminologyConsistencyAgen
 from .writing.W5_inclusive_language_agent import InclusiveLanguageAgent
 from .writing.W6_citation_formatting_agent import CitationFormattingAgent
 from .writing.W7_target_audience_agent import TargetAudienceAlignmentAgent
-from .writing.W8_visual_presentation_agent import VisualPresentationAgentW8
 
 class ControllerAgent:
     """Controller agent that coordinates all reviewer agents."""
@@ -72,8 +71,7 @@ class ControllerAgent:
             'W4': TerminologyConsistencyAgent(model),
             'W5': InclusiveLanguageAgent(model),
             'W6': CitationFormattingAgent(model),
-            'W7': TargetAudienceAlignmentAgent(model),
-            'W8': VisualPresentationAgentW8(model)
+            'W7': TargetAudienceAlignmentAgent(model)
         }
     
     def run_analysis(self, text: str) -> Dict[str, Any]:
@@ -114,7 +112,6 @@ class ControllerAgent:
             results["W5"] = self.agents["W5"].analyze_inclusive_language(text, research_type)
             results["W6"] = self.agents["W6"].analyze_citation_formatting(text, research_type)
             results["W7"] = self.agents["W7"].analyze_target_audience_alignment(text, research_type)
-            results["W8"] = self.agents["W8"].analyze_visual_presentation(text, research_type)
             
             return results
         except Exception as e:

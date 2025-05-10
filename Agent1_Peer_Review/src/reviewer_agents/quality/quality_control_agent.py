@@ -52,8 +52,7 @@ class QualityControlAgent(BaseReviewerAgent):
                 'W4': 'Terminology Consistency',
                 'W5': 'Inclusive Language',
                 'W6': 'Citation Formatting',
-                'W7': 'Target Audience Alignment',
-                'W8': 'Visual Presentation'
+                'W7': 'Target Audience Alignment'
             }
         }
         
