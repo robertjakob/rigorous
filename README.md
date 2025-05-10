@@ -2,7 +2,7 @@
 
 > **Note:** This repository is currently private but is intended to be released as open source once the first functional version is made public on [https://www.rigorous.company/](https://www.rigorous.company/). We believe in transparency for how ratings and reviews are conducted, and we encourage others to experiment with and improve the code to advance open, rigorous peer review in science.
 
-This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous peer and AI review.
+We want to change how scientific work is created, evaluated, and shared. This repository provides tools to make scientific publishing more transparent, affordable, and agile.
 
 ## Project Structure
 
@@ -57,7 +57,7 @@ This project includes a PDF report generator that creates a professional peer re
 
 For more details, see the comments in `Agent1_Peer_Review/pdf_generator.py`.
 
-## Minimal Reference to Earlier Iterations
+## Earlier Iterations
 
 Earlier iterations of the peer review system can be found in the `backup` folder:
 - **V2_Editorial_First_Decision_Support**: Tool for checking manuscripts against editorial requirements.
