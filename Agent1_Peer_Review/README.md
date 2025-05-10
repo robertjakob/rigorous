@@ -1,4 +1,4 @@
-# Manuscript Reviewer V6
+# Peer reviewer v0.1
 
 A multi-agent system for comprehensive manuscript analysis and review.
 
