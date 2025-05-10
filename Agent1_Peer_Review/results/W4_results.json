@@ -3,160 +3,144 @@
   "critical_remarks": [
     {
       "category": "acronyms",
-      "location": "Abstract, paragraph 2",
-      "issue": "GHGE is introduced as 'greenhouse gas emissions' but later inconsistently referred to as 'GHGE' without a prior full definition.",
-      "severity": "medium",
-      "impact": "This inconsistency may cause confusion for readers unfamiliar with the acronym, affecting clarity and comprehension."
-    },
-    {
-      "category": "field_terminology",
-      "location": "Introduction, paragraph 3",
-      "issue": "Terms like 'dietary guidelines' and 'recommendations' are used interchangeably without clear distinction, which may lead to ambiguity.",
-      "severity": "low",
-      "impact": "While generally acceptable, clearer differentiation could improve precision in terminology."
+      "location": "Abstract and Introduction",
+      "issue": "The acronym 'GHGE' is used extensively without a consistent initial definition. Sometimes it appears as 'GHGE' and other times as 'GHGE' with no prior full form, leading to potential confusion.",
+      "severity": "high",
+      "impact": "This inconsistency hampers reader understanding and reduces clarity of technical terminology."
     },
     {
       "category": "variable_naming",
-      "location": "Results, regression tables",
-      "issue": "Variables such as 'Targeted' and 'Information' are sometimes capitalized and sometimes lowercase, leading to inconsistency.",
+      "location": "Results section, e.g., 'basket GHGE'",
+      "issue": "The variable 'basket GHGE' is used variably as 'basket GHGE', 'basket GHGE reduction', and 'final basket GHGE' without clear standardization.",
       "severity": "medium",
-      "impact": "Inconsistent variable naming reduces clarity and may cause confusion during interpretation."
+      "impact": "Inconsistent variable naming can cause confusion about what specific measure is being referenced."
     },
     {
-      "category": "unit_notation",
-      "location": "Methodology, section 2.4 Measures",
-      "issue": "Willingness-to-swap is expressed as a percentage, but sometimes the notation (e.g., 'WTS') is used without a consistent format or explanation.",
-      "severity": "low",
-      "impact": "Inconsistent notation can hinder understanding of measurement units and variables."
-    },
-    {
-      "category": "abbreviations",
-      "location": "Throughout the document",
-      "issue": "Some abbreviations like 'GWP' and 'GHGE' are defined, but others like 'LCA' are used without explicit definition.",
+      "category": "field_terminology",
+      "location": "Throughout the methodology and results",
+      "issue": "Terms like 'product swap recommendations', 'targeted swap', and 'GHGE reduction information' are used interchangeably or without clear definitions, leading to ambiguity.",
       "severity": "medium",
-      "impact": "This inconsistency may impair reader comprehension, especially for field outsiders."
-    },
-    {
-      "category": "technical_terms",
-      "location": "Methodology, 2.1",
-      "issue": "Terms like 'bottom-up life cycle assessment (LCA)' are used, but the explanation varies in detail and sometimes lacks clarity.",
-      "severity": "low",
-      "impact": "Inconsistent technical term explanations can affect the perceived rigor and clarity of methodology."
-    },
-    {
-      "category": "cross_reference",
-      "location": "Results, 3.1.1",
-      "issue": "References to tables (e.g., Table 2, Table 3) are sometimes inconsistent in formatting or placement, and some references to figures (e.g., Fig. 1) lack clarity.",
-      "severity": "low",
-      "impact": "Inconsistent cross-referencing reduces navigability and professional presentation."
-    },
-    {
-      "category": "definition",
-      "location": "Introduction, paragraph 2",
-      "issue": "Key terms like 'product swap recommendations' are introduced but not always explicitly defined or consistently used throughout.",
-      "severity": "medium",
-      "impact": "Lack of clear, consistent definitions can lead to ambiguity in understanding core concepts."
+      "impact": "Inconsistent use of key technical terms diminishes clarity and precision."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "GHGE is used throughout the text without a full prior definition.",
-      "improved_version": "Greenhouse Gas Emissions (GHGE) are used consistently after their first full mention.",
-      "explanation": "Ensuring the first mention fully defines the acronym improves clarity and consistency.",
-      "location": "Abstract, paragraph 2",
+      "original_text": "GHGE",
+      "improved_version": "Greenhouse Gas Emissions (GHGE)",
+      "explanation": "Providing the full term with the acronym at first use ensures clarity and consistent understanding throughout the paper.",
+      "location": "Abstract, Introduction, Methodology, Results, and Appendix sections",
       "category": "field_terminology",
-      "focus": "acronyms"
+      "focus": "acronym_usage"
     },
     {
-      "original_text": "Terms like 'recommendations' and 'guidelines' are used interchangeably.",
-      "improved_version": "Use 'recommendations' when referring to specific suggested actions, and reserve 'guidelines' for broader policy or nutritional advice, maintaining clear distinctions.",
-      "explanation": "This clarifies terminology and prevents ambiguity between general and specific advice.",
-      "location": "Introduction, paragraph 3",
-      "category": "field_terminology",
-      "focus": "term_usage"
-    },
-    {
-      "original_text": "Variable names such as 'Targeted' and 'Information' are inconsistently capitalized.",
-      "improved_version": "Standardize variable names to lowercase (e.g., 'targeted', 'information') throughout all sections.",
-      "explanation": "Consistent naming conventions improve readability and reduce confusion in data interpretation.",
-      "location": "Results, tables and text",
+      "original_text": "basket GHGE",
+      "improved_version": "initial basket GHGE",
+      "explanation": "Standardizing the variable name as 'initial basket GHGE' and 'final basket GHGE' improves clarity and consistency in variable references.",
+      "location": "Results section, tables, and figures",
       "category": "variable_naming",
-      "focus": "naming conventions"
+      "focus": "variable_naming"
     },
     {
-      "original_text": "Willingness-to-swap is sometimes abbreviated as 'WTS' without explanation.",
-      "improved_version": "Introduce 'WTS' as 'Willingness-to-Swap (WTS)' at first use, then use the abbreviation consistently afterward.",
-      "explanation": "Explicit initial definition ensures clarity for all readers, especially those unfamiliar with the abbreviation.",
-      "location": "Methods, section 2.4",
-      "category": "abbreviations",
-      "focus": "abbreviation usage"
-    },
-    {
-      "original_text": "Some abbreviations like 'LCA' are used without explicit definition.",
-      "improved_version": "Define all abbreviations at their first occurrence, e.g., 'Life Cycle Assessment (LCA)'.",
-      "explanation": "Consistent definitions prevent confusion and improve technical precision.",
-      "location": "Methodology, section 2.1",
-      "category": "abbreviations",
-      "focus": "abbreviation usage"
-    },
-    {
-      "original_text": "Technical term 'bottom-up life cycle assessment' is used with varying levels of explanation.",
-      "improved_version": "Provide a concise, uniform explanation of 'bottom-up life cycle assessment (LCA)' at first mention, and use the abbreviation thereafter.",
-      "explanation": "Consistency in technical terminology enhances clarity and demonstrates methodological rigor.",
-      "location": "Methodology, section 2.1",
-      "category": "technical_terms",
-      "focus": "terminology"
-    },
-    {
-      "original_text": "References to tables and figures are inconsistent in format.",
-      "improved_version": "Standardize cross-references as 'Table 2', 'Figure 1', etc., with consistent formatting and placement throughout the manuscript.",
-      "explanation": "Uniform referencing improves document professionalism and ease of navigation.",
-      "location": "Results and figures sections",
-      "category": "cross_references",
-      "focus": "formatting"
-    },
-    {
-      "original_text": "Key concepts like 'product swap recommendations' are not always explicitly defined.",
-      "improved_version": "Include a clear, explicit definition of 'product swap recommendations' early in the methodology, e.g., 'Product swap recommendations refer to suggested substitutions of animal-based products with plant-based analogues to reduce environmental impact.'",
-      "explanation": "Explicit definitions ensure consistent understanding of core concepts across the paper.",
-      "location": "Introduction, paragraph 2",
-      "category": "definitions",
-      "focus": "concept clarity"
-    },
-    {
-      "original_text": "Units such as percentages are sometimes presented without clear notation.",
-      "improved_version": "Use consistent notation such as '25%' or '25 percent' throughout, and clarify in the methods that all percentage values are in percent units.",
-      "explanation": "Consistency in units and notation prevents misinterpretation and maintains professional standards.",
-      "location": "Results, tables, and text",
-      "category": "unit_notation",
-      "focus": "notation consistency"
-    },
-    {
-      "original_text": "Some terms like 'climate-friendly' and 'sustainable' are used interchangeably without clarification.",
-      "improved_version": "Define 'climate-friendly' and 'sustainable' explicitly when first introduced, and use them consistently in the same context.",
-      "explanation": "Clear definitions prevent semantic ambiguity and improve conceptual clarity.",
-      "location": "Discussion, paragraph 1",
+      "original_text": "product swap recommendations",
+      "improved_version": "climate-friendly product swap recommendations",
+      "explanation": "Using a more precise term clarifies that these recommendations are specifically aimed at reducing environmental impact, aligning with technical terminology.",
+      "location": "Introduction, Methodology, Results",
       "category": "field_terminology",
-      "focus": "term usage"
+      "focus": "technical_terms"
     },
     {
-      "original_text": "The phrase 'product swap recommendations' is sometimes used broadly and sometimes specifically.",
-      "improved_version": "Maintain a consistent definition: 'Product swap recommendations are specific suggestions to replace animal-based products with plant-based alternatives, aimed at reducing greenhouse gas emissions.' Use this definition throughout.",
-      "explanation": "Consistent terminology reinforces understanding and reduces ambiguity.",
-      "location": "Throughout the document"
+      "original_text": "targeted swap",
+      "improved_version": "most effective GHGE-reducing product swap",
+      "explanation": "Full description at first mention clarifies the specific meaning and avoids ambiguity with other types of swaps.",
+      "location": "Methodology, Results",
+      "category": "field_terminology",
+      "focus": "technical_terms"
+    },
+    {
+      "original_text": "GHGE reduction",
+      "improved_version": "greenhouse gas emission reduction",
+      "explanation": "Using the full phrase initially, then abbreviating as 'GHGE reduction', maintains consistency and clarity in technical terminology.",
+      "location": "Introduction, Methodology, Results, Discussion",
+      "category": "field_terminology",
+      "focus": "technical_terms"
+    },
+    {
+      "original_text": "self-efficacy",
+      "improved_version": "perceived self-efficacy regarding dietary change",
+      "explanation": "Adding context clarifies the specific construct being measured, ensuring consistent technical language.",
+      "location": "Results, Appendix",
+      "category": "technical_terms",
+      "focus": "field_terminology"
+    },
+    {
+      "original_text": "swap products",
+      "improved_version": "product swap recommendations",
+      "explanation": "Standardizing to 'product swap recommendations' aligns with terminology used elsewhere and improves consistency.",
+      "location": "Methodology, Results",
+      "category": "field_terminology",
+      "focus": "technical_terms"
+    },
+    {
+      "original_text": "GHGE",
+      "improved_version": "GHGE (greenhouse gas emissions)",
+      "explanation": "Including the full term in parentheses on first use enhances clarity and consistency across sections.",
+      "location": "Abstract, Introduction, Methodology, Results",
+      "category": "acronym_usage"
+    },
+    {
+      "original_text": "product swap recommendations",
+      "improved_version": "climate impact reduction recommendations",
+      "explanation": "Using a term emphasizing environmental impact aligns with technical language and clarifies the purpose of recommendations.",
+      "location": "Introduction, Results",
+      "category": "field_terminology"
+    },
+    {
+      "original_text": "GHGE",
+      "improved_version": "GHGE (greenhouse gas emissions)",
+      "explanation": "Define the acronym at first mention in each section to maintain consistency and avoid confusion.",
+      "location": "Results, Discussion, Appendix",
+      "category": "acronym_usage"
+    },
+    {
+      "original_text": "self-efficacy",
+      "improved_version": "perceived self-efficacy to reduce animal-product consumption",
+      "explanation": "Adding context ensures consistent understanding of the construct measured.",
+      "location": "Results, Appendix",
+      "category": "field_terminology"
+    },
+    {
+      "original_text": "targeted swap",
+      "improved_version": "most effective GHGE-reducing swap",
+      "explanation": "Full description improves clarity and consistency in terminology, especially when first introduced.",
+      "location": "Methodology, Results",
+      "category": "field_terminology"
+    },
+    {
+      "original_text": "GHGE",
+      "improved_version": "GHGE (greenhouse gas emissions)",
+      "explanation": "Consistently define the acronym at first use in each section to ensure clarity.",
+      "location": "Throughout the manuscript",
+      "category": "acronym_usage"
+    },
+    {
+      "original_text": "product swap recommendations",
+      "improved_version": "climate-friendly product swap suggestions",
+      "explanation": "Aligns with the focus on environmental impact and maintains terminology consistency.",
+      "location": "Introduction, Methodology, Results",
+      "category": "field_terminology"
     }
   ],
   "detailed_feedback": {
-    "term_usage_consistency": "The manuscript generally employs key terms like 'product swap recommendations' and 'GHGE' but occasionally uses synonyms or omits definitions, leading to minor confusion. Ensuring consistent use and explicit definitions of core terms will enhance clarity.",
-    "notation_consistency": "Numerical data such as percentages are sometimes presented with the '%' symbol and sometimes written in words or without units. Standardizing notation (e.g., always using '25%') and clarifying units in methods will improve professionalism.",
-    "acronym_usage": "While many acronyms like 'GHGE' and 'GWP' are defined early, some are introduced without explanation or inconsistent formatting. A comprehensive list of abbreviations and consistent initial definitions will strengthen technical precision.",
-    "variable_naming": "Variables such as 'Targeted' and 'Information' are inconsistently capitalized across tables and text. Adopting a uniform style (preferably lowercase) will improve readability.",
-    "unit_notation": "Percentages and other units are not always formatted uniformly. Consistent use of symbols and clear explanations in the methods section will prevent misinterpretation.",
-    "abbreviation_consistency": "Some abbreviations are used without full expansion, especially in tables. Ensuring all abbreviations are defined at first use and used uniformly will aid understanding.",
-    "technical_term_consistency": "Technical terms like 'life cycle assessment' are sometimes explained in detail and sometimes assumed known. Providing a standard, concise explanation at first mention and reusing it maintains clarity.",
-    "field_terminology": "Terms like 'sustainability' and 'climate-friendly' are used variably. Defining these terms explicitly and using them consistently will improve conceptual clarity.",
-    "cross_reference_consistency": "References to tables and figures vary in format and placement. Standardizing references (e.g., 'Table 2', 'Fig. 1') and ensuring they are correctly numbered enhances document professionalism.",
-    "definition_consistency": "Core concepts such as 'product swap recommendations' are not always explicitly defined. Including clear, consistent definitions at the outset will improve understanding and reduce ambiguity."
+    "term_usage_consistency": "The manuscript occasionally switches between terms like 'product swap recommendations', 'swap', and 'recommendations' without clear distinctions. Consistent use of a single term or clearly defined variations would improve clarity.",
+    "notation_consistency": "Variables such as 'basket GHGE' are used variably as 'basket GHGE', 'basket GHGE reduction', and 'final basket GHGE'. Establishing a standard notation and sticking to it throughout the text and tables would enhance readability.",
+    "acronym_usage": "The acronym 'GHGE' is introduced at different points with inconsistent full-form definitions. Always defining 'GHGE' as 'greenhouse gas emissions' at first mention in each section ensures clarity and prevents confusion.",
+    "variable_naming_consistency": "The variable 'basket GHGE' is inconsistently referenced. Adopting a uniform naming convention like 'initial_basket_GHGE' and 'final_basket_GHGE' would improve understanding.",
+    "unit_notation_consistency": "Units such as percentages and Likert scale points are used consistently, but in some places, the description could specify units explicitly (e.g., 'percentage GHGE reduction'). Explicitly stating units in all relevant contexts would improve clarity.",
+    "abbreviation_consistency": "Abbreviations like 'GHGE' and 'WTS' are used without consistent full-form definitions at first mention. Ensuring each abbreviation is defined upon first use in each section maintains clarity.",
+    "technical_terms": "Terms such as 'self-efficacy', 'response-efficacy', and 'product swap recommendations' are used appropriately but could benefit from brief definitions or context when first introduced to ensure clarity for all readers.",
+    "field_terminology": "Some terms like 'targeted swap' and 'GHGE reduction' are used variably; establishing precise definitions early in the manuscript and adhering to them would improve consistency.",
+    "cross_reference_consistency": "References to tables and figures (e.g., Table 2, Figure 2) are generally consistent, but ensuring that all cross-references are accurate and uniformly formatted (e.g., 'see Table 2') enhances navigability.",
+    "definition_consistency": "Key terms such as 'product swap recommendations' and 'GHGE' should be explicitly defined at their first occurrence and used consistently thereafter to avoid ambiguity."
   },
-  "summary": "Overall, the manuscript demonstrates acceptable consistency in terminology but exhibits several areas for improvement, particularly in acronym definitions, variable naming conventions, and cross-referencing. Addressing these issues will elevate the clarity, professionalism, and scientific rigor of the work, making it more accessible and precise for readers across disciplines."
+  "summary": "Overall, the manuscript demonstrates acceptable use of terminology but exhibits several areas where consistency can be improved. The primary issues relate to inconsistent acronym definitions, variable naming, and technical terminology usage. Addressing these will significantly enhance clarity, professionalism, and reader comprehension, moving the work towards a 'Good' (score 4) or 'Excellent' (score 5) level of quality."
 }

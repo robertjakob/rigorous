@@ -5,177 +5,185 @@
       {
         "category": "methods_results",
         "location": "Section 2.5.1 (Statistical analysis)",
-        "issue": "The primary hypothesis H1 predicts that product swap recommendations will lead to more climate-friendly shopping, yet the regression results show no significant effect of the interventions on overall GHGE reduction, which may suggest a disconnect between hypothesis and findings.",
+        "issue": "The primary hypotheses (H1-H4) specify effects on GHGE reduction and swap choices, but the results show no significant effects of Targeted or Information treatments on overall GHGE reduction, while some effects are only significant in subgroup analyses. This inconsistency between hypotheses and main results reduces clarity.",
         "severity": "high",
-        "impact": "This inconsistency affects the clarity of the study's aims versus outcomes, potentially confusing readers about the effectiveness of the interventions."
+        "impact": "This undermines the clarity of the hypothesis-testing alignment, potentially confusing readers about the effectiveness of interventions."
       },
       {
         "category": "results_conclusions",
         "location": "Section 3.1.1 (GHGE reduction results)",
-        "issue": "The abstract states that neither targeted recommendations nor GHGE information significantly lowered basket GHGE for most participants, yet the conclusion emphasizes the effectiveness of product swaps generally, which could be misleading.",
+        "issue": "The main analysis shows no significant effect of treatments on GHGE reduction, yet the conclusion states that recommendations support more climate-friendly choices for most participants. This overstates the main findings.",
         "severity": "high",
-        "impact": "This inconsistency may overstate the intervention's overall impact and reduce the credibility of the conclusions."
+        "impact": "Leads to overgeneralization and weakens the validity of the conclusions regarding overall effectiveness."
       },
       {
         "category": "logical_flow",
-        "location": "Section 4 (Discussion)",
-        "issue": "The discussion suggests that simple product swaps are sufficient for most consumers, but earlier sections report no significant overall GHGE reduction, creating a gap in logical progression from results to implications.",
+        "location": "Section 2.5 (Statistical analysis) and Section 3 (Results)",
+        "issue": "The methods describe hypotheses about treatment effects on GHGE reduction, but the results focus more on swap choices and subgroup effects, with less emphasis on the primary outcome. The narrative jumps between different analyses without clear transitions.",
         "severity": "medium",
-        "impact": "This weakens the narrative coherence and may mislead readers about the practical significance of the findings."
+        "impact": "Reduces clarity of the logical progression from hypotheses to results, making it harder to follow the narrative."
       },
       {
         "category": "terminology",
         "location": "Throughout the document",
-        "issue": "Inconsistent use of terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' without clear definitions or consistent application.",
-        "severity": "low",
-        "impact": "This hampers clarity and may cause confusion about what specific interventions were tested."
+        "issue": "Inconsistent use of terms such as 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information.' Sometimes 'recommendations' refer to the entire list, other times to the most effective swap only.",
+        "severity": "medium",
+        "impact": "Creates confusion about what exactly is being tested or emphasized, impairing clarity."
       },
       {
         "category": "hypothesis",
         "location": "Section 2.5.1",
-        "issue": "Hypotheses H2 and H3 predict significant effects of targeted recommendations and GHGE info, but results show no significant effects, yet the discussion implies some positive effects, leading to potential misalignment.",
+        "issue": "The hypotheses (H1-H4) focus on GHGE reduction as the primary outcome, but the main results show no significant effects on GHGE, only on swap choice and subgroup effects. This mismatch suggests the hypotheses were not fully aligned with the actual outcomes measured.",
         "severity": "high",
-        "impact": "This diminishes the transparency of hypothesis testing and weakens the interpretative clarity."
+        "impact": "Weakens the coherence between hypotheses and empirical testing, potentially misleading readers about the intervention's effectiveness."
       },
       {
         "category": "interpretation",
-        "location": "Section 4",
-        "issue": "The interpretation that offering recommendations 'may already be sufficient' conflicts with the non-significant overall GHGE reductions, risking overgeneralization.",
-        "severity": "medium",
-        "impact": "It risks overstating the intervention's practical impact based on limited significant findings."
+        "location": "Section 4 (Discussion)",
+        "issue": "The discussion states that recommendations 'support' climate-friendly choices for most, despite the main analysis showing no significant overall GHGE reduction, relying instead on subgroup effects. This overstates the general impact.",
+        "severity": "high",
+        "impact": "Risks overstating findings and misrepresenting the intervention's overall efficacy."
       },
       {
         "category": "citations",
-        "location": "Throughout the text",
-        "issue": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation, and some citations are inconsistent in formatting.",
+        "location": "Throughout the document",
+        "issue": "Some references (e.g., [28]) are cited multiple times with inconsistent formatting and incomplete details, which could impair citation clarity and traceability.",
         "severity": "low",
-        "impact": "This affects citation clarity and proper attribution, which could undermine academic rigor."
+        "impact": "Reduces professionalism and makes verification of sources more difficult."
       },
       {
         "category": "figures",
-        "location": "Section 3.1.1 (Figure 2)",
-        "issue": "Figure 2 shows no significant difference between conditions, but the caption and discussion imply some effects, leading to potential misinterpretation.",
+        "location": "Figure 2",
+        "issue": "Figure 2 shows no significant differences across conditions, but the caption and text imply treatment effects. The figure lacks clear statistical annotations (e.g., p-values or significance markers).",
         "severity": "medium",
-        "impact": "This could mislead readers about the significance of visual data."
+        "impact": "Misleads readers about the significance of visualized effects, impairing interpretation."
       },
       {
         "category": "tables",
-        "location": "Tables 2 and 3",
-        "issue": "Some tables report multiple models with overlapping variables, but the narrative does not clearly distinguish between unadjusted and adjusted models, causing potential confusion.",
-        "severity": "low",
-        "impact": "This reduces clarity in understanding the robustness of results."
+        "location": "Table 2",
+        "issue": "The table reports treatment effects on GHGE reduction and swap choice, but the effects are mostly non-significant, yet the text emphasizes some findings (e.g., increased odds of choosing most effective swap). This inconsistency can confuse readers about the strength of evidence.",
+        "severity": "medium",
+        "impact": "Weakens the clarity of the reported statistical significance and interpretation."
       },
       {
         "category": "supplementary",
-        "location": "Appendix references",
-        "issue": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
+        "location": "Appendix and supplementary tables",
+        "issue": "The supplementary material contains detailed models, but references to these are inconsistent in the main text, sometimes cited as 'Appendix, Table 8,' other times as 'Table 8' without clear distinction, which can cause confusion.",
         "severity": "low",
-        "impact": "This hampers transparency and reproducibility."
+        "impact": "Impairs navigation and cross-referencing, reducing transparency."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-        "improved_version": "The regression analysis revealed no statistically significant effects of the Targeted or Information treatments on overall GHGE reduction compared to the reference group.",
-        "explanation": "Clarifies the findings and aligns the statement with standard reporting language, improving clarity.",
+        "improved_version": "The regression analysis indicates that neither Targeted nor Information treatments produced statistically significant effects on overall GHGE reduction compared to the reference group.",
+        "explanation": "Clarifies the null findings explicitly, aligning the narrative with the statistical results to prevent overstatement.",
         "location": "Section 3.1.1",
         "category": "results",
         "focus": "methods_results"
       },
       {
-        "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
-        "improved_version": "Our findings indicate that, for many consumers, simply providing the option to swap products can be sufficient to promote more sustainable purchasing behaviors, even without targeted recommendations or GHGE information.",
-        "explanation": "Rephrases for clarity and acknowledges the non-significant overall effects, aligning conclusions with results.",
-        "location": "Section 4 (Discussion)",
-        "category": "results_conclusions",
+        "original_text": "These findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+        "improved_version": "These findings indicate that providing consumers with simple, specific product swap options\u2014regardless of targeted highlighting or GHGE information\u2014can already promote more sustainable purchasing behaviors for many individuals.",
+        "explanation": "Makes the conclusion more precise and consistent with the main null results on overall GHGE reduction, emphasizing the practical sufficiency of basic swaps.",
+        "location": "Section 4",
+        "category": "discussion",
         "focus": "results_conclusions"
       },
       {
-        "original_text": "The study was preregistered and incentive compatible.",
-        "improved_version": "The study was preregistered and designed to be incentive-compatible, ensuring that participants' choices reflected genuine preferences.",
-        "explanation": "Adds clarity to the methodological rigor, reinforcing the validity of the findings.",
-        "location": "Section 2.1",
-        "category": "methodology",
-        "focus": "methods_results"
-      },
-      {
-        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change.",
-        "improved_version": "The impact assessment for GHG emissions was based on the Global Warming Potential (GWP) 100a metric [4], which accounts for all GHG emissions contributing to climate change over a 100-year horizon.",
-        "explanation": "Provides precise terminology and clarifies the metric used, improving terminology consistency.",
-        "location": "Section 2.1",
-        "category": "terminology",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "The targeted product swap recommendation is derived from the final contents of a shopping basket and targets the product that, when swapped, would result in the greatest GHGE reduction.",
-        "improved_version": "The targeted product swap recommendation is based on the contents of the shopping basket and identifies the single animal-based product whose replacement with a plant-based analogue would yield the greatest reduction in overall GHGE.",
-        "explanation": "Clarifies the process and terminology, ensuring consistency with the detailed description in methods.",
-        "location": "Section 2.3",
-        "category": "terminology",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "Participants could select as many of the available product swaps as they desired.",
-        "improved_version": "Participants were able to select multiple product swaps, reflecting real-world shopping flexibility.",
-        "explanation": "Enhances clarity and emphasizes the experimental realism, improving logical flow.",
-        "location": "Section 2.3",
-        "category": "logical flow",
-        "focus": "logical_flow"
-      },
-      {
-        "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
-        "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a list of specific swap suggestions from the animal-based items in their basket to the nearest matching plant-based analogues.",
-        "explanation": "Improves clarity, consistency, and flow by explicitly linking figure references and clarifying the intervention components.",
-        "location": "Section 2.3",
-        "category": "logical flow",
-        "focus": "logical_flow"
-      },
-      {
-        "original_text": "The study was conducted online between July 28th and October 15th, 2023.",
-        "improved_version": "The online study was conducted over a period from July 28th to October 15th, 2023.",
-        "explanation": "Refines temporal description for clarity and professionalism.",
-        "location": "Section 2.1",
-        "category": "terminology",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "The regression models in tables 2 and 3 report multiple models with overlapping variables but do not clearly distinguish between unadjusted and adjusted models.",
-        "improved_version": "Tables 2 and 3 present both unadjusted and covariate-adjusted regression models, with clear labels and descriptions in the table footnotes, to facilitate interpretation of robustness and control for confounders.",
-        "explanation": "Enhances clarity and transparency regarding model specifications, improving tables' interpretability.",
+        "original_text": "The hypotheses (H1-H4) specify effects on GHGE reduction and swap choices, but the results show no significant effects of Targeted or Information treatments on overall GHGE reduction, while some effects are only significant in subgroup analyses.",
+        "improved_version": "While hypotheses H1-H4 anticipated effects on GHGE reduction and swap behaviors, the main results reveal no significant overall impact of Targeted or Information treatments on GHGE reduction. Notably, some effects emerged within specific subgroups, such as daily meat consumers, highlighting the importance of targeted analyses.",
+        "explanation": "Provides a clearer connection between hypotheses and results, acknowledging the subgroup effects as secondary findings rather than primary outcomes.",
         "location": "Section 3.1.1",
-        "category": "tables",
-        "focus": "tables"
+        "category": "hypothesis",
+        "focus": "hypothesis"
       },
       {
-        "original_text": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
-        "improved_version": "Supplementary tables are explicitly referenced at relevant points in the main text, with brief summaries of their contents to guide readers in connecting detailed results with the main findings.",
-        "explanation": "Improves transparency and ease of cross-referencing, strengthening supplementary material consistency.",
+        "original_text": "Inconsistent terminology such as 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information' sometimes used interchangeably.",
+        "improved_version": "Standardize terminology throughout the manuscript by consistently using 'targeted product swap recommendation,' 'most effective GHGE-reducing swap,' and 'GHGE impact information' to clearly distinguish between intervention components.",
+        "explanation": "Enhances clarity and reduces confusion by maintaining consistent language for key concepts.",
         "location": "Throughout the document",
+        "category": "terminology",
+        "focus": "terminology"
+      },
+      {
+        "original_text": "The discussion states that recommendations 'support' climate-friendly choices for most, despite main analysis showing no significant GHGE reduction.",
+        "improved_version": "The discussion should clarify that, although the overall GHGE reduction was not statistically significant, the intervention increased the likelihood of individual swaps and was well-received, suggesting potential for supporting climate-friendly choices in practice.",
+        "explanation": "Aligns conclusions with the primary null findings, emphasizing behavioral acceptance over aggregate impact.",
+        "location": "Section 4",
+        "category": "interpretation",
+        "focus": "interpretation"
+      },
+      {
+        "original_text": "Figures lack significance markers, potentially misleading interpretation.",
+        "improved_version": "Add significance indicators (e.g., asterisks or p-value annotations) to the figure error bars or data points to accurately reflect statistical significance or non-significance of differences across conditions.",
+        "explanation": "Improves visual clarity and prevents misinterpretation of visual data.",
+        "location": "Figure 2",
+        "category": "figures",
+        "focus": "figures"
+      },
+      {
+        "original_text": "References such as [28] are cited inconsistently with formatting and incomplete details.",
+        "improved_version": "Standardize all references according to journal style, ensuring complete citation details and consistent formatting throughout the manuscript.",
+        "explanation": "Enhances professionalism and facilitates source verification.",
+        "location": "Throughout the manuscript",
+        "category": "citations",
+        "focus": "citations"
+      },
+      {
+        "original_text": "Main text references to supplementary tables are sometimes inconsistent, e.g., 'Appendix, Table 8' vs. 'Table 8'.",
+        "improved_version": "Use consistent referencing for supplementary materials, such as 'Appendix, Table 8,' throughout the main text, and include a clear cross-reference list for ease of navigation.",
+        "explanation": "Improves clarity and traceability of supplementary data.",
+        "location": "Main text and appendix",
         "category": "supplementary",
         "focus": "supplementary"
       },
       {
-        "original_text": "The discussion suggests that simple product swaps are sufficient for most consumers, but the results show no significant overall GHGE reduction, which could be misleading.",
-        "improved_version": "While the overall GHGE reduction was not statistically significant, the high rate of product swaps indicates that simple, specific recommendations may still effectively influence consumer behavior, suggesting potential for broader impact with further refinement.",
-        "explanation": "Aligns interpretation with results, avoiding overstatement and improving logical coherence.",
-        "location": "Section 4",
+        "original_text": "The manuscript describes multiple subgroup analyses, but the narrative could better clarify which findings are confirmatory versus exploratory.",
+        "improved_version": "Explicitly distinguish between preregistered (confirmatory) and post hoc (exploratory) analyses in the text, clarifying that subgroup findings, such as those among daily meat consumers, are exploratory and should be interpreted cautiously.",
+        "explanation": "Enhances transparency regarding the robustness of subgroup results and aligns interpretation with analysis type.",
+        "location": "Section 3.2",
         "category": "interpretation",
         "focus": "interpretation"
+      },
+      {
+        "original_text": "The intervention description sometimes mixes details about the experimental design with implementation specifics, which could be clearer.",
+        "improved_version": "Separate the description of the experimental design (e.g., randomization, conditions) from implementation details (e.g., product selection, presentation), providing clearer structure for reproducibility.",
+        "explanation": "Improves clarity of methods, aiding replication and understanding.",
+        "location": "Section 2.3",
+        "category": "methodology",
+        "focus": "methods_results"
+      },
+      {
+        "original_text": "The overall narrative could benefit from clearer signposting between sections, especially transitioning from main results to subgroup analyses.",
+        "improved_version": "Add explicit transition sentences or headings that guide the reader from the primary analysis results to subgroup and exploratory findings, emphasizing their different confirmatory status.",
+        "explanation": "Enhances logical flow and reader comprehension of the hierarchical structure of analyses.",
+        "location": "Section 3 and 3.2",
+        "category": "logical_flow",
+        "focus": "logical_flow"
+      },
+      {
+        "original_text": "The abstract summarizes the findings but overstates the impact of the interventions on overall GHGE reduction.",
+        "improved_version": "Revise the abstract to accurately reflect that the primary analysis showed no significant overall GHGE reduction, emphasizing instead the behavioral and subgroup effects observed.",
+        "explanation": "Aligns abstract with detailed results, maintaining honesty and transparency.",
+        "location": "Abstract",
+        "category": "abstract",
+        "focus": "results_conclusions"
       }
     ],
     "detailed_feedback": {
-      "methods_results_alignment": "The methods section describes the experimental design, including hypotheses, interventions, and statistical models, but the results show that the primary hypotheses (H2 and H3) were not supported, with no significant effects on overall GHGE reduction. This indicates a partial misalignment between the planned hypotheses and the outcomes, which should be explicitly acknowledged to clarify the scope of conclusions.",
-      "results_conclusions_alignment": "The results indicate that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly lower overall GHGE. The conclusions, however, suggest that simple product swaps are effective for most consumers. This inconsistency should be addressed by emphasizing the nuanced findings\u2014highlighting that while behavior change occurred, the environmental impact reduction was limited overall.",
-      "logical_flow": "The manuscript generally follows a logical progression from introduction to methods, results, and discussion. However, some sections, especially the discussion, overgeneralize the implications based on non-significant primary outcomes. Clarifying that the main effects were limited and emphasizing the exploratory nature of subgroup findings would improve coherence.",
-      "terminology_consistency": "Terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' are used variably. Defining these terms early and maintaining consistent usage throughout the manuscript would enhance clarity and reduce reader confusion.",
-      "hypothesis_testing": "The hypotheses H2 and H3 predicted significant effects that were not observed, yet the discussion implies some positive effects. Explicitly stating that these hypotheses were not supported by the primary outcomes and framing the subgroup analyses as exploratory would improve transparency.",
-      "interpretation_consistency": "The discussion suggests that simple swaps are sufficient, which conflicts with the non-significant overall GHGE reductions. Rephrasing to acknowledge the limited impact on the entire sample and highlighting the potential of targeted info for specific groups would align interpretation with results.",
-      "citation_consistency": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation. Ensuring all citations are formatted uniformly and linked clearly to specific claims would improve scholarly rigor.",
-      "figure_text_alignment": "Figure 2 shows no significant differences, yet the caption and narrative imply effects. Including significance indicators and clarifying what the figure demonstrates would prevent misinterpretation.",
-      "table_text_alignment": "Tables 2 and 3 present multiple models but lack clear labels distinguishing unadjusted from adjusted models. Adding explicit labels and footnotes would improve clarity.",
-      "supplementary_consistency": "References to supplementary tables are made without explicit links to main text claims. Including brief descriptions and clear cross-references would enhance transparency."
+      "methods_results_alignment": "The methods specify hypotheses about treatment effects on GHGE reduction, but the results reveal that these effects were not statistically significant in the main sample, only in subgroup analyses. This indicates a partial misalignment, suggesting that the primary outcome was not strongly affected by the interventions, which should be clearly acknowledged to maintain coherence.",
+      "results_conclusions_alignment": "The main results show null effects on GHGE reduction, yet the conclusions suggest that recommendations support climate-friendly choices for most. This inconsistency should be addressed by emphasizing the behavioral acceptance and subgroup effects rather than overstating aggregate impact.",
+      "logical_flow": "The manuscript transitions from hypotheses to results, but the narrative could better distinguish between confirmatory and exploratory findings. Explicit signposting and clearer section transitions would improve logical coherence, especially when discussing subgroup analyses that were not preregistered.",
+      "terminology_consistency": "Terms like 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information' are used variably. Standardizing these terms throughout the manuscript will improve clarity and prevent confusion.",
+      "hypothesis_testing": "The hypotheses focus on GHGE reduction, but the primary outcomes did not show significant effects, with some effects only in subgroup analyses. Clarifying that the main testing was on behavioral measures, with GHGE as a secondary outcome, would better align expectations.",
+      "interpretation_consistency": "The discussion overstates the overall impact based on null main effects, emphasizing the importance of subgroup findings. Framing conclusions to reflect these nuances will ensure consistent interpretation.",
+      "citation_consistency": "References such as [28] are cited with inconsistent formatting and incomplete details. Ensuring uniform citation style will improve professionalism.",
+      "figure_text_alignment": "Figure 2 lacks significance markers, which could mislead readers about the importance of visual differences. Adding significance indicators will clarify the results.",
+      "table_text_alignment": "Tables report mostly non-significant effects but are sometimes described as if effects are meaningful. Clarifying the significance status in the text will improve transparency.",
+      "supplementary_consistency": "References to supplementary tables are inconsistent, sometimes missing the 'Appendix' prefix. Consistent cross-referencing will aid navigation and transparency."
     },
-    "summary": "Overall, the manuscript demonstrates a solid experimental design and relevant research questions but suffers from some inconsistencies between hypotheses, results, and interpretations. The primary outcomes show limited effects, yet conclusions sometimes overstate the intervention's impact. Clarifying terminology, explicitly acknowledging non-significant findings, and improving cross-referencing and figure/table clarity will greatly enhance the logical coherence and transparency of the paper."
+    "summary": "Overall, the manuscript demonstrates a solid experimental design and relevant analyses but suffers from partial misalignment between hypotheses and main findings, especially regarding GHGE reduction. The narrative would benefit from clearer signposting, consistent terminology, and accurate framing of results to reflect the primary null effects and subgroup insights. Addressing these issues will significantly enhance the coherence, transparency, and interpretability of the study."
   },
   "R1": {
     "originality_contribution_score": 4,
@@ -183,474 +191,451 @@
       {
         "category": "novelty",
         "location": "Abstract and Introduction",
-        "issue": "While the study tests specific product swap recommendations with a focus on GHGE reduction, the core concept of using targeted product swaps in online shopping environments has been explored in prior simulation studies. The novelty claim that real-time, personalized swap recommendations influence behavior is somewhat overstated without clear differentiation from existing interventions.",
+        "issue": "While the study claims to test real-time, specific, and actionable product swap recommendations in an experimental online supermarket, the core concept of product swaps and their potential for reducing GHGE has been explored previously in simulation studies and some field experiments. The novelty of the approach is somewhat limited by the reliance on existing literature and the absence of a truly innovative intervention mechanism.",
         "severity": "medium",
-        "impact": "This affects the perceived originality of the approach, potentially overestimating its novelty compared to prior simulation-based research."
+        "impact": "This affects the perceived originality of the research, potentially positioning it as incremental rather than groundbreaking."
       },
       {
         "category": "contribution",
-        "location": "Discussion and Results",
-        "issue": "The study reports that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly reduce overall basket GHGE, which limits the claimed impact on actual behavior change. The contribution to practical dietary change remains somewhat limited without long-term or real-world validation.",
+        "location": "Discussion and Conclusion",
+        "issue": "The paper emphasizes that simple, specific product swaps are sufficient for most consumers but relies heavily on the online experimental setting without demonstrating long-term or real-world applicability. The contribution to practical implementation remains somewhat limited without field validation.",
         "severity": "high",
-        "impact": "This constrains the strength of the contribution claim, suggesting the intervention's real-world efficacy needs further validation."
+        "impact": "This limits the strength of the contribution claim, as it remains largely theoretical and experimental, reducing confidence in real-world impact."
       },
       {
         "category": "verification",
-        "location": "Abstract and Methods",
-        "issue": "The authors claim to verify the effectiveness of their intervention, but the lack of significant GHGE reduction in the main analysis indicates limited verification of behavioral impact. The positive effects are mostly on the selection of the most effective swap, not on overall GHGE reduction.",
+        "location": "Results and Methods",
+        "issue": "The authors claim that targeted recommendations increased the uptake of the most effective swap but did not significantly lower overall GHGE, which questions the effectiveness of the claimed novelty. The verification of claims about the impact of GHGE information on high meat consumers is based on post hoc exploratory analyses, not pre-registered hypotheses.",
         "severity": "high",
-        "impact": "This undermines the validity of the stated verification of impact, highlighting the need for cautious interpretation."
+        "impact": "This undermines the robustness of the claimed verification of the intervention's effectiveness, raising concerns about potential biases or overinterpretation."
       },
       {
         "category": "comparison",
         "location": "Introduction and Discussion",
-        "issue": "The manuscript references prior simulation studies but lacks a detailed comparison with similar real-world or field interventions, especially in retail settings. The discussion does not sufficiently contextualize how this approach advances beyond existing behavioral nudges or digital interventions.",
+        "issue": "The manuscript references prior simulation studies and some field work but lacks a detailed, critical comparison with existing real-world interventions or digital nudges in food retail environments, making it difficult to position its novelty relative to current practices.",
         "severity": "medium",
-        "impact": "This limits the clarity of the study\u2019s unique positioning and its comparative contribution to existing literature."
+        "impact": "This limits the clarity of the paper's unique contribution and how it advances beyond existing research."
       },
       {
         "category": "advancement",
-        "location": "Discussion and Conclusion",
-        "issue": "The study suggests that simple product swaps may be sufficient for many consumers, but it does not explore long-term sustainability or behavioral maintenance, which are critical for advancing knowledge on dietary change. The knowledge gain about high meat consumers is based on exploratory, post hoc analyses, limiting definitive claims.",
-        "severity": "high",
-        "impact": "This reduces the strength of the claimed advancement in understanding how to influence high-impact consumers over time."
+        "location": "Discussion",
+        "issue": "The study claims to advance knowledge by demonstrating the effectiveness of real-time, specific product swaps, yet the actual impact on overall GHGE is modest and not significantly different across conditions. The long-term or behavioral sustainability implications are not addressed.",
+        "severity": "medium",
+        "impact": "This constrains the perceived advancement of knowledge, as the findings are primarily short-term and experimental."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "While prior research has focused on simulating the impact of targeted dietary changes, there is limited evidence on whether consumers will adopt such changes when presented with targeted recommendations.",
-        "improved_version": "To strengthen the claim of novelty, explicitly state how this study advances beyond simulation by testing real-time, personalized recommendations in a controlled online shopping environment, and clarify how this fills a gap in empirical behavioral evidence.",
-        "explanation": "Clarifying this distinction emphasizes the study\u2019s contribution to empirical validation, enhancing the perceived novelty.",
+        "improved_version": "Expand the discussion to explicitly acknowledge existing field and intervention studies that have tested product swaps or nudges in real retail environments, clarifying how this study uniquely contributes or differs.",
+        "explanation": "This clarifies the novelty by positioning the study within the current landscape and highlighting its specific experimental design or intervention features.",
         "location": "Introduction",
         "category": "novelty",
-        "focus": "novelty"
+        "focus": "comparison"
       },
       {
         "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-        "improved_version": "While participants showed initial receptivity, the actual reduction in overall GHGE was modest and not statistically significant, indicating that willingness does not necessarily translate into sustained behavior change.",
-        "explanation": "This nuanced framing provides a more accurate contribution assessment, acknowledging behavioral complexity.",
+        "improved_version": "Include a detailed comparison of engagement levels observed in this study with those reported in previous online or field interventions, emphasizing what is novel about the specific online supermarket setup.",
+        "explanation": "This contextualizes the contribution and clarifies how the experimental environment advances understanding of consumer engagement.",
         "location": "Results",
         "category": "contribution",
-        "focus": "contribution"
+        "focus": "advancement"
       },
       {
-        "original_text": "The regression analysis did not reveal any statistically significant effects of Targeted or Information treatments on GHGE reduction compared to the reference group.",
-        "improved_version": "Despite increased selection of the most effective swap, the interventions did not produce significant overall GHGE reductions, highlighting the challenge of translating targeted recommendations into meaningful behavioral change.",
-        "explanation": "This reframing clarifies the contribution by emphasizing the gap between recommendation acceptance and actual impact, guiding future research directions.",
+        "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+        "improved_version": "Discuss potential reasons for the null effects, such as the high baseline reduction, multiple swaps diluting the impact, or the experimental setting, and suggest how future studies could address these limitations to demonstrate clearer effects.",
+        "explanation": "This enhances verification and contribution by critically analyzing the findings and proposing pathways for further validation.",
         "location": "Results",
         "category": "verification",
-        "focus": "verification"
-      },
-      {
-        "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
-        "improved_version": "While simple product swaps appear effective for many consumers, long-term studies are necessary to confirm whether these behaviors are sustained and lead to meaningful reductions in dietary GHGE over time.",
-        "explanation": "Adding this qualification tempers overstatement and enhances the contribution by indicating the need for further validation.",
-        "location": "Discussion",
-        "category": "advancement",
         "focus": "advancement"
       },
       {
         "original_text": "Our study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
-        "improved_version": "Future research should integrate multiple environmental metrics, such as water footprint and biodiversity impact, to provide a more comprehensive assessment of the sustainability of product swaps.",
-        "explanation": "This broadens the scope and contribution, acknowledging limitations and guiding future advancements.",
+        "improved_version": "Propose integrating multi-criteria environmental impact assessments in future research to broaden the contribution and demonstrate how the intervention could be more comprehensive and impactful.",
+        "explanation": "This expands the scope and contribution, aligning with current calls for holistic sustainability assessments.",
         "location": "Discussion",
         "category": "advancement",
         "focus": "advancement"
       },
       {
-        "original_text": "The intervention was incentive-compatible and conducted in a realistic shopping environment modelled on a major German retailer\u2019s product portfolio.",
-        "improved_version": "However, as the study was conducted in a simulated online environment, further field experiments are needed to validate the effectiveness and scalability of these recommendations in real-world retail settings.",
-        "explanation": "This emphasizes the need for external validation, strengthening the contribution claim regarding practical applicability.",
+        "original_text": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalizability.",
+        "improved_version": "Add a discussion on how future research could validate these findings in more diverse populations, including different cultural contexts, dietary restrictions, and demographic groups, to enhance the generalizability and impact.",
+        "explanation": "This improves the contribution by outlining clear steps for extending the research's applicability and impact.",
         "location": "Discussion",
-        "category": "verification",
-        "focus": "verification"
+        "category": "contribution",
+        "focus": "advancement"
       },
       {
-        "original_text": "Participants in our study accepted an average of four swaps, which may have diluted the impact of highlighting a single most-effective swap.",
-        "improved_version": "Future studies should explore strategies to encourage fewer, more impactful swaps, such as emphasizing the most effective change or combining swaps with motivational cues, to enhance overall GHGE reduction.",
-        "explanation": "This provides actionable guidance to improve the practical contribution of the intervention.",
+        "original_text": "The intervention relied on a static list of swaps from animal-based to plant-based products, without considering nutritional or cultural preferences.",
+        "improved_version": "Suggest developing adaptive, personalized swap recommendations that incorporate nutritional and cultural preferences, which could significantly enhance real-world applicability and effectiveness.",
+        "explanation": "This enhances the novelty and contribution by proposing innovative, personalized intervention strategies.",
+        "location": "Discussion",
+        "category": "novelty",
+        "focus": "advancement"
+      },
+      {
+        "original_text": "The study's impact on actual long-term behavior change remains uncertain.",
+        "improved_version": "Recommend designing longitudinal or field studies to assess the sustainability of behavior change induced by product swaps, thereby strengthening the evidence for long-term advancement.",
+        "explanation": "This directly addresses the knowledge gap and enhances the study's contribution to understanding behavioral sustainability.",
         "location": "Discussion",
         "category": "advancement",
         "focus": "advancement"
       },
       {
-        "original_text": "The study\u2019s sample was restricted to German-speaking, non-vegan/non-vegetarian participants, limiting generalizability.",
-        "improved_version": "Subsequent research should include diverse populations across different cultural and dietary backgrounds to assess the generalizability and cultural adaptability of the intervention.",
-        "explanation": "Expanding scope enhances the contribution to global applicability and knowledge advancement.",
+        "original_text": "The effect of providing GHGE reduction information was only significant among high meat consumers in exploratory analyses.",
+        "improved_version": "Frame this finding as a key insight into targeted intervention strategies, emphasizing how future research can refine messaging for high-impact groups, thus advancing the field's understanding of tailored approaches.",
+        "explanation": "This clarifies the contribution and suggests practical pathways for future research, enhancing the paper's impact.",
+        "location": "Discussion",
+        "category": "contribution",
+        "focus": "advancement"
+      },
+      {
+        "original_text": "Our intervention is simple and scalable but requires access to reliable environmental impact data.",
+        "improved_version": "Discuss potential technological or policy innovations that could facilitate data access, and propose how integrating such data into retail platforms could further scale and enhance the intervention's impact.",
+        "explanation": "This broadens the contribution by linking technological solutions to practical scalability and real-world implementation.",
+        "location": "Discussion",
+        "category": "advancement",
+        "focus": "advancement"
+      },
+      {
+        "original_text": "The study demonstrates that specific and actionable product swaps can promote climate-friendly choices.",
+        "improved_version": "Include a comparative analysis of the magnitude of GHGE reductions achieved relative to other interventions, thereby positioning the contribution within the broader landscape of sustainable food policies.",
+        "explanation": "This contextualizes the contribution and clarifies its significance relative to existing strategies.",
         "location": "Conclusion",
-        "category": "advancement",
-        "focus": "advancement"
-      },
-      {
-        "original_text": "The study did not examine the long-term sustainability of behavior change.",
-        "improved_version": "Longitudinal studies are necessary to evaluate whether initial behavioral shifts are maintained over time and translate into sustained dietary and environmental benefits.",
-        "explanation": "This explicitly states a key future direction, strengthening the contribution to advancing long-term behavioral understanding.",
-        "location": "Conclusion",
-        "category": "advancement",
-        "focus": "advancement"
-      },
-      {
-        "original_text": "The intervention only considered swaps from animal-based to plant-based products, not other low-carbon options like poultry or processed plant-based foods.",
-        "improved_version": "Future research should incorporate a broader range of substitution options, including lower-impact meats like poultry and processed plant-based foods, to optimize environmental benefits.",
-        "explanation": "This expands the scope and enhances the contribution to comprehensive dietary strategies.",
-        "location": "Discussion",
-        "category": "advancement",
-        "focus": "advancement"
-      },
-      {
-        "original_text": "The study\u2019s reliance on self-reported survey measures for efficacy perceptions may be subject to social desirability bias.",
-        "improved_version": "Incorporating objective behavioral measures and long-term follow-up would strengthen the validity of findings related to self-efficacy and actual behavior change.",
-        "explanation": "This improves the methodological rigor and contribution to evidence-based practice.",
-        "location": "Methodology",
-        "category": "verification",
-        "focus": "verification"
-      },
-      {
-        "original_text": "The study did not assess nutritional adequacy or consumer preferences beyond environmental impact.",
-        "improved_version": "Integrating nutritional assessments and taste preference evaluations would provide a more holistic understanding of consumer acceptance and the practicality of product swaps.",
-        "explanation": "This broadens the contribution to include health and preference dimensions, vital for real-world adoption.",
-        "location": "Discussion",
-        "category": "advancement",
-        "focus": "advancement"
-      },
-      {
-        "original_text": "The intervention's scalability depends on access to reliable environmental impact data, which can be challenging to obtain and verify.",
-        "improved_version": "Developing standardized, accessible environmental impact labeling and data sources will be essential for scaling such interventions effectively in retail environments.",
-        "explanation": "This offers a practical pathway to enhance the contribution and implementation feasibility.",
-        "location": "Discussion",
-        "category": "advancement",
-        "focus": "advancement"
+        "category": "contribution",
+        "focus": "comparison"
       }
     ],
     "detailed_feedback": {
-      "novelty_assessment": "The research builds upon existing simulation studies by empirically testing real-time, personalized product swap recommendations within an online shopping environment. While the concept of targeted dietary interventions is not entirely new, this study advances the field by providing experimental evidence on consumer responses to specific, actionable recommendations paired with environmental impact information. However, the core idea of product swaps as a behavioral nudge has been explored previously, so the novelty primarily lies in the experimental validation and the detailed analysis of high meat consumers.",
-      "contribution_analysis": "This study contributes valuable insights into the effectiveness of simple, specific product swaps in reducing dietary GHGE, demonstrating high acceptance and some impact on behavior. It also highlights the limited effect of targeted recommendations and GHGE information on overall GHGE reduction, emphasizing the complexity of translating intention into sustained behavior change. The exploratory findings regarding high meat consumers suggest potential pathways for targeted interventions, although these are preliminary. Overall, the contribution advances understanding of digital nudges in sustainable food choices but underscores the need for further real-world validation and long-term studies.",
-      "verification_status": "The authors claim to verify the impact of their intervention, but the main outcome\u2014significant reduction in overall GHGE\u2014was not achieved. The increase in the selection of the most effective swap indicates some behavioral influence, yet the lack of significant overall GHGE reduction suggests limited verification of behavioral change. The findings are more confirmatory of acceptability and partial influence rather than definitive impact, warranting cautious interpretation.",
-      "comparative_analysis": "Compared to prior simulation-based research, this study provides an important empirical step but falls short of demonstrating large-scale or long-term effectiveness. It does not sufficiently compare its findings with similar real-world interventions or digital nudges outside the food domain, which could contextualize its contribution more robustly. The discussion could benefit from deeper engagement with existing behavioral nudges and digital health interventions to clarify its unique positioning.",
-      "advancement_evaluation": "The research advances knowledge by demonstrating that simple, specific product swaps are feasible and well-received, especially among less frequent meat consumers. It suggests that providing environmental impact information may be particularly effective for high-impact consumers, offering a promising avenue for targeted strategies. However, the lack of long-term data and broader environmental metrics limits the depth of knowledge gained. Future work should focus on sustainability over time, nutritional considerations, and broader environmental impacts to truly push the field forward."
+      "novelty_assessment": "The research advances the field by applying a real-time, online supermarket experiment to test the effectiveness of specific, actionable product swap recommendations combined with GHGE information. While the concept of product swaps and nudges has been explored previously, especially in simulation studies, this work's experimental design and focus on delivery at the point of decision-making in a realistic online environment provide a meaningful, though incremental, contribution. The novelty lies in the integration of targeted and informational interventions within a controlled, incentive-compatible setting, but it does not fundamentally challenge existing paradigms.",
+      "contribution_analysis": "The study contributes valuable empirical evidence that simple, specific product swaps are highly accepted and can lead to significant GHGE reductions for most consumers. It also highlights that targeted recommendations increase the adoption of the most effective swaps, and that GHGE information notably influences high meat consumers. These insights inform practical retail strategies and behavioral interventions, especially for high-impact groups. However, the overall impact on total GHGE remains modest, and the long-term behavioral effects are yet to be demonstrated, limiting the scope of contribution.",
+      "verification_status": "The claims regarding the effectiveness of targeted recommendations and GHGE information are supported by the experimental data, but the null findings on overall GHGE reduction suggest that the intervention's impact may be limited or diluted when multiple swaps are accepted. The exploratory analyses provide promising signals about the potential of GHGE information among high meat consumers, but these are post hoc and not pre-registered, reducing the robustness of verification. Future studies should aim for confirmatory designs and longer-term assessments.",
+      "comparative_analysis": "The manuscript references prior simulation work and some field experiments but lacks a detailed comparison with existing real-world interventions or digital nudges in retail settings. Incorporating such comparisons would better position the study's novelty and clarify how it advances current practices. Without this, the work risks being perceived as an incremental step rather than a significant innovation.",
+      "advancement_evaluation": "The research advances understanding of consumer responses to specific, actionable product swaps in a controlled online environment, demonstrating feasibility and acceptance. It also suggests that simple swaps can produce meaningful GHGE reductions, which is a practical insight for retail implementation. Nonetheless, the modest effect sizes and lack of long-term data mean that the knowledge gain is primarily incremental, emphasizing the need for further research to establish sustained behavioral change and broader environmental impacts."
     },
-    "summary": "This study makes a meaningful contribution to the empirical validation of digital, real-time product swap nudges aimed at reducing dietary GHGE. It demonstrates high consumer receptivity and some behavioral influence, especially among high meat consumers when environmental information is provided. However, the limited impact on overall GHGE reduction and reliance on simulated, short-term data suggest that its novelty and practical contribution are moderate. To enhance its significance, future research should incorporate long-term, real-world validation, broader environmental metrics, and nutritional considerations. Overall, the work provides valuable insights into behavioral nudges in sustainable food choices, with promising implications for retail and policy interventions, but requires further validation to fully advance the field."
+    "summary": "This study offers a valuable experimental contribution by demonstrating that real-time, specific product swap recommendations can effectively promote climate-friendly food choices in an online shopping context. Its strengths lie in the realistic setup, incentive compatibility, and focus on actionable interventions. However, the novelty is somewhat limited by reliance on existing simulation findings, and the impact on overall GHGE is modest. The findings regarding high meat consumers and the role of GHGE information are promising but require further validation through longitudinal and field studies. Overall, the research makes a solid, incremental contribution to the field of sustainable food choice interventions, with clear pathways for future enhancement and real-world application."
   },
   "R6": {
     "technical_accuracy_score": 3,
     "critical_remarks": [
       {
         "category": "derivations",
-        "location": "Mathematical Framework, Sections 2.1 and 2.4",
-        "issue": "The derivation of GHGE impact assessment relies on bottom-up life cycle assessment (LCA) data from [28], but the specifics of the calculation, including how the GWP100a values are integrated, are not fully detailed. This limits verification of the derivation correctness.",
+        "location": "Mathematical Framework section, pages 8-9",
+        "issue": "The derivation of GHGE impact using GWP100a is referenced but not explicitly shown or mathematically detailed, leading to ambiguity about the calculation process and assumptions.",
         "severity": "medium",
-        "impact": "This affects the transparency and reproducibility of the impact calculations, potentially undermining confidence in the exact GHGE estimates."
-      },
-      {
-        "category": "algorithms",
-        "location": "Statistical analysis, Sections 2.5.1 and 2.5.2",
-        "issue": "Regression models are used extensively, but assumptions such as linearity, multicollinearity, and distributional assumptions are not discussed or tested, which could impact the validity of the results.",
-        "severity": "medium",
-        "impact": "This could lead to misinterpretation of the significance and effect sizes of predictors, affecting the robustness of conclusions."
-      },
-      {
-        "category": "terminology",
-        "location": "Throughout the document",
-        "issue": "Terms like 'GHGE reduction' are used interchangeably with 'climate-friendly' or 'environmentally sustainable' without precise definitions, which could cause ambiguity.",
-        "severity": "low",
-        "impact": "This impacts clarity and precision in communicating the technical scope of the impact assessment."
+        "impact": "This limits the reader's ability to verify the accuracy of impact calculations and assess the robustness of the environmental impact estimates."
       },
       {
         "category": "equations",
-        "location": "Section 2.1 and 2.4",
-        "issue": "Equations for GHGE impact calculations are described but not explicitly formatted or numbered, reducing clarity for readers attempting to verify or replicate the calculations.",
+        "location": "Equation presentation, pages 8-9",
+        "issue": "Equations related to GHGE impact assessment are described in text but lack clear, standalone mathematical notation or explicit formulas, reducing clarity.",
+        "severity": "medium",
+        "impact": "Hinders precise understanding and reproducibility of the impact assessment methodology."
+      },
+      {
+        "category": "algorithm",
+        "location": "Methodology, pages 10-11",
+        "issue": "The description of the product swap recommendation algorithm is high-level, with limited detail on how the most effective swap is identified or how multiple swaps are prioritized.",
+        "severity": "medium",
+        "impact": "Raises questions about the algorithm's correctness, efficiency, and replicability."
+      },
+      {
+        "category": "terminology",
+        "location": "Throughout the paper, pages 1-27",
+        "issue": "Terms like 'targeted recommendation', 'GHGE reduction information', and 'product swap' are used inconsistently or without precise definitions.",
         "severity": "low",
-        "impact": "This affects equation clarity and presentation, hindering reproducibility."
+        "impact": "Could cause confusion about the intervention specifics and hinder clear communication of the methodology."
       },
       {
         "category": "completeness",
-        "location": "Methodology, Sections 2.1 and 2.4",
-        "issue": "Details on how the impact data are assigned to individual products, especially in cases where multiple packages are recommended, are insufficient. The process for matching weights and handling missing data is not fully described.",
-        "severity": "medium",
-        "impact": "This limits the ability to assess the accuracy of impact attribution, affecting overall content completeness."
+        "location": "Results section, pages 12-17",
+        "issue": "The statistical models report significant predictors but lack detailed diagnostics (e.g., residual analysis, model fit indices), which are essential for assessing model validity.",
+        "severity": "low",
+        "impact": "Limits confidence in the robustness of the reported findings."
       },
       {
-        "category": "consistency",
-        "location": "Throughout the document",
-        "issue": "Some variables, such as 'GHGE reduced' and 'basket GHGE,' are used interchangeably without explicit definitions, which could cause confusion.",
-        "severity": "low",
-        "impact": "This impacts logical consistency and clarity in variable interpretation."
+        "category": "logical_consistency",
+        "location": "Discussion, pages 20-22",
+        "issue": "The interpretation that targeted recommendations increase the uptake of the most effective swap but do not significantly reduce overall GHGE appears inconsistent without detailed analysis of swap combinations.",
+        "severity": "medium",
+        "impact": "Potentially misleads about the intervention's overall effectiveness and the mechanisms involved."
       },
       {
         "category": "implementation",
-        "location": "Section 2.2 and 2.3",
-        "issue": "Details on how the online supermarket interface was implemented, especially the presentation of swap recommendations and highlighting, are vague. The process for randomization and control of presentation order is not fully described.",
+        "location": "Methodology, pages 10-11",
+        "issue": "Details on how the swap recommendations were generated, especially the matching process to find 'closest' plant-based analogues, are insufficient.",
         "severity": "medium",
-        "impact": "This affects the reproducibility and understanding of the intervention implementation."
+        "impact": "Impairs reproducibility and understanding of the recommendation logic."
       },
       {
         "category": "edge_cases",
-        "location": "Section 2.4 and 2.5",
-        "issue": "Handling of participants who swap multiple products or none at all is not explicitly discussed, nor are potential outliers or non-compliance addressed.",
+        "location": "Methodology, pages 10-11",
+        "issue": "The handling of cases where no suitable plant-based analogue exists or where product weights cannot be matched is not described.",
         "severity": "low",
-        "impact": "This could influence the robustness of the statistical analysis and interpretation."
+        "impact": "Potentially affects the validity of the recommendations and the generalizability of results."
       },
       {
         "category": "complexity",
-        "location": "Section 2.5.2",
-        "issue": "The complexity of models with multiple interaction terms, especially in subgroup analyses, is high, but no discussion on model diagnostics or power considerations for these interactions is provided.",
-        "severity": "medium",
-        "impact": "This impacts confidence in the validity of the exploratory findings."
+        "location": "Analysis section, pages 14-15",
+        "issue": "The complexity of the regression models, especially with multiple interaction terms, is not discussed, nor are model assumptions tested or discussed.",
+        "severity": "low",
+        "impact": "Limits understanding of the models' appropriateness and robustness."
       },
       {
         "category": "documentation",
-        "location": "Throughout the manuscript",
-        "issue": "While the analysis code and data are said to be publicly available, detailed documentation on the data processing steps, variable coding, and model specifications is lacking.",
+        "location": "General, throughout the paper",
+        "issue": "While code and data are said to be publicly available, specific documentation on data processing steps, code structure, and analysis scripts is lacking.",
         "severity": "low",
-        "impact": "This hampers reproducibility and independent validation of the results."
+        "impact": "Reduces transparency and reproducibility of the study."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
-        "improved_version": "The impact assessment for GHG emissions should include a detailed formula or pseudocode illustrating how the GWP100a values are applied to aggregate emissions from different gases, ensuring transparency.",
-        "explanation": "Explicit formulas improve clarity and reproducibility of impact calculations.",
-        "location": "Mathematical Framework, Sections 2.1 and 2.4",
+        "original_text": "Greenhouse gas emissions data for products were adapted from [28], where they were estimated using a bottom-up life cycle assessment (LCA)...",
+        "improved_version": "Include explicit formulas or detailed steps of the LCA methodology used to derive GHGE estimates, possibly with a schematic or pseudocode, to enhance transparency.",
+        "explanation": "Providing explicit derivations or formulas clarifies the impact assessment process, allowing for verification and replication.",
+        "location": "Mathematical Framework, pages 8-9",
+        "category": "equations",
+        "focus": "derivations"
+      },
+      {
+        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change...",
+        "improved_version": "Present the specific formula used to convert GHG emissions into CO2 equivalents, e.g., Impact = \u03a3 (GHG_i \u00d7 GWP100a_i), with definitions of variables.",
+        "explanation": "Explicit formulas improve clarity and facilitate understanding of impact calculations.",
+        "location": "Mathematical Framework, pages 8-9",
         "category": "equations",
         "focus": "equations"
       },
       {
-        "original_text": "Regression models are used extensively, but assumptions such as linearity, multicollinearity, and distributional assumptions are not discussed or tested.",
-        "improved_version": "Include diagnostic tests for regression assumptions such as residual plots for linearity, Variance Inflation Factor (VIF) for multicollinearity, and normality tests for residuals, with results summarized in supplementary materials.",
-        "explanation": "Verifying assumptions strengthens confidence in the regression results and their interpretation.",
-        "location": "Section 2.5.1 and 2.5.2",
-        "category": "algorithm correctness",
-        "focus": "algorithm correctness"
+        "original_text": "The description of the product swap recommendation algorithm is high-level, with limited detail on how the most effective swap is identified.",
+        "improved_version": "Provide a step-by-step pseudocode or flowchart detailing how the most effective swap is selected based on GHGE impact, including any ranking or scoring criteria.",
+        "explanation": "Enhances reproducibility and allows others to assess the algorithm's correctness and efficiency.",
+        "location": "Methodology, pages 10-11",
+        "category": "algorithm_description",
+        "focus": "algorithms"
       },
       {
-        "original_text": "Terms like 'GHGE reduction' are used interchangeably with 'climate-friendly' or 'environmentally sustainable' without precise definitions.",
-        "improved_version": "Define 'GHGE reduction' explicitly as the percentage decrease in total greenhouse gas emissions relative to baseline, and clarify how 'climate-friendly' is operationalized in the context of the study.",
-        "explanation": "Precise terminology reduces ambiguity and enhances clarity for technical readers.",
-        "location": "Throughout the document",
+        "original_text": "Terms like 'targeted recommendation' and 'GHGE reduction information' are used inconsistently.",
+        "improved_version": "Define key terms explicitly at their first mention, e.g., 'Targeted Recommendation: a suggestion highlighting the single most GHGE-impactful product swap in the basket.'",
+        "explanation": "Clear definitions improve terminological consistency and reader comprehension.",
+        "location": "Introduction, pages 1-3",
         "category": "terminology",
         "focus": "terminology"
       },
       {
-        "original_text": "Equations for GHGE impact calculations are described but not explicitly formatted or numbered.",
-        "improved_version": "Format all key equations with proper LaTeX or equation editor syntax, number them sequentially, and refer to them explicitly in the text (e.g., Eq. 1).",
-        "explanation": "Numbered, well-formatted equations improve readability and facilitate referencing.",
-        "location": "Section 2.1 and 2.4",
-        "category": "equations",
-        "focus": "equations"
+        "original_text": "The models report predictors but lack diagnostics or fit indices.",
+        "improved_version": "Include model diagnostics such as residual plots, R-squared, AIC/BIC, and tests for multicollinearity to support the validity of the regression analyses.",
+        "explanation": "Ensures the robustness and appropriateness of the statistical models are transparent and verifiable.",
+        "location": "Results, pages 12-17",
+        "category": "technical_analysis",
+        "focus": "complexity"
       },
       {
-        "original_text": "Details on how impact data are assigned to individual products, especially in cases where multiple packages are recommended, are insufficient.",
-        "improved_version": "Provide a detailed step-by-step description of how impact data are allocated to products, including handling of partial matches, multi-package swaps, and missing data, possibly with flowcharts or pseudocode.",
-        "explanation": "Enhances transparency and allows replication of impact attribution methodology.",
-        "location": "Methodology, Sections 2.1 and 2.4",
-        "category": "completeness",
-        "focus": "completeness"
-      },
-      {
-        "original_text": "Some variables, such as 'GHGE reduced' and 'basket GHGE,' are used interchangeably without explicit definitions.",
-        "improved_version": "Include a glossary or table defining all key variables, such as 'initial basket GHGE,' 'final basket GHGE,' and 'percentage GHGE reduction,' with clear operational definitions.",
-        "explanation": "Clarifies variable interpretation and ensures consistent understanding across analyses.",
-        "location": "Throughout the manuscript",
-        "category": "terminology",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "Implementation details on the online supermarket interface, especially the presentation and highlighting of recommendations, are vague.",
-        "improved_version": "Add a detailed description or schematic of the user interface, including how the most effective swap is highlighted, the placement of GHGE info, and the sequence of steps, possibly with screenshots or diagrams.",
-        "explanation": "Improves reproducibility and understanding of intervention delivery.",
-        "location": "Section 2.3",
+        "original_text": "The matching process for plant-based analogues is described as 'closest' but without details.",
+        "improved_version": "Describe the matching criteria explicitly, e.g., matching based on product weight, nutritional profile, or other relevant features, and specify the algorithm or metric used (e.g., Euclidean distance in feature space).",
+        "explanation": "Clarifies the recommendation logic and supports reproducibility.",
+        "location": "Methodology, pages 10-11",
         "category": "implementation",
         "focus": "implementation"
       },
       {
-        "original_text": "Handling of participants who swap multiple products or none at all is not explicitly discussed.",
-        "improved_version": "Describe the data processing rules for participants with zero swaps, multiple swaps, or non-compliance, including how these are incorporated into the analysis and whether any outliers are excluded.",
-        "explanation": "Ensures clarity in data handling and robustness of statistical analysis.",
-        "location": "Section 2.4 and 2.5",
+        "original_text": "Handling of cases where no suitable analogue exists is not described.",
+        "improved_version": "Specify procedures for such cases, e.g., excluding those products from recommendations or providing alternative criteria, to ensure transparency.",
+        "explanation": "Addresses potential limitations and clarifies the recommendation process under all circumstances.",
+        "location": "Methodology, pages 10-11",
         "category": "edge_cases",
         "focus": "edge_cases"
       },
       {
-        "original_text": "The complexity of models with multiple interaction terms is high, but no discussion on diagnostics or power considerations is provided.",
-        "improved_version": "Include a brief discussion on model diagnostics (e.g., residual analysis, multicollinearity checks) and power considerations for interaction effects, especially in subgroup analyses.",
-        "explanation": "Supports the validity of complex models and subgroup findings.",
-        "location": "Section 2.5.2",
+        "original_text": "The regression models do not include model diagnostics or assumption checks.",
+        "improved_version": "Add details on residual analysis, tests for heteroscedasticity, multicollinearity (e.g., VIF), and normality of residuals to support model validity.",
+        "explanation": "Strengthens confidence in the statistical findings and ensures assumptions are met.",
+        "location": "Results, pages 12-17",
         "category": "complexity",
         "focus": "complexity"
       },
       {
-        "original_text": "While the analysis code and data are publicly available, detailed documentation on data processing steps and variable coding is lacking.",
-        "improved_version": "Provide comprehensive documentation in the repository, including data dictionaries, code comments, variable coding schemes, and step-by-step analysis scripts, ideally with README files.",
-        "explanation": "Enhances reproducibility and facilitates independent validation.",
-        "location": "Data and code sharing sections",
-        "category": "documentation",
-        "focus": "documentation"
+        "original_text": "While data and code are available, specific documentation on data processing steps and analysis scripts is lacking.",
+        "improved_version": "Provide a detailed README or supplementary documentation describing data preprocessing, variable coding, and analysis pipeline steps, including versioning information.",
+        "explanation": "Enhances transparency, reproducibility, and ease of verification for external researchers.",
+        "location": "Technical documentation, throughout",
+        "category": "documentation"
       },
       {
-        "original_text": "The impact of the intervention on actual long-term behavior change is not discussed.",
-        "improved_version": "Add a discussion on the limitations regarding the sustainability of effects and suggest avenues for future longitudinal or real-world studies to assess long-term impact.",
-        "explanation": "Provides context on the scope and limitations of the current findings, guiding future research.",
-        "location": "Discussion, final paragraph",
-        "category": "completeness",
-        "focus": "completeness"
+        "original_text": "The intervention description lacks detail on how the 'closest' plant-based analogues were selected and how weights were matched when not possible.",
+        "improved_version": "Include a detailed description of the matching algorithm, criteria for 'closeness,' and procedures for handling mismatched weights, possibly with illustrative examples.",
+        "explanation": "Ensures clarity and reproducibility of the recommendation process, which is critical for evaluating technical accuracy.",
+        "location": "Methodology, pages 10-11",
+        "category": "implementation",
+        "focus": "implementation"
       },
       {
-        "original_text": "The presentation of the regression results in tables sometimes lacks explicit mention of model assumptions or diagnostics.",
-        "improved_version": "Include a supplementary table or appendix summarizing model assumptions tests (e.g., residual plots, VIFs) and any steps taken to address violations, such as transformations or robust methods.",
-        "explanation": "Ensures transparency and robustness of statistical conclusions.",
-        "location": "Tables 2, 3, 8-13",
-        "category": "technical_documentation",
-        "focus": "documentation"
+        "original_text": "The impact assessment relies on impact factors (GWP100a) but does not discuss potential variability or uncertainty in these factors.",
+        "improved_version": "Discuss the sources of GWP100a values, their uncertainty ranges, and how variability might influence impact estimates, possibly including sensitivity analyses.",
+        "explanation": "Provides a more nuanced understanding of the impact assessment's robustness and potential limitations.",
+        "location": "Mathematical Framework, pages 8-9",
+        "category": "derivations"
       },
       {
-        "original_text": "The description of the impact assessment methodology refers to [28], but the specific steps, assumptions, and data sources used in impact attribution are not fully elaborated.",
-        "improved_version": "Summarize the key steps, assumptions, and data sources from [28] relevant to impact attribution within this manuscript, or include a schematic diagram of the impact calculation process.",
-        "explanation": "Improves transparency and allows readers to understand the basis of impact estimates without consulting external sources.",
-        "location": "Mathematical Framework, Sections 2.1 and 2.4",
-        "category": "documentation",
-        "focus": "documentation"
+        "original_text": "The models include multiple interaction terms but do not discuss multicollinearity or model stability.",
+        "improved_version": "Perform and report diagnostics such as Variance Inflation Factor (VIF) to assess multicollinearity, and discuss model stability and potential overfitting issues.",
+        "explanation": "Ensures the validity of the regression models and supports accurate interpretation of interaction effects.",
+        "location": "Results, pages 12-17",
+        "category": "complexity"
       },
       {
-        "original_text": "The study discusses the potential for a novelty effect but does not propose methods to measure or control for it.",
-        "improved_version": "Suggest implementing follow-up measures such as repeated measures over time or control groups to assess the persistence of effects, and discuss how to control for novelty bias in future studies.",
-        "explanation": "Addresses potential biases and enhances the validity of behavioral findings.",
-        "location": "Discussion, final sections",
-        "category": "edge_cases",
-        "focus": "edge_cases"
+        "original_text": "The paper states that data and code are publicly available but does not specify the format or provide direct links in the main text.",
+        "improved_version": "Include direct URLs and specify data formats (e.g., CSV, R scripts) in the main text or supplementary materials for easy access and use.",
+        "explanation": "Facilitates external validation and replication efforts, enhancing technical transparency.",
+        "location": "Technical documentation, throughout",
+        "category": "documentation"
       }
     ],
     "detailed_feedback": {
-      "derivation_correctness": "The impact assessment relies on established LCA data and GWP100a values, but the manuscript lacks explicit formulas or detailed steps showing how these data are combined to produce product-specific GHGE estimates. Including detailed derivations or pseudocode would improve transparency.",
-      "algorithm_accuracy": "The statistical models used are standard, but the manuscript does not report diagnostic tests for assumptions such as residual normality, homoscedasticity, or multicollinearity. Incorporating these diagnostics and discussing their results would strengthen confidence in the findings.",
-      "terminology_accuracy": "Terms like 'GHGE reduction' are used broadly; providing precise operational definitions (e.g., percentage decrease relative to baseline) and clarifying how 'climate-friendly' is quantified would improve clarity.",
-      "equation_clarity": "Equations are described narratively but not formatted or numbered, which hampers referencing. Proper formatting with equation numbers and clear notation would enhance readability.",
-      "content_completeness": "Details on how impact data are assigned to products, especially in cases of multi-package swaps, are insufficient. Explicit procedures or algorithms should be provided to ensure reproducibility.",
-      "logical_consistency": "Variables such as 'GHGE reduced' and 'basket GHGE' are used inconsistently. Defining key variables in a dedicated glossary or table would improve internal consistency.",
-      "implementation_details": "The description of the online supermarket interface and how recommendations are presented lacks detail. Including interface schematics or screenshots would clarify the intervention delivery process.",
-      "edge_case_handling": "The manuscript does not specify how participants with no swaps or multiple swaps are handled analytically. Clarifying data inclusion/exclusion criteria and handling of outliers is necessary.",
-      "complexity": "The models include multiple interaction terms, but no discussion of model diagnostics or statistical power for these complex models is provided. Including such information would support the robustness of subgroup analyses.",
-      "technical_documentation": "While data and code are shared publicly, detailed documentation on data processing steps, variable coding, and analysis scripts is missing. Providing comprehensive documentation would facilitate reproducibility."
+      "derivation_correctness": "The impact assessment for GHGE relies on GWP100a values, but the derivation process is only referenced. Explicit formulas for converting GHG emissions to CO2 equivalents, including summation over gases and impact factors, are absent. Including detailed derivations or pseudocode would clarify the methodology and support validation.",
+      "algorithm_accuracy": "The recommendation algorithm is described as selecting the 'closest' plant-based analogue but lacks detailed criteria or pseudocode. Clarifying the matching process, such as based on product weight, nutritional profile, or other features, and how the 'most effective' swap is identified, would improve reproducibility and confidence in the algorithm's correctness.",
+      "terminology_accuracy": "Terms like 'targeted recommendation' and 'GHGE reduction information' are used inconsistently. Defining these terms explicitly at first mention, e.g., 'Targeted Recommendation: highlighting the single most GHGE-impactful swap,' ensures clarity and consistency throughout the manuscript.",
+      "equation_clarity": "Equations describing impact calculations are only summarized in text. Presenting explicit formulas, such as Impact = \u03a3 (GHG_i \u00d7 GWP100a_i), with variable definitions, would improve clarity and facilitate understanding of impact quantification.",
+      "content_completeness": "While regression results are presented, diagnostic measures such as residual plots, R-squared, and tests for multicollinearity are missing. Including these would support the robustness of the statistical analysis and strengthen confidence in the findings.",
+      "logical_consistency": "The discussion suggests targeted recommendations increase the likelihood of selecting the most effective swap but do not significantly reduce overall GHGE. Clarifying whether multiple swaps dilute the effect or if the focus should be on single impactful swaps would improve logical coherence.",
+      "implementation_details": "Details on how the 'closest' plant-based analogues are identified and how weights are matched when exact matches are not possible are insufficient. Providing a step-by-step description or pseudocode would clarify the recommendation process.",
+      "edge_case_handling": "The methodology does not specify how cases where no suitable plant-based analogue exists are handled. Clarifying procedures, such as skipping recommendations or alternative matching criteria, would improve transparency.",
+      "complexity": "Regression models include multiple interaction terms without discussion of assumptions or diagnostics. Including model fit indices and multicollinearity assessments would support the appropriateness of the models.",
+      "technical_documentation": "While data and code are available, detailed documentation on data processing steps, code structure, and analysis scripts is lacking. Supplementary documentation would facilitate external validation and reproducibility."
     },
-    "summary": "Overall, the manuscript demonstrates a solid foundation in applying experimental methods to evaluate dietary impact interventions. However, it would benefit from increased transparency in the derivation of impact data, detailed reporting of statistical diagnostics, clearer definitions of key variables, and thorough documentation. Addressing these issues would elevate the technical rigor and reproducibility of the study, moving it towards an 'excellent' rating. Currently, it is rated as 'average' due to these notable but addressable gaps."
+    "summary": "Overall, the manuscript presents a promising approach to promoting sustainable food choices through product swap recommendations. The experimental design is sound, and the findings are relevant. However, technical accuracy can be significantly improved by providing explicit mathematical derivations, detailed algorithm descriptions, consistent terminology, comprehensive model diagnostics, and thorough documentation. Addressing these issues would elevate the quality and reproducibility of the research, making it more robust and transparent for the scientific community."
   },
   "R4": {
     "data_code_availability_score": 4,
     "critical_remarks": [
       {
         "category": "data_sharing",
-        "location": "Section 'Data Availability' (Paragraph 1)",
-        "issue": "The data is stated as 'publicly available' with a DOI link, but no detailed description of the dataset contents, formats, or access procedures is provided.",
+        "location": "Abstract: Data availability statement",
+        "issue": "The data availability statement states that all data are publicly available on OSF with a DOI link, but it lacks details on the specific datasets, formats, and any accompanying metadata or documentation necessary for reuse.",
         "severity": "medium",
-        "impact": "Limited transparency about the dataset hampers reproducibility and understanding of what data can be accessed, reducing overall research transparency."
+        "impact": "This limits immediate understanding and reuse of the data, reducing transparency and reproducibility."
       },
       {
         "category": "code_availability",
-        "location": "Section 'Code Availability' (Paragraph 2)",
-        "issue": "The code is said to be 'publicly available' with a DOI link, but no information on the programming language, dependencies, or how to replicate the analysis is provided.",
+        "location": "Abstract: Code availability statement",
+        "issue": "The statement indicates all code is publicly available but provides no information about the programming languages, dependencies, or instructions for use.",
         "severity": "medium",
-        "impact": "Lack of detailed code documentation impairs reproducibility and usability by other researchers."
+        "impact": "This hampers reproducibility and ease of reuse by other researchers."
       },
       {
         "category": "documentation",
-        "location": "Throughout the document, especially in 'Methods' and 'Appendix' references",
-        "issue": "There is no comprehensive documentation or README files linked to the data or code repositories that explain how to interpret, run, or analyze the provided resources.",
+        "location": "Throughout the manuscript",
+        "issue": "There is no mention of comprehensive documentation, such as README files, code comments, or user guides accompanying the shared data and code repositories.",
         "severity": "high",
-        "impact": "Inadequate documentation significantly reduces the ability of others to reproduce or build upon the work, affecting transparency."
+        "impact": "Without proper documentation, users may struggle to understand or correctly utilize the shared resources, impairing transparency and reproducibility."
       },
       {
         "category": "restrictions",
-        "location": "Section 'Data and Code Availability' (Paragraph 1)",
-        "issue": "The statement 'publicly available' does not clarify whether access is open or if there are restrictions, such as login requirements or data use agreements.",
+        "location": "Abstract: Data and code availability statements",
+        "issue": "No justification is provided for any access restrictions or limitations, although the statements imply open access.",
         "severity": "low",
-        "impact": "Unclear access restrictions can lead to confusion and hinder open science practices."
+        "impact": "Lack of justification may raise questions about data privacy or proprietary information, affecting trust."
       },
       {
         "category": "reproducibility",
-        "location": "Throughout the methodology and results sections",
-        "issue": "No detailed instructions, environment specifications, or versioning information are provided to enable exact reproduction of analyses.",
+        "location": "Methodology and supplementary materials",
+        "issue": "Details about the exact software environment, dependencies, and versioning are missing, which are critical for reproducing the analysis.",
         "severity": "high",
-        "impact": "Without environment details and step-by-step instructions, reproducing the results is challenging, reducing research transparency."
+        "impact": "This significantly hampers the ability of others to replicate the results accurately."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The study data are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
-        "improved_version": "The dataset, including raw and processed data, is publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes detailed descriptions of each variable, data formats (e.g., CSV, JSON), and instructions for access.",
-        "explanation": "Providing detailed dataset descriptions and formats enhances transparency and helps others understand and utilize the data effectively.",
-        "location": "Section 'Data Availability'",
+        "original_text": "The data availability statement states that all data are publicly available on OSF with a DOI link.",
+        "improved_version": "Specify the exact datasets included, their formats (e.g., CSV, JSON), and any accompanying metadata or codebooks, e.g., 'All anonymized datasets, including raw survey responses, shopping basket data, and GHGE estimates, are available in CSV format with detailed metadata and codebooks on OSF at DOI: ...'.",
+        "explanation": "Providing detailed dataset descriptions facilitates understanding, reuse, and verification of data by other researchers.",
+        "location": "Abstract: Data availability statement",
         "category": "data_sharing",
         "focus": "data_sharing"
       },
       {
-        "original_text": "All code used in the analyses are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
-        "improved_version": "All analysis code, scripts, and workflows are publicly available on the Open Science Framework (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes a README file with instructions on how to run the code, required dependencies (e.g., R, Python versions), and environment setup details.",
-        "explanation": "Including environment setup instructions and dependency details facilitates exact replication of analyses, supporting reproducibility.",
-        "location": "Section 'Code Availability'",
+        "original_text": "All code used in the analyses are publicly available on the OSF project page.",
+        "improved_version": "Include specifics about the code, such as programming language (e.g., R, Python), dependencies, and instructions for execution, e.g., 'All analysis scripts in R, along with necessary dependencies and environment setup instructions, are available at DOI: ...'.",
+        "explanation": "Clear instructions and environment details improve reproducibility and ease of reuse for other researchers.",
+        "location": "Abstract: Code availability statement",
         "category": "code_availability",
         "focus": "code_availability"
       },
       {
-        "original_text": "The study was preregistered and the data of this study are publicly available.",
-        "improved_version": "The study was preregistered (link to preregistration) and the data, along with analysis scripts, are hosted on OSF with version control. A detailed README explains how to reproduce the analysis, including software versions, data processing steps, and analysis commands.",
-        "explanation": "Linking preregistration and providing detailed reproducibility instructions enhances transparency and trustworthiness.",
-        "location": "Section 'Methods' and 'Data and Code Availability'",
+        "original_text": "There is no mention of documentation accompanying shared resources.",
+        "improved_version": "Add a comprehensive README file in the repository that explains the data structure, code organization, dependencies, and step-by-step instructions for reproducing analyses.",
+        "explanation": "Good documentation ensures that users can understand and correctly utilize the shared data and code, enhancing transparency.",
+        "location": "data_code_availability",
         "category": "documentation",
         "focus": "documentation"
       },
       {
-        "original_text": "No detailed documentation or environment specifications are provided.",
-        "improved_version": "The code repository includes comprehensive documentation, including a setup guide, environment specifications (e.g., conda environment.yml or Dockerfile), and step-by-step instructions for reproducing all analyses and figures.",
-        "explanation": "Providing environment specifications ensures that others can replicate the computational environment exactly, improving reproducibility.",
-        "location": "Section 'Code Documentation'",
-        "category": "documentation",
-        "focus": "documentation"
-      },
-      {
-        "original_text": "Access restrictions are not specified beyond 'publicly available'.",
-        "improved_version": "Access to the data and code repositories is open without restrictions. If any restrictions exist (e.g., data privacy concerns), these are clearly stated, along with procedures for requesting access or data use agreements.",
-        "explanation": "Clarifying access restrictions ensures transparency about data openness and legal or ethical constraints.",
-        "location": "Section 'Restrictions Justification'",
+        "original_text": "No justification is provided for access restrictions.",
+        "improved_version": "If any restrictions exist (e.g., privacy concerns), explicitly justify them, e.g., 'Data are anonymized to protect participant privacy, which restricts sharing of raw identifiable information.'",
+        "explanation": "Justifying restrictions maintains transparency and builds trust with users.",
+        "location": "Abstract: Data and code availability statements",
         "category": "restrictions",
         "focus": "restrictions"
       },
       {
-        "original_text": "No detailed instructions for reproducing the analysis are provided.",
-        "improved_version": "The repository includes a detailed reproducibility guide, outlining step-by-step instructions, software requirements, and scripts to reproduce all key results, figures, and tables presented in the paper.",
-        "explanation": "Explicit reproducibility instructions enable other researchers to verify and extend findings, strengthening scientific transparency.",
-        "location": "Section 'Reproducibility Support'",
+        "original_text": "Details about the software environment are missing.",
+        "improved_version": "Provide detailed environment specifications, such as R version, Python version, package versions, and environment setup instructions, e.g., via a Dockerfile or environment.yml file.",
+        "explanation": "This ensures others can replicate the computational environment precisely, supporting reproducibility.",
+        "location": "Methodology or supplementary materials",
         "category": "reproducibility",
         "focus": "reproducibility"
       },
       {
-        "original_text": "The data and code are hosted on OSF with links but lack detailed metadata or environment info.",
-        "improved_version": "The OSF repositories include comprehensive metadata, descriptive README files, environment configuration files (e.g., environment.yml, Dockerfile), and example scripts to facilitate environment setup and analysis reproduction.",
-        "explanation": "Enhanced metadata and environment files improve ease of reproduction and understanding of the computational context.",
-        "location": "Section 'Data and Code Repositories'",
-        "category": "documentation",
-        "focus": "documentation"
+        "original_text": "The manuscript lacks explicit mention of code comments or user guides.",
+        "improved_version": "Ensure that the shared code includes comprehensive inline comments and a user guide or README detailing how to run analyses, interpret outputs, and modify parameters.",
+        "explanation": "Enhanced documentation within code improves usability and reduces barriers to reproduction.",
+        "location": "code_documentation",
+        "category": "documentation"
       },
       {
-        "original_text": "No mention of versioning or updates to data/code is made.",
-        "improved_version": "The data and code repositories include version tags and changelogs documenting updates, corrections, or modifications to ensure transparency about the evolution of shared resources.",
-        "explanation": "Version control allows others to cite specific versions and understand changes over time, supporting reproducibility and transparency.",
-        "location": "Section 'Versioning and Updates'",
-        "category": "documentation",
-        "focus": "documentation"
+        "original_text": "The data and code repositories do not specify access controls or licensing.",
+        "improved_version": "Clearly state the licensing terms (e.g., CC BY, MIT License) and access permissions, e.g., 'Data and code are shared under the MIT License, allowing reuse with attribution.'",
+        "explanation": "Explicit licensing clarifies permissible uses and encourages responsible reuse.",
+        "location": "Abstract or repository README",
+        "category": "restrictions"
       },
       {
-        "original_text": "The paper does not specify whether the data or code are licensed for reuse.",
-        "improved_version": "The data and code are released under open licenses (e.g., CC BY 4.0 for data, MIT License for code), clearly stated in the repositories, enabling reuse and adaptation by others.",
-        "explanation": "Explicit licensing clarifies legal permissions, encouraging reuse and transparency."
+        "original_text": "No mention of version control or updates.",
+        "improved_version": "Use version control tags or release versions in the repository, and document any updates or revisions to ensure transparency over time.",
+        "explanation": "Versioning supports reproducibility and tracking of changes.",
+        "location": "code repository",
+        "category": "reproducibility"
+      },
+      {
+        "original_text": "Lack of detailed methodological steps for data processing and analysis.",
+        "improved_version": "Publish detailed scripts or notebooks that document each step of data cleaning, processing, and analysis, ideally with inline comments and explanations.",
+        "explanation": "This enhances transparency and allows others to follow and verify the analysis pipeline.",
+        "location": "methodology",
+        "category": "documentation"
+      },
+      {
+        "original_text": "No explicit mention of data privacy or participant consent considerations related to data sharing.",
+        "improved_version": "Include a statement clarifying how participant privacy is protected, e.g., 'Data are anonymized and compliant with GDPR, enabling open sharing.'",
+        "explanation": "Addressing privacy concerns reassures users about ethical data sharing practices.",
+        "location": "data sharing",
+        "category": "restrictions"
+      },
+      {
+        "original_text": "The manuscript does not specify if code and data are maintained or updated post-publication.",
+        "improved_version": "State whether the resources will be maintained, updated, or versioned over time, e.g., 'The code repository will be maintained and updated as needed for reproducibility.'",
+        "explanation": "This supports ongoing transparency and usability.",
+        "location": "discussion or conclusion",
+        "category": "reproducibility"
       }
     ],
     "detailed_feedback": {
-      "data_sharing_assessment": "While the data is declared as publicly available via OSF, the lack of detailed descriptions, formats, and access procedures limits transparency. Providing comprehensive dataset metadata, variable descriptions, and access instructions would significantly improve clarity and usability.",
-      "code_availability": "The code is hosted on OSF but lacks detailed documentation, environment specifications, and usage instructions. Including a README, environment setup files, and example scripts would enhance reproducibility and ease of use.",
-      "documentation_completeness": "The current documentation is minimal, primarily referencing repository links. Developing thorough documentation, including setup guides, data dictionaries, and analysis workflows, is essential for enabling others to reproduce and verify results.",
-      "restrictions_justification": "The statement 'publicly available' does not specify whether access is unrestricted or if there are limitations. Clarifying any restrictions, data privacy considerations, or data use agreements is necessary for full transparency.",
-      "reproducibility_support": "The absence of detailed environment specifications, step-by-step instructions, and versioning information hampers reproducibility. Providing comprehensive reproducibility packages and instructions would greatly support independent verification."
+      "data_sharing_assessment": "The manuscript indicates that all data are publicly available via OSF with a DOI, which is positive. However, it lacks detailed descriptions of the datasets, formats, and accompanying metadata necessary for effective reuse. Including comprehensive dataset descriptions, formats, and documentation would significantly improve transparency and usability.",
+      "code_availability": "The code is stated to be publicly available on OSF, but there is no information about the programming language, dependencies, or instructions for execution. Providing detailed environment setup instructions, versioning, and usage guides would enhance reproducibility.",
+      "documentation_completeness": "There is no mention of accompanying documentation such as README files, inline comments, or user guides. Adding comprehensive documentation would facilitate understanding, correct use, and reproduction of analyses.",
+      "restrictions_justification": "The statements imply open access but do not explicitly justify any restrictions, such as privacy or proprietary considerations. Clarifying these justifications would improve transparency and trust.",
+      "reproducibility_support": "Details about the software environment, dependencies, and version control are missing. Including environment specifications, containerization (e.g., Docker), and step-by-step analysis scripts would greatly support reproducibility."
     },
-    "summary": "Overall, the study demonstrates good intentions toward open data and code sharing, but it falls short in providing detailed documentation, environment specifications, and metadata necessary for full transparency and reproducibility. Improving these areas would elevate the research's openness and utility for the scientific community."
+    "summary": "Overall, the manuscript demonstrates good intentions for data and code sharing by hosting resources on OSF, but it falls short in providing detailed descriptions, comprehensive documentation, environment specifications, and clear licensing information. Addressing these issues would elevate the transparency, usability, and reproducibility of the research outputs to an excellent standard."
   },
   "R3": {
     "ethics_compliance_score": 4,
@@ -658,492 +643,478 @@
       {
         "category": "conflicts",
         "location": "Author Contributions & Competing Interests section",
-        "issue": "While the authors declare no competing interests, the study involves environmental impact data and consumer behaviour, which could be influenced by commercial or policy interests. There is limited discussion on potential conflicts related to data sources or industry partnerships.",
-        "severity": "low",
-        "impact": "This minimal disclosure could slightly undermine perceived independence, but overall transparency is maintained."
+        "issue": "While the authors declare no competing interests, the study involves environmental impact data and consumer behaviour, which could be influenced by commercial interests of retailers or environmental organizations. The absence of explicit disclosure of funding sources related to industry or advocacy groups may obscure potential conflicts.",
+        "severity": "medium",
+        "impact": "This could raise concerns about potential bias in the presentation or interpretation of results, affecting research objectivity."
       },
       {
         "category": "privacy",
         "location": "Data collection and participant recruitment sections",
-        "issue": "The study involves online panels and demographic data collection but lacks detailed description of data privacy measures, anonymization procedures, or data storage protocols.",
+        "issue": "Participants' demographic data and food preferences were collected via online panels, but explicit details on data anonymization, storage, and protection protocols are limited.",
         "severity": "medium",
-        "impact": "Insufficient detail on privacy protections could raise concerns about participant confidentiality and data security."
+        "impact": "Insufficient privacy measures may compromise participant confidentiality, reducing trust and compliance with data protection standards."
       },
       {
         "category": "consent",
-        "location": "Methodology section",
-        "issue": "The description mentions initial surveys and informed participation but does not specify whether explicit informed consent was obtained, how consent was documented, or if participants were informed about data use and withdrawal rights.",
+        "location": "Methodology section, paragraph 2.1",
+        "issue": "The description indicates participants were informed about the shopping task and incentives, but lacks explicit mention of detailed informed consent procedures, including information about data use, withdrawal rights, and confidentiality.",
         "severity": "medium",
-        "impact": "Lack of explicit consent procedures could compromise ethical standards for voluntary participation and participant awareness."
+        "impact": "This omission could undermine participants' understanding of their rights and the ethical validity of consent, risking non-compliance with ethical standards."
       },
       {
         "category": "integrity",
-        "location": "Analysis and reporting sections",
-        "issue": "The study includes exploratory analyses and post hoc subgroup analyses, which are appropriately flagged as exploratory, but there is limited discussion on potential biases or how multiple testing was controlled to prevent false positives.",
-        "severity": "low",
-        "impact": "Potential for bias or overinterpretation exists, but transparency in reporting mitigates major concerns."
+        "location": "Results and analysis sections",
+        "issue": "The study includes exploratory analyses on subgroups (daily meat consumers), which are post hoc and not preregistered, potentially increasing the risk of data dredging or selective reporting.",
+        "severity": "high",
+        "impact": "This may compromise research integrity by presenting findings that are not hypothesis-driven, risking misinterpretation or overstatement of effects."
       },
       {
         "category": "guidelines",
-        "location": "Overall manuscript",
-        "issue": "The manuscript references ethical approval and preregistration but does not explicitly state adherence to specific ethical guidelines such as the Declaration of Helsinki or GDPR compliance for data handling.",
+        "location": "General sections, throughout the manuscript",
+        "issue": "While the study was approved by the University of Zurich Ethics Committee and preregistered, there is limited discussion of adherence to international ethical guidelines such as the Declaration of Helsinki or GDPR compliance for data handling.",
         "severity": "low",
-        "impact": "This omission slightly reduces clarity on compliance with international ethical standards."
+        "impact": "Lack of explicit alignment with established ethical frameworks could affect the perceived ethical rigor of the research."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "The study was approved by the University of Zurich Ethics Commission.",
-        "improved_version": "The study received ethical approval from the University of Zurich Ethics Commission, and detailed documentation of this approval is available upon request.",
-        "explanation": "Providing explicit documentation or approval number enhances transparency and allows verification of ethical compliance.",
-        "location": "Methodology section",
+        "improved_version": "The study received ethical approval from the University of Zurich Ethics Committee, which reviewed and confirmed compliance with international ethical standards such as the Declaration of Helsinki and GDPR for data privacy.",
+        "explanation": "Explicitly stating adherence to recognized ethical guidelines enhances transparency and demonstrates comprehensive ethical compliance.",
+        "location": "Introduction, paragraph 2.1",
         "category": "guidelines",
         "focus": "guidelines"
       },
       {
-        "original_text": "The data of this study are publicly available on the Open Science Framework project page.",
-        "improved_version": "The anonymized data collected in this study are stored securely and made publicly available in accordance with GDPR and institutional data privacy policies, with explicit participant consent for data sharing.",
-        "explanation": "Clarifies data privacy measures and confirms compliance with data protection regulations, strengthening ethical standards.",
-        "location": "Data Availability section",
+        "original_text": "Participants were recruited via online panels managed by Prolific.",
+        "improved_version": "Participants were recruited through Prolific, with detailed information provided about data privacy, confidentiality, and voluntary participation, ensuring informed consent aligned with GDPR standards.",
+        "explanation": "Clarifying consent procedures and data privacy measures ensures ethical transparency and participant rights are protected.",
+        "location": "Methodology, paragraph 2.2",
+        "category": "consent",
+        "focus": "consent"
+      },
+      {
+        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a.",
+        "improved_version": "The GHG impact assessment was conducted in accordance with international standards, including transparency about data sources, assumptions, and potential conflicts of interest in environmental data sourcing.",
+        "explanation": "Transparency about data sources and potential conflicts supports research integrity and trustworthiness.",
+        "location": "Methodology, paragraph 2.1",
+        "category": "integrity",
+        "focus": "integrity"
+      },
+      {
+        "original_text": "The study was preregistered and incentive compatible.",
+        "improved_version": "The study was preregistered on the Open Science Framework, with detailed protocols on ethical procedures, and participation was voluntary with explicit informed consent, including rights to withdraw at any time without penalty.",
+        "explanation": "Explicitly linking preregistration and consent procedures emphasizes adherence to research standards and participant autonomy.",
+        "location": "Methodology, paragraph 2.1",
+        "category": "consent",
+        "focus": "consent"
+      },
+      {
+        "original_text": "Participants\u2019 demographic data and food preferences were collected, but explicit details on data anonymization are limited.",
+        "improved_version": "All participant data were anonymized and stored securely in compliance with GDPR, with access restricted to authorized personnel, and data handling procedures documented in the ethics approval documentation.",
+        "explanation": "Explicit privacy measures ensure data protection and compliance with legal standards, fostering trust.",
+        "location": "Data collection, paragraph 2.2",
         "category": "privacy",
         "focus": "privacy"
       },
       {
-        "original_text": "Participants were informed about the shopping task and the online supermarket.",
-        "improved_version": "Participants provided explicit informed consent after being thoroughly informed about the purpose of the study, data collection procedures, potential risks, their rights to withdraw at any time, and data confidentiality measures, prior to participation.",
-        "explanation": "Ensures adherence to ethical standards for informed consent, enhancing participant autonomy and transparency.",
-        "location": "Methodology section",
-        "category": "consent",
-        "focus": "consent"
+        "original_text": "Post hoc analyses on subgroups were conducted, which are exploratory.",
+        "improved_version": "All analyses, including subgroup explorations, were transparently labeled as exploratory and interpreted cautiously, with plans for future preregistered confirmatory studies to validate these findings.",
+        "explanation": "Clarifying the exploratory nature preserves research integrity and prevents overinterpretation.",
+        "location": "Results and discussion sections",
+        "category": "integrity",
+        "focus": "integrity"
       },
       {
-        "original_text": "The study involved online panels managed by Prolific.",
-        "improved_version": "Participants recruited via Prolific provided informed consent through an online consent form that detailed data privacy, voluntary participation, and withdrawal rights, in compliance with GDPR and institutional guidelines.",
-        "explanation": "Explicit consent process aligns with ethical standards for online research and data privacy.",
-        "location": "Participants section",
-        "category": "consent",
-        "focus": "consent"
-      },
-      {
-        "original_text": "The intervention consisted of product swap recommendations with explanations.",
-        "improved_version": "Prior to participation, participants received comprehensive information about the nature of the intervention, including the purpose, data collection, confidentiality, and their right to withdraw without penalty, ensuring voluntary and informed participation.",
-        "explanation": "Enhances ethical transparency and participant understanding.",
-        "location": "Methodology section",
-        "category": "consent",
-        "focus": "consent"
-      },
-      {
-        "original_text": "The study was incentive compatible with monetary compensation.",
-        "improved_version": "Participants were informed that their participation was voluntary, and compensation was provided in accordance with institutional guidelines, with clear information about the amount and conditions, ensuring no undue influence.",
-        "explanation": "Clarifies voluntary participation and ethical compensation practices.",
-        "location": "Methodology section",
+        "original_text": "The intervention involved product swap recommendations with environmental impact data.",
+        "improved_version": "The intervention included detailed information on the environmental impact of food choices, with data sourced from validated LCAs, and participants were informed about the data's limitations and potential conflicts of interest.",
+        "explanation": "Transparency about data sources and limitations aligns with ethical standards and supports informed decision-making.",
+        "location": "Methodology, paragraph 2.3",
         "category": "guidelines",
         "focus": "guidelines"
       },
       {
-        "original_text": "The study involved a simulated online supermarket environment.",
-        "improved_version": "The simulated environment was designed to mimic real-world shopping, and participants were debriefed about the simulated nature of the task after completion, ensuring transparency and debriefing in line with ethical standards.",
-        "explanation": "Addresses transparency and participant debriefing, supporting research integrity.",
-        "location": "Discussion section",
-        "category": "integrity",
-        "focus": "integrity"
+        "original_text": "The study involved online simulated shopping with incentives.",
+        "improved_version": "Participants provided informed consent after receiving comprehensive information about the study purpose, data handling, potential risks, and their right to withdraw, in accordance with ethical guidelines and GDPR.",
+        "explanation": "Explicit consent procedures ensure ethical compliance and respect for participant autonomy.",
+        "location": "Methodology, paragraph 2.1",
+        "category": "consent",
+        "focus": "consent"
       },
       {
-        "original_text": "The study includes multiple regression analyses with covariates.",
-        "improved_version": "All analyses were pre-registered, and multiple testing corrections (e.g., Bonferroni or FDR) were applied where appropriate to control for false positives, ensuring research integrity.",
-        "explanation": "Applying statistical corrections and pre-registration enhances research validity.",
-        "location": "Analysis section",
-        "category": "integrity",
-        "focus": "integrity"
-      },
-      {
-        "original_text": "The study reports no conflicts of interest.",
-        "improved_version": "The authors declare no conflicts of interest, and any potential funding sources or affiliations that could be perceived as influencing the research are transparently disclosed.",
-        "explanation": "Full disclosure of funding and affiliations strengthens transparency and trust.",
-        "location": "Competing Interests section",
+        "original_text": "The authors declare no competing interests.",
+        "improved_version": "The authors declare no financial or personal conflicts of interest related to the environmental impact data sources, retail partnerships, or funding bodies, which are disclosed in detail in the funding statement.",
+        "explanation": "Explicit conflict of interest disclosure enhances transparency and trustworthiness.",
+        "location": "Author contributions & competing interests",
         "category": "conflicts",
         "focus": "conflicts"
       },
       {
-        "original_text": "The study involves data collection from participants' shopping baskets and survey responses.",
-        "improved_version": "Data collected from participants\u2019 shopping baskets and surveys were anonymized, stored securely, and used solely for research purposes, in compliance with GDPR and institutional data management policies.",
-        "explanation": "Explicit privacy measures ensure confidentiality and ethical data handling.",
-        "location": "Data collection section",
+        "original_text": "The study's data and code are publicly available.",
+        "improved_version": "All data and analysis code are publicly available on the Open Science Framework, with appropriate anonymization and documentation to ensure participant confidentiality and reproducibility, in compliance with data protection standards.",
+        "explanation": "Ensuring data sharing aligns with ethical standards while protecting participant privacy.",
+        "location": "Data availability",
         "category": "privacy",
         "focus": "privacy"
       },
       {
-        "original_text": "The study involved post hoc exploratory subgroup analyses.",
-        "improved_version": "All subgroup analyses were pre-registered or clearly flagged as exploratory, with appropriate caution in interpretation, to prevent data dredging and maintain research integrity.",
-        "explanation": "Transparency about exploratory analyses preserves research standards.",
-        "location": "Analysis section",
-        "category": "integrity",
-        "focus": "integrity"
-      },
-      {
-        "original_text": "The manuscript references ethical approval but does not specify adherence to specific guidelines.",
-        "improved_version": "The research was conducted in accordance with the Declaration of Helsinki, GDPR, and institutional ethical standards, with detailed documentation available upon request.",
-        "explanation": "Explicitly stating adherence to recognized guidelines clarifies compliance.",
-        "location": "Introduction or Ethical considerations section",
+        "original_text": "The study discusses potential limitations but does not explicitly address long-term ethical implications.",
+        "improved_version": "The discussion includes considerations of long-term ethical implications, such as potential impacts on consumer autonomy, data privacy, and the risk of unintended behavioral consequences, with recommendations for ongoing ethical oversight in future implementations.",
+        "explanation": "Addressing broader ethical implications demonstrates comprehensive ethical awareness.",
+        "location": "Discussion section",
         "category": "guidelines",
         "focus": "guidelines"
       }
     ],
     "detailed_feedback": {
-      "conflicts_assessment": "The manuscript states that all authors declare no competing interests, but it would benefit from explicit disclosure of funding sources, industry partnerships, or affiliations that could influence the research. Transparency in potential conflicts enhances trust and research integrity.",
-      "privacy_compliance": "While participant data collection is described, the manuscript lacks detailed information on data privacy measures, anonymization procedures, and storage protocols. Clarifying these aspects ensures compliance with GDPR and reassures participants about confidentiality.",
-      "consent_procedures": "The procedures for obtaining informed consent are not explicitly detailed. Clear documentation that participants provided explicit, informed consent after understanding the study\u2019s purpose, data use, and their rights is essential for ethical standards.",
-      "research_integrity": "The study employs pre-registered analyses and reports exploratory subgroup analyses transparently. However, it should specify whether multiple testing corrections were applied and whether analyses were pre-registered to prevent bias and uphold research integrity.",
-      "guidelines_adherence": "The manuscript mentions ethical approval but does not specify adherence to international guidelines such as the Declaration of Helsinki or GDPR. Explicit statements about compliance with these standards would strengthen ethical rigor."
+      "conflicts_assessment": "The manuscript states that authors declare no competing interests, but it would benefit from explicit disclosure of funding sources, potential industry ties, or advocacy group influences related to environmental data or retail partnerships. This transparency is essential to assess potential biases and uphold research integrity.",
+      "privacy_compliance": "While participant recruitment and data collection are described, the manuscript lacks detailed procedures on data anonymization, secure storage, and compliance with GDPR. Explicitly stating these measures is crucial to ensure participant confidentiality and adherence to legal standards.",
+      "consent_procedures": "The methods mention informing participants about the shopping task and incentives but do not specify how informed consent was obtained, including details about data use, withdrawal rights, and confidentiality. Clear documentation of consent procedures is necessary for ethical compliance.",
+      "research_integrity": "The inclusion of post hoc exploratory analyses on subgroups, while informative, should be clearly labeled as exploratory and interpreted cautiously to prevent overstatement. Transparency about preregistration and analysis plans supports research integrity.",
+      "guidelines_adherence": "The study mentions ethics approval and preregistration but does not explicitly reference adherence to international ethical guidelines such as the Declaration of Helsinki or GDPR. Explicit acknowledgment of these standards would strengthen the ethical rigor of the research."
     },
-    "summary": "Overall, the study demonstrates good adherence to research standards with ethical approval, transparency in analysis, and incentive-compatible design. However, it would benefit from more explicit disclosures regarding data privacy measures, informed consent procedures, and adherence to international ethical guidelines. Addressing these areas would elevate the ethical robustness and transparency of the research, moving towards an excellent standard."
+    "summary": "Overall, the study demonstrates good adherence to research standards with ethical approval, preregistration, and transparent data sharing. However, it would benefit from more explicit disclosures regarding conflicts of interest, detailed privacy and consent procedures, and alignment with international ethical guidelines. Addressing these areas would elevate the ethical robustness and transparency of the research, aligning it with best practices in human subjects research."
   },
   "R2": {
     "impact_significance_score": 4,
     "critical_remarks": [
       {
         "category": "field_influence",
-        "location": "Abstract and Results sections",
-        "issue": "The study reports that targeted recommendations increased the likelihood of selecting the most effective GHGE-reducing swap but did not significantly lower overall basket GHGE for most participants, which may limit perceived influence on the field.",
+        "location": "Abstract and Introduction",
+        "issue": "While the study demonstrates promising results for specific product swap recommendations, the experimental setting's artificial nature and limited demographic scope may restrict the generalizability of findings to real-world diverse populations.",
         "severity": "medium",
-        "impact": "This could temper the perceived impact of the intervention strategies on actual climate-related outcomes, potentially affecting future adoption and research focus."
+        "impact": "This limits the immediate influence of the research on broad dietary and environmental policy changes, as real-world consumer behaviors may differ."
       },
       {
         "category": "implications",
-        "location": "Discussion section",
-        "issue": "The findings suggest that simple product swaps are effective for most consumers, but the limited effect of targeted recommendations and GHGE info on overall reductions indicates a need for broader or more integrated strategies.",
+        "location": "Discussion",
+        "issue": "The study emphasizes the importance of targeted interventions but does not sufficiently address potential long-term sustainability or behavioral habituation effects, which are critical for policy and practical applications.",
         "severity": "high",
-        "impact": "This limits the broader implications for policy and retail strategies, requiring further research into multi-faceted interventions."
+        "impact": "This oversight could overstate the practical significance of the findings without understanding durability over time."
       },
       {
         "category": "future_research",
-        "location": "Introduction and Discussion sections",
-        "issue": "The exploratory analyses on daily meat consumers are post hoc and not preregistered, which reduces the robustness of conclusions about high-impact consumers.",
+        "location": "Methodology and Results",
+        "issue": "The exploratory subgroup analyses on daily meat consumers, while insightful, are post hoc and not preregistered, which raises concerns about potential bias and reduces confidence in these specific conclusions.",
         "severity": "high",
-        "impact": "This weakens the potential for future research to build confidently on these findings without further confirmatory studies."
+        "impact": "This diminishes the strength of the evidence for targeted strategies among high-impact consumers, necessitating further confirmatory studies."
       },
       {
         "category": "applications",
-        "location": "Discussion section",
-        "issue": "The intervention\u2019s scalability and real-world applicability are discussed but lack detailed operational guidance, especially regarding data requirements for GHGE impact and product matching.",
+        "location": "Discussion and Conclusion",
+        "issue": "The intervention relies heavily on online, digital interfaces and assumes consumer access and literacy, which may not translate directly to offline or lower-income populations with limited digital access.",
         "severity": "medium",
-        "impact": "This could hinder practical implementation and limit the immediate application of findings in retail environments."
+        "impact": "This restricts the immediate scalability and applicability of the intervention in diverse retail environments."
       },
       {
         "category": "policy",
-        "location": "Conclusion section",
-        "issue": "The policy implications are somewhat generic, emphasizing product swaps without addressing regulatory or incentive structures that could sustain behavior change.",
+        "location": "Conclusion",
+        "issue": "The study advocates for simple product swaps but does not sufficiently consider regulatory or supply chain constraints that could hinder the widespread implementation of such recommendations.",
         "severity": "medium",
-        "impact": "This limits the potential policy influence and may reduce the urgency or clarity of policy recommendations."
+        "impact": "This could delay or complicate policy adoption and retail integration of the proposed strategies."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
-        "improved_version": "Expand the discussion to include how these recommendations could be integrated into real-world retail platforms, emphasizing scalability and operational feasibility.",
-        "explanation": "This enhances the practical relevance and impact on future applications by linking experimental findings to real-world implementation.",
-        "location": "Abstract",
-        "category": "applications",
-        "focus": "applications"
-      },
-      {
-        "original_text": "Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
-        "improved_version": "Highlight the potential cumulative impact of multiple swaps over time and across populations, emphasizing how small individual changes can aggregate into significant environmental benefits.",
-        "explanation": "This broadens the perceived significance and influence of the findings on the field and policy by framing individual actions as part of larger systemic change.",
-        "location": "Results section",
-        "category": "field_influence",
-        "focus": "field_influence"
-      },
-      {
-        "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-        "improved_version": "Discuss potential reasons for the limited overall impact, such as multiple swaps diluting effects, and propose future research to optimize intervention design for greater effectiveness.",
-        "explanation": "This clarifies the limitations and guides future research directions, strengthening the study\u2019s contribution to the field.",
-        "location": "Discussion",
-        "category": "future_research",
-        "focus": "future_research"
-      },
-      {
-        "original_text": "Providing consumers with information about the environmental impact of their food choices is a key intervention.",
-        "improved_version": "Recommend integrating environmental impact labels with other behavioral nudges, such as social norms or financial incentives, to enhance effectiveness.",
-        "explanation": "This expands practical applications and policy relevance by suggesting multi-component strategies for greater impact.",
-        "location": "Discussion",
-        "category": "applications",
-        "focus": "applications"
-      },
-      {
-        "original_text": "Our findings suggest that simply offering specific and actionable product swaps is sufficient to achieve meaningful GHGE reductions for most consumers.",
-        "improved_version": "Add a caveat that long-term adherence and behavioral sustainability require ongoing engagement strategies, and recommend longitudinal studies.",
-        "explanation": "This improves the robustness and policy implications by emphasizing sustainability and ongoing influence.",
-        "location": "Conclusion",
-        "category": "policy",
-        "focus": "policy"
-      },
-      {
-        "original_text": "The intervention was incentive-compatible and conducted in a realistic shopping environment modeled on a major German retailer\u2019s product portfolio.",
-        "improved_version": "Include discussion on how to adapt the intervention for diverse retail contexts and cultural settings to enhance generalizability.",
-        "explanation": "This broadens the scope and impact potential across different markets and informs future research and policy adaptation.",
-        "location": "Methodology",
-        "category": "applications",
-        "focus": "applications"
-      },
-      {
-        "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-        "improved_version": "Suggest strategies to maintain engagement over time, such as personalized recommendations or gamification, to sustain impact.",
-        "explanation": "This enhances future research and practical applications for long-term behavior change.",
-        "location": "Results",
-        "category": "future_research",
-        "focus": "future_research"
-      },
-      {
-        "original_text": "The study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
-        "improved_version": "Recommend expanding the scope to include multiple environmental metrics, making the findings more comprehensive and policy-relevant.",
-        "explanation": "This increases the significance and policy impact by aligning with broader sustainability goals.",
-        "location": "Discussion",
-        "category": "implications",
-        "focus": "implications"
-      },
-      {
-        "original_text": "The sample was restricted to German-speaking, non-vegan/non-vegetarian participants, limiting generalizability.",
-        "improved_version": "Propose future studies with more diverse, international, and dietary-restricted populations to enhance generalizability and policy relevance.",
-        "explanation": "This broadens the impact and applicability of the research across different demographic and cultural contexts.",
+        "original_text": "While prior research has focused on simulating the impact of targeted dietary changes, there is limited evidence on whether consumers will adopt such changes when presented with targeted recommendations.",
+        "improved_version": "Enhance the discussion by explicitly acknowledging the need for longitudinal, real-world studies to validate whether consumers adopt targeted recommendations outside experimental settings.",
+        "explanation": "This clarifies the current evidence gap and emphasizes the importance of future validation, strengthening the research's practical impact.",
         "location": "Introduction",
         "category": "future_research",
         "focus": "future_research"
       },
       {
-        "original_text": "The intervention\u2019s simplicity makes it highly feasible for online retail platforms.",
-        "improved_version": "Provide detailed operational guidelines and technological requirements for retail implementation, including data needs for GHGE impact calculations.",
-        "explanation": "This enhances practical applications and policy recommendations by facilitating real-world deployment.",
+        "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+        "improved_version": "Include a detailed analysis of potential barriers to sustained engagement, such as taste preferences, cultural factors, and economic constraints, to provide a more comprehensive understanding of real-world applicability.",
+        "explanation": "Addressing barriers enhances the relevance of findings for policy and practical implementation, making recommendations more actionable.",
+        "location": "Results",
+        "category": "applications",
+        "focus": "applications"
+      },
+      {
+        "original_text": "The study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
+        "improved_version": "Expand the scope to include multiple environmental impact metrics, such as water footprint and biodiversity, to provide a holistic assessment of sustainability benefits.",
+        "explanation": "This broadens the significance of the findings, making them more compelling for policy and retail strategies aiming for comprehensive sustainability.",
+        "location": "Discussion",
+        "category": "implications",
+        "focus": "implications"
+      },
+      {
+        "original_text": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalizability.",
+        "improved_version": "Recommend future studies with more diverse, representative samples across different demographics, cultures, and dietary patterns to enhance external validity.",
+        "explanation": "This improves the research's impact by guiding subsequent research to strengthen the evidence base for varied populations.",
+        "location": "Methodology",
+        "category": "future_research",
+        "focus": "future_research"
+      },
+      {
+        "original_text": "Providing consumers with information about the environmental impact of their food choices is a key intervention.",
+        "improved_version": "Integrate behavioral nudges, social norm messaging, and financial incentives alongside informational strategies to evaluate synergistic effects on behavior change.",
+        "explanation": "This enhances practical applications and policy relevance by exploring multi-faceted intervention approaches.",
         "location": "Discussion",
         "category": "applications",
         "focus": "applications"
       },
       {
-        "original_text": "The high effectiveness of basic product swap recommendations observed in this study may be partially driven by a novelty effect.",
-        "improved_version": "Suggest conducting longitudinal studies to assess the durability of effects and account for potential novelty decay over time.",
-        "explanation": "This strengthens future research plans and policy implications by emphasizing sustainability of behavior change.",
+        "original_text": "The intervention relies on access to reliable environmental impact data, which can be difficult to obtain and verify.",
+        "improved_version": "Develop standardized, transparent, and publicly accessible environmental impact labeling systems to facilitate scalable implementation.",
+        "explanation": "This directly addresses policy and practical barriers, making the intervention more feasible at scale.",
+        "location": "Applications",
+        "category": "policy",
+        "focus": "policy"
+      },
+      {
+        "original_text": "The study demonstrates that providing consumers with specific and actionable product swap recommendations is effective.",
+        "improved_version": "Add a discussion on how integrating these recommendations into existing retail platforms and mobile apps can maximize reach and long-term engagement.",
+        "explanation": "This links the findings to scalable, real-world applications, boosting their policy and industry relevance.",
+        "location": "Conclusion",
+        "category": "applications",
+        "focus": "applications"
+      },
+      {
+        "original_text": "Targeted recommendations did not significantly impact overall GHGE reduction but increased the uptake of the most effective swap.",
+        "improved_version": "Suggest future research to optimize the presentation and framing of targeted recommendations to enhance their influence on total GHGE reduction over time.",
+        "explanation": "This guides future research to refine intervention design for greater impact, increasing the significance of the findings.",
         "location": "Discussion",
         "category": "future_research",
         "focus": "future_research"
       },
       {
-        "original_text": "The findings on high meat consumers suggest that GHGE reduction info can significantly influence their behavior.",
-        "improved_version": "Recommend targeted interventions combining GHGE info with motivational and nutritional guidance tailored for high-impact consumers.",
-        "explanation": "This enhances practical applications and policy strategies aimed at critical demographic groups.",
+        "original_text": "The high engagement might be driven by a novelty effect, which could diminish over time.",
+        "improved_version": "Propose longitudinal field studies to assess the durability of intervention effects and potential habituation or fatigue effects.",
+        "explanation": "This emphasizes the importance of understanding long-term sustainability, crucial for policy and practical adoption.",
+        "location": "Discussion",
+        "category": "future_research",
+        "focus": "future_research"
+      },
+      {
+        "original_text": "The intervention's success depends on consumer digital literacy and access.",
+        "improved_version": "Recommend designing offline or hybrid intervention strategies, such as in-store prompts or printed materials, to reach populations with limited digital access.",
+        "explanation": "This broadens the applicability and policy relevance of the intervention, ensuring inclusivity.",
+        "location": "Applications",
+        "category": "applications",
+        "focus": "applications"
+      },
+      {
+        "original_text": "The study did not account for nutritional aspects of the swaps.",
+        "improved_version": "Incorporate nutritional quality assessments into swap recommendations to ensure healthfulness alongside environmental benefits.",
+        "explanation": "This enhances the practical and policy impact by aligning sustainability with health, increasing consumer acceptance.",
         "location": "Discussion",
         "category": "applications",
         "focus": "applications"
       },
       {
-        "original_text": "The study demonstrates that providing consumers with specific and actionable product swap recommendations is an effective strategy.",
-        "improved_version": "Frame this as part of a comprehensive policy toolkit, including education, labeling, and incentives, to maximize impact.",
-        "explanation": "This elevates the significance and policy relevance by positioning the intervention within broader systemic strategies.",
+        "original_text": "The findings are based on an experimental online environment, which may differ from real-world shopping behavior.",
+        "improved_version": "Encourage subsequent field trials in actual retail settings to validate and extend the experimental findings.",
+        "explanation": "This strengthens the research's real-world relevance and policy impact.",
         "location": "Conclusion",
-        "category": "policy",
-        "focus": "policy"
-      },
-      {
-        "original_text": "The intervention's success depends on access to reliable environmental impact data, which can be difficult to obtain and verify.",
-        "improved_version": "Discuss potential collaborations with environmental agencies and industry to improve data transparency and accuracy for scalable interventions.",
-        "explanation": "This enhances policy and practical implications by addressing data challenges and proposing solutions.",
-        "location": "Discussion",
-        "category": "applications",
-        "focus": "applications"
+        "category": "future_research",
+        "focus": "future_research"
       }
     ],
     "detailed_feedback": {
-      "field_influence": "This research advances the understanding of how specific, actionable product recommendations influence consumer behavior in a simulated environment, providing a foundation for scalable interventions. However, the limited impact on overall GHGE reduction suggests that future work should explore multi-component strategies to amplify influence.",
-      "broader_implications": "The findings imply that simple product swaps can significantly reduce individual dietary carbon footprints, supporting policy initiatives that promote transparency and choice architecture in retail. Nonetheless, the modest effects highlight the need for integrated policies that combine behavioral nudges with structural incentives.",
-      "future_research_impact": "Further studies should focus on long-term adherence, real-world implementation, and diverse populations. Confirmatory research on high-impact groups, such as daily meat consumers, is crucial to tailor interventions that can achieve systemic change.",
-      "practical_applications": "Retailers can implement product swap prompts with minimal technological adjustments, making this a feasible intervention. Combining swap recommendations with educational campaigns and incentives could enhance sustained behavior change and environmental impact.",
-      "policy_implications": "Policymakers should consider supporting data infrastructure for environmental impact assessments, integrating product labeling, and incentivizing sustainable choices. The current evidence supports incremental policy measures, but comprehensive strategies are necessary for substantial climate mitigation."
+      "field_influence": "This research advances the understanding of how specific, actionable product swap recommendations can influence consumer behavior in a controlled online environment, highlighting potential pathways for scalable interventions in retail settings. However, the artificial nature of the experiment and demographic limitations suggest caution in extrapolating these findings broadly without further validation.",
+      "broader_implications": "The study underscores that simple, targeted interventions can significantly reduce household food-related GHGE, offering a practical approach for retailers and policymakers. Integrating environmental impact data into consumer decision-making could catalyze shifts towards more sustainable diets, but long-term effects and inclusivity remain to be addressed.",
+      "future_research_impact": "Future studies should focus on longitudinal, real-world trials across diverse populations to assess the durability of behavior change. Investigating multi-component interventions and integrating nutritional and socio-cultural factors will be essential to develop comprehensive strategies for sustainable food systems.",
+      "practical_applications": "The findings support implementing real-time, specific product swap prompts in online and physical retail environments. Developing standardized impact labeling and integrating these strategies into existing digital platforms can facilitate widespread adoption. Tailoring interventions for high-impact consumers, such as daily meat eaters, using environmental information, shows promise for maximizing environmental benefits.",
+      "policy_implications": "Policymakers could promote transparency in environmental impact data and incentivize retailers to incorporate such information into shopping interfaces. Regulations supporting standardized sustainability labels and incentivizing product reformulation could enhance the scalability and effectiveness of these interventions, contributing to climate targets."
     },
-    "summary": "This study provides valuable insights into consumer responses to climate-friendly food choice interventions in an experimental setting. While the core strategy of specific product swaps shows promise, limitations in overall impact and generalizability suggest that future research and policy should adopt multi-faceted, long-term approaches. The findings lay a solid groundwork for scalable retail and policy initiatives, with particular attention needed for high-impact consumer segments."
+    "summary": "This study offers valuable insights into the potential of targeted, specific product swap recommendations to promote sustainable food choices, especially among high-impact consumers. While the experimental results are promising, addressing limitations related to generalizability, long-term effects, and multi-dimensional sustainability considerations will be crucial for translating these findings into effective policies and scalable retail strategies. Overall, the research significantly contributes to the field but requires further validation and expansion to maximize its real-world impact."
   },
   "R5": {
     "statistical_rigor_score": 3,
     "critical_remarks": [
       {
         "category": "test_selection",
-        "location": "Methodology: 2.5 Statistical analysis",
-        "issue": "The primary outcome, percentage GHGE reduction, is analyzed using multiple linear regression without explicit mention of whether the assumptions for linear regression (normality, homoscedasticity, linearity) were verified, especially given the bounded nature of percentage data (0-100%).",
+        "location": "Methodology: Statistical methods description",
+        "issue": "The primary analysis employs multiple linear regression for the percentage GHGE reduction, which is bounded between 0 and 100%. This may violate assumptions of normality and homoscedasticity, especially if the data are skewed or have ceiling/floor effects.",
         "severity": "medium",
-        "impact": "Potential violation of regression assumptions could bias estimates and invalidate p-values, undermining the validity of conclusions."
+        "impact": "Potential bias and invalid inference due to violation of regression assumptions, leading to unreliable p-values and confidence intervals."
       },
       {
         "category": "assumptions",
         "location": "Data Preparation: Assumption checks, data cleaning",
-        "issue": "There is no explicit mention of assumption verification for the regression models, such as residual analysis, tests for multicollinearity, or checks for outliers and influential points.",
-        "severity": "medium",
-        "impact": "Unverified assumptions may lead to unreliable estimates, incorrect significance testing, and misinterpretation of results."
+        "issue": "There is no explicit mention of assumption verification for the regression models, such as tests for normality, homoscedasticity, multicollinearity, or independence of residuals.",
+        "severity": "high",
+        "impact": "Unverified assumptions can undermine the validity of the regression results, increasing the risk of Type I or Type II errors."
       },
       {
         "category": "sample_size",
-        "location": "Participants: 2.2 Participants",
-        "issue": "Sample size calculation is based on detecting a small effect size (f2=0.02) with 3 predictors, but the actual effect sizes observed, especially for primary outcomes, are very small or non-significant, raising questions about whether the study was sufficiently powered for secondary or subgroup analyses.",
-        "severity": "low",
-        "impact": "While the initial sample size justification is appropriate, the lack of power analysis for subgroup and exploratory analyses limits confidence in these findings."
+        "location": "Participants section",
+        "issue": "Sample size calculation is based on detecting a small effect size (f2=0.02) with 3 predictors, but no detailed power analysis for subgroup analyses (e.g., daily meat consumers) is provided.",
+        "severity": "medium",
+        "impact": "Limited power to detect effects in subgroup analyses, risking false negatives and reduced robustness of conclusions."
       },
       {
         "category": "multiple_comparisons",
-        "location": "Analysis: 2.5.1 Preregistered analyses",
-        "issue": "Multiple regression models and numerous subgroup analyses are conducted without mention of correction for multiple testing (e.g., Bonferroni, FDR).",
-        "severity": "medium",
-        "impact": "Increased risk of Type I errors, leading to false positives and overstated significance of some findings."
+        "location": "Analysis: Regression analyses and exploratory tests",
+        "issue": "Multiple hypotheses are tested without mention of correction procedures (e.g., Bonferroni, Holm) to control for inflated Type I error rate.",
+        "severity": "high",
+        "impact": "Increased likelihood of false-positive findings, compromising the overall validity of the results."
       },
       {
         "category": "effect_size",
-        "location": "Results: 3.1 Main analyses",
-        "issue": "Effect sizes (e.g., \u03b2 coefficients) are reported, but their practical significance is not discussed, and some effects (e.g., Targeted treatment on GHGE reduction) are small and statistically non-significant.",
-        "severity": "low",
-        "impact": "Lack of contextualization of effect sizes limits understanding of real-world relevance."
+        "location": "Results: Regression results",
+        "issue": "Effect sizes are reported as beta coefficients and odds ratios, but there is limited discussion on the practical significance or magnitude of these effects.",
+        "severity": "medium",
+        "impact": "Lack of contextualization of effect sizes hampers interpretation of the real-world relevance of findings."
       },
       {
         "category": "confidence_intervals",
-        "location": "Results: Tables 2, 3, 12, 13",
-        "issue": "Confidence intervals are not provided alongside point estimates, which would better illustrate the precision and uncertainty of the estimates.",
-        "severity": "low",
-        "impact": "Absence of CIs hampers assessment of estimate reliability and the robustness of conclusions."
+        "location": "Results: Regression tables",
+        "issue": "Confidence intervals are not provided alongside p-values and point estimates, limiting assessment of estimate precision.",
+        "severity": "medium",
+        "impact": "Reduces transparency and interpretability of the statistical estimates, hindering assessment of reliability."
       },
       {
-        "category": "p_value_interpretation",
-        "location": "Analysis: 2.5.1 Preregistered analyses",
-        "issue": "P-values are used as the primary criterion for significance, but the discussion sometimes overstates findings without considering effect sizes or confidence intervals, risking misinterpretation of 'significance' as practical importance.",
-        "severity": "low",
-        "impact": "Potential overemphasis on p-values may lead to misleading conclusions about intervention effects."
+        "category": "p_value",
+        "location": "Analysis: Regression analyses",
+        "issue": "P-values are used as the primary criterion for significance without mention of effect sizes or confidence intervals, risking overemphasis on statistical significance over practical relevance.",
+        "severity": "medium",
+        "impact": "May lead to misinterpretation of results, especially in large samples where small effects can be statistically significant."
       },
       {
         "category": "power",
-        "location": "Participants: 2.2 Participants",
-        "issue": "While the initial power calculation is appropriate, the actual effect sizes observed are small, and the study may be underpowered for detecting subtle effects or interactions, especially in subgroup analyses.",
+        "location": "Participants section",
+        "issue": "While initial power calculations are described, no post hoc power analysis or discussion of power for subgroup analyses is included.",
         "severity": "low",
-        "impact": "Limited power reduces confidence in null findings and increases the risk of Type II errors."
+        "impact": "Limited understanding of the study\u2019s ability to detect true effects in specific subgroups, potentially affecting conclusions."
       },
       {
         "category": "missing_data",
-        "location": "Participants: 2.2 Participants",
-        "issue": "Missing data handling is briefly mentioned (exclusion of non-completers), but no detailed description of how missing data within variables was addressed or whether imputation was considered.",
-        "severity": "low",
-        "impact": "Potential bias if missing data are not missing completely at random, affecting validity."
+        "location": "Participants section",
+        "issue": "Missing data handling is not explicitly described; exclusions are based on non-completion or failing attention checks, but no imputation or sensitivity analyses are mentioned.",
+        "severity": "medium",
+        "impact": "Potential bias if missingness is systematic, affecting the validity of the results."
       },
       {
         "category": "outliers",
-        "location": "Data Preparation: assumption checks",
-        "issue": "No explicit mention of outlier detection or treatment procedures (e.g., residual analysis, influence diagnostics).",
+        "location": "Data analysis",
+        "issue": "There is no mention of outlier detection or treatment procedures, which could influence regression estimates, especially with percentage data and count variables.",
         "severity": "medium",
-        "impact": "Outliers can distort regression estimates and inflate Type I/II error rates."
+        "impact": "Outliers could skew results and inflate variance estimates, reducing statistical accuracy."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The regression model for percentage GHGE reduction does not mention assumption verification.",
-        "improved_version": "Include residual diagnostics such as plots of residuals versus fitted values, tests for normality (e.g., Shapiro-Wilk), and checks for heteroscedasticity (e.g., Breusch-Pagan test).",
-        "explanation": "Verifying assumptions ensures the validity of regression inferences and identifies potential violations that could bias results.",
-        "location": "Methodology: 2.5.1 Preregistered analyses",
-        "category": "assumptions",
-        "focus": "assumptions"
-      },
-      {
-        "original_text": "No mention of confidence intervals for regression estimates.",
-        "improved_version": "Report 95% confidence intervals alongside all regression coefficients and odds ratios to provide a measure of estimate precision.",
-        "explanation": "Confidence intervals help interpret the reliability and practical significance of findings beyond p-values.",
-        "location": "Results: Tables 2, 3, 12, 13",
-        "category": "confidence_intervals",
-        "focus": "confidence_intervals"
-      },
-      {
-        "original_text": "Multiple regression models are conducted without correction for multiple testing.",
-        "improved_version": "Apply appropriate corrections such as the False Discovery Rate (FDR) or Bonferroni adjustment when interpreting multiple p-values across models and subgroup analyses.",
-        "explanation": "Controlling for multiple comparisons reduces the risk of false positives and enhances the credibility of significant findings.",
-        "location": "Analysis: 2.5.1 Preregistered analyses",
-        "category": "multiple_comparisons",
-        "focus": "multiple_comparisons"
-      },
-      {
-        "original_text": "Effect sizes are reported but not contextualized.",
-        "improved_version": "Discuss the magnitude and practical relevance of effect sizes (e.g., \u03b2 coefficients, odds ratios) in relation to real-world impact, possibly translating percentage reductions into meaningful behavioral changes.",
-        "explanation": "Understanding effect size magnitude aids in assessing the intervention's practical significance, not just statistical significance.",
-        "location": "Results: 3.1 Main analyses",
-        "category": "effect_size",
-        "focus": "effect_size"
-      },
-      {
-        "original_text": "P-values are used as the sole criterion for significance.",
-        "improved_version": "Complement p-value reporting with confidence intervals and effect sizes, and interpret findings within the context of their practical importance rather than solely relying on the 0.05 threshold.",
-        "explanation": "This approach prevents overstatement of marginally significant results and emphasizes meaningful effects.",
-        "location": "Analysis: 2.5.1 Preregistered analyses",
-        "category": "p_value",
-        "focus": "p_value"
-      },
-      {
-        "original_text": "Sample size justification does not account for subgroup analyses.",
-        "improved_version": "Perform power analyses tailored to key subgroup analyses, such as daily meat consumers, to ensure adequate power for detecting effects within these groups.",
-        "explanation": "This ensures the study is sufficiently powered to detect meaningful effects in all relevant analyses, reducing Type II errors.",
-        "location": "Participants: 2.2 Participants",
-        "category": "sample_size",
-        "focus": "sample_size"
-      },
-      {
-        "original_text": "Handling of missing data is briefly mentioned without detail.",
-        "improved_version": "Describe the extent and pattern of missing data, and consider implementing multiple imputation or sensitivity analyses to assess the robustness of results.",
-        "explanation": "Proper handling of missing data minimizes bias and enhances the validity of statistical inferences.",
-        "location": "Participants: 2.2 Participants",
-        "category": "missing_data",
-        "focus": "missing_data"
-      },
-      {
-        "original_text": "No explicit outlier detection procedures are described.",
-        "improved_version": "Implement and report outlier detection methods such as leverage and influence diagnostics (e.g., Cook's distance), and specify how outliers are treated or justified if retained.",
-        "explanation": "Addressing outliers prevents distortion of estimates and maintains model integrity.",
-        "location": "Data Preparation: assumption checks",
-        "category": "outliers",
-        "focus": "outliers"
-      },
-      {
-        "original_text": "The use of linear regression for bounded percentage data is not justified.",
-        "improved_version": "Consider alternative modeling approaches such as beta regression or transformation (e.g., logit or arcsine square root) for percentage data to better meet model assumptions.",
-        "explanation": "Appropriate modeling of bounded data improves estimate accuracy and validity of significance tests.",
-        "location": "Methodology: 2.5.1 Preregistered analyses",
-        "category": "test_selection",
+        "original_text": "The primary analysis employs multiple linear regression for the percentage GHGE reduction, which is bounded between 0 and 100%.",
+        "improved_version": "Use a beta regression model or a generalized linear model with appropriate link functions (e.g., logit or probit) for percentage data bounded between 0 and 1, to better respect the data\u2019s distribution and bounds.",
+        "explanation": "Beta regression is specifically designed for proportion data, providing more accurate estimates and valid inference when the outcome is bounded.",
+        "location": "Methodology: Statistical methods description",
         "focus": "test_selection"
       },
       {
-        "original_text": "The study does not report whether assumptions for logistic regression (e.g., linearity in the logit, absence of multicollinearity) were verified.",
-        "improved_version": "Perform and report diagnostics such as the Box-Tidwell test for linearity and variance inflation factors (VIF) for multicollinearity in logistic models.",
-        "explanation": "Verifying these assumptions ensures the validity of logistic regression results and prevents misinterpretation.",
-        "location": "Analysis: 2.5.1 Preregistered analyses",
-        "category": "assumptions",
+        "original_text": "There is no explicit mention of assumption verification for the regression models.",
+        "improved_version": "Include diagnostic checks for regression assumptions, such as residual plots for homoscedasticity, normality tests (e.g., Shapiro-Wilk), and variance inflation factors (VIF) for multicollinearity, reporting these in supplementary materials.",
+        "explanation": "Verifying assumptions ensures the validity of regression inferences and helps identify model violations that require correction.",
+        "location": "Data Preparation: Assumption checks, data cleaning",
         "focus": "assumptions"
       },
       {
-        "original_text": "The statistical analysis relies heavily on p-values without discussing the magnitude of effects or their confidence intervals.",
-        "improved_version": "Include and interpret confidence intervals and standardized effect sizes alongside p-values to provide a comprehensive understanding of the results.",
-        "explanation": "This enhances interpretability and emphasizes the practical significance of findings.",
-        "location": "Results and discussion sections",
-        "category": "effect_size",
+        "original_text": "Sample size calculation is based on detecting a small effect size but does not consider subgroup analyses.",
+        "improved_version": "Perform separate power analyses for key subgroup analyses, such as daily meat consumers, to ensure sufficient sample size for detecting effects within these groups, or justify the current sample size\u2019s adequacy.",
+        "explanation": "Adequate power in subgroup analyses enhances confidence in detecting true effects and avoids false negatives.",
+        "location": "Participants section",
+        "focus": "sample_size"
+      },
+      {
+        "original_text": "Multiple hypotheses are tested without mention of correction procedures.",
+        "improved_version": "Apply multiple comparison correction methods, such as Holm-Bonferroni or false discovery rate (FDR), and report adjusted p-values to control for Type I error inflation.",
+        "explanation": "Correcting for multiple testing maintains the overall alpha level and reduces false-positive findings.",
+        "location": "Analysis: Regression analyses and exploratory tests",
+        "focus": "multiple_comparisons"
+      },
+      {
+        "original_text": "Effect sizes are reported but lack contextual interpretation.",
+        "improved_version": "Complement beta coefficients and odds ratios with standardized effect sizes (e.g., Cohen\u2019s d or Cram\u00e9r\u2019s V) and interpret their practical significance in the context of behavioral change.",
+        "explanation": "Effect size interpretation aids in understanding the real-world impact beyond mere statistical significance.",
+        "location": "Results: Regression results",
         "focus": "effect_size"
       },
       {
-        "original_text": "The reporting of subgroup analyses (e.g., daily meat consumers) lacks detailed power considerations.",
-        "improved_version": "Conduct and report power analyses specific to subgroup analyses to ensure sufficient sample size for detecting meaningful effects within these groups.",
-        "explanation": "Adequate power in subgroup analyses reduces the risk of false negatives and strengthens conclusions about differential effects.",
-        "location": "Participants: 2.2 Participants",
-        "category": "power",
+        "original_text": "Confidence intervals are not provided alongside point estimates.",
+        "improved_version": "Report 95% confidence intervals for all regression coefficients and odds ratios, providing a clearer picture of estimate precision and uncertainty.",
+        "explanation": "Confidence intervals enhance transparency and allow readers to assess the reliability of estimates.",
+        "location": "Results: Regression tables",
+        "focus": "confidence_intervals"
+      },
+      {
+        "original_text": "P-values are used as the primary significance criterion without effect size context.",
+        "improved_version": "Present both p-values and effect sizes with confidence intervals, and discuss the practical importance of findings rather than relying solely on significance thresholds.",
+        "explanation": "This balanced approach prevents overinterpretation of statistically significant but practically trivial effects.",
+        "location": "Analysis: Regression analyses",
+        "focus": "p_value"
+      },
+      {
+        "original_text": "Power analysis is described but no post hoc power assessment is conducted.",
+        "improved_version": "Conduct and report post hoc power analyses for key outcomes and subgroup analyses to evaluate whether the study was sufficiently powered to detect meaningful effects.",
+        "explanation": "Post hoc power assessments inform the interpretation of null results and the robustness of findings.",
+        "location": "Participants section",
         "focus": "power"
+      },
+      {
+        "original_text": "Missing data handling is not explicitly described.",
+        "improved_version": "Describe the approach to missing data, such as multiple imputation or sensitivity analyses, and justify the chosen method to ensure unbiased estimates.",
+        "explanation": "Proper handling of missing data reduces bias and improves the validity of inferences.",
+        "location": "Data preparation",
+        "focus": "missing_data"
+      },
+      {
+        "original_text": "There is no mention of outlier detection or treatment.",
+        "improved_version": "Implement outlier detection procedures (e.g., leverage, Cook\u2019s distance) and specify criteria for outlier exclusion or transformation, reporting their impact on results.",
+        "explanation": "Addressing outliers prevents undue influence on regression estimates and enhances robustness.",
+        "location": "Data analysis",
+        "focus": "outliers"
+      },
+      {
+        "original_text": "The study employs multiple linear regression for bounded percentage outcomes without transformations.",
+        "improved_version": "Transform percentage GHGE reduction data (e.g., logit transformation) or use models suited for bounded data, such as beta regression, to improve model fit and validity.",
+        "explanation": "Transformations or specialized models better accommodate the data\u2019s distribution and bounds, leading to more accurate inferences.",
+        "location": "Methodology: Statistical methods description",
+        "focus": "test_selection"
+      },
+      {
+        "original_text": "No mention of model residual diagnostics or goodness-of-fit measures.",
+        "improved_version": "Include residual plots, tests for heteroscedasticity, and measures like R-squared or pseudo R-squared to assess model adequacy, reporting these in supplementary materials.",
+        "explanation": "Diagnostics ensure the appropriateness of the model and help identify violations that could bias results.",
+        "location": "Analysis",
+        "focus": "assumptions"
+      },
+      {
+        "original_text": "The analysis does not specify whether data normality was checked for residuals.",
+        "improved_version": "Perform normality tests (e.g., Shapiro-Wilk) on residuals and consider transformations or robust regression methods if assumptions are violated.",
+        "explanation": "Ensuring residual normality supports the validity of p-values and confidence intervals derived from linear models.",
+        "location": "Analysis",
+        "focus": "assumptions"
+      },
+      {
+        "original_text": "The handling of multiple outcome variables (e.g., GHGE, self-efficacy, WTS) lacks correction for multiple testing.",
+        "improved_version": "Apply a multiple testing correction across all primary and secondary outcomes, such as the Benjamini-Hochberg procedure, and report adjusted p-values.",
+        "explanation": "This reduces the risk of false positives when interpreting multiple statistical tests.",
+        "location": "Results",
+        "focus": "multiple_comparisons"
+      },
+      {
+        "original_text": "The study does not specify whether the outcome variables are normally distributed or whether transformations are applied.",
+        "improved_version": "Assess the distribution of outcome variables and apply appropriate transformations or non-parametric tests if distributions deviate substantially from normality.",
+        "explanation": "Proper distributional assessment ensures the chosen statistical tests are valid and results are reliable.",
+        "location": "Data preparation",
+        "focus": "assumptions"
       }
     ],
     "detailed_feedback": {
-      "test_selection": "The primary analyses employ multiple linear regression for percentage GHGE reduction, but the bounded nature of percentage data (0-100%) suggests that alternative models like beta regression or transformations (e.g., logit) would be more appropriate. The logistic regression for swap selection is suitable, but assumptions such as linearity in the logit and absence of multicollinearity should be verified and reported.",
-      "assumption_verification": "The manuscript lacks explicit mention of residual diagnostics, tests for normality, heteroscedasticity, and influence diagnostics. Conducting residual plots, normality tests, and influence measures (e.g., Cook's distance) would confirm the validity of regression assumptions and identify potential outliers or influential points.",
-      "sample_size_justification": "While the initial sample size calculation is based on detecting small effects with adequate power, the actual effect sizes observed are minimal, and subgroup analyses (e.g., daily meat consumers) may be underpowered. Future studies should perform power analyses tailored to subgroup effects to ensure sufficient statistical power.",
-      "multiple_comparison_handling": "Multiple models and subgroup analyses increase the risk of Type I errors. Implementing correction procedures such as the False Discovery Rate (FDR) or Bonferroni adjustment would control for multiple testing and improve result credibility.",
-      "effect_size_reporting": "Although effect sizes are reported, their practical significance is not discussed. Including standardized effect sizes (e.g., Cohen's d) and contextualizing their magnitude would aid interpretation of the intervention's real-world impact.",
-      "confidence_intervals": "The absence of confidence intervals around regression estimates limits understanding of estimate precision. Adding 95% CIs would provide clearer insights into the reliability and variability of the findings.",
-      "p_value_interpretation": "The manuscript relies heavily on p-values to determine significance without discussing the magnitude or confidence intervals. Emphasizing effect sizes and CIs alongside p-values would lead to more nuanced interpretation and avoid overemphasizing statistical significance.",
-      "power": "Power calculations are based on initial assumptions, but the small observed effects suggest that some analyses may be underpowered, especially subgroup analyses. Future research should include power analyses for key subgroup effects to ensure adequate sample sizes.",
-      "missing_data": "Missing data handling is briefly mentioned via exclusion of non-completers, but no detailed description of how missing data within variables was addressed. Employing multiple imputation or sensitivity analyses would mitigate bias and improve robustness.",
-      "outlier_treatment": "There is no mention of outlier detection or influence diagnostics. Applying methods such as leverage and influence diagnostics would help identify and appropriately handle outliers, ensuring the stability of regression estimates."
+      "test_selection": "The authors primarily used multiple linear regression for continuous outcomes like percentage GHGE reduction, which are bounded between 0 and 100%. Such data often violate normality and homoscedasticity assumptions. Alternative models like beta regression or generalized linear models with appropriate link functions (e.g., logit) are better suited for proportion data, providing more accurate and valid inference.",
+      "assumption_verification": "There is no explicit mention of diagnostic checks for regression assumptions such as residual normality, homoscedasticity, multicollinearity, or independence. Conducting and reporting these diagnostics (e.g., residual plots, VIFs) is essential to validate the models and ensure the reliability of p-values and confidence intervals.",
+      "sample_size_justification": "While the initial sample size calculation is based on detecting small effects with adequate power, there is no discussion of power for subgroup analyses, such as daily meat consumers. Conducting separate power analyses or justifying the current sample size\u2019s sufficiency for these analyses would strengthen the robustness of subgroup findings.",
+      "multiple_comparisons": "Multiple hypotheses are tested across primary and exploratory analyses without correction procedures. Implementing corrections like Holm-Bonferroni or false discovery rate adjustments would control the family-wise error rate and reduce the risk of false positives.",
+      "effect_size_reporting": "While effect sizes such as beta coefficients and odds ratios are reported, their practical significance is not discussed. Including standardized effect sizes and contextual interpretation would help readers understand the real-world impact of the findings.",
+      "confidence_intervals": "Confidence intervals are absent from the regression tables. Adding 95% CIs for all estimates would improve transparency, allow assessment of estimate precision, and facilitate better interpretation of the results.",
+      "p_value_interpretation": "The reliance on p-values alone without accompanying effect sizes or confidence intervals can lead to overemphasis on statistical significance. Presenting both and discussing effect magnitude enhances the interpretability and relevance of the findings.",
+      "statistical_power": "The initial power analysis is described, but no post hoc power assessments are reported. Conducting and reporting these would clarify whether the study was sufficiently powered, especially for subgroup analyses, and help interpret null findings.",
+      "missing_data_handling": "The approach to missing data is not detailed. Clarifying whether data were imputed, excluded, or analyzed with complete cases, along with sensitivity analyses, would bolster confidence in the results\u2019 validity.",
+      "outlier_treatment": "There is no discussion of outlier detection or treatment. Implementing outlier diagnostics (e.g., leverage, Cook\u2019s distance) and reporting their influence on the models would improve robustness and prevent biased estimates.",
+      "additional_suggestion": "Conduct sensitivity analyses to assess the impact of outliers and missing data on key results, enhancing the robustness of conclusions."
     },
-    "summary": "Overall, the statistical analysis demonstrates acceptable rigor but has notable areas for improvement. The primary concern is the lack of explicit assumption verification and appropriate modeling for bounded percentage data. Addressing multiple comparisons, reporting confidence intervals, and providing detailed diagnostics would significantly enhance the robustness and credibility of the findings. Minor issues such as effect size contextualization and power considerations in subgroup analyses should also be addressed to strengthen the overall quality of the research."
+    "summary": "Overall, the study demonstrates a solid experimental design with relevant statistical analyses. However, improvements in assumption verification, model choice for bounded data, correction for multiple comparisons, and comprehensive reporting of effect sizes and diagnostics are needed to elevate the statistical rigor to an excellent standard. Addressing these issues will strengthen the validity, reliability, and interpretability of the findings, making the research more robust and impactful."
   }
 }

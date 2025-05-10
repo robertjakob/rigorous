@@ -1,8 +1,0 @@
-# Ignore results directory
-results/
-
-# Ignore PDF files in the manuscripts folder
-manuscripts/*.pdf
-
-# Keep the manuscripts folder itself
-!manuscripts/.gitkeep 

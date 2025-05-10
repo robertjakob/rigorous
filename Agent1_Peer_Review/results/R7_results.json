@@ -4,175 +4,183 @@
     {
       "category": "methods_results",
       "location": "Section 2.5.1 (Statistical analysis)",
-      "issue": "The primary hypothesis H1 predicts that product swap recommendations will lead to more climate-friendly shopping, yet the regression results show no significant effect of the interventions on overall GHGE reduction, which may suggest a disconnect between hypothesis and findings.",
+      "issue": "The primary hypotheses (H1-H4) specify effects on GHGE reduction and swap choices, but the results show no significant effects of Targeted or Information treatments on overall GHGE reduction, while some effects are only significant in subgroup analyses. This inconsistency between hypotheses and main results reduces clarity.",
       "severity": "high",
-      "impact": "This inconsistency affects the clarity of the study's aims versus outcomes, potentially confusing readers about the effectiveness of the interventions."
+      "impact": "This undermines the clarity of the hypothesis-testing alignment, potentially confusing readers about the effectiveness of interventions."
     },
     {
       "category": "results_conclusions",
       "location": "Section 3.1.1 (GHGE reduction results)",
-      "issue": "The abstract states that neither targeted recommendations nor GHGE information significantly lowered basket GHGE for most participants, yet the conclusion emphasizes the effectiveness of product swaps generally, which could be misleading.",
+      "issue": "The main analysis shows no significant effect of treatments on GHGE reduction, yet the conclusion states that recommendations support more climate-friendly choices for most participants. This overstates the main findings.",
       "severity": "high",
-      "impact": "This inconsistency may overstate the intervention's overall impact and reduce the credibility of the conclusions."
+      "impact": "Leads to overgeneralization and weakens the validity of the conclusions regarding overall effectiveness."
     },
     {
       "category": "logical_flow",
-      "location": "Section 4 (Discussion)",
-      "issue": "The discussion suggests that simple product swaps are sufficient for most consumers, but earlier sections report no significant overall GHGE reduction, creating a gap in logical progression from results to implications.",
+      "location": "Section 2.5 (Statistical analysis) and Section 3 (Results)",
+      "issue": "The methods describe hypotheses about treatment effects on GHGE reduction, but the results focus more on swap choices and subgroup effects, with less emphasis on the primary outcome. The narrative jumps between different analyses without clear transitions.",
       "severity": "medium",
-      "impact": "This weakens the narrative coherence and may mislead readers about the practical significance of the findings."
+      "impact": "Reduces clarity of the logical progression from hypotheses to results, making it harder to follow the narrative."
     },
     {
       "category": "terminology",
       "location": "Throughout the document",
-      "issue": "Inconsistent use of terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' without clear definitions or consistent application.",
-      "severity": "low",
-      "impact": "This hampers clarity and may cause confusion about what specific interventions were tested."
+      "issue": "Inconsistent use of terms such as 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information.' Sometimes 'recommendations' refer to the entire list, other times to the most effective swap only.",
+      "severity": "medium",
+      "impact": "Creates confusion about what exactly is being tested or emphasized, impairing clarity."
     },
     {
       "category": "hypothesis",
       "location": "Section 2.5.1",
-      "issue": "Hypotheses H2 and H3 predict significant effects of targeted recommendations and GHGE info, but results show no significant effects, yet the discussion implies some positive effects, leading to potential misalignment.",
+      "issue": "The hypotheses (H1-H4) focus on GHGE reduction as the primary outcome, but the main results show no significant effects on GHGE, only on swap choice and subgroup effects. This mismatch suggests the hypotheses were not fully aligned with the actual outcomes measured.",
       "severity": "high",
-      "impact": "This diminishes the transparency of hypothesis testing and weakens the interpretative clarity."
+      "impact": "Weakens the coherence between hypotheses and empirical testing, potentially misleading readers about the intervention's effectiveness."
     },
     {
       "category": "interpretation",
-      "location": "Section 4",
-      "issue": "The interpretation that offering recommendations 'may already be sufficient' conflicts with the non-significant overall GHGE reductions, risking overgeneralization.",
-      "severity": "medium",
-      "impact": "It risks overstating the intervention's practical impact based on limited significant findings."
+      "location": "Section 4 (Discussion)",
+      "issue": "The discussion states that recommendations 'support' climate-friendly choices for most, despite the main analysis showing no significant overall GHGE reduction, relying instead on subgroup effects. This overstates the general impact.",
+      "severity": "high",
+      "impact": "Risks overstating findings and misrepresenting the intervention's overall efficacy."
     },
     {
       "category": "citations",
-      "location": "Throughout the text",
-      "issue": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation, and some citations are inconsistent in formatting.",
+      "location": "Throughout the document",
+      "issue": "Some references (e.g., [28]) are cited multiple times with inconsistent formatting and incomplete details, which could impair citation clarity and traceability.",
       "severity": "low",
-      "impact": "This affects citation clarity and proper attribution, which could undermine academic rigor."
+      "impact": "Reduces professionalism and makes verification of sources more difficult."
     },
     {
       "category": "figures",
-      "location": "Section 3.1.1 (Figure 2)",
-      "issue": "Figure 2 shows no significant difference between conditions, but the caption and discussion imply some effects, leading to potential misinterpretation.",
+      "location": "Figure 2",
+      "issue": "Figure 2 shows no significant differences across conditions, but the caption and text imply treatment effects. The figure lacks clear statistical annotations (e.g., p-values or significance markers).",
       "severity": "medium",
-      "impact": "This could mislead readers about the significance of visual data."
+      "impact": "Misleads readers about the significance of visualized effects, impairing interpretation."
     },
     {
       "category": "tables",
-      "location": "Tables 2 and 3",
-      "issue": "Some tables report multiple models with overlapping variables, but the narrative does not clearly distinguish between unadjusted and adjusted models, causing potential confusion.",
-      "severity": "low",
-      "impact": "This reduces clarity in understanding the robustness of results."
+      "location": "Table 2",
+      "issue": "The table reports treatment effects on GHGE reduction and swap choice, but the effects are mostly non-significant, yet the text emphasizes some findings (e.g., increased odds of choosing most effective swap). This inconsistency can confuse readers about the strength of evidence.",
+      "severity": "medium",
+      "impact": "Weakens the clarity of the reported statistical significance and interpretation."
     },
     {
       "category": "supplementary",
-      "location": "Appendix references",
-      "issue": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
+      "location": "Appendix and supplementary tables",
+      "issue": "The supplementary material contains detailed models, but references to these are inconsistent in the main text, sometimes cited as 'Appendix, Table 8,' other times as 'Table 8' without clear distinction, which can cause confusion.",
       "severity": "low",
-      "impact": "This hampers transparency and reproducibility."
+      "impact": "Impairs navigation and cross-referencing, reducing transparency."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-      "improved_version": "The regression analysis revealed no statistically significant effects of the Targeted or Information treatments on overall GHGE reduction compared to the reference group.",
-      "explanation": "Clarifies the findings and aligns the statement with standard reporting language, improving clarity.",
+      "improved_version": "The regression analysis indicates that neither Targeted nor Information treatments produced statistically significant effects on overall GHGE reduction compared to the reference group.",
+      "explanation": "Clarifies the null findings explicitly, aligning the narrative with the statistical results to prevent overstatement.",
       "location": "Section 3.1.1",
       "category": "results",
       "focus": "methods_results"
     },
     {
-      "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
-      "improved_version": "Our findings indicate that, for many consumers, simply providing the option to swap products can be sufficient to promote more sustainable purchasing behaviors, even without targeted recommendations or GHGE information.",
-      "explanation": "Rephrases for clarity and acknowledges the non-significant overall effects, aligning conclusions with results.",
-      "location": "Section 4 (Discussion)",
-      "category": "results_conclusions",
+      "original_text": "These findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+      "improved_version": "These findings indicate that providing consumers with simple, specific product swap options\u2014regardless of targeted highlighting or GHGE information\u2014can already promote more sustainable purchasing behaviors for many individuals.",
+      "explanation": "Makes the conclusion more precise and consistent with the main null results on overall GHGE reduction, emphasizing the practical sufficiency of basic swaps.",
+      "location": "Section 4",
+      "category": "discussion",
       "focus": "results_conclusions"
     },
     {
-      "original_text": "The study was preregistered and incentive compatible.",
-      "improved_version": "The study was preregistered and designed to be incentive-compatible, ensuring that participants' choices reflected genuine preferences.",
-      "explanation": "Adds clarity to the methodological rigor, reinforcing the validity of the findings.",
-      "location": "Section 2.1",
-      "category": "methodology",
-      "focus": "methods_results"
-    },
-    {
-      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change.",
-      "improved_version": "The impact assessment for GHG emissions was based on the Global Warming Potential (GWP) 100a metric [4], which accounts for all GHG emissions contributing to climate change over a 100-year horizon.",
-      "explanation": "Provides precise terminology and clarifies the metric used, improving terminology consistency.",
-      "location": "Section 2.1",
-      "category": "terminology",
-      "focus": "terminology"
-    },
-    {
-      "original_text": "The targeted product swap recommendation is derived from the final contents of a shopping basket and targets the product that, when swapped, would result in the greatest GHGE reduction.",
-      "improved_version": "The targeted product swap recommendation is based on the contents of the shopping basket and identifies the single animal-based product whose replacement with a plant-based analogue would yield the greatest reduction in overall GHGE.",
-      "explanation": "Clarifies the process and terminology, ensuring consistency with the detailed description in methods.",
-      "location": "Section 2.3",
-      "category": "terminology",
-      "focus": "terminology"
-    },
-    {
-      "original_text": "Participants could select as many of the available product swaps as they desired.",
-      "improved_version": "Participants were able to select multiple product swaps, reflecting real-world shopping flexibility.",
-      "explanation": "Enhances clarity and emphasizes the experimental realism, improving logical flow.",
-      "location": "Section 2.3",
-      "category": "logical flow",
-      "focus": "logical_flow"
-    },
-    {
-      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
-      "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a list of specific swap suggestions from the animal-based items in their basket to the nearest matching plant-based analogues.",
-      "explanation": "Improves clarity, consistency, and flow by explicitly linking figure references and clarifying the intervention components.",
-      "location": "Section 2.3",
-      "category": "logical flow",
-      "focus": "logical_flow"
-    },
-    {
-      "original_text": "The study was conducted online between July 28th and October 15th, 2023.",
-      "improved_version": "The online study was conducted over a period from July 28th to October 15th, 2023.",
-      "explanation": "Refines temporal description for clarity and professionalism.",
-      "location": "Section 2.1",
-      "category": "terminology",
-      "focus": "terminology"
-    },
-    {
-      "original_text": "The regression models in tables 2 and 3 report multiple models with overlapping variables but do not clearly distinguish between unadjusted and adjusted models.",
-      "improved_version": "Tables 2 and 3 present both unadjusted and covariate-adjusted regression models, with clear labels and descriptions in the table footnotes, to facilitate interpretation of robustness and control for confounders.",
-      "explanation": "Enhances clarity and transparency regarding model specifications, improving tables' interpretability.",
+      "original_text": "The hypotheses (H1-H4) specify effects on GHGE reduction and swap choices, but the results show no significant effects of Targeted or Information treatments on overall GHGE reduction, while some effects are only significant in subgroup analyses.",
+      "improved_version": "While hypotheses H1-H4 anticipated effects on GHGE reduction and swap behaviors, the main results reveal no significant overall impact of Targeted or Information treatments on GHGE reduction. Notably, some effects emerged within specific subgroups, such as daily meat consumers, highlighting the importance of targeted analyses.",
+      "explanation": "Provides a clearer connection between hypotheses and results, acknowledging the subgroup effects as secondary findings rather than primary outcomes.",
       "location": "Section 3.1.1",
-      "category": "tables",
-      "focus": "tables"
+      "category": "hypothesis",
+      "focus": "hypothesis"
     },
     {
-      "original_text": "The supplementary tables are referenced but not always clearly linked to specific claims or results discussed in the main text.",
-      "improved_version": "Supplementary tables are explicitly referenced at relevant points in the main text, with brief summaries of their contents to guide readers in connecting detailed results with the main findings.",
-      "explanation": "Improves transparency and ease of cross-referencing, strengthening supplementary material consistency.",
+      "original_text": "Inconsistent terminology such as 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information' sometimes used interchangeably.",
+      "improved_version": "Standardize terminology throughout the manuscript by consistently using 'targeted product swap recommendation,' 'most effective GHGE-reducing swap,' and 'GHGE impact information' to clearly distinguish between intervention components.",
+      "explanation": "Enhances clarity and reduces confusion by maintaining consistent language for key concepts.",
       "location": "Throughout the document",
+      "category": "terminology",
+      "focus": "terminology"
+    },
+    {
+      "original_text": "The discussion states that recommendations 'support' climate-friendly choices for most, despite main analysis showing no significant GHGE reduction.",
+      "improved_version": "The discussion should clarify that, although the overall GHGE reduction was not statistically significant, the intervention increased the likelihood of individual swaps and was well-received, suggesting potential for supporting climate-friendly choices in practice.",
+      "explanation": "Aligns conclusions with the primary null findings, emphasizing behavioral acceptance over aggregate impact.",
+      "location": "Section 4",
+      "category": "interpretation",
+      "focus": "interpretation"
+    },
+    {
+      "original_text": "Figures lack significance markers, potentially misleading interpretation.",
+      "improved_version": "Add significance indicators (e.g., asterisks or p-value annotations) to the figure error bars or data points to accurately reflect statistical significance or non-significance of differences across conditions.",
+      "explanation": "Improves visual clarity and prevents misinterpretation of visual data.",
+      "location": "Figure 2",
+      "category": "figures",
+      "focus": "figures"
+    },
+    {
+      "original_text": "References such as [28] are cited inconsistently with formatting and incomplete details.",
+      "improved_version": "Standardize all references according to journal style, ensuring complete citation details and consistent formatting throughout the manuscript.",
+      "explanation": "Enhances professionalism and facilitates source verification.",
+      "location": "Throughout the manuscript",
+      "category": "citations",
+      "focus": "citations"
+    },
+    {
+      "original_text": "Main text references to supplementary tables are sometimes inconsistent, e.g., 'Appendix, Table 8' vs. 'Table 8'.",
+      "improved_version": "Use consistent referencing for supplementary materials, such as 'Appendix, Table 8,' throughout the main text, and include a clear cross-reference list for ease of navigation.",
+      "explanation": "Improves clarity and traceability of supplementary data.",
+      "location": "Main text and appendix",
       "category": "supplementary",
       "focus": "supplementary"
     },
     {
-      "original_text": "The discussion suggests that simple product swaps are sufficient for most consumers, but the results show no significant overall GHGE reduction, which could be misleading.",
-      "improved_version": "While the overall GHGE reduction was not statistically significant, the high rate of product swaps indicates that simple, specific recommendations may still effectively influence consumer behavior, suggesting potential for broader impact with further refinement.",
-      "explanation": "Aligns interpretation with results, avoiding overstatement and improving logical coherence.",
-      "location": "Section 4",
+      "original_text": "The manuscript describes multiple subgroup analyses, but the narrative could better clarify which findings are confirmatory versus exploratory.",
+      "improved_version": "Explicitly distinguish between preregistered (confirmatory) and post hoc (exploratory) analyses in the text, clarifying that subgroup findings, such as those among daily meat consumers, are exploratory and should be interpreted cautiously.",
+      "explanation": "Enhances transparency regarding the robustness of subgroup results and aligns interpretation with analysis type.",
+      "location": "Section 3.2",
       "category": "interpretation",
       "focus": "interpretation"
+    },
+    {
+      "original_text": "The intervention description sometimes mixes details about the experimental design with implementation specifics, which could be clearer.",
+      "improved_version": "Separate the description of the experimental design (e.g., randomization, conditions) from implementation details (e.g., product selection, presentation), providing clearer structure for reproducibility.",
+      "explanation": "Improves clarity of methods, aiding replication and understanding.",
+      "location": "Section 2.3",
+      "category": "methodology",
+      "focus": "methods_results"
+    },
+    {
+      "original_text": "The overall narrative could benefit from clearer signposting between sections, especially transitioning from main results to subgroup analyses.",
+      "improved_version": "Add explicit transition sentences or headings that guide the reader from the primary analysis results to subgroup and exploratory findings, emphasizing their different confirmatory status.",
+      "explanation": "Enhances logical flow and reader comprehension of the hierarchical structure of analyses.",
+      "location": "Section 3 and 3.2",
+      "category": "logical_flow",
+      "focus": "logical_flow"
+    },
+    {
+      "original_text": "The abstract summarizes the findings but overstates the impact of the interventions on overall GHGE reduction.",
+      "improved_version": "Revise the abstract to accurately reflect that the primary analysis showed no significant overall GHGE reduction, emphasizing instead the behavioral and subgroup effects observed.",
+      "explanation": "Aligns abstract with detailed results, maintaining honesty and transparency.",
+      "location": "Abstract",
+      "category": "abstract",
+      "focus": "results_conclusions"
     }
   ],
   "detailed_feedback": {
-    "methods_results_alignment": "The methods section describes the experimental design, including hypotheses, interventions, and statistical models, but the results show that the primary hypotheses (H2 and H3) were not supported, with no significant effects on overall GHGE reduction. This indicates a partial misalignment between the planned hypotheses and the outcomes, which should be explicitly acknowledged to clarify the scope of conclusions.",
-    "results_conclusions_alignment": "The results indicate that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly lower overall GHGE. The conclusions, however, suggest that simple product swaps are effective for most consumers. This inconsistency should be addressed by emphasizing the nuanced findings\u2014highlighting that while behavior change occurred, the environmental impact reduction was limited overall.",
-    "logical_flow": "The manuscript generally follows a logical progression from introduction to methods, results, and discussion. However, some sections, especially the discussion, overgeneralize the implications based on non-significant primary outcomes. Clarifying that the main effects were limited and emphasizing the exploratory nature of subgroup findings would improve coherence.",
-    "terminology_consistency": "Terms such as 'product swap recommendations,' 'targeted recommendations,' and 'GHGE reduction information' are used variably. Defining these terms early and maintaining consistent usage throughout the manuscript would enhance clarity and reduce reader confusion.",
-    "hypothesis_testing": "The hypotheses H2 and H3 predicted significant effects that were not observed, yet the discussion implies some positive effects. Explicitly stating that these hypotheses were not supported by the primary outcomes and framing the subgroup analyses as exploratory would improve transparency.",
-    "interpretation_consistency": "The discussion suggests that simple swaps are sufficient, which conflicts with the non-significant overall GHGE reductions. Rephrasing to acknowledge the limited impact on the entire sample and highlighting the potential of targeted info for specific groups would align interpretation with results.",
-    "citation_consistency": "Some references (e.g., [28]) are used extensively but lack detailed contextual explanation. Ensuring all citations are formatted uniformly and linked clearly to specific claims would improve scholarly rigor.",
-    "figure_text_alignment": "Figure 2 shows no significant differences, yet the caption and narrative imply effects. Including significance indicators and clarifying what the figure demonstrates would prevent misinterpretation.",
-    "table_text_alignment": "Tables 2 and 3 present multiple models but lack clear labels distinguishing unadjusted from adjusted models. Adding explicit labels and footnotes would improve clarity.",
-    "supplementary_consistency": "References to supplementary tables are made without explicit links to main text claims. Including brief descriptions and clear cross-references would enhance transparency."
+    "methods_results_alignment": "The methods specify hypotheses about treatment effects on GHGE reduction, but the results reveal that these effects were not statistically significant in the main sample, only in subgroup analyses. This indicates a partial misalignment, suggesting that the primary outcome was not strongly affected by the interventions, which should be clearly acknowledged to maintain coherence.",
+    "results_conclusions_alignment": "The main results show null effects on GHGE reduction, yet the conclusions suggest that recommendations support climate-friendly choices for most. This inconsistency should be addressed by emphasizing the behavioral acceptance and subgroup effects rather than overstating aggregate impact.",
+    "logical_flow": "The manuscript transitions from hypotheses to results, but the narrative could better distinguish between confirmatory and exploratory findings. Explicit signposting and clearer section transitions would improve logical coherence, especially when discussing subgroup analyses that were not preregistered.",
+    "terminology_consistency": "Terms like 'targeted recommendations,' 'most effective swap,' and 'GHGE reduction information' are used variably. Standardizing these terms throughout the manuscript will improve clarity and prevent confusion.",
+    "hypothesis_testing": "The hypotheses focus on GHGE reduction, but the primary outcomes did not show significant effects, with some effects only in subgroup analyses. Clarifying that the main testing was on behavioral measures, with GHGE as a secondary outcome, would better align expectations.",
+    "interpretation_consistency": "The discussion overstates the overall impact based on null main effects, emphasizing the importance of subgroup findings. Framing conclusions to reflect these nuances will ensure consistent interpretation.",
+    "citation_consistency": "References such as [28] are cited with inconsistent formatting and incomplete details. Ensuring uniform citation style will improve professionalism.",
+    "figure_text_alignment": "Figure 2 lacks significance markers, which could mislead readers about the importance of visual differences. Adding significance indicators will clarify the results.",
+    "table_text_alignment": "Tables report mostly non-significant effects but are sometimes described as if effects are meaningful. Clarifying the significance status in the text will improve transparency.",
+    "supplementary_consistency": "References to supplementary tables are inconsistent, sometimes missing the 'Appendix' prefix. Consistent cross-referencing will aid navigation and transparency."
   },
-  "summary": "Overall, the manuscript demonstrates a solid experimental design and relevant research questions but suffers from some inconsistencies between hypotheses, results, and interpretations. The primary outcomes show limited effects, yet conclusions sometimes overstate the intervention's impact. Clarifying terminology, explicitly acknowledging non-significant findings, and improving cross-referencing and figure/table clarity will greatly enhance the logical coherence and transparency of the paper."
+  "summary": "Overall, the manuscript demonstrates a solid experimental design and relevant analyses but suffers from partial misalignment between hypotheses and main findings, especially regarding GHGE reduction. The narrative would benefit from clearer signposting, consistent terminology, and accurate framing of results to reflect the primary null effects and subgroup insights. Addressing these issues will significantly enhance the coherence, transparency, and interpretability of the study."
 }

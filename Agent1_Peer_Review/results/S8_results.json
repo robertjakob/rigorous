@@ -1,131 +1,131 @@
 {
-  "score": 4,
+  "score": 3,
   "critical_remarks": [
     {
       "category": "support",
       "location": "Abstract and Results section",
-      "issue": "The conclusion states that targeted recommendations increased the uptake of the most effective swap but did not significantly lower overall basket GHGE, yet it does not sufficiently clarify the strength or statistical significance of these findings or how they support the overall claims.",
-      "severity": "medium",
-      "impact": "This ambiguity weakens the reader's confidence in the supportability of the key claims, making it less clear whether the interventions had meaningful effects."
+      "issue": "The conclusion states that neither targeted recommendations nor GHGE reduction information significantly lowered basket GHGE for the majority, yet it does not sufficiently clarify the strength of the baseline effect or the nuances of subgroup effects, which are critical for interpreting the support for the hypotheses.",
+      "severity": "high",
+      "impact": "This diminishes confidence in the claims about intervention effectiveness and may mislead readers regarding the practical significance of the findings."
     },
     {
       "category": "objectives",
       "location": "Introduction and Discussion",
-      "issue": "While the research objectives are generally fulfilled, the conclusion does not explicitly restate how each specific hypothesis was addressed or the degree to which they were supported.",
-      "severity": "low",
-      "impact": "This reduces clarity on whether the research questions were fully answered, impacting the completeness of the conclusion."
+      "issue": "The conclusion claims that product swap recommendations are effective, but it does not clearly articulate how well the research objectives\u2014specifically, testing the impact of targeted recommendations and GHGE info\u2014were fully achieved, especially given the mixed results.",
+      "severity": "medium",
+      "impact": "This reduces clarity about whether the research objectives were fully met and limits understanding of the contribution."
     },
     {
       "category": "implications",
       "location": "Discussion",
-      "issue": "The practical implications are discussed but lack specific guidance on how the findings could be implemented in real-world retail settings or policy, especially considering data limitations.",
+      "issue": "While some practical implications are discussed, the conclusion overstates the scalability and policy relevance without sufficiently addressing limitations such as the controlled online setting and sample bias.",
       "severity": "medium",
-      "impact": "This diminishes the actionable value of the conclusion for stakeholders seeking to apply the research."
+      "impact": "This could lead to overgeneralization and overconfidence in real-world applicability."
     },
     {
       "category": "presentation",
-      "location": "Overall conclusion paragraph",
-      "issue": "The final statement, while strong, introduces new ideas about long-term effects and novelty effects without sufficient evidence or discussion, which could be confusing.",
+      "location": "Final paragraph",
+      "issue": "The final statement is somewhat verbose and repeats prior points, reducing clarity and impact; it could be more concise and forceful.",
       "severity": "low",
-      "impact": "This affects clarity and may undermine the perceived strength of the conclusion."
+      "impact": "This affects the overall readability and persuasiveness of the conclusion."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Participants\u2019 overall shopping behaviours and post-task survey responses were largely comparable across all experimental conditions.",
-      "improved_version": "Participants\u2019 shopping behaviors and survey responses showed no significant differences across conditions, supporting the validity of comparisons.",
-      "explanation": "Clarifies the support for the comparability of groups, strengthening the validity of the findings.",
-      "location": "Results section",
+      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations. On average, post-swap baskets exhibited a 24.9% (SD = 15.7) reduction in GHGE compared to pre-swap baskets.",
+      "improved_version": "Participants showed a strong overall engagement, with an average of 24.9% reduction in basket GHGE post-swap, indicating the intervention's potential effectiveness.",
+      "explanation": "Clarifies the significance of the result and emphasizes the intervention's impact, strengthening the support statement.",
+      "location": "Abstract and Results section",
       "category": "support",
       "focus": "clarity"
     },
     {
-      "original_text": "Targeted recommendations increased the odds of selecting the most effective swap but did not significantly lower overall basket GHGE.",
-      "improved_version": "While targeted recommendations significantly increased the likelihood of choosing the most effective GHGE-reducing swap, they did not produce a statistically significant reduction in overall basket GHGE, indicating a nuanced effect that warrants further investigation.",
-      "explanation": "Provides clearer nuance about the findings, emphasizing the importance of statistical significance and supporting transparency.",
-      "location": "Main findings summary",
-      "category": "support",
-      "focus": "evidence"
-    },
-    {
-      "original_text": "The provision of GHGE reduction information did not result in significantly lower basket GHGE for most participants.",
-      "improved_version": "The data indicate that providing GHGE reduction information alone did not lead to significant reductions in overall basket GHGE for the majority of participants, suggesting limited effectiveness of this approach in isolation.",
-      "explanation": "Clarifies the result and supports the conclusion about the limited impact, improving interpretability.",
-      "location": "Results section",
-      "category": "support",
-      "focus": "evidence"
-    },
-    {
-      "original_text": "These findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient.",
-      "improved_version": "The findings imply that simple, non-targeted product swap suggestions can effectively promote more sustainable purchasing behaviors for many consumers, highlighting a scalable intervention approach.",
-      "explanation": "Makes the contribution clearer and emphasizes practical scalability, enhancing contribution clarity.",
+      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
+      "improved_version": "While highlighting the most effective swap increased its selection, overall GHGE reductions for most participants did not significantly differ across conditions, suggesting limited impact of targeting alone.",
+      "explanation": "Provides a nuanced interpretation, aligning support with the actual results, and avoids overstating effectiveness.",
       "location": "Discussion",
-      "category": "contribution",
-      "focus": "clarity"
+      "category": "support",
+      "focus": "accuracy"
+    },
+    {
+      "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+      "improved_version": "The results indicate that simple, non-targeted product swap suggestions can effectively promote sustainable choices for a broad audience, highlighting a scalable approach.",
+      "explanation": "Strengthens the support claim by emphasizing the practical significance and scalability, making the conclusion more compelling.",
+      "location": "Discussion",
+      "category": "support",
+      "focus": "evidence"
     },
     {
       "original_text": "Providing GHGE reduction information may be necessary to facilitate behaviour change among high-impact consumers, particularly those with frequent meat consumption.",
-      "improved_version": "Our exploratory analyses indicate that GHGE reduction information could be particularly important for high-impact consumers, such as daily meat eaters, suggesting targeted information could enhance intervention effectiveness in this subgroup.",
-      "explanation": "Specifies the subgroup and clarifies the potential for targeted interventions, improving clarity of contribution.",
+      "improved_version": "GHGE reduction information appears especially beneficial for high-impact consumers, such as daily meat eaters, where it significantly enhances climate-friendly choices.",
+      "explanation": "Clarifies the subgroup-specific support, aligning with the exploratory findings, and emphasizes targeted support where needed.",
+      "location": "Discussion",
+      "category": "support",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "Our results indicate that offering specific and actionable product swap recommendations, derived from the final contents of baskets and presented before checkout, is an effective strategy to support environmentally friendlier food choices.",
+      "improved_version": "The study demonstrates that real-time, basket-specific, actionable product swap recommendations effectively encourage climate-friendly food choices at checkout.",
+      "explanation": "Enhances clarity and conciseness, emphasizing the core contribution and practical relevance.",
+      "location": "Conclusion",
+      "category": "support",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The straightforward nature of this intervention, particularly when implemented without targeted strategies or GHGE information, makes it highly feasible for retailers operating online platforms or self-checkout systems.",
+      "improved_version": "This simple, scalable intervention can be easily integrated into online retail platforms or self-checkout systems, facilitating widespread adoption.",
+      "explanation": "Strengthens the practical implications by emphasizing feasibility and scalability, aligning with policy relevance.",
+      "location": "Discussion",
+      "category": "implications",
+      "focus": "practical"
+    },
+    {
+      "original_text": "While our experimental design sought to mimic real-world shopping behaviour and was incentive-compatible, actual consumer decisions may differ outside a controlled setting.",
+      "improved_version": "Although designed to reflect real shopping behavior, actual consumer responses in real-world settings may vary, warranting further field research.",
+      "explanation": "Acknowledges limitations transparently, tempering overgeneralization and strengthening the credibility of implications.",
       "location": "Discussion",
       "category": "implications",
       "focus": "future_directions"
     },
     {
-      "original_text": "The conclusion states that the approach is highly feasible for retailers, but it does not specify how to address data limitations or implementation challenges.",
-      "improved_version": "While the approach is promising, practical implementation requires access to reliable environmental impact data and integration into existing retail systems, which should be addressed in future research.",
-      "explanation": "Provides a more balanced and realistic view, acknowledging limitations and guiding future work.",
-      "location": "Implications",
-      "category": "practical_implications",
+      "original_text": "Future research should examine their long-term impact in real-world retail settings and explore how they interact with other behavioural interventions, such as financial incentives, social norms, or policy regulations.",
+      "improved_version": "Future studies should investigate the long-term effectiveness of product swap interventions in real retail environments and their interaction with complementary strategies like incentives and social norms.",
+      "explanation": "Provides a clearer, more specific call for future research, enhancing the forward-looking implications.",
+      "location": "Discussion",
+      "category": "future_directions",
       "focus": "future_directions"
     },
     {
-      "original_text": "The final statement introduces new ideas about long-term effects and novelty effects without sufficient evidence.",
-      "improved_version": "Future research should investigate the long-term sustainability of these interventions and assess whether initial engagement levels are maintained over time, as current findings are based on short-term experimental data.",
-      "explanation": "Avoids introducing unsubstantiated claims and emphasizes the need for further evidence, improving clarity and strength.",
+      "original_text": "The conclusion overstates the potential for broad policy implementation without sufficiently addressing the study's limitations, such as sample bias and controlled environment.",
+      "improved_version": "While promising, these findings should be interpreted cautiously due to sample limitations and the artificial online setting; further validation in diverse, real-world contexts is needed.",
+      "explanation": "Provides a balanced, cautious tone, improving the scientific rigor and credibility of the conclusion.",
       "location": "Conclusion",
-      "category": "future_directions",
+      "category": "implications",
       "focus": "strength"
     },
     {
-      "original_text": "The conclusion does not explicitly restate how each hypothesis was addressed or supported.",
-      "improved_version": "This study addressed four hypotheses: (1) that product swap recommendations promote climate-friendly shopping; (2) that highlighting the most effective swap increases its adoption; (3) that GHGE information enhances behaviour change; and (4) that combining highlighting and information yields stronger effects. The results support some hypotheses (e.g., increased targeted swap selection) but not others (e.g., overall GHGE reduction).",
-      "explanation": "Explicitly links results to hypotheses, clarifying the fulfillment of research objectives.",
-      "location": "Discussion",
-      "category": "objectives",
+      "original_text": "In summary, providing consumers with specific and actionable product swap recommendations based on basket contents is an effective strategy for promoting climate-friendly food choices.",
+      "improved_version": "In summary, basket-specific, actionable product swap recommendations are a promising approach to promote sustainable food choices, especially when combined with targeted information for high-impact consumers.",
+      "explanation": "Adds nuance and acknowledges subgroup differences, improving clarity and contribution understanding.",
+      "location": "Final paragraph",
+      "category": "contribution",
       "focus": "clarity"
     },
     {
-      "original_text": "The discussion mentions that the interventions are scalable but does not specify how to overcome data limitations.",
-      "improved_version": "To ensure scalability, future work should focus on developing accessible, verified environmental impact data sources and seamless integration into retail platforms.",
-      "explanation": "Provides specific guidance on overcoming practical barriers, enhancing implications.",
-      "location": "Implications",
-      "category": "practical_implications",
-      "focus": "future_directions"
-    },
-    {
-      "original_text": "The conclusion could better synthesize the key findings into a concise summary.",
-      "improved_version": "In summary, specific and actionable product swap recommendations effectively promote climate-friendly food choices, with targeted GHGE information particularly benefiting high-impact consumers. These strategies offer scalable, practical solutions for sustainable retail interventions.",
-      "explanation": "Provides a clear, concise synthesis, improving overall clarity and impact.",
+      "original_text": "The final statement is somewhat verbose and repeats prior points, reducing clarity and impact; it could be more concise and forceful.",
+      "improved_version": "Overall, targeted and specific product swaps are a scalable, effective tool for advancing sustainable diets, with additional benefits when tailored to high-impact consumers.",
+      "explanation": "Creates a concise, impactful closing statement that encapsulates key findings clearly.",
       "location": "Final paragraph",
       "category": "presentation",
       "focus": "clarity"
-    },
-    {
-      "original_text": "The conclusion introduces new ideas about long-term effects and novelty effects without sufficient evidence.",
-      "improved_version": "While promising, these findings should be validated in real-world, long-term settings to determine sustained effectiveness and to address potential novelty effects.",
-      "explanation": "Avoids unsupported claims and emphasizes the need for further research, strengthening the conclusion.",
-      "location": "Final statement",
-      "category": "strength",
-      "focus": "strength"
     }
   ],
   "detailed_feedback": {
-    "support_analysis": "The conclusion generally aligns with the results, noting that while targeted recommendations increased the likelihood of selecting the most effective swap, they did not significantly reduce overall GHGE for most participants. This nuanced interpretation supports the data but could benefit from more explicit mention of statistical significance levels and effect sizes to strengthen the support claim.",
-    "objective_fulfillment": "The conclusion addresses the main research objectives, summarizing the effects of product swap recommendations and GHGE information. However, it lacks explicit references to how each hypothesis was tested and whether they were supported, which would improve clarity on objective fulfillment.",
-    "implications_analysis": "The practical implications are discussed with some acknowledgment of implementation challenges, but more specific guidance on data requirements and scalability would enhance the applicability. The theoretical implications are implied but not explicitly articulated, which could be improved by linking findings to existing theories of consumer behavior.",
-    "presentation_analysis": "The conclusion is generally clear and well-structured but introduces new ideas about long-term effects and novelty effects without sufficient evidence, which could weaken its strength. Improving conciseness and avoiding new, unsupported claims would enhance overall clarity and impact.",
-    "contribution_analysis": "The manuscript clearly emphasizes the potential of specific, actionable recommendations, especially for high-impact consumers, but could better articulate how this advances existing literature and practice, making its contribution more explicit."
+    "support_analysis": "The conclusion accurately reflects the primary findings, noting that overall GHGE reductions were modest and that targeted recommendations increased the likelihood of selecting the most effective swap. However, it could better emphasize the baseline effects and subgroup-specific results, clarifying the support for claims about intervention efficacy.",
+    "objective_fulfillment": "The conclusion addresses the research objectives by summarizing the effects of product recommendations and GHGE information, but it should explicitly state the degree to which each hypothesis was supported, especially given the mixed results, to better demonstrate objective fulfillment.",
+    "implications_analysis": "The discussion offers practical implications, such as scalability and ease of implementation, but overstates their readiness for policy without acknowledging limitations like controlled setting and sample bias. The potential for long-term and real-world impact remains speculative and should be tempered.",
+    "presentation_analysis": "The conclusion is generally clear but somewhat verbose, with repetitive points. More concise and impactful language would improve readability and persuasiveness, especially in the final statements. Avoiding overstatement and balancing optimism with caution would strengthen the overall presentation.",
+    "contribution_analysis": "The conclusion clarifies that the study advances understanding of basket-specific, actionable recommendations but could better articulate how it fills gaps in existing literature, particularly regarding the novelty of real-time, basket-based interventions and subgroup effects."
   },
-  "summary": "Overall, the conclusion is well-structured and reflects the main findings, demonstrating a good level of quality. Minor issues include the need for clearer linkage to hypotheses, more explicit discussion of statistical support, and cautious framing of implications for long-term and real-world applications. Addressing these would elevate the conclusion to an excellent standard, making it more precise, supported, and actionable."
+  "summary": "Overall, the conclusion is acceptable but has notable room for improvement. It effectively summarizes key findings but tends to overstate practical implications without fully acknowledging limitations. Enhancing clarity, balancing claims with caveats, and explicitly linking results to research objectives would elevate its quality to a good or excellent level."
 }

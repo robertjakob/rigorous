@@ -4,164 +4,147 @@
     {
       "category": "methodology",
       "location": "Section 2.1 - Design and procedure",
-      "issue": "The methodology description, while detailed, lacks clarity on how the experimental conditions were operationalized and how the randomization was implemented, which could hinder reproducibility.",
-      "severity": "high",
-      "impact": "This affects the audience's ability to assess the rigor and reproducibility of the study, potentially undermining trust in the findings."
+      "issue": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+      "severity": "medium",
+      "impact": "This may hinder the audience's ability to fully assess the rigor of the experimental design and replicate or build upon the study."
     },
     {
       "category": "results",
       "location": "Section 3.1 - Main analyses",
-      "issue": "Results are presented with extensive statistical detail, but lack visual summaries such as graphs or effect size plots that could aid comprehension.",
+      "issue": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
       "severity": "medium",
-      "impact": "This reduces accessibility for readers who prefer visual data interpretation, impacting engagement and clarity."
+      "impact": "This limits engagement from a broader audience, including policymakers or practitioners unfamiliar with statistical nuances."
     },
     {
       "category": "discussion",
       "location": "Section 4 - Discussion",
-      "issue": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications, limiting depth.",
+      "issue": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
       "severity": "medium",
-      "impact": "This diminishes the perceived relevance and applicability of the research to the target audience, especially practitioners."
+      "impact": "This reduces the depth of engagement and may leave readers seeking more comprehensive interpretative insights."
     },
     {
       "category": "conclusion",
       "location": "Section 4 - Conclusion",
-      "issue": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications, which are crucial for applied audiences.",
+      "issue": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
       "severity": "low",
-      "impact": "This reduces the practical value and actionability of the research for stakeholders."
+      "impact": "This misses an opportunity to guide practical application and diminish engagement with applied audiences."
     },
     {
       "category": "visuals",
-      "location": "Throughout the document",
-      "issue": "References to figures (e.g., Fig. 1) are made, but the figures are not included or sufficiently described, impairing comprehension.",
-      "severity": "high",
-      "impact": "This hampers understanding of key experimental setups and results, especially for visual learners."
+      "location": "Figures 1 and 2",
+      "issue": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+      "severity": "low",
+      "impact": "This can cause confusion and reduce the clarity of visual data communication for readers."
+    },
+    {
+      "category": "references",
+      "location": "Throughout the manuscript",
+      "issue": "References are numerous but vary in depth; some key claims are supported by broad citations without detailed context, which may weaken perceived rigor.",
+      "severity": "low",
+      "impact": "This might diminish confidence among academically oriented readers seeking comprehensive literature grounding."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
-      "improved_version": "Revise to: 'The intervention included a dedicated product swap recommendations page featuring (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a tailored list of specific swap suggestions from the original basket items to closely matching plant-based analogues.'",
-      "explanation": "Enhances clarity and flow, making the intervention components more explicit and reader-friendly.",
-      "location": "Section 2.1",
-      "category": "organization",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-      "improved_version": "Revise to: 'Participants showed a high level of receptivity to product swap recommendations, with 88.4% swapping at least one item and an average of 4.2 swaps per participant.'",
-      "explanation": "Provides specific data to support the statement, increasing credibility and audience engagement.",
-      "location": "Section 3.1",
-      "category": "results",
-      "focus": "results presentation"
-    },
-    {
-      "original_text": "Results indicate that offering specific and actionable product swap recommendations, derived from the final contents of baskets and presented before checkout, is an effective strategy.",
-      "improved_version": "Revise to: 'Our results demonstrate that providing consumers with specific, actionable product swap recommendations\u2014based on their current basket contents and delivered at the point of decision\u2014effectively promotes climate-friendly food choices.'",
-      "explanation": "Refines technical language for clarity and emphasizes the practical intervention point, aligning with audience expectations.",
-      "location": "Section 4",
-      "category": "discussion",
+      "original_text": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+      "improved_version": "Enhance the methodology section by explicitly detailing the randomization process, including how participants were allocated to each of the four conditions, and clarify how the experimental conditions were operationalized within the online platform to ensure reproducibility.",
+      "explanation": "Providing specific procedural details improves transparency, allowing readers to assess the study\u2019s rigor and replicate the design if desired.",
+      "location": "Section 2.1 - Design and procedure",
+      "category": "methodology",
       "focus": "organization"
     },
     {
-      "original_text": "The study was preregistered and incentive compatible.",
-      "improved_version": "Revise to: 'This study was preregistered and designed to be incentive-compatible, ensuring that participant choices reflect real-world decision-making.'",
-      "explanation": "Clarifies the importance of incentive compatibility for validity, making it more accessible to a broader audience.",
-      "location": "Section 2.1",
-      "category": "methodology",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-      "improved_version": "Revise to: 'Regression analyses showed no statistically significant differences in overall GHGE reduction between the Targeted or Information treatment groups and the control condition.'",
-      "explanation": "Simplifies language for clarity and improves readability for non-statistical audiences.",
-      "location": "Section 3.1.1",
+      "original_text": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
+      "improved_version": "Complement the statistical results with plain-language summaries highlighting the practical implications, such as how a 25% GHGE reduction translates into real-world environmental benefits, to make findings accessible to a broader audience.",
+      "explanation": "This enhances audience engagement by translating technical data into meaningful, relatable insights.",
+      "location": "Section 3.1 - Main analyses",
       "category": "results",
       "focus": "clarity"
     },
     {
-      "original_text": "Figures are referenced but not included, which impairs comprehension.",
-      "improved_version": "Add the actual figures or include detailed descriptions within the text, such as: 'Figure 1 illustrates the product swap recommendations page, showing the explanation and the experimental conditions.'",
-      "explanation": "Ensures visual elements are accessible and understood, improving overall clarity and engagement.",
-      "location": "Throughout the document",
-      "category": "visuals",
-      "focus": "visual integration"
-    },
-    {
-      "original_text": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications.",
-      "improved_version": "Expand the discussion to explicitly relate findings to existing literature on dietary interventions and outline practical implications for policymakers and retailers.",
-      "explanation": "Enhances relevance and applicability, making the research more meaningful for practitioners and policymakers.",
-      "location": "Section 4",
-      "category": "discussion",
-      "focus": "contextualization"
-    },
-    {
-      "original_text": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications.",
-      "improved_version": "Add a closing paragraph: 'Future research should explore long-term effects of such interventions in real-world settings, and policymakers could consider integrating targeted product swap strategies into sustainability initiatives.'",
-      "explanation": "Provides clear guidance for future work and policy relevance, increasing the practical impact.",
-      "location": "Section 4",
-      "category": "conclusion",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "References are extensive but could benefit from a consistent, journal-appropriate style.",
-      "improved_version": "Standardize all references to a uniform citation style (e.g., APA, Vancouver), ensuring completeness and consistency, and include DOIs where available.",
-      "explanation": "Improves professionalism and ease of cross-referencing, enhancing credibility.",
-      "location": "References section",
-      "category": "references",
-      "focus": "style"
-    },
-    {
-      "original_text": "The methodology section is detailed but could better clarify the randomization process and blinding procedures.",
-      "improved_version": "Revise to: 'Participants were randomly assigned to conditions using a computer-generated randomization sequence, with allocation concealed from both participants and researchers to prevent bias.'",
-      "explanation": "Clarifies procedural rigor, increasing trust and transparency for the audience.",
-      "location": "Section 2.1",
-      "category": "methodology",
-      "focus": "clarity"
-    },
-    {
-      "original_text": "Results are presented with extensive statistical detail but lack visual summaries such as bar graphs or effect size plots.",
-      "improved_version": "Include visual summaries like bar charts or box plots illustrating key outcomes (e.g., GHGE reduction across conditions) to facilitate quick comprehension.",
-      "explanation": "Visual data enhances accessibility and engagement, especially for diverse audiences.",
-      "location": "Section 3",
-      "category": "visuals",
-      "focus": "visual integration"
-    },
-    {
-      "original_text": "The discussion could deepen analysis by exploring potential mechanisms behind the findings and implications for different consumer segments.",
-      "improved_version": "Expand to discuss possible psychological or behavioral mechanisms influencing responses, and tailor implications for high versus low baseline consumers.",
-      "explanation": "Provides richer insights, making the findings more actionable and relevant.",
-      "location": "Section 4",
+      "original_text": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
+      "improved_version": "Deepen the discussion by exploring potential reasons for the observed discrepancy between increased targeted swap uptake and the lack of significant overall GHGE reduction, such as the impact of multiple swaps per basket or participant preferences, and suggest hypotheses for future testing.",
+      "explanation": "This provides richer interpretive context, fostering critical engagement and guiding future research directions.",
+      "location": "Section 4 - Discussion",
       "category": "discussion",
       "focus": "depth"
     },
     {
-      "original_text": "The conclusion should explicitly state the policy and practical implications derived from the findings.",
-      "improved_version": "Add: 'These findings suggest that online retailers can implement simple, targeted product swap prompts to promote sustainable purchasing, with potential policy support for broader adoption.'",
-      "explanation": "Clarifies real-world applications, increasing relevance for stakeholders.",
-      "location": "Section 4",
+      "original_text": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
+      "improved_version": "Refine the conclusion to include targeted recommendations for policymakers, retailers, and researchers, such as integrating simple swap prompts into online shopping platforms or exploring long-term behavioral impacts.",
+      "explanation": "This makes the findings more actionable and relevant for applied audiences, increasing practical impact.",
+      "location": "Section 4 - Conclusion",
       "category": "conclusion",
+      "focus": "organization"
+    },
+    {
+      "original_text": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+      "improved_version": "Add comprehensive captions to Figures 1 and 2, explicitly describing what each element illustrates, including the meaning of error bars, significance markers, and how to interpret the data trends.",
+      "explanation": "Clearer figure explanations improve comprehension and ensure visual data effectively support the text.",
+      "location": "Figures 1 and 2",
+      "category": "visuals",
+      "focus": "visual integration"
+    },
+    {
+      "original_text": "References are numerous but vary in depth; some key claims are supported by broad citations without detailed context, which may weaken perceived rigor.",
+      "improved_version": "Augment key references with brief contextual summaries within the text, explaining how each supports specific claims, and ensure all citations are up-to-date and directly relevant to the point made.",
+      "explanation": "This strengthens the scholarly foundation, enhancing credibility and audience trust.",
+      "location": "Throughout the manuscript",
+      "category": "references",
+      "focus": "depth"
+    },
+    {
+      "original_text": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+      "improved_version": "Specify the exact procedures used for randomization, such as whether random assignment was computer-generated, and describe how the intervention screens were presented to ensure consistent delivery across participants.",
+      "explanation": "This improves transparency and reproducibility, critical for scientific rigor.",
+      "location": "Section 2.1",
+      "category": "methodology",
+      "focus": "organization"
+    },
+    {
+      "original_text": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
+      "improved_version": "Include interpretive commentary after each statistical result, such as 'This indicates that the targeted recommendation increased the likelihood of selecting the most effective swap by 50%, which could lead to meaningful environmental benefits.'",
+      "explanation": "This enhances accessibility for diverse audiences, including practitioners and policymakers.",
+      "location": "Section 3.1",
+      "category": "results",
       "focus": "clarity"
     },
     {
-      "original_text": "The references include a wide range of sources but lack consistency in formatting and missing some DOIs.",
-      "improved_version": "Standardize all references to a consistent style (e.g., APA), include complete citation details, and add DOIs where available to enhance professionalism.",
-      "explanation": "Improves credibility and ease of verification for academic readers.",
-      "location": "References",
-      "category": "references",
-      "focus": "style"
+      "original_text": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
+      "improved_version": "Discuss potential behavioral or cognitive mechanisms, such as decision fatigue or preference heterogeneity, that might explain why increased targeted swap selection did not translate into overall GHGE reduction, and propose avenues for future research.",
+      "explanation": "This deepens the analytical depth, fostering critical thinking and guiding subsequent studies.",
+      "location": "Section 4 - Discussion",
+      "category": "discussion",
+      "focus": "depth"
+    },
+    {
+      "original_text": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
+      "improved_version": "Conclude with specific, actionable recommendations for online retailers to implement simple swap prompts, and suggest policy initiatives that support transparency in environmental impact data, thereby translating research into practice.",
+      "explanation": "This enhances the practical relevance and engagement of applied audiences.",
+      "location": "Section 4 - Conclusion",
+      "category": "conclusion",
+      "focus": "organization"
+    },
+    {
+      "original_text": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+      "improved_version": "Revise figure captions to explicitly describe the data shown, including what the error bars represent (e.g., standard error), and clarify how significance is indicated, ensuring the visuals are self-explanatory.",
+      "explanation": "Improves clarity and ensures visual elements effectively complement the text.",
+      "location": "Figures 1 and 2",
+      "category": "visuals",
+      "focus": "visual integration"
     }
   ],
   "detailed_feedback": {
-    "technical_depth": "The manuscript demonstrates a solid understanding of experimental design and statistical analysis appropriate for an academic audience. However, some sections, particularly the methodology, could benefit from more explicit detail on procedures like randomization and blinding to enhance reproducibility and rigor perception.",
-    "terminology_usage": "The use of field-specific terms such as 'GHGE,' 'life cycle assessment,' and 'effect size' is generally appropriate and consistent. Nonetheless, some technical terms could be briefly defined upon first use to aid interdisciplinary readers, such as policymakers or practitioners unfamiliar with specific scientific jargon.",
-    "writing_formality": "The writing maintains a formal academic tone suitable for a research article. Minor adjustments, such as replacing colloquial phrases like 'move beyond previous research' with 'advance existing literature,' could improve tone consistency.",
-    "section_organization": "The structure follows standard scientific conventions, but some sections could be more logically ordered\u2014for example, integrating the detailed methodology earlier or summarizing key findings more prominently in the results for clarity. Clearer headings and subheadings would also aid navigation.",
-    "visual_integration": "References to figures are made, but the actual figures are missing, which hampers comprehension. Including well-designed, labeled figures and ensuring they are referenced appropriately would significantly enhance understanding, especially of complex experimental setups and data trends.",
-    "reference_style": "References are comprehensive but inconsistent in formatting. Adopting a uniform style, such as APA or Vancouver, and including DOIs would improve professionalism and facilitate further literature review.",
-    "methodology_detail": "While the methodology is detailed, it lacks explicit description of key procedures like participant randomization, blinding, and control conditions. Clarifying these aspects would strengthen the perceived rigor and reproducibility.",
-    "results_presentation": "Results are primarily text-based with extensive statistical reporting. Incorporating visual summaries such as bar graphs, effect size plots, or confidence intervals would make the data more accessible and engaging for a diverse audience.",
-    "discussion_depth": "The discussion interprets findings but could deepen analysis by exploring underlying behavioral mechanisms, limitations, and broader implications. Connecting results more explicitly to existing literature would also enhance relevance.",
-    "conclusion_format": "The conclusion summarizes key findings but would benefit from a concise statement of practical implications, policy recommendations, and future research directions to maximize impact."
+    "technical_depth": "The manuscript maintains a generally appropriate level of technical detail for an academic audience familiar with experimental research and environmental impact assessment. However, some sections, particularly the methodology, could benefit from clearer explanations of procedures and data sources to enhance transparency and reproducibility. The statistical analyses are well-reported but would be improved by more interpretive context to aid understanding among non-specialists.",
+    "terminology_usage": "Field-specific terminology such as 'GHGE', 'life cycle assessment', 'product swap recommendations', and 'odds ratio' are used consistently and appropriately. To improve clarity, the manuscript could include brief definitions or explanations of complex terms when first introduced, especially for interdisciplinary audiences or policymakers unfamiliar with technical jargon.",
+    "writing_formality": "The writing style is formal and suitable for an academic journal. It employs precise language and technical terminology, maintaining professionalism throughout. Minor enhancements could include reducing redundancy and ensuring consistent use of abbreviations and terminology to improve flow.",
+    "section_organization": "The manuscript is logically structured, with clear sections for Introduction, Methods, Results, and Discussion. However, some subsections, particularly within the Methods and Results, could be more explicitly signposted to guide the reader through complex analyses. Including summary paragraphs at the end of major sections could improve navigability.",
+    "visual_integration": "Figures are referenced appropriately but lack detailed captions that explain what each visual element demonstrates. Incorporating comprehensive figure legends with explanations of error bars, significance markers, and data interpretation would enhance comprehension and ensure visuals effectively support the narrative.",
+    "reference_style": "References are comprehensive and relevant, following a standard academic style. To strengthen the scholarly foundation, the manuscript could include more recent or seminal works in the field of sustainable food choices and behavioral interventions, providing deeper context for claims made.",
+    "methodology_detail": "The methodology is described in considerable detail, including participant recruitment, experimental design, and data sources. Nonetheless, clarifying the randomization process, intervention delivery, and data handling procedures would improve transparency and replicability.",
+    "results_presentation": "Results are presented with statistical metrics and visual summaries. To improve engagement, adding interpretive commentary that contextualizes the significance of findings would make the data more accessible to a broader audience.",
+    "discussion_depth": "The discussion summarizes key findings but could delve deeper into potential behavioral mechanisms, limitations, and implications for practice. Exploring why certain interventions did not produce expected effects would enrich the analytical depth.",
+    "conclusion_format": "The conclusion effectively summarizes the main findings but would benefit from explicit, actionable recommendations for stakeholders and future research directions, enhancing its practical utility."
   },
-  "summary": "Overall, the manuscript presents a well-structured and methodologically sound study with relevant findings for academic and applied audiences. However, improvements in clarity, visual data presentation, and contextualization would significantly enhance its accessibility and engagement. Addressing detailed methodological transparency and explicitly linking findings to broader implications will better align the work with the expectations of a multidisciplinary, policy-relevant readership, elevating its overall quality to a good or excellent standard."
+  "summary": "Overall, the manuscript demonstrates solid scientific rigor and a clear structure suitable for an academic audience. However, to elevate its quality and audience engagement, it should improve clarity in methodology, interpret results with more contextual insight, deepen the discussion on underlying mechanisms, and enhance visual explanations. Addressing these points will make the research more accessible, impactful, and applicable across diverse stakeholder groups."
 }

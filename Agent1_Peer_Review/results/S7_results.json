@@ -3,144 +3,128 @@
   "critical_remarks": [
     {
       "category": "interpretation",
-      "location": "Section 3.1.1",
-      "issue": "The interpretation of the non-significant effects of targeted recommendations on overall GHGE reduction lacks depth, and the discussion does not sufficiently explore potential reasons for this null result, such as the possibility of participants accepting multiple swaps diluting the targeted effect.",
+      "location": "Section 3 Results",
+      "issue": "The interpretation of non-significant findings, particularly regarding the lack of effect of targeted recommendations and GHGE information on overall basket GHGE, is somewhat superficial. The discussion attributes this to participants accepting multiple swaps but does not explore alternative explanations such as potential ceiling effects or the influence of unmeasured variables.",
       "severity": "high",
-      "impact": "This limits the reader's understanding of the mechanisms behind the findings and weakens the overall interpretive clarity of the study's implications."
+      "impact": "This limits the depth of understanding of the results, potentially oversimplifying the implications and reducing the manuscript's analytical rigor."
     },
     {
       "category": "context",
-      "location": "Section 4",
-      "issue": "The literature comparison is somewhat superficial, primarily referencing simulation studies and prior intervention research without adequately situating the current findings within the broader empirical landscape of real-world dietary interventions or behavioral change theories.",
+      "location": "Section 4 Discussion",
+      "issue": "While the discussion references prior simulation studies and some literature on consumer preferences, it lacks a thorough comparison with existing empirical field or lab studies on similar interventions, especially those examining actual consumer behavior in real-world settings.",
       "severity": "medium",
-      "impact": "This diminishes the manuscript\u2019s contribution to the existing body of knowledge and reduces clarity on how this study advances or contrasts with prior work."
+      "impact": "This diminishes the contextual richness and makes it harder to situate the findings within the broader research landscape, potentially overstating novelty or applicability."
     },
     {
       "category": "reflection",
-      "location": "Section 4",
-      "issue": "The limitations section mentions sample restrictions and the focus on GHGE but does not sufficiently discuss potential biases introduced by the online, simulated environment or the short-term nature of the intervention.",
+      "location": "Section 4 Discussion",
+      "issue": "The limitations section mentions sample restrictions and the focus solely on GHGE but does not sufficiently analyze potential biases introduced by the online, incentivized experimental design or discuss how these might influence external validity.",
       "severity": "high",
-      "impact": "This affects the credibility and generalizability of the findings, and the lack of detailed future directions limits the manuscript's utility for guiding subsequent research."
+      "impact": "This weakens the critical self-assessment of the study's generalizability and limits transparency regarding potential biases."
     },
     {
       "category": "impact",
-      "location": "Section 4",
-      "issue": "While the practical implications are discussed, the potential long-term effects and scalability of the intervention are not thoroughly examined, especially regarding consumer habituation or the impact of repeated exposure.",
+      "location": "Section 4 Discussion",
+      "issue": "Practical implications are discussed mainly in terms of feasibility but lack detailed exploration of how these interventions could be integrated into actual retail environments, including logistical, technological, or consumer acceptance challenges.",
       "severity": "medium",
-      "impact": "This leaves the practical significance somewhat underdeveloped and may overstate the immediate applicability of the results."
+      "impact": "This reduces the practical relevance and actionable guidance for stakeholders, limiting the manuscript's utility for policy or retail implementation."
     },
     {
       "category": "quality",
       "location": "Throughout the discussion",
-      "issue": "The discussion is somewhat repetitive, with multiple sections reiterating similar points about the intervention's simplicity and potential, but lacking in critical engagement with contradictory findings or nuanced interpretation.",
+      "issue": "The discussion is somewhat repetitive, especially regarding the effects of GHGE information among high meat consumers, and lacks clear, structured subheadings that could improve coherence and readability.",
       "severity": "low",
-      "impact": "This reduces the overall coherence and depth of the discussion, limiting its scholarly rigor."
+      "impact": "This affects overall clarity and reader engagement, potentially obscuring key insights."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly lower overall basket GHGE.",
-      "improved_version": "While targeted recommendations successfully increased the selection of the most effective GHGE-reducing swap, they did not translate into a significant overall reduction in basket GHGE, possibly due to participants accepting multiple swaps that diluted the impact of highlighting a single optimal choice.",
-      "explanation": "Clarifies the potential reason behind the null effect on overall GHGE, providing a more nuanced interpretation.",
+      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+      "improved_version": "Participants showed a high level of engagement with the swap recommendations, as evidenced by the average of four swaps per participant and the majority swapping at least one product.",
+      "explanation": "Clarifies the nature of engagement and emphasizes the significance of the quantitative findings, strengthening the interpretation.",
+      "location": "Section 3 Results",
+      "category": "interpretation",
+      "focus": "significance"
+    },
+    {
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "While the targeted and informational interventions did not significantly reduce overall basket GHGE, the increase in the selection of the most effective swap suggests some targeted influence on specific behaviors, which warrants further exploration.",
+      "explanation": "Provides a more nuanced interpretation, acknowledging partial effects and avoiding overly simplistic conclusions.",
       "location": "Section 3.1.1",
       "category": "interpretation",
       "focus": "significance"
     },
     {
-      "original_text": "The literature comparison is somewhat superficial, primarily referencing simulation studies and prior intervention research.",
-      "improved_version": "The discussion could be strengthened by integrating findings from real-world dietary intervention studies and behavioral change frameworks, such as the Theory of Planned Behavior or Nudge Theory, to better contextualize the effectiveness of product swap recommendations.",
-      "explanation": "Enhances the literature review by situating findings within established behavioral theories and empirical evidence, enriching the scholarly context.",
-      "location": "Section 4",
+      "original_text": "Our results indicate that offering specific and actionable product swap recommendations, derived from the final contents of baskets and presented before checkout, is an effective strategy.",
+      "improved_version": "Our findings support that providing consumers with specific, actionable product swap recommendations at the point of decision-making can effectively promote more climate-friendly purchasing behaviors, aligning with prior consumer preference research.",
+      "explanation": "Enhances the connection to existing literature and emphasizes the practical relevance, improving contextual framing.",
+      "location": "Section 4 Discussion",
       "category": "context",
       "focus": "comparison"
     },
     {
-      "original_text": "The limitations section mentions sample restrictions but does not sufficiently discuss potential biases from the simulated environment.",
-      "improved_version": "Future research should address potential biases stemming from the online, simulated shopping environment, such as reduced emotional engagement or social desirability effects, which may differ from real-world purchasing behavior.",
-      "explanation": "Provides a more comprehensive reflection on limitations, guiding future validation efforts.",
-      "location": "Section 4",
+      "original_text": "The high effectiveness of basic product swap recommendations observed in this study is partially driven by a novelty effect.",
+      "improved_version": "The observed high engagement with basic product swap recommendations may partly result from a novelty effect; future longitudinal studies are needed to assess whether this effect persists over time.",
+      "explanation": "Acknowledges potential bias and suggests future research directions, strengthening reflection.",
+      "location": "Section 4 Discussion",
       "category": "reflection",
       "focus": "limitations"
     },
     {
-      "original_text": "The practical implications are discussed but lack consideration of long-term sustainability and habituation effects.",
-      "improved_version": "Further exploration is needed to understand whether repeated exposure to product swap recommendations sustains behavior change over time or if novelty effects diminish, which is critical for assessing long-term scalability.",
-      "explanation": "Encourages a forward-looking perspective on intervention durability and real-world implementation.",
-      "location": "Section 4",
+      "original_text": "While specific and actionable product swap recommendations on their own may be sufficient for consumers already inclined toward plant-based choices, information-based interventions appear to be particularly helpful for high meat consumers.",
+      "improved_version": "Our results suggest that, for consumers with high meat consumption, combining specific swap recommendations with GHGE reduction information may be necessary to induce meaningful behavior change, highlighting the importance of tailored interventions.",
+      "explanation": "Provides a clearer, more targeted implication for intervention design, enhancing practical impact.",
+      "location": "Section 4 Discussion",
       "category": "impact",
       "focus": "implications"
     },
     {
-      "original_text": "The discussion is somewhat repetitive, with multiple points emphasizing simplicity and feasibility.",
-      "improved_version": "To improve coherence, the discussion should critically evaluate contradictory findings, such as the null effects of targeted recommendations on overall GHGE, and propose specific hypotheses or mechanisms for future testing.",
-      "explanation": "Enhances scholarly depth by engaging critically with the data and avoiding redundancy.",
-      "location": "Section 4",
-      "category": "quality",
-      "focus": "completeness"
-    },
-    {
-      "original_text": "The study's short-term, simulated environment limits external validity.",
-      "improved_version": "A more explicit acknowledgment that the controlled online setting may not fully capture real-world complexities\u2014such as social influences, habitual behaviors, and emotional responses\u2014is necessary, along with suggestions for field studies to validate these findings.",
-      "explanation": "Strengthens the reflection on external validity and provides clear directions for future research.",
-      "location": "Section 4",
+      "original_text": "Despite these strengths, certain limitations must be acknowledged.",
+      "improved_version": "Despite the strengths of our experimental design, several limitations\u2014including sample representativeness, ecological validity, and the focus solely on GHGE\u2014should be considered when interpreting the findings.",
+      "explanation": "Offers a more comprehensive and critical view, improving transparency and scientific rigor.",
+      "location": "Section 4 Reflection",
       "category": "reflection",
       "focus": "limitations"
     },
     {
-      "original_text": "The intervention's scalability and long-term impact are not deeply discussed.",
-      "improved_version": "The discussion should elaborate on potential challenges and opportunities for scaling this intervention within retail environments, including data integration, consumer engagement over time, and policy support, to better assess its practical impact.",
-      "explanation": "Provides a more comprehensive view of practical implementation hurdles and enablers.",
-      "location": "Section 4",
-      "category": "impact",
-      "focus": "implications"
-    },
-    {
-      "original_text": "The literature review does not sufficiently compare with behavioral theories.",
-      "improved_version": "Incorporating discussion of relevant behavioral theories, such as the COM-B model or Nudge Theory, would deepen the understanding of how specific recommendations influence behavior and inform future intervention design.",
-      "explanation": "Connects empirical findings to established theoretical frameworks, enriching interpretive depth.",
-      "location": "Section 4",
-      "category": "context",
-      "focus": "comparison"
-    },
-    {
-      "original_text": "The discussion could better address the potential for unintended consequences, such as consumer fatigue or reactance.",
-      "improved_version": "Future research should consider potential unintended effects, including decision fatigue or reactance to repeated recommendations, which could undermine long-term effectiveness and consumer trust.",
-      "explanation": "Adds critical nuance regarding sustainability and ethical considerations of behavioral interventions.",
-      "location": "Section 4",
-      "category": "reflection",
-      "focus": "limitations"
-    },
-    {
-      "original_text": "The manuscript lacks detailed suggestions for future research directions.",
-      "improved_version": "Explicitly outlining future research avenues\u2014such as longitudinal field studies, integration of nutritional and environmental data, and testing in diverse cultural contexts\u2014would enhance the manuscript\u2019s utility for guiding subsequent investigations.",
-      "explanation": "Provides clear, actionable directions that strengthen the manuscript\u2019s scholarly contribution.",
-      "location": "Section 4",
+      "original_text": "Future research should examine their long-term impact in real-world retail settings.",
+      "improved_version": "Future research should focus on evaluating the long-term sustainability and real-world effectiveness of these interventions in diverse retail environments, including potential barriers to adoption and consumer acceptance over time.",
+      "explanation": "Provides specific directions for future work, emphasizing practical relevance and external validity.",
+      "location": "Section 4 Reflection",
       "category": "reflection",
       "focus": "future work"
     },
     {
-      "original_text": "The impact discussion does not sufficiently explore policy implications.",
-      "improved_version": "The discussion could be expanded to consider policy-level interventions, such as environmental labeling standards or retail incentives, that could amplify the effects observed in this study.",
-      "explanation": "Links empirical findings to broader policy strategies, enhancing real-world relevance.",
-      "location": "Section 4",
+      "original_text": "Our findings highlight product swap recommendations as a promising tool for promoting sustainable food choices.",
+      "improved_version": "Our findings demonstrate that targeted, specific, and actionable product swap recommendations can serve as a scalable and effective component of broader strategies to promote sustainable food choices, especially when combined with informational cues for high-impact consumers.",
+      "explanation": "Strengthens the impact statement by integrating practical and policy implications, enhancing theoretical contribution.",
+      "location": "Section 4 Impact",
       "category": "impact",
       "focus": "implications"
     },
     {
-      "original_text": "The overall discussion could benefit from a more balanced critique of the findings.",
-      "improved_version": "A more balanced critique should acknowledge the limitations of short-term, simulated interventions and emphasize the need for real-world validation, thereby providing a more nuanced and credible interpretation.",
-      "explanation": "Improves scholarly rigor and transparency.",
-      "location": "Section 4",
+      "original_text": "The straightforward nature of this intervention, particularly when implemented without targeted strategies or GHGE information, makes it highly feasible for retailers.",
+      "improved_version": "The simplicity and scalability of this intervention suggest it can be feasibly integrated into existing online retail platforms, though real-world implementation would require addressing logistical, technological, and consumer acceptance challenges.",
+      "explanation": "Adds nuance and acknowledges implementation barriers, improving practical relevance.",
+      "location": "Section 4 Impact",
+      "category": "impact",
+      "focus": "implications"
+    },
+    {
+      "original_text": "The discussion is somewhat repetitive, especially regarding the effects of GHGE information among high meat consumers, and lacks clear, structured subheadings that could improve coherence.",
+      "improved_version": "Reorganize the discussion with clear subheadings such as 'Main Findings', 'Comparison with Literature', 'Limitations and Future Directions', and 'Practical Implications' to enhance clarity and reader engagement.",
+      "explanation": "Improves overall coherence and readability, making complex insights more accessible.",
+      "location": "Throughout the discussion",
       "category": "quality",
-      "focus": "completeness"
+      "focus": "coherence"
     }
   ],
   "detailed_feedback": {
-    "interpretation_analysis": "The interpretation of the results correctly notes that while the intervention increased the likelihood of selecting the most effective GHGE-reducing swap, it did not significantly lower overall basket emissions, possibly due to multiple swaps diluting the targeted effect. The analysis could be deepened by exploring behavioral mechanisms, such as decision fatigue or the acceptance of multiple swaps, which might explain the null overall effect.",
-    "context_review": "The literature comparison is somewhat limited, primarily referencing prior simulation studies and general dietary guidance. To strengthen the manuscript, it should incorporate empirical studies on real-world dietary interventions, behavioral change theories, and previous field experiments, which would better situate the findings within the broader research landscape.",
-    "reflection_assessment": "The limitations section recognizes sample restrictions and the simulated environment but does not sufficiently discuss potential biases or the short-term nature of the intervention. Future work should explicitly address external validity concerns, consumer habituation, and the need for longitudinal validation, providing a more comprehensive reflection.",
-    "impact_evaluation": "The practical implications are discussed with an emphasis on feasibility, but the long-term sustainability and scalability of the intervention are underexplored. Expanding this discussion to include potential challenges, policy implications, and the importance of repeated exposure would enhance the impact assessment.",
-    "quality_analysis": "The discussion is somewhat repetitive and lacks critical engagement with contradictory findings or alternative explanations. Incorporating a balanced critique, engaging with behavioral theories, and explicitly outlining future research directions would improve scholarly rigor and coherence."
+    "interpretation_analysis": "The manuscript presents a generally balanced interpretation of the results, acknowledging the limited impact of targeted recommendations and GHGE information on overall GHGE reduction. However, it could deepen the analysis by exploring alternative explanations such as ceiling effects, participant engagement levels, or the influence of multiple swaps diluting the effect of highlighting the most effective one. The post hoc findings among high meat consumers are promising but need cautious framing, emphasizing their exploratory nature and the necessity for confirmatory studies.",
+    "context_review": "The discussion references prior simulation studies and consumer preference literature but lacks a comprehensive comparison with empirical field or lab studies that examine actual consumer behavior in real shopping environments. Incorporating such comparisons would strengthen the contextual grounding, clarify the novelty, and highlight how this study advances or confirms existing knowledge.",
+    "reflection_assessment": "The limitations section recognizes key issues such as sample restrictions and focus on GHGE but underemphasizes potential biases from the experimental setting, such as the artificiality of online shopping, incentive effects, and sample bias. A more thorough reflection on these factors and their implications for external validity would improve transparency and guide future research.",
+    "impact_evaluation": "The practical implications are well-articulated regarding feasibility but could benefit from more detailed discussion on how these interventions could be operationalized in real-world retail settings, including technological requirements, consumer acceptance, and integration with other behavioral strategies. Theoretical contributions are implied but could be explicitly linked to existing models of consumer behavior and sustainability interventions.",
+    "quality_analysis": "The discussion would benefit from better structural organization, with thematic subheadings to guide the reader through key points. Redundancies, especially concerning the effects among high meat consumers, could be minimized for clarity. Overall, the narrative is coherent but could be more concise and systematically presented to enhance readability."
   },
-  "summary": "Overall, the discussion demonstrates a solid understanding of the study's findings and potential implications but is hampered by limited depth in interpretation, insufficient contextualization within existing literature, and a somewhat superficial reflection on limitations and future directions. Addressing these issues with more nuanced analysis, theoretical integration, and explicit future research pathways would elevate the manuscript's scholarly quality and practical relevance."
+  "summary": "Overall, the discussion demonstrates a solid understanding of the study's findings and their implications but suffers from superficial interpretation of some results, limited contextual comparison, and insufficient reflection on limitations and practical implementation. Addressing these issues with clearer structure, deeper analysis, and explicit links to broader literature and real-world applications would elevate the manuscript's quality to an excellent standard."
 }

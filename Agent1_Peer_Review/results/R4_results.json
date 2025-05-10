@@ -3,117 +3,130 @@
   "critical_remarks": [
     {
       "category": "data_sharing",
-      "location": "Section 'Data Availability' (Paragraph 1)",
-      "issue": "The data is stated as 'publicly available' with a DOI link, but no detailed description of the dataset contents, formats, or access procedures is provided.",
+      "location": "Abstract: Data availability statement",
+      "issue": "The data availability statement states that all data are publicly available on OSF with a DOI link, but it lacks details on the specific datasets, formats, and any accompanying metadata or documentation necessary for reuse.",
       "severity": "medium",
-      "impact": "Limited transparency about the dataset hampers reproducibility and understanding of what data can be accessed, reducing overall research transparency."
+      "impact": "This limits immediate understanding and reuse of the data, reducing transparency and reproducibility."
     },
     {
       "category": "code_availability",
-      "location": "Section 'Code Availability' (Paragraph 2)",
-      "issue": "The code is said to be 'publicly available' with a DOI link, but no information on the programming language, dependencies, or how to replicate the analysis is provided.",
+      "location": "Abstract: Code availability statement",
+      "issue": "The statement indicates all code is publicly available but provides no information about the programming languages, dependencies, or instructions for use.",
       "severity": "medium",
-      "impact": "Lack of detailed code documentation impairs reproducibility and usability by other researchers."
+      "impact": "This hampers reproducibility and ease of reuse by other researchers."
     },
     {
       "category": "documentation",
-      "location": "Throughout the document, especially in 'Methods' and 'Appendix' references",
-      "issue": "There is no comprehensive documentation or README files linked to the data or code repositories that explain how to interpret, run, or analyze the provided resources.",
+      "location": "Throughout the manuscript",
+      "issue": "There is no mention of comprehensive documentation, such as README files, code comments, or user guides accompanying the shared data and code repositories.",
       "severity": "high",
-      "impact": "Inadequate documentation significantly reduces the ability of others to reproduce or build upon the work, affecting transparency."
+      "impact": "Without proper documentation, users may struggle to understand or correctly utilize the shared resources, impairing transparency and reproducibility."
     },
     {
       "category": "restrictions",
-      "location": "Section 'Data and Code Availability' (Paragraph 1)",
-      "issue": "The statement 'publicly available' does not clarify whether access is open or if there are restrictions, such as login requirements or data use agreements.",
+      "location": "Abstract: Data and code availability statements",
+      "issue": "No justification is provided for any access restrictions or limitations, although the statements imply open access.",
       "severity": "low",
-      "impact": "Unclear access restrictions can lead to confusion and hinder open science practices."
+      "impact": "Lack of justification may raise questions about data privacy or proprietary information, affecting trust."
     },
     {
       "category": "reproducibility",
-      "location": "Throughout the methodology and results sections",
-      "issue": "No detailed instructions, environment specifications, or versioning information are provided to enable exact reproduction of analyses.",
+      "location": "Methodology and supplementary materials",
+      "issue": "Details about the exact software environment, dependencies, and versioning are missing, which are critical for reproducing the analysis.",
       "severity": "high",
-      "impact": "Without environment details and step-by-step instructions, reproducing the results is challenging, reducing research transparency."
+      "impact": "This significantly hampers the ability of others to replicate the results accurately."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The study data are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
-      "improved_version": "The dataset, including raw and processed data, is publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes detailed descriptions of each variable, data formats (e.g., CSV, JSON), and instructions for access.",
-      "explanation": "Providing detailed dataset descriptions and formats enhances transparency and helps others understand and utilize the data effectively.",
-      "location": "Section 'Data Availability'",
+      "original_text": "The data availability statement states that all data are publicly available on OSF with a DOI link.",
+      "improved_version": "Specify the exact datasets included, their formats (e.g., CSV, JSON), and any accompanying metadata or codebooks, e.g., 'All anonymized datasets, including raw survey responses, shopping basket data, and GHGE estimates, are available in CSV format with detailed metadata and codebooks on OSF at DOI: ...'.",
+      "explanation": "Providing detailed dataset descriptions facilitates understanding, reuse, and verification of data by other researchers.",
+      "location": "Abstract: Data availability statement",
       "category": "data_sharing",
       "focus": "data_sharing"
     },
     {
-      "original_text": "All code used in the analyses are publicly available on the Open Science Framework project page (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b).",
-      "improved_version": "All analysis code, scripts, and workflows are publicly available on the Open Science Framework (DOI: https://osf.io/nb4vt/?view only=2d5ab97ba2ba4673843818f452098b3b). The repository includes a README file with instructions on how to run the code, required dependencies (e.g., R, Python versions), and environment setup details.",
-      "explanation": "Including environment setup instructions and dependency details facilitates exact replication of analyses, supporting reproducibility.",
-      "location": "Section 'Code Availability'",
+      "original_text": "All code used in the analyses are publicly available on the OSF project page.",
+      "improved_version": "Include specifics about the code, such as programming language (e.g., R, Python), dependencies, and instructions for execution, e.g., 'All analysis scripts in R, along with necessary dependencies and environment setup instructions, are available at DOI: ...'.",
+      "explanation": "Clear instructions and environment details improve reproducibility and ease of reuse for other researchers.",
+      "location": "Abstract: Code availability statement",
       "category": "code_availability",
       "focus": "code_availability"
     },
     {
-      "original_text": "The study was preregistered and the data of this study are publicly available.",
-      "improved_version": "The study was preregistered (link to preregistration) and the data, along with analysis scripts, are hosted on OSF with version control. A detailed README explains how to reproduce the analysis, including software versions, data processing steps, and analysis commands.",
-      "explanation": "Linking preregistration and providing detailed reproducibility instructions enhances transparency and trustworthiness.",
-      "location": "Section 'Methods' and 'Data and Code Availability'",
+      "original_text": "There is no mention of documentation accompanying shared resources.",
+      "improved_version": "Add a comprehensive README file in the repository that explains the data structure, code organization, dependencies, and step-by-step instructions for reproducing analyses.",
+      "explanation": "Good documentation ensures that users can understand and correctly utilize the shared data and code, enhancing transparency.",
+      "location": "data_code_availability",
       "category": "documentation",
       "focus": "documentation"
     },
     {
-      "original_text": "No detailed documentation or environment specifications are provided.",
-      "improved_version": "The code repository includes comprehensive documentation, including a setup guide, environment specifications (e.g., conda environment.yml or Dockerfile), and step-by-step instructions for reproducing all analyses and figures.",
-      "explanation": "Providing environment specifications ensures that others can replicate the computational environment exactly, improving reproducibility.",
-      "location": "Section 'Code Documentation'",
-      "category": "documentation",
-      "focus": "documentation"
-    },
-    {
-      "original_text": "Access restrictions are not specified beyond 'publicly available'.",
-      "improved_version": "Access to the data and code repositories is open without restrictions. If any restrictions exist (e.g., data privacy concerns), these are clearly stated, along with procedures for requesting access or data use agreements.",
-      "explanation": "Clarifying access restrictions ensures transparency about data openness and legal or ethical constraints.",
-      "location": "Section 'Restrictions Justification'",
+      "original_text": "No justification is provided for access restrictions.",
+      "improved_version": "If any restrictions exist (e.g., privacy concerns), explicitly justify them, e.g., 'Data are anonymized to protect participant privacy, which restricts sharing of raw identifiable information.'",
+      "explanation": "Justifying restrictions maintains transparency and builds trust with users.",
+      "location": "Abstract: Data and code availability statements",
       "category": "restrictions",
       "focus": "restrictions"
     },
     {
-      "original_text": "No detailed instructions for reproducing the analysis are provided.",
-      "improved_version": "The repository includes a detailed reproducibility guide, outlining step-by-step instructions, software requirements, and scripts to reproduce all key results, figures, and tables presented in the paper.",
-      "explanation": "Explicit reproducibility instructions enable other researchers to verify and extend findings, strengthening scientific transparency.",
-      "location": "Section 'Reproducibility Support'",
+      "original_text": "Details about the software environment are missing.",
+      "improved_version": "Provide detailed environment specifications, such as R version, Python version, package versions, and environment setup instructions, e.g., via a Dockerfile or environment.yml file.",
+      "explanation": "This ensures others can replicate the computational environment precisely, supporting reproducibility.",
+      "location": "Methodology or supplementary materials",
       "category": "reproducibility",
       "focus": "reproducibility"
     },
     {
-      "original_text": "The data and code are hosted on OSF with links but lack detailed metadata or environment info.",
-      "improved_version": "The OSF repositories include comprehensive metadata, descriptive README files, environment configuration files (e.g., environment.yml, Dockerfile), and example scripts to facilitate environment setup and analysis reproduction.",
-      "explanation": "Enhanced metadata and environment files improve ease of reproduction and understanding of the computational context.",
-      "location": "Section 'Data and Code Repositories'",
-      "category": "documentation",
-      "focus": "documentation"
+      "original_text": "The manuscript lacks explicit mention of code comments or user guides.",
+      "improved_version": "Ensure that the shared code includes comprehensive inline comments and a user guide or README detailing how to run analyses, interpret outputs, and modify parameters.",
+      "explanation": "Enhanced documentation within code improves usability and reduces barriers to reproduction.",
+      "location": "code_documentation",
+      "category": "documentation"
     },
     {
-      "original_text": "No mention of versioning or updates to data/code is made.",
-      "improved_version": "The data and code repositories include version tags and changelogs documenting updates, corrections, or modifications to ensure transparency about the evolution of shared resources.",
-      "explanation": "Version control allows others to cite specific versions and understand changes over time, supporting reproducibility and transparency.",
-      "location": "Section 'Versioning and Updates'",
-      "category": "documentation",
-      "focus": "documentation"
+      "original_text": "The data and code repositories do not specify access controls or licensing.",
+      "improved_version": "Clearly state the licensing terms (e.g., CC BY, MIT License) and access permissions, e.g., 'Data and code are shared under the MIT License, allowing reuse with attribution.'",
+      "explanation": "Explicit licensing clarifies permissible uses and encourages responsible reuse.",
+      "location": "Abstract or repository README",
+      "category": "restrictions"
     },
     {
-      "original_text": "The paper does not specify whether the data or code are licensed for reuse.",
-      "improved_version": "The data and code are released under open licenses (e.g., CC BY 4.0 for data, MIT License for code), clearly stated in the repositories, enabling reuse and adaptation by others.",
-      "explanation": "Explicit licensing clarifies legal permissions, encouraging reuse and transparency."
+      "original_text": "No mention of version control or updates.",
+      "improved_version": "Use version control tags or release versions in the repository, and document any updates or revisions to ensure transparency over time.",
+      "explanation": "Versioning supports reproducibility and tracking of changes.",
+      "location": "code repository",
+      "category": "reproducibility"
+    },
+    {
+      "original_text": "Lack of detailed methodological steps for data processing and analysis.",
+      "improved_version": "Publish detailed scripts or notebooks that document each step of data cleaning, processing, and analysis, ideally with inline comments and explanations.",
+      "explanation": "This enhances transparency and allows others to follow and verify the analysis pipeline.",
+      "location": "methodology",
+      "category": "documentation"
+    },
+    {
+      "original_text": "No explicit mention of data privacy or participant consent considerations related to data sharing.",
+      "improved_version": "Include a statement clarifying how participant privacy is protected, e.g., 'Data are anonymized and compliant with GDPR, enabling open sharing.'",
+      "explanation": "Addressing privacy concerns reassures users about ethical data sharing practices.",
+      "location": "data sharing",
+      "category": "restrictions"
+    },
+    {
+      "original_text": "The manuscript does not specify if code and data are maintained or updated post-publication.",
+      "improved_version": "State whether the resources will be maintained, updated, or versioned over time, e.g., 'The code repository will be maintained and updated as needed for reproducibility.'",
+      "explanation": "This supports ongoing transparency and usability.",
+      "location": "discussion or conclusion",
+      "category": "reproducibility"
     }
   ],
   "detailed_feedback": {
-    "data_sharing_assessment": "While the data is declared as publicly available via OSF, the lack of detailed descriptions, formats, and access procedures limits transparency. Providing comprehensive dataset metadata, variable descriptions, and access instructions would significantly improve clarity and usability.",
-    "code_availability": "The code is hosted on OSF but lacks detailed documentation, environment specifications, and usage instructions. Including a README, environment setup files, and example scripts would enhance reproducibility and ease of use.",
-    "documentation_completeness": "The current documentation is minimal, primarily referencing repository links. Developing thorough documentation, including setup guides, data dictionaries, and analysis workflows, is essential for enabling others to reproduce and verify results.",
-    "restrictions_justification": "The statement 'publicly available' does not specify whether access is unrestricted or if there are limitations. Clarifying any restrictions, data privacy considerations, or data use agreements is necessary for full transparency.",
-    "reproducibility_support": "The absence of detailed environment specifications, step-by-step instructions, and versioning information hampers reproducibility. Providing comprehensive reproducibility packages and instructions would greatly support independent verification."
+    "data_sharing_assessment": "The manuscript indicates that all data are publicly available via OSF with a DOI, which is positive. However, it lacks detailed descriptions of the datasets, formats, and accompanying metadata necessary for effective reuse. Including comprehensive dataset descriptions, formats, and documentation would significantly improve transparency and usability.",
+    "code_availability": "The code is stated to be publicly available on OSF, but there is no information about the programming language, dependencies, or instructions for execution. Providing detailed environment setup instructions, versioning, and usage guides would enhance reproducibility.",
+    "documentation_completeness": "There is no mention of accompanying documentation such as README files, inline comments, or user guides. Adding comprehensive documentation would facilitate understanding, correct use, and reproduction of analyses.",
+    "restrictions_justification": "The statements imply open access but do not explicitly justify any restrictions, such as privacy or proprietary considerations. Clarifying these justifications would improve transparency and trust.",
+    "reproducibility_support": "Details about the software environment, dependencies, and version control are missing. Including environment specifications, containerization (e.g., Docker), and step-by-step analysis scripts would greatly support reproducibility."
   },
-  "summary": "Overall, the study demonstrates good intentions toward open data and code sharing, but it falls short in providing detailed documentation, environment specifications, and metadata necessary for full transparency and reproducibility. Improving these areas would elevate the research's openness and utility for the scientific community."
+  "summary": "Overall, the manuscript demonstrates good intentions for data and code sharing by hosting resources on OSF, but it falls short in providing detailed descriptions, comprehensive documentation, environment specifications, and clear licensing information. Addressing these issues would elevate the transparency, usability, and reproducibility of the research outputs to an excellent standard."
 }

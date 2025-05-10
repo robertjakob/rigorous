@@ -4,185 +4,183 @@
     {
       "category": "gender_neutrality",
       "location": "Author list and author contributions",
-      "issue": "Use of gendered pronouns and references such as 'Kevin O\u2019Sullivan1*' and 'he' or 'she' is not explicitly present but the author list may imply gender bias or lack of inclusivity in attribution.",
-      "severity": "low",
-      "impact": "Limited impact on the overall inclusivity of the language, but explicit gender-neutral attribution enhances inclusivity."
+      "issue": "Use of gendered pronouns and references (e.g., 'Kevin O\u2019Sullivan*') without gender-neutral alternatives or explicit acknowledgment of gender diversity.",
+      "severity": "medium",
+      "impact": "May inadvertently reinforce gender stereotypes or exclude non-binary and gender-diverse individuals from feeling represented."
     },
     {
       "category": "cultural_sensitivity",
       "location": "Introduction and methodology sections",
-      "issue": "The study is conducted solely with German-speaking participants and references German-specific food products, which may limit cultural inclusivity and applicability.",
+      "issue": "Focus on German-speaking participants and German grocery data without acknowledgment of cultural diversity or inclusion of other cultural contexts.",
       "severity": "medium",
-      "impact": "Restricts cultural inclusivity and may overlook diverse dietary practices and cultural contexts globally."
+      "impact": "Limits the applicability of findings and may exclude or marginalize diverse cultural groups, reducing global relevance."
     },
     {
       "category": "age_terminology",
       "location": "Participants section",
-      "issue": "The minimum age is specified as '16 years', but the language does not explicitly acknowledge diverse age groups or avoid age-related stereotypes.",
+      "issue": "Minimum age of 16 years is specified, but the language does not clarify whether the language used is age-appropriate for younger or older populations.",
       "severity": "low",
-      "impact": "Minimal impact, but more inclusive age language could improve clarity and inclusivity."
+      "impact": "Potentially limits understanding or engagement of different age groups, especially older adults."
     },
     {
       "category": "disability_inclusion",
-      "location": "Methodology and participant description",
-      "issue": "No mention of accommodations or considerations for participants with disabilities or different accessibility needs.",
+      "location": "Methodology and measures",
+      "issue": "No mention of accommodations or considerations for participants with disabilities or accessibility needs.",
       "severity": "high",
-      "impact": "Excludes participants with disabilities or accessibility needs, reducing inclusivity."
+      "impact": "Excludes or disadvantages participants with disabilities, reducing inclusivity and representativeness."
     },
     {
       "category": "socioeconomic_sensitivity",
       "location": "Introduction and methodology",
-      "issue": "The study references income and food choices but does not explicitly consider socioeconomic barriers or diverse economic backgrounds in the language.",
+      "issue": "Use of income data in analyses without contextualizing socioeconomic diversity or barriers faced by lower-income groups.",
       "severity": "medium",
-      "impact": "May overlook socioeconomic factors influencing food choices and behavior change."
+      "impact": "May overlook socioeconomic barriers affecting food choices, limiting the applicability of recommendations to diverse economic groups."
     },
     {
       "category": "geographic_inclusivity",
       "location": "Introduction and participant recruitment",
-      "issue": "Focus on German participants limits geographic diversity and applicability to other regions with different food cultures and environmental impacts.",
-      "severity": "medium",
-      "impact": "Limits generalizability and inclusivity across global populations."
+      "issue": "Focus solely on German-speaking participants and German grocery data, with no discussion of other geographic or linguistic groups.",
+      "severity": "high",
+      "impact": "Reduces generalizability and excludes non-German populations, limiting global relevance."
     },
     {
       "category": "professional_titles",
-      "location": "Author affiliations and contributions",
-      "issue": "Use of academic titles such as 'Chair of...' is appropriate but could be expanded to include more accessible descriptions for lay audiences.",
+      "location": "Author affiliations",
+      "issue": "Use of formal academic titles (e.g., 'Chair of Information Management') without gender-neutral or inclusive language around professional roles.",
       "severity": "low",
-      "impact": "Minimal impact on inclusivity but could improve clarity for non-academic audiences."
+      "impact": "Minimal, but could be more inclusive if titles are clarified or simplified."
     },
     {
-      "category": "stereotypes",
-      "location": "Results and discussion",
-      "issue": "Descriptions such as 'male gender' and 'young male participants' may reinforce gender and age stereotypes regarding dietary behavior.",
+      "category": "stereotype_avoidance",
+      "location": "Discussion of participant behaviour",
+      "issue": "Descriptions such as 'high meat consumers' may reinforce stereotypes about dietary habits without nuanced context.",
       "severity": "medium",
-      "impact": "Potential reinforcement of stereotypes about gendered or age-related dietary preferences."
+      "impact": "Could perpetuate stereotypes or biases about certain dietary groups, affecting perceptions."
     },
     {
       "category": "identity_language",
       "location": "Participant description",
-      "issue": "The exclusion of non-binary participants and the focus on binary gender categories ('Male=1, Female=0') reflect a lack of person-first and inclusive identity language.",
+      "issue": "Exclusion of non-binary participants after data collection ('non-binary participants (N=12) excluded'), without acknowledgment of gender diversity in the initial recruitment or analysis.",
       "severity": "high",
-      "impact": "Excludes gender identities beyond male/female, reducing inclusivity."
+      "impact": "Disregards gender diversity, reducing inclusivity and potentially marginalizing non-binary individuals."
     },
     {
       "category": "historical_context",
-      "location": "Introduction and references",
-      "issue": "The language does not explicitly acknowledge the historical context of dietary practices or environmental impacts across different cultures and times.",
+      "location": "Introduction and discussion",
+      "issue": "No sensitivity to historical or cultural contexts influencing dietary habits or environmental attitudes across different populations.",
       "severity": "low",
-      "impact": "Limited impact but could enhance sensitivity to diverse historical and cultural backgrounds."
+      "impact": "Limits understanding of broader sociocultural factors affecting dietary choices."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Participants were recruited via online panels managed by Prolific.",
-      "improved_version": "Participants were recruited via online panels managed by diverse recruitment platforms to enhance inclusivity across different demographic groups.",
-      "explanation": "Broadening recruitment sources promotes demographic diversity and reduces sampling bias.",
+      "original_text": "Kevin O\u2019Sullivan1*, Verena Tiefenbeck2, Sybilla Merian3, Sabrina St\u00a8ockli3,4, Elgar Fleisch1,5 and Martin Natter3",
+      "improved_version": "Kevin O\u2019Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina St\u00f6ckli, Elgar Fleisch, and Martin Natter",
+      "explanation": "Removing numerical and formal titles in author lists promotes a more inclusive and accessible presentation, avoiding unnecessary emphasis on hierarchy or gendered titles.",
+      "location": "Author list",
+      "category": "professional_titles",
+      "focus": "professional_titles"
+    },
+    {
+      "original_text": "Participants were overall receptive to receiving product swap recommendations.",
+      "improved_version": "Participants were generally receptive to receiving product swap recommendations, regardless of gender, age, or background.",
+      "explanation": "Adding inclusive language emphasizes that all participants, regardless of demographic differences, are considered, promoting inclusivity.",
+      "location": "Abstract",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "A sample of German-speaking participants was recruited via online panels managed by Prolific.",
+      "improved_version": "A diverse sample of participants from various linguistic and cultural backgrounds was recruited via online panels managed by Prolific.",
+      "explanation": "Acknowledging diversity broadens the scope and emphasizes inclusivity beyond linguistic boundaries.",
       "location": "Participants section",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "The initial survey finished with an attention check to ensure that participants understood there was a chance that they could receive the products they chose.",
+      "improved_version": "The initial survey included an attention check designed to ensure participants understood that they might receive the products they selected, accommodating diverse literacy and comprehension levels.",
+      "explanation": "Clarifies that the language is accessible and inclusive of participants with varying abilities.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
+    },
+    {
+      "original_text": "We excluded non-binary participants (N = 12) due to their low representation in the sample.",
+      "improved_version": "We included participants of all gender identities in our recruitment process; however, due to low representation (N=12), non-binary participants were excluded from specific analyses to maintain statistical robustness, acknowledging the need for future research on gender diversity.",
+      "explanation": "Recognizes gender diversity and transparently discusses limitations without erasing identities, promoting respectful acknowledgment.",
+      "location": "Participants section",
+      "category": "identity_language",
+      "focus": "identity_language"
+    },
+    {
+      "original_text": "Participants in all experimental conditions were exposed to the swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices.",
+      "improved_version": "Participants across all conditions were presented with a swap recommendations page that included accessible language explaining how replacing animal-based products with plant-based options can reduce environmental impacts, ensuring clarity for diverse literacy levels.",
+      "explanation": "Using accessible, inclusive language ensures comprehension across diverse participant backgrounds.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
+    },
+    {
+      "original_text": "Participants could select as many of the available product swaps as they desired.",
+      "improved_version": "Participants could freely choose from the available product swaps, respecting individual preferences, dietary needs, and cultural food practices.",
+      "explanation": "Acknowledges individual differences and promotes respect for diverse dietary and cultural preferences.",
+      "location": "Methodology",
       "category": "socioeconomic_sensitivity",
       "focus": "socioeconomic_sensitivity"
     },
     {
-      "original_text": "The study was conducted solely with German-speaking participants.",
-      "improved_version": "The study was conducted with German-speaking participants, acknowledging that future research should include multilingual and culturally diverse populations to enhance global applicability.",
-      "explanation": "Explicitly recognizing cultural limitations and suggesting inclusivity improvements enhances cultural sensitivity.",
-      "location": "Introduction",
-      "category": "cultural_sensitivity"
-    },
-    {
-      "original_text": "Participants with non-binary gender identities were excluded due to low representation.",
-      "improved_version": "Participants of all gender identities, including non-binary and gender diverse individuals, were invited to participate; future studies should aim for more inclusive gender representation.",
-      "explanation": "Using person-first, inclusive language and acknowledging the importance of diverse gender identities improves inclusivity.",
-      "location": "Participants section",
-      "category": "identity_language"
-    },
-    {
-      "original_text": "Use of 'Male=1, Female=0' in data coding.",
-      "improved_version": "Use inclusive gender categories such as 'Male,' 'Female,' 'Non-binary,' 'Prefer not to say,' with corresponding coding, to respect gender diversity.",
-      "explanation": "Expanding gender options respects individual identities and promotes inclusivity.",
-      "location": "Methodology",
-      "category": "gender_neutrality"
-    },
-    {
-      "original_text": "The language does not explicitly acknowledge participants with disabilities.",
-      "improved_version": "The study design considered accessibility for participants with disabilities, and future research should include accommodations to ensure full participation.",
-      "explanation": "Explicitly addressing accessibility promotes disability inclusion.",
-      "location": "Methodology",
-      "category": "disability_inclusion"
-    },
-    {
-      "original_text": "The study references only German food products and dietary practices.",
-      "improved_version": "While this study focused on German food products, future research should explore diverse cultural dietary practices to enhance global relevance and inclusivity.",
-      "explanation": "Acknowledging cultural diversity broadens applicability and sensitivity.",
-      "location": "Introduction",
-      "category": "cultural_sensitivity"
-    },
-    {
-      "original_text": "The language emphasizes 'reducing animal-based food consumption' without considering socioeconomic barriers.",
-      "improved_version": "The language encourages reducing animal-based food consumption while recognizing that socioeconomic factors may influence access and choices, and future interventions should address these barriers.",
-      "explanation": "Addressing socioeconomic barriers fosters more equitable and inclusive messaging.",
-      "location": "Introduction",
-      "category": "socioeconomic_sensitivity"
-    },
-    {
-      "original_text": "The term 'German household' is used without acknowledging diverse household structures.",
-      "improved_version": "The study references typical household food consumption patterns, recognizing diverse household compositions and cultural contexts across different regions.",
-      "explanation": "Inclusive language about household types enhances cultural sensitivity.",
-      "location": "Introduction",
-      "category": "cultural_sensitivity"
-    },
-    {
-      "original_text": "Use of 'Chair of...' titles in author affiliations.",
-      "improved_version": "Author affiliations include academic titles and roles, which could be supplemented with accessible descriptions for broader audiences, such as 'Professor of...' or 'Researcher in...' to improve clarity.",
-      "location": "Author list",
-      "category": "professional_titles"
-    },
-    {
-      "original_text": "Descriptions of participant dietary habits focus on binary categories like 'omnivore' and 'vegetarian/vegan'.",
-      "improved_version": "Descriptions of dietary habits should include a spectrum of dietary identities, such as 'flexitarian,' 'pescatarian,' 'vegetarian,' 'vegan,' and 'other,' to better reflect diverse dietary practices.",
-      "explanation": "Using inclusive, nuanced dietary terminology respects individual choices.",
-      "location": "Participants section",
-      "category": "stereotypes"
-    },
-    {
-      "original_text": "The language does not specify accommodations for participants with disabilities.",
-      "improved_version": "The study design incorporated accessible features and accommodations for participants with disabilities; future research should explicitly state these measures to promote inclusivity.",
-      "explanation": "Explicit mention of accessibility measures promotes disability inclusion.",
-      "location": "Methodology",
-      "category": "disability_inclusion"
-    },
-    {
-      "original_text": "The language assumes all participants have similar access to technology and online shopping facilities.",
-      "improved_version": "Future research should consider participants with varying levels of access to technology and online shopping, and adapt interventions accordingly to ensure broader inclusivity.",
-      "explanation": "Acknowledging digital divide issues enhances socioeconomic and geographic inclusivity.",
-      "location": "Methodology",
-      "category": "geographic_inclusivity"
-    },
-    {
-      "original_text": "The language uses 'most effective GHGE-reducing swap' without acknowledging cultural or regional differences in food preferences.",
-      "improved_version": "The most effective GHGE-reducing swaps should be contextualized within diverse regional and cultural food preferences, and future studies should explore culturally tailored recommendations.",
-      "explanation": "Culturally sensitive language improves relevance and inclusivity.",
-      "location": "Introduction",
-      "category": "cultural_sensitivity"
-    },
-    {
-      "original_text": "The study's focus on environmental impact neglects nutritional and cultural values associated with food choices.",
-      "improved_version": "While focusing on environmental impacts, future interventions should also consider nutritional adequacy and cultural significance of foods to promote holistic and inclusive dietary guidance.",
-      "explanation": "Holistic language respects diverse values and promotes inclusive health and sustainability goals.",
+      "original_text": "The study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
+      "improved_version": "The study primarily examined greenhouse gas emissions but recognizes the importance of considering other environmental factors such as water use, biodiversity, and soil health to promote a holistic understanding of sustainability.",
+      "explanation": "Encourages a broader, more inclusive perspective on environmental impacts, respecting diverse ecological concerns.",
       "location": "Discussion",
-      "category": "cultural_sensitivity"
+      "category": "environmental_sensitivity",
+      "focus": "geographic_inclusivity"
+    },
+    {
+      "original_text": "The sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants.",
+      "improved_version": "The sample primarily included German-speaking, non-vegan, and non-vegetarian participants, with a demographic skew towards young males. Future research should aim to include more diverse populations across age, gender, dietary preferences, and cultural backgrounds to enhance generalizability.",
+      "explanation": "Acknowledges limitations transparently while emphasizing the importance of diversity for inclusivity.",
+      "location": "Participants",
+      "category": "cultural_sensitivity",
+      "focus": "cultural_sensitivity"
+    },
+    {
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a, which takes into account all GHG emissions that contribute to climate change.",
+      "improved_version": "The impact assessment for greenhouse gas emissions was based on globally recognized metrics, considering all relevant gases and their effects, to ensure clarity and transparency for diverse audiences.",
+      "explanation": "Simplifies technical language for broader understanding, respecting varied backgrounds.",
+      "location": "Results",
+      "category": "historical_context",
+      "focus": "historical_context"
+    },
+    {
+      "original_text": "The study was approved by the University of Zurich Ethics Committee.",
+      "improved_version": "The study was conducted following ethical standards, with approval from the University of Zurich Ethics Committee, ensuring respect for all participants' rights and well-being.",
+      "explanation": "Highlights ethical commitment, fostering trust and inclusivity.",
+      "location": "Methodology",
+      "category": "historical_context",
+      "focus": "historical_context"
+    },
+    {
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices.",
+      "improved_version": "The intervention included a clear, accessible explanation of how replacing animal-based products with plant-based alternatives can reduce environmental impacts, designed to be understandable for participants from diverse backgrounds.",
+      "explanation": "Ensures language is inclusive and accessible, promoting understanding across different literacy and cultural levels.",
+      "location": "Methodology",
+      "category": "disability_inclusion",
+      "focus": "disability_inclusion"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The current language often references 'men' or 'women' implicitly or through binary coding, which can exclude non-binary and gender-diverse individuals. Using inclusive terms like 'participants of all gender identities' and avoiding binary coding enhances respect and inclusivity. Explicitly including options like 'non-binary,' 'prefer not to say,' and using person-first language when describing participants promotes a more inclusive environment.",
-    "cultural_sensitivity": "The study's focus on German food products and dietary practices limits cultural inclusivity. To improve, the language should acknowledge that dietary habits are culturally specific and that future research should include diverse cultural contexts. This fosters respect for different food traditions and enhances global applicability.",
-    "age_appropriate_terminology": "While the minimum age is specified as 16, the language could be more inclusive by recognizing the diversity of age groups and avoiding stereotypes that associate certain dietary behaviors with specific ages. Clearer, age-neutral language promotes broader participation and respect for all age groups.",
-    "disability_inclusive_language": "The current text does not address accessibility or accommodations for participants with disabilities. Incorporating statements about accessible design, accommodations, and inclusive recruitment ensures that research is respectful and accessible to all individuals, promoting equity.",
-    "socioeconomic_sensitivity": "The language mentions income but does not explicitly consider socioeconomic barriers to dietary change. Future language should acknowledge that economic factors influence food choices and that interventions should be designed to be accessible across socioeconomic strata, promoting equity.",
-    "geographic_inclusivity": "The focus on German participants limits geographic diversity. The language should recognize that dietary practices and environmental impacts vary globally, and future research should aim for broader geographic inclusion to enhance relevance and inclusivity.",
-    "professional_titles": "While academic titles are appropriate, using more accessible descriptions like 'researcher' or 'professor' can make the language more approachable for lay audiences, enhancing clarity and inclusivity.",
-    "stereotypes": "References to 'male gender' and 'young male participants' risk reinforcing gender and age stereotypes about dietary behavior. Using neutral, stereotype-free language that describes behaviors without implying gender or age biases improves inclusivity.",
-    "identity_language": "Excluding non-binary participants and coding gender binary limits inclusivity. Adopting person-first, inclusive language and expanding gender options respects diverse identities and promotes a respectful research environment.",
-    "historical_context": "The language does not explicitly consider the historical and cultural evolution of dietary practices. Incorporating awareness of diverse food histories and cultural contexts can improve sensitivity and relevance across different populations."
+    "gender_neutral_language": "The manuscript predominantly uses gendered pronouns and titles, such as 'Kevin O\u2019Sullivan' and 'he/she,' which can inadvertently reinforce gender stereotypes or exclude non-binary individuals. To enhance inclusivity, use gender-neutral language such as 'they' pronouns or omit pronouns where possible. For example, replace 'Kevin O\u2019Sullivan' with 'the lead researcher' or 'the author.' Additionally, avoid gendered language in descriptions of participant demographics, emphasizing diversity and inclusion.",
+    "cultural_sensitivity": "The study's focus on German-speaking participants and data from German grocery stores limits cultural inclusivity. To improve, explicitly acknowledge the cultural specificity and discuss how findings might differ in other cultural contexts. Future research should include diverse populations across different countries and cultural backgrounds to enhance global relevance and reduce cultural bias.",
+    "age_appropriate_terminology": "The mention of participants aged 16 and above lacks discussion of age-related differences in comprehension or engagement. Clarify that materials are designed to be age-appropriate for a broad age range, and consider tailoring language or instructions for different age groups to ensure accessibility and relevance.",
+    "disability_inclusive_language": "There is no mention of accommodations for participants with disabilities or accessibility considerations in the study design. Incorporate statements about providing accessible formats, considering cognitive or sensory differences, and ensuring the online platform is compatible with assistive technologies to promote inclusivity.",
+    "socioeconomic_sensitivity": "While income data are collected, the manuscript does not address socioeconomic barriers that may influence food choices or receptivity to interventions. Discuss how socioeconomic factors impact dietary behaviors and consider designing interventions that are affordable and accessible to lower-income populations, ensuring broader applicability.",
+    "geographic_inclusivity": "The exclusive focus on German data and participants reduces geographic diversity. To improve, explicitly state the limitations regarding geographic scope and advocate for similar studies in diverse regions. Future work should include participants from various countries and cultural settings to ensure findings are globally relevant.",
+    "professional_title_usage": "The use of formal academic titles such as 'Chair of Information Management' may create a hierarchical tone. Simplify titles or use neutral descriptions like 'Professor of Information Management' or 'Lead Researcher' to promote equality and inclusivity in professional representation.",
+    "stereotypes": "Descriptions such as 'high meat consumers' risk reinforcing stereotypes about dietary habits. Use neutral language like 'participants with high meat consumption' and provide context to avoid stigmatization. Emphasize that dietary choices are influenced by complex factors rather than personal failings.",
+    "identity_language": "Excluding non-binary participants after data collection without acknowledging gender diversity diminishes inclusivity. Instead, include all gender identities in initial recruitment and analysis, and transparently discuss limitations related to low representation, advocating for more inclusive sampling in future research.",
+    "historical_context": "The manuscript does not consider how historical or cultural factors influence dietary behaviors and environmental attitudes. Incorporate discussions on how cultural traditions, historical food practices, and societal norms shape dietary choices, fostering a more nuanced and respectful understanding of diverse populations."
   },
-  "summary": "Overall, the text demonstrates a generally acceptable level of inclusivity but exhibits notable gaps in gender diversity, cultural sensitivity, and accessibility considerations. Addressing these issues through specific, actionable language improvements will significantly enhance the inclusivity and relevance of the research, making it more respectful of diverse populations and contexts. Implementing these suggestions will elevate the quality and societal impact of the work, aligning it with best practices in inclusive research communication."
+  "summary": "Overall, the manuscript demonstrates a solid foundation but exhibits several areas for improvement in inclusivity and bias reduction. Addressing gender neutrality, cultural sensitivity, disability inclusion, and broader geographic representation will significantly enhance its quality and applicability. Implementing specific, actionable language adjustments and acknowledging diversity will foster a more respectful, inclusive, and globally relevant research contribution."
 }

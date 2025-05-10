@@ -4,188 +4,175 @@
     {
       "category": "narrative_coherence",
       "location": "Abstract and Introduction",
-      "issue": "The abstract summarizes key findings but lacks a clear linkage to the detailed research questions and hypotheses introduced later, leading to a fragmented narrative flow.",
+      "issue": "The abstract provides a concise overview but lacks explicit linkage to the detailed hypotheses and specific research questions, which are only fully articulated in the methods section. This creates a disconnect in understanding the overarching narrative.",
       "severity": "medium",
-      "impact": "This weakens the overall coherence, making it harder for readers to connect the abstract's overview with the detailed study aims."
+      "impact": "This affects the reader's ability to grasp the full scope and purpose of the study upfront, potentially reducing engagement and clarity."
     },
     {
       "category": "logical_progression",
-      "location": "Results section",
-      "issue": "Results are presented with detailed statistical tables first, without sufficient narrative explanation or contextualization, which hampers understanding of their significance.",
+      "location": "Results and Discussion",
+      "issue": "Results are presented with detailed statistical data but lack clear narrative commentary that synthesizes findings in relation to hypotheses, leading to a fragmented flow.",
       "severity": "high",
-      "impact": "This diminishes the logical flow from data presentation to interpretation, potentially confusing readers unfamiliar with statistical details."
+      "impact": "This hampers the reader's understanding of how the findings address the research questions, weakening overall coherence."
     },
     {
       "category": "transitions",
-      "location": "Between sections (e.g., Methods to Results, Results to Discussion)",
-      "issue": "Transitions are abrupt; the shift from data presentation to interpretation lacks connecting sentences that guide the reader smoothly.",
+      "location": "Between sections (e.g., Results to Discussion)",
+      "issue": "Transitions are abrupt; for example, the shift from detailed statistical results to interpretative discussion lacks guiding sentences that connect findings to broader implications.",
       "severity": "medium",
-      "impact": "This affects readability and hampers the seamless flow of the narrative, making the paper feel disjointed."
+      "impact": "This disrupts the narrative flow, making it harder for readers to follow the logical progression of ideas."
     },
     {
       "category": "paragraph_organization",
-      "location": "Discussion section",
-      "issue": "The discussion contains multiple ideas within single paragraphs, mixing interpretation, limitations, and future directions without clear separation.",
+      "location": "Results and Discussion sections",
+      "issue": "Some paragraphs contain multiple ideas without clear topic sentences, leading to dense blocks of information that reduce readability.",
       "severity": "medium",
-      "impact": "This reduces clarity and makes it difficult for readers to follow the development of the argument."
+      "impact": "This diminishes clarity and impairs the reader's ability to quickly identify key points and their relevance."
     },
     {
       "category": "topic_sentences",
-      "location": "Multiple paragraphs across sections",
-      "issue": "Many paragraphs lack clear topic sentences, leading to a less focused narrative and making it harder to grasp the main point of each paragraph.",
+      "location": "Multiple sections",
+      "issue": "Many paragraphs lack effective topic sentences that clearly state their main idea, especially in the Results and Discussion sections.",
       "severity": "high",
-      "impact": "This weakens paragraph coherence and impairs the overall narrative clarity."
+      "impact": "Weak topic sentences reduce the guiding structure of the narrative, leading to confusion and reduced engagement."
     },
     {
       "category": "evidence_integration",
       "location": "Results and Discussion",
-      "issue": "Statistical results are presented extensively in tables with minimal narrative explanation or interpretation, reducing engagement and understanding.",
+      "issue": "Statistical data and findings are presented with minimal interpretative commentary or integration into the narrative, making it difficult to see how evidence supports claims.",
       "severity": "high",
-      "impact": "This can alienate readers and obscure the significance of findings within the broader narrative."
+      "impact": "This weakens the persuasive power of the narrative and hampers understanding of the significance of the results."
     },
     {
       "category": "conclusion_alignment",
-      "location": "Conclusion section",
-      "issue": "The conclusion reiterates key findings but does not explicitly tie back to the research questions or hypotheses introduced at the start, weakening the closure of the research story.",
+      "location": "Conclusion",
+      "issue": "The conclusion summarizes findings but does not explicitly tie back to the hypotheses or initial research questions, resulting in a less cohesive closure.",
       "severity": "medium",
-      "impact": "This diminishes the sense of a cohesive research narrative and leaves the reader with an incomplete sense of closure."
+      "impact": "This diminishes the narrative's sense of closure and leaves the reader uncertain about how the findings fit into the initial research aims."
     },
     {
       "category": "hypothesis_tracking",
       "location": "Throughout the Results and Discussion",
-      "issue": "The presentation of results does not consistently reference the specific hypotheses, making it difficult to track whether hypotheses are supported or refuted.",
+      "issue": "The presentation of results does not consistently reference the specific hypotheses, making it difficult to track whether and how each hypothesis was supported.",
       "severity": "high",
-      "impact": "This hampers the clarity of the research narrative and the logical flow from hypotheses to findings."
+      "impact": "This impairs the clarity of the research narrative and the logical flow from hypotheses to findings."
     },
     {
       "category": "visual_integration",
       "location": "Figures and Tables",
-      "issue": "Figures and tables are included with minimal narrative explanation, and some are referenced only in passing, reducing their effectiveness as visual storytelling tools.",
+      "issue": "Figures and tables are included but lack detailed captions that explicitly connect visual data to the narrative points, reducing their explanatory power.",
       "severity": "medium",
-      "impact": "This limits the visual narrative's contribution to understanding and engagement."
+      "impact": "This limits the reader's ability to interpret visual data independently and weakens the visual narrative support."
     },
     {
       "category": "reader_engagement",
-      "location": "Entire manuscript",
-      "issue": "The dense presentation of statistical data and technical language without sufficient framing or storytelling elements reduces reader engagement.",
+      "location": "Entire document",
+      "issue": "The dense presentation of statistical data and technical language without sufficient contextualization or storytelling elements reduces engagement.",
       "severity": "medium",
-      "impact": "This may cause reader fatigue and reduce overall accessibility of the research findings."
+      "impact": "This may cause reader fatigue and reduce the overall impact of the research narrative."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
-      "improved_version": "This study investigates how specific, actionable product swap recommendations\u2014such as replacing animal-based products with plant-based alternatives\u2014can influence consumer choices in an experimental online supermarket environment.",
-      "explanation": "Clarifies the research focus and improves readability by explicitly stating the purpose, enhancing narrative coherence.",
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "While the overall GHGE reduction did not significantly differ across treatment conditions, the analysis revealed that the targeted intervention increased the likelihood of selecting the most effective swap, highlighting its potential for targeted impact.",
+      "explanation": "Rephrasing emphasizes the nuanced findings, improving clarity and narrative flow by linking results to implications.",
+      "location": "Results section, paragraph discussing GHGE reduction",
+      "category": "paragraph_organization",
+      "focus": "narrative_coherence"
+    },
+    {
+      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+      "improved_version": "Overall, participants showed a strong willingness to engage with the product swap recommendations, with nearly 90% swapping at least one product, indicating high acceptability.",
+      "explanation": "Adding specific data enhances clarity and supports the statement, strengthening evidence integration.",
+      "location": "Results section, paragraph on participant engagement",
+      "category": "evidence_integration",
+      "focus": "supporting_evidence_integration"
+    },
+    {
+      "original_text": "The abstract provides a concise overview but lacks explicit linkage to the detailed hypotheses and specific research questions.",
+      "improved_version": "The abstract summarizes key findings but would benefit from explicitly stating the research questions and hypotheses to clarify the study's aims from the outset.",
+      "explanation": "Clarifies the abstract's role in setting expectations, improving narrative coherence and reader guidance.",
       "location": "Abstract",
       "category": "abstract",
       "focus": "narrative_coherence"
     },
     {
-      "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
-      "improved_version": "Overall, participants showed a positive response to the recommendations, reducing their basket's greenhouse gas emissions (GHGE) by an average of 25% and swapping approximately four products, with nearly 90% swapping at least one item.",
-      "explanation": "Adds clarity and smoothness to the presentation, improving paragraph organization and flow.",
-      "location": "Results section",
-      "category": "paragraph_organization",
-      "focus": "transitions"
-    },
-    {
-      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-      "improved_version": "While targeted recommendations successfully increased the selection of the most effective swap, they did not lead to a significant overall reduction in basket GHGE for most participants, suggesting that multiple swaps may dilute the impact of highlighting a single optimal choice.",
-      "explanation": "Provides a clearer causal link and contextual explanation, improving logical progression and evidence integration.",
-      "location": "Results",
-      "category": "evidence_integration",
+      "original_text": "Results are presented with detailed statistical data but lack clear narrative commentary that synthesizes findings in relation to hypotheses.",
+      "improved_version": "Following the presentation of statistical results, a synthesis paragraph should explicitly relate findings to each hypothesis, clarifying whether and how they were supported.",
+      "explanation": "This enhances logical progression and helps readers connect data to research aims.",
+      "location": "Results section, transition between data and interpretation",
+      "category": "transitions",
       "focus": "logical_progression"
     },
     {
-      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations. On average, post-swap baskets exhibited a 24.9% (SD = 15.7) reduction in GHGE compared to pre-swap baskets.",
-      "improved_version": "Participants generally expressed willingness to engage with swap recommendations, resulting in an average GHGE reduction of 24.9% in their baskets post-swap, indicating practical potential for such interventions.",
-      "explanation": "Links evidence to implications, enhancing narrative coherence and reader engagement.",
-      "location": "Results",
-      "category": "reader_engagement",
-      "focus": "reader_engagement"
-    },
-    {
-      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-      "improved_version": "The regression analysis showed that neither targeted recommendations nor GHGE information significantly affected overall GHGE reduction compared to the control condition, highlighting the challenge of influencing broad dietary choices through these interventions alone.",
-      "explanation": "Provides interpretive context, improving narrative coherence and hypothesis tracking.",
-      "location": "Results",
-      "category": "hypothesis_tracking",
-      "focus": "hypothesis_tracking"
-    },
-    {
-      "original_text": "Our exploratory analyses revealed that GHGE reduction information had a notably strong impact on daily meat consumers.",
-      "improved_version": "Exploratory analyses indicated that providing GHGE reduction information significantly influenced behavior among daily meat consumers, a subgroup with high dietary carbon footprints, suggesting targeted messaging may be especially effective for this group.",
-      "explanation": "Clarifies the significance and context, improving evidence integration and narrative flow.",
-      "location": "Discussion",
-      "category": "evidence_integration",
-      "focus": "narrative_coherence"
-    },
-    {
-      "original_text": "The approach offers several advantages: recommendations are based on the contents of a customer\u2019s basket and delivered at the point of decision-making, making them highly relevant; they are specific (e.g., swap Product A for Prod B) rather than general (e.g., reduce beef consumption); and they are highly actionable, as accepting a swap is as simple as clicking a button.",
-      "improved_version": "This approach offers key advantages: recommendations are tailored to the current shopping basket and provided at decision points, making them highly relevant; they are specific and straightforward (e.g., swap beef burger for plant-based burger), and highly actionable\u2014accepting a swap requires only a click.",
-      "explanation": "Improves clarity and conciseness, enhancing paragraph organization and reader engagement.",
-      "location": "Discussion",
+      "original_text": "Some paragraphs contain multiple ideas without clear topic sentences.",
+      "improved_version": "Each paragraph should begin with a clear topic sentence that summarizes its main idea, such as: 'The targeted intervention increased the likelihood of selecting the most effective product swap.'",
+      "explanation": "Effective topic sentences guide the reader through complex information, improving paragraph organization.",
+      "location": "Results and Discussion paragraphs",
       "category": "paragraph_organization",
-      "focus": "reader_engagement"
+      "focus": "topic_sentences"
     },
     {
-      "original_text": "Despite these strengths, certain limitations must be acknowledged. First, our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalizability.",
-      "improved_version": "Despite these strengths, limitations include a sample restricted to German-speaking, non-vegan/non-vegetarian participants, with an over-representation of young males, which may limit the generalizability of findings.",
-      "explanation": "Clarifies limitations and improves paragraph organization, providing a balanced narrative.",
-      "location": "Discussion",
-      "category": "paragraph_organization",
-      "focus": "conclusion_alignment"
+      "original_text": "Figures and tables are included but lack detailed captions that explicitly connect visual data to the narrative points.",
+      "improved_version": "Enhance figure and table captions to explicitly state how the visual data support specific findings, e.g., 'Figure 2 illustrates the lack of significant difference in overall GHGE reduction across treatments, supporting the text.'",
+      "explanation": "Improved captions strengthen visual narrative integration and aid independent interpretation.",
+      "location": "Figures and Tables",
+      "category": "visual_integration",
+      "focus": "visual_element_integration"
     },
     {
-      "original_text": "Our findings highlight product swap recommendations as a promising tool for promoting sustainable food choices. Future research should examine their long-term impact in real-world retail settings and explore how they interact with other behavioural interventions, such as financial incentives, social norms, or policy regulations.",
-      "improved_version": "Our findings suggest that product swap recommendations are a promising strategy for encouraging sustainable food choices. Future research should focus on their long-term effectiveness in real-world retail environments and investigate how they can complement other interventions like financial incentives, social norms, and policy measures.",
-      "explanation": "Strengthens conclusion alignment and provides a clear call for future research, enhancing narrative closure.",
+      "original_text": "The conclusion summarizes findings but does not explicitly tie back to the hypotheses or initial research questions.",
+      "improved_version": "The conclusion should explicitly revisit each hypothesis, summarizing whether it was supported, and discuss implications for future research and practice.",
+      "explanation": "This reinforces the narrative arc and provides a cohesive closure aligned with the introduction.",
       "location": "Conclusion",
       "category": "conclusion",
       "focus": "conclusion_alignment"
     },
     {
-      "original_text": "Figures and tables are included with minimal narrative explanation, and some are referenced only in passing, reducing their effectiveness as visual storytelling tools.",
-      "improved_version": "Enhance the integration of figures and tables by providing descriptive narrative explanations and explicitly referencing them in the text to guide interpretation and reinforce key points.",
-      "explanation": "Improves visual element integration and reader engagement by making visuals more accessible and meaningful.",
-      "location": "Figures/Tables",
-      "category": "visual_integration",
-      "focus": "visual_integration"
+      "original_text": "Results are presented without consistent reference to specific hypotheses, making it difficult to track their support.",
+      "improved_version": "Structure the results section to explicitly state, for each hypothesis, whether the data supported or refuted it, using subheadings or clear signposting.",
+      "explanation": "This improves hypothesis tracking and logical progression throughout the narrative.",
+      "location": "Results section",
+      "category": "hypothesis_tracking",
+      "focus": "hypothesis_tracking"
     },
     {
-      "original_text": "The dense presentation of statistical data and technical language without sufficient framing or storytelling elements reduces reader engagement.",
-      "improved_version": "Simplify technical language where possible and incorporate storytelling elements\u2014such as framing key findings within real-world implications\u2014to enhance reader engagement and accessibility.",
-      "explanation": "Boosts reader engagement by making complex data more relatable and easier to follow.",
-      "location": "Entire manuscript",
+      "original_text": "The narrative lacks storytelling elements that could enhance engagement.",
+      "improved_version": "Incorporate brief illustrative examples or participant quotes where appropriate, and use engaging language to highlight key findings and their significance.",
+      "explanation": "Storytelling elements increase reader engagement and make complex data more relatable.",
+      "location": "Discussion and abstract",
       "category": "reader_engagement",
       "focus": "reader_engagement"
     },
     {
-      "original_text": "Many paragraphs lack clear topic sentences, leading to a less focused narrative and making it harder to grasp the main point of each paragraph.",
-      "improved_version": "Introduce clear topic sentences at the beginning of each paragraph to explicitly state its main point, guiding the reader through the narrative logically and coherently.",
-      "explanation": "Strengthens paragraph organization and improves overall narrative flow.",
-      "location": "Throughout the manuscript",
-      "category": "topic_sentences",
-      "focus": "topic_sentences"
+      "original_text": "The discussion section is dense with technical details and lacks synthesis of findings into broader implications.",
+      "improved_version": "Begin the discussion with a clear summary of key findings, then interpret their significance in relation to existing literature and policy implications, providing a cohesive narrative flow.",
+      "explanation": "This improves narrative coherence and helps readers understand the importance of the results.",
+      "location": "Discussion section",
+      "category": "narrative_coherence",
+      "focus": "narrative_coherence"
     },
     {
-      "original_text": "Results are presented with detailed statistical tables first, without sufficient narrative explanation or contextualization, which hampers understanding of their significance.",
-      "improved_version": "Follow each table with a concise narrative summary that interprets the key findings and their relevance, helping readers understand the significance without needing to interpret raw data independently.",
-      "explanation": "Enhances evidence integration and narrative coherence, making results more accessible."
+      "original_text": "The study's hypotheses are not consistently referenced throughout the results and discussion.",
+      "improved_version": "Explicitly reference each hypothesis when discussing relevant results, e.g., 'Hypothesis 2 was not supported, as targeted recommendations did not significantly reduce overall GHGE.'",
+      "explanation": "This enhances clarity and ensures the narrative tracks the research questions effectively.",
+      "location": "Results and discussion",
+      "category": "hypothesis_tracking",
+      "focus": "hypothesis_tracking"
     }
   ],
   "detailed_feedback": {
-    "narrative_coherence": "The manuscript's narrative coherence is challenged by the heavy reliance on technical tables and dense statistical reporting, which are not always accompanied by interpretive summaries. Incorporating more narrative explanations that connect data to broader implications will improve overall flow.",
-    "logical_progression": "The logical flow from hypotheses to results is sometimes obscured by presenting data before contextualizing or discussing its significance. Reordering some sections to first state the research questions and then interpret results will strengthen the logical progression.",
-    "section_transitions": "Transitions between sections, especially from methods to results and results to discussion, are abrupt. Adding linking sentences that preview upcoming content or summarize previous sections will create smoother transitions.",
-    "paragraph_organization": "Many paragraphs contain multiple ideas without clear topic sentences, leading to a fragmented reading experience. Structuring paragraphs around a single main idea with a clear topic sentence will improve clarity.",
-    "topic_sentence_effectiveness": "Several paragraphs lack explicit topic sentences, which diminishes focus. Starting paragraphs with a clear statement of their main point will guide readers effectively.",
-    "supporting_evidence_integration": "Statistical tables are presented with minimal narrative interpretation. Including brief summaries that highlight key findings will better integrate evidence into the narrative.",
-    "conclusion_alignment": "The conclusion summarizes findings but does not explicitly relate back to initial hypotheses or research questions. Explicitly linking conclusions to original aims will reinforce the research narrative.",
-    "hypothesis_tracking": "The presentation of results does not consistently reference the hypotheses, making it difficult to assess whether they are supported. Explicitly stating whether each hypothesis is confirmed or refuted enhances clarity.",
-    "visual_element_integration": "Figures and tables are underutilized as storytelling tools. Providing descriptive captions and referencing visuals in the text will improve their contribution.",
-    "reader_engagement": "The technical density and lack of storytelling elements reduce engagement. Incorporating real-world implications, simplified language, and engaging narratives will attract and retain reader interest."
+    "narrative_coherence": "The overall narrative lacks a cohesive thread linking the abstract, introduction, results, and discussion. The presentation of statistical data is dense and technical, with insufficient interpretative commentary to guide the reader through the implications of findings. Incorporating summary statements and synthesis paragraphs would improve flow and comprehension.",
+    "logical_progression": "The manuscript often presents data without explicitly connecting it to the hypotheses or research questions. For example, the results section reports multiple statistical tests but does not systematically evaluate whether each hypothesis was supported. Structuring results around hypotheses and providing interpretative summaries would enhance logical flow.",
+    "section_transitions": "Transitions between sections and subsections are abrupt, especially between the results and discussion. Adding transition sentences that summarize key findings before moving to interpretative commentary would create smoother flow and improve reader navigation.",
+    "paragraph_organization": "Many paragraphs combine multiple ideas or results without clear topic sentences, making it difficult to identify main points. Reorganizing paragraphs to start with a clear topic sentence and limiting each paragraph to a single main idea would improve clarity.",
+    "topic_sentence_effectiveness": "Several paragraphs lack effective topic sentences, which diminishes their guiding role. Introducing explicit topic sentences at the beginning of each paragraph would clarify purpose and improve readability.",
+    "supporting_evidence_integration": "Statistical results are often presented with minimal interpretation or contextualization. Embedding brief explanations of what the data imply for the hypotheses and broader implications would strengthen evidence integration.",
+    "conclusion_alignment": "The conclusion summarizes findings but does not explicitly revisit the hypotheses or initial research questions. Explicitly linking conclusions to the original aims would reinforce narrative cohesion and provide a satisfying closure.",
+    "hypothesis_tracking": "The manuscript does not consistently reference hypotheses when discussing results, making it difficult to assess whether each was supported. Explicitly linking each key finding to the corresponding hypothesis would improve clarity.",
+    "visual_element_integration": "Figures and tables are included but lack detailed captions that explicitly connect visual data to narrative points. Enhancing captions to explain how each visual supports specific findings would strengthen visual integration.",
+    "reader_engagement": "The technical density and dense statistical reporting may reduce engagement. Incorporating storytelling elements, such as participant quotes or real-world implications, would make the narrative more compelling."
   },
-  "summary": "Overall, the manuscript demonstrates a solid foundation in presenting experimental findings but would benefit from improved narrative coherence, clearer section transitions, and better integration of visual elements. Strengthening topic sentences, linking results explicitly to hypotheses, and enhancing interpretive commentary will significantly improve the structural organization and reader engagement, resulting in a more compelling and accessible research story."
+  "summary": "The manuscript presents valuable findings on product swap interventions for sustainable food choices but would benefit from improved narrative coherence, clearer logical progression, and stronger integration of visual elements. Enhancing section transitions, paragraph organization, and explicit hypothesis referencing will significantly improve readability and engagement, making the research story more compelling and accessible."
 }
