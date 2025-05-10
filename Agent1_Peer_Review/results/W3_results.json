@@ -4,165 +4,148 @@
     {
       "category": "wordiness",
       "location": "Abstract",
-      "issue": "The abstract contains redundant phrases such as 'participants were overall receptive to receiving product swap recommendations' and lengthy explanations of the experimental setup that could be condensed.",
-      "severity": "high",
-      "impact": "Reduces clarity and makes it harder for readers to grasp the key findings quickly."
+      "issue": "The abstract contains multiple lengthy sentences with redundant phrases, such as 'Participants were overall receptive to receiving product swap recommendations' and 'Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one,' which could be more concise.",
+      "severity": "medium",
+      "impact": "Reduces clarity and makes the abstract harder to quickly grasp key findings."
     },
     {
       "category": "sentence_length",
       "location": "Introduction",
-      "issue": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
+      "issue": "Several sentences are overly long, especially in the paragraphs discussing dietary impacts and prior research, which hampers readability.",
       "severity": "high",
-      "impact": "Obscures main points and burdens the reader with complex sentence structures."
+      "impact": "Long sentences increase cognitive load and may obscure main points."
     },
     {
       "category": "jargon",
       "location": "Methodology",
-      "issue": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding for non-expert readers.",
+      "issue": "Terms like 'bottom-up life cycle assessment (LCA)', 'Global Warming Potential (GWP) 100a', and 'effect size (f2 = 0.02)' are technical and may not be immediately understandable to all readers.",
       "severity": "medium",
-      "impact": "Limits accessibility and clarity for a broader audience."
+      "impact": "Potentially limits accessibility for non-expert readers."
     },
     {
       "category": "redundancy",
       "location": "Results",
-      "issue": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
-      "severity": "medium",
-      "impact": "Dilutes focus and makes it difficult to identify core findings."
+      "issue": "Repeated presentation of similar statistical results and tables (e.g., multiple tables reporting regression outcomes) could be streamlined to avoid redundancy.",
+      "severity": "low",
+      "impact": "May cause reader fatigue and distract from main findings."
     },
     {
       "category": "ambiguity",
       "location": "Discussion",
-      "issue": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague about the scope and limitations.",
-      "severity": "medium",
-      "impact": "Creates uncertainty about the generalizability and practical implications."
-    },
-    {
-      "category": "readability",
-      "location": "Throughout",
-      "issue": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
-      "severity": "medium",
-      "impact": "Impairs smooth reading and comprehension."
-    },
-    {
-      "category": "information_density",
-      "location": "Results and Methods",
-      "issue": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
-      "severity": "medium",
-      "impact": "Reduces overall clarity and makes key messages less accessible."
-    },
-    {
-      "category": "paragraph_length",
-      "location": "Introduction and Discussion",
-      "issue": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
+      "issue": "Statements like 'targeted recommendations did not lead to stronger effects in this study on basket GHGE' are somewhat vague and could specify the nature of the effects more clearly.",
       "severity": "low",
-      "impact": "Affects readability and ease of navigation."
-    },
-    {
-      "category": "active_passive_voice",
-      "location": "Methods and Results",
-      "issue": "Overuse of passive voice (e.g., 'Greenhouse gas emissions data were adapted from') diminishes immediacy and engagement.",
-      "severity": "low",
-      "impact": "Makes sentences less direct and engaging."
-    },
-    {
-      "category": "technical_content",
-      "location": "Methodology",
-      "issue": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
-      "severity": "medium",
-      "impact": "Hinders understanding of key concepts and methods."
+      "impact": "Reduces precision of interpretation."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Participants were overall receptive to receiving product swap recommendations.",
-      "improved_version": "Participants generally welcomed product swap recommendations.",
-      "explanation": "Simplifies language, making the statement clearer and more direct.",
+      "improved_version": "Most participants welcomed product swap suggestions.",
+      "explanation": "Simplifies language and reduces wordiness, making the statement clearer and more direct.",
       "location": "Abstract",
       "category": "language_simplicity",
       "focus": "language_simplicity"
     },
     {
-      "original_text": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
-      "improved_version": "Break long sentences into shorter, focused ones. For example, split complex sentences into two: one describing the intervention, and another reporting the outcomes.",
-      "explanation": "Shorter sentences improve readability and help readers process information more easily.",
-      "location": "Introduction",
+      "original_text": "Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+      "improved_version": "On average, participants reduced their basket's greenhouse gas emissions by 25% and swapped four products; nearly 90% swapped at least one.",
+      "explanation": "Breaks a long sentence into clearer parts for better readability and conciseness.",
+      "location": "Abstract",
       "category": "sentence_length",
       "focus": "sentence_length"
     },
     {
-      "original_text": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding.",
-      "improved_version": "Introduce technical terms with brief explanations, e.g., 'a bottom-up life cycle assessment (LCA), which evaluates environmental impacts from raw materials to disposal.'",
-      "explanation": "Provides clarity for non-expert readers, enhancing overall understanding.",
+      "original_text": "Terms like 'bottom-up life cycle assessment (LCA)', 'Global Warming Potential (GWP) 100a', and 'effect size (f2 = 0.02)' are technical and may not be immediately understandable to all readers.",
+      "improved_version": "Terms such as 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential over 100 years (GWP 100a)' are technical; consider providing brief definitions or simplifying their explanation.",
+      "explanation": "Enhances clarity for readers unfamiliar with technical jargon by suggesting explanations or simplifications.",
       "location": "Methodology",
       "category": "jargon",
       "focus": "jargon"
     },
     {
-      "original_text": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
-      "improved_version": "Summarize key findings in the text, referring to detailed tables in appendices. For example, 'As shown in Table 2, the treatments did not significantly affect overall GHGE reduction.'",
-      "explanation": "Reduces clutter and emphasizes main results for clearer communication.",
-      "location": "Results",
-      "category": "redundancy",
-      "focus": "wordiness"
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "The study was preregistered and designed to ensure honest participation.",
+      "explanation": "Clarifies 'incentive compatible' for broader understanding, improving clarity.",
+      "location": "Methodology",
+      "category": "ambiguity",
+      "focus": "clarity"
     },
     {
-      "original_text": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague.",
-      "improved_version": "Offering consumers simple product swaps without additional information can already lead to meaningful reductions in most cases.",
-      "explanation": "Clarifies the scope and practical implications, reducing ambiguity.",
+      "original_text": "Several tables and regression results are presented separately, which can be overwhelming.",
+      "improved_version": "Combine related regression results into summary tables or integrate key findings into the main text to reduce redundancy and improve flow.",
+      "explanation": "Streamlining presentation enhances readability and reduces repetitive information.",
+      "location": "Results",
+      "category": "redundancy",
+      "focus": "redundancy"
+    },
+    {
+      "original_text": "Statements like 'targeted recommendations did not lead to stronger effects in this study on basket GHGE' are somewhat vague.",
+      "improved_version": "While targeted recommendations increased the likelihood of choosing the most effective swap, they did not significantly reduce overall basket GHGE.",
+      "explanation": "Provides clearer, more precise interpretation of the results.",
       "location": "Discussion",
       "category": "ambiguity",
       "focus": "clarity"
     },
     {
-      "original_text": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
-      "improved_version": "Rewrite passive sentences in active voice where possible. For example, change 'Greenhouse gas emissions data were adapted from' to 'We adapted greenhouse gas emissions data from.'",
-      "explanation": "Active voice enhances engagement and clarity.",
+      "original_text": "The abstract and sections contain some repetitive phrases, such as 'product swap recommendations' and 'GHGE reduction information,' which could be varied or condensed.",
+      "improved_version": "Reduce repetition by using synonyms or pronouns where appropriate, and condense similar phrases to improve conciseness.",
+      "explanation": "Variety in language and elimination of redundancy enhance clarity and flow.",
       "location": "Throughout",
-      "category": "voice",
-      "focus": "active_passive_voice"
+      "category": "wordiness",
+      "focus": "wordiness"
     },
     {
-      "original_text": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
-      "improved_version": "Include brief summaries after detailed data sections, highlighting the main takeaway points to aid quick comprehension.",
-      "explanation": "Improves readability by distilling complex data into key messages.",
-      "location": "Results and Methods",
-      "category": "information_density",
-      "focus": "readability"
-    },
-    {
-      "original_text": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
-      "improved_version": "Divide lengthy paragraphs into smaller ones, each focusing on a single main idea or result.",
-      "explanation": "Enhances navigation and makes the document less intimidating.",
-      "location": "Introduction and Discussion",
+      "original_text": "Some paragraphs are lengthy, especially in the introduction and discussion, which could be split into smaller, focused paragraphs.",
+      "improved_version": "Divide long paragraphs into shorter ones, each focusing on a single main idea, to improve readability and comprehension.",
+      "explanation": "Shorter paragraphs are easier to read and help emphasize key points.",
+      "location": "Introduction, Discussion",
       "category": "paragraph_length",
       "focus": "paragraph_length"
     },
     {
-      "original_text": "Overuse of passive voice diminishes immediacy and engagement.",
-      "improved_version": "Convert passive sentences to active voice. For example, 'Participants were presented with' becomes 'We presented participants with.'",
-      "explanation": "Active voice creates a more direct and engaging tone.",
-      "location": "Methods and Results",
-      "category": "active_passive_voice",
-      "focus": "active_passive_voice"
+      "original_text": "Passive voice appears occasionally, e.g., 'Greenhouse gas emissions data for products were adapted from [28].'",
+      "improved_version": "We adapted greenhouse gas emissions data for products from [28].",
+      "explanation": "Using active voice clarifies responsibility and improves engagement.",
+      "location": "Methodology",
+      "category": "voice",
+      "focus": "active vs. passive"
     },
     {
-      "original_text": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
-      "improved_version": "Add brief definitions or explanations for technical terms at first mention, such as 'Global Warming Potential (GWP), which measures the climate impact of greenhouse gases.'",
-      "explanation": "Enhances accessibility and understanding for a broader audience.",
-      "location": "Methodology"
+      "original_text": "Some technical details, such as statistical model descriptions, could be summarized more succinctly to focus on key findings.",
+      "improved_version": "Summarize detailed statistical methods in supplementary materials, highlighting only essential results in the main text.",
+      "explanation": "Reduces cognitive load and keeps the main narrative focused.",
+      "location": "Results, Methods",
+      "category": "wordiness",
+      "focus": "wordiness"
+    },
+    {
+      "original_text": "The overall information density is high, with dense statistical reporting and detailed methodological descriptions.",
+      "improved_version": "Simplify technical descriptions and focus on main findings; move detailed statistics to appendices to improve overall readability.",
+      "explanation": "Enhances readability by balancing detail with clarity.",
+      "location": "Entire document",
+      "category": "information_density",
+      "focus": "information_density"
+    },
+    {
+      "original_text": "Some sentences could be made more active, e.g., 'Participants were presented with a basket...' can be 'We presented participants with a basket...'.",
+      "improved_version": "Use active voice throughout, such as 'We presented participants with a basket...' to clarify agency and improve engagement.",
+      "explanation": "Active voice makes statements clearer and more direct.",
+      "location": "Methodology, Results",
+      "category": "active_passive_voice",
+      "focus": "active vs. passive"
     }
   ],
   "detailed_feedback": {
-    "language_simplicity": "The language often employs complex structures and formal phrasing that can be simplified. Using straightforward language and shorter sentences would improve clarity, especially for interdisciplinary readers or non-native English speakers.",
-    "jargon_usage": "While technical terms are necessary, their frequent use without explanation can hinder understanding. Providing definitions or context for specialized terms will make the content more accessible.",
-    "wordiness": "Many sentences and paragraphs include redundant phrases or overly detailed descriptions that could be condensed. Eliminating redundancies and focusing on core messages will streamline the text.",
-    "sentence_length": "Long, compound sentences reduce readability. Breaking them into shorter, focused sentences will help readers follow the logic more easily.",
-    "paragraph_length": "Extensive paragraphs covering multiple ideas can be overwhelming. Shorter paragraphs, each centered on a single point, will improve navigation and comprehension.",
-    "active_passive_voice": "The frequent use of passive voice makes the text less direct. Rephrasing sentences in active voice will increase engagement and clarity.",
-    "redundancy": "Repeated information, especially in tables and results, can be summarized to avoid clutter. Using summaries and referring to detailed appendices will make the main narrative clearer.",
-    "ambiguity": "Some statements lack specificity, leading to potential misinterpretation. Clarifying scope and practical implications will enhance understanding.",
-    "readability": "Overall, complex sentence structures, passive voice, and dense data presentation hinder smooth reading. Simplification and better structuring will improve flow.",
-    "information_density": "Overloading sections with detailed data without summaries reduces clarity. Incorporating concise summaries and highlighting key points will aid quick understanding."
+    "language_simplicity": "The document employs complex sentences and technical terminology that could be simplified for broader accessibility. Using plain language, defining technical terms, and breaking long sentences into shorter ones will improve overall clarity.",
+    "jargon_usage": "While technical terms are necessary for precision, excessive jargon without explanation can hinder understanding. Including brief definitions or simplifying terminology where possible will make the content more approachable.",
+    "wordiness": "Many sentences contain redundant phrases or overly elaborate structures. Eliminating unnecessary words and combining sentences where appropriate will make the text more concise and easier to follow.",
+    "sentence_length": "Long, complex sentences are prevalent, especially in the introduction and discussion sections. Shortening sentences and varying their structure will enhance readability and reduce cognitive load.",
+    "paragraph_length": "Some paragraphs are lengthy and cover multiple ideas, which can overwhelm readers. Dividing these into smaller, focused paragraphs will improve flow and comprehension.",
+    "active_passive_voice": "Passive constructions are used sporadically, which can obscure who performs actions. Rephrasing sentences into active voice will clarify agency and make statements more direct.",
+    "redundancy": "Repeated phrases and similar content across tables and sections could be consolidated. Streamlining these repetitions will reduce clutter and emphasize key points.",
+    "ambiguity": "Some statements lack specificity, such as vague references to 'effects' or 'impact.' Clarifying these with precise descriptions will improve interpretability.",
+    "readability": "Overall, the dense technical language and lengthy sentences reduce readability. Simplifying language, breaking up text, and summarizing complex details will make the document more accessible.",
+    "information_density": "The text contains a high concentration of detailed statistical and methodological information, which may overwhelm readers. Moving detailed data to supplementary sections and focusing on main findings will balance informativeness with clarity."
   },
-  "summary": "Overall, the manuscript demonstrates solid research and comprehensive analysis but suffers from issues related to language complexity, verbosity, and dense presentation of data. Addressing these areas by simplifying language, breaking up long paragraphs and sentences, clarifying technical jargon, and summarizing key findings will significantly enhance clarity and accessibility, elevating the overall quality to an excellent standard."
+  "summary": "The document demonstrates a solid foundation of detailed research but suffers from issues related to sentence complexity, redundancy, and technical jargon that hinder clarity and conciseness. Addressing these through sentence simplification, paragraph division, active voice, and reduction of repetitive content will significantly enhance its readability and overall quality."
 }

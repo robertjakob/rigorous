@@ -4,159 +4,135 @@
     {
       "category": "structure",
       "location": "Abstract",
-      "issue": "The abstract lacks clear section delineation (e.g., background, methods, results, conclusion), leading to a dense, unstructured flow.",
-      "severity": "medium",
-      "impact": "Reduces clarity and makes it harder for readers to quickly grasp key components of the study."
+      "issue": "The abstract is overly lengthy and contains detailed methodological and statistical information that could be condensed or better organized into clear sections (background, methods, results, conclusion).",
+      "severity": "high",
+      "impact": "This hampers readability and prevents quick comprehension of the key findings and contributions, which is essential for an effective abstract."
     },
     {
       "category": "content",
-      "location": "Abstract",
-      "issue": "The methodology description is overly detailed and fragmented, with excessive technical specifics that could be moved to the main text.",
+      "location": "Introduction & Methods",
+      "issue": "The abstract lacks explicit mention of key hypotheses and the specific primary and secondary outcomes, which are only detailed in the main text.",
       "severity": "high",
-      "impact": "Diminishes the abstract's conciseness and clarity, potentially overwhelming readers and obscuring main findings."
+      "impact": "Reduces clarity about the study's aims and what is being measured, limiting the reader's understanding of the scope and significance."
     },
     {
       "category": "clarity",
-      "location": "Results presentation",
-      "issue": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
-      "severity": "high",
-      "impact": "Impairs quick understanding of key findings and reduces readability for a broad audience."
+      "location": "Throughout",
+      "issue": "The language is dense with technical jargon and complex sentences, reducing readability for a broad audience.",
+      "severity": "medium",
+      "impact": "Hinders accessibility and quick grasp of the main points, especially for readers outside the immediate field."
     },
     {
       "category": "standards",
-      "location": "Abstract",
-      "issue": "The abstract contains typographical inconsistencies (e.g., inconsistent use of abbreviations, formatting of percentages), and some technical terms are not clearly defined.",
-      "severity": "low",
-      "impact": "Minor; affects professionalism and clarity for readers unfamiliar with specific terminology."
+      "location": "Abstract & Methods",
+      "issue": "The abstract does not clearly delineate the key components of scientific reporting standards, such as explicit hypotheses, clear description of interventions, and primary outcomes.",
+      "severity": "medium",
+      "impact": "Diminishes the scientific rigor and transparency expected in high-quality abstracts."
     },
     {
       "category": "impact",
-      "location": "Discussion",
-      "issue": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
+      "location": "Discussion & Conclusion",
+      "issue": "The implications and significance of findings are somewhat understated; the abstract does not strongly communicate the potential real-world impact or policy relevance.",
       "severity": "medium",
-      "impact": "Potentially overpromises the study's significance, affecting credibility."
+      "impact": "Limits the perceived importance and broader relevance of the research contributions."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
-      "improved_version": "Driving Sustainable Food Choices Through Specific and Actionable Product Swap Recommendations",
-      "explanation": "Refines the title for clarity and focus, making the study's core contribution immediately apparent.",
+      "improved_version": "Driving Sustainable Food Choices through Targeted Product Swap Recommendations: An Experimental Study",
+      "explanation": "A clearer, more concise title improves immediate understanding of the focus and scope of the research.",
       "location": "Title",
       "category": "structure",
       "focus": "organization"
     },
     {
-      "original_text": "The Impact of Specific and Actionable Product Swap Recommendations.",
-      "improved_version": "The Impact of Targeted Product Swap Recommendations and GHGE Information on Consumer Food Choices",
-      "explanation": "Clarifies the abstract's focus by explicitly mentioning the two main interventions studied, aiding reader understanding.",
-      "location": "Title",
+      "original_text": "This study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
+      "improved_version": "This study evaluates how specific, actionable product swap recommendations\u2014such as replacing animal-based with plant-based products\u2014affect consumers' climate-friendly food choices in an online supermarket experiment.",
+      "explanation": "Rephrasing for clarity and brevity enhances readability and emphasizes the core research focus.",
+      "location": "Abstract, first paragraph",
       "category": "clarity",
       "focus": "readability"
     },
     {
       "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
-      "improved_version": "Participants generally responded positively to the recommendations, reducing their basket's GHGE by approximately 25% and swapping an average of 4 products, with nearly 90% swapping at least one item.",
-      "explanation": "Simplifies language for clarity and improves flow, making key results more accessible.",
-      "location": "Results summary",
+      "improved_version": "Participants generally responded positively to the recommendations, achieving an average reduction of 25% in basket greenhouse gas emissions (GHGE) and swapping an average of 4 products, with nearly 90% swapping at least one item.",
+      "explanation": "Improves clarity by reducing redundancy and clarifying statistical measures for better readability.",
+      "location": "Abstract, results summary",
       "category": "clarity",
       "focus": "readability"
     },
     {
       "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-      "improved_version": "While targeted recommendations increased the selection of the most effective swap, neither this nor GHGE reduction information led to significant overall reductions in basket GHGE for most participants.",
-      "explanation": "Enhances clarity by breaking complex sentences and emphasizing key findings.",
-      "location": "Results summary",
+      "improved_version": "While targeted recommendations increased the selection of the most effective swap, neither targeted suggestions nor GHGE information led to significant reductions in overall basket GHGE for most participants.",
+      "explanation": "Enhances clarity by simplifying sentence structure and clarifying the main findings.",
+      "location": "Abstract, results summary",
       "category": "clarity",
       "focus": "readability"
     },
     {
       "original_text": "Exploratory analyses suggest that GHGE reduction information has a notably positive impact on daily meat consumers, resulting in lower basket GHGE, more products swapped, an increased willingness-to-swap meat products and in increase in their self-efficacy to reduce animal-product consumption.",
-      "improved_version": "Exploratory analyses indicate that providing GHGE reduction information notably benefits daily meat consumers, leading to greater GHGE reductions, more product swaps, higher willingness to replace meat, and increased self-efficacy in reducing animal-product intake.",
-      "explanation": "Improves readability by simplifying sentence structure and clarifying key outcomes.",
-      "location": "Results summary",
+      "improved_version": "Exploratory analyses indicate that providing GHGE reduction information significantly benefits daily meat consumers, leading to greater GHGE reductions, more swaps, higher willingness to replace meat, and increased self-efficacy in reducing animal-product intake.",
+      "explanation": "Improves readability by breaking down complex ideas into clearer, more concise statements.",
+      "location": "Abstract, results summary",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "This study investigates how specific and actionable product swap recommendations, derived from the final contents of consumers\u2019 shopping baskets and presented before checkout, influence climate-friendly food choices.",
-      "improved_version": "This study examines how specific, actionable product swap recommendations\u2014based on consumers\u2019 basket contents and presented before checkout\u2014affect climate-friendly food choices.",
-      "explanation": "Streamlines sentence for clarity and conciseness.",
-      "location": "Introduction",
+      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations. On average, post-swap baskets exhibited a 24.9% (SD = 15.7) reduction in GHGE compared to pre-swap baskets.",
+      "improved_version": "Participants showed a general willingness to engage with swap recommendations, with post-swap baskets reducing GHGE by an average of 24.9% (SD = 15.7) relative to pre-swap baskets.",
+      "explanation": "Enhances clarity and flow by connecting ideas more smoothly.",
+      "location": "Results, section 3.1",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents (e.g. swap beef burger for plant-based burger).",
-      "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how swapping animal-based for plant-based products can reduce environmental impact, and (2) a list of recommended swaps from each animal-based product to the closest matching plant-based analogue (e.g., beef burger replaced with a plant-based burger).",
-      "explanation": "Clarifies structure, reduces redundancy, and improves readability.",
-      "location": "Methods",
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "Regression analyses showed no significant effects of Targeted or Information treatments on overall GHGE reduction relative to the control condition.",
+      "explanation": "Simplifies technical language for clearer understanding.",
+      "location": "Results, section 3.1.1",
       "category": "clarity",
       "focus": "readability"
+    },
+    {
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "The study was preregistered and employed incentive-compatible procedures to promote genuine decision-making.",
+      "explanation": "Clarifies the meaning of 'incentive compatible' for broader understanding.",
+      "location": "Methods, section 2.1",
+      "category": "standards",
+      "focus": "clarity"
+    },
+    {
+      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
+      "improved_version": "The intervention included a product swap recommendations page featuring: (1) explanatory text on how replacing animal-based with plant-based products can reduce environmental impact, and (2) a list of suggested swaps from each animal-based product to the closest plant-based analogue.",
+      "explanation": "Streamlines complex sentence structure for better clarity and conciseness.",
+      "location": "Methods, section 2.3",
+      "category": "standards",
+      "focus": "clarity"
     },
     {
       "original_text": "Participants could select as many of the available product swaps as they desired. We evaluate the efficacy of the product swap recommendations as the differences between the experimental conditions on shopping task outcomes, such as final basket GHGE and swap recommendations selected.",
-      "improved_version": "Participants could choose multiple swaps. The effectiveness of these recommendations was assessed by comparing outcomes across conditions, focusing on measures such as final basket GHGE and the number of swaps selected.",
-      "explanation": "Simplifies and clarifies the evaluation approach for better comprehension.",
-      "location": "Methods",
+      "improved_version": "Participants could choose multiple swaps freely. The effectiveness of the recommendations was assessed by comparing outcomes\u2014such as changes in basket GHGE and the number of swaps selected\u2014across experimental conditions.",
+      "explanation": "Improves readability by clarifying the evaluation criteria and reducing redundancy.",
+      "location": "Methods, section 2.4",
       "category": "clarity",
       "focus": "readability"
     },
     {
-      "original_text": "Regression analyses were employed to test hypotheses, including multiple linear regression for GHGE reduction and logistic regression for swap selection.",
-      "improved_version": "Regression analyses, including multiple linear regression for GHGE reduction and logistic regression for swap choice, were used to test the study hypotheses.",
-      "explanation": "Concise and clearer description of analytical methods.",
-      "location": "Methods",
-      "category": "standards",
-      "focus": "methodology"
-    },
-    {
-      "original_text": "Results are presented with dense statistical data and regression tables embedded directly, which hampers readability.",
-      "improved_version": "Results include detailed statistical tables and figures, but key findings are summarized narratively to enhance readability for a broader audience.",
-      "explanation": "Provides guidance on balancing technical detail with clarity, improving overall comprehension.",
-      "location": "Results",
-      "category": "standards",
-      "focus": "readability"
-    },
-    {
-      "original_text": "The conclusion overstates the implications by suggesting broad policy and retail applications without acknowledging the experimental limitations.",
-      "improved_version": "The conclusions highlight promising strategies but should be interpreted cautiously, considering the controlled experimental setting and sample limitations.",
-      "explanation": "Provides a more balanced and cautious interpretation, aligning with scientific standards.",
-      "location": "Discussion",
+      "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE reduction information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
+      "improved_version": "Our results indicate that simply providing consumers with the option to swap products\u2014without targeted suggestions or environmental information\u2014may be enough to promote more sustainable purchasing behaviors for many individuals.",
+      "explanation": "Enhances clarity and flow, making the statement more direct and accessible.",
+      "location": "Discussion, conclusion",
       "category": "impact",
-      "focus": "impact"
-    },
-    {
-      "original_text": "The abstract contains typographical inconsistencies (e.g., inconsistent use of abbreviations, formatting of percentages), and some technical terms are not clearly defined.",
-      "improved_version": "Ensure consistent formatting of abbreviations and percentages throughout the abstract, and define technical terms at first mention for clarity.",
-      "explanation": "Improves professionalism and clarity, aiding reader understanding.",
-      "location": "Abstract",
-      "category": "standards",
-      "focus": "standards"
-    },
-    {
-      "original_text": "The abstract is overly detailed in methodology and results, which could be condensed to emphasize key findings and implications.",
-      "improved_version": "Condense detailed methodological descriptions and statistical data, focusing instead on main findings, their significance, and implications for practice and policy.",
-      "explanation": "Enhances impact and readability by prioritizing core messages.",
-      "location": "Abstract",
-      "category": "impact",
-      "focus": "impact"
-    },
-    {
-      "original_text": "The discussion suggests broad policy implications without sufficiently discussing the study's limitations or the need for further research.",
-      "improved_version": "The discussion should explicitly acknowledge limitations, such as sample representativeness and experimental constraints, and recommend avenues for future research to validate and extend these findings.",
-      "explanation": "Provides a more balanced and scientifically rigorous conclusion.",
-      "location": "Discussion",
-      "category": "standards",
-      "focus": "standards"
+      "focus": "significance"
     }
   ],
   "detailed_feedback": {
-    "structure_analysis": "The abstract attempts to cover background, methods, results, and conclusions but lacks clear section separation, leading to a dense and somewhat disorganized presentation. Clearer segmentation or summarization of key points would improve readability and flow.",
-    "content_analysis": "While comprehensive, the abstract includes excessive technical detail, particularly regarding statistical models and regression tables, which could be summarized more succinctly. Essential findings and their implications should be emphasized over methodological minutiae.",
-    "clarity_assessment": "The language is often dense with technical jargon and complex sentences, which hampers quick understanding. Simplifying sentence structures, reducing redundancy, and highlighting key results would enhance readability for a broader audience.",
-    "standards_compliance": "The abstract generally follows scientific conventions but contains minor typographical inconsistencies and formatting issues, especially with abbreviations and percentages. Ensuring consistency and defining technical terms would improve professionalism.",
-    "impact_evaluation": "The abstract effectively communicates the potential of product swap recommendations for sustainable food choices but overstates implications without adequately discussing limitations. A more cautious tone and acknowledgment of scope would strengthen credibility."
+    "structure_analysis": "The abstract attempts to cover all key components\u2014background, methods, results, and conclusions\u2014but it is overly lengthy and densely packed with technical details, which hampers quick comprehension. A more structured approach with clear section markers (e.g., background, methods, key findings, implications) would improve readability and impact.",
+    "content_analysis": "While the abstract provides extensive methodological detail and statistical results, it lacks clarity on the primary hypotheses and the specific outcomes of interest. The inclusion of detailed regression results and statistical metrics in the abstract detracts from the core message. Focus should be on summarizing key findings and their significance, with detailed results reserved for the main text.",
+    "clarity_assessment": "The language is technical and complex, often resulting in long sentences that challenge readability. Simplifying sentence structure, reducing jargon, and emphasizing main findings would make the abstract more accessible to a broader audience, including policymakers and practitioners.",
+    "standards_compliance": "The abstract generally adheres to scientific reporting standards by including background, methods, results, and conclusions. However, it could better delineate hypotheses, primary outcomes, and significance levels. Clearer separation of these components would enhance transparency and reproducibility.",
+    "impact_evaluation": "The abstract communicates the potential for product swap recommendations to influence sustainable food choices but underemphasizes the broader implications for policy, retail strategies, and environmental impact. Highlighting these aspects more explicitly would strengthen the perceived significance and societal relevance of the research."
   },
-  "summary": "Overall, the abstract presents a relevant and methodologically sound study with important findings on consumer behavior and sustainability interventions. However, it suffers from issues related to structure, excessive technical detail, and clarity, which hinder quick comprehension and reduce overall impact. Refining the organization, simplifying language, and emphasizing key messages would significantly enhance its quality and effectiveness."
+  "summary": "Overall, the abstract demonstrates a solid foundation in scientific reporting but requires significant improvements in structure, clarity, and emphasis on key findings to maximize its effectiveness. Simplifying language, organizing content into clearer sections, and highlighting the broader implications would elevate its quality and impact."
 }

@@ -217,7 +217,7 @@ Keep the summary within half a page (about 250 words), use professional language
             raise RuntimeError(f"Failed to load quality control results: {str(e)}")
         
         # Extract manuscript text
-        manuscript_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "manuscripts")
+        manuscript_dir = os.path.join("manuscripts")
         pdf_files = [f for f in os.listdir(manuscript_dir) if f.lower().endswith('.pdf')]
         if not pdf_files:
             raise FileNotFoundError("No PDF files found in the manuscripts folder.")

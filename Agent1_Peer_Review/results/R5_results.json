@@ -3,184 +3,194 @@
   "critical_remarks": [
     {
       "category": "test_selection",
-      "location": "Methodology: 2.5 Statistical analysis",
-      "issue": "The primary outcome, percentage GHGE reduction, is analyzed using multiple linear regression without explicit mention of whether the assumptions for linear regression (normality, homoscedasticity, linearity) were verified, especially given the bounded nature of percentage data (0-100%).",
+      "location": "Methodology: Statistical methods description",
+      "issue": "The primary analysis employs multiple linear regression for the percentage GHGE reduction, which is bounded between 0 and 100%. This may violate assumptions of normality and homoscedasticity, especially if the data are skewed or have ceiling/floor effects.",
       "severity": "medium",
-      "impact": "Potential violation of regression assumptions could bias estimates and invalidate p-values, undermining the validity of conclusions."
+      "impact": "Potential bias and invalid inference due to violation of regression assumptions, leading to unreliable p-values and confidence intervals."
     },
     {
       "category": "assumptions",
       "location": "Data Preparation: Assumption checks, data cleaning",
-      "issue": "There is no explicit mention of assumption verification for the regression models, such as residual analysis, tests for multicollinearity, or checks for outliers and influential points.",
-      "severity": "medium",
-      "impact": "Unverified assumptions may lead to unreliable estimates, incorrect significance testing, and misinterpretation of results."
+      "issue": "There is no explicit mention of assumption verification for the regression models, such as tests for normality, homoscedasticity, multicollinearity, or independence of residuals.",
+      "severity": "high",
+      "impact": "Unverified assumptions can undermine the validity of the regression results, increasing the risk of Type I or Type II errors."
     },
     {
       "category": "sample_size",
-      "location": "Participants: 2.2 Participants",
-      "issue": "Sample size calculation is based on detecting a small effect size (f2=0.02) with 3 predictors, but the actual effect sizes observed, especially for primary outcomes, are very small or non-significant, raising questions about whether the study was sufficiently powered for secondary or subgroup analyses.",
-      "severity": "low",
-      "impact": "While the initial sample size justification is appropriate, the lack of power analysis for subgroup and exploratory analyses limits confidence in these findings."
+      "location": "Participants section",
+      "issue": "Sample size calculation is based on detecting a small effect size (f2=0.02) with 3 predictors, but no detailed power analysis for subgroup analyses (e.g., daily meat consumers) is provided.",
+      "severity": "medium",
+      "impact": "Limited power to detect effects in subgroup analyses, risking false negatives and reduced robustness of conclusions."
     },
     {
       "category": "multiple_comparisons",
-      "location": "Analysis: 2.5.1 Preregistered analyses",
-      "issue": "Multiple regression models and numerous subgroup analyses are conducted without mention of correction for multiple testing (e.g., Bonferroni, FDR).",
-      "severity": "medium",
-      "impact": "Increased risk of Type I errors, leading to false positives and overstated significance of some findings."
+      "location": "Analysis: Regression analyses and exploratory tests",
+      "issue": "Multiple hypotheses are tested without mention of correction procedures (e.g., Bonferroni, Holm) to control for inflated Type I error rate.",
+      "severity": "high",
+      "impact": "Increased likelihood of false-positive findings, compromising the overall validity of the results."
     },
     {
       "category": "effect_size",
-      "location": "Results: 3.1 Main analyses",
-      "issue": "Effect sizes (e.g., \u03b2 coefficients) are reported, but their practical significance is not discussed, and some effects (e.g., Targeted treatment on GHGE reduction) are small and statistically non-significant.",
-      "severity": "low",
-      "impact": "Lack of contextualization of effect sizes limits understanding of real-world relevance."
+      "location": "Results: Regression results",
+      "issue": "Effect sizes are reported as beta coefficients and odds ratios, but there is limited discussion on the practical significance or magnitude of these effects.",
+      "severity": "medium",
+      "impact": "Lack of contextualization of effect sizes hampers interpretation of the real-world relevance of findings."
     },
     {
       "category": "confidence_intervals",
-      "location": "Results: Tables 2, 3, 12, 13",
-      "issue": "Confidence intervals are not provided alongside point estimates, which would better illustrate the precision and uncertainty of the estimates.",
-      "severity": "low",
-      "impact": "Absence of CIs hampers assessment of estimate reliability and the robustness of conclusions."
+      "location": "Results: Regression tables",
+      "issue": "Confidence intervals are not provided alongside p-values and point estimates, limiting assessment of estimate precision.",
+      "severity": "medium",
+      "impact": "Reduces transparency and interpretability of the statistical estimates, hindering assessment of reliability."
     },
     {
-      "category": "p_value_interpretation",
-      "location": "Analysis: 2.5.1 Preregistered analyses",
-      "issue": "P-values are used as the primary criterion for significance, but the discussion sometimes overstates findings without considering effect sizes or confidence intervals, risking misinterpretation of 'significance' as practical importance.",
-      "severity": "low",
-      "impact": "Potential overemphasis on p-values may lead to misleading conclusions about intervention effects."
+      "category": "p_value",
+      "location": "Analysis: Regression analyses",
+      "issue": "P-values are used as the primary criterion for significance without mention of effect sizes or confidence intervals, risking overemphasis on statistical significance over practical relevance.",
+      "severity": "medium",
+      "impact": "May lead to misinterpretation of results, especially in large samples where small effects can be statistically significant."
     },
     {
       "category": "power",
-      "location": "Participants: 2.2 Participants",
-      "issue": "While the initial power calculation is appropriate, the actual effect sizes observed are small, and the study may be underpowered for detecting subtle effects or interactions, especially in subgroup analyses.",
+      "location": "Participants section",
+      "issue": "While initial power calculations are described, no post hoc power analysis or discussion of power for subgroup analyses is included.",
       "severity": "low",
-      "impact": "Limited power reduces confidence in null findings and increases the risk of Type II errors."
+      "impact": "Limited understanding of the study\u2019s ability to detect true effects in specific subgroups, potentially affecting conclusions."
     },
     {
       "category": "missing_data",
-      "location": "Participants: 2.2 Participants",
-      "issue": "Missing data handling is briefly mentioned (exclusion of non-completers), but no detailed description of how missing data within variables was addressed or whether imputation was considered.",
-      "severity": "low",
-      "impact": "Potential bias if missing data are not missing completely at random, affecting validity."
+      "location": "Participants section",
+      "issue": "Missing data handling is not explicitly described; exclusions are based on non-completion or failing attention checks, but no imputation or sensitivity analyses are mentioned.",
+      "severity": "medium",
+      "impact": "Potential bias if missingness is systematic, affecting the validity of the results."
     },
     {
       "category": "outliers",
-      "location": "Data Preparation: assumption checks",
-      "issue": "No explicit mention of outlier detection or treatment procedures (e.g., residual analysis, influence diagnostics).",
+      "location": "Data analysis",
+      "issue": "There is no mention of outlier detection or treatment procedures, which could influence regression estimates, especially with percentage data and count variables.",
       "severity": "medium",
-      "impact": "Outliers can distort regression estimates and inflate Type I/II error rates."
+      "impact": "Outliers could skew results and inflate variance estimates, reducing statistical accuracy."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The regression model for percentage GHGE reduction does not mention assumption verification.",
-      "improved_version": "Include residual diagnostics such as plots of residuals versus fitted values, tests for normality (e.g., Shapiro-Wilk), and checks for heteroscedasticity (e.g., Breusch-Pagan test).",
-      "explanation": "Verifying assumptions ensures the validity of regression inferences and identifies potential violations that could bias results.",
-      "location": "Methodology: 2.5.1 Preregistered analyses",
-      "category": "assumptions",
-      "focus": "assumptions"
-    },
-    {
-      "original_text": "No mention of confidence intervals for regression estimates.",
-      "improved_version": "Report 95% confidence intervals alongside all regression coefficients and odds ratios to provide a measure of estimate precision.",
-      "explanation": "Confidence intervals help interpret the reliability and practical significance of findings beyond p-values.",
-      "location": "Results: Tables 2, 3, 12, 13",
-      "category": "confidence_intervals",
-      "focus": "confidence_intervals"
-    },
-    {
-      "original_text": "Multiple regression models are conducted without correction for multiple testing.",
-      "improved_version": "Apply appropriate corrections such as the False Discovery Rate (FDR) or Bonferroni adjustment when interpreting multiple p-values across models and subgroup analyses.",
-      "explanation": "Controlling for multiple comparisons reduces the risk of false positives and enhances the credibility of significant findings.",
-      "location": "Analysis: 2.5.1 Preregistered analyses",
-      "category": "multiple_comparisons",
-      "focus": "multiple_comparisons"
-    },
-    {
-      "original_text": "Effect sizes are reported but not contextualized.",
-      "improved_version": "Discuss the magnitude and practical relevance of effect sizes (e.g., \u03b2 coefficients, odds ratios) in relation to real-world impact, possibly translating percentage reductions into meaningful behavioral changes.",
-      "explanation": "Understanding effect size magnitude aids in assessing the intervention's practical significance, not just statistical significance.",
-      "location": "Results: 3.1 Main analyses",
-      "category": "effect_size",
-      "focus": "effect_size"
-    },
-    {
-      "original_text": "P-values are used as the sole criterion for significance.",
-      "improved_version": "Complement p-value reporting with confidence intervals and effect sizes, and interpret findings within the context of their practical importance rather than solely relying on the 0.05 threshold.",
-      "explanation": "This approach prevents overstatement of marginally significant results and emphasizes meaningful effects.",
-      "location": "Analysis: 2.5.1 Preregistered analyses",
-      "category": "p_value",
-      "focus": "p_value"
-    },
-    {
-      "original_text": "Sample size justification does not account for subgroup analyses.",
-      "improved_version": "Perform power analyses tailored to key subgroup analyses, such as daily meat consumers, to ensure adequate power for detecting effects within these groups.",
-      "explanation": "This ensures the study is sufficiently powered to detect meaningful effects in all relevant analyses, reducing Type II errors.",
-      "location": "Participants: 2.2 Participants",
-      "category": "sample_size",
-      "focus": "sample_size"
-    },
-    {
-      "original_text": "Handling of missing data is briefly mentioned without detail.",
-      "improved_version": "Describe the extent and pattern of missing data, and consider implementing multiple imputation or sensitivity analyses to assess the robustness of results.",
-      "explanation": "Proper handling of missing data minimizes bias and enhances the validity of statistical inferences.",
-      "location": "Participants: 2.2 Participants",
-      "category": "missing_data",
-      "focus": "missing_data"
-    },
-    {
-      "original_text": "No explicit outlier detection procedures are described.",
-      "improved_version": "Implement and report outlier detection methods such as leverage and influence diagnostics (e.g., Cook's distance), and specify how outliers are treated or justified if retained.",
-      "explanation": "Addressing outliers prevents distortion of estimates and maintains model integrity.",
-      "location": "Data Preparation: assumption checks",
-      "category": "outliers",
-      "focus": "outliers"
-    },
-    {
-      "original_text": "The use of linear regression for bounded percentage data is not justified.",
-      "improved_version": "Consider alternative modeling approaches such as beta regression or transformation (e.g., logit or arcsine square root) for percentage data to better meet model assumptions.",
-      "explanation": "Appropriate modeling of bounded data improves estimate accuracy and validity of significance tests.",
-      "location": "Methodology: 2.5.1 Preregistered analyses",
-      "category": "test_selection",
+      "original_text": "The primary analysis employs multiple linear regression for the percentage GHGE reduction, which is bounded between 0 and 100%.",
+      "improved_version": "Use a beta regression model or a generalized linear model with appropriate link functions (e.g., logit or probit) for percentage data bounded between 0 and 1, to better respect the data\u2019s distribution and bounds.",
+      "explanation": "Beta regression is specifically designed for proportion data, providing more accurate estimates and valid inference when the outcome is bounded.",
+      "location": "Methodology: Statistical methods description",
       "focus": "test_selection"
     },
     {
-      "original_text": "The study does not report whether assumptions for logistic regression (e.g., linearity in the logit, absence of multicollinearity) were verified.",
-      "improved_version": "Perform and report diagnostics such as the Box-Tidwell test for linearity and variance inflation factors (VIF) for multicollinearity in logistic models.",
-      "explanation": "Verifying these assumptions ensures the validity of logistic regression results and prevents misinterpretation.",
-      "location": "Analysis: 2.5.1 Preregistered analyses",
-      "category": "assumptions",
+      "original_text": "There is no explicit mention of assumption verification for the regression models.",
+      "improved_version": "Include diagnostic checks for regression assumptions, such as residual plots for homoscedasticity, normality tests (e.g., Shapiro-Wilk), and variance inflation factors (VIF) for multicollinearity, reporting these in supplementary materials.",
+      "explanation": "Verifying assumptions ensures the validity of regression inferences and helps identify model violations that require correction.",
+      "location": "Data Preparation: Assumption checks, data cleaning",
       "focus": "assumptions"
     },
     {
-      "original_text": "The statistical analysis relies heavily on p-values without discussing the magnitude of effects or their confidence intervals.",
-      "improved_version": "Include and interpret confidence intervals and standardized effect sizes alongside p-values to provide a comprehensive understanding of the results.",
-      "explanation": "This enhances interpretability and emphasizes the practical significance of findings.",
-      "location": "Results and discussion sections",
-      "category": "effect_size",
+      "original_text": "Sample size calculation is based on detecting a small effect size but does not consider subgroup analyses.",
+      "improved_version": "Perform separate power analyses for key subgroup analyses, such as daily meat consumers, to ensure sufficient sample size for detecting effects within these groups, or justify the current sample size\u2019s adequacy.",
+      "explanation": "Adequate power in subgroup analyses enhances confidence in detecting true effects and avoids false negatives.",
+      "location": "Participants section",
+      "focus": "sample_size"
+    },
+    {
+      "original_text": "Multiple hypotheses are tested without mention of correction procedures.",
+      "improved_version": "Apply multiple comparison correction methods, such as Holm-Bonferroni or false discovery rate (FDR), and report adjusted p-values to control for Type I error inflation.",
+      "explanation": "Correcting for multiple testing maintains the overall alpha level and reduces false-positive findings.",
+      "location": "Analysis: Regression analyses and exploratory tests",
+      "focus": "multiple_comparisons"
+    },
+    {
+      "original_text": "Effect sizes are reported but lack contextual interpretation.",
+      "improved_version": "Complement beta coefficients and odds ratios with standardized effect sizes (e.g., Cohen\u2019s d or Cram\u00e9r\u2019s V) and interpret their practical significance in the context of behavioral change.",
+      "explanation": "Effect size interpretation aids in understanding the real-world impact beyond mere statistical significance.",
+      "location": "Results: Regression results",
       "focus": "effect_size"
     },
     {
-      "original_text": "The reporting of subgroup analyses (e.g., daily meat consumers) lacks detailed power considerations.",
-      "improved_version": "Conduct and report power analyses specific to subgroup analyses to ensure sufficient sample size for detecting meaningful effects within these groups.",
-      "explanation": "Adequate power in subgroup analyses reduces the risk of false negatives and strengthens conclusions about differential effects.",
-      "location": "Participants: 2.2 Participants",
-      "category": "power",
+      "original_text": "Confidence intervals are not provided alongside point estimates.",
+      "improved_version": "Report 95% confidence intervals for all regression coefficients and odds ratios, providing a clearer picture of estimate precision and uncertainty.",
+      "explanation": "Confidence intervals enhance transparency and allow readers to assess the reliability of estimates.",
+      "location": "Results: Regression tables",
+      "focus": "confidence_intervals"
+    },
+    {
+      "original_text": "P-values are used as the primary significance criterion without effect size context.",
+      "improved_version": "Present both p-values and effect sizes with confidence intervals, and discuss the practical importance of findings rather than relying solely on significance thresholds.",
+      "explanation": "This balanced approach prevents overinterpretation of statistically significant but practically trivial effects.",
+      "location": "Analysis: Regression analyses",
+      "focus": "p_value"
+    },
+    {
+      "original_text": "Power analysis is described but no post hoc power assessment is conducted.",
+      "improved_version": "Conduct and report post hoc power analyses for key outcomes and subgroup analyses to evaluate whether the study was sufficiently powered to detect meaningful effects.",
+      "explanation": "Post hoc power assessments inform the interpretation of null results and the robustness of findings.",
+      "location": "Participants section",
       "focus": "power"
+    },
+    {
+      "original_text": "Missing data handling is not explicitly described.",
+      "improved_version": "Describe the approach to missing data, such as multiple imputation or sensitivity analyses, and justify the chosen method to ensure unbiased estimates.",
+      "explanation": "Proper handling of missing data reduces bias and improves the validity of inferences.",
+      "location": "Data preparation",
+      "focus": "missing_data"
+    },
+    {
+      "original_text": "There is no mention of outlier detection or treatment.",
+      "improved_version": "Implement outlier detection procedures (e.g., leverage, Cook\u2019s distance) and specify criteria for outlier exclusion or transformation, reporting their impact on results.",
+      "explanation": "Addressing outliers prevents undue influence on regression estimates and enhances robustness.",
+      "location": "Data analysis",
+      "focus": "outliers"
+    },
+    {
+      "original_text": "The study employs multiple linear regression for bounded percentage outcomes without transformations.",
+      "improved_version": "Transform percentage GHGE reduction data (e.g., logit transformation) or use models suited for bounded data, such as beta regression, to improve model fit and validity.",
+      "explanation": "Transformations or specialized models better accommodate the data\u2019s distribution and bounds, leading to more accurate inferences.",
+      "location": "Methodology: Statistical methods description",
+      "focus": "test_selection"
+    },
+    {
+      "original_text": "No mention of model residual diagnostics or goodness-of-fit measures.",
+      "improved_version": "Include residual plots, tests for heteroscedasticity, and measures like R-squared or pseudo R-squared to assess model adequacy, reporting these in supplementary materials.",
+      "explanation": "Diagnostics ensure the appropriateness of the model and help identify violations that could bias results.",
+      "location": "Analysis",
+      "focus": "assumptions"
+    },
+    {
+      "original_text": "The analysis does not specify whether data normality was checked for residuals.",
+      "improved_version": "Perform normality tests (e.g., Shapiro-Wilk) on residuals and consider transformations or robust regression methods if assumptions are violated.",
+      "explanation": "Ensuring residual normality supports the validity of p-values and confidence intervals derived from linear models.",
+      "location": "Analysis",
+      "focus": "assumptions"
+    },
+    {
+      "original_text": "The handling of multiple outcome variables (e.g., GHGE, self-efficacy, WTS) lacks correction for multiple testing.",
+      "improved_version": "Apply a multiple testing correction across all primary and secondary outcomes, such as the Benjamini-Hochberg procedure, and report adjusted p-values.",
+      "explanation": "This reduces the risk of false positives when interpreting multiple statistical tests.",
+      "location": "Results",
+      "focus": "multiple_comparisons"
+    },
+    {
+      "original_text": "The study does not specify whether the outcome variables are normally distributed or whether transformations are applied.",
+      "improved_version": "Assess the distribution of outcome variables and apply appropriate transformations or non-parametric tests if distributions deviate substantially from normality.",
+      "explanation": "Proper distributional assessment ensures the chosen statistical tests are valid and results are reliable.",
+      "location": "Data preparation",
+      "focus": "assumptions"
     }
   ],
   "detailed_feedback": {
-    "test_selection": "The primary analyses employ multiple linear regression for percentage GHGE reduction, but the bounded nature of percentage data (0-100%) suggests that alternative models like beta regression or transformations (e.g., logit) would be more appropriate. The logistic regression for swap selection is suitable, but assumptions such as linearity in the logit and absence of multicollinearity should be verified and reported.",
-    "assumption_verification": "The manuscript lacks explicit mention of residual diagnostics, tests for normality, heteroscedasticity, and influence diagnostics. Conducting residual plots, normality tests, and influence measures (e.g., Cook's distance) would confirm the validity of regression assumptions and identify potential outliers or influential points.",
-    "sample_size_justification": "While the initial sample size calculation is based on detecting small effects with adequate power, the actual effect sizes observed are minimal, and subgroup analyses (e.g., daily meat consumers) may be underpowered. Future studies should perform power analyses tailored to subgroup effects to ensure sufficient statistical power.",
-    "multiple_comparison_handling": "Multiple models and subgroup analyses increase the risk of Type I errors. Implementing correction procedures such as the False Discovery Rate (FDR) or Bonferroni adjustment would control for multiple testing and improve result credibility.",
-    "effect_size_reporting": "Although effect sizes are reported, their practical significance is not discussed. Including standardized effect sizes (e.g., Cohen's d) and contextualizing their magnitude would aid interpretation of the intervention's real-world impact.",
-    "confidence_intervals": "The absence of confidence intervals around regression estimates limits understanding of estimate precision. Adding 95% CIs would provide clearer insights into the reliability and variability of the findings.",
-    "p_value_interpretation": "The manuscript relies heavily on p-values to determine significance without discussing the magnitude or confidence intervals. Emphasizing effect sizes and CIs alongside p-values would lead to more nuanced interpretation and avoid overemphasizing statistical significance.",
-    "power": "Power calculations are based on initial assumptions, but the small observed effects suggest that some analyses may be underpowered, especially subgroup analyses. Future research should include power analyses for key subgroup effects to ensure adequate sample sizes.",
-    "missing_data": "Missing data handling is briefly mentioned via exclusion of non-completers, but no detailed description of how missing data within variables was addressed. Employing multiple imputation or sensitivity analyses would mitigate bias and improve robustness.",
-    "outlier_treatment": "There is no mention of outlier detection or influence diagnostics. Applying methods such as leverage and influence diagnostics would help identify and appropriately handle outliers, ensuring the stability of regression estimates."
+    "test_selection": "The authors primarily used multiple linear regression for continuous outcomes like percentage GHGE reduction, which are bounded between 0 and 100%. Such data often violate normality and homoscedasticity assumptions. Alternative models like beta regression or generalized linear models with appropriate link functions (e.g., logit) are better suited for proportion data, providing more accurate and valid inference.",
+    "assumption_verification": "There is no explicit mention of diagnostic checks for regression assumptions such as residual normality, homoscedasticity, multicollinearity, or independence. Conducting and reporting these diagnostics (e.g., residual plots, VIFs) is essential to validate the models and ensure the reliability of p-values and confidence intervals.",
+    "sample_size_justification": "While the initial sample size calculation is based on detecting small effects with adequate power, there is no discussion of power for subgroup analyses, such as daily meat consumers. Conducting separate power analyses or justifying the current sample size\u2019s sufficiency for these analyses would strengthen the robustness of subgroup findings.",
+    "multiple_comparisons": "Multiple hypotheses are tested across primary and exploratory analyses without correction procedures. Implementing corrections like Holm-Bonferroni or false discovery rate adjustments would control the family-wise error rate and reduce the risk of false positives.",
+    "effect_size_reporting": "While effect sizes such as beta coefficients and odds ratios are reported, their practical significance is not discussed. Including standardized effect sizes and contextual interpretation would help readers understand the real-world impact of the findings.",
+    "confidence_intervals": "Confidence intervals are absent from the regression tables. Adding 95% CIs for all estimates would improve transparency, allow assessment of estimate precision, and facilitate better interpretation of the results.",
+    "p_value_interpretation": "The reliance on p-values alone without accompanying effect sizes or confidence intervals can lead to overemphasis on statistical significance. Presenting both and discussing effect magnitude enhances the interpretability and relevance of the findings.",
+    "statistical_power": "The initial power analysis is described, but no post hoc power assessments are reported. Conducting and reporting these would clarify whether the study was sufficiently powered, especially for subgroup analyses, and help interpret null findings.",
+    "missing_data_handling": "The approach to missing data is not detailed. Clarifying whether data were imputed, excluded, or analyzed with complete cases, along with sensitivity analyses, would bolster confidence in the results\u2019 validity.",
+    "outlier_treatment": "There is no discussion of outlier detection or treatment. Implementing outlier diagnostics (e.g., leverage, Cook\u2019s distance) and reporting their influence on the models would improve robustness and prevent biased estimates.",
+    "additional_suggestion": "Conduct sensitivity analyses to assess the impact of outliers and missing data on key results, enhancing the robustness of conclusions."
   },
-  "summary": "Overall, the statistical analysis demonstrates acceptable rigor but has notable areas for improvement. The primary concern is the lack of explicit assumption verification and appropriate modeling for bounded percentage data. Addressing multiple comparisons, reporting confidence intervals, and providing detailed diagnostics would significantly enhance the robustness and credibility of the findings. Minor issues such as effect size contextualization and power considerations in subgroup analyses should also be addressed to strengthen the overall quality of the research."
+  "summary": "Overall, the study demonstrates a solid experimental design with relevant statistical analyses. However, improvements in assumption verification, model choice for bounded data, correction for multiple comparisons, and comprehensive reporting of effect sizes and diagnostics are needed to elevate the statistical rigor to an excellent standard. Addressing these issues will strengthen the validity, reliability, and interpretability of the findings, making the research more robust and impactful."
 }

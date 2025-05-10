@@ -3,159 +3,168 @@
   "critical_remarks": [
     {
       "category": "grammar",
-      "location": "Abstract, paragraph 1",
-      "issue": "The phrase 'food-related greenhouse gas emissions (GHGE) constituting a major contributor' is awkward and lacks clarity due to missing conjunctions or punctuation.",
+      "location": "Abstract, paragraph 2",
+      "issue": "Inconsistent verb tense usage; present tense used when describing study aims and past tense when describing results.",
       "severity": "medium",
-      "impact": "This affects readability by making the sentence more difficult to parse and understand quickly."
+      "impact": "Reduces clarity and consistency, potentially confusing readers about the timeline of actions and findings."
     },
     {
       "category": "spelling",
-      "location": "Author list and affiliations",
-      "issue": "The name 'Sabrina St\u00a8ockli' contains an incorrect character encoding; the '\u00a8' should be replaced with '\u00f6'.",
-      "severity": "high",
-      "impact": "This impacts professionalism and accuracy, especially in formal academic contexts."
+      "location": "Throughout the document",
+      "issue": "Typographical errors such as 'recom-mendations' and 'proving' instead of 'providing'.",
+      "severity": "low",
+      "impact": "Minor spelling mistakes that slightly hinder professionalism and readability."
     },
     {
       "category": "punctuation",
-      "location": "Throughout the document",
-      "issue": "Inconsistent use of hyphens and dashes, e.g., 'food-related' vs. 'GHGE-reducing' and inconsistent spacing around hyphens.",
+      "location": "Abstract, paragraph 2",
+      "issue": "Inconsistent use of hyphens and dashes, e.g., 'product swap recommendations - proposing' instead of 'product swap recommendations\u2014proposing'.",
       "severity": "low",
-      "impact": "This reduces visual consistency and can distract readers."
+      "impact": "Affects the formal tone and visual clarity of the text."
     },
     {
       "category": "sentence_structure",
-      "location": "Section 3.1.1",
-      "issue": "The sentence 'Participants in the reference condition (Targeted = No, Information = No) already exhibited a substantial reduction in their basket GHGE' is somewhat convoluted and could be clearer.",
+      "location": "Introduction, paragraph 3",
+      "issue": "Long, complex sentences that could be broken into shorter, clearer sentences.",
       "severity": "medium",
-      "impact": "This hampers clarity and smooth flow of information."
+      "impact": "Reduces readability and makes it harder for readers to follow key points."
     },
     {
       "category": "verb_tense",
-      "location": "Throughout the methods and results sections",
-      "issue": "Mixing past and present tense, e.g., 'The impact assessment for GHG emissions was derived...' and 'Participants demonstrate a general willingness...'.",
+      "location": "Results, section 3.1",
+      "issue": "Mixing past and present tense when describing findings, e.g., 'Participants demonstrated' (past) and 'indicate' (present).",
       "severity": "medium",
-      "impact": "Inconsistent tense usage affects coherence and professionalism."
+      "impact": "Creates inconsistency, affecting the logical flow of the narrative."
     },
     {
-      "category": "subject-verb",
-      "location": "Section 2.2 Participants",
-      "issue": "In the sentence 'A sample of German-speaking participants was recruited via online panels managed by Prolific,' the subject 'sample' is singular, but subsequent sentences sometimes refer to 'participants' in plural, which can cause confusion.",
+      "category": "subject_verb",
+      "location": "Methodology, section 2.1",
+      "issue": "Incorrect subject-verb agreement in sentences like 'The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions...'.",
       "severity": "low",
-      "impact": "This can cause minor confusion about whether the focus is on the sample or individual participants."
+      "impact": "Minor, but affects grammatical correctness."
     },
     {
       "category": "articles",
-      "location": "Section 2.1 Design and procedure",
-      "issue": "Inconsistent use of 'the' before 'online supermarket environment' and similar phrases.",
+      "location": "Introduction, paragraph 2",
+      "issue": "Omission of definite articles, e.g., 'Shifting from diets rich in animal-based products...' should be 'Shifting from diets rich in the animal-based products...'.",
       "severity": "low",
-      "impact": "This affects grammatical correctness and clarity."
+      "impact": "Slightly affects grammatical accuracy and clarity."
     },
     {
       "category": "prepositions",
-      "location": "Section 2.1",
-      "issue": "In the phrase 'participants landed on the intervention page,' 'landed' is informal; 'arrived at' or 'were directed to' would be more appropriate.",
+      "location": "Discussion, paragraph 4",
+      "issue": "Incorrect preposition use, e.g., 'targeted dietary recommendations will be more effective in driving behaviour change compared to offering a broader set of substitution options.' \u2014 better as '...more effective than offering...'.",
       "severity": "low",
-      "impact": "This improves formality and clarity."
+      "impact": "Minor, but improves precision of comparisons."
     },
     {
       "category": "conjunctions",
-      "location": "Throughout the document",
-      "issue": "Occasional missing conjunctions in complex sentences, e.g., 'and' is sometimes omitted before 'making them a straightforward option.'",
+      "location": "Results, section 3.1.2",
+      "issue": "Overuse of 'and' in complex sentences, leading to convoluted structures.",
       "severity": "low",
-      "impact": "This can slightly hinder sentence flow and comprehension."
+      "impact": "Reduces clarity; breaking sentences improves readability."
     },
     {
       "category": "academic_conventions",
       "location": "References section",
-      "issue": "Inconsistent citation formatting; some references lack proper punctuation or formatting, e.g., missing italics or inconsistent use of journal names and volume/issue numbers.",
-      "severity": "high",
-      "impact": "This diminishes professionalism and may affect indexing or citation tracking."
+      "issue": "Inconsistent citation formatting, e.g., some references include URLs, others do not; inconsistent use of italics and brackets.",
+      "severity": "medium",
+      "impact": "Impairs professionalism and adherence to academic standards."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
-      "improved_version": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which considers all greenhouse gases\u2014such as carbon dioxide, methane, and nitrous oxide\u2014that contribute to climate change. These gases are compared over a 100-year time horizon and expressed in carbon dioxide equivalents.",
-      "explanation": "Breaking up the long sentence improves clarity and readability, making complex information easier to understand.",
-      "location": "Section 2.1",
-      "category": "academic_conventions",
+      "original_text": "Dietary choices significantly impact both human health and the environ-ment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
+      "improved_version": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) being a major contributor to climate change.",
+      "explanation": "Corrects hyphenation and clarifies the sentence structure for better readability.",
+      "location": "Abstract, paragraph 2",
+      "category": "punctuation",
       "focus": "sentence_structure"
-    },
-    {
-      "original_text": "Sabrina St\u00a8ockli3,4, Elgar Fleisch1,5 and Martin Natter3",
-      "improved_version": "Sabrina St\u00f6ckli^3,4, Elgar Fleisch^1,5, and Martin Natter^3",
-      "explanation": "Correcting the character encoding and adding proper superscript notation aligns with academic standards for author affiliations.",
-      "location": "Author list",
-      "category": "spelling",
-      "focus": "spelling"
-    },
-    {
-      "original_text": "food choices exert significant pressure on global healthcare systems, ecosystems, and agriculture [4\u20137], and contribute substantially to greenhouse gas emissions (GHGE) [2, 8, 9], water pollution, and more environmental impacts.",
-      "improved_version": "Food choices exert significant pressure on global healthcare systems, ecosystems, and agriculture [4\u20137], and substantially contribute to greenhouse gas emissions (GHGE) [2, 8, 9], water pollution, and other environmental impacts.",
-      "explanation": "Adding 'substantially' clarifies the degree of contribution, and replacing 'more' with 'other' improves formality and precision.",
-      "location": "Section 1 Introduction",
-      "category": "sentence_structure",
-      "focus": "sentence clarity"
     },
     {
       "original_text": "Participants were overall receptive to receiv-ing product swap recommendations.",
       "improved_version": "Participants were generally receptive to receiving product swap recommendations.",
-      "explanation": "Replacing 'overall' with 'generally' and correcting the hyphenation improves grammatical correctness and flow.",
-      "location": "Abstract, paragraph 2",
-      "category": "grammar",
+      "explanation": "Replaces awkward phrasing with clearer, more formal language; improves flow.",
+      "location": "Results, paragraph 2",
+      "category": "sentence_structure",
       "focus": "sentence_structure"
     },
     {
-      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommen-dations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-      "improved_version": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction resulted in significantly lower basket GHGE for the majority of participants.",
-      "explanation": "Replacing 'translated into' with 'resulted in' improves clarity and aligns with standard academic language.",
-      "location": "Section 3.1.1 Results",
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warm-ing Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+      "improved_version": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which considers all GHG emissions contributing to climate change. For a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared to the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+      "explanation": "Splits a lengthy, complex sentence into clearer parts, enhancing readability and clarity.",
+      "location": "Methodology, section 2.1",
       "category": "sentence_structure",
-      "focus": "verb usage"
+      "focus": "sentence_structure"
+    },
+    {
+      "original_text": "In the online supermarket experiment environment, 1059 participants were presented with a basket of products typical of the German consumer and instructed to navigate through the supermarket to checkout.",
+      "improved_version": "In the online supermarket experiment, 1,059 participants were presented with a basket of products typical of German consumers and instructed to navigate through the supermarket to checkout.",
+      "explanation": "Streamlines phrasing, corrects number formatting, and improves clarity.",
+      "location": "Methodology, section 2.1",
+      "category": "sentence_structure",
+      "focus": "sentence_structure"
     },
     {
       "original_text": "The study was preregistered and incentive compatible.",
-      "improved_version": "The study was preregistered and designed to be incentive-compatible.",
-      "explanation": "Adding 'designed to be' clarifies the meaning and improves grammatical correctness of the compound adjective.",
-      "location": "Section 2.1 Methods",
+      "improved_version": "The study was preregistered and incentive-compatible.",
+      "explanation": "Adds hyphen to form correct compound adjective, aligning with academic conventions.",
+      "location": "Methodology, section 2.1",
       "category": "grammar",
-      "focus": "sentence structure"
+      "focus": "grammar"
     },
     {
       "original_text": "Participants in all experimental conditions were exposed to the swap rec-ommendation intervention that (1) explained how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alter-native products according to their prescribed experimental condition (outlined below).",
-      "improved_version": "Participants in all experimental conditions were exposed to the swap recommendation intervention, which (1) explained how swapping animal-based products for plant-based alternatives can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alternative products, according to their assigned experimental condition (outlined below).",
-      "explanation": "Clarifying 'which' and improving punctuation enhances clarity and flow, especially in complex sentences.",
-      "location": "Section 2.1",
+      "improved_version": "Participants in all experimental conditions were exposed to the swap recommendation intervention, which (1) explained how swapping animal-based products for plant-based alternatives can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alternative products according to their assigned experimental condition (outlined below).",
+      "explanation": "Clarifies sentence structure, corrects hyphenation, and improves flow for better comprehension.",
+      "location": "Methodology, section 2.1",
       "category": "sentence_structure",
-      "focus": "sentence clarity"
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "The overall score (1-5) for language style is a comprehensive measure based on grammar, clarity, coherence, and formality.",
-      "improved_version": "The overall language style score, rated on a scale from 1 to 5, provides a comprehensive measure of grammar, clarity, coherence, and formality.",
-      "explanation": "Rephrasing improves clarity and aligns with formal reporting standards."
+      "original_text": "The targeted product swap is prominently highlighted in the Targeted(Yes) treatments and GHGE reduction information is presented (text with green background) in the Infor-mation(Yes) treatments.",
+      "improved_version": "The targeted product swap is prominently highlighted in the Targeted (Yes) treatments, and GHGE reduction information is presented (as text with a green background) in the Information (Yes) treatments.",
+      "explanation": "Adds clarity with proper spacing, punctuation, and explanation of visual elements for precision.",
+      "location": "Methodology, section 2.3",
+      "category": "sentence_structure",
+      "focus": "sentence_structure"
     },
     {
-      "original_text": "The references section contains inconsistent formatting, with some entries missing italics or proper punctuation.",
-      "improved_version": "The references section exhibits inconsistent formatting, with some entries lacking italics or proper punctuation, which should be standardized according to the chosen citation style.",
-      "explanation": "Specifying the need for standardization emphasizes the importance of consistency in academic writing."
+      "original_text": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalisability.",
+      "improved_version": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants and was overrepresented by young male participants, which limits generalizability.",
+      "explanation": "Removes unnecessary comma, clarifies sentence, and corrects spelling of 'generalizability'.",
+      "location": "Discussion, section 4",
+      "category": "grammar",
+      "focus": "grammar"
     },
     {
-      "original_text": "Throughout the document, hyphenation and spacing around hyphens are inconsistent.",
-      "improved_version": "Throughout the document, hyphenation and spacing around hyphens are inconsistent; standardize hyphen use for compound modifiers (e.g., 'food-related') and ensure uniform spacing.",
-      "explanation": "Providing specific guidance improves consistency and professionalism."
+      "original_text": "Providing consumers with information about the environmental impact of their food choices is a key intervention for promoting climate-friendly behaviour.",
+      "improved_version": "Providing consumers with information about the environmental impact of their food choices is a key intervention for promoting climate-friendly behavior.",
+      "explanation": "Aligns spelling with American English conventions used in the references; improves consistency.",
+      "location": "Discussion, section 4",
+      "category": "spelling",
+      "focus": "spelling"
+    },
+    {
+      "original_text": "From a policy and retail perspective, our findings suggest a practical and scalable strategy for encouraging sustainable dietary choices.",
+      "improved_version": "From a policy and retail perspective, our findings suggest a practical and scalable strategy to encourage sustainable dietary choices.",
+      "explanation": "Replaces 'for encouraging' with 'to encourage' for smoother, more formal phrasing.",
+      "location": "Discussion, section 4",
+      "category": "conjunctions",
+      "focus": "conjunctions"
     }
   ],
   "detailed_feedback": {
-    "grammar_correctness": "The document generally maintains correct grammar, but some complex sentences are overly convoluted, affecting clarity. For example, long sentences with multiple clauses could be broken into shorter, clearer statements.",
-    "spelling_accuracy": "Most spelling is accurate; however, there are encoding issues with special characters, such as 'Sabrina St\u00a8ockli' which should be corrected to 'Sabrina St\u00f6ckli'. Consistent use of special characters is essential for professionalism.",
-    "punctuation_usage": "Punctuation is mostly correct but inconsistent in hyphenation and spacing, especially with compound adjectives like 'food-related' and 'GHGE-reducing'. Uniform punctuation enhances readability.",
-    "sentence_structure": "Several sentences are lengthy and contain multiple ideas, which can hinder understanding. Breaking complex sentences into simpler ones improves clarity. For example, sentences with multiple clauses should be split for better flow.",
-    "verb_tense_consistency": "There is some inconsistency between past and present tense, particularly in the methods and results sections. Maintaining a consistent tense, preferably past tense for completed actions, improves coherence.",
-    "subject-verb_agreement": "Subject-verb agreement is generally correct, but some sentences with complex subjects could be clearer. For example, 'Participants demonstrated...' is correct, but ensure similar constructions are checked throughout.",
-    "article_usage": "Articles such as 'the' are sometimes omitted before nouns like 'online supermarket environment'. Consistent article use is necessary for grammatical correctness.",
-    "preposition_usage": "Prepositions are mostly correct, but some phrases could be improved for formality and clarity, e.g., 'participants landed on the intervention page' could be 'participants arrived at the intervention page'.",
-    "conjunction_usage": "Occasional missing conjunctions in complex sentences affect flow. For example, adding 'and' or 'which' where appropriate improves sentence coherence.",
-    "academic_conventions": "Citation formatting is inconsistent; some references lack italics or proper punctuation. Ensuring adherence to a specific style guide (e.g., APA, Vancouver) enhances professionalism and facilitates indexing."
+    "grammar_correctness": "The manuscript contains several instances of inconsistent verb tense usage, especially when describing the study's aims versus its results. For example, using present tense to describe past actions (e.g., 'Participants demonstrated') and past tense for findings (e.g., 'Participants swapped') should be standardized to past tense for consistency. Additionally, subject-verb agreement issues are minor but present, such as 'The impact assessment... which takes into account...' where 'takes' is correct, but in complex sentences, agreement should be carefully checked.",
+    "spelling_accuracy": "There are minor typographical errors throughout, such as hyphenation issues ('recom-mendations') and misspellings ('proving' instead of 'providing'). Consistent use of American or British spelling conventions should be maintained; currently, both 'generalizability' (American) and British spellings like 'behaviour' are used, which should be unified according to the chosen style guide.",
+    "punctuation_usage": "Inconsistent use of hyphens, dashes, and commas affects formal tone and clarity. For example, hyphenation in compound adjectives like 'incentive compatible' should be corrected to 'incentive-compatible'. Also, hyphens used as dashes should be replaced with proper em dashes (\u2014) for clarity and professionalism.",
+    "sentence_structure": "Many sentences are overly long and complex, which hampers readability. Breaking these into shorter, clearer sentences would improve comprehension. For instance, sentences describing methodological procedures often contain multiple clauses that could be split for clarity.",
+    "verb_tense_consistency": "The manuscript shifts between past and present tense, especially when describing the study procedures versus the findings. Maintaining a consistent tense, preferably past tense when discussing completed actions, would enhance coherence.",
+    "subject_verb_agreement": "Subject-verb agreement issues are minimal but present, especially in complex sentences. Careful proofreading is needed to ensure that singular subjects are paired with singular verbs and vice versa.",
+    "article_usage": "Articles are sometimes omitted where they are grammatically necessary, such as 'Shifting from diets rich in animal-based products...' which would be clearer as 'Shifting from diets rich in the animal-based products...'. Proper article use improves grammatical correctness and clarity.",
+    "preposition_usage": "Prepositions are occasionally misused, affecting precision. For example, 'more effective in driving behaviour change' should be 'more effective than in driving behaviour change'. Correct preposition choice clarifies comparisons and relationships.",
+    "conjunction_usage": "Overuse or improper placement of conjunctions like 'and' and 'but' leads to convoluted sentences. Rephrasing to simpler sentences or using appropriate punctuation (e.g., semicolons, em dashes) would improve clarity.",
+    "academic_conventions": "Citation formatting is inconsistent, with some references including URLs and others not, and varying styles of brackets and italics. Adhering to a specific style guide (e.g., APA, Vancouver) would enhance professionalism. Also, the use of abbreviations like 'GHGE' should be defined at first mention and used consistently thereafter."
   },
-  "summary": "Overall, the manuscript demonstrates solid scientific content but requires attention to language details to meet academic standards. Improving sentence clarity, correcting special characters, standardizing punctuation, and ensuring consistent citation formatting will significantly enhance readability and professionalism. Addressing these issues will make the paper more accessible and credible to an academic audience."
+  "summary": "Overall, the manuscript demonstrates solid research and comprehensive analysis but requires careful editing to improve grammatical consistency, clarity, and adherence to academic writing standards. Addressing the identified issues will significantly enhance readability, professionalism, and scholarly impact."
 }

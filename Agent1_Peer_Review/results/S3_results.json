@@ -4,127 +4,151 @@
     {
       "category": "context",
       "location": "Introduction (Section 1)",
-      "issue": "The background provides extensive detail on environmental impacts and dietary trends but lacks a clear, concise overview of the specific research gap that this study addresses, making it difficult to grasp the unique contribution.",
+      "issue": "The background provides extensive information on environmental impacts and dietary trends but lacks a concise overview of the specific research gap related to consumer behaviour interventions in real-world settings.",
       "severity": "medium",
-      "impact": "This diminishes clarity about the novelty and necessity of the research, potentially confusing readers about the study's precise focus."
+      "impact": "This diminishes clarity on the novelty and specific focus of the study, potentially confusing readers about its unique contribution."
     },
     {
       "category": "problem",
       "location": "Introduction (Section 1-2)",
-      "issue": "While the problem of dietary impact on climate change is discussed, the specific gap\u2014such as the lack of empirical evidence on consumer responses to targeted product swap recommendations\u2014is insufficiently emphasized.",
+      "issue": "While the problem of dietary impact on climate change is well articulated, the manuscript does not explicitly state the gap in empirical evidence regarding consumer adoption of targeted product swap recommendations in actual shopping environments.",
       "severity": "high",
-      "impact": "This weakens the justification for the experimental approach and reduces perceived urgency or importance of the study."
+      "impact": "This weakens the justification for the study, making it less clear why this research is necessary beyond prior simulation studies."
     },
     {
       "category": "objectives",
-      "location": "Introduction (Section 1-2)",
-      "issue": "The objectives are embedded within the description of the intervention rather than explicitly stated as clear, standalone research questions or hypotheses at the outset.",
+      "location": "End of Section 1 / Beginning of Section 2",
+      "issue": "The objectives are embedded within the description of the study design, rather than clearly articulated as specific research questions or hypotheses at the outset.",
       "severity": "medium",
-      "impact": "This affects clarity, making it harder for readers to quickly understand the specific aims and hypotheses guiding the research."
+      "impact": "This affects clarity and makes it harder for readers to grasp the precise aims of the research upfront."
     },
     {
       "category": "significance",
-      "location": "Introduction (Section 1-2)",
-      "issue": "Although the potential impact on consumer behavior and sustainability is discussed, the broader implications for policy, retail practice, or environmental outcomes are not explicitly articulated.",
+      "location": "Section 4 (Discussion)",
+      "issue": "The justification for the practical implications is somewhat general; it does not sufficiently emphasize how this study advances theoretical understanding or fills critical gaps in policy or retail practice.",
       "severity": "low",
-      "impact": "This limits the perceived importance and real-world relevance of the study\u2019s findings."
+      "impact": "This limits the perceived importance and broader impact of the research findings."
     },
     {
       "category": "structure",
-      "location": "Introduction (Section 1-2)",
-      "issue": "The flow from broad background to specific research aims is somewhat disjointed, with some sections overlapping or lacking smooth transitions, reducing overall coherence.",
-      "severity": "low",
-      "impact": "This hampers readability and may cause confusion about the logical progression of ideas."
+      "location": "Overall introduction",
+      "issue": "The flow from broad background to specific research aims is somewhat disjointed, with lengthy background sections that could be more tightly integrated with the research gap and objectives.",
+      "severity": "medium",
+      "impact": "This hampers readability and logical progression, potentially confusing readers about the study\u2019s focus."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
-      "improved_version": "Dietary choices are a key driver of both human health outcomes and environmental sustainability, notably through their contribution to food-related greenhouse gas emissions (GHGE), which significantly influence climate change.",
-      "explanation": "This revision clarifies the dual importance of dietary choices and emphasizes the significance of GHGE as a climate driver, setting a clearer background.",
+      "improved_version": "Dietary choices are a key driver of environmental change, notably through food-related greenhouse gas emissions (GHGE), which significantly contribute to climate change and health issues.",
+      "explanation": "This revision emphasizes the importance of the problem upfront and links health and environmental impacts more clearly, setting a focused background.",
       "location": "Introduction (Section 1)",
       "category": "context",
       "focus": "background"
     },
     {
       "original_text": "While broad dietary guidelines advocate for reducing animal-based food consumption, these recommendations often lack the specific and actionable direction to motivate behaviour change.",
-      "improved_version": "Although general dietary guidelines recommend reducing animal-based food intake, they often fall short in providing specific, actionable strategies that effectively motivate consumers to change their behaviour.",
-      "explanation": "This enhances clarity by explicitly stating the limitation of current guidelines and framing the research gap more precisely.",
+      "improved_version": "Although dietary guidelines recommend reducing animal-based foods, they frequently lack specific, actionable strategies that effectively motivate consumers to change their behaviour.",
+      "explanation": "Clarifies the gap between general guidelines and the need for specific, actionable interventions, sharpening the research problem.",
       "location": "Introduction (Section 1)",
       "category": "problem",
       "focus": "gap"
     },
     {
       "original_text": "This study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
-      "improved_version": "This study investigates whether providing consumers with specific, actionable product swap recommendations\u2014such as substituting animal-based products with plant-based alternatives\u2014can effectively influence their purchasing decisions in an experimental online supermarket environment.",
-      "explanation": "This makes the research aim more explicit, highlighting the intervention and setting, which improves clarity of objectives.",
+      "improved_version": "This study investigates whether specific, actionable product swap recommendations\u2014such as substituting animal-based products with plant-based alternatives\u2014can effectively influence consumer choices in a realistic online shopping environment.",
+      "explanation": "Adds clarity on the intervention and emphasizes the real-world setting, aligning with the study\u2019s novelty.",
       "location": "Introduction (Section 1)",
       "category": "objectives",
       "focus": "objectives"
     },
     {
       "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
-      "improved_version": "Results indicate that participants generally responded positively to product swap recommendations, achieving an average reduction of 25% in their basket\u2019s GHGE and swapping approximately four products, with nearly 90% swapping at least one item.",
-      "explanation": "Rephrasing improves flow and emphasizes the significance of these preliminary findings, linking them directly to the intervention\u2019s potential impact.",
+      "improved_version": "Preliminary findings suggest high receptivity, with participants reducing their basket\u2019s GHGE by approximately 25% and swapping an average of four products, indicating strong engagement with the recommendations.",
+      "explanation": "Rephrases for clarity and emphasizes the significance of initial engagement, setting up the research questions more effectively.",
       "location": "Introduction (Section 1)",
       "category": "significance",
       "focus": "impact"
     },
     {
       "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-      "improved_version": "While targeted recommendations successfully increased the selection of the most effective GHGE-reducing swap, they did not lead to a statistically significant overall reduction in basket GHGE for most participants, indicating potential limitations of the approach.",
-      "explanation": "This clarifies the nuanced outcome, highlighting the discrepancy between specific behavior and overall impact, which enhances understanding of the research findings.",
-      "location": "Introduction (Section 1)",
-      "category": "problem",
-      "focus": "gap"
-    },
-    {
-      "original_text": "The study was preregistered and incentive compatible.",
-      "improved_version": "This study was preregistered to ensure transparency and was designed to be incentive-compatible, reflecting real-world shopping motivations.",
-      "explanation": "Adding context about the importance of preregistration and incentives clarifies the methodological rigor and relevance, strengthening the background.",
+      "improved_version": "While highlighting the most effective swap increased its selection, neither targeted recommendations nor providing GHGE reduction information led to significant overall reductions in basket GHGE for most participants.",
+      "explanation": "Improves clarity and flow, making the key findings more accessible and setting up the need for further investigation.",
       "location": "Introduction (Section 1)",
       "category": "structure",
       "focus": "flow"
     },
     {
-      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
-      "improved_version": "The intervention involved a dedicated product swap recommendations page that included: (1) explanatory text highlighting how substituting animal-based with plant-based products can significantly reduce environmental impact, and (2) a tailored list of specific swap suggestions matching each animal-based product to the closest plant-based analogue (see Fig. 1a).",
-      "explanation": "This revision improves clarity, conciseness, and logical flow, making the intervention components easier to understand and follow.",
+      "original_text": "The introduction could benefit from a more concise and integrated background that directly links environmental impacts, consumer behaviour challenges, and the specific research gap.",
+      "improved_version": "Streamline the background by briefly outlining the environmental and health impacts of food choices, then emphasizing the challenge of translating broad dietary guidelines into specific, actionable consumer interventions. Clearly state the existing gap in empirical evidence on real-world adoption of targeted product swaps, motivating the current study.",
+      "explanation": "Enhances coherence and focus, making the background more relevant to the research aims.",
       "location": "Introduction (Section 1)",
       "category": "structure",
       "focus": "flow"
     },
     {
-      "original_text": "Participants were randomly exposed to one of four experimental conditions of a 2 x 2 experimental design on the product swap recommendation page: Targeted(Yes vs. No) and Information(Yes vs. No), shown in Figure 1.",
-      "improved_version": "Participants were randomly assigned to one of four experimental conditions within a 2 x 2 factorial design, varying in whether the most effective GHGE-reducing swap was highlighted (Targeted: Yes/No) and whether GHGE reduction information was provided alongside recommendations (Information: Yes/No), as illustrated in Fig. 1.",
-      "explanation": "This enhances clarity by explicitly describing the factorial design and its components, improving logical flow.",
-      "location": "Introduction (Section 1)",
-      "category": "structure",
-      "focus": "flow"
-    },
-    {
-      "original_text": "The primary dependent variable was basket GHGE reduction following the product swap recommendations intervention.",
-      "improved_version": "The primary outcome measure was the percentage reduction in greenhouse gas emissions (GHGE) of the shopping basket after implementing the product swap recommendations.",
-      "explanation": "Clarifies the dependent variable, emphasizing the measurement and its relevance to the intervention\u2019s goal.",
+      "original_text": "The objectives are embedded within the description of the study design rather than explicitly stated as clear research questions.",
+      "improved_version": "Add a dedicated paragraph explicitly stating the research questions: e.g., 'This study aims to (1) assess whether targeted product swap recommendations influence consumer behaviour, (2) determine if GHGE information enhances this effect, and (3) explore differences among high meat consumers.'",
+      "explanation": "Provides clarity on specific aims, guiding readers and framing the subsequent methodology.",
       "location": "Introduction (Section 1)",
       "category": "objectives",
       "focus": "objectives"
     },
     {
-      "original_text": "The study was approved by the University of Zurich Ethics Committee. The preregistration and the data of this study are publicly available on the Open Science Framework project page.",
-      "improved_version": "The study received ethical approval from the University of Zurich Ethics Committee, and all preregistration details, data, and analysis scripts are publicly accessible via the Open Science Framework (OSF) to ensure transparency and reproducibility.",
-      "explanation": "This emphasizes transparency and aligns with best practices, strengthening the justification for the study\u2019s credibility.",
+      "original_text": "The significance justification is somewhat general and could better highlight how this research advances theory or policy.",
+      "improved_version": "Explicitly state that this research fills a critical gap by providing empirical evidence on real-time, targeted interventions in online shopping, informing both academic understanding and practical retail strategies for sustainable diets.",
+      "explanation": "Strengthens the justification by linking findings to broader implications for policy and practice.",
+      "location": "Introduction (Section 1-4)",
+      "category": "significance",
+      "focus": "impact"
+    },
+    {
+      "original_text": "The flow from broad background to specific aims can be improved for better readability.",
+      "improved_version": "Rearrange the introduction to start with a concise overview of environmental and health impacts, then narrow down to the challenges of consumer behaviour change, followed by a clear statement of the research gap and objectives, ending with the significance of the study.",
+      "explanation": "Enhances logical progression, making the narrative more compelling and easier to follow.",
+      "location": "Introduction (Section 1)",
+      "category": "structure",
+      "focus": "flow"
+    },
+    {
+      "original_text": "The introduction mentions many prior studies but could better synthesize how this study uniquely contributes beyond simulation results.",
+      "improved_version": "Summarize existing simulation findings and explicitly state that this study advances knowledge by testing real-time, consumer-facing interventions in an ecologically valid online shopping environment, thus bridging the gap between theory and practice.",
+      "explanation": "Clarifies the novel contribution and strengthens the rationale for the research.",
       "location": "Introduction (Section 1)",
       "category": "significance",
       "focus": "impact"
+    },
+    {
+      "original_text": "The technical accuracy regarding the description of the experimental design and data sources is somewhat scattered and could be clarified.",
+      "improved_version": "Consolidate the methodological details into a clear, concise paragraph explaining the experimental setup, participant recruitment, intervention design, and data sources, avoiding redundancy and ensuring technical precision.",
+      "explanation": "Improves clarity and professionalism, aiding replication and understanding.",
+      "location": "Introduction (Section 2)",
+      "category": "structure",
+      "focus": "flow"
+    },
+    {
+      "original_text": "The scope of the research is somewhat implied but not explicitly defined in terms of limitations or boundaries.",
+      "improved_version": "Explicitly state the scope and limitations early on, e.g., 'This study focuses on German-speaking, non-vegan consumers in an online supermarket setting, with implications for broader populations and real-world contexts to be explored in future research.'",
+      "explanation": "Provides clarity on the boundaries of the study, setting realistic expectations for the findings.",
+      "location": "Introduction (Section 1-2)",
+      "category": "problem",
+      "focus": "gap"
+    },
+    {
+      "original_text": "The research questions are embedded within the methods rather than clearly articulated at the outset.",
+      "improved_version": "Introduce explicit research questions or hypotheses at the end of the introduction, such as: 'This research addresses whether targeted product swaps and GHGE information influence consumer behaviour, and how these effects vary among high meat consumers.'",
+      "explanation": "Enhances clarity and guides the reader through the study\u2019s aims from the beginning.",
+      "location": "Introduction (Section 1)",
+      "category": "objectives",
+      "focus": "objectives"
     }
   ],
   "detailed_feedback": {
-    "context_analysis": "The background effectively discusses the importance of sustainable diets and environmental impacts of food choices, but it could be more concise and focused on the specific research niche. Currently, it provides extensive general information, which, while informative, dilutes the emphasis on the precise gap the study addresses.",
-    "problem_analysis": "The manuscript identifies that broad dietary guidelines lack specificity and actionable advice, yet it underplays the gap in empirical evidence regarding consumer responses to targeted product swap recommendations. Clarifying this gap would strengthen the rationale for the experimental approach.",
-    "objectives_analysis": "The objectives are embedded within the methodological description rather than explicitly stated as clear research questions or hypotheses. Explicitly listing these at the end of the introduction would improve clarity and guide the reader through the study\u2019s aims.",
-    "significance_assessment": "The potential policy and retail implications are touched upon but not elaborated. Explicitly discussing how this research advances knowledge or practice in sustainable food consumption would enhance the perceived importance.",
-    "structure_evaluation": "The introduction covers multiple themes\u2014background, problem, objectives, and significance\u2014without always maintaining a smooth logical flow. Reorganizing to start with a concise background, clearly state the research gap, then outline objectives and significance would improve coherence."
+    "context_analysis": "The introduction provides a comprehensive overview of the environmental and health impacts of food choices, emphasizing the significance of reducing GHGE through dietary shifts. It references relevant literature and simulation studies, establishing a broad background. However, it could benefit from a more concise synthesis that directly links this background to the specific research gap, emphasizing the need for empirical evidence on consumer behaviour in real shopping environments.",
+    "problem_analysis": "The manuscript clearly articulates the challenge of translating broad dietary guidelines into specific actions but does not explicitly specify the empirical gap regarding consumer adoption of targeted recommendations in actual retail settings. Clarifying this gap would strengthen the rationale for the study and highlight its novelty.",
+    "objectives_analysis": "The objectives are somewhat embedded within the methodological description, making them less explicit. Clearly stating specific research questions or hypotheses at the outset would improve transparency and focus, guiding readers through the study\u2019s aims more effectively.",
+    "significance_assessment": "While the potential policy and retail implications are mentioned, the introduction could more strongly articulate how this study advances theoretical understanding, fills critical empirical gaps, and informs practical interventions, thereby emphasizing its broader significance.",
+    "structure_evaluation": "The introduction covers extensive background information but suffers from a somewhat disjointed flow. A more logical progression\u2014from broad environmental issues to specific research gaps and objectives\u2014would improve readability. Additionally, consolidating methodological details and emphasizing key points would enhance clarity and coherence."
   },
-  "summary": "Overall, the introduction demonstrates a solid foundation with relevant background and a clear experimental focus. However, it suffers from a somewhat scattered flow, insufficiently explicit research questions, and a need for sharper emphasis on the unique contribution and practical implications. Addressing these issues would elevate the clarity, coherence, and impact of the manuscript."
+  "summary": "Overall, the introduction demonstrates a solid foundation with relevant literature and a clear research focus. However, it would benefit from tighter integration of background, explicit articulation of research gaps, clearer objectives, and improved flow. These enhancements would elevate the clarity, coherence, and impact of the manuscript, making it more compelling and accessible to readers."
 }

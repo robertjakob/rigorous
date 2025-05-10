@@ -4,48 +4,55 @@
     {
       "category": "title_clarity",
       "location": "Title",
-      "issue": "The current title is somewhat lengthy and contains line breaks that may hinder immediate comprehension and online discoverability.",
+      "issue": "The current title is somewhat lengthy and contains line breaks, which may hinder quick comprehension and readability.",
       "severity": "medium",
-      "impact": "Reduces clarity and may negatively affect search engine ranking and reader engagement."
+      "impact": "This can reduce immediate understanding and diminish the title's effectiveness in capturing reader attention and search engine visibility."
     },
     {
       "category": "title_accuracy",
       "location": "Title",
-      "issue": "The title accurately reflects the focus on product swaps and sustainability but could specify the experimental context for greater precision.",
+      "issue": "The title accurately reflects the manuscript's focus on product swap recommendations and sustainability but could specify the experimental context for clarity.",
       "severity": "low",
-      "impact": "Slightly diminishes the specificity and perceived relevance of the study for targeted audiences."
+      "impact": "Enhancing specificity can improve perceived relevance and precision for targeted audiences."
     },
     {
-      "category": "title_impact",
+      "category": "impact",
       "location": "Title",
-      "issue": "The current title emphasizes the intervention but lacks strong keywords that highlight the significance of behavioral change and environmental impact.",
-      "severity": "medium",
-      "impact": "Potentially lowers the manuscript\u2019s visibility and appeal to researchers and practitioners interested in climate-friendly food choices."
-    },
-    {
-      "category": "seo_standards",
-      "location": "Title",
-      "issue": "The title does not incorporate key search terms such as 'climate change,' 'food choices,' or 'behavioral intervention,' which are relevant for discoverability.",
+      "issue": "The current title emphasizes the intervention but lacks explicit mention of the key outcome (GHGE reduction) and the experimental nature, which are central to its impact.",
       "severity": "high",
-      "impact": "Limits the manuscript\u2019s ranking in search results and reduces reach among target audiences."
+      "impact": "This limits the title's ability to immediately convey the significance and scope of the research, potentially reducing engagement."
+    },
+    {
+      "category": "seo",
+      "location": "Title",
+      "issue": "The title does not include keywords like 'climate change,' 'food choices,' or 'behavior change,' which are relevant for search engine optimization.",
+      "severity": "high",
+      "impact": "Poor SEO reduces discoverability among researchers and practitioners searching for related topics."
+    },
+    {
+      "category": "standards",
+      "location": "Title",
+      "issue": "The title follows conventional academic standards but could benefit from a more concise and keyword-optimized structure.",
+      "severity": "low",
+      "impact": "Improved standards adherence enhances clarity and searchability."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations.",
-      "improved_version": "Enhancing Climate-Friendly Food Choices Through Targeted Product Swaps and Behavioral Interventions: An Online Experimental Study",
-      "explanation": "This revised title improves clarity by clearly stating the focus on climate-friendly food choices and behavioral interventions. It enhances impact by emphasizing the study's experimental nature and relevance to sustainability. SEO is optimized with keywords like 'climate-friendly,' 'product swaps,' and 'behavioral interventions,' aligning with common search queries. The title follows academic standards by being descriptive yet concise, suitable for scholarly audiences.",
+      "original_text": "Driving Sustainable Food Choices: The Impact of Specific and Actionable Product Swap Recommendations",
+      "improved_version": "Enhancing Climate-Friendly Food Choices Through Targeted Product Swaps and GHGE Reduction: An Online Experiment",
+      "explanation": "This revised title consolidates key aspects\u2014climate impact, targeted interventions, and experimental context\u2014into a concise, clear, and impactful phrase. It improves discoverability by including relevant keywords like 'climate-friendly,' 'GHGE reduction,' and 'online experiment,' aligning with SEO best practices while maintaining academic standards and broad appeal.",
       "location": "Title",
       "category": "title",
       "focus": "comprehensive_improvement"
     }
   ],
   "detailed_feedback": {
-    "title_analysis": "The current title is somewhat descriptive but could benefit from greater conciseness and inclusion of key terms to improve clarity, impact, and discoverability. The line breaks and length may hinder quick understanding and search engine ranking.",
+    "title_analysis": "The current title effectively communicates the manuscript's focus on sustainable food choices and product recommendations but is somewhat lengthy and formatted with line breaks, which can impair quick understanding and search engine visibility. A more concise, keyword-rich title would enhance clarity and impact, making it more attractive and discoverable to the target audience.",
     "keywords_analysis": "No keywords section found",
-    "guidelines_compliance": "The title adheres to standard academic conventions by clearly indicating the study's focus and scope. However, it could be enhanced with more specific keywords to improve searchability and relevance within the field of sustainable food choices and behavioral interventions.",
-    "discoverability_assessment": "The title lacks specific SEO keywords such as 'climate change,' 'behavioral intervention,' or 'food sustainability,' which could improve its visibility in online searches and among target audiences interested in environmental impacts and consumer behavior.",
-    "audience_alignment": "The title effectively targets researchers and practitioners interested in sustainable food choices and behavioral strategies. However, adding keywords related to climate impact and experimental methods could broaden its appeal and highlight its relevance to current environmental and behavioral research priorities."
+    "guidelines_compliance": "The title adheres to standard academic conventions by clearly indicating the research focus. However, it could be optimized for searchability by integrating relevant keywords and avoiding excessive length, thereby aligning better with field-specific standards for effective academic titles.",
+    "discoverability_assessment": "The current title lacks specific keywords such as 'climate change,' 'GHGE,' or 'behavior change,' which are crucial for search engine optimization. Incorporating these terms would significantly improve the manuscript\u2019s visibility in digital searches related to sustainable food practices and environmental impact.",
+    "audience_alignment": "The title appeals to researchers and practitioners interested in sustainability, climate policy, and consumer behavior. A more targeted, concise title emphasizing the experimental approach and key outcomes would better align with audience expectations and enhance the manuscript\u2019s significance and reach."
   },
-  "summary": "Overall, the manuscript's title could be significantly improved to enhance clarity, impact, and search engine discoverability. The current title is somewhat lengthy and lacks specific keywords that would attract the target academic and practitioner audience. The proposed revised title offers a balanced, comprehensive enhancement that aligns with scholarly standards and optimizes for visibility in digital platforms."
+  "summary": "Overall, the manuscript's title effectively indicates its focus but can be substantially improved in clarity, impact, and discoverability by adopting a more concise, keyword-rich structure. The suggested revision balances all critical aspects, enhancing search engine optimization, reader engagement, and adherence to academic standards, thereby increasing the manuscript\u2019s visibility and relevance within its field."
 }

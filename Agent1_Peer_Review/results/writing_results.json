@@ -5,190 +5,177 @@
       {
         "category": "narrative_coherence",
         "location": "Abstract and Introduction",
-        "issue": "The abstract summarizes key findings but lacks a clear linkage to the detailed research questions and hypotheses introduced later, leading to a fragmented narrative flow.",
+        "issue": "The abstract provides a concise overview but lacks explicit linkage to the detailed hypotheses and specific research questions, which are only fully articulated in the methods section. This creates a disconnect in understanding the overarching narrative.",
         "severity": "medium",
-        "impact": "This weakens the overall coherence, making it harder for readers to connect the abstract's overview with the detailed study aims."
+        "impact": "This affects the reader's ability to grasp the full scope and purpose of the study upfront, potentially reducing engagement and clarity."
       },
       {
         "category": "logical_progression",
-        "location": "Results section",
-        "issue": "Results are presented with detailed statistical tables first, without sufficient narrative explanation or contextualization, which hampers understanding of their significance.",
+        "location": "Results and Discussion",
+        "issue": "Results are presented with detailed statistical data but lack clear narrative commentary that synthesizes findings in relation to hypotheses, leading to a fragmented flow.",
         "severity": "high",
-        "impact": "This diminishes the logical flow from data presentation to interpretation, potentially confusing readers unfamiliar with statistical details."
+        "impact": "This hampers the reader's understanding of how the findings address the research questions, weakening overall coherence."
       },
       {
         "category": "transitions",
-        "location": "Between sections (e.g., Methods to Results, Results to Discussion)",
-        "issue": "Transitions are abrupt; the shift from data presentation to interpretation lacks connecting sentences that guide the reader smoothly.",
+        "location": "Between sections (e.g., Results to Discussion)",
+        "issue": "Transitions are abrupt; for example, the shift from detailed statistical results to interpretative discussion lacks guiding sentences that connect findings to broader implications.",
         "severity": "medium",
-        "impact": "This affects readability and hampers the seamless flow of the narrative, making the paper feel disjointed."
+        "impact": "This disrupts the narrative flow, making it harder for readers to follow the logical progression of ideas."
       },
       {
         "category": "paragraph_organization",
-        "location": "Discussion section",
-        "issue": "The discussion contains multiple ideas within single paragraphs, mixing interpretation, limitations, and future directions without clear separation.",
+        "location": "Results and Discussion sections",
+        "issue": "Some paragraphs contain multiple ideas without clear topic sentences, leading to dense blocks of information that reduce readability.",
         "severity": "medium",
-        "impact": "This reduces clarity and makes it difficult for readers to follow the development of the argument."
+        "impact": "This diminishes clarity and impairs the reader's ability to quickly identify key points and their relevance."
       },
       {
         "category": "topic_sentences",
-        "location": "Multiple paragraphs across sections",
-        "issue": "Many paragraphs lack clear topic sentences, leading to a less focused narrative and making it harder to grasp the main point of each paragraph.",
+        "location": "Multiple sections",
+        "issue": "Many paragraphs lack effective topic sentences that clearly state their main idea, especially in the Results and Discussion sections.",
         "severity": "high",
-        "impact": "This weakens paragraph coherence and impairs the overall narrative clarity."
+        "impact": "Weak topic sentences reduce the guiding structure of the narrative, leading to confusion and reduced engagement."
       },
       {
         "category": "evidence_integration",
         "location": "Results and Discussion",
-        "issue": "Statistical results are presented extensively in tables with minimal narrative explanation or interpretation, reducing engagement and understanding.",
+        "issue": "Statistical data and findings are presented with minimal interpretative commentary or integration into the narrative, making it difficult to see how evidence supports claims.",
         "severity": "high",
-        "impact": "This can alienate readers and obscure the significance of findings within the broader narrative."
+        "impact": "This weakens the persuasive power of the narrative and hampers understanding of the significance of the results."
       },
       {
         "category": "conclusion_alignment",
-        "location": "Conclusion section",
-        "issue": "The conclusion reiterates key findings but does not explicitly tie back to the research questions or hypotheses introduced at the start, weakening the closure of the research story.",
+        "location": "Conclusion",
+        "issue": "The conclusion summarizes findings but does not explicitly tie back to the hypotheses or initial research questions, resulting in a less cohesive closure.",
         "severity": "medium",
-        "impact": "This diminishes the sense of a cohesive research narrative and leaves the reader with an incomplete sense of closure."
+        "impact": "This diminishes the narrative's sense of closure and leaves the reader uncertain about how the findings fit into the initial research aims."
       },
       {
         "category": "hypothesis_tracking",
         "location": "Throughout the Results and Discussion",
-        "issue": "The presentation of results does not consistently reference the specific hypotheses, making it difficult to track whether hypotheses are supported or refuted.",
+        "issue": "The presentation of results does not consistently reference the specific hypotheses, making it difficult to track whether and how each hypothesis was supported.",
         "severity": "high",
-        "impact": "This hampers the clarity of the research narrative and the logical flow from hypotheses to findings."
+        "impact": "This impairs the clarity of the research narrative and the logical flow from hypotheses to findings."
       },
       {
         "category": "visual_integration",
         "location": "Figures and Tables",
-        "issue": "Figures and tables are included with minimal narrative explanation, and some are referenced only in passing, reducing their effectiveness as visual storytelling tools.",
+        "issue": "Figures and tables are included but lack detailed captions that explicitly connect visual data to the narrative points, reducing their explanatory power.",
         "severity": "medium",
-        "impact": "This limits the visual narrative's contribution to understanding and engagement."
+        "impact": "This limits the reader's ability to interpret visual data independently and weakens the visual narrative support."
       },
       {
         "category": "reader_engagement",
-        "location": "Entire manuscript",
-        "issue": "The dense presentation of statistical data and technical language without sufficient framing or storytelling elements reduces reader engagement.",
+        "location": "Entire document",
+        "issue": "The dense presentation of statistical data and technical language without sufficient contextualization or storytelling elements reduces engagement.",
         "severity": "medium",
-        "impact": "This may cause reader fatigue and reduce overall accessibility of the research findings."
+        "impact": "This may cause reader fatigue and reduce the overall impact of the research narrative."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
-        "improved_version": "This study investigates how specific, actionable product swap recommendations\u2014such as replacing animal-based products with plant-based alternatives\u2014can influence consumer choices in an experimental online supermarket environment.",
-        "explanation": "Clarifies the research focus and improves readability by explicitly stating the purpose, enhancing narrative coherence.",
+        "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+        "improved_version": "While the overall GHGE reduction did not significantly differ across treatment conditions, the analysis revealed that the targeted intervention increased the likelihood of selecting the most effective swap, highlighting its potential for targeted impact.",
+        "explanation": "Rephrasing emphasizes the nuanced findings, improving clarity and narrative flow by linking results to implications.",
+        "location": "Results section, paragraph discussing GHGE reduction",
+        "category": "paragraph_organization",
+        "focus": "narrative_coherence"
+      },
+      {
+        "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
+        "improved_version": "Overall, participants showed a strong willingness to engage with the product swap recommendations, with nearly 90% swapping at least one product, indicating high acceptability.",
+        "explanation": "Adding specific data enhances clarity and supports the statement, strengthening evidence integration.",
+        "location": "Results section, paragraph on participant engagement",
+        "category": "evidence_integration",
+        "focus": "supporting_evidence_integration"
+      },
+      {
+        "original_text": "The abstract provides a concise overview but lacks explicit linkage to the detailed hypotheses and specific research questions.",
+        "improved_version": "The abstract summarizes key findings but would benefit from explicitly stating the research questions and hypotheses to clarify the study's aims from the outset.",
+        "explanation": "Clarifies the abstract's role in setting expectations, improving narrative coherence and reader guidance.",
         "location": "Abstract",
         "category": "abstract",
         "focus": "narrative_coherence"
       },
       {
-        "original_text": "Participants were overall receptive to receiving product swap recommendations. Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
-        "improved_version": "Overall, participants showed a positive response to the recommendations, reducing their basket's greenhouse gas emissions (GHGE) by an average of 25% and swapping approximately four products, with nearly 90% swapping at least one item.",
-        "explanation": "Adds clarity and smoothness to the presentation, improving paragraph organization and flow.",
-        "location": "Results section",
-        "category": "paragraph_organization",
-        "focus": "transitions"
-      },
-      {
-        "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-        "improved_version": "While targeted recommendations successfully increased the selection of the most effective swap, they did not lead to a significant overall reduction in basket GHGE for most participants, suggesting that multiple swaps may dilute the impact of highlighting a single optimal choice.",
-        "explanation": "Provides a clearer causal link and contextual explanation, improving logical progression and evidence integration.",
-        "location": "Results",
-        "category": "evidence_integration",
+        "original_text": "Results are presented with detailed statistical data but lack clear narrative commentary that synthesizes findings in relation to hypotheses.",
+        "improved_version": "Following the presentation of statistical results, a synthesis paragraph should explicitly relate findings to each hypothesis, clarifying whether and how they were supported.",
+        "explanation": "This enhances logical progression and helps readers connect data to research aims.",
+        "location": "Results section, transition between data and interpretation",
+        "category": "transitions",
         "focus": "logical_progression"
       },
       {
-        "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations. On average, post-swap baskets exhibited a 24.9% (SD = 15.7) reduction in GHGE compared to pre-swap baskets.",
-        "improved_version": "Participants generally expressed willingness to engage with swap recommendations, resulting in an average GHGE reduction of 24.9% in their baskets post-swap, indicating practical potential for such interventions.",
-        "explanation": "Links evidence to implications, enhancing narrative coherence and reader engagement.",
-        "location": "Results",
-        "category": "reader_engagement",
-        "focus": "reader_engagement"
-      },
-      {
-        "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-        "improved_version": "The regression analysis showed that neither targeted recommendations nor GHGE information significantly affected overall GHGE reduction compared to the control condition, highlighting the challenge of influencing broad dietary choices through these interventions alone.",
-        "explanation": "Provides interpretive context, improving narrative coherence and hypothesis tracking.",
-        "location": "Results",
-        "category": "hypothesis_tracking",
-        "focus": "hypothesis_tracking"
-      },
-      {
-        "original_text": "Our exploratory analyses revealed that GHGE reduction information had a notably strong impact on daily meat consumers.",
-        "improved_version": "Exploratory analyses indicated that providing GHGE reduction information significantly influenced behavior among daily meat consumers, a subgroup with high dietary carbon footprints, suggesting targeted messaging may be especially effective for this group.",
-        "explanation": "Clarifies the significance and context, improving evidence integration and narrative flow.",
-        "location": "Discussion",
-        "category": "evidence_integration",
-        "focus": "narrative_coherence"
-      },
-      {
-        "original_text": "The approach offers several advantages: recommendations are based on the contents of a customer\u2019s basket and delivered at the point of decision-making, making them highly relevant; they are specific (e.g., swap Product A for Prod B) rather than general (e.g., reduce beef consumption); and they are highly actionable, as accepting a swap is as simple as clicking a button.",
-        "improved_version": "This approach offers key advantages: recommendations are tailored to the current shopping basket and provided at decision points, making them highly relevant; they are specific and straightforward (e.g., swap beef burger for plant-based burger), and highly actionable\u2014accepting a swap requires only a click.",
-        "explanation": "Improves clarity and conciseness, enhancing paragraph organization and reader engagement.",
-        "location": "Discussion",
+        "original_text": "Some paragraphs contain multiple ideas without clear topic sentences.",
+        "improved_version": "Each paragraph should begin with a clear topic sentence that summarizes its main idea, such as: 'The targeted intervention increased the likelihood of selecting the most effective product swap.'",
+        "explanation": "Effective topic sentences guide the reader through complex information, improving paragraph organization.",
+        "location": "Results and Discussion paragraphs",
         "category": "paragraph_organization",
-        "focus": "reader_engagement"
+        "focus": "topic_sentences"
       },
       {
-        "original_text": "Despite these strengths, certain limitations must be acknowledged. First, our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalizability.",
-        "improved_version": "Despite these strengths, limitations include a sample restricted to German-speaking, non-vegan/non-vegetarian participants, with an over-representation of young males, which may limit the generalizability of findings.",
-        "explanation": "Clarifies limitations and improves paragraph organization, providing a balanced narrative.",
-        "location": "Discussion",
-        "category": "paragraph_organization",
-        "focus": "conclusion_alignment"
+        "original_text": "Figures and tables are included but lack detailed captions that explicitly connect visual data to the narrative points.",
+        "improved_version": "Enhance figure and table captions to explicitly state how the visual data support specific findings, e.g., 'Figure 2 illustrates the lack of significant difference in overall GHGE reduction across treatments, supporting the text.'",
+        "explanation": "Improved captions strengthen visual narrative integration and aid independent interpretation.",
+        "location": "Figures and Tables",
+        "category": "visual_integration",
+        "focus": "visual_element_integration"
       },
       {
-        "original_text": "Our findings highlight product swap recommendations as a promising tool for promoting sustainable food choices. Future research should examine their long-term impact in real-world retail settings and explore how they interact with other behavioural interventions, such as financial incentives, social norms, or policy regulations.",
-        "improved_version": "Our findings suggest that product swap recommendations are a promising strategy for encouraging sustainable food choices. Future research should focus on their long-term effectiveness in real-world retail environments and investigate how they can complement other interventions like financial incentives, social norms, and policy measures.",
-        "explanation": "Strengthens conclusion alignment and provides a clear call for future research, enhancing narrative closure.",
+        "original_text": "The conclusion summarizes findings but does not explicitly tie back to the hypotheses or initial research questions.",
+        "improved_version": "The conclusion should explicitly revisit each hypothesis, summarizing whether it was supported, and discuss implications for future research and practice.",
+        "explanation": "This reinforces the narrative arc and provides a cohesive closure aligned with the introduction.",
         "location": "Conclusion",
         "category": "conclusion",
         "focus": "conclusion_alignment"
       },
       {
-        "original_text": "Figures and tables are included with minimal narrative explanation, and some are referenced only in passing, reducing their effectiveness as visual storytelling tools.",
-        "improved_version": "Enhance the integration of figures and tables by providing descriptive narrative explanations and explicitly referencing them in the text to guide interpretation and reinforce key points.",
-        "explanation": "Improves visual element integration and reader engagement by making visuals more accessible and meaningful.",
-        "location": "Figures/Tables",
-        "category": "visual_integration",
-        "focus": "visual_integration"
+        "original_text": "Results are presented without consistent reference to specific hypotheses, making it difficult to track their support.",
+        "improved_version": "Structure the results section to explicitly state, for each hypothesis, whether the data supported or refuted it, using subheadings or clear signposting.",
+        "explanation": "This improves hypothesis tracking and logical progression throughout the narrative.",
+        "location": "Results section",
+        "category": "hypothesis_tracking",
+        "focus": "hypothesis_tracking"
       },
       {
-        "original_text": "The dense presentation of statistical data and technical language without sufficient framing or storytelling elements reduces reader engagement.",
-        "improved_version": "Simplify technical language where possible and incorporate storytelling elements\u2014such as framing key findings within real-world implications\u2014to enhance reader engagement and accessibility.",
-        "explanation": "Boosts reader engagement by making complex data more relatable and easier to follow.",
-        "location": "Entire manuscript",
+        "original_text": "The narrative lacks storytelling elements that could enhance engagement.",
+        "improved_version": "Incorporate brief illustrative examples or participant quotes where appropriate, and use engaging language to highlight key findings and their significance.",
+        "explanation": "Storytelling elements increase reader engagement and make complex data more relatable.",
+        "location": "Discussion and abstract",
         "category": "reader_engagement",
         "focus": "reader_engagement"
       },
       {
-        "original_text": "Many paragraphs lack clear topic sentences, leading to a less focused narrative and making it harder to grasp the main point of each paragraph.",
-        "improved_version": "Introduce clear topic sentences at the beginning of each paragraph to explicitly state its main point, guiding the reader through the narrative logically and coherently.",
-        "explanation": "Strengthens paragraph organization and improves overall narrative flow.",
-        "location": "Throughout the manuscript",
-        "category": "topic_sentences",
-        "focus": "topic_sentences"
+        "original_text": "The discussion section is dense with technical details and lacks synthesis of findings into broader implications.",
+        "improved_version": "Begin the discussion with a clear summary of key findings, then interpret their significance in relation to existing literature and policy implications, providing a cohesive narrative flow.",
+        "explanation": "This improves narrative coherence and helps readers understand the importance of the results.",
+        "location": "Discussion section",
+        "category": "narrative_coherence",
+        "focus": "narrative_coherence"
       },
       {
-        "original_text": "Results are presented with detailed statistical tables first, without sufficient narrative explanation or contextualization, which hampers understanding of their significance.",
-        "improved_version": "Follow each table with a concise narrative summary that interprets the key findings and their relevance, helping readers understand the significance without needing to interpret raw data independently.",
-        "explanation": "Enhances evidence integration and narrative coherence, making results more accessible."
+        "original_text": "The study's hypotheses are not consistently referenced throughout the results and discussion.",
+        "improved_version": "Explicitly reference each hypothesis when discussing relevant results, e.g., 'Hypothesis 2 was not supported, as targeted recommendations did not significantly reduce overall GHGE.'",
+        "explanation": "This enhances clarity and ensures the narrative tracks the research questions effectively.",
+        "location": "Results and discussion",
+        "category": "hypothesis_tracking",
+        "focus": "hypothesis_tracking"
       }
     ],
     "detailed_feedback": {
-      "narrative_coherence": "The manuscript's narrative coherence is challenged by the heavy reliance on technical tables and dense statistical reporting, which are not always accompanied by interpretive summaries. Incorporating more narrative explanations that connect data to broader implications will improve overall flow.",
-      "logical_progression": "The logical flow from hypotheses to results is sometimes obscured by presenting data before contextualizing or discussing its significance. Reordering some sections to first state the research questions and then interpret results will strengthen the logical progression.",
-      "section_transitions": "Transitions between sections, especially from methods to results and results to discussion, are abrupt. Adding linking sentences that preview upcoming content or summarize previous sections will create smoother transitions.",
-      "paragraph_organization": "Many paragraphs contain multiple ideas without clear topic sentences, leading to a fragmented reading experience. Structuring paragraphs around a single main idea with a clear topic sentence will improve clarity.",
-      "topic_sentence_effectiveness": "Several paragraphs lack explicit topic sentences, which diminishes focus. Starting paragraphs with a clear statement of their main point will guide readers effectively.",
-      "supporting_evidence_integration": "Statistical tables are presented with minimal narrative interpretation. Including brief summaries that highlight key findings will better integrate evidence into the narrative.",
-      "conclusion_alignment": "The conclusion summarizes findings but does not explicitly relate back to initial hypotheses or research questions. Explicitly linking conclusions to original aims will reinforce the research narrative.",
-      "hypothesis_tracking": "The presentation of results does not consistently reference the hypotheses, making it difficult to assess whether they are supported. Explicitly stating whether each hypothesis is confirmed or refuted enhances clarity.",
-      "visual_element_integration": "Figures and tables are underutilized as storytelling tools. Providing descriptive captions and referencing visuals in the text will improve their contribution.",
-      "reader_engagement": "The technical density and lack of storytelling elements reduce engagement. Incorporating real-world implications, simplified language, and engaging narratives will attract and retain reader interest."
+      "narrative_coherence": "The overall narrative lacks a cohesive thread linking the abstract, introduction, results, and discussion. The presentation of statistical data is dense and technical, with insufficient interpretative commentary to guide the reader through the implications of findings. Incorporating summary statements and synthesis paragraphs would improve flow and comprehension.",
+      "logical_progression": "The manuscript often presents data without explicitly connecting it to the hypotheses or research questions. For example, the results section reports multiple statistical tests but does not systematically evaluate whether each hypothesis was supported. Structuring results around hypotheses and providing interpretative summaries would enhance logical flow.",
+      "section_transitions": "Transitions between sections and subsections are abrupt, especially between the results and discussion. Adding transition sentences that summarize key findings before moving to interpretative commentary would create smoother flow and improve reader navigation.",
+      "paragraph_organization": "Many paragraphs combine multiple ideas or results without clear topic sentences, making it difficult to identify main points. Reorganizing paragraphs to start with a clear topic sentence and limiting each paragraph to a single main idea would improve clarity.",
+      "topic_sentence_effectiveness": "Several paragraphs lack effective topic sentences, which diminishes their guiding role. Introducing explicit topic sentences at the beginning of each paragraph would clarify purpose and improve readability.",
+      "supporting_evidence_integration": "Statistical results are often presented with minimal interpretation or contextualization. Embedding brief explanations of what the data imply for the hypotheses and broader implications would strengthen evidence integration.",
+      "conclusion_alignment": "The conclusion summarizes findings but does not explicitly revisit the hypotheses or initial research questions. Explicitly linking conclusions to the original aims would reinforce narrative cohesion and provide a satisfying closure.",
+      "hypothesis_tracking": "The manuscript does not consistently reference hypotheses when discussing results, making it difficult to assess whether each was supported. Explicitly linking each key finding to the corresponding hypothesis would improve clarity.",
+      "visual_element_integration": "Figures and tables are included but lack detailed captions that explicitly connect visual data to narrative points. Enhancing captions to explain how each visual supports specific findings would strengthen visual integration.",
+      "reader_engagement": "The technical density and dense statistical reporting may reduce engagement. Incorporating storytelling elements, such as participant quotes or real-world implications, would make the narrative more compelling."
     },
-    "summary": "Overall, the manuscript demonstrates a solid foundation in presenting experimental findings but would benefit from improved narrative coherence, clearer section transitions, and better integration of visual elements. Strengthening topic sentences, linking results explicitly to hypotheses, and enhancing interpretive commentary will significantly improve the structural organization and reader engagement, resulting in a more compelling and accessible research story."
+    "summary": "The manuscript presents valuable findings on product swap interventions for sustainable food choices but would benefit from improved narrative coherence, clearer logical progression, and stronger integration of visual elements. Enhancing section transitions, paragraph organization, and explicit hypothesis referencing will significantly improve readability and engagement, making the research story more compelling and accessible."
   },
   "W5": {
     "inclusive_language_score": 3,
@@ -196,349 +183,331 @@
       {
         "category": "gender_neutrality",
         "location": "Author list and author contributions",
-        "issue": "Use of gendered pronouns and references such as 'Kevin O\u2019Sullivan1*' and 'he' or 'she' is not explicitly present but the author list may imply gender bias or lack of inclusivity in attribution.",
-        "severity": "low",
-        "impact": "Limited impact on the overall inclusivity of the language, but explicit gender-neutral attribution enhances inclusivity."
+        "issue": "Use of gendered pronouns and references (e.g., 'Kevin O\u2019Sullivan*') without gender-neutral alternatives or explicit acknowledgment of gender diversity.",
+        "severity": "medium",
+        "impact": "May inadvertently reinforce gender stereotypes or exclude non-binary and gender-diverse individuals from feeling represented."
       },
       {
         "category": "cultural_sensitivity",
         "location": "Introduction and methodology sections",
-        "issue": "The study is conducted solely with German-speaking participants and references German-specific food products, which may limit cultural inclusivity and applicability.",
+        "issue": "Focus on German-speaking participants and German grocery data without acknowledgment of cultural diversity or inclusion of other cultural contexts.",
         "severity": "medium",
-        "impact": "Restricts cultural inclusivity and may overlook diverse dietary practices and cultural contexts globally."
+        "impact": "Limits the applicability of findings and may exclude or marginalize diverse cultural groups, reducing global relevance."
       },
       {
         "category": "age_terminology",
         "location": "Participants section",
-        "issue": "The minimum age is specified as '16 years', but the language does not explicitly acknowledge diverse age groups or avoid age-related stereotypes.",
+        "issue": "Minimum age of 16 years is specified, but the language does not clarify whether the language used is age-appropriate for younger or older populations.",
         "severity": "low",
-        "impact": "Minimal impact, but more inclusive age language could improve clarity and inclusivity."
+        "impact": "Potentially limits understanding or engagement of different age groups, especially older adults."
       },
       {
         "category": "disability_inclusion",
-        "location": "Methodology and participant description",
-        "issue": "No mention of accommodations or considerations for participants with disabilities or different accessibility needs.",
+        "location": "Methodology and measures",
+        "issue": "No mention of accommodations or considerations for participants with disabilities or accessibility needs.",
         "severity": "high",
-        "impact": "Excludes participants with disabilities or accessibility needs, reducing inclusivity."
+        "impact": "Excludes or disadvantages participants with disabilities, reducing inclusivity and representativeness."
       },
       {
         "category": "socioeconomic_sensitivity",
         "location": "Introduction and methodology",
-        "issue": "The study references income and food choices but does not explicitly consider socioeconomic barriers or diverse economic backgrounds in the language.",
+        "issue": "Use of income data in analyses without contextualizing socioeconomic diversity or barriers faced by lower-income groups.",
         "severity": "medium",
-        "impact": "May overlook socioeconomic factors influencing food choices and behavior change."
+        "impact": "May overlook socioeconomic barriers affecting food choices, limiting the applicability of recommendations to diverse economic groups."
       },
       {
         "category": "geographic_inclusivity",
         "location": "Introduction and participant recruitment",
-        "issue": "Focus on German participants limits geographic diversity and applicability to other regions with different food cultures and environmental impacts.",
-        "severity": "medium",
-        "impact": "Limits generalizability and inclusivity across global populations."
+        "issue": "Focus solely on German-speaking participants and German grocery data, with no discussion of other geographic or linguistic groups.",
+        "severity": "high",
+        "impact": "Reduces generalizability and excludes non-German populations, limiting global relevance."
       },
       {
         "category": "professional_titles",
-        "location": "Author affiliations and contributions",
-        "issue": "Use of academic titles such as 'Chair of...' is appropriate but could be expanded to include more accessible descriptions for lay audiences.",
+        "location": "Author affiliations",
+        "issue": "Use of formal academic titles (e.g., 'Chair of Information Management') without gender-neutral or inclusive language around professional roles.",
         "severity": "low",
-        "impact": "Minimal impact on inclusivity but could improve clarity for non-academic audiences."
+        "impact": "Minimal, but could be more inclusive if titles are clarified or simplified."
       },
       {
-        "category": "stereotypes",
-        "location": "Results and discussion",
-        "issue": "Descriptions such as 'male gender' and 'young male participants' may reinforce gender and age stereotypes regarding dietary behavior.",
+        "category": "stereotype_avoidance",
+        "location": "Discussion of participant behaviour",
+        "issue": "Descriptions such as 'high meat consumers' may reinforce stereotypes about dietary habits without nuanced context.",
         "severity": "medium",
-        "impact": "Potential reinforcement of stereotypes about gendered or age-related dietary preferences."
+        "impact": "Could perpetuate stereotypes or biases about certain dietary groups, affecting perceptions."
       },
       {
         "category": "identity_language",
         "location": "Participant description",
-        "issue": "The exclusion of non-binary participants and the focus on binary gender categories ('Male=1, Female=0') reflect a lack of person-first and inclusive identity language.",
+        "issue": "Exclusion of non-binary participants after data collection ('non-binary participants (N=12) excluded'), without acknowledgment of gender diversity in the initial recruitment or analysis.",
         "severity": "high",
-        "impact": "Excludes gender identities beyond male/female, reducing inclusivity."
+        "impact": "Disregards gender diversity, reducing inclusivity and potentially marginalizing non-binary individuals."
       },
       {
         "category": "historical_context",
-        "location": "Introduction and references",
-        "issue": "The language does not explicitly acknowledge the historical context of dietary practices or environmental impacts across different cultures and times.",
+        "location": "Introduction and discussion",
+        "issue": "No sensitivity to historical or cultural contexts influencing dietary habits or environmental attitudes across different populations.",
         "severity": "low",
-        "impact": "Limited impact but could enhance sensitivity to diverse historical and cultural backgrounds."
+        "impact": "Limits understanding of broader sociocultural factors affecting dietary choices."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "Participants were recruited via online panels managed by Prolific.",
-        "improved_version": "Participants were recruited via online panels managed by diverse recruitment platforms to enhance inclusivity across different demographic groups.",
-        "explanation": "Broadening recruitment sources promotes demographic diversity and reduces sampling bias.",
+        "original_text": "Kevin O\u2019Sullivan1*, Verena Tiefenbeck2, Sybilla Merian3, Sabrina St\u00a8ockli3,4, Elgar Fleisch1,5 and Martin Natter3",
+        "improved_version": "Kevin O\u2019Sullivan, Verena Tiefenbeck, Sybilla Merian, Sabrina St\u00f6ckli, Elgar Fleisch, and Martin Natter",
+        "explanation": "Removing numerical and formal titles in author lists promotes a more inclusive and accessible presentation, avoiding unnecessary emphasis on hierarchy or gendered titles.",
+        "location": "Author list",
+        "category": "professional_titles",
+        "focus": "professional_titles"
+      },
+      {
+        "original_text": "Participants were overall receptive to receiving product swap recommendations.",
+        "improved_version": "Participants were generally receptive to receiving product swap recommendations, regardless of gender, age, or background.",
+        "explanation": "Adding inclusive language emphasizes that all participants, regardless of demographic differences, are considered, promoting inclusivity.",
+        "location": "Abstract",
+        "category": "cultural_sensitivity",
+        "focus": "cultural_sensitivity"
+      },
+      {
+        "original_text": "A sample of German-speaking participants was recruited via online panels managed by Prolific.",
+        "improved_version": "A diverse sample of participants from various linguistic and cultural backgrounds was recruited via online panels managed by Prolific.",
+        "explanation": "Acknowledging diversity broadens the scope and emphasizes inclusivity beyond linguistic boundaries.",
         "location": "Participants section",
+        "category": "cultural_sensitivity",
+        "focus": "cultural_sensitivity"
+      },
+      {
+        "original_text": "The initial survey finished with an attention check to ensure that participants understood there was a chance that they could receive the products they chose.",
+        "improved_version": "The initial survey included an attention check designed to ensure participants understood that they might receive the products they selected, accommodating diverse literacy and comprehension levels.",
+        "explanation": "Clarifies that the language is accessible and inclusive of participants with varying abilities.",
+        "location": "Methodology",
+        "category": "disability_inclusion",
+        "focus": "disability_inclusion"
+      },
+      {
+        "original_text": "We excluded non-binary participants (N = 12) due to their low representation in the sample.",
+        "improved_version": "We included participants of all gender identities in our recruitment process; however, due to low representation (N=12), non-binary participants were excluded from specific analyses to maintain statistical robustness, acknowledging the need for future research on gender diversity.",
+        "explanation": "Recognizes gender diversity and transparently discusses limitations without erasing identities, promoting respectful acknowledgment.",
+        "location": "Participants section",
+        "category": "identity_language",
+        "focus": "identity_language"
+      },
+      {
+        "original_text": "Participants in all experimental conditions were exposed to the swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices.",
+        "improved_version": "Participants across all conditions were presented with a swap recommendations page that included accessible language explaining how replacing animal-based products with plant-based options can reduce environmental impacts, ensuring clarity for diverse literacy levels.",
+        "explanation": "Using accessible, inclusive language ensures comprehension across diverse participant backgrounds.",
+        "location": "Methodology",
+        "category": "disability_inclusion",
+        "focus": "disability_inclusion"
+      },
+      {
+        "original_text": "Participants could select as many of the available product swaps as they desired.",
+        "improved_version": "Participants could freely choose from the available product swaps, respecting individual preferences, dietary needs, and cultural food practices.",
+        "explanation": "Acknowledges individual differences and promotes respect for diverse dietary and cultural preferences.",
+        "location": "Methodology",
         "category": "socioeconomic_sensitivity",
         "focus": "socioeconomic_sensitivity"
       },
       {
-        "original_text": "The study was conducted solely with German-speaking participants.",
-        "improved_version": "The study was conducted with German-speaking participants, acknowledging that future research should include multilingual and culturally diverse populations to enhance global applicability.",
-        "explanation": "Explicitly recognizing cultural limitations and suggesting inclusivity improvements enhances cultural sensitivity.",
-        "location": "Introduction",
-        "category": "cultural_sensitivity"
-      },
-      {
-        "original_text": "Participants with non-binary gender identities were excluded due to low representation.",
-        "improved_version": "Participants of all gender identities, including non-binary and gender diverse individuals, were invited to participate; future studies should aim for more inclusive gender representation.",
-        "explanation": "Using person-first, inclusive language and acknowledging the importance of diverse gender identities improves inclusivity.",
-        "location": "Participants section",
-        "category": "identity_language"
-      },
-      {
-        "original_text": "Use of 'Male=1, Female=0' in data coding.",
-        "improved_version": "Use inclusive gender categories such as 'Male,' 'Female,' 'Non-binary,' 'Prefer not to say,' with corresponding coding, to respect gender diversity.",
-        "explanation": "Expanding gender options respects individual identities and promotes inclusivity.",
-        "location": "Methodology",
-        "category": "gender_neutrality"
-      },
-      {
-        "original_text": "The language does not explicitly acknowledge participants with disabilities.",
-        "improved_version": "The study design considered accessibility for participants with disabilities, and future research should include accommodations to ensure full participation.",
-        "explanation": "Explicitly addressing accessibility promotes disability inclusion.",
-        "location": "Methodology",
-        "category": "disability_inclusion"
-      },
-      {
-        "original_text": "The study references only German food products and dietary practices.",
-        "improved_version": "While this study focused on German food products, future research should explore diverse cultural dietary practices to enhance global relevance and inclusivity.",
-        "explanation": "Acknowledging cultural diversity broadens applicability and sensitivity.",
-        "location": "Introduction",
-        "category": "cultural_sensitivity"
-      },
-      {
-        "original_text": "The language emphasizes 'reducing animal-based food consumption' without considering socioeconomic barriers.",
-        "improved_version": "The language encourages reducing animal-based food consumption while recognizing that socioeconomic factors may influence access and choices, and future interventions should address these barriers.",
-        "explanation": "Addressing socioeconomic barriers fosters more equitable and inclusive messaging.",
-        "location": "Introduction",
-        "category": "socioeconomic_sensitivity"
-      },
-      {
-        "original_text": "The term 'German household' is used without acknowledging diverse household structures.",
-        "improved_version": "The study references typical household food consumption patterns, recognizing diverse household compositions and cultural contexts across different regions.",
-        "explanation": "Inclusive language about household types enhances cultural sensitivity.",
-        "location": "Introduction",
-        "category": "cultural_sensitivity"
-      },
-      {
-        "original_text": "Use of 'Chair of...' titles in author affiliations.",
-        "improved_version": "Author affiliations include academic titles and roles, which could be supplemented with accessible descriptions for broader audiences, such as 'Professor of...' or 'Researcher in...' to improve clarity.",
-        "location": "Author list",
-        "category": "professional_titles"
-      },
-      {
-        "original_text": "Descriptions of participant dietary habits focus on binary categories like 'omnivore' and 'vegetarian/vegan'.",
-        "improved_version": "Descriptions of dietary habits should include a spectrum of dietary identities, such as 'flexitarian,' 'pescatarian,' 'vegetarian,' 'vegan,' and 'other,' to better reflect diverse dietary practices.",
-        "explanation": "Using inclusive, nuanced dietary terminology respects individual choices.",
-        "location": "Participants section",
-        "category": "stereotypes"
-      },
-      {
-        "original_text": "The language does not specify accommodations for participants with disabilities.",
-        "improved_version": "The study design incorporated accessible features and accommodations for participants with disabilities; future research should explicitly state these measures to promote inclusivity.",
-        "explanation": "Explicit mention of accessibility measures promotes disability inclusion.",
-        "location": "Methodology",
-        "category": "disability_inclusion"
-      },
-      {
-        "original_text": "The language assumes all participants have similar access to technology and online shopping facilities.",
-        "improved_version": "Future research should consider participants with varying levels of access to technology and online shopping, and adapt interventions accordingly to ensure broader inclusivity.",
-        "explanation": "Acknowledging digital divide issues enhances socioeconomic and geographic inclusivity.",
-        "location": "Methodology",
-        "category": "geographic_inclusivity"
-      },
-      {
-        "original_text": "The language uses 'most effective GHGE-reducing swap' without acknowledging cultural or regional differences in food preferences.",
-        "improved_version": "The most effective GHGE-reducing swaps should be contextualized within diverse regional and cultural food preferences, and future studies should explore culturally tailored recommendations.",
-        "explanation": "Culturally sensitive language improves relevance and inclusivity.",
-        "location": "Introduction",
-        "category": "cultural_sensitivity"
-      },
-      {
-        "original_text": "The study's focus on environmental impact neglects nutritional and cultural values associated with food choices.",
-        "improved_version": "While focusing on environmental impacts, future interventions should also consider nutritional adequacy and cultural significance of foods to promote holistic and inclusive dietary guidance.",
-        "explanation": "Holistic language respects diverse values and promotes inclusive health and sustainability goals.",
+        "original_text": "The study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
+        "improved_version": "The study primarily examined greenhouse gas emissions but recognizes the importance of considering other environmental factors such as water use, biodiversity, and soil health to promote a holistic understanding of sustainability.",
+        "explanation": "Encourages a broader, more inclusive perspective on environmental impacts, respecting diverse ecological concerns.",
         "location": "Discussion",
-        "category": "cultural_sensitivity"
+        "category": "environmental_sensitivity",
+        "focus": "geographic_inclusivity"
+      },
+      {
+        "original_text": "The sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants.",
+        "improved_version": "The sample primarily included German-speaking, non-vegan, and non-vegetarian participants, with a demographic skew towards young males. Future research should aim to include more diverse populations across age, gender, dietary preferences, and cultural backgrounds to enhance generalizability.",
+        "explanation": "Acknowledges limitations transparently while emphasizing the importance of diversity for inclusivity.",
+        "location": "Participants",
+        "category": "cultural_sensitivity",
+        "focus": "cultural_sensitivity"
+      },
+      {
+        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a, which takes into account all GHG emissions that contribute to climate change.",
+        "improved_version": "The impact assessment for greenhouse gas emissions was based on globally recognized metrics, considering all relevant gases and their effects, to ensure clarity and transparency for diverse audiences.",
+        "explanation": "Simplifies technical language for broader understanding, respecting varied backgrounds.",
+        "location": "Results",
+        "category": "historical_context",
+        "focus": "historical_context"
+      },
+      {
+        "original_text": "The study was approved by the University of Zurich Ethics Committee.",
+        "improved_version": "The study was conducted following ethical standards, with approval from the University of Zurich Ethics Committee, ensuring respect for all participants' rights and well-being.",
+        "explanation": "Highlights ethical commitment, fostering trust and inclusivity.",
+        "location": "Methodology",
+        "category": "historical_context",
+        "focus": "historical_context"
+      },
+      {
+        "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices.",
+        "improved_version": "The intervention included a clear, accessible explanation of how replacing animal-based products with plant-based alternatives can reduce environmental impacts, designed to be understandable for participants from diverse backgrounds.",
+        "explanation": "Ensures language is inclusive and accessible, promoting understanding across different literacy and cultural levels.",
+        "location": "Methodology",
+        "category": "disability_inclusion",
+        "focus": "disability_inclusion"
       }
     ],
     "detailed_feedback": {
-      "gender_neutral_language": "The current language often references 'men' or 'women' implicitly or through binary coding, which can exclude non-binary and gender-diverse individuals. Using inclusive terms like 'participants of all gender identities' and avoiding binary coding enhances respect and inclusivity. Explicitly including options like 'non-binary,' 'prefer not to say,' and using person-first language when describing participants promotes a more inclusive environment.",
-      "cultural_sensitivity": "The study's focus on German food products and dietary practices limits cultural inclusivity. To improve, the language should acknowledge that dietary habits are culturally specific and that future research should include diverse cultural contexts. This fosters respect for different food traditions and enhances global applicability.",
-      "age_appropriate_terminology": "While the minimum age is specified as 16, the language could be more inclusive by recognizing the diversity of age groups and avoiding stereotypes that associate certain dietary behaviors with specific ages. Clearer, age-neutral language promotes broader participation and respect for all age groups.",
-      "disability_inclusive_language": "The current text does not address accessibility or accommodations for participants with disabilities. Incorporating statements about accessible design, accommodations, and inclusive recruitment ensures that research is respectful and accessible to all individuals, promoting equity.",
-      "socioeconomic_sensitivity": "The language mentions income but does not explicitly consider socioeconomic barriers to dietary change. Future language should acknowledge that economic factors influence food choices and that interventions should be designed to be accessible across socioeconomic strata, promoting equity.",
-      "geographic_inclusivity": "The focus on German participants limits geographic diversity. The language should recognize that dietary practices and environmental impacts vary globally, and future research should aim for broader geographic inclusion to enhance relevance and inclusivity.",
-      "professional_titles": "While academic titles are appropriate, using more accessible descriptions like 'researcher' or 'professor' can make the language more approachable for lay audiences, enhancing clarity and inclusivity.",
-      "stereotypes": "References to 'male gender' and 'young male participants' risk reinforcing gender and age stereotypes about dietary behavior. Using neutral, stereotype-free language that describes behaviors without implying gender or age biases improves inclusivity.",
-      "identity_language": "Excluding non-binary participants and coding gender binary limits inclusivity. Adopting person-first, inclusive language and expanding gender options respects diverse identities and promotes a respectful research environment.",
-      "historical_context": "The language does not explicitly consider the historical and cultural evolution of dietary practices. Incorporating awareness of diverse food histories and cultural contexts can improve sensitivity and relevance across different populations."
+      "gender_neutral_language": "The manuscript predominantly uses gendered pronouns and titles, such as 'Kevin O\u2019Sullivan' and 'he/she,' which can inadvertently reinforce gender stereotypes or exclude non-binary individuals. To enhance inclusivity, use gender-neutral language such as 'they' pronouns or omit pronouns where possible. For example, replace 'Kevin O\u2019Sullivan' with 'the lead researcher' or 'the author.' Additionally, avoid gendered language in descriptions of participant demographics, emphasizing diversity and inclusion.",
+      "cultural_sensitivity": "The study's focus on German-speaking participants and data from German grocery stores limits cultural inclusivity. To improve, explicitly acknowledge the cultural specificity and discuss how findings might differ in other cultural contexts. Future research should include diverse populations across different countries and cultural backgrounds to enhance global relevance and reduce cultural bias.",
+      "age_appropriate_terminology": "The mention of participants aged 16 and above lacks discussion of age-related differences in comprehension or engagement. Clarify that materials are designed to be age-appropriate for a broad age range, and consider tailoring language or instructions for different age groups to ensure accessibility and relevance.",
+      "disability_inclusive_language": "There is no mention of accommodations for participants with disabilities or accessibility considerations in the study design. Incorporate statements about providing accessible formats, considering cognitive or sensory differences, and ensuring the online platform is compatible with assistive technologies to promote inclusivity.",
+      "socioeconomic_sensitivity": "While income data are collected, the manuscript does not address socioeconomic barriers that may influence food choices or receptivity to interventions. Discuss how socioeconomic factors impact dietary behaviors and consider designing interventions that are affordable and accessible to lower-income populations, ensuring broader applicability.",
+      "geographic_inclusivity": "The exclusive focus on German data and participants reduces geographic diversity. To improve, explicitly state the limitations regarding geographic scope and advocate for similar studies in diverse regions. Future work should include participants from various countries and cultural settings to ensure findings are globally relevant.",
+      "professional_title_usage": "The use of formal academic titles such as 'Chair of Information Management' may create a hierarchical tone. Simplify titles or use neutral descriptions like 'Professor of Information Management' or 'Lead Researcher' to promote equality and inclusivity in professional representation.",
+      "stereotypes": "Descriptions such as 'high meat consumers' risk reinforcing stereotypes about dietary habits. Use neutral language like 'participants with high meat consumption' and provide context to avoid stigmatization. Emphasize that dietary choices are influenced by complex factors rather than personal failings.",
+      "identity_language": "Excluding non-binary participants after data collection without acknowledging gender diversity diminishes inclusivity. Instead, include all gender identities in initial recruitment and analysis, and transparently discuss limitations related to low representation, advocating for more inclusive sampling in future research.",
+      "historical_context": "The manuscript does not consider how historical or cultural factors influence dietary behaviors and environmental attitudes. Incorporate discussions on how cultural traditions, historical food practices, and societal norms shape dietary choices, fostering a more nuanced and respectful understanding of diverse populations."
     },
-    "summary": "Overall, the text demonstrates a generally acceptable level of inclusivity but exhibits notable gaps in gender diversity, cultural sensitivity, and accessibility considerations. Addressing these issues through specific, actionable language improvements will significantly enhance the inclusivity and relevance of the research, making it more respectful of diverse populations and contexts. Implementing these suggestions will elevate the quality and societal impact of the work, aligning it with best practices in inclusive research communication."
+    "summary": "Overall, the manuscript demonstrates a solid foundation but exhibits several areas for improvement in inclusivity and bias reduction. Addressing gender neutrality, cultural sensitivity, disability inclusion, and broader geographic representation will significantly enhance its quality and applicability. Implementing specific, actionable language adjustments and acknowledging diversity will foster a more respectful, inclusive, and globally relevant research contribution."
   },
   "W4": {
     "terminology_consistency_score": 3,
     "critical_remarks": [
       {
         "category": "acronyms",
-        "location": "Abstract, paragraph 2",
-        "issue": "GHGE is introduced as 'greenhouse gas emissions' but later inconsistently referred to as 'GHGE' without a prior full definition.",
-        "severity": "medium",
-        "impact": "This inconsistency may cause confusion for readers unfamiliar with the acronym, affecting clarity and comprehension."
-      },
-      {
-        "category": "field_terminology",
-        "location": "Introduction, paragraph 3",
-        "issue": "Terms like 'dietary guidelines' and 'recommendations' are used interchangeably without clear distinction, which may lead to ambiguity.",
-        "severity": "low",
-        "impact": "While generally acceptable, clearer differentiation could improve precision in terminology."
+        "location": "Abstract and Introduction",
+        "issue": "The acronym 'GHGE' is used extensively without a consistent initial definition. Sometimes it appears as 'GHGE' and other times as 'GHGE' with no prior full form, leading to potential confusion.",
+        "severity": "high",
+        "impact": "This inconsistency hampers reader understanding and reduces clarity of technical terminology."
       },
       {
         "category": "variable_naming",
-        "location": "Results, regression tables",
-        "issue": "Variables such as 'Targeted' and 'Information' are sometimes capitalized and sometimes lowercase, leading to inconsistency.",
+        "location": "Results section, e.g., 'basket GHGE'",
+        "issue": "The variable 'basket GHGE' is used variably as 'basket GHGE', 'basket GHGE reduction', and 'final basket GHGE' without clear standardization.",
         "severity": "medium",
-        "impact": "Inconsistent variable naming reduces clarity and may cause confusion during interpretation."
+        "impact": "Inconsistent variable naming can cause confusion about what specific measure is being referenced."
       },
       {
-        "category": "unit_notation",
-        "location": "Methodology, section 2.4 Measures",
-        "issue": "Willingness-to-swap is expressed as a percentage, but sometimes the notation (e.g., 'WTS') is used without a consistent format or explanation.",
-        "severity": "low",
-        "impact": "Inconsistent notation can hinder understanding of measurement units and variables."
-      },
-      {
-        "category": "abbreviations",
-        "location": "Throughout the document",
-        "issue": "Some abbreviations like 'GWP' and 'GHGE' are defined, but others like 'LCA' are used without explicit definition.",
+        "category": "field_terminology",
+        "location": "Throughout the methodology and results",
+        "issue": "Terms like 'product swap recommendations', 'targeted swap', and 'GHGE reduction information' are used interchangeably or without clear definitions, leading to ambiguity.",
         "severity": "medium",
-        "impact": "This inconsistency may impair reader comprehension, especially for field outsiders."
-      },
-      {
-        "category": "technical_terms",
-        "location": "Methodology, 2.1",
-        "issue": "Terms like 'bottom-up life cycle assessment (LCA)' are used, but the explanation varies in detail and sometimes lacks clarity.",
-        "severity": "low",
-        "impact": "Inconsistent technical term explanations can affect the perceived rigor and clarity of methodology."
-      },
-      {
-        "category": "cross_reference",
-        "location": "Results, 3.1.1",
-        "issue": "References to tables (e.g., Table 2, Table 3) are sometimes inconsistent in formatting or placement, and some references to figures (e.g., Fig. 1) lack clarity.",
-        "severity": "low",
-        "impact": "Inconsistent cross-referencing reduces navigability and professional presentation."
-      },
-      {
-        "category": "definition",
-        "location": "Introduction, paragraph 2",
-        "issue": "Key terms like 'product swap recommendations' are introduced but not always explicitly defined or consistently used throughout.",
-        "severity": "medium",
-        "impact": "Lack of clear, consistent definitions can lead to ambiguity in understanding core concepts."
+        "impact": "Inconsistent use of key technical terms diminishes clarity and precision."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "GHGE is used throughout the text without a full prior definition.",
-        "improved_version": "Greenhouse Gas Emissions (GHGE) are used consistently after their first full mention.",
-        "explanation": "Ensuring the first mention fully defines the acronym improves clarity and consistency.",
-        "location": "Abstract, paragraph 2",
+        "original_text": "GHGE",
+        "improved_version": "Greenhouse Gas Emissions (GHGE)",
+        "explanation": "Providing the full term with the acronym at first use ensures clarity and consistent understanding throughout the paper.",
+        "location": "Abstract, Introduction, Methodology, Results, and Appendix sections",
         "category": "field_terminology",
-        "focus": "acronyms"
+        "focus": "acronym_usage"
       },
       {
-        "original_text": "Terms like 'recommendations' and 'guidelines' are used interchangeably.",
-        "improved_version": "Use 'recommendations' when referring to specific suggested actions, and reserve 'guidelines' for broader policy or nutritional advice, maintaining clear distinctions.",
-        "explanation": "This clarifies terminology and prevents ambiguity between general and specific advice.",
-        "location": "Introduction, paragraph 3",
-        "category": "field_terminology",
-        "focus": "term_usage"
-      },
-      {
-        "original_text": "Variable names such as 'Targeted' and 'Information' are inconsistently capitalized.",
-        "improved_version": "Standardize variable names to lowercase (e.g., 'targeted', 'information') throughout all sections.",
-        "explanation": "Consistent naming conventions improve readability and reduce confusion in data interpretation.",
-        "location": "Results, tables and text",
+        "original_text": "basket GHGE",
+        "improved_version": "initial basket GHGE",
+        "explanation": "Standardizing the variable name as 'initial basket GHGE' and 'final basket GHGE' improves clarity and consistency in variable references.",
+        "location": "Results section, tables, and figures",
         "category": "variable_naming",
-        "focus": "naming conventions"
+        "focus": "variable_naming"
       },
       {
-        "original_text": "Willingness-to-swap is sometimes abbreviated as 'WTS' without explanation.",
-        "improved_version": "Introduce 'WTS' as 'Willingness-to-Swap (WTS)' at first use, then use the abbreviation consistently afterward.",
-        "explanation": "Explicit initial definition ensures clarity for all readers, especially those unfamiliar with the abbreviation.",
-        "location": "Methods, section 2.4",
-        "category": "abbreviations",
-        "focus": "abbreviation usage"
-      },
-      {
-        "original_text": "Some abbreviations like 'LCA' are used without explicit definition.",
-        "improved_version": "Define all abbreviations at their first occurrence, e.g., 'Life Cycle Assessment (LCA)'.",
-        "explanation": "Consistent definitions prevent confusion and improve technical precision.",
-        "location": "Methodology, section 2.1",
-        "category": "abbreviations",
-        "focus": "abbreviation usage"
-      },
-      {
-        "original_text": "Technical term 'bottom-up life cycle assessment' is used with varying levels of explanation.",
-        "improved_version": "Provide a concise, uniform explanation of 'bottom-up life cycle assessment (LCA)' at first mention, and use the abbreviation thereafter.",
-        "explanation": "Consistency in technical terminology enhances clarity and demonstrates methodological rigor.",
-        "location": "Methodology, section 2.1",
-        "category": "technical_terms",
-        "focus": "terminology"
-      },
-      {
-        "original_text": "References to tables and figures are inconsistent in format.",
-        "improved_version": "Standardize cross-references as 'Table 2', 'Figure 1', etc., with consistent formatting and placement throughout the manuscript.",
-        "explanation": "Uniform referencing improves document professionalism and ease of navigation.",
-        "location": "Results and figures sections",
-        "category": "cross_references",
-        "focus": "formatting"
-      },
-      {
-        "original_text": "Key concepts like 'product swap recommendations' are not always explicitly defined.",
-        "improved_version": "Include a clear, explicit definition of 'product swap recommendations' early in the methodology, e.g., 'Product swap recommendations refer to suggested substitutions of animal-based products with plant-based analogues to reduce environmental impact.'",
-        "explanation": "Explicit definitions ensure consistent understanding of core concepts across the paper.",
-        "location": "Introduction, paragraph 2",
-        "category": "definitions",
-        "focus": "concept clarity"
-      },
-      {
-        "original_text": "Units such as percentages are sometimes presented without clear notation.",
-        "improved_version": "Use consistent notation such as '25%' or '25 percent' throughout, and clarify in the methods that all percentage values are in percent units.",
-        "explanation": "Consistency in units and notation prevents misinterpretation and maintains professional standards.",
-        "location": "Results, tables, and text",
-        "category": "unit_notation",
-        "focus": "notation consistency"
-      },
-      {
-        "original_text": "Some terms like 'climate-friendly' and 'sustainable' are used interchangeably without clarification.",
-        "improved_version": "Define 'climate-friendly' and 'sustainable' explicitly when first introduced, and use them consistently in the same context.",
-        "explanation": "Clear definitions prevent semantic ambiguity and improve conceptual clarity.",
-        "location": "Discussion, paragraph 1",
+        "original_text": "product swap recommendations",
+        "improved_version": "climate-friendly product swap recommendations",
+        "explanation": "Using a more precise term clarifies that these recommendations are specifically aimed at reducing environmental impact, aligning with technical terminology.",
+        "location": "Introduction, Methodology, Results",
         "category": "field_terminology",
-        "focus": "term usage"
+        "focus": "technical_terms"
       },
       {
-        "original_text": "The phrase 'product swap recommendations' is sometimes used broadly and sometimes specifically.",
-        "improved_version": "Maintain a consistent definition: 'Product swap recommendations are specific suggestions to replace animal-based products with plant-based alternatives, aimed at reducing greenhouse gas emissions.' Use this definition throughout.",
-        "explanation": "Consistent terminology reinforces understanding and reduces ambiguity.",
-        "location": "Throughout the document"
+        "original_text": "targeted swap",
+        "improved_version": "most effective GHGE-reducing product swap",
+        "explanation": "Full description at first mention clarifies the specific meaning and avoids ambiguity with other types of swaps.",
+        "location": "Methodology, Results",
+        "category": "field_terminology",
+        "focus": "technical_terms"
+      },
+      {
+        "original_text": "GHGE reduction",
+        "improved_version": "greenhouse gas emission reduction",
+        "explanation": "Using the full phrase initially, then abbreviating as 'GHGE reduction', maintains consistency and clarity in technical terminology.",
+        "location": "Introduction, Methodology, Results, Discussion",
+        "category": "field_terminology",
+        "focus": "technical_terms"
+      },
+      {
+        "original_text": "self-efficacy",
+        "improved_version": "perceived self-efficacy regarding dietary change",
+        "explanation": "Adding context clarifies the specific construct being measured, ensuring consistent technical language.",
+        "location": "Results, Appendix",
+        "category": "technical_terms",
+        "focus": "field_terminology"
+      },
+      {
+        "original_text": "swap products",
+        "improved_version": "product swap recommendations",
+        "explanation": "Standardizing to 'product swap recommendations' aligns with terminology used elsewhere and improves consistency.",
+        "location": "Methodology, Results",
+        "category": "field_terminology",
+        "focus": "technical_terms"
+      },
+      {
+        "original_text": "GHGE",
+        "improved_version": "GHGE (greenhouse gas emissions)",
+        "explanation": "Including the full term in parentheses on first use enhances clarity and consistency across sections.",
+        "location": "Abstract, Introduction, Methodology, Results",
+        "category": "acronym_usage"
+      },
+      {
+        "original_text": "product swap recommendations",
+        "improved_version": "climate impact reduction recommendations",
+        "explanation": "Using a term emphasizing environmental impact aligns with technical language and clarifies the purpose of recommendations.",
+        "location": "Introduction, Results",
+        "category": "field_terminology"
+      },
+      {
+        "original_text": "GHGE",
+        "improved_version": "GHGE (greenhouse gas emissions)",
+        "explanation": "Define the acronym at first mention in each section to maintain consistency and avoid confusion.",
+        "location": "Results, Discussion, Appendix",
+        "category": "acronym_usage"
+      },
+      {
+        "original_text": "self-efficacy",
+        "improved_version": "perceived self-efficacy to reduce animal-product consumption",
+        "explanation": "Adding context ensures consistent understanding of the construct measured.",
+        "location": "Results, Appendix",
+        "category": "field_terminology"
+      },
+      {
+        "original_text": "targeted swap",
+        "improved_version": "most effective GHGE-reducing swap",
+        "explanation": "Full description improves clarity and consistency in terminology, especially when first introduced.",
+        "location": "Methodology, Results",
+        "category": "field_terminology"
+      },
+      {
+        "original_text": "GHGE",
+        "improved_version": "GHGE (greenhouse gas emissions)",
+        "explanation": "Consistently define the acronym at first use in each section to ensure clarity.",
+        "location": "Throughout the manuscript",
+        "category": "acronym_usage"
+      },
+      {
+        "original_text": "product swap recommendations",
+        "improved_version": "climate-friendly product swap suggestions",
+        "explanation": "Aligns with the focus on environmental impact and maintains terminology consistency.",
+        "location": "Introduction, Methodology, Results",
+        "category": "field_terminology"
       }
     ],
     "detailed_feedback": {
-      "term_usage_consistency": "The manuscript generally employs key terms like 'product swap recommendations' and 'GHGE' but occasionally uses synonyms or omits definitions, leading to minor confusion. Ensuring consistent use and explicit definitions of core terms will enhance clarity.",
-      "notation_consistency": "Numerical data such as percentages are sometimes presented with the '%' symbol and sometimes written in words or without units. Standardizing notation (e.g., always using '25%') and clarifying units in methods will improve professionalism.",
-      "acronym_usage": "While many acronyms like 'GHGE' and 'GWP' are defined early, some are introduced without explanation or inconsistent formatting. A comprehensive list of abbreviations and consistent initial definitions will strengthen technical precision.",
-      "variable_naming": "Variables such as 'Targeted' and 'Information' are inconsistently capitalized across tables and text. Adopting a uniform style (preferably lowercase) will improve readability.",
-      "unit_notation": "Percentages and other units are not always formatted uniformly. Consistent use of symbols and clear explanations in the methods section will prevent misinterpretation.",
-      "abbreviation_consistency": "Some abbreviations are used without full expansion, especially in tables. Ensuring all abbreviations are defined at first use and used uniformly will aid understanding.",
-      "technical_term_consistency": "Technical terms like 'life cycle assessment' are sometimes explained in detail and sometimes assumed known. Providing a standard, concise explanation at first mention and reusing it maintains clarity.",
-      "field_terminology": "Terms like 'sustainability' and 'climate-friendly' are used variably. Defining these terms explicitly and using them consistently will improve conceptual clarity.",
-      "cross_reference_consistency": "References to tables and figures vary in format and placement. Standardizing references (e.g., 'Table 2', 'Fig. 1') and ensuring they are correctly numbered enhances document professionalism.",
-      "definition_consistency": "Core concepts such as 'product swap recommendations' are not always explicitly defined. Including clear, consistent definitions at the outset will improve understanding and reduce ambiguity."
+      "term_usage_consistency": "The manuscript occasionally switches between terms like 'product swap recommendations', 'swap', and 'recommendations' without clear distinctions. Consistent use of a single term or clearly defined variations would improve clarity.",
+      "notation_consistency": "Variables such as 'basket GHGE' are used variably as 'basket GHGE', 'basket GHGE reduction', and 'final basket GHGE'. Establishing a standard notation and sticking to it throughout the text and tables would enhance readability.",
+      "acronym_usage": "The acronym 'GHGE' is introduced at different points with inconsistent full-form definitions. Always defining 'GHGE' as 'greenhouse gas emissions' at first mention in each section ensures clarity and prevents confusion.",
+      "variable_naming_consistency": "The variable 'basket GHGE' is inconsistently referenced. Adopting a uniform naming convention like 'initial_basket_GHGE' and 'final_basket_GHGE' would improve understanding.",
+      "unit_notation_consistency": "Units such as percentages and Likert scale points are used consistently, but in some places, the description could specify units explicitly (e.g., 'percentage GHGE reduction'). Explicitly stating units in all relevant contexts would improve clarity.",
+      "abbreviation_consistency": "Abbreviations like 'GHGE' and 'WTS' are used without consistent full-form definitions at first mention. Ensuring each abbreviation is defined upon first use in each section maintains clarity.",
+      "technical_terms": "Terms such as 'self-efficacy', 'response-efficacy', and 'product swap recommendations' are used appropriately but could benefit from brief definitions or context when first introduced to ensure clarity for all readers.",
+      "field_terminology": "Some terms like 'targeted swap' and 'GHGE reduction' are used variably; establishing precise definitions early in the manuscript and adhering to them would improve consistency.",
+      "cross_reference_consistency": "References to tables and figures (e.g., Table 2, Figure 2) are generally consistent, but ensuring that all cross-references are accurate and uniformly formatted (e.g., 'see Table 2') enhances navigability.",
+      "definition_consistency": "Key terms such as 'product swap recommendations' and 'GHGE' should be explicitly defined at their first occurrence and used consistently thereafter to avoid ambiguity."
     },
-    "summary": "Overall, the manuscript demonstrates acceptable consistency in terminology but exhibits several areas for improvement, particularly in acronym definitions, variable naming conventions, and cross-referencing. Addressing these issues will elevate the clarity, professionalism, and scientific rigor of the work, making it more accessible and precise for readers across disciplines."
+    "summary": "Overall, the manuscript demonstrates acceptable use of terminology but exhibits several areas where consistency can be improved. The primary issues relate to inconsistent acronym definitions, variable naming, and technical terminology usage. Addressing these will significantly enhance clarity, professionalism, and reader comprehension, moving the work towards a 'Good' (score 4) or 'Excellent' (score 5) level of quality."
   },
   "W3": {
     "clarity_conciseness_score": 3,
@@ -546,508 +515,474 @@
       {
         "category": "wordiness",
         "location": "Abstract",
-        "issue": "The abstract contains redundant phrases such as 'participants were overall receptive to receiving product swap recommendations' and lengthy explanations of the experimental setup that could be condensed.",
-        "severity": "high",
-        "impact": "Reduces clarity and makes it harder for readers to grasp the key findings quickly."
+        "issue": "The abstract contains multiple lengthy sentences with redundant phrases, such as 'Participants were overall receptive to receiving product swap recommendations' and 'Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one,' which could be more concise.",
+        "severity": "medium",
+        "impact": "Reduces clarity and makes the abstract harder to quickly grasp key findings."
       },
       {
         "category": "sentence_length",
         "location": "Introduction",
-        "issue": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
+        "issue": "Several sentences are overly long, especially in the paragraphs discussing dietary impacts and prior research, which hampers readability.",
         "severity": "high",
-        "impact": "Obscures main points and burdens the reader with complex sentence structures."
+        "impact": "Long sentences increase cognitive load and may obscure main points."
       },
       {
         "category": "jargon",
         "location": "Methodology",
-        "issue": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding for non-expert readers.",
+        "issue": "Terms like 'bottom-up life cycle assessment (LCA)', 'Global Warming Potential (GWP) 100a', and 'effect size (f2 = 0.02)' are technical and may not be immediately understandable to all readers.",
         "severity": "medium",
-        "impact": "Limits accessibility and clarity for a broader audience."
+        "impact": "Potentially limits accessibility for non-expert readers."
       },
       {
         "category": "redundancy",
         "location": "Results",
-        "issue": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
-        "severity": "medium",
-        "impact": "Dilutes focus and makes it difficult to identify core findings."
+        "issue": "Repeated presentation of similar statistical results and tables (e.g., multiple tables reporting regression outcomes) could be streamlined to avoid redundancy.",
+        "severity": "low",
+        "impact": "May cause reader fatigue and distract from main findings."
       },
       {
         "category": "ambiguity",
         "location": "Discussion",
-        "issue": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague about the scope and limitations.",
-        "severity": "medium",
-        "impact": "Creates uncertainty about the generalizability and practical implications."
-      },
-      {
-        "category": "readability",
-        "location": "Throughout",
-        "issue": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
-        "severity": "medium",
-        "impact": "Impairs smooth reading and comprehension."
-      },
-      {
-        "category": "information_density",
-        "location": "Results and Methods",
-        "issue": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
-        "severity": "medium",
-        "impact": "Reduces overall clarity and makes key messages less accessible."
-      },
-      {
-        "category": "paragraph_length",
-        "location": "Introduction and Discussion",
-        "issue": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
+        "issue": "Statements like 'targeted recommendations did not lead to stronger effects in this study on basket GHGE' are somewhat vague and could specify the nature of the effects more clearly.",
         "severity": "low",
-        "impact": "Affects readability and ease of navigation."
-      },
-      {
-        "category": "active_passive_voice",
-        "location": "Methods and Results",
-        "issue": "Overuse of passive voice (e.g., 'Greenhouse gas emissions data were adapted from') diminishes immediacy and engagement.",
-        "severity": "low",
-        "impact": "Makes sentences less direct and engaging."
-      },
-      {
-        "category": "technical_content",
-        "location": "Methodology",
-        "issue": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
-        "severity": "medium",
-        "impact": "Hinders understanding of key concepts and methods."
+        "impact": "Reduces precision of interpretation."
       }
     ],
     "improvement_suggestions": [
       {
         "original_text": "Participants were overall receptive to receiving product swap recommendations.",
-        "improved_version": "Participants generally welcomed product swap recommendations.",
-        "explanation": "Simplifies language, making the statement clearer and more direct.",
+        "improved_version": "Most participants welcomed product swap suggestions.",
+        "explanation": "Simplifies language and reduces wordiness, making the statement clearer and more direct.",
         "location": "Abstract",
         "category": "language_simplicity",
         "focus": "language_simplicity"
       },
       {
-        "original_text": "Several sentences are overly long, combining multiple ideas, which hampers readability and comprehension.",
-        "improved_version": "Break long sentences into shorter, focused ones. For example, split complex sentences into two: one describing the intervention, and another reporting the outcomes.",
-        "explanation": "Shorter sentences improve readability and help readers process information more easily.",
-        "location": "Introduction",
+        "original_text": "Participants on average reduced their basket GHGE by 25% and swapped 4 products, with almost 90% swapping at least one.",
+        "improved_version": "On average, participants reduced their basket's greenhouse gas emissions by 25% and swapped four products; nearly 90% swapped at least one.",
+        "explanation": "Breaks a long sentence into clearer parts for better readability and conciseness.",
+        "location": "Abstract",
         "category": "sentence_length",
         "focus": "sentence_length"
       },
       {
-        "original_text": "Use of technical terms like 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential (GWP) 100a' without brief explanations may hinder understanding.",
-        "improved_version": "Introduce technical terms with brief explanations, e.g., 'a bottom-up life cycle assessment (LCA), which evaluates environmental impacts from raw materials to disposal.'",
-        "explanation": "Provides clarity for non-expert readers, enhancing overall understanding.",
+        "original_text": "Terms like 'bottom-up life cycle assessment (LCA)', 'Global Warming Potential (GWP) 100a', and 'effect size (f2 = 0.02)' are technical and may not be immediately understandable to all readers.",
+        "improved_version": "Terms such as 'bottom-up life cycle assessment (LCA)' and 'Global Warming Potential over 100 years (GWP 100a)' are technical; consider providing brief definitions or simplifying their explanation.",
+        "explanation": "Enhances clarity for readers unfamiliar with technical jargon by suggesting explanations or simplifications.",
         "location": "Methodology",
         "category": "jargon",
         "focus": "jargon"
       },
       {
-        "original_text": "Repeated presentation of similar statistical results and detailed tables without synthesis or summary adds unnecessary bulk.",
-        "improved_version": "Summarize key findings in the text, referring to detailed tables in appendices. For example, 'As shown in Table 2, the treatments did not significantly affect overall GHGE reduction.'",
-        "explanation": "Reduces clutter and emphasizes main results for clearer communication.",
-        "location": "Results",
-        "category": "redundancy",
-        "focus": "wordiness"
+        "original_text": "The study was preregistered and incentive compatible.",
+        "improved_version": "The study was preregistered and designed to ensure honest participation.",
+        "explanation": "Clarifies 'incentive compatible' for broader understanding, improving clarity.",
+        "location": "Methodology",
+        "category": "ambiguity",
+        "focus": "clarity"
       },
       {
-        "original_text": "Statements like 'offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient' are somewhat vague.",
-        "improved_version": "Offering consumers simple product swaps without additional information can already lead to meaningful reductions in most cases.",
-        "explanation": "Clarifies the scope and practical implications, reducing ambiguity.",
+        "original_text": "Several tables and regression results are presented separately, which can be overwhelming.",
+        "improved_version": "Combine related regression results into summary tables or integrate key findings into the main text to reduce redundancy and improve flow.",
+        "explanation": "Streamlining presentation enhances readability and reduces repetitive information.",
+        "location": "Results",
+        "category": "redundancy",
+        "focus": "redundancy"
+      },
+      {
+        "original_text": "Statements like 'targeted recommendations did not lead to stronger effects in this study on basket GHGE' are somewhat vague.",
+        "improved_version": "While targeted recommendations increased the likelihood of choosing the most effective swap, they did not significantly reduce overall basket GHGE.",
+        "explanation": "Provides clearer, more precise interpretation of the results.",
         "location": "Discussion",
         "category": "ambiguity",
         "focus": "clarity"
       },
       {
-        "original_text": "The frequent use of passive voice and complex sentence structures reduce the flow and make the text harder to follow.",
-        "improved_version": "Rewrite passive sentences in active voice where possible. For example, change 'Greenhouse gas emissions data were adapted from' to 'We adapted greenhouse gas emissions data from.'",
-        "explanation": "Active voice enhances engagement and clarity.",
+        "original_text": "The abstract and sections contain some repetitive phrases, such as 'product swap recommendations' and 'GHGE reduction information,' which could be varied or condensed.",
+        "improved_version": "Reduce repetition by using synonyms or pronouns where appropriate, and condense similar phrases to improve conciseness.",
+        "explanation": "Variety in language and elimination of redundancy enhance clarity and flow.",
         "location": "Throughout",
-        "category": "voice",
-        "focus": "active_passive_voice"
+        "category": "wordiness",
+        "focus": "wordiness"
       },
       {
-        "original_text": "Overloading paragraphs with detailed statistical data and methodological specifics without clear summaries hampers quick understanding.",
-        "improved_version": "Include brief summaries after detailed data sections, highlighting the main takeaway points to aid quick comprehension.",
-        "explanation": "Improves readability by distilling complex data into key messages.",
-        "location": "Results and Methods",
-        "category": "information_density",
-        "focus": "readability"
-      },
-      {
-        "original_text": "Many paragraphs are excessively long, containing multiple ideas that could be split for clarity.",
-        "improved_version": "Divide lengthy paragraphs into smaller ones, each focusing on a single main idea or result.",
-        "explanation": "Enhances navigation and makes the document less intimidating.",
-        "location": "Introduction and Discussion",
+        "original_text": "Some paragraphs are lengthy, especially in the introduction and discussion, which could be split into smaller, focused paragraphs.",
+        "improved_version": "Divide long paragraphs into shorter ones, each focusing on a single main idea, to improve readability and comprehension.",
+        "explanation": "Shorter paragraphs are easier to read and help emphasize key points.",
+        "location": "Introduction, Discussion",
         "category": "paragraph_length",
         "focus": "paragraph_length"
       },
       {
-        "original_text": "Overuse of passive voice diminishes immediacy and engagement.",
-        "improved_version": "Convert passive sentences to active voice. For example, 'Participants were presented with' becomes 'We presented participants with.'",
-        "explanation": "Active voice creates a more direct and engaging tone.",
-        "location": "Methods and Results",
-        "category": "active_passive_voice",
-        "focus": "active_passive_voice"
+        "original_text": "Passive voice appears occasionally, e.g., 'Greenhouse gas emissions data for products were adapted from [28].'",
+        "improved_version": "We adapted greenhouse gas emissions data for products from [28].",
+        "explanation": "Using active voice clarifies responsibility and improves engagement.",
+        "location": "Methodology",
+        "category": "voice",
+        "focus": "active vs. passive"
       },
       {
-        "original_text": "Technical terms are introduced with minimal explanation, risking confusion among non-specialist readers.",
-        "improved_version": "Add brief definitions or explanations for technical terms at first mention, such as 'Global Warming Potential (GWP), which measures the climate impact of greenhouse gases.'",
-        "explanation": "Enhances accessibility and understanding for a broader audience.",
-        "location": "Methodology"
+        "original_text": "Some technical details, such as statistical model descriptions, could be summarized more succinctly to focus on key findings.",
+        "improved_version": "Summarize detailed statistical methods in supplementary materials, highlighting only essential results in the main text.",
+        "explanation": "Reduces cognitive load and keeps the main narrative focused.",
+        "location": "Results, Methods",
+        "category": "wordiness",
+        "focus": "wordiness"
+      },
+      {
+        "original_text": "The overall information density is high, with dense statistical reporting and detailed methodological descriptions.",
+        "improved_version": "Simplify technical descriptions and focus on main findings; move detailed statistics to appendices to improve overall readability.",
+        "explanation": "Enhances readability by balancing detail with clarity.",
+        "location": "Entire document",
+        "category": "information_density",
+        "focus": "information_density"
+      },
+      {
+        "original_text": "Some sentences could be made more active, e.g., 'Participants were presented with a basket...' can be 'We presented participants with a basket...'.",
+        "improved_version": "Use active voice throughout, such as 'We presented participants with a basket...' to clarify agency and improve engagement.",
+        "explanation": "Active voice makes statements clearer and more direct.",
+        "location": "Methodology, Results",
+        "category": "active_passive_voice",
+        "focus": "active vs. passive"
       }
     ],
     "detailed_feedback": {
-      "language_simplicity": "The language often employs complex structures and formal phrasing that can be simplified. Using straightforward language and shorter sentences would improve clarity, especially for interdisciplinary readers or non-native English speakers.",
-      "jargon_usage": "While technical terms are necessary, their frequent use without explanation can hinder understanding. Providing definitions or context for specialized terms will make the content more accessible.",
-      "wordiness": "Many sentences and paragraphs include redundant phrases or overly detailed descriptions that could be condensed. Eliminating redundancies and focusing on core messages will streamline the text.",
-      "sentence_length": "Long, compound sentences reduce readability. Breaking them into shorter, focused sentences will help readers follow the logic more easily.",
-      "paragraph_length": "Extensive paragraphs covering multiple ideas can be overwhelming. Shorter paragraphs, each centered on a single point, will improve navigation and comprehension.",
-      "active_passive_voice": "The frequent use of passive voice makes the text less direct. Rephrasing sentences in active voice will increase engagement and clarity.",
-      "redundancy": "Repeated information, especially in tables and results, can be summarized to avoid clutter. Using summaries and referring to detailed appendices will make the main narrative clearer.",
-      "ambiguity": "Some statements lack specificity, leading to potential misinterpretation. Clarifying scope and practical implications will enhance understanding.",
-      "readability": "Overall, complex sentence structures, passive voice, and dense data presentation hinder smooth reading. Simplification and better structuring will improve flow.",
-      "information_density": "Overloading sections with detailed data without summaries reduces clarity. Incorporating concise summaries and highlighting key points will aid quick understanding."
+      "language_simplicity": "The document employs complex sentences and technical terminology that could be simplified for broader accessibility. Using plain language, defining technical terms, and breaking long sentences into shorter ones will improve overall clarity.",
+      "jargon_usage": "While technical terms are necessary for precision, excessive jargon without explanation can hinder understanding. Including brief definitions or simplifying terminology where possible will make the content more approachable.",
+      "wordiness": "Many sentences contain redundant phrases or overly elaborate structures. Eliminating unnecessary words and combining sentences where appropriate will make the text more concise and easier to follow.",
+      "sentence_length": "Long, complex sentences are prevalent, especially in the introduction and discussion sections. Shortening sentences and varying their structure will enhance readability and reduce cognitive load.",
+      "paragraph_length": "Some paragraphs are lengthy and cover multiple ideas, which can overwhelm readers. Dividing these into smaller, focused paragraphs will improve flow and comprehension.",
+      "active_passive_voice": "Passive constructions are used sporadically, which can obscure who performs actions. Rephrasing sentences into active voice will clarify agency and make statements more direct.",
+      "redundancy": "Repeated phrases and similar content across tables and sections could be consolidated. Streamlining these repetitions will reduce clutter and emphasize key points.",
+      "ambiguity": "Some statements lack specificity, such as vague references to 'effects' or 'impact.' Clarifying these with precise descriptions will improve interpretability.",
+      "readability": "Overall, the dense technical language and lengthy sentences reduce readability. Simplifying language, breaking up text, and summarizing complex details will make the document more accessible.",
+      "information_density": "The text contains a high concentration of detailed statistical and methodological information, which may overwhelm readers. Moving detailed data to supplementary sections and focusing on main findings will balance informativeness with clarity."
     },
-    "summary": "Overall, the manuscript demonstrates solid research and comprehensive analysis but suffers from issues related to language complexity, verbosity, and dense presentation of data. Addressing these areas by simplifying language, breaking up long paragraphs and sentences, clarifying technical jargon, and summarizing key findings will significantly enhance clarity and accessibility, elevating the overall quality to an excellent standard."
+    "summary": "The document demonstrates a solid foundation of detailed research but suffers from issues related to sentence complexity, redundancy, and technical jargon that hinder clarity and conciseness. Addressing these through sentence simplification, paragraph division, active voice, and reduction of repetitive content will significantly enhance its readability and overall quality."
   },
   "W1": {
     "language_style_score": 3,
     "critical_remarks": [
       {
         "category": "grammar",
-        "location": "Abstract, paragraph 1",
-        "issue": "The phrase 'food-related greenhouse gas emissions (GHGE) constituting a major contributor' is awkward and lacks clarity due to missing conjunctions or punctuation.",
+        "location": "Abstract, paragraph 2",
+        "issue": "Inconsistent verb tense usage; present tense used when describing study aims and past tense when describing results.",
         "severity": "medium",
-        "impact": "This affects readability by making the sentence more difficult to parse and understand quickly."
+        "impact": "Reduces clarity and consistency, potentially confusing readers about the timeline of actions and findings."
       },
       {
         "category": "spelling",
-        "location": "Author list and affiliations",
-        "issue": "The name 'Sabrina St\u00a8ockli' contains an incorrect character encoding; the '\u00a8' should be replaced with '\u00f6'.",
-        "severity": "high",
-        "impact": "This impacts professionalism and accuracy, especially in formal academic contexts."
+        "location": "Throughout the document",
+        "issue": "Typographical errors such as 'recom-mendations' and 'proving' instead of 'providing'.",
+        "severity": "low",
+        "impact": "Minor spelling mistakes that slightly hinder professionalism and readability."
       },
       {
         "category": "punctuation",
-        "location": "Throughout the document",
-        "issue": "Inconsistent use of hyphens and dashes, e.g., 'food-related' vs. 'GHGE-reducing' and inconsistent spacing around hyphens.",
+        "location": "Abstract, paragraph 2",
+        "issue": "Inconsistent use of hyphens and dashes, e.g., 'product swap recommendations - proposing' instead of 'product swap recommendations\u2014proposing'.",
         "severity": "low",
-        "impact": "This reduces visual consistency and can distract readers."
+        "impact": "Affects the formal tone and visual clarity of the text."
       },
       {
         "category": "sentence_structure",
-        "location": "Section 3.1.1",
-        "issue": "The sentence 'Participants in the reference condition (Targeted = No, Information = No) already exhibited a substantial reduction in their basket GHGE' is somewhat convoluted and could be clearer.",
+        "location": "Introduction, paragraph 3",
+        "issue": "Long, complex sentences that could be broken into shorter, clearer sentences.",
         "severity": "medium",
-        "impact": "This hampers clarity and smooth flow of information."
+        "impact": "Reduces readability and makes it harder for readers to follow key points."
       },
       {
         "category": "verb_tense",
-        "location": "Throughout the methods and results sections",
-        "issue": "Mixing past and present tense, e.g., 'The impact assessment for GHG emissions was derived...' and 'Participants demonstrate a general willingness...'.",
+        "location": "Results, section 3.1",
+        "issue": "Mixing past and present tense when describing findings, e.g., 'Participants demonstrated' (past) and 'indicate' (present).",
         "severity": "medium",
-        "impact": "Inconsistent tense usage affects coherence and professionalism."
+        "impact": "Creates inconsistency, affecting the logical flow of the narrative."
       },
       {
-        "category": "subject-verb",
-        "location": "Section 2.2 Participants",
-        "issue": "In the sentence 'A sample of German-speaking participants was recruited via online panels managed by Prolific,' the subject 'sample' is singular, but subsequent sentences sometimes refer to 'participants' in plural, which can cause confusion.",
+        "category": "subject_verb",
+        "location": "Methodology, section 2.1",
+        "issue": "Incorrect subject-verb agreement in sentences like 'The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions...'.",
         "severity": "low",
-        "impact": "This can cause minor confusion about whether the focus is on the sample or individual participants."
+        "impact": "Minor, but affects grammatical correctness."
       },
       {
         "category": "articles",
-        "location": "Section 2.1 Design and procedure",
-        "issue": "Inconsistent use of 'the' before 'online supermarket environment' and similar phrases.",
+        "location": "Introduction, paragraph 2",
+        "issue": "Omission of definite articles, e.g., 'Shifting from diets rich in animal-based products...' should be 'Shifting from diets rich in the animal-based products...'.",
         "severity": "low",
-        "impact": "This affects grammatical correctness and clarity."
+        "impact": "Slightly affects grammatical accuracy and clarity."
       },
       {
         "category": "prepositions",
-        "location": "Section 2.1",
-        "issue": "In the phrase 'participants landed on the intervention page,' 'landed' is informal; 'arrived at' or 'were directed to' would be more appropriate.",
+        "location": "Discussion, paragraph 4",
+        "issue": "Incorrect preposition use, e.g., 'targeted dietary recommendations will be more effective in driving behaviour change compared to offering a broader set of substitution options.' \u2014 better as '...more effective than offering...'.",
         "severity": "low",
-        "impact": "This improves formality and clarity."
+        "impact": "Minor, but improves precision of comparisons."
       },
       {
         "category": "conjunctions",
-        "location": "Throughout the document",
-        "issue": "Occasional missing conjunctions in complex sentences, e.g., 'and' is sometimes omitted before 'making them a straightforward option.'",
+        "location": "Results, section 3.1.2",
+        "issue": "Overuse of 'and' in complex sentences, leading to convoluted structures.",
         "severity": "low",
-        "impact": "This can slightly hinder sentence flow and comprehension."
+        "impact": "Reduces clarity; breaking sentences improves readability."
       },
       {
         "category": "academic_conventions",
         "location": "References section",
-        "issue": "Inconsistent citation formatting; some references lack proper punctuation or formatting, e.g., missing italics or inconsistent use of journal names and volume/issue numbers.",
-        "severity": "high",
-        "impact": "This diminishes professionalism and may affect indexing or citation tracking."
+        "issue": "Inconsistent citation formatting, e.g., some references include URLs, others do not; inconsistent use of italics and brackets.",
+        "severity": "medium",
+        "impact": "Impairs professionalism and adherence to academic standards."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
-        "improved_version": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which considers all greenhouse gases\u2014such as carbon dioxide, methane, and nitrous oxide\u2014that contribute to climate change. These gases are compared over a 100-year time horizon and expressed in carbon dioxide equivalents.",
-        "explanation": "Breaking up the long sentence improves clarity and readability, making complex information easier to understand.",
-        "location": "Section 2.1",
-        "category": "academic_conventions",
+        "original_text": "Dietary choices significantly impact both human health and the environ-ment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
+        "improved_version": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) being a major contributor to climate change.",
+        "explanation": "Corrects hyphenation and clarifies the sentence structure for better readability.",
+        "location": "Abstract, paragraph 2",
+        "category": "punctuation",
         "focus": "sentence_structure"
-      },
-      {
-        "original_text": "Sabrina St\u00a8ockli3,4, Elgar Fleisch1,5 and Martin Natter3",
-        "improved_version": "Sabrina St\u00f6ckli^3,4, Elgar Fleisch^1,5, and Martin Natter^3",
-        "explanation": "Correcting the character encoding and adding proper superscript notation aligns with academic standards for author affiliations.",
-        "location": "Author list",
-        "category": "spelling",
-        "focus": "spelling"
-      },
-      {
-        "original_text": "food choices exert significant pressure on global healthcare systems, ecosystems, and agriculture [4\u20137], and contribute substantially to greenhouse gas emissions (GHGE) [2, 8, 9], water pollution, and more environmental impacts.",
-        "improved_version": "Food choices exert significant pressure on global healthcare systems, ecosystems, and agriculture [4\u20137], and substantially contribute to greenhouse gas emissions (GHGE) [2, 8, 9], water pollution, and other environmental impacts.",
-        "explanation": "Adding 'substantially' clarifies the degree of contribution, and replacing 'more' with 'other' improves formality and precision.",
-        "location": "Section 1 Introduction",
-        "category": "sentence_structure",
-        "focus": "sentence clarity"
       },
       {
         "original_text": "Participants were overall receptive to receiv-ing product swap recommendations.",
         "improved_version": "Participants were generally receptive to receiving product swap recommendations.",
-        "explanation": "Replacing 'overall' with 'generally' and correcting the hyphenation improves grammatical correctness and flow.",
-        "location": "Abstract, paragraph 2",
-        "category": "grammar",
+        "explanation": "Replaces awkward phrasing with clearer, more formal language; improves flow.",
+        "location": "Results, paragraph 2",
+        "category": "sentence_structure",
         "focus": "sentence_structure"
       },
       {
-        "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommen-dations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
-        "improved_version": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction resulted in significantly lower basket GHGE for the majority of participants.",
-        "explanation": "Replacing 'translated into' with 'resulted in' improves clarity and aligns with standard academic language.",
-        "location": "Section 3.1.1 Results",
+        "original_text": "The impact assessment for GHG emissions was derived from the Global Warm-ing Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+        "improved_version": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which considers all GHG emissions contributing to climate change. For a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared to the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+        "explanation": "Splits a lengthy, complex sentence into clearer parts, enhancing readability and clarity.",
+        "location": "Methodology, section 2.1",
         "category": "sentence_structure",
-        "focus": "verb usage"
+        "focus": "sentence_structure"
+      },
+      {
+        "original_text": "In the online supermarket experiment environment, 1059 participants were presented with a basket of products typical of the German consumer and instructed to navigate through the supermarket to checkout.",
+        "improved_version": "In the online supermarket experiment, 1,059 participants were presented with a basket of products typical of German consumers and instructed to navigate through the supermarket to checkout.",
+        "explanation": "Streamlines phrasing, corrects number formatting, and improves clarity.",
+        "location": "Methodology, section 2.1",
+        "category": "sentence_structure",
+        "focus": "sentence_structure"
       },
       {
         "original_text": "The study was preregistered and incentive compatible.",
-        "improved_version": "The study was preregistered and designed to be incentive-compatible.",
-        "explanation": "Adding 'designed to be' clarifies the meaning and improves grammatical correctness of the compound adjective.",
-        "location": "Section 2.1 Methods",
+        "improved_version": "The study was preregistered and incentive-compatible.",
+        "explanation": "Adds hyphen to form correct compound adjective, aligning with academic conventions.",
+        "location": "Methodology, section 2.1",
         "category": "grammar",
-        "focus": "sentence structure"
+        "focus": "grammar"
       },
       {
         "original_text": "Participants in all experimental conditions were exposed to the swap rec-ommendation intervention that (1) explained how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alter-native products according to their prescribed experimental condition (outlined below).",
-        "improved_version": "Participants in all experimental conditions were exposed to the swap recommendation intervention, which (1) explained how swapping animal-based products for plant-based alternatives can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alternative products, according to their assigned experimental condition (outlined below).",
-        "explanation": "Clarifying 'which' and improving punctuation enhances clarity and flow, especially in complex sentences.",
-        "location": "Section 2.1",
+        "improved_version": "Participants in all experimental conditions were exposed to the swap recommendation intervention, which (1) explained how swapping animal-based products for plant-based alternatives can meaningfully reduce the environmental impact of their food choices, and (2) presented a list of recommended swaps from the 11 animal-based products in their basket to plant-based alternative products according to their assigned experimental condition (outlined below).",
+        "explanation": "Clarifies sentence structure, corrects hyphenation, and improves flow for better comprehension.",
+        "location": "Methodology, section 2.1",
         "category": "sentence_structure",
-        "focus": "sentence clarity"
+        "focus": "sentence_structure"
       },
       {
-        "original_text": "The overall score (1-5) for language style is a comprehensive measure based on grammar, clarity, coherence, and formality.",
-        "improved_version": "The overall language style score, rated on a scale from 1 to 5, provides a comprehensive measure of grammar, clarity, coherence, and formality.",
-        "explanation": "Rephrasing improves clarity and aligns with formal reporting standards."
+        "original_text": "The targeted product swap is prominently highlighted in the Targeted(Yes) treatments and GHGE reduction information is presented (text with green background) in the Infor-mation(Yes) treatments.",
+        "improved_version": "The targeted product swap is prominently highlighted in the Targeted (Yes) treatments, and GHGE reduction information is presented (as text with a green background) in the Information (Yes) treatments.",
+        "explanation": "Adds clarity with proper spacing, punctuation, and explanation of visual elements for precision.",
+        "location": "Methodology, section 2.3",
+        "category": "sentence_structure",
+        "focus": "sentence_structure"
       },
       {
-        "original_text": "The references section contains inconsistent formatting, with some entries missing italics or proper punctuation.",
-        "improved_version": "The references section exhibits inconsistent formatting, with some entries lacking italics or proper punctuation, which should be standardized according to the chosen citation style.",
-        "explanation": "Specifying the need for standardization emphasizes the importance of consistency in academic writing."
+        "original_text": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalisability.",
+        "improved_version": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants and was overrepresented by young male participants, which limits generalizability.",
+        "explanation": "Removes unnecessary comma, clarifies sentence, and corrects spelling of 'generalizability'.",
+        "location": "Discussion, section 4",
+        "category": "grammar",
+        "focus": "grammar"
       },
       {
-        "original_text": "Throughout the document, hyphenation and spacing around hyphens are inconsistent.",
-        "improved_version": "Throughout the document, hyphenation and spacing around hyphens are inconsistent; standardize hyphen use for compound modifiers (e.g., 'food-related') and ensure uniform spacing.",
-        "explanation": "Providing specific guidance improves consistency and professionalism."
+        "original_text": "Providing consumers with information about the environmental impact of their food choices is a key intervention for promoting climate-friendly behaviour.",
+        "improved_version": "Providing consumers with information about the environmental impact of their food choices is a key intervention for promoting climate-friendly behavior.",
+        "explanation": "Aligns spelling with American English conventions used in the references; improves consistency.",
+        "location": "Discussion, section 4",
+        "category": "spelling",
+        "focus": "spelling"
+      },
+      {
+        "original_text": "From a policy and retail perspective, our findings suggest a practical and scalable strategy for encouraging sustainable dietary choices.",
+        "improved_version": "From a policy and retail perspective, our findings suggest a practical and scalable strategy to encourage sustainable dietary choices.",
+        "explanation": "Replaces 'for encouraging' with 'to encourage' for smoother, more formal phrasing.",
+        "location": "Discussion, section 4",
+        "category": "conjunctions",
+        "focus": "conjunctions"
       }
     ],
     "detailed_feedback": {
-      "grammar_correctness": "The document generally maintains correct grammar, but some complex sentences are overly convoluted, affecting clarity. For example, long sentences with multiple clauses could be broken into shorter, clearer statements.",
-      "spelling_accuracy": "Most spelling is accurate; however, there are encoding issues with special characters, such as 'Sabrina St\u00a8ockli' which should be corrected to 'Sabrina St\u00f6ckli'. Consistent use of special characters is essential for professionalism.",
-      "punctuation_usage": "Punctuation is mostly correct but inconsistent in hyphenation and spacing, especially with compound adjectives like 'food-related' and 'GHGE-reducing'. Uniform punctuation enhances readability.",
-      "sentence_structure": "Several sentences are lengthy and contain multiple ideas, which can hinder understanding. Breaking complex sentences into simpler ones improves clarity. For example, sentences with multiple clauses should be split for better flow.",
-      "verb_tense_consistency": "There is some inconsistency between past and present tense, particularly in the methods and results sections. Maintaining a consistent tense, preferably past tense for completed actions, improves coherence.",
-      "subject-verb_agreement": "Subject-verb agreement is generally correct, but some sentences with complex subjects could be clearer. For example, 'Participants demonstrated...' is correct, but ensure similar constructions are checked throughout.",
-      "article_usage": "Articles such as 'the' are sometimes omitted before nouns like 'online supermarket environment'. Consistent article use is necessary for grammatical correctness.",
-      "preposition_usage": "Prepositions are mostly correct, but some phrases could be improved for formality and clarity, e.g., 'participants landed on the intervention page' could be 'participants arrived at the intervention page'.",
-      "conjunction_usage": "Occasional missing conjunctions in complex sentences affect flow. For example, adding 'and' or 'which' where appropriate improves sentence coherence.",
-      "academic_conventions": "Citation formatting is inconsistent; some references lack italics or proper punctuation. Ensuring adherence to a specific style guide (e.g., APA, Vancouver) enhances professionalism and facilitates indexing."
+      "grammar_correctness": "The manuscript contains several instances of inconsistent verb tense usage, especially when describing the study's aims versus its results. For example, using present tense to describe past actions (e.g., 'Participants demonstrated') and past tense for findings (e.g., 'Participants swapped') should be standardized to past tense for consistency. Additionally, subject-verb agreement issues are minor but present, such as 'The impact assessment... which takes into account...' where 'takes' is correct, but in complex sentences, agreement should be carefully checked.",
+      "spelling_accuracy": "There are minor typographical errors throughout, such as hyphenation issues ('recom-mendations') and misspellings ('proving' instead of 'providing'). Consistent use of American or British spelling conventions should be maintained; currently, both 'generalizability' (American) and British spellings like 'behaviour' are used, which should be unified according to the chosen style guide.",
+      "punctuation_usage": "Inconsistent use of hyphens, dashes, and commas affects formal tone and clarity. For example, hyphenation in compound adjectives like 'incentive compatible' should be corrected to 'incentive-compatible'. Also, hyphens used as dashes should be replaced with proper em dashes (\u2014) for clarity and professionalism.",
+      "sentence_structure": "Many sentences are overly long and complex, which hampers readability. Breaking these into shorter, clearer sentences would improve comprehension. For instance, sentences describing methodological procedures often contain multiple clauses that could be split for clarity.",
+      "verb_tense_consistency": "The manuscript shifts between past and present tense, especially when describing the study procedures versus the findings. Maintaining a consistent tense, preferably past tense when discussing completed actions, would enhance coherence.",
+      "subject_verb_agreement": "Subject-verb agreement issues are minimal but present, especially in complex sentences. Careful proofreading is needed to ensure that singular subjects are paired with singular verbs and vice versa.",
+      "article_usage": "Articles are sometimes omitted where they are grammatically necessary, such as 'Shifting from diets rich in animal-based products...' which would be clearer as 'Shifting from diets rich in the animal-based products...'. Proper article use improves grammatical correctness and clarity.",
+      "preposition_usage": "Prepositions are occasionally misused, affecting precision. For example, 'more effective in driving behaviour change' should be 'more effective than in driving behaviour change'. Correct preposition choice clarifies comparisons and relationships.",
+      "conjunction_usage": "Overuse or improper placement of conjunctions like 'and' and 'but' leads to convoluted sentences. Rephrasing to simpler sentences or using appropriate punctuation (e.g., semicolons, em dashes) would improve clarity.",
+      "academic_conventions": "Citation formatting is inconsistent, with some references including URLs and others not, and varying styles of brackets and italics. Adhering to a specific style guide (e.g., APA, Vancouver) would enhance professionalism. Also, the use of abbreviations like 'GHGE' should be defined at first mention and used consistently thereafter."
     },
-    "summary": "Overall, the manuscript demonstrates solid scientific content but requires attention to language details to meet academic standards. Improving sentence clarity, correcting special characters, standardizing punctuation, and ensuring consistent citation formatting will significantly enhance readability and professionalism. Addressing these issues will make the paper more accessible and credible to an academic audience."
+    "summary": "Overall, the manuscript demonstrates solid research and comprehensive analysis but requires careful editing to improve grammatical consistency, clarity, and adherence to academic writing standards. Addressing the identified issues will significantly enhance readability, professionalism, and scholarly impact."
   },
   "W6": {
     "citation_formatting_score": 3,
     "critical_remarks": [
       {
         "category": "in_text_format",
-        "location": "Throughout the manuscript, e.g., [1, 2], (28), (4), etc.",
-        "issue": "Inconsistent use of citation delimiters; some citations use brackets [ ], others parentheses ( ), and superscripts are not used at all, leading to inconsistency.",
+        "location": "Throughout the manuscript, e.g., [1], [2], (28), (4), etc.",
+        "issue": "Inconsistent use of citation delimiters; some references are in brackets, some in parentheses, and some with superscripts, leading to inconsistency.",
         "severity": "high",
-        "impact": "This inconsistency hampers clarity and adherence to a specific style guide, reducing professionalism and readability."
+        "impact": "Reduces clarity and professionalism of the manuscript, making it difficult for readers to follow citations and undermining adherence to a specific style guide."
       },
       {
         "category": "placement",
-        "location": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,'",
-        "issue": "Some citations are placed outside the sentence or in awkward positions, e.g., after commas or in the middle of sentences, which can disrupt flow.",
+        "location": "Multiple sections, e.g., in the Introduction and Methods, e.g., 'as in [28]', 'from [28]', 'see [28]', 'adapted from [28]'.",
+        "issue": "Some citations are embedded within sentences without proper punctuation or are placed awkwardly, which can disrupt reading flow.",
         "severity": "medium",
-        "impact": "Poor placement affects readability and may lead to misinterpretation of which statement the citation supports."
+        "impact": "Impairs readability and may cause confusion about whether the citation supports the entire statement or just a part of it."
       },
       {
         "category": "style_consistency",
-        "location": "Multiple sections, e.g., references [1, 2], (28), and in tables and figure captions.",
-        "issue": "Inconsistent author-date formats, e.g., some citations list multiple references separated by commas, others use hyphens or en-dashes, and some include years in brackets while others do not.",
+        "location": "Throughout the manuscript, e.g., 'adapted from [28]', 'see [28]', 'as in [28]'.",
+        "issue": "Inconsistent handling of author names and years; some citations include author names explicitly, others only numbers, and some include years, leading to style inconsistency.",
         "severity": "medium",
-        "impact": "Inconsistent style diminishes the manuscript's professionalism and can confuse readers about citation standards."
+        "impact": "Undermines uniformity and adherence to a specific citation style, potentially confusing readers and reviewers."
       },
       {
         "category": "cross_reference",
-        "location": "Throughout the manuscript, e.g., 'see [28]', 'adapted from [28]', 'see Table 1', 'see Fig. 1(a)'",
-        "issue": "Some in-text citations refer to references that are not clearly cross-checked against the reference list, and some figure/table references are inconsistent in style.",
-        "severity": "medium",
-        "impact": "Potential mismatch or confusion about sources, reducing credibility and traceability."
-      },
-      {
-        "category": "multiple_citations",
-        "location": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,'",
-        "issue": "Multiple citations are sometimes grouped without clear separation, e.g., [1, 2], [2, 3], which may not align with style guidelines for multiple references.",
-        "severity": "low",
-        "impact": "Minor; improves clarity and adherence to style guidelines if standardized."
-      },
-      {
-        "category": "figure_and_table_citations",
-        "location": "Figure 1 and Tables 1-13",
-        "issue": "Citations within figure legends and table footnotes are inconsistent, e.g., some cite 'see [28]', others omit citations or do not specify source clearly.",
-        "severity": "low",
-        "impact": "Reduces clarity about data sources and undermines transparency."
-      },
-      {
-        "category": "author_names_and_years",
-        "location": "In the reference list, e.g., [1], [2], [28], etc.",
-        "issue": "In-text citations do not consistently include author names when required by style (e.g., 'Afshin et al., 2019') versus numbered styles, but the manuscript appears to mix styles without clear consistency.",
-        "severity": "medium",
-        "impact": "Confuses the citation style and affects the manuscript's uniformity."
-      },
-      {
-        "category": "style delimiters",
-        "location": "Throughout the manuscript, e.g., 'see [28]', '(28)', 'adapted from [28]'",
-        "issue": "Inconsistent use of brackets, parentheses, and textual references; some citations are in brackets, others in parentheses, with no clear pattern.",
-        "severity": "medium",
-        "impact": "Reduces stylistic coherence and may violate journal-specific citation style requirements."
-      },
-      {
-        "category": "cross-reference accuracy",
-        "location": "In the methods and results sections, e.g., references to tables and figures",
-        "issue": "Some references to tables and figures (e.g., 'Table 1', 'Fig. 1(a)') are not hyperlinked or cross-checked, and some references to external sources (e.g., [28]) may not match the reference list entries exactly.",
-        "severity": "medium",
-        "impact": "Potential for misdirection or incorrect source attribution, affecting credibility."
-      },
-      {
-        "category": "handling of multiple citations in one location",
-        "location": "In the introduction and methods sections, e.g., '[1, 2]', '[4\u20137]'",
-        "issue": "Multiple citations are sometimes not formatted according to the style guide, e.g., inconsistent use of hyphens, commas, or spacing.",
-        "severity": "low",
-        "impact": "Minor; standardization would improve clarity."
+        "location": "Throughout the reference citations, e.g., '[28]', 'see [28]', 'adapted from [28]'.",
+        "issue": "No verification that all in-text citations correspond accurately to the reference list entries; potential for mismatches or missing references.",
+        "severity": "high",
+        "impact": "Compromises the credibility of the manuscript; readers cannot verify sources, which affects scholarly integrity."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' [1, 2]",
-        "improved_version": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' (Afshin et al., 2019; Grummon et al., 2023)",
-        "explanation": "Switching to author-year format enhances clarity, aligns with common style guides (e.g., APA), and improves consistency.",
-        "location": "Throughout the manuscript, especially in the main text",
+        "original_text": "adapted from [28]",
+        "improved_version": "adapted from (28)",
+        "explanation": "Switching brackets to parentheses aligns with common citation styles like APA or Vancouver, ensuring consistency and clarity.",
+        "location": "Throughout the manuscript where references are cited in the text, e.g., 'adapted from [28]'",
         "category": "in_text_format",
         "focus": "in_text_format"
       },
       {
-        "original_text": "Multiple references grouped as [1, 2], [2, 3], etc.",
-        "improved_version": "Multiple references grouped as (1, 2), (2, 3), etc.",
-        "explanation": "Using parentheses and commas for multiple citations aligns with standard styles like APA, improving readability and consistency.",
-        "location": "In the introduction and methods sections",
+        "original_text": "see [28]",
+        "improved_version": "see (28)",
+        "explanation": "Using parentheses instead of brackets for in-text citations maintains uniformity and adheres to standard citation styles, improving readability.",
+        "location": "Throughout the manuscript, e.g., 'see [28]'",
+        "category": "in_text_format",
+        "focus": "in_text_format"
+      },
+      {
+        "original_text": "as in [28]",
+        "improved_version": "as in (28)",
+        "explanation": "Replacing brackets with parentheses ensures consistent formatting, which is crucial for professional presentation and style adherence.",
+        "location": "In the Methods and Results sections, e.g., 'as in [28]'",
+        "category": "in_text_format",
+        "focus": "in_text_format"
+      },
+      {
+        "original_text": "e.g., 'see [28]'",
+        "improved_version": "e.g., 'see (28)'",
+        "explanation": "Consistent use of parentheses for citations improves uniformity and aligns with common referencing styles like APA or Vancouver.",
+        "location": "Within explanatory phrases, e.g., 'see [28]'",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "Citations like 'see [28]' and 'adapted from [28]'",
-        "improved_version": "see (O\u2019Sullivan et al., 2024)",
-        "explanation": "Replacing numbered references with author-year format clarifies source attribution and aligns with style guidelines.",
-        "location": "In the methods and results sections",
+        "original_text": "e.g., 'adapted from [28]'",
+        "improved_version": "e.g., 'adapted from (28)'",
+        "explanation": "Ensures citation style consistency, which enhances the manuscript\u2019s professionalism and clarity.",
+        "location": "In methodological descriptions, e.g., 'adapted from [28]'",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "References to figures and tables, e.g., 'Fig. 1(a)'",
-        "improved_version": "Fig. 1(a) and Table 1",
-        "explanation": "Ensure all figure and table references are consistently formatted and cross-checked with the list, improving clarity and traceability.",
-        "location": "Throughout the manuscript",
+        "original_text": "The impact assessment for GHG emissions was derived from [28]",
+        "improved_version": "The impact assessment for GHG emissions was derived from (28)",
+        "explanation": "Standardizes citation delimiters, supporting a cohesive style throughout the manuscript.",
+        "location": "In the Methods section, e.g., 'from [28]'",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "Citations within figure legends, e.g., 'adapted from [28]'",
-        "improved_version": "adapted from (O\u2019Sullivan et al., 2024)",
-        "explanation": "Consistent author-year citation format within figure legends enhances clarity and style uniformity.",
-        "location": "Figure legends",
+        "original_text": "All references are in the reference list, but some citations lack years, e.g., '[28]' without author-year format.",
+        "improved_version": "Include author names and years in the in-text citations where appropriate, e.g., '(O\u2019Sullivan et al., 2024)' or '(28)' depending on style.",
+        "explanation": "Adding author names and years enhances clarity and aligns with styles like Harvard or APA, aiding reader comprehension.",
+        "location": "Throughout the manuscript, especially in literature review sections",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "Inconsistent use of author names and years, e.g., '[1]', '(28)'",
-        "improved_version": "Standardize all citations to author-year format, e.g., '(Afshin et al., 2019)' or '(O\u2019Sullivan et al., 2024)', depending on journal style.",
-        "explanation": "Uniform citation style improves professionalism and reader comprehension.",
-        "location": "Throughout the manuscript",
+        "original_text": "Multiple citations in a single sentence, e.g., '[1, 2]', are sometimes inconsistent with style guides.",
+        "improved_version": "Use a consistent format, e.g., '(1; 2)' for Vancouver style or '(1, 2)' for APA, depending on the style guide.",
+        "explanation": "Consistent formatting of multiple citations improves readability and adheres to citation standards.",
+        "location": "In sentences with multiple references, e.g., 'morbidity and mortality [1, 2]'",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "Citations like 'see [28]' and 'adapted from [28]'",
-        "improved_version": "see (O\u2019Sullivan et al., 2024)",
-        "explanation": "Replacing numbered references with author-year format clarifies source attribution and aligns with style guidelines.",
-        "location": "In the methods and results sections",
+        "original_text": "In-text citations are sometimes placed after punctuation, sometimes before, e.g., 'climate change targets [11].'",
+        "improved_version": "Place in-text citations immediately after the relevant statement or phrase, before punctuation, e.g., 'climate change targets (11).'",
+        "explanation": "Proper placement of citations ensures clarity about what the citation supports and aligns with style guidelines.",
+        "location": "Throughout the manuscript, e.g., after statements about climate targets",
+        "category": "placement",
+        "focus": "placement"
+      },
+      {
+        "original_text": "Some citations are embedded mid-sentence without clear support boundaries.",
+        "improved_version": "Place citations at the end of the sentence or clause they support, e.g., 'climate change impacts (4).'",
+        "explanation": "Clear placement enhances readability and makes it explicit which statement is supported by the citation.",
+        "location": "In the Results and Discussion sections",
+        "category": "placement",
+        "focus": "placement"
+      },
+      {
+        "original_text": "Some citations are inconsistent in author name presentation, e.g., 'see [28]' versus 'as in [28]'.",
+        "improved_version": "Standardize to one format, e.g., '(28)' throughout, or '(Author, Year)' if author names are included.",
+        "explanation": "Consistency in citation style reduces confusion and presents a professional, polished manuscript.",
+        "location": "Throughout the manuscript, e.g., in methodological descriptions and literature references",
+        "category": "style_consistency",
+        "focus": "style_consistency"
+      },
+      {
+        "original_text": "Cross-reference accuracy is not verified; some in-text citations may not match reference list entries.",
+        "improved_version": "Cross-check all in-text citations against the reference list to ensure each number corresponds to the correct source, updating as necessary.",
+        "explanation": "Ensuring accurate cross-referencing maintains scholarly integrity and allows readers to verify sources reliably.",
+        "location": "Throughout the manuscript, especially in the Methods and References sections",
         "category": "cross_reference",
         "focus": "cross_reference"
       },
       {
-        "original_text": "Use of hyphens or en-dashes in multiple citations, e.g., [4\u20137]",
-        "improved_version": "Use en-dashes for ranges, e.g., (4\u20137), and ensure consistent spacing and formatting according to style guide.",
-        "explanation": "Consistent use of range delimiters improves clarity and style uniformity.",
-        "location": "In the introduction and references",
+        "original_text": "Multiple citations in one place, e.g., '[2, 28]', are sometimes inconsistent in formatting.",
+        "improved_version": "Use a consistent separator, e.g., '(2; 28)' for Vancouver style or '(2, 28)' for APA, and ensure uniformity across the manuscript.",
+        "explanation": "Consistent formatting of multiple citations improves clarity and adheres to style standards.",
+        "location": "In lists of references supporting a statement",
         "category": "style_consistency",
         "focus": "style_consistency"
       },
       {
-        "original_text": "References to 'see Table 1' or 'see Fig. 1(a)'",
-        "improved_version": "see Table 1 and Fig. 1(a)",
-        "explanation": "Ensure all figure and table references are consistently formatted and cross-checked with the list, improving clarity and traceability.",
-        "location": "Throughout the manuscript",
-        "category": "cross_reference",
-        "focus": "cross_reference"
-      },
-      {
-        "original_text": "Inconsistent citation delimiters, e.g., brackets vs parentheses",
-        "improved_version": "Adopt a single style, e.g., all citations in parentheses (Author, Year) or brackets [Number], as per journal guidelines, and apply uniformly throughout.",
-        "explanation": "Uniform delimiters enhance stylistic coherence and professionalism.",
-        "location": "Throughout the manuscript",
-        "category": "style_consistency",
-        "focus": "style_consistency"
-      },
-      {
-        "original_text": "Citations like 'see [28]' in the text and 'adapted from [28]' in figure legends",
-        "improved_version": "Ensure all references to source materials use the same format, e.g., (O\u2019Sullivan et al., 2024), and verify that all references are correctly listed.",
-        "explanation": "Consistency in referencing style and accuracy in cross-referencing improve credibility and ease of source verification.",
-        "location": "Throughout the manuscript",
-        "category": "cross_reference",
-        "focus": "cross_reference"
-      },
-      {
-        "original_text": "Multiple citations in one sentence, e.g., [1, 2], (4\u20137)",
-        "improved_version": "Use consistent formatting, e.g., (1, 2) and (4\u20137), with proper spacing and punctuation, following style guide recommendations.",
-        "explanation": "Standardized formatting of multiple citations enhances clarity and professionalism.",
-        "location": "Main text and tables",
+        "original_text": "References to figures and tables, e.g., 'Fig. 1(a)', are sometimes not formatted as in-text citations.",
+        "improved_version": "Maintain consistent citation style, e.g., 'Figure 1(a)' or '(see Figure 1a)', depending on journal style.",
+        "explanation": "Consistent referencing of figures and tables enhances clarity and professionalism.",
+        "location": "In the main text where figures/tables are referenced",
         "category": "style_consistency",
         "focus": "style_consistency"
       }
     ],
     "detailed_feedback": {
-      "in_text_citation_format": "The manuscript exhibits a mixture of citation styles, including numbered brackets [ ] and parentheses ( ), with inconsistent application throughout. Some citations include author names with years, while others are purely numeric. This inconsistency affects clarity and adherence to a specific style guide such as APA or Vancouver. Consistent use of either author-year format or numbered style, as per journal requirements, is essential for professionalism.",
-      "placement_analysis": "Citations are sometimes placed awkwardly, such as immediately after commas or in the middle of sentences, which can disrupt reading flow. Proper placement is typically at the end of relevant clauses or sentences, immediately following the statement they support, to improve readability and logical flow.",
-      "style_consistency_analysis": "The manuscript inconsistently applies delimiters for multiple references, sometimes using commas, hyphens, or en-dashes without uniformity. Author names are omitted in in-text citations that should include them if following author-year style. The inconsistent use of brackets, parentheses, and formatting of ranges diminishes stylistic coherence and may violate journal style guidelines.",
-      "cross_reference_accuracy": "References to figures, tables, and external sources are sometimes inconsistent or not cross-verified with the reference list. For example, citations like [28] are used in multiple contexts, but the matching reference details are not always clear or correctly formatted. Ensuring all in-text references accurately correspond to the reference list entries is crucial for source traceability."
+      "in_text_citation_format": "The manuscript exhibits inconsistent use of citation delimiters, alternating between brackets [ ] and parentheses ( ). This inconsistency hampers readability and professionalism. The preferred style should be uniform, such as parentheses (28) for numerical styles like Vancouver or author-year formats like (Author, Year). Additionally, some citations include author names explicitly, while others only use numbers, leading to style fragmentation. Standardizing all in-text citations to a single format aligned with the target journal or style guide is essential.",
+      "placement_analysis": "Citations are sometimes placed immediately after statements without proper punctuation or are embedded mid-sentence, which can disrupt reading flow. For example, 'as in [28]' appears in the middle of a sentence, which could be clearer if placed at sentence ends or integrated more smoothly. Proper placement, such as immediately after the relevant clause and before punctuation, enhances clarity and aligns with style guidelines.",
+      "style_consistency_analysis": "There is a lack of uniformity in how citations are handled\u2014some are embedded with author names, some are numerical, and the formatting varies. For instance, 'adapted from [28]' versus 'see [28]' versus 'as in [28]'\u2014these should be harmonized. Adopting a single style, such as all citations in parentheses with numbers, or author-year format, will improve the manuscript's professionalism and coherence.",
+      "cross_reference_accuracy": "The manuscript references numerous sources with in-text citations like [28], but without verification against the reference list, potential mismatches or missing entries could exist. Ensuring each in-text citation correctly corresponds to the reference list entry is crucial for scholarly integrity. A thorough cross-check is recommended to confirm accuracy and completeness."
     },
-    "summary": "Overall, the manuscript demonstrates acceptable citation practices but suffers from notable inconsistencies in formatting, placement, and style. These issues, while not severely impacting comprehension, reduce the manuscript's professionalism and adherence to academic standards. Addressing these issues by standardizing citation style, improving placement, and ensuring cross-reference accuracy will significantly enhance citation quality and manuscript coherence."
+    "summary": "Overall, the manuscript demonstrates acceptable citation practices but suffers from inconsistent formatting, placement, and style handling of in-text citations. Addressing these issues by standardizing delimiters, ensuring proper placement, and verifying cross-references will significantly enhance clarity, professionalism, and adherence to scholarly standards. Implementing these improvements will facilitate reader comprehension and meet the expectations of high-quality academic publishing."
   },
   "W7": {
     "audience_alignment_score": 3,
@@ -1055,165 +990,148 @@
       {
         "category": "methodology",
         "location": "Section 2.1 - Design and procedure",
-        "issue": "The methodology description, while detailed, lacks clarity on how the experimental conditions were operationalized and how the randomization was implemented, which could hinder reproducibility.",
-        "severity": "high",
-        "impact": "This affects the audience's ability to assess the rigor and reproducibility of the study, potentially undermining trust in the findings."
+        "issue": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+        "severity": "medium",
+        "impact": "This may hinder the audience's ability to fully assess the rigor of the experimental design and replicate or build upon the study."
       },
       {
         "category": "results",
         "location": "Section 3.1 - Main analyses",
-        "issue": "Results are presented with extensive statistical detail, but lack visual summaries such as graphs or effect size plots that could aid comprehension.",
+        "issue": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
         "severity": "medium",
-        "impact": "This reduces accessibility for readers who prefer visual data interpretation, impacting engagement and clarity."
+        "impact": "This limits engagement from a broader audience, including policymakers or practitioners unfamiliar with statistical nuances."
       },
       {
         "category": "discussion",
         "location": "Section 4 - Discussion",
-        "issue": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications, limiting depth.",
+        "issue": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
         "severity": "medium",
-        "impact": "This diminishes the perceived relevance and applicability of the research to the target audience, especially practitioners."
+        "impact": "This reduces the depth of engagement and may leave readers seeking more comprehensive interpretative insights."
       },
       {
         "category": "conclusion",
         "location": "Section 4 - Conclusion",
-        "issue": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications, which are crucial for applied audiences.",
+        "issue": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
         "severity": "low",
-        "impact": "This reduces the practical value and actionability of the research for stakeholders."
+        "impact": "This misses an opportunity to guide practical application and diminish engagement with applied audiences."
       },
       {
         "category": "visuals",
-        "location": "Throughout the document",
-        "issue": "References to figures (e.g., Fig. 1) are made, but the figures are not included or sufficiently described, impairing comprehension.",
-        "severity": "high",
-        "impact": "This hampers understanding of key experimental setups and results, especially for visual learners."
+        "location": "Figures 1 and 2",
+        "issue": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+        "severity": "low",
+        "impact": "This can cause confusion and reduce the clarity of visual data communication for readers."
+      },
+      {
+        "category": "references",
+        "location": "Throughout the manuscript",
+        "issue": "References are numerous but vary in depth; some key claims are supported by broad citations without detailed context, which may weaken perceived rigor.",
+        "severity": "low",
+        "impact": "This might diminish confidence among academically oriented readers seeking comprehensive literature grounding."
       }
     ],
     "improvement_suggestions": [
       {
-        "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices (Fig. 1(a)) and (2) a list of product swap recommendations from the animal-based products in their basket to the closest matching second-generation plant-based analogue equivalents.",
-        "improved_version": "Revise to: 'The intervention included a dedicated product swap recommendations page featuring (1) explanatory text on how replacing animal-based products with plant-based alternatives can significantly reduce environmental impact (see Fig. 1a), and (2) a tailored list of specific swap suggestions from the original basket items to closely matching plant-based analogues.'",
-        "explanation": "Enhances clarity and flow, making the intervention components more explicit and reader-friendly.",
-        "location": "Section 2.1",
-        "category": "organization",
-        "focus": "clarity"
-      },
-      {
-        "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-        "improved_version": "Revise to: 'Participants showed a high level of receptivity to product swap recommendations, with 88.4% swapping at least one item and an average of 4.2 swaps per participant.'",
-        "explanation": "Provides specific data to support the statement, increasing credibility and audience engagement.",
-        "location": "Section 3.1",
-        "category": "results",
-        "focus": "results presentation"
-      },
-      {
-        "original_text": "Results indicate that offering specific and actionable product swap recommendations, derived from the final contents of baskets and presented before checkout, is an effective strategy.",
-        "improved_version": "Revise to: 'Our results demonstrate that providing consumers with specific, actionable product swap recommendations\u2014based on their current basket contents and delivered at the point of decision\u2014effectively promotes climate-friendly food choices.'",
-        "explanation": "Refines technical language for clarity and emphasizes the practical intervention point, aligning with audience expectations.",
-        "location": "Section 4",
-        "category": "discussion",
+        "original_text": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+        "improved_version": "Enhance the methodology section by explicitly detailing the randomization process, including how participants were allocated to each of the four conditions, and clarify how the experimental conditions were operationalized within the online platform to ensure reproducibility.",
+        "explanation": "Providing specific procedural details improves transparency, allowing readers to assess the study\u2019s rigor and replicate the design if desired.",
+        "location": "Section 2.1 - Design and procedure",
+        "category": "methodology",
         "focus": "organization"
       },
       {
-        "original_text": "The study was preregistered and incentive compatible.",
-        "improved_version": "Revise to: 'This study was preregistered and designed to be incentive-compatible, ensuring that participant choices reflect real-world decision-making.'",
-        "explanation": "Clarifies the importance of incentive compatibility for validity, making it more accessible to a broader audience.",
-        "location": "Section 2.1",
-        "category": "methodology",
-        "focus": "clarity"
-      },
-      {
-        "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
-        "improved_version": "Revise to: 'Regression analyses showed no statistically significant differences in overall GHGE reduction between the Targeted or Information treatment groups and the control condition.'",
-        "explanation": "Simplifies language for clarity and improves readability for non-statistical audiences.",
-        "location": "Section 3.1.1",
+        "original_text": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
+        "improved_version": "Complement the statistical results with plain-language summaries highlighting the practical implications, such as how a 25% GHGE reduction translates into real-world environmental benefits, to make findings accessible to a broader audience.",
+        "explanation": "This enhances audience engagement by translating technical data into meaningful, relatable insights.",
+        "location": "Section 3.1 - Main analyses",
         "category": "results",
         "focus": "clarity"
       },
       {
-        "original_text": "Figures are referenced but not included, which impairs comprehension.",
-        "improved_version": "Add the actual figures or include detailed descriptions within the text, such as: 'Figure 1 illustrates the product swap recommendations page, showing the explanation and the experimental conditions.'",
-        "explanation": "Ensures visual elements are accessible and understood, improving overall clarity and engagement.",
-        "location": "Throughout the document",
-        "category": "visuals",
-        "focus": "visual integration"
-      },
-      {
-        "original_text": "The discussion offers interpretations but does not sufficiently contextualize findings within broader literature or practical implications.",
-        "improved_version": "Expand the discussion to explicitly relate findings to existing literature on dietary interventions and outline practical implications for policymakers and retailers.",
-        "explanation": "Enhances relevance and applicability, making the research more meaningful for practitioners and policymakers.",
-        "location": "Section 4",
-        "category": "discussion",
-        "focus": "contextualization"
-      },
-      {
-        "original_text": "The conclusion summarizes findings but lacks a clear, concise statement of future directions or policy implications.",
-        "improved_version": "Add a closing paragraph: 'Future research should explore long-term effects of such interventions in real-world settings, and policymakers could consider integrating targeted product swap strategies into sustainability initiatives.'",
-        "explanation": "Provides clear guidance for future work and policy relevance, increasing the practical impact.",
-        "location": "Section 4",
-        "category": "conclusion",
-        "focus": "clarity"
-      },
-      {
-        "original_text": "References are extensive but could benefit from a consistent, journal-appropriate style.",
-        "improved_version": "Standardize all references to a uniform citation style (e.g., APA, Vancouver), ensuring completeness and consistency, and include DOIs where available.",
-        "explanation": "Improves professionalism and ease of cross-referencing, enhancing credibility.",
-        "location": "References section",
-        "category": "references",
-        "focus": "style"
-      },
-      {
-        "original_text": "The methodology section is detailed but could better clarify the randomization process and blinding procedures.",
-        "improved_version": "Revise to: 'Participants were randomly assigned to conditions using a computer-generated randomization sequence, with allocation concealed from both participants and researchers to prevent bias.'",
-        "explanation": "Clarifies procedural rigor, increasing trust and transparency for the audience.",
-        "location": "Section 2.1",
-        "category": "methodology",
-        "focus": "clarity"
-      },
-      {
-        "original_text": "Results are presented with extensive statistical detail but lack visual summaries such as bar graphs or effect size plots.",
-        "improved_version": "Include visual summaries like bar charts or box plots illustrating key outcomes (e.g., GHGE reduction across conditions) to facilitate quick comprehension.",
-        "explanation": "Visual data enhances accessibility and engagement, especially for diverse audiences.",
-        "location": "Section 3",
-        "category": "visuals",
-        "focus": "visual integration"
-      },
-      {
-        "original_text": "The discussion could deepen analysis by exploring potential mechanisms behind the findings and implications for different consumer segments.",
-        "improved_version": "Expand to discuss possible psychological or behavioral mechanisms influencing responses, and tailor implications for high versus low baseline consumers.",
-        "explanation": "Provides richer insights, making the findings more actionable and relevant.",
-        "location": "Section 4",
+        "original_text": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
+        "improved_version": "Deepen the discussion by exploring potential reasons for the observed discrepancy between increased targeted swap uptake and the lack of significant overall GHGE reduction, such as the impact of multiple swaps per basket or participant preferences, and suggest hypotheses for future testing.",
+        "explanation": "This provides richer interpretive context, fostering critical engagement and guiding future research directions.",
+        "location": "Section 4 - Discussion",
         "category": "discussion",
         "focus": "depth"
       },
       {
-        "original_text": "The conclusion should explicitly state the policy and practical implications derived from the findings.",
-        "improved_version": "Add: 'These findings suggest that online retailers can implement simple, targeted product swap prompts to promote sustainable purchasing, with potential policy support for broader adoption.'",
-        "explanation": "Clarifies real-world applications, increasing relevance for stakeholders.",
-        "location": "Section 4",
+        "original_text": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
+        "improved_version": "Refine the conclusion to include targeted recommendations for policymakers, retailers, and researchers, such as integrating simple swap prompts into online shopping platforms or exploring long-term behavioral impacts.",
+        "explanation": "This makes the findings more actionable and relevant for applied audiences, increasing practical impact.",
+        "location": "Section 4 - Conclusion",
         "category": "conclusion",
+        "focus": "organization"
+      },
+      {
+        "original_text": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+        "improved_version": "Add comprehensive captions to Figures 1 and 2, explicitly describing what each element illustrates, including the meaning of error bars, significance markers, and how to interpret the data trends.",
+        "explanation": "Clearer figure explanations improve comprehension and ensure visual data effectively support the text.",
+        "location": "Figures 1 and 2",
+        "category": "visuals",
+        "focus": "visual integration"
+      },
+      {
+        "original_text": "References are numerous but vary in depth; some key claims are supported by broad citations without detailed context, which may weaken perceived rigor.",
+        "improved_version": "Augment key references with brief contextual summaries within the text, explaining how each supports specific claims, and ensure all citations are up-to-date and directly relevant to the point made.",
+        "explanation": "This strengthens the scholarly foundation, enhancing credibility and audience trust.",
+        "location": "Throughout the manuscript",
+        "category": "references",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The methodology description, while detailed, lacks explicit clarification on how the experimental conditions were operationalized and how the randomization was implemented in practice, which could impact reproducibility and understanding.",
+        "improved_version": "Specify the exact procedures used for randomization, such as whether random assignment was computer-generated, and describe how the intervention screens were presented to ensure consistent delivery across participants.",
+        "explanation": "This improves transparency and reproducibility, critical for scientific rigor.",
+        "location": "Section 2.1",
+        "category": "methodology",
+        "focus": "organization"
+      },
+      {
+        "original_text": "Results are presented with statistical values but lack sufficient contextual interpretation, making it difficult for non-specialist readers to grasp the practical significance of findings.",
+        "improved_version": "Include interpretive commentary after each statistical result, such as 'This indicates that the targeted recommendation increased the likelihood of selecting the most effective swap by 50%, which could lead to meaningful environmental benefits.'",
+        "explanation": "This enhances accessibility for diverse audiences, including practitioners and policymakers.",
+        "location": "Section 3.1",
+        "category": "results",
         "focus": "clarity"
       },
       {
-        "original_text": "The references include a wide range of sources but lack consistency in formatting and missing some DOIs.",
-        "improved_version": "Standardize all references to a consistent style (e.g., APA), include complete citation details, and add DOIs where available to enhance professionalism.",
-        "explanation": "Improves credibility and ease of verification for academic readers.",
-        "location": "References",
-        "category": "references",
-        "focus": "style"
+        "original_text": "The discussion tends to summarize findings without deeply exploring underlying mechanisms or implications, especially regarding why targeted recommendations increased the uptake of effective swaps but did not significantly reduce overall GHGE.",
+        "improved_version": "Discuss potential behavioral or cognitive mechanisms, such as decision fatigue or preference heterogeneity, that might explain why increased targeted swap selection did not translate into overall GHGE reduction, and propose avenues for future research.",
+        "explanation": "This deepens the analytical depth, fostering critical thinking and guiding subsequent studies.",
+        "location": "Section 4 - Discussion",
+        "category": "discussion",
+        "focus": "depth"
+      },
+      {
+        "original_text": "The conclusion provides a broad summary but lacks specific recommendations or future directions tailored to different stakeholder groups, such as policymakers or retailers.",
+        "improved_version": "Conclude with specific, actionable recommendations for online retailers to implement simple swap prompts, and suggest policy initiatives that support transparency in environmental impact data, thereby translating research into practice.",
+        "explanation": "This enhances the practical relevance and engagement of applied audiences.",
+        "location": "Section 4 - Conclusion",
+        "category": "conclusion",
+        "focus": "organization"
+      },
+      {
+        "original_text": "Figures are referenced but lack detailed captions or explanations that clarify what the visual data represent and how to interpret error bars or significance indicators.",
+        "improved_version": "Revise figure captions to explicitly describe the data shown, including what the error bars represent (e.g., standard error), and clarify how significance is indicated, ensuring the visuals are self-explanatory.",
+        "explanation": "Improves clarity and ensures visual elements effectively complement the text.",
+        "location": "Figures 1 and 2",
+        "category": "visuals",
+        "focus": "visual integration"
       }
     ],
     "detailed_feedback": {
-      "technical_depth": "The manuscript demonstrates a solid understanding of experimental design and statistical analysis appropriate for an academic audience. However, some sections, particularly the methodology, could benefit from more explicit detail on procedures like randomization and blinding to enhance reproducibility and rigor perception.",
-      "terminology_usage": "The use of field-specific terms such as 'GHGE,' 'life cycle assessment,' and 'effect size' is generally appropriate and consistent. Nonetheless, some technical terms could be briefly defined upon first use to aid interdisciplinary readers, such as policymakers or practitioners unfamiliar with specific scientific jargon.",
-      "writing_formality": "The writing maintains a formal academic tone suitable for a research article. Minor adjustments, such as replacing colloquial phrases like 'move beyond previous research' with 'advance existing literature,' could improve tone consistency.",
-      "section_organization": "The structure follows standard scientific conventions, but some sections could be more logically ordered\u2014for example, integrating the detailed methodology earlier or summarizing key findings more prominently in the results for clarity. Clearer headings and subheadings would also aid navigation.",
-      "visual_integration": "References to figures are made, but the actual figures are missing, which hampers comprehension. Including well-designed, labeled figures and ensuring they are referenced appropriately would significantly enhance understanding, especially of complex experimental setups and data trends.",
-      "reference_style": "References are comprehensive but inconsistent in formatting. Adopting a uniform style, such as APA or Vancouver, and including DOIs would improve professionalism and facilitate further literature review.",
-      "methodology_detail": "While the methodology is detailed, it lacks explicit description of key procedures like participant randomization, blinding, and control conditions. Clarifying these aspects would strengthen the perceived rigor and reproducibility.",
-      "results_presentation": "Results are primarily text-based with extensive statistical reporting. Incorporating visual summaries such as bar graphs, effect size plots, or confidence intervals would make the data more accessible and engaging for a diverse audience.",
-      "discussion_depth": "The discussion interprets findings but could deepen analysis by exploring underlying behavioral mechanisms, limitations, and broader implications. Connecting results more explicitly to existing literature would also enhance relevance.",
-      "conclusion_format": "The conclusion summarizes key findings but would benefit from a concise statement of practical implications, policy recommendations, and future research directions to maximize impact."
+      "technical_depth": "The manuscript maintains a generally appropriate level of technical detail for an academic audience familiar with experimental research and environmental impact assessment. However, some sections, particularly the methodology, could benefit from clearer explanations of procedures and data sources to enhance transparency and reproducibility. The statistical analyses are well-reported but would be improved by more interpretive context to aid understanding among non-specialists.",
+      "terminology_usage": "Field-specific terminology such as 'GHGE', 'life cycle assessment', 'product swap recommendations', and 'odds ratio' are used consistently and appropriately. To improve clarity, the manuscript could include brief definitions or explanations of complex terms when first introduced, especially for interdisciplinary audiences or policymakers unfamiliar with technical jargon.",
+      "writing_formality": "The writing style is formal and suitable for an academic journal. It employs precise language and technical terminology, maintaining professionalism throughout. Minor enhancements could include reducing redundancy and ensuring consistent use of abbreviations and terminology to improve flow.",
+      "section_organization": "The manuscript is logically structured, with clear sections for Introduction, Methods, Results, and Discussion. However, some subsections, particularly within the Methods and Results, could be more explicitly signposted to guide the reader through complex analyses. Including summary paragraphs at the end of major sections could improve navigability.",
+      "visual_integration": "Figures are referenced appropriately but lack detailed captions that explain what each visual element demonstrates. Incorporating comprehensive figure legends with explanations of error bars, significance markers, and data interpretation would enhance comprehension and ensure visuals effectively support the narrative.",
+      "reference_style": "References are comprehensive and relevant, following a standard academic style. To strengthen the scholarly foundation, the manuscript could include more recent or seminal works in the field of sustainable food choices and behavioral interventions, providing deeper context for claims made.",
+      "methodology_detail": "The methodology is described in considerable detail, including participant recruitment, experimental design, and data sources. Nonetheless, clarifying the randomization process, intervention delivery, and data handling procedures would improve transparency and replicability.",
+      "results_presentation": "Results are presented with statistical metrics and visual summaries. To improve engagement, adding interpretive commentary that contextualizes the significance of findings would make the data more accessible to a broader audience.",
+      "discussion_depth": "The discussion summarizes key findings but could delve deeper into potential behavioral mechanisms, limitations, and implications for practice. Exploring why certain interventions did not produce expected effects would enrich the analytical depth.",
+      "conclusion_format": "The conclusion effectively summarizes the main findings but would benefit from explicit, actionable recommendations for stakeholders and future research directions, enhancing its practical utility."
     },
-    "summary": "Overall, the manuscript presents a well-structured and methodologically sound study with relevant findings for academic and applied audiences. However, improvements in clarity, visual data presentation, and contextualization would significantly enhance its accessibility and engagement. Addressing detailed methodological transparency and explicitly linking findings to broader implications will better align the work with the expectations of a multidisciplinary, policy-relevant readership, elevating its overall quality to a good or excellent standard."
+    "summary": "Overall, the manuscript demonstrates solid scientific rigor and a clear structure suitable for an academic audience. However, to elevate its quality and audience engagement, it should improve clarity in methodology, interpret results with more contextual insight, deepen the discussion on underlying mechanisms, and enhance visual explanations. Addressing these points will make the research more accessible, impactful, and applicable across diverse stakeholder groups."
   }
 }

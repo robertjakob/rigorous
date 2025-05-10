@@ -4,143 +4,135 @@
     {
       "category": "conflicts",
       "location": "Author Contributions & Competing Interests section",
-      "issue": "While the authors declare no competing interests, the study involves environmental impact data and consumer behaviour, which could be influenced by commercial or policy interests. There is limited discussion on potential conflicts related to data sources or industry partnerships.",
-      "severity": "low",
-      "impact": "This minimal disclosure could slightly undermine perceived independence, but overall transparency is maintained."
+      "issue": "While the authors declare no competing interests, the study involves environmental impact data and consumer behaviour, which could be influenced by commercial interests of retailers or environmental organizations. The absence of explicit disclosure of funding sources related to industry or advocacy groups may obscure potential conflicts.",
+      "severity": "medium",
+      "impact": "This could raise concerns about potential bias in the presentation or interpretation of results, affecting research objectivity."
     },
     {
       "category": "privacy",
       "location": "Data collection and participant recruitment sections",
-      "issue": "The study involves online panels and demographic data collection but lacks detailed description of data privacy measures, anonymization procedures, or data storage protocols.",
+      "issue": "Participants' demographic data and food preferences were collected via online panels, but explicit details on data anonymization, storage, and protection protocols are limited.",
       "severity": "medium",
-      "impact": "Insufficient detail on privacy protections could raise concerns about participant confidentiality and data security."
+      "impact": "Insufficient privacy measures may compromise participant confidentiality, reducing trust and compliance with data protection standards."
     },
     {
       "category": "consent",
-      "location": "Methodology section",
-      "issue": "The description mentions initial surveys and informed participation but does not specify whether explicit informed consent was obtained, how consent was documented, or if participants were informed about data use and withdrawal rights.",
+      "location": "Methodology section, paragraph 2.1",
+      "issue": "The description indicates participants were informed about the shopping task and incentives, but lacks explicit mention of detailed informed consent procedures, including information about data use, withdrawal rights, and confidentiality.",
       "severity": "medium",
-      "impact": "Lack of explicit consent procedures could compromise ethical standards for voluntary participation and participant awareness."
+      "impact": "This omission could undermine participants' understanding of their rights and the ethical validity of consent, risking non-compliance with ethical standards."
     },
     {
       "category": "integrity",
-      "location": "Analysis and reporting sections",
-      "issue": "The study includes exploratory analyses and post hoc subgroup analyses, which are appropriately flagged as exploratory, but there is limited discussion on potential biases or how multiple testing was controlled to prevent false positives.",
-      "severity": "low",
-      "impact": "Potential for bias or overinterpretation exists, but transparency in reporting mitigates major concerns."
+      "location": "Results and analysis sections",
+      "issue": "The study includes exploratory analyses on subgroups (daily meat consumers), which are post hoc and not preregistered, potentially increasing the risk of data dredging or selective reporting.",
+      "severity": "high",
+      "impact": "This may compromise research integrity by presenting findings that are not hypothesis-driven, risking misinterpretation or overstatement of effects."
     },
     {
       "category": "guidelines",
-      "location": "Overall manuscript",
-      "issue": "The manuscript references ethical approval and preregistration but does not explicitly state adherence to specific ethical guidelines such as the Declaration of Helsinki or GDPR compliance for data handling.",
+      "location": "General sections, throughout the manuscript",
+      "issue": "While the study was approved by the University of Zurich Ethics Committee and preregistered, there is limited discussion of adherence to international ethical guidelines such as the Declaration of Helsinki or GDPR compliance for data handling.",
       "severity": "low",
-      "impact": "This omission slightly reduces clarity on compliance with international ethical standards."
+      "impact": "Lack of explicit alignment with established ethical frameworks could affect the perceived ethical rigor of the research."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "The study was approved by the University of Zurich Ethics Commission.",
-      "improved_version": "The study received ethical approval from the University of Zurich Ethics Commission, and detailed documentation of this approval is available upon request.",
-      "explanation": "Providing explicit documentation or approval number enhances transparency and allows verification of ethical compliance.",
-      "location": "Methodology section",
+      "improved_version": "The study received ethical approval from the University of Zurich Ethics Committee, which reviewed and confirmed compliance with international ethical standards such as the Declaration of Helsinki and GDPR for data privacy.",
+      "explanation": "Explicitly stating adherence to recognized ethical guidelines enhances transparency and demonstrates comprehensive ethical compliance.",
+      "location": "Introduction, paragraph 2.1",
       "category": "guidelines",
       "focus": "guidelines"
     },
     {
-      "original_text": "The data of this study are publicly available on the Open Science Framework project page.",
-      "improved_version": "The anonymized data collected in this study are stored securely and made publicly available in accordance with GDPR and institutional data privacy policies, with explicit participant consent for data sharing.",
-      "explanation": "Clarifies data privacy measures and confirms compliance with data protection regulations, strengthening ethical standards.",
-      "location": "Data Availability section",
+      "original_text": "Participants were recruited via online panels managed by Prolific.",
+      "improved_version": "Participants were recruited through Prolific, with detailed information provided about data privacy, confidentiality, and voluntary participation, ensuring informed consent aligned with GDPR standards.",
+      "explanation": "Clarifying consent procedures and data privacy measures ensures ethical transparency and participant rights are protected.",
+      "location": "Methodology, paragraph 2.2",
+      "category": "consent",
+      "focus": "consent"
+    },
+    {
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a.",
+      "improved_version": "The GHG impact assessment was conducted in accordance with international standards, including transparency about data sources, assumptions, and potential conflicts of interest in environmental data sourcing.",
+      "explanation": "Transparency about data sources and potential conflicts supports research integrity and trustworthiness.",
+      "location": "Methodology, paragraph 2.1",
+      "category": "integrity",
+      "focus": "integrity"
+    },
+    {
+      "original_text": "The study was preregistered and incentive compatible.",
+      "improved_version": "The study was preregistered on the Open Science Framework, with detailed protocols on ethical procedures, and participation was voluntary with explicit informed consent, including rights to withdraw at any time without penalty.",
+      "explanation": "Explicitly linking preregistration and consent procedures emphasizes adherence to research standards and participant autonomy.",
+      "location": "Methodology, paragraph 2.1",
+      "category": "consent",
+      "focus": "consent"
+    },
+    {
+      "original_text": "Participants\u2019 demographic data and food preferences were collected, but explicit details on data anonymization are limited.",
+      "improved_version": "All participant data were anonymized and stored securely in compliance with GDPR, with access restricted to authorized personnel, and data handling procedures documented in the ethics approval documentation.",
+      "explanation": "Explicit privacy measures ensure data protection and compliance with legal standards, fostering trust.",
+      "location": "Data collection, paragraph 2.2",
       "category": "privacy",
       "focus": "privacy"
     },
     {
-      "original_text": "Participants were informed about the shopping task and the online supermarket.",
-      "improved_version": "Participants provided explicit informed consent after being thoroughly informed about the purpose of the study, data collection procedures, potential risks, their rights to withdraw at any time, and data confidentiality measures, prior to participation.",
-      "explanation": "Ensures adherence to ethical standards for informed consent, enhancing participant autonomy and transparency.",
-      "location": "Methodology section",
-      "category": "consent",
-      "focus": "consent"
+      "original_text": "Post hoc analyses on subgroups were conducted, which are exploratory.",
+      "improved_version": "All analyses, including subgroup explorations, were transparently labeled as exploratory and interpreted cautiously, with plans for future preregistered confirmatory studies to validate these findings.",
+      "explanation": "Clarifying the exploratory nature preserves research integrity and prevents overinterpretation.",
+      "location": "Results and discussion sections",
+      "category": "integrity",
+      "focus": "integrity"
     },
     {
-      "original_text": "The study involved online panels managed by Prolific.",
-      "improved_version": "Participants recruited via Prolific provided informed consent through an online consent form that detailed data privacy, voluntary participation, and withdrawal rights, in compliance with GDPR and institutional guidelines.",
-      "explanation": "Explicit consent process aligns with ethical standards for online research and data privacy.",
-      "location": "Participants section",
-      "category": "consent",
-      "focus": "consent"
-    },
-    {
-      "original_text": "The intervention consisted of product swap recommendations with explanations.",
-      "improved_version": "Prior to participation, participants received comprehensive information about the nature of the intervention, including the purpose, data collection, confidentiality, and their right to withdraw without penalty, ensuring voluntary and informed participation.",
-      "explanation": "Enhances ethical transparency and participant understanding.",
-      "location": "Methodology section",
-      "category": "consent",
-      "focus": "consent"
-    },
-    {
-      "original_text": "The study was incentive compatible with monetary compensation.",
-      "improved_version": "Participants were informed that their participation was voluntary, and compensation was provided in accordance with institutional guidelines, with clear information about the amount and conditions, ensuring no undue influence.",
-      "explanation": "Clarifies voluntary participation and ethical compensation practices.",
-      "location": "Methodology section",
+      "original_text": "The intervention involved product swap recommendations with environmental impact data.",
+      "improved_version": "The intervention included detailed information on the environmental impact of food choices, with data sourced from validated LCAs, and participants were informed about the data's limitations and potential conflicts of interest.",
+      "explanation": "Transparency about data sources and limitations aligns with ethical standards and supports informed decision-making.",
+      "location": "Methodology, paragraph 2.3",
       "category": "guidelines",
       "focus": "guidelines"
     },
     {
-      "original_text": "The study involved a simulated online supermarket environment.",
-      "improved_version": "The simulated environment was designed to mimic real-world shopping, and participants were debriefed about the simulated nature of the task after completion, ensuring transparency and debriefing in line with ethical standards.",
-      "explanation": "Addresses transparency and participant debriefing, supporting research integrity.",
-      "location": "Discussion section",
-      "category": "integrity",
-      "focus": "integrity"
+      "original_text": "The study involved online simulated shopping with incentives.",
+      "improved_version": "Participants provided informed consent after receiving comprehensive information about the study purpose, data handling, potential risks, and their right to withdraw, in accordance with ethical guidelines and GDPR.",
+      "explanation": "Explicit consent procedures ensure ethical compliance and respect for participant autonomy.",
+      "location": "Methodology, paragraph 2.1",
+      "category": "consent",
+      "focus": "consent"
     },
     {
-      "original_text": "The study includes multiple regression analyses with covariates.",
-      "improved_version": "All analyses were pre-registered, and multiple testing corrections (e.g., Bonferroni or FDR) were applied where appropriate to control for false positives, ensuring research integrity.",
-      "explanation": "Applying statistical corrections and pre-registration enhances research validity.",
-      "location": "Analysis section",
-      "category": "integrity",
-      "focus": "integrity"
-    },
-    {
-      "original_text": "The study reports no conflicts of interest.",
-      "improved_version": "The authors declare no conflicts of interest, and any potential funding sources or affiliations that could be perceived as influencing the research are transparently disclosed.",
-      "explanation": "Full disclosure of funding and affiliations strengthens transparency and trust.",
-      "location": "Competing Interests section",
+      "original_text": "The authors declare no competing interests.",
+      "improved_version": "The authors declare no financial or personal conflicts of interest related to the environmental impact data sources, retail partnerships, or funding bodies, which are disclosed in detail in the funding statement.",
+      "explanation": "Explicit conflict of interest disclosure enhances transparency and trustworthiness.",
+      "location": "Author contributions & competing interests",
       "category": "conflicts",
       "focus": "conflicts"
     },
     {
-      "original_text": "The study involves data collection from participants' shopping baskets and survey responses.",
-      "improved_version": "Data collected from participants\u2019 shopping baskets and surveys were anonymized, stored securely, and used solely for research purposes, in compliance with GDPR and institutional data management policies.",
-      "explanation": "Explicit privacy measures ensure confidentiality and ethical data handling.",
-      "location": "Data collection section",
+      "original_text": "The study's data and code are publicly available.",
+      "improved_version": "All data and analysis code are publicly available on the Open Science Framework, with appropriate anonymization and documentation to ensure participant confidentiality and reproducibility, in compliance with data protection standards.",
+      "explanation": "Ensuring data sharing aligns with ethical standards while protecting participant privacy.",
+      "location": "Data availability",
       "category": "privacy",
       "focus": "privacy"
     },
     {
-      "original_text": "The study involved post hoc exploratory subgroup analyses.",
-      "improved_version": "All subgroup analyses were pre-registered or clearly flagged as exploratory, with appropriate caution in interpretation, to prevent data dredging and maintain research integrity.",
-      "explanation": "Transparency about exploratory analyses preserves research standards.",
-      "location": "Analysis section",
-      "category": "integrity",
-      "focus": "integrity"
-    },
-    {
-      "original_text": "The manuscript references ethical approval but does not specify adherence to specific guidelines.",
-      "improved_version": "The research was conducted in accordance with the Declaration of Helsinki, GDPR, and institutional ethical standards, with detailed documentation available upon request.",
-      "explanation": "Explicitly stating adherence to recognized guidelines clarifies compliance.",
-      "location": "Introduction or Ethical considerations section",
+      "original_text": "The study discusses potential limitations but does not explicitly address long-term ethical implications.",
+      "improved_version": "The discussion includes considerations of long-term ethical implications, such as potential impacts on consumer autonomy, data privacy, and the risk of unintended behavioral consequences, with recommendations for ongoing ethical oversight in future implementations.",
+      "explanation": "Addressing broader ethical implications demonstrates comprehensive ethical awareness.",
+      "location": "Discussion section",
       "category": "guidelines",
       "focus": "guidelines"
     }
   ],
   "detailed_feedback": {
-    "conflicts_assessment": "The manuscript states that all authors declare no competing interests, but it would benefit from explicit disclosure of funding sources, industry partnerships, or affiliations that could influence the research. Transparency in potential conflicts enhances trust and research integrity.",
-    "privacy_compliance": "While participant data collection is described, the manuscript lacks detailed information on data privacy measures, anonymization procedures, and storage protocols. Clarifying these aspects ensures compliance with GDPR and reassures participants about confidentiality.",
-    "consent_procedures": "The procedures for obtaining informed consent are not explicitly detailed. Clear documentation that participants provided explicit, informed consent after understanding the study\u2019s purpose, data use, and their rights is essential for ethical standards.",
-    "research_integrity": "The study employs pre-registered analyses and reports exploratory subgroup analyses transparently. However, it should specify whether multiple testing corrections were applied and whether analyses were pre-registered to prevent bias and uphold research integrity.",
-    "guidelines_adherence": "The manuscript mentions ethical approval but does not specify adherence to international guidelines such as the Declaration of Helsinki or GDPR. Explicit statements about compliance with these standards would strengthen ethical rigor."
+    "conflicts_assessment": "The manuscript states that authors declare no competing interests, but it would benefit from explicit disclosure of funding sources, potential industry ties, or advocacy group influences related to environmental data or retail partnerships. This transparency is essential to assess potential biases and uphold research integrity.",
+    "privacy_compliance": "While participant recruitment and data collection are described, the manuscript lacks detailed procedures on data anonymization, secure storage, and compliance with GDPR. Explicitly stating these measures is crucial to ensure participant confidentiality and adherence to legal standards.",
+    "consent_procedures": "The methods mention informing participants about the shopping task and incentives but do not specify how informed consent was obtained, including details about data use, withdrawal rights, and confidentiality. Clear documentation of consent procedures is necessary for ethical compliance.",
+    "research_integrity": "The inclusion of post hoc exploratory analyses on subgroups, while informative, should be clearly labeled as exploratory and interpreted cautiously to prevent overstatement. Transparency about preregistration and analysis plans supports research integrity.",
+    "guidelines_adherence": "The study mentions ethics approval and preregistration but does not explicitly reference adherence to international ethical guidelines such as the Declaration of Helsinki or GDPR. Explicit acknowledgment of these standards would strengthen the ethical rigor of the research."
   },
-  "summary": "Overall, the study demonstrates good adherence to research standards with ethical approval, transparency in analysis, and incentive-compatible design. However, it would benefit from more explicit disclosures regarding data privacy measures, informed consent procedures, and adherence to international ethical guidelines. Addressing these areas would elevate the ethical robustness and transparency of the research, moving towards an excellent standard."
+  "summary": "Overall, the study demonstrates good adherence to research standards with ethical approval, preregistration, and transparent data sharing. However, it would benefit from more explicit disclosures regarding conflicts of interest, detailed privacy and consent procedures, and alignment with international ethical guidelines. Addressing these areas would elevate the ethical robustness and transparency of the research, aligning it with best practices in human subjects research."
 }

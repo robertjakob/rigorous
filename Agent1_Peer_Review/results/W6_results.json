@@ -3,178 +3,152 @@
   "critical_remarks": [
     {
       "category": "in_text_format",
-      "location": "Throughout the manuscript, e.g., [1, 2], (28), (4), etc.",
-      "issue": "Inconsistent use of citation delimiters; some citations use brackets [ ], others parentheses ( ), and superscripts are not used at all, leading to inconsistency.",
+      "location": "Throughout the manuscript, e.g., [1], [2], (28), (4), etc.",
+      "issue": "Inconsistent use of citation delimiters; some references are in brackets, some in parentheses, and some with superscripts, leading to inconsistency.",
       "severity": "high",
-      "impact": "This inconsistency hampers clarity and adherence to a specific style guide, reducing professionalism and readability."
+      "impact": "Reduces clarity and professionalism of the manuscript, making it difficult for readers to follow citations and undermining adherence to a specific style guide."
     },
     {
       "category": "placement",
-      "location": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,'",
-      "issue": "Some citations are placed outside the sentence or in awkward positions, e.g., after commas or in the middle of sentences, which can disrupt flow.",
+      "location": "Multiple sections, e.g., in the Introduction and Methods, e.g., 'as in [28]', 'from [28]', 'see [28]', 'adapted from [28]'.",
+      "issue": "Some citations are embedded within sentences without proper punctuation or are placed awkwardly, which can disrupt reading flow.",
       "severity": "medium",
-      "impact": "Poor placement affects readability and may lead to misinterpretation of which statement the citation supports."
+      "impact": "Impairs readability and may cause confusion about whether the citation supports the entire statement or just a part of it."
     },
     {
       "category": "style_consistency",
-      "location": "Multiple sections, e.g., references [1, 2], (28), and in tables and figure captions.",
-      "issue": "Inconsistent author-date formats, e.g., some citations list multiple references separated by commas, others use hyphens or en-dashes, and some include years in brackets while others do not.",
+      "location": "Throughout the manuscript, e.g., 'adapted from [28]', 'see [28]', 'as in [28]'.",
+      "issue": "Inconsistent handling of author names and years; some citations include author names explicitly, others only numbers, and some include years, leading to style inconsistency.",
       "severity": "medium",
-      "impact": "Inconsistent style diminishes the manuscript's professionalism and can confuse readers about citation standards."
+      "impact": "Undermines uniformity and adherence to a specific citation style, potentially confusing readers and reviewers."
     },
     {
       "category": "cross_reference",
-      "location": "Throughout the manuscript, e.g., 'see [28]', 'adapted from [28]', 'see Table 1', 'see Fig. 1(a)'",
-      "issue": "Some in-text citations refer to references that are not clearly cross-checked against the reference list, and some figure/table references are inconsistent in style.",
-      "severity": "medium",
-      "impact": "Potential mismatch or confusion about sources, reducing credibility and traceability."
-    },
-    {
-      "category": "multiple_citations",
-      "location": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,'",
-      "issue": "Multiple citations are sometimes grouped without clear separation, e.g., [1, 2], [2, 3], which may not align with style guidelines for multiple references.",
-      "severity": "low",
-      "impact": "Minor; improves clarity and adherence to style guidelines if standardized."
-    },
-    {
-      "category": "figure_and_table_citations",
-      "location": "Figure 1 and Tables 1-13",
-      "issue": "Citations within figure legends and table footnotes are inconsistent, e.g., some cite 'see [28]', others omit citations or do not specify source clearly.",
-      "severity": "low",
-      "impact": "Reduces clarity about data sources and undermines transparency."
-    },
-    {
-      "category": "author_names_and_years",
-      "location": "In the reference list, e.g., [1], [2], [28], etc.",
-      "issue": "In-text citations do not consistently include author names when required by style (e.g., 'Afshin et al., 2019') versus numbered styles, but the manuscript appears to mix styles without clear consistency.",
-      "severity": "medium",
-      "impact": "Confuses the citation style and affects the manuscript's uniformity."
-    },
-    {
-      "category": "style delimiters",
-      "location": "Throughout the manuscript, e.g., 'see [28]', '(28)', 'adapted from [28]'",
-      "issue": "Inconsistent use of brackets, parentheses, and textual references; some citations are in brackets, others in parentheses, with no clear pattern.",
-      "severity": "medium",
-      "impact": "Reduces stylistic coherence and may violate journal-specific citation style requirements."
-    },
-    {
-      "category": "cross-reference accuracy",
-      "location": "In the methods and results sections, e.g., references to tables and figures",
-      "issue": "Some references to tables and figures (e.g., 'Table 1', 'Fig. 1(a)') are not hyperlinked or cross-checked, and some references to external sources (e.g., [28]) may not match the reference list entries exactly.",
-      "severity": "medium",
-      "impact": "Potential for misdirection or incorrect source attribution, affecting credibility."
-    },
-    {
-      "category": "handling of multiple citations in one location",
-      "location": "In the introduction and methods sections, e.g., '[1, 2]', '[4\u20137]'",
-      "issue": "Multiple citations are sometimes not formatted according to the style guide, e.g., inconsistent use of hyphens, commas, or spacing.",
-      "severity": "low",
-      "impact": "Minor; standardization would improve clarity."
+      "location": "Throughout the reference citations, e.g., '[28]', 'see [28]', 'adapted from [28]'.",
+      "issue": "No verification that all in-text citations correspond accurately to the reference list entries; potential for mismatches or missing references.",
+      "severity": "high",
+      "impact": "Compromises the credibility of the manuscript; readers cannot verify sources, which affects scholarly integrity."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' [1, 2]",
-      "improved_version": "In the paragraph starting with 'Dietary choices significantly impact both human health and the environment,' (Afshin et al., 2019; Grummon et al., 2023)",
-      "explanation": "Switching to author-year format enhances clarity, aligns with common style guides (e.g., APA), and improves consistency.",
-      "location": "Throughout the manuscript, especially in the main text",
+      "original_text": "adapted from [28]",
+      "improved_version": "adapted from (28)",
+      "explanation": "Switching brackets to parentheses aligns with common citation styles like APA or Vancouver, ensuring consistency and clarity.",
+      "location": "Throughout the manuscript where references are cited in the text, e.g., 'adapted from [28]'",
       "category": "in_text_format",
       "focus": "in_text_format"
     },
     {
-      "original_text": "Multiple references grouped as [1, 2], [2, 3], etc.",
-      "improved_version": "Multiple references grouped as (1, 2), (2, 3), etc.",
-      "explanation": "Using parentheses and commas for multiple citations aligns with standard styles like APA, improving readability and consistency.",
-      "location": "In the introduction and methods sections",
+      "original_text": "see [28]",
+      "improved_version": "see (28)",
+      "explanation": "Using parentheses instead of brackets for in-text citations maintains uniformity and adheres to standard citation styles, improving readability.",
+      "location": "Throughout the manuscript, e.g., 'see [28]'",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "as in [28]",
+      "improved_version": "as in (28)",
+      "explanation": "Replacing brackets with parentheses ensures consistent formatting, which is crucial for professional presentation and style adherence.",
+      "location": "In the Methods and Results sections, e.g., 'as in [28]'",
+      "category": "in_text_format",
+      "focus": "in_text_format"
+    },
+    {
+      "original_text": "e.g., 'see [28]'",
+      "improved_version": "e.g., 'see (28)'",
+      "explanation": "Consistent use of parentheses for citations improves uniformity and aligns with common referencing styles like APA or Vancouver.",
+      "location": "Within explanatory phrases, e.g., 'see [28]'",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "Citations like 'see [28]' and 'adapted from [28]'",
-      "improved_version": "see (O\u2019Sullivan et al., 2024)",
-      "explanation": "Replacing numbered references with author-year format clarifies source attribution and aligns with style guidelines.",
-      "location": "In the methods and results sections",
+      "original_text": "e.g., 'adapted from [28]'",
+      "improved_version": "e.g., 'adapted from (28)'",
+      "explanation": "Ensures citation style consistency, which enhances the manuscript\u2019s professionalism and clarity.",
+      "location": "In methodological descriptions, e.g., 'adapted from [28]'",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "References to figures and tables, e.g., 'Fig. 1(a)'",
-      "improved_version": "Fig. 1(a) and Table 1",
-      "explanation": "Ensure all figure and table references are consistently formatted and cross-checked with the list, improving clarity and traceability.",
-      "location": "Throughout the manuscript",
+      "original_text": "The impact assessment for GHG emissions was derived from [28]",
+      "improved_version": "The impact assessment for GHG emissions was derived from (28)",
+      "explanation": "Standardizes citation delimiters, supporting a cohesive style throughout the manuscript.",
+      "location": "In the Methods section, e.g., 'from [28]'",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "Citations within figure legends, e.g., 'adapted from [28]'",
-      "improved_version": "adapted from (O\u2019Sullivan et al., 2024)",
-      "explanation": "Consistent author-year citation format within figure legends enhances clarity and style uniformity.",
-      "location": "Figure legends",
+      "original_text": "All references are in the reference list, but some citations lack years, e.g., '[28]' without author-year format.",
+      "improved_version": "Include author names and years in the in-text citations where appropriate, e.g., '(O\u2019Sullivan et al., 2024)' or '(28)' depending on style.",
+      "explanation": "Adding author names and years enhances clarity and aligns with styles like Harvard or APA, aiding reader comprehension.",
+      "location": "Throughout the manuscript, especially in literature review sections",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "Inconsistent use of author names and years, e.g., '[1]', '(28)'",
-      "improved_version": "Standardize all citations to author-year format, e.g., '(Afshin et al., 2019)' or '(O\u2019Sullivan et al., 2024)', depending on journal style.",
-      "explanation": "Uniform citation style improves professionalism and reader comprehension.",
-      "location": "Throughout the manuscript",
+      "original_text": "Multiple citations in a single sentence, e.g., '[1, 2]', are sometimes inconsistent with style guides.",
+      "improved_version": "Use a consistent format, e.g., '(1; 2)' for Vancouver style or '(1, 2)' for APA, depending on the style guide.",
+      "explanation": "Consistent formatting of multiple citations improves readability and adheres to citation standards.",
+      "location": "In sentences with multiple references, e.g., 'morbidity and mortality [1, 2]'",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "Citations like 'see [28]' and 'adapted from [28]'",
-      "improved_version": "see (O\u2019Sullivan et al., 2024)",
-      "explanation": "Replacing numbered references with author-year format clarifies source attribution and aligns with style guidelines.",
-      "location": "In the methods and results sections",
+      "original_text": "In-text citations are sometimes placed after punctuation, sometimes before, e.g., 'climate change targets [11].'",
+      "improved_version": "Place in-text citations immediately after the relevant statement or phrase, before punctuation, e.g., 'climate change targets (11).'",
+      "explanation": "Proper placement of citations ensures clarity about what the citation supports and aligns with style guidelines.",
+      "location": "Throughout the manuscript, e.g., after statements about climate targets",
+      "category": "placement",
+      "focus": "placement"
+    },
+    {
+      "original_text": "Some citations are embedded mid-sentence without clear support boundaries.",
+      "improved_version": "Place citations at the end of the sentence or clause they support, e.g., 'climate change impacts (4).'",
+      "explanation": "Clear placement enhances readability and makes it explicit which statement is supported by the citation.",
+      "location": "In the Results and Discussion sections",
+      "category": "placement",
+      "focus": "placement"
+    },
+    {
+      "original_text": "Some citations are inconsistent in author name presentation, e.g., 'see [28]' versus 'as in [28]'.",
+      "improved_version": "Standardize to one format, e.g., '(28)' throughout, or '(Author, Year)' if author names are included.",
+      "explanation": "Consistency in citation style reduces confusion and presents a professional, polished manuscript.",
+      "location": "Throughout the manuscript, e.g., in methodological descriptions and literature references",
+      "category": "style_consistency",
+      "focus": "style_consistency"
+    },
+    {
+      "original_text": "Cross-reference accuracy is not verified; some in-text citations may not match reference list entries.",
+      "improved_version": "Cross-check all in-text citations against the reference list to ensure each number corresponds to the correct source, updating as necessary.",
+      "explanation": "Ensuring accurate cross-referencing maintains scholarly integrity and allows readers to verify sources reliably.",
+      "location": "Throughout the manuscript, especially in the Methods and References sections",
       "category": "cross_reference",
       "focus": "cross_reference"
     },
     {
-      "original_text": "Use of hyphens or en-dashes in multiple citations, e.g., [4\u20137]",
-      "improved_version": "Use en-dashes for ranges, e.g., (4\u20137), and ensure consistent spacing and formatting according to style guide.",
-      "explanation": "Consistent use of range delimiters improves clarity and style uniformity.",
-      "location": "In the introduction and references",
+      "original_text": "Multiple citations in one place, e.g., '[2, 28]', are sometimes inconsistent in formatting.",
+      "improved_version": "Use a consistent separator, e.g., '(2; 28)' for Vancouver style or '(2, 28)' for APA, and ensure uniformity across the manuscript.",
+      "explanation": "Consistent formatting of multiple citations improves clarity and adheres to style standards.",
+      "location": "In lists of references supporting a statement",
       "category": "style_consistency",
       "focus": "style_consistency"
     },
     {
-      "original_text": "References to 'see Table 1' or 'see Fig. 1(a)'",
-      "improved_version": "see Table 1 and Fig. 1(a)",
-      "explanation": "Ensure all figure and table references are consistently formatted and cross-checked with the list, improving clarity and traceability.",
-      "location": "Throughout the manuscript",
-      "category": "cross_reference",
-      "focus": "cross_reference"
-    },
-    {
-      "original_text": "Inconsistent citation delimiters, e.g., brackets vs parentheses",
-      "improved_version": "Adopt a single style, e.g., all citations in parentheses (Author, Year) or brackets [Number], as per journal guidelines, and apply uniformly throughout.",
-      "explanation": "Uniform delimiters enhance stylistic coherence and professionalism.",
-      "location": "Throughout the manuscript",
-      "category": "style_consistency",
-      "focus": "style_consistency"
-    },
-    {
-      "original_text": "Citations like 'see [28]' in the text and 'adapted from [28]' in figure legends",
-      "improved_version": "Ensure all references to source materials use the same format, e.g., (O\u2019Sullivan et al., 2024), and verify that all references are correctly listed.",
-      "explanation": "Consistency in referencing style and accuracy in cross-referencing improve credibility and ease of source verification.",
-      "location": "Throughout the manuscript",
-      "category": "cross_reference",
-      "focus": "cross_reference"
-    },
-    {
-      "original_text": "Multiple citations in one sentence, e.g., [1, 2], (4\u20137)",
-      "improved_version": "Use consistent formatting, e.g., (1, 2) and (4\u20137), with proper spacing and punctuation, following style guide recommendations.",
-      "explanation": "Standardized formatting of multiple citations enhances clarity and professionalism.",
-      "location": "Main text and tables",
+      "original_text": "References to figures and tables, e.g., 'Fig. 1(a)', are sometimes not formatted as in-text citations.",
+      "improved_version": "Maintain consistent citation style, e.g., 'Figure 1(a)' or '(see Figure 1a)', depending on journal style.",
+      "explanation": "Consistent referencing of figures and tables enhances clarity and professionalism.",
+      "location": "In the main text where figures/tables are referenced",
       "category": "style_consistency",
       "focus": "style_consistency"
     }
   ],
   "detailed_feedback": {
-    "in_text_citation_format": "The manuscript exhibits a mixture of citation styles, including numbered brackets [ ] and parentheses ( ), with inconsistent application throughout. Some citations include author names with years, while others are purely numeric. This inconsistency affects clarity and adherence to a specific style guide such as APA or Vancouver. Consistent use of either author-year format or numbered style, as per journal requirements, is essential for professionalism.",
-    "placement_analysis": "Citations are sometimes placed awkwardly, such as immediately after commas or in the middle of sentences, which can disrupt reading flow. Proper placement is typically at the end of relevant clauses or sentences, immediately following the statement they support, to improve readability and logical flow.",
-    "style_consistency_analysis": "The manuscript inconsistently applies delimiters for multiple references, sometimes using commas, hyphens, or en-dashes without uniformity. Author names are omitted in in-text citations that should include them if following author-year style. The inconsistent use of brackets, parentheses, and formatting of ranges diminishes stylistic coherence and may violate journal style guidelines.",
-    "cross_reference_accuracy": "References to figures, tables, and external sources are sometimes inconsistent or not cross-verified with the reference list. For example, citations like [28] are used in multiple contexts, but the matching reference details are not always clear or correctly formatted. Ensuring all in-text references accurately correspond to the reference list entries is crucial for source traceability."
+    "in_text_citation_format": "The manuscript exhibits inconsistent use of citation delimiters, alternating between brackets [ ] and parentheses ( ). This inconsistency hampers readability and professionalism. The preferred style should be uniform, such as parentheses (28) for numerical styles like Vancouver or author-year formats like (Author, Year). Additionally, some citations include author names explicitly, while others only use numbers, leading to style fragmentation. Standardizing all in-text citations to a single format aligned with the target journal or style guide is essential.",
+    "placement_analysis": "Citations are sometimes placed immediately after statements without proper punctuation or are embedded mid-sentence, which can disrupt reading flow. For example, 'as in [28]' appears in the middle of a sentence, which could be clearer if placed at sentence ends or integrated more smoothly. Proper placement, such as immediately after the relevant clause and before punctuation, enhances clarity and aligns with style guidelines.",
+    "style_consistency_analysis": "There is a lack of uniformity in how citations are handled\u2014some are embedded with author names, some are numerical, and the formatting varies. For instance, 'adapted from [28]' versus 'see [28]' versus 'as in [28]'\u2014these should be harmonized. Adopting a single style, such as all citations in parentheses with numbers, or author-year format, will improve the manuscript's professionalism and coherence.",
+    "cross_reference_accuracy": "The manuscript references numerous sources with in-text citations like [28], but without verification against the reference list, potential mismatches or missing entries could exist. Ensuring each in-text citation correctly corresponds to the reference list entry is crucial for scholarly integrity. A thorough cross-check is recommended to confirm accuracy and completeness."
   },
-  "summary": "Overall, the manuscript demonstrates acceptable citation practices but suffers from notable inconsistencies in formatting, placement, and style. These issues, while not severely impacting comprehension, reduce the manuscript's professionalism and adherence to academic standards. Addressing these issues by standardizing citation style, improving placement, and ensuring cross-reference accuracy will significantly enhance citation quality and manuscript coherence."
+  "summary": "Overall, the manuscript demonstrates acceptable citation practices but suffers from inconsistent formatting, placement, and style handling of in-text citations. Addressing these issues by standardizing delimiters, ensuring proper placement, and verifying cross-references will significantly enhance clarity, professionalism, and adherence to scholarly standards. Implementing these improvements will facilitate reader comprehension and meet the expectations of high-quality academic publishing."
 }

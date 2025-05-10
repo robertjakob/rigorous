@@ -1,138 +1,138 @@
 {
-  "score": 3,
+  "score": 4,
   "critical_remarks": [
     {
-      "category": "relevance",
-      "location": "Introduction and Methods sections",
-      "issue": "The supplementary materials include extensive methodological and statistical details but lack explicit linkage or discussion on how these details directly support or extend the main manuscript's core findings.",
+      "category": "completeness",
+      "location": "Section 2.1, Methods",
+      "issue": "The description of the life cycle assessment (LCA) methodology references [28] but lacks sufficient detail within the supplement to understand the exact impact assessment process, assumptions, and data sources used for GHGE calculations.",
       "severity": "medium",
-      "impact": "This reduces clarity for readers seeking to understand the added value of the supplement and may hinder the perceived relevance of detailed analyses to the main research questions."
+      "impact": "This limits the reproducibility and transparency of the environmental impact data, potentially affecting the credibility of the results."
     },
     {
-      "category": "completeness",
-      "location": "Appendix tables and descriptions",
-      "issue": "Some tables (e.g., Tables 4, 5, 6) are referenced but lack comprehensive legends or contextual explanations, making it difficult to interpret the data without cross-referencing the main text.",
-      "severity": "high",
-      "impact": "This compromises the completeness and usability of the supplementary materials, potentially confusing readers and limiting independent understanding."
+      "category": "relevance",
+      "location": "Abstract and Introduction",
+      "issue": "Some detailed background information on dietary guidelines and broader environmental impacts, while relevant, could be more tightly linked to the specific intervention tested to enhance focus.",
+      "severity": "low",
+      "impact": "This could dilute the emphasis on the core experimental intervention and its direct implications."
     },
     {
       "category": "clarity",
-      "location": "Methodology description",
-      "issue": "The description of the experimental design, especially the randomization and intervention procedures, is verbose and occasionally redundant, which hampers quick comprehension.",
-      "severity": "low",
-      "impact": "This affects presentation clarity, making it harder for readers to grasp the experimental setup efficiently."
+      "location": "Section 2.3, Intervention and experimental conditions",
+      "issue": "The explanation of the targeted versus non-targeted swaps and the highlighting of the most effective swap could be clearer, as the current description is somewhat dense and technical.",
+      "severity": "medium",
+      "impact": "This may hinder reader understanding of the experimental manipulation, affecting interpretability."
     },
     {
       "category": "organization",
-      "location": "Appendix structure",
-      "issue": "The appendix contains numerous tables and sections with inconsistent formatting and ordering, leading to a fragmented reading experience.",
-      "severity": "medium",
-      "impact": "This diminishes overall coherence and makes navigation through supplementary data less intuitive."
+      "location": "Section 2.5, Statistical analysis",
+      "issue": "The description of the analyses, especially the exploratory subgroup analyses, is somewhat scattered and could benefit from clearer subheadings or flow to distinguish preregistered from post hoc analyses.",
+      "severity": "low",
+      "impact": "This affects the ease of following the analytical framework and understanding the robustness of the findings."
     },
     {
-      "category": "presentation",
-      "location": "Figures and tables",
-      "issue": "Figures (e.g., Fig. 2, 3) are embedded with minimal captions and no clear legends, reducing interpretability of the visual data.",
-      "severity": "medium",
-      "impact": "This impairs accessibility and the immediate understanding of key results presented visually."
+      "category": "accessibility",
+      "location": "Throughout the supplement",
+      "issue": "The extensive use of technical terms, statistical jargon, and references to appendices without summarizing key points reduces accessibility for readers unfamiliar with advanced statistical methods.",
+      "severity": "low",
+      "impact": "This may limit comprehension and usability for a broader audience."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
-      "improved_version": "The GHG impact assessment was based on the Global Warming Potential (GWP) 100a metric [4], which quantifies the climate impact of various greenhouse gases (CO\u2082, CH\u2084, N\u2082O) over a 100-year horizon, expressed in CO\u2082 equivalents. This detail is crucial for understanding the environmental impact calculations.",
-      "explanation": "Clarifies the methodological basis for GHG calculations, enhancing transparency and completeness.",
-      "location": "Section 2.1 Methods",
+      "original_text": "Greenhouse gas emissions data for products were adapted from [28], where they were estimated using a bottom-up life cycle assessment (LCA) that inte- grated data from product-specific sources and life cycle inventory databases.",
+      "improved_version": "Provide a concise summary of the LCA methodology, including key assumptions, data sources, and impact assessment metrics, within the supplement itself, rather than solely referencing [28].",
+      "explanation": "Adding methodological details enhances transparency, reproducibility, and reader understanding of the environmental impact data used.",
+      "location": "Section 2.1, Methods",
       "category": "completeness",
       "focus": "detail"
     },
     {
-      "original_text": "Tables 4, 5, 6 are referenced but lack comprehensive legends or explanations.",
-      "improved_version": "Add detailed legends below each table, explaining the variables, units, and sample characteristics. For example, for Table 4, specify that it summarizes demographic data, including age, gender, and dietary habits, with standard deviations where applicable.",
-      "explanation": "Improves interpretability and usability of tables, making the supplementary data more self-contained.",
-      "location": "Appendix Tables 4-6",
+      "original_text": "The impact assessment for GHG emissions was derived from the Global Warming Potential (GWP) 100a [4], which takes into account all GHG emissions that contribute to climate change, and for a time horizon of 100 years, each greenhouse gas (carbon dioxide, methane, nitrous oxide) is compared with the climate impact of carbon dioxide and expressed in carbon dioxide equivalents.",
+      "improved_version": "Include a brief explanation of GWP 100a, such as its calculation basis, why it is appropriate for this study, and how it influences the GHGE estimates, within the supplement for clarity.",
+      "explanation": "Clarifying the GWP metric helps readers understand the environmental impact assessment and its relevance.",
+      "location": "Section 2.1, Methods",
+      "category": "completeness",
+      "focus": "thoroughness"
+    },
+    {
+      "original_text": "The explanation provided at top of the swap recommendations page on how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact.",
+      "improved_version": "Rephrase as: 'An introductory paragraph clearly explaining the environmental benefits of plant-based swaps, including specific GHGE reduction examples, to improve clarity and engagement.'",
+      "explanation": "A clearer, more engaging explanation improves participant understanding and motivation.",
+      "location": "Section 2.3, Intervention",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "Figures 2 and 3 are embedded with minimal captions.",
-      "improved_version": "Enhance figure captions to explicitly describe what each figure illustrates, including sample groups, variables plotted, and key findings. For example, 'Figure 2 shows the effect of intervention conditions on average GHGE reduction across all participants, with error bars representing standard errors.'",
-      "explanation": "Increases accessibility and immediate comprehension of visual data, aiding interpretation.",
-      "location": "Figures 2 and 3",
-      "category": "clarity",
-      "focus": "presentation"
-    },
-    {
-      "original_text": "The organization of the appendix is somewhat fragmented, with tables and sections appearing out of logical order.",
-      "improved_version": "Reorganize the appendix to follow a logical flow: first, participant characteristics; second, detailed measures; third, statistical results; and finally, supplementary analyses. Use clear section headings and a table of contents for navigation.",
-      "explanation": "Enhances coherence and ease of navigation, making it more user-friendly for readers seeking specific information.",
-      "location": "Entire appendix",
+      "original_text": "Participants were instructed to proceed through the online supermarket to checkout, as if they were doing their weekly grocery shopping.",
+      "improved_version": "Add a brief note on how the online environment mimics real shopping behaviors, e.g., 'The interface was designed to resemble a real supermarket to enhance ecological validity.'",
+      "explanation": "This contextualizes the setting, emphasizing its realism and relevance.",
+      "location": "Section 2.1, Methods",
       "category": "organization",
       "focus": "structure"
     },
     {
-      "original_text": "The description of the intervention procedures is verbose and could be streamlined.",
-      "improved_version": "Condense the intervention description to focus on key steps: participant randomization, explanation of swap recommendations, and presentation of GHGE info. Use bullet points or numbered lists for clarity.",
-      "explanation": "Improves clarity and accessibility by making procedural details more digestible.",
-      "location": "Section 2.3 Intervention and experimental conditions",
+      "original_text": "The supplementary materials contain extensive tables and appendices, but some key results, such as the effect sizes and confidence intervals for main findings, are only summarized in the text.",
+      "improved_version": "Include a summary table within the supplement that highlights main effect sizes, confidence intervals, and p-values for all primary outcomes for quick reference.",
+      "explanation": "Enhances accessibility and quick comprehension of key results, aiding readers in assessing significance and robustness.",
+      "location": "Main results section",
       "category": "clarity",
       "focus": "presentation"
     },
     {
-      "original_text": "The supplementary materials include detailed statistical tables but lack summary or interpretation of key findings.",
-      "improved_version": "Add brief interpretive summaries after each table, highlighting main effects, significance levels, and implications. For example, 'Table 2 indicates that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly reduce overall GHGE.'",
-      "explanation": "Facilitates understanding and emphasizes the relevance of the data, improving completeness and clarity.",
-      "location": "Throughout the results section",
+      "original_text": "The supplementary materials could benefit from a clearer organization of the analysis sections, perhaps with subheadings distinguishing preregistered from exploratory analyses.",
+      "improved_version": "Add explicit subheadings such as 'Preregistered Analyses' and 'Exploratory Analyses' to improve navigation and clarity.",
+      "explanation": "Clearer structure helps readers follow the analytical flow and understand the distinction between confirmatory and post hoc tests.",
+      "location": "Section 2.5, Statistical analysis",
       "category": "organization",
-      "focus": "accessibility"
+      "focus": "structure"
     },
     {
-      "original_text": "Some tables (e.g., Tables 8-11) report multiple regression results with complex interaction terms.",
-      "improved_version": "Include a brief methodological note explaining the rationale for including interaction terms and how to interpret them. Consider adding simplified diagrams or flowcharts illustrating the interactions' effects on outcomes.",
-      "explanation": "Enhances understanding of complex analyses, improving clarity and thoroughness.",
-      "location": "Appendix Tables 8-11",
+      "original_text": "Some tables, such as Tables 8\u201313, contain multiple regression results with numerous covariates, which may overwhelm readers.",
+      "improved_version": "Provide brief interpretative summaries or highlights of key findings from each table directly below the tables to aid understanding.",
+      "explanation": "Summaries make complex statistical results more accessible and emphasize their relevance.",
+      "location": "Tables 8\u201313",
       "category": "clarity",
-      "focus": "detail"
+      "focus": "presentation"
     },
     {
-      "original_text": "The supplementary materials do not explicitly state how the appendix relates to the main findings.",
-      "improved_version": "Add an introductory paragraph at the beginning of the appendix explaining that these materials provide detailed methodological, statistical, and supplementary analyses supporting the main manuscript's conclusions.",
-      "explanation": "Clarifies the purpose and relevance of the supplement, improving coherence and relevance.",
-      "location": "Beginning of the appendix",
-      "category": "relevance",
-      "focus": "connection"
+      "original_text": "The supplement includes detailed demographic data, but it could be enhanced by including a visual summary, such as a demographic profile chart or infographic.",
+      "improved_version": "Add a visual infographic summarizing participant demographics, including age, gender, dietary habits, and income levels.",
+      "explanation": "Visual summaries improve accessibility, engagement, and quick comprehension for diverse audiences.",
+      "location": "Appendix, participant characteristics",
+      "category": "accessibility",
+      "focus": "usability"
     },
     {
-      "original_text": "The data and code links are provided but could benefit from clearer instructions on how to access and use these resources.",
-      "improved_version": "Include a brief note explaining that all data and analysis scripts are publicly available via the provided DOIs, with instructions such as 'Visit the OSF link, navigate to the 'Data' and 'Code' folders, and follow the README instructions for replication.'",
-      "explanation": "Improves accessibility and usability for researchers wishing to verify or extend the analyses.",
+      "original_text": "The description of the experimental design mentions four conditions but could specify the rationale for choosing these particular combinations.",
+      "improved_version": "Include a brief rationale for the 2x2 factorial design, explaining why Targeted and Information factors were selected and their expected interaction effects.",
+      "explanation": "Clarifies the theoretical basis for the design, aiding interpretability and justification.",
+      "location": "Section 2.3, Intervention and experimental conditions",
+      "category": "organization",
+      "focus": "alignment"
+    },
+    {
+      "original_text": "The supplementary materials mention that the code and data are publicly available but do not specify the formats or provide direct links within the text.",
+      "improved_version": "Embed direct hyperlinks to the data and code repositories and specify file formats (e.g., CSV, R scripts) for ease of access and usability.",
+      "explanation": "Facilitates immediate access and usability for researchers wishing to replicate or explore the analyses.",
       "location": "Data and code availability statements",
       "category": "accessibility",
       "focus": "usability"
     },
     {
-      "original_text": "Some references (e.g., [28]) are cited multiple times but lack detailed annotation or context in the supplement.",
-      "improved_version": "Add brief annotations or summaries of key references within the supplement, explaining their relevance, such as 'Reference [28] provides the baseline GHG data used for calculating the impact of product swaps.'",
-      "explanation": "Enhances completeness and contextual understanding of cited literature.",
-      "location": "Throughout the document",
-      "category": "completeness",
-      "focus": "detail"
-    },
-    {
-      "original_text": "The supplementary materials could include a summary table of key hypotheses tested and whether they were supported.",
-      "improved_version": "Add a summary table listing each hypothesis, the corresponding analysis, and whether the results supported or refuted it, with brief notes on significance levels.",
-      "explanation": "Provides a clear overview of the research outcomes, improving organization and clarity.",
-      "location": "End of the supplementary section",
-      "category": "organization",
-      "focus": "clarity"
+      "original_text": "The appendix contains detailed tables but lacks a concise executive summary highlighting the main findings and their implications.",
+      "improved_version": "Add a brief summary paragraph at the beginning of the appendix highlighting key results, significance levels, and implications for policy or future research.",
+      "explanation": "Provides quick orientation for readers and emphasizes the importance of the detailed data.",
+      "location": "Appendix",
+      "category": "clarity",
+      "focus": "organization"
     }
   ],
   "detailed_feedback": {
-    "relevance_analysis": "The supplementary materials contain extensive methodological and statistical details that support the main findings but lack explicit discussion on how these details extend or reinforce the core conclusions. Clearer linkage or commentary would improve perceived relevance.",
-    "clarity_analysis": "While the technical details are thorough, some descriptions are verbose and could be streamlined for better readability. Figures lack descriptive legends, which hampers immediate understanding. Overall, formatting inconsistencies reduce clarity.",
-    "consistency_analysis": "The supplement generally aligns with the main text but would benefit from explicit cross-references and summaries that tie detailed analyses back to the main hypotheses and findings, ensuring coherence.",
-    "completeness_analysis": "The tables and figures provide valuable data but often lack sufficient legends or explanations, limiting standalone interpretability. Additional summaries and contextual notes are needed to make the supplement fully self-contained.",
-    "organization_analysis": "The appendix appears somewhat fragmented, with inconsistent ordering and sectioning. A logical, hierarchical structure with clear headings and a table of contents would enhance navigation and overall coherence."
+    "relevance_analysis": "The supplementary materials are generally aligned with the main manuscript, providing detailed methodological, statistical, and demographic information that supports the core findings. However, some background sections could be more tightly linked to the specific intervention tested, emphasizing how the supplementary data directly underpin the experimental design and results.",
+    "clarity_analysis": "While the supplement is comprehensive, some sections, especially the descriptions of experimental manipulations and statistical analyses, could be clearer with better structuring, simplified language, and visual aids. The dense presentation of tables and references to appendices may challenge readers unfamiliar with advanced statistical reporting.",
+    "consistency_analysis": "The supplementary materials are consistent with the main text in terminology, scope, and reporting style. Minor inconsistencies, such as varying descriptions of the intervention conditions, could be harmonized for coherence. The detailed tables match the described analyses, supporting the manuscript's claims.",
+    "completeness_analysis": "The supplement provides extensive data, including detailed regression results, demographic profiles, and methodological references. Nonetheless, some methodological details, particularly regarding the environmental impact assessment, are only referenced rather than fully described, which could hinder full reproducibility.",
+    "organization_analysis": "The materials are logically structured into sections covering methods, results, and appendices. However, the flow could be improved with clearer subheadings, summaries, and visual aids. Grouping related analyses and explicitly distinguishing preregistered from exploratory analyses would enhance navigability."
   },
-  "summary": "The supplementary materials are comprehensive and contain valuable detailed analyses, but they suffer from issues related to clarity, organization, and explicit relevance to the main manuscript. Addressing these issues through clearer structuring, improved legends, and explicit linkages would elevate their quality from average to excellent. Overall, the materials are acceptable but could be significantly improved with targeted revisions to enhance usability and interpretability."
+  "summary": "Overall, the supplementary materials are of good quality, providing substantial detail to support the main manuscript. They are generally well-aligned and comprehensive but could benefit from improved clarity, better organization, and added visual summaries to enhance accessibility and usability. Addressing these issues would elevate the supplement to an excellent standard, facilitating understanding, reproducibility, and engagement across diverse audiences."
 }

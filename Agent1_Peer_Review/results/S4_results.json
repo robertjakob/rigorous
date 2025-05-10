@@ -3,144 +3,144 @@
   "critical_remarks": [
     {
       "category": "coverage",
-      "location": "Introduction and Literature Context",
-      "issue": "The review predominantly focuses on environmental impacts and dietary change strategies but lacks comprehensive coverage of behavioral theories, policy frameworks, and technological interventions relevant to promoting sustainable food choices.",
+      "location": "Introduction and Literature Review Sections",
+      "issue": "The review predominantly focuses on recent empirical and simulation studies related to product swaps and GHGE reduction, but lacks comprehensive coverage of broader theoretical frameworks, historical development of dietary sustainability concepts, and diverse environmental impacts beyond GHGE.",
       "severity": "high",
-      "impact": "This limits the depth and breadth of the theoretical grounding, reducing the review's capacity to contextualize findings within broader behavioral and policy literature."
+      "impact": "This limits the depth and contextual richness of the review, potentially overlooking key foundational theories and alternative sustainability metrics that could strengthen the research rationale."
     },
     {
       "category": "analysis",
-      "location": "Discussion and Critical Evaluation",
-      "issue": "The review reports null effects for targeted recommendations and GHGE information but does not sufficiently explore potential reasons, alternative explanations, or limitations of the experimental design.",
+      "location": "Discussion and Results Sections",
+      "issue": "The review presents descriptive summaries of findings but lacks critical engagement with conflicting evidence, limitations of prior studies, or nuanced discussion of mechanisms underlying consumer behaviour change.",
       "severity": "high",
-      "impact": "This diminishes the critical depth, making the discussion less nuanced and potentially overlooking important contextual factors influencing outcomes."
+      "impact": "This diminishes the analytical rigor and interpretative depth, reducing the review's capacity to inform theoretical or practical implications robustly."
     },
     {
       "category": "structure",
-      "location": "Organization and Flow",
-      "issue": "The literature review sections are lengthy and somewhat disjointed, with limited explicit signposting or thematic segmentation, which hampers reader navigation.",
+      "location": "Overall Organization",
+      "issue": "The flow between sections, especially from literature background to hypotheses and methods, is somewhat disjointed, with abrupt transitions and limited signposting, which hampers reader comprehension.",
       "severity": "medium",
-      "impact": "This affects clarity and coherence, making it harder for readers to follow the development of arguments and the integration of literature."
+      "impact": "This affects clarity and logical coherence, making it harder for readers to follow the development of the research argument."
     },
     {
       "category": "citations",
-      "location": "Reference Quality and Recency",
-      "issue": "While foundational studies are well-cited, there is an over-reliance on older references (e.g., from 2000-2010) and limited inclusion of recent advances in behavioral interventions, digital nudging, and policy developments.",
+      "location": "Throughout the review",
+      "issue": "While the review cites numerous relevant studies, many references are somewhat outdated or lack diversity in sources, with limited engagement with recent reviews or meta-analyses that synthesize broader evidence.",
       "severity": "medium",
-      "impact": "This reduces the currency and relevance of the review, potentially missing recent innovations and emerging evidence."
+      "impact": "This may weaken the perceived currency and comprehensiveness of the literature base, potentially missing recent advances or consensus views."
     },
     {
       "category": "integration",
-      "location": "Research Connection and Synthesis",
-      "issue": "The review tends to summarize individual studies without sufficiently synthesizing findings across different approaches or explicitly connecting them to the current study\u2019s aims and broader literature.",
+      "location": "Discussion and Conclusion",
+      "issue": "The review does not sufficiently connect empirical findings to existing theories of behaviour change, consumer psychology, or policy frameworks, limiting the integration of research into broader conceptual contexts.",
       "severity": "medium",
-      "impact": "This limits the depth of synthesis, reducing the review\u2019s ability to build a cohesive argument or identify nuanced research gaps."
+      "impact": "This constrains the theoretical contribution and practical relevance of the study, reducing its potential impact."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "The study examines the effectiveness of specific and actionable product swap recommendations - proposing plant-based alternatives in place of animal-based products - within an experimental online supermarket setting.",
-      "improved_version": "Expand the discussion to include a broader range of behavioral theories (e.g., Theory of Planned Behavior, Nudge Theory) and policy frameworks (e.g., labeling policies, subsidies) that underpin or complement product swap interventions.",
-      "explanation": "Incorporating theoretical and policy perspectives enriches the contextual understanding and demonstrates how the intervention fits within existing strategies, enhancing relevance and depth.",
+      "improved_version": "Expand the literature review to include theoretical frameworks such as the Theory of Planned Behavior, Social Practice Theory, or Nudge Theory, which underpin consumer decision-making and behaviour change in sustainable food choices.",
+      "explanation": "Incorporating these frameworks will provide a stronger conceptual foundation, situating the empirical findings within established theories and enhancing interpretative depth.",
       "location": "Introduction",
       "category": "coverage",
       "focus": "breadth"
     },
     {
-      "original_text": "The regression analysis did not reveal any statistically significant effects of Targeted or Information treatments on GHGE reduction compared to the reference group.",
-      "improved_version": "Add a critical discussion of potential reasons for null findings, such as ceiling effects, participant engagement levels, or measurement limitations, and suggest avenues for future research to address these issues.",
-      "explanation": "This deepens critical analysis by acknowledging limitations and fostering a more nuanced interpretation of results.",
-      "location": "Results section",
+      "original_text": "Dietary choices significantly impact both human health and the environment, with food-related greenhouse gas emissions (GHGE) constituting a major contributor to climate change.",
+      "improved_version": "Include a historical overview of how dietary sustainability research has evolved over the past two decades, highlighting shifts from broad guidelines to targeted interventions like product swaps, and discuss the development of environmental impact metrics beyond GHGE, such as water use and biodiversity.",
+      "explanation": "Adding historical context will demonstrate the progression of the field, clarify the novelty of the current approach, and acknowledge multidimensional sustainability concerns.",
+      "location": "Introduction",
+      "category": "coverage",
+      "focus": "depth"
+    },
+    {
+      "original_text": "While broad dietary guidelines advocate for reducing animal-based food consumption, these recommendations often lack the specific and actionable direction to motivate behaviour change.",
+      "improved_version": "Review literature on the effectiveness of specific, actionable dietary interventions versus general guidelines, citing meta-analyses or systematic reviews that compare different strategies for behaviour change.",
+      "explanation": "This will strengthen the rationale for focusing on product swaps by situating it within evidence-based intervention strategies, highlighting gaps the current study aims to fill.",
+      "location": "Introduction",
+      "category": "coverage",
+      "focus": "relevance"
+    },
+    {
+      "original_text": "Participants were overall receptive to receiving product swap recommendations.",
+      "improved_version": "Critically analyze prior studies on consumer receptivity to sustainability labels, product recommendations, and information provision, discussing factors influencing acceptance and potential biases.",
+      "explanation": "This critical analysis will contextualize the findings, acknowledging variability and limitations in consumer responses documented in the literature.",
+      "location": "Results/Discussion",
       "category": "analysis",
       "focus": "synthesis"
     },
     {
-      "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-      "improved_version": "Organize the results thematically, explicitly contrasting overall engagement with subgroup analyses (e.g., daily meat consumers), and include a summary paragraph that synthesizes these findings for clarity.",
-      "explanation": "Improves structural clarity and logical flow, helping readers understand the significance of different findings within a cohesive narrative.",
-      "location": "Results section",
-      "category": "structure",
-      "focus": "organization"
-    },
-    {
-      "original_text": "While nutrition fact labels are already established, sustainability labels have also been shown to support more environmentally conscious food choices.",
-      "improved_version": "Include recent references (post-2020) on digital nudging, environmental labeling, and behavioral economics to ensure the review reflects cutting-edge developments.",
-      "explanation": "Enhances currency and relevance, positioning the review within the latest research landscape.",
-      "location": "Citations",
-      "category": "citations",
-      "focus": "recency"
-    },
-    {
-      "original_text": "Providing consumers with information about the environmental impact of their food choices is a key intervention for promoting climate-friendly behaviour.",
-      "improved_version": "Integrate a synthesis of findings from different intervention types (e.g., labeling, nudging, social norms) and discuss how product swaps compare or complement these approaches.",
-      "explanation": "Strengthens integration by connecting various strategies, offering a comprehensive view of the intervention landscape.",
+      "original_text": "The targeted recommendation increased the uptake of the most effective swap, but neither targeted recommendations nor GHGE reduction translated into significantly lower basket GHGE for the majority of participants.",
+      "improved_version": "Discuss potential reasons for the limited impact on overall GHGE reduction, such as multiple swaps diluting effects, consumer preferences, or measurement limitations, referencing similar findings in behavioural intervention literature.",
+      "explanation": "This critical discussion will deepen understanding of the mechanisms and contextual factors influencing intervention efficacy.",
       "location": "Discussion",
-      "category": "integration",
+      "category": "analysis",
       "focus": "synthesis"
     },
     {
-      "original_text": "The intervention consisted of product swap recommendations page with (1) text explaining how swapping animal-based products for plant-based products can meaningfully reduce the environmental impact of their food choices.",
-      "improved_version": "Add a discussion of technological and digital innovations (e.g., AI-driven personalization, app-based nudges) that could enhance or scale such interventions, referencing recent literature.",
-      "explanation": "Broadens the scope to include emerging technological strategies, enriching the review's comprehensiveness.",
-      "location": "Methods / Intervention description",
+      "original_text": "The review predominantly focuses on recent empirical and simulation studies related to product swaps and GHGE reduction, but lacks comprehensive coverage of broader theoretical frameworks, historical development of dietary sustainability concepts, and diverse environmental impacts beyond GHGE.",
+      "improved_version": "Broaden the literature review to include foundational theories, historical evolution, and multiple environmental impact metrics, providing a multidimensional perspective on sustainable diets.",
+      "explanation": "This enhances comprehensiveness, situating the current research within a wider scholarly context and addressing potential limitations of a GHGE-only focus.",
+      "location": "Introduction",
       "category": "coverage",
       "focus": "breadth"
     },
     {
-      "original_text": "The review reports null effects for targeted recommendations and GHGE information but does not sufficiently explore potential reasons, alternative explanations, or limitations.",
-      "improved_version": "Explicitly discuss potential limitations such as sample bias, ecological validity, or measurement issues, and relate these to the null findings to provide a balanced critique.",
-      "explanation": "Deepens critical analysis and transparency, strengthening the review\u2019s credibility.",
+      "original_text": "The review presents descriptive summaries of findings but lacks critical engagement with conflicting evidence, limitations of prior studies, or nuanced discussion of mechanisms underlying consumer behaviour change.",
+      "improved_version": "Incorporate critical appraisal of key studies, discussing methodological strengths and limitations, conflicting results, and gaps in understanding mechanisms of behaviour change.",
+      "explanation": "This will improve analytical depth and demonstrate scholarly rigor, guiding future research directions.",
       "location": "Discussion",
       "category": "analysis",
-      "focus": "depth"
+      "focus": "synthesis"
     },
     {
-      "original_text": "The review is lengthy and dense, with limited signposting.",
-      "improved_version": "Introduce clear subheadings and thematic segmentation (e.g., 'Theoretical Foundations,' 'Intervention Strategies,' 'Behavioral Barriers') to guide the reader through the review.",
-      "explanation": "Improves organization and readability, making it easier to follow complex arguments.",
+      "original_text": "The flow between sections, especially from literature background to hypotheses and methods, is somewhat disjointed, with abrupt transitions and limited signposting.",
+      "improved_version": "Enhance the manuscript structure by adding clear signposting, linking literature gaps directly to hypotheses, and explicitly outlining how each section builds on the previous one.",
+      "explanation": "Improved organization will facilitate reader comprehension and logical coherence.",
       "location": "Overall structure",
       "category": "organization",
       "focus": "organization"
     },
     {
-      "original_text": "The references include many foundational studies but lack recent advances.",
-      "improved_version": "Update the reference list to include recent publications (2020-2024) on digital nudging, behavioral economics, and policy innovations in sustainable food choices.",
-      "explanation": "Ensures the review remains current and reflects the latest evidence, increasing its relevance.",
-      "location": "Citations",
-      "category": "recency",
-      "focus": "recency"
+      "original_text": "While the review cites numerous relevant studies, many references are somewhat outdated or lack diversity in sources.",
+      "improved_version": "Update citations to include recent systematic reviews, meta-analyses, and key policy documents from the last 3-5 years, and diversify sources to include grey literature or reports from reputable organizations.",
+      "explanation": "This will ensure the review reflects the latest evidence, enhancing credibility and relevance.",
+      "location": "Throughout",
+      "category": "citations",
+      "focus": "relevance"
     },
     {
-      "original_text": "The review summarizes individual studies without synthesizing across approaches.",
-      "improved_version": "Add a dedicated synthesis paragraph that compares and contrasts different intervention types, highlighting gaps and opportunities for integrated strategies.",
-      "explanation": "Enhances analytical depth and provides a cohesive overview of the literature landscape.",
-      "location": "Discussion",
+      "original_text": "The review does not sufficiently connect empirical findings to existing theories of behaviour change, consumer psychology, or policy frameworks.",
+      "improved_version": "Explicitly link findings to established theories such as the Theory of Planned Behavior, Nudge Theory, or Social Practice Theory, and discuss implications for policy and retail strategies.",
+      "explanation": "This integration will deepen the theoretical contribution and practical relevance of the review.",
+      "location": "Discussion and conclusion",
       "category": "integration",
       "focus": "synthesis"
     },
     {
-      "original_text": "The review does not sufficiently connect the literature to the current experimental findings.",
-      "improved_version": "Explicitly relate prior findings on behavioral interventions to the current study\u2019s design and outcomes, discussing how this research advances or challenges existing knowledge.",
-      "explanation": "Strengthens research integration and demonstrates scholarly contribution.",
-      "location": "Conclusion / Final discussion",
-      "category": "integration",
-      "focus": "connection"
+      "original_text": "The review lacks discussion of potential long-term effects and sustainability of the intervention strategies.",
+      "improved_version": "Include discussion of longitudinal evidence and theoretical considerations regarding the durability of behaviour change induced by product swaps and information provision.",
+      "explanation": "Addressing sustainability enhances the practical significance and guides future research on long-term impacts.",
+      "location": "Discussion",
+      "category": "coverage",
+      "focus": "depth"
     },
     {
-      "original_text": "The review could benefit from a clearer articulation of research gaps and future directions.",
-      "improved_version": "Conclude with a concise section explicitly identifying gaps (e.g., long-term effects, diverse populations, multi-component interventions) and proposing specific future research avenues.",
-      "explanation": "Provides clarity on research needs and enhances the review\u2019s utility for guiding subsequent studies.",
-      "location": "Conclusion",
-      "category": "organization",
-      "focus": "organization"
+      "original_text": "The review does not sufficiently address potential barriers or ethical considerations related to consumer autonomy and data privacy in digital interventions.",
+      "improved_version": "Discuss ethical issues such as consumer autonomy, data privacy, and potential unintended consequences of digital nudges, referencing relevant ethical frameworks and guidelines.",
+      "explanation": "This broadens the scope, acknowledging important contextual factors influencing implementation and acceptance.",
+      "location": "Discussion",
+      "category": "coverage",
+      "focus": "breadth"
     }
   ],
   "detailed_feedback": {
-    "coverage_analysis": "The literature review covers key environmental impacts of food choices and the potential of product swap interventions but lacks breadth in discussing behavioral theories, policy mechanisms, and technological innovations. Incorporating these areas would provide a more comprehensive background and situate the current study within a wider context.",
-    "analysis_quality": "While the review summarizes empirical findings, it falls short in critically evaluating why certain interventions succeed or fail, and in exploring limitations or alternative explanations. Greater emphasis on critical synthesis and discussion of methodological constraints would improve analytical depth.",
-    "structure_evaluation": "The review's organization is somewhat linear and dense, with limited signposting. Introducing thematic sections and clear subheadings would improve readability and logical flow, aiding reader comprehension.",
-    "citation_assessment": "The reference list includes foundational studies but is somewhat outdated, with limited recent literature (post-2020). Updating citations to include recent advances in digital nudging, behavioral economics, and policy developments would enhance relevance.",
-    "integration_review": "The review tends to list individual studies without sufficiently synthesizing their findings or connecting them to the current research. Explicitly comparing approaches and discussing how the current work fits into the broader literature would strengthen scholarly integration."
+    "coverage_analysis": "The literature review covers recent empirical and simulation studies on product swaps and GHGE reduction but lacks historical context, theoretical frameworks, and discussion of other environmental impacts like water use or biodiversity. Expanding to include foundational theories and broader environmental metrics would improve comprehensiveness.",
+    "analysis_quality": "The review provides a descriptive summary of findings but does not critically engage with conflicting evidence, mechanisms, or limitations. Incorporating critical appraisal and theoretical discussion would strengthen analytical depth.",
+    "structure_evaluation": "The manuscript's flow could be improved with clearer signposting and logical connections between sections. Better organization would enhance clarity and reader engagement.",
+    "citation_assessment": "While relevant, many references are somewhat outdated or limited in diversity. Updating citations to include recent reviews and policy reports would increase relevance and credibility.",
+    "integration_review": "The review does not sufficiently connect findings to broader theories or policy implications. Explicit integration with established frameworks would enhance its scholarly and practical impact."
   },
-  "summary": "Overall, the literature review demonstrates a solid foundation in environmental impacts and behavioral interventions related to sustainable food choices. However, it exhibits notable gaps in theoretical breadth, critical analysis, and synthesis. Addressing these issues through expanded coverage, critical discussion, clearer organization, and updated citations would significantly improve its quality and comprehensiveness, elevating it from average to good/excellent."
+  "summary": "Overall, the literature review demonstrates a solid foundation with relevant recent studies but suffers from limited theoretical depth, historical context, and critical engagement. Its organization and citation diversity could be improved to elevate the scholarly quality. Addressing these issues would make the review more comprehensive, analytically rigorous, and impactful."
 }

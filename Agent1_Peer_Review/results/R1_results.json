@@ -4,151 +4,127 @@
     {
       "category": "novelty",
       "location": "Abstract and Introduction",
-      "issue": "While the study tests specific product swap recommendations with a focus on GHGE reduction, the core concept of using targeted product swaps in online shopping environments has been explored in prior simulation studies. The novelty claim that real-time, personalized swap recommendations influence behavior is somewhat overstated without clear differentiation from existing interventions.",
+      "issue": "While the study claims to test real-time, specific, and actionable product swap recommendations in an experimental online supermarket, the core concept of product swaps and their potential for reducing GHGE has been explored previously in simulation studies and some field experiments. The novelty of the approach is somewhat limited by the reliance on existing literature and the absence of a truly innovative intervention mechanism.",
       "severity": "medium",
-      "impact": "This affects the perceived originality of the approach, potentially overestimating its novelty compared to prior simulation-based research."
+      "impact": "This affects the perceived originality of the research, potentially positioning it as incremental rather than groundbreaking."
     },
     {
       "category": "contribution",
-      "location": "Discussion and Results",
-      "issue": "The study reports that targeted recommendations increased the likelihood of selecting the most effective swap but did not significantly reduce overall basket GHGE, which limits the claimed impact on actual behavior change. The contribution to practical dietary change remains somewhat limited without long-term or real-world validation.",
+      "location": "Discussion and Conclusion",
+      "issue": "The paper emphasizes that simple, specific product swaps are sufficient for most consumers but relies heavily on the online experimental setting without demonstrating long-term or real-world applicability. The contribution to practical implementation remains somewhat limited without field validation.",
       "severity": "high",
-      "impact": "This constrains the strength of the contribution claim, suggesting the intervention's real-world efficacy needs further validation."
+      "impact": "This limits the strength of the contribution claim, as it remains largely theoretical and experimental, reducing confidence in real-world impact."
     },
     {
       "category": "verification",
-      "location": "Abstract and Methods",
-      "issue": "The authors claim to verify the effectiveness of their intervention, but the lack of significant GHGE reduction in the main analysis indicates limited verification of behavioral impact. The positive effects are mostly on the selection of the most effective swap, not on overall GHGE reduction.",
+      "location": "Results and Methods",
+      "issue": "The authors claim that targeted recommendations increased the uptake of the most effective swap but did not significantly lower overall GHGE, which questions the effectiveness of the claimed novelty. The verification of claims about the impact of GHGE information on high meat consumers is based on post hoc exploratory analyses, not pre-registered hypotheses.",
       "severity": "high",
-      "impact": "This undermines the validity of the stated verification of impact, highlighting the need for cautious interpretation."
+      "impact": "This undermines the robustness of the claimed verification of the intervention's effectiveness, raising concerns about potential biases or overinterpretation."
     },
     {
       "category": "comparison",
       "location": "Introduction and Discussion",
-      "issue": "The manuscript references prior simulation studies but lacks a detailed comparison with similar real-world or field interventions, especially in retail settings. The discussion does not sufficiently contextualize how this approach advances beyond existing behavioral nudges or digital interventions.",
+      "issue": "The manuscript references prior simulation studies and some field work but lacks a detailed, critical comparison with existing real-world interventions or digital nudges in food retail environments, making it difficult to position its novelty relative to current practices.",
       "severity": "medium",
-      "impact": "This limits the clarity of the study\u2019s unique positioning and its comparative contribution to existing literature."
+      "impact": "This limits the clarity of the paper's unique contribution and how it advances beyond existing research."
     },
     {
       "category": "advancement",
-      "location": "Discussion and Conclusion",
-      "issue": "The study suggests that simple product swaps may be sufficient for many consumers, but it does not explore long-term sustainability or behavioral maintenance, which are critical for advancing knowledge on dietary change. The knowledge gain about high meat consumers is based on exploratory, post hoc analyses, limiting definitive claims.",
-      "severity": "high",
-      "impact": "This reduces the strength of the claimed advancement in understanding how to influence high-impact consumers over time."
+      "location": "Discussion",
+      "issue": "The study claims to advance knowledge by demonstrating the effectiveness of real-time, specific product swaps, yet the actual impact on overall GHGE is modest and not significantly different across conditions. The long-term or behavioral sustainability implications are not addressed.",
+      "severity": "medium",
+      "impact": "This constrains the perceived advancement of knowledge, as the findings are primarily short-term and experimental."
     }
   ],
   "improvement_suggestions": [
     {
       "original_text": "While prior research has focused on simulating the impact of targeted dietary changes, there is limited evidence on whether consumers will adopt such changes when presented with targeted recommendations.",
-      "improved_version": "To strengthen the claim of novelty, explicitly state how this study advances beyond simulation by testing real-time, personalized recommendations in a controlled online shopping environment, and clarify how this fills a gap in empirical behavioral evidence.",
-      "explanation": "Clarifying this distinction emphasizes the study\u2019s contribution to empirical validation, enhancing the perceived novelty.",
+      "improved_version": "Expand the discussion to explicitly acknowledge existing field and intervention studies that have tested product swaps or nudges in real retail environments, clarifying how this study uniquely contributes or differs.",
+      "explanation": "This clarifies the novelty by positioning the study within the current landscape and highlighting its specific experimental design or intervention features.",
       "location": "Introduction",
       "category": "novelty",
-      "focus": "novelty"
+      "focus": "comparison"
     },
     {
       "original_text": "Participants demonstrated a general willingness to engage with product swap recommendations.",
-      "improved_version": "While participants showed initial receptivity, the actual reduction in overall GHGE was modest and not statistically significant, indicating that willingness does not necessarily translate into sustained behavior change.",
-      "explanation": "This nuanced framing provides a more accurate contribution assessment, acknowledging behavioral complexity.",
+      "improved_version": "Include a detailed comparison of engagement levels observed in this study with those reported in previous online or field interventions, emphasizing what is novel about the specific online supermarket setup.",
+      "explanation": "This contextualizes the contribution and clarifies how the experimental environment advances understanding of consumer engagement.",
       "location": "Results",
       "category": "contribution",
-      "focus": "contribution"
+      "focus": "advancement"
     },
     {
-      "original_text": "The regression analysis did not reveal any statistically significant effects of Targeted or Information treatments on GHGE reduction compared to the reference group.",
-      "improved_version": "Despite increased selection of the most effective swap, the interventions did not produce significant overall GHGE reductions, highlighting the challenge of translating targeted recommendations into meaningful behavioral change.",
-      "explanation": "This reframing clarifies the contribution by emphasizing the gap between recommendation acceptance and actual impact, guiding future research directions.",
+      "original_text": "The regression analysis did not reveal any statistically significant effects of the Targeted or Information treatments on GHGE reduction compared to the reference group.",
+      "improved_version": "Discuss potential reasons for the null effects, such as the high baseline reduction, multiple swaps diluting the impact, or the experimental setting, and suggest how future studies could address these limitations to demonstrate clearer effects.",
+      "explanation": "This enhances verification and contribution by critically analyzing the findings and proposing pathways for further validation.",
       "location": "Results",
       "category": "verification",
-      "focus": "verification"
-    },
-    {
-      "original_text": "Our findings suggest that offering consumers the option to swap products\u2014without the need for targeted recommendations or GHGE information\u2014may already be sufficient to encourage more sustainable purchasing behaviours for many.",
-      "improved_version": "While simple product swaps appear effective for many consumers, long-term studies are necessary to confirm whether these behaviors are sustained and lead to meaningful reductions in dietary GHGE over time.",
-      "explanation": "Adding this qualification tempers overstatement and enhances the contribution by indicating the need for further validation.",
-      "location": "Discussion",
-      "category": "advancement",
       "focus": "advancement"
     },
     {
       "original_text": "Our study focused exclusively on GHGE, without incorporating other environmental considerations such as water use or biodiversity impact.",
-      "improved_version": "Future research should integrate multiple environmental metrics, such as water footprint and biodiversity impact, to provide a more comprehensive assessment of the sustainability of product swaps.",
-      "explanation": "This broadens the scope and contribution, acknowledging limitations and guiding future advancements.",
+      "improved_version": "Propose integrating multi-criteria environmental impact assessments in future research to broaden the contribution and demonstrate how the intervention could be more comprehensive and impactful.",
+      "explanation": "This expands the scope and contribution, aligning with current calls for holistic sustainability assessments.",
       "location": "Discussion",
       "category": "advancement",
       "focus": "advancement"
     },
     {
-      "original_text": "The intervention was incentive-compatible and conducted in a realistic shopping environment modelled on a major German retailer\u2019s product portfolio.",
-      "improved_version": "However, as the study was conducted in a simulated online environment, further field experiments are needed to validate the effectiveness and scalability of these recommendations in real-world retail settings.",
-      "explanation": "This emphasizes the need for external validation, strengthening the contribution claim regarding practical applicability.",
+      "original_text": "Our sample was restricted to German-speaking, non-vegan/non-vegetarian participants, and was over-represented by young male participants, limiting generalizability.",
+      "improved_version": "Add a discussion on how future research could validate these findings in more diverse populations, including different cultural contexts, dietary restrictions, and demographic groups, to enhance the generalizability and impact.",
+      "explanation": "This improves the contribution by outlining clear steps for extending the research's applicability and impact.",
       "location": "Discussion",
-      "category": "verification",
-      "focus": "verification"
+      "category": "contribution",
+      "focus": "advancement"
     },
     {
-      "original_text": "Participants in our study accepted an average of four swaps, which may have diluted the impact of highlighting a single most-effective swap.",
-      "improved_version": "Future studies should explore strategies to encourage fewer, more impactful swaps, such as emphasizing the most effective change or combining swaps with motivational cues, to enhance overall GHGE reduction.",
-      "explanation": "This provides actionable guidance to improve the practical contribution of the intervention.",
+      "original_text": "The intervention relied on a static list of swaps from animal-based to plant-based products, without considering nutritional or cultural preferences.",
+      "improved_version": "Suggest developing adaptive, personalized swap recommendations that incorporate nutritional and cultural preferences, which could significantly enhance real-world applicability and effectiveness.",
+      "explanation": "This enhances the novelty and contribution by proposing innovative, personalized intervention strategies.",
+      "location": "Discussion",
+      "category": "novelty",
+      "focus": "advancement"
+    },
+    {
+      "original_text": "The study's impact on actual long-term behavior change remains uncertain.",
+      "improved_version": "Recommend designing longitudinal or field studies to assess the sustainability of behavior change induced by product swaps, thereby strengthening the evidence for long-term advancement.",
+      "explanation": "This directly addresses the knowledge gap and enhances the study's contribution to understanding behavioral sustainability.",
       "location": "Discussion",
       "category": "advancement",
       "focus": "advancement"
     },
     {
-      "original_text": "The study\u2019s sample was restricted to German-speaking, non-vegan/non-vegetarian participants, limiting generalizability.",
-      "improved_version": "Subsequent research should include diverse populations across different cultural and dietary backgrounds to assess the generalizability and cultural adaptability of the intervention.",
-      "explanation": "Expanding scope enhances the contribution to global applicability and knowledge advancement.",
+      "original_text": "The effect of providing GHGE reduction information was only significant among high meat consumers in exploratory analyses.",
+      "improved_version": "Frame this finding as a key insight into targeted intervention strategies, emphasizing how future research can refine messaging for high-impact groups, thus advancing the field's understanding of tailored approaches.",
+      "explanation": "This clarifies the contribution and suggests practical pathways for future research, enhancing the paper's impact.",
+      "location": "Discussion",
+      "category": "contribution",
+      "focus": "advancement"
+    },
+    {
+      "original_text": "Our intervention is simple and scalable but requires access to reliable environmental impact data.",
+      "improved_version": "Discuss potential technological or policy innovations that could facilitate data access, and propose how integrating such data into retail platforms could further scale and enhance the intervention's impact.",
+      "explanation": "This broadens the contribution by linking technological solutions to practical scalability and real-world implementation.",
+      "location": "Discussion",
+      "category": "advancement",
+      "focus": "advancement"
+    },
+    {
+      "original_text": "The study demonstrates that specific and actionable product swaps can promote climate-friendly choices.",
+      "improved_version": "Include a comparative analysis of the magnitude of GHGE reductions achieved relative to other interventions, thereby positioning the contribution within the broader landscape of sustainable food policies.",
+      "explanation": "This contextualizes the contribution and clarifies its significance relative to existing strategies.",
       "location": "Conclusion",
-      "category": "advancement",
-      "focus": "advancement"
-    },
-    {
-      "original_text": "The study did not examine the long-term sustainability of behavior change.",
-      "improved_version": "Longitudinal studies are necessary to evaluate whether initial behavioral shifts are maintained over time and translate into sustained dietary and environmental benefits.",
-      "explanation": "This explicitly states a key future direction, strengthening the contribution to advancing long-term behavioral understanding.",
-      "location": "Conclusion",
-      "category": "advancement",
-      "focus": "advancement"
-    },
-    {
-      "original_text": "The intervention only considered swaps from animal-based to plant-based products, not other low-carbon options like poultry or processed plant-based foods.",
-      "improved_version": "Future research should incorporate a broader range of substitution options, including lower-impact meats like poultry and processed plant-based foods, to optimize environmental benefits.",
-      "explanation": "This expands the scope and enhances the contribution to comprehensive dietary strategies.",
-      "location": "Discussion",
-      "category": "advancement",
-      "focus": "advancement"
-    },
-    {
-      "original_text": "The study\u2019s reliance on self-reported survey measures for efficacy perceptions may be subject to social desirability bias.",
-      "improved_version": "Incorporating objective behavioral measures and long-term follow-up would strengthen the validity of findings related to self-efficacy and actual behavior change.",
-      "explanation": "This improves the methodological rigor and contribution to evidence-based practice.",
-      "location": "Methodology",
-      "category": "verification",
-      "focus": "verification"
-    },
-    {
-      "original_text": "The study did not assess nutritional adequacy or consumer preferences beyond environmental impact.",
-      "improved_version": "Integrating nutritional assessments and taste preference evaluations would provide a more holistic understanding of consumer acceptance and the practicality of product swaps.",
-      "explanation": "This broadens the contribution to include health and preference dimensions, vital for real-world adoption.",
-      "location": "Discussion",
-      "category": "advancement",
-      "focus": "advancement"
-    },
-    {
-      "original_text": "The intervention's scalability depends on access to reliable environmental impact data, which can be challenging to obtain and verify.",
-      "improved_version": "Developing standardized, accessible environmental impact labeling and data sources will be essential for scaling such interventions effectively in retail environments.",
-      "explanation": "This offers a practical pathway to enhance the contribution and implementation feasibility.",
-      "location": "Discussion",
-      "category": "advancement",
-      "focus": "advancement"
+      "category": "contribution",
+      "focus": "comparison"
     }
   ],
   "detailed_feedback": {
-    "novelty_assessment": "The research builds upon existing simulation studies by empirically testing real-time, personalized product swap recommendations within an online shopping environment. While the concept of targeted dietary interventions is not entirely new, this study advances the field by providing experimental evidence on consumer responses to specific, actionable recommendations paired with environmental impact information. However, the core idea of product swaps as a behavioral nudge has been explored previously, so the novelty primarily lies in the experimental validation and the detailed analysis of high meat consumers.",
-    "contribution_analysis": "This study contributes valuable insights into the effectiveness of simple, specific product swaps in reducing dietary GHGE, demonstrating high acceptance and some impact on behavior. It also highlights the limited effect of targeted recommendations and GHGE information on overall GHGE reduction, emphasizing the complexity of translating intention into sustained behavior change. The exploratory findings regarding high meat consumers suggest potential pathways for targeted interventions, although these are preliminary. Overall, the contribution advances understanding of digital nudges in sustainable food choices but underscores the need for further real-world validation and long-term studies.",
-    "verification_status": "The authors claim to verify the impact of their intervention, but the main outcome\u2014significant reduction in overall GHGE\u2014was not achieved. The increase in the selection of the most effective swap indicates some behavioral influence, yet the lack of significant overall GHGE reduction suggests limited verification of behavioral change. The findings are more confirmatory of acceptability and partial influence rather than definitive impact, warranting cautious interpretation.",
-    "comparative_analysis": "Compared to prior simulation-based research, this study provides an important empirical step but falls short of demonstrating large-scale or long-term effectiveness. It does not sufficiently compare its findings with similar real-world interventions or digital nudges outside the food domain, which could contextualize its contribution more robustly. The discussion could benefit from deeper engagement with existing behavioral nudges and digital health interventions to clarify its unique positioning.",
-    "advancement_evaluation": "The research advances knowledge by demonstrating that simple, specific product swaps are feasible and well-received, especially among less frequent meat consumers. It suggests that providing environmental impact information may be particularly effective for high-impact consumers, offering a promising avenue for targeted strategies. However, the lack of long-term data and broader environmental metrics limits the depth of knowledge gained. Future work should focus on sustainability over time, nutritional considerations, and broader environmental impacts to truly push the field forward."
+    "novelty_assessment": "The research advances the field by applying a real-time, online supermarket experiment to test the effectiveness of specific, actionable product swap recommendations combined with GHGE information. While the concept of product swaps and nudges has been explored previously, especially in simulation studies, this work's experimental design and focus on delivery at the point of decision-making in a realistic online environment provide a meaningful, though incremental, contribution. The novelty lies in the integration of targeted and informational interventions within a controlled, incentive-compatible setting, but it does not fundamentally challenge existing paradigms.",
+    "contribution_analysis": "The study contributes valuable empirical evidence that simple, specific product swaps are highly accepted and can lead to significant GHGE reductions for most consumers. It also highlights that targeted recommendations increase the adoption of the most effective swaps, and that GHGE information notably influences high meat consumers. These insights inform practical retail strategies and behavioral interventions, especially for high-impact groups. However, the overall impact on total GHGE remains modest, and the long-term behavioral effects are yet to be demonstrated, limiting the scope of contribution.",
+    "verification_status": "The claims regarding the effectiveness of targeted recommendations and GHGE information are supported by the experimental data, but the null findings on overall GHGE reduction suggest that the intervention's impact may be limited or diluted when multiple swaps are accepted. The exploratory analyses provide promising signals about the potential of GHGE information among high meat consumers, but these are post hoc and not pre-registered, reducing the robustness of verification. Future studies should aim for confirmatory designs and longer-term assessments.",
+    "comparative_analysis": "The manuscript references prior simulation work and some field experiments but lacks a detailed comparison with existing real-world interventions or digital nudges in retail settings. Incorporating such comparisons would better position the study's novelty and clarify how it advances current practices. Without this, the work risks being perceived as an incremental step rather than a significant innovation.",
+    "advancement_evaluation": "The research advances understanding of consumer responses to specific, actionable product swaps in a controlled online environment, demonstrating feasibility and acceptance. It also suggests that simple swaps can produce meaningful GHGE reductions, which is a practical insight for retail implementation. Nonetheless, the modest effect sizes and lack of long-term data mean that the knowledge gain is primarily incremental, emphasizing the need for further research to establish sustained behavioral change and broader environmental impacts."
   },
-  "summary": "This study makes a meaningful contribution to the empirical validation of digital, real-time product swap nudges aimed at reducing dietary GHGE. It demonstrates high consumer receptivity and some behavioral influence, especially among high meat consumers when environmental information is provided. However, the limited impact on overall GHGE reduction and reliance on simulated, short-term data suggest that its novelty and practical contribution are moderate. To enhance its significance, future research should incorporate long-term, real-world validation, broader environmental metrics, and nutritional considerations. Overall, the work provides valuable insights into behavioral nudges in sustainable food choices, with promising implications for retail and policy interventions, but requires further validation to fully advance the field."
+  "summary": "This study offers a valuable experimental contribution by demonstrating that real-time, specific product swap recommendations can effectively promote climate-friendly food choices in an online shopping context. Its strengths lie in the realistic setup, incentive compatibility, and focus on actionable interventions. However, the novelty is somewhat limited by reliance on existing simulation findings, and the impact on overall GHGE is modest. The findings regarding high meat consumers and the role of GHGE information are promising but require further validation through longitudinal and field studies. Overall, the research makes a solid, incremental contribution to the field of sustainable food choice interventions, with clear pathways for future enhancement and real-world application."
 }
