@@ -1,194 +1,170 @@
 {
-  "inclusive_language_score": 4,
+  "inclusive_language_score": 3,
   "critical_remarks": [
     {
       "category": "gender_neutrality",
       "location": "Abstract",
-      "issue": "The abstract predominantly uses gendered terms such as 'users' with gender breakdowns but does not explicitly employ gender-neutral language or inclusive pronouns when referring to participants or populations.",
+      "issue": "The phrase 'users' churn' uses 'users' which is neutral, but the phrase 'users' churn' could be more explicitly inclusive by avoiding gendered assumptions about user identity.",
       "severity": "low",
-      "impact": "Limited; does not significantly hinder understanding but could be more inclusive in language use."
+      "impact": "Minimal impact, but slight improvement possible for clarity and neutrality."
     },
     {
       "category": "cultural_sensitivity",
       "location": "Introduction",
-      "issue": "The background description emphasizes healthcare systems and interventions in Germany and Switzerland, with limited acknowledgment of diverse cultural contexts or populations outside these regions.",
+      "issue": "The mention of 'demographic features' such as 'race' and 'ethnicity' is included without context, which could risk implying stereotypes or biases if not handled carefully.",
       "severity": "medium",
-      "impact": "May limit applicability and sensitivity to diverse cultural settings, potentially excluding non-Western or non-European populations."
+      "impact": "Potential to unintentionally reinforce stereotypes or biases if not contextualized properly."
     },
     {
       "category": "age_terminology",
-      "location": "Literature review",
-      "issue": "Age groups are described with specific ranges (e.g., 18\u201335 years), but the language does not explicitly acknowledge the diversity within these groups or avoid age-based stereotypes.",
+      "location": "Introduction",
+      "issue": "The text refers to 'age' as a demographic feature but does not specify age-appropriate language or acknowledge diversity in age groups.",
       "severity": "low",
-      "impact": "Minimal; however, more neutral language could improve inclusivity regarding age diversity."
+      "impact": "Limited, but including age diversity considerations could improve inclusivity."
     },
     {
       "category": "disability_inclusion",
-      "location": "Methodology",
-      "issue": "The description of interventions and datasets does not explicitly consider participants with disabilities or accessibility needs, potentially implying a non-inclusive assumption.",
+      "location": "Literature Review",
+      "issue": "The review discusses features like 'device type' and 'health features' but does not explicitly consider accessibility or disabilities of users.",
       "severity": "medium",
-      "impact": "Could overlook the needs of users with disabilities, limiting the scope of inclusivity."
+      "impact": "Misses an opportunity to address accessibility, which is crucial for inclusive design."
     },
     {
       "category": "socioeconomic_sensitivity",
-      "location": "Introduction",
-      "issue": "The socioeconomic status of participants is not discussed, and the language assumes access to smartphones and digital literacy, which may not be universal.",
-      "severity": "high",
-      "impact": "May exclude or marginalize populations with lower socioeconomic status, reducing generalizability."
+      "location": "Discussion",
+      "issue": "The discussion emphasizes 'behavioral features' but does not consider socioeconomic factors that may influence app engagement or data availability.",
+      "severity": "low",
+      "impact": "Limited, but acknowledging socioeconomic diversity could enhance generalizability."
     },
     {
       "category": "geographic_inclusivity",
-      "location": "Introduction",
-      "issue": "Focus is primarily on European healthcare systems, with limited mention of global diversity or interventions in non-Western contexts.",
-      "severity": "medium",
-      "impact": "Limits applicability and sensitivity to diverse geographic populations."
+      "location": "Methods",
+      "issue": "The search strategy focuses on English-language articles, potentially excluding research from non-English speaking regions, limiting geographic diversity.",
+      "severity": "high",
+      "impact": "Significantly reduces geographic inclusivity and generalizability of findings."
     },
     {
       "category": "professional_titles",
-      "location": "Author contributions",
-      "issue": "Use of professional titles (e.g., 'RJ', 'LB') is consistent but does not include titles that reflect diversity or cultural backgrounds, which could be more inclusive.",
+      "location": "Author Contributions",
+      "issue": "The author contributions section uses 'RJ,' 'FM,' etc., which are initials, but does not include professional titles or affiliations, which could add clarity and respect.",
       "severity": "low",
-      "impact": "Minimal; primarily a stylistic point."
+      "impact": "Minor, but including titles could improve transparency and recognition."
     },
     {
-      "category": "stereotypes",
-      "location": "Discussion",
-      "issue": "The discussion emphasizes the effectiveness of behavioral features without addressing potential stereotypes about user motivation or engagement, which could unintentionally reinforce stereotypes.",
-      "severity": "low",
-      "impact": "Limited; awareness of stereotypes about user behavior could improve sensitivity."
+      "category": "stereotype_avoidance",
+      "location": "Results",
+      "issue": "The description of 'behavioral features' and 'progress features' could be interpreted as implying a stereotype that all users are equally motivated by activity or progress, without considering diverse user motivations.",
+      "severity": "medium",
+      "impact": "Potential reinforcement of stereotypes about user behavior."
     },
     {
       "category": "identity_language",
-      "location": "Methodology",
-      "issue": "The description of gender data uses 'non-binary' as a category but does not specify whether the language is person-first ('person with non-binary gender') or identity-first, which could be clarified for inclusivity.",
+      "location": "Throughout",
+      "issue": "The document predominantly uses 'users' and 'participants' with person-first language, which is appropriate, but occasionally uses 'churners' or 'disengaged users,' which could be rephrased for person-first inclusivity.",
       "severity": "low",
-      "impact": "Minimal; clarity in language can enhance respect for diverse identities."
+      "impact": "Minimal, but consistent person-first language enhances inclusivity."
     },
     {
       "category": "historical_context",
       "location": "Introduction",
-      "issue": "The text references the German Digital Healthcare Act (2019) but does not contextualize historical disparities or the evolution of digital health policies globally.",
-      "severity": "low",
-      "impact": "Limited; more context could improve sensitivity to historical inequalities."
+      "issue": "The mention of 'the advent of extensive data availability' does not consider historical disparities in data access or digital divides across regions and populations.",
+      "severity": "medium",
+      "impact": "Could overlook disparities in data representation and access, affecting fairness."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "68.3% were female, 31.6% were male, and 0.1% non-binary.",
-      "improved_version": "68.3% identified as women, 31.6% as men, and 0.1% as non-binary or other gender identities.",
-      "explanation": "Using inclusive and person-centered language respects gender diversity and avoids reinforcing binary gender assumptions.",
-      "location": "Section 2.1.2 Manoa participant description",
-      "category": "cultural_sensitivity",
+      "original_text": "User churn, where users prematurely discontinue the use of a product or service, poses significant challenges across various industry domains, including gaming, healthcare, or education.",
+      "improved_version": "User churn, referring to the phenomenon of users discontinuing a product or service, presents challenges across diverse sectors such as gaming, healthcare, and education.",
+      "explanation": "Rephrasing clarifies the concept with neutral language and avoids implying any gender or other biases, promoting clarity and inclusivity.",
+      "location": "Abstract",
+      "category": "gender_neutrality",
       "focus": "gender_neutrality"
     },
     {
-      "original_text": "The German Digital Healthcare Act in 2019",
-      "improved_version": "The German Digital Healthcare Act of 2019, which reflects recent policy developments in digital health regulation.",
-      "explanation": "Adding context about the policy's development emphasizes awareness of evolving healthcare landscapes and inclusivity of diverse regulatory environments.",
-      "location": "Introduction",
-      "category": "historical_context",
-      "focus": "historical_context"
-    },
-    {
-      "original_text": "The datasets include users from Germany and Switzerland.",
-      "improved_version": "The datasets include users from Germany, Switzerland, and other diverse regions, acknowledging the potential for broader applicability.",
-      "explanation": "Explicitly recognizing geographic diversity enhances inclusivity and signals openness to global contexts.",
-      "location": "Introduction",
-      "category": "geographic_inclusivity",
-      "focus": "geographic_inclusivity"
-    },
-    {
-      "original_text": "Participants are described by age ranges (e.g., 18\u201335 years).",
-      "improved_version": "Participants are described by age ranges (e.g., 18\u201335 years), with an acknowledgment of the diversity within these groups.",
-      "explanation": "Clarifying that age groups encompass diverse individuals helps avoid stereotypes and promotes age inclusivity.",
-      "location": "Section 2.1.2 Participant descriptions",
-      "category": "age_terminology",
-      "focus": "age_appropriate_terminology"
-    },
-    {
-      "original_text": "The study involves users who provided consent under specific regulations.",
-      "improved_version": "The study involves users who provided informed consent, emphasizing respect for autonomy and ethical considerations across diverse populations.",
-      "explanation": "Highlighting informed consent underscores ethical inclusivity, respecting diverse user rights.",
-      "location": "Section 2.1",
-      "category": "disability_inclusion",
-      "focus": "disability_inclusive_language"
-    },
-    {
-      "original_text": "The interventions assume access to smartphones and digital literacy.",
-      "improved_version": "The interventions are designed for users with varying levels of digital access and literacy, and future adaptations could include alternative formats to enhance accessibility.",
-      "explanation": "Acknowledging digital divides and suggesting inclusivity measures promotes socioeconomic and accessibility sensitivity.",
-      "location": "Introduction",
-      "category": "socioeconomic_sensitivity",
-      "focus": "socioeconomic_sensitivity"
-    },
-    {
-      "original_text": "The description of user demographics focuses on European systems.",
-      "improved_version": "The description of user demographics emphasizes the need for inclusive research across diverse geographic and cultural contexts worldwide.",
-      "explanation": "Broadening the scope promotes geographic inclusivity and cultural sensitivity.",
-      "location": "Introduction",
-      "category": "geographic_inclusivity",
-      "focus": "geographic_inclusivity"
-    },
-    {
-      "original_text": "Author contributions use initials without titles.",
-      "improved_version": "Author contributions are listed with full names and professional titles where appropriate, respecting diversity in academic and professional backgrounds.",
-      "explanation": "Using full names and titles can promote transparency and inclusivity in author recognition.",
-      "location": "Author contributions",
-      "category": "professional_titles",
-      "focus": "professional_titles"
-    },
-    {
-      "original_text": "The discussion emphasizes effectiveness without addressing potential stereotypes about user motivation.",
-      "improved_version": "The discussion highlights the effectiveness of behavioral features while acknowledging that user motivation and engagement may vary across diverse populations, avoiding stereotypes about user behavior.",
-      "explanation": "This approach promotes stereotype avoidance and recognizes diversity in user experiences.",
-      "location": "Discussion",
+      "original_text": "The review underscores the importance of behavioral features related to users\u2019 activity and progress within apps.",
+      "improved_version": "The review highlights the significance of behavioral features reflecting users\u2019 diverse motivations, including activity, progress, and other engagement indicators.",
+      "explanation": "Expanding to include diverse motivations avoids stereotypes that all users are driven solely by activity or progress, fostering a more inclusive perspective.",
+      "location": "Results",
       "category": "stereotypes",
-      "focus": "stereotypes"
+      "focus": "stereotype avoidance"
     },
     {
-      "original_text": "Gender data is collected but not explicitly framed with person-first language.",
-      "improved_version": "Gender data is collected and presented with person-first language, such as 'individuals identifying as non-binary,' to respect diverse gender identities.",
-      "explanation": "Person-first language affirms individual identities beyond categorical labels, enhancing inclusivity.",
-      "location": "Methodology",
-      "category": "identity_language",
-      "focus": "identity-first_vs_person_first"
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users.",
+      "improved_version": "The datasets employed for training and evaluating churn prediction models varied in size, from small samples of 61 users to large-scale datasets with up to 37 million users, reflecting diverse data contexts.",
+      "explanation": "Acknowledges diversity in data sources and contexts, promoting inclusivity of different data environments and populations.",
+      "location": "Results",
+      "category": "geographic_inclusivity",
+      "focus": "geographic_inclusivity"
     },
     {
-      "original_text": "References focus on Western healthcare systems and policies.",
-      "improved_version": "References include a broader range of global health policies and contexts to reflect diverse historical and cultural backgrounds.",
-      "explanation": "Expanding references promotes historical context sensitivity and cultural inclusivity.",
-      "location": "References",
-      "category": "historical_context",
-      "focus": "historical_context"
-    },
-    {
-      "original_text": "The language assumes a universal acceptance of digital health interventions.",
-      "improved_version": "The language recognizes that acceptance and access to digital health interventions vary across different cultural, socioeconomic, and geographic populations, advocating for inclusive approaches.",
-      "explanation": "This promotes cultural sensitivity and socioeconomic inclusivity.",
-      "location": "Discussion",
+      "original_text": "Most studies focused on mobile games, with research emerging within this domain in 2014.",
+      "improved_version": "Most studies focused on mobile games, with research in other app domains such as health, social media, and finance emerging from 2018 onwards, indicating expanding inclusivity across sectors.",
+      "explanation": "Provides a broader, more inclusive view of app domains and acknowledges the growth of research in diverse areas.",
+      "location": "Results",
       "category": "cultural_sensitivity",
       "focus": "cultural_sensitivity"
     },
     {
-      "original_text": "The study does not explicitly address accessibility for users with disabilities.",
-      "improved_version": "Future iterations of the intervention should consider accessibility features for users with disabilities, such as screen readers or alternative input methods, to promote disability inclusion.",
-      "explanation": "Explicitly addressing accessibility ensures inclusivity for users with disabilities.",
-      "location": "Limitations and future work",
+      "original_text": "The review discusses features like 'device type' and 'health features' but does not explicitly consider accessibility or disabilities of users.",
+      "improved_version": "While discussing features like 'device type' and 'health features,' future research should explicitly consider accessibility and accommodations for users with disabilities to promote inclusivity.",
+      "explanation": "Encourages proactive inclusion of accessibility considerations, enhancing disability inclusion and equitable access.",
+      "location": "Literature Review",
       "category": "disability_inclusion",
-      "focus": "disability_inclusive_language"
+      "focus": "disability_inclusion"
+    },
+    {
+      "original_text": "The search strategy focuses on English-language articles, potentially excluding research from non-English speaking regions.",
+      "improved_version": "The current search strategy emphasizes English-language publications, which may limit geographic diversity; future efforts should include multilingual sources to broaden global representation.",
+      "explanation": "Recognizes language bias and promotes inclusivity of non-English research, addressing geographic and cultural diversity.",
+      "location": "Methods",
+      "category": "geographic_inclusivity",
+      "focus": "geographic_inclusivity"
+    },
+    {
+      "original_text": "The author contributions section uses initials, but does not include professional titles or affiliations.",
+      "improved_version": "The author contributions include full names along with professional titles and institutional affiliations to enhance transparency and recognition.",
+      "explanation": "Provides clarity on author roles and promotes professional recognition, fostering respect and transparency.",
+      "location": "Author Contributions",
+      "category": "professional_titles",
+      "focus": "professional_titles"
+    },
+    {
+      "original_text": "The description of 'behavioral features' and 'progress features' could be interpreted as implying a stereotype that all users are equally motivated by activity or progress.",
+      "improved_version": "The description of behavioral and progress features should acknowledge the diversity of user motivations, recognizing that different users may engage with apps in varied ways.",
+      "explanation": "Avoids stereotypes by emphasizing diversity in user behavior and motivation, fostering a more inclusive understanding.",
+      "location": "Results",
+      "category": "stereotypes",
+      "focus": "stereotype avoidance"
+    },
+    {
+      "original_text": "The document predominantly uses 'users' and 'participants' with person-first language, but occasionally uses 'churners' or 'disengaged users.'",
+      "improved_version": "Consistently employing person-first language, such as 'users who disengage' or 'participants experiencing churn,' promotes respectful and inclusive terminology.",
+      "explanation": "Ensures respectful, person-centered language that emphasizes individuals over labels, enhancing inclusivity.",
+      "location": "Throughout",
+      "category": "identity_language",
+      "focus": "identity_first_vs_person_first"
+    },
+    {
+      "original_text": "The mention of 'the advent of extensive data availability' does not consider disparities in data access or digital divides.",
+      "improved_version": "The discussion of extensive data availability should also acknowledge disparities in access and digital divides that may influence data representation and model fairness across different populations.",
+      "explanation": "Addresses historical and social inequities, promoting fairness and cultural sensitivity in data-driven research.",
+      "location": "Introduction",
+      "category": "historical_context",
+      "focus": "historical_context"
     }
   ],
   "detailed_feedback": {
-    "gender_neutral_language": "The manuscript would benefit from adopting gender-neutral and inclusive language throughout, such as using 'individuals' or 'participants' rather than gendered terms, and clarifying gender identities with respectful terminology. This fosters an environment of respect and recognition of gender diversity.",
-    "cultural_sensitivity": "The current focus on European healthcare systems and policies may inadvertently suggest a narrow cultural perspective. Incorporating language that emphasizes the importance of adapting interventions to diverse cultural contexts and acknowledging global health disparities can improve cultural sensitivity and applicability.",
-    "age_appropriate_terminology": "While age ranges are used effectively, the language could be expanded to acknowledge the diversity within age groups and avoid stereotypes. Using phrases like 'individuals across various age groups, including older adults and youth' emphasizes inclusivity.",
-    "disability_inclusive_language": "The description of interventions and datasets does not explicitly consider users with disabilities. Including language about designing accessible interventions, such as accommodating users with visual, auditory, or motor impairments, enhances disability inclusion.",
-    "socioeconomic_sensitivity": "The assumption that all users have access to smartphones and digital literacy overlooks socioeconomic disparities. Explicitly mentioning efforts to include or adapt for users with limited digital access or literacy demonstrates socioeconomic sensitivity.",
-    "geographic_inclusivity": "The focus on Germany and Switzerland limits geographic diversity. Incorporating language that recognizes the importance of validating models across different regions and cultural settings promotes inclusivity and global relevance.",
-    "professional_titles": "Author contributions use initials without titles, which is acceptable stylistically but could be enhanced by including full names and titles to recognize diverse professional backgrounds and promote transparency.",
-    "stereotypes": "The discussion emphasizes behavioral features without addressing potential stereotypes about user motivation or engagement. Acknowledging variability in user behavior and avoiding assumptions about motivation levels fosters a more inclusive perspective.",
-    "identity_language": "Gender data is presented with categories like 'non-binary' but without person-first phrasing. Using person-first language, such as 'individuals identifying as non-binary,' respects diverse gender identities.",
-    "historical_context": "References focus on recent policies and systems in specific countries. Including historical perspectives on health disparities and the evolution of digital health globally can improve sensitivity to historical inequalities."
+    "gender_neutral_language": "The manuscript generally uses neutral terms like 'users' and 'participants,' but some phrases could be refined to avoid subtle gender assumptions. For example, replacing 'users' with 'individuals' or 'people' in certain contexts can enhance neutrality.",
+    "cultural_sensitivity": "While the review covers diverse app domains, it lacks explicit discussion on cultural differences influencing user behavior and data interpretation. Including considerations for cultural context can improve global applicability.",
+    "age_appropriate_terminology": "The paper mentions 'demographic features' such as 'age' but does not specify age groups or consider age-related differences. Explicitly acknowledging diversity in age can promote inclusivity of all user groups.",
+    "disability_inclusive_language": "The review mentions 'health features' but does not address accessibility or adaptations for users with disabilities. Incorporating this perspective can foster more inclusive health-related research.",
+    "socioeconomic_sensitivity": "The discussion does not explicitly consider socioeconomic factors that influence app engagement or data quality. Recognizing such factors can improve fairness and applicability across diverse populations.",
+    "geographic_inclusivity": "The focus on English-language articles limits geographic diversity. Future research should include multilingual sources to better represent global populations and reduce bias.",
+    "professional_title_usage": "Author contributions are listed with initials, which could be expanded to full names and titles to improve transparency and acknowledgment of expertise.",
+    "stereotype_avoidance": "Descriptions of user engagement features could unintentionally reinforce stereotypes about motivated or engaged users. Emphasizing diversity in user motivations can mitigate this risk.",
+    "identity_language": "The manuscript predominantly employs person-first language, but some labels like 'churners' could be replaced with more respectful, person-centered terminology.",
+    "historical_context": "The discussion of data availability overlooks historical disparities in digital access, which are important for understanding biases and ensuring equitable research practices."
   },
-  "summary": "Overall, the manuscript demonstrates a good level of inclusivity, particularly in its technical descriptions and data reporting. However, targeted improvements\u2014such as adopting gender-neutral language, expanding cultural and geographic references, explicitly addressing accessibility and socioeconomic disparities, and using respectful, inclusive terminology\u2014would elevate the quality and inclusivity of the work. These enhancements will ensure broader applicability, respect for diversity, and alignment with best practices in inclusive research."
+  "summary": "Overall, the manuscript demonstrates a solid foundation with generally acceptable language. However, targeted improvements in addressing cultural, socioeconomic, and disability considerations, as well as consistent use of inclusive terminology and acknowledgment of global diversity, would elevate its quality. Incorporating these suggestions can enhance its inclusivity, fairness, and relevance across diverse populations and contexts."
 }

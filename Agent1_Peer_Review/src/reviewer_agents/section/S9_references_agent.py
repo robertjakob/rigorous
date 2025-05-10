@@ -13,23 +13,20 @@ class ReferencesAgentS9(BaseReviewerAgent):
         
     def analyze_references(self, text: str, research_type: str) -> Dict[str, Any]:
         """Analyzes the references of the manuscript."""
-        prompt = f"""Analyze the following references for quality and completeness. Focus on:
-        1. Citation accuracy
-        2. Reference completeness
-        3. Format consistency
-        4. Source relevance
-        5. Source recency
-        6. Source diversity
-        7. Citation-text alignment
-        8. Reference list organization
-        9. Style guide compliance
-        10. Cross-reference accuracy
+        prompt = f"""Analyze the reference list (bibliography) provided at the end of the manuscript. Focus exclusively on the reference list, not in-text citations. Assess:
+        1. Completeness of reference details (authors, title, journal, year, etc.)
+        2. Consistency and correctness of reference formatting
+        3. Relevance and recency of sources
+        4. Diversity of sources (journals, books, etc.)
+        5. Organization and ordering of the reference list
+        6. Adherence to the required style guide for the reference list
+        7. Cross-reference accuracy (do all references correspond to actual entries in the list?)
 
-        For each section, provide at least 2-3 improvement suggestions. Consider these categories:
-        - Accuracy: Citation correctness, cross-reference accuracy
-        - Completeness: Reference details, source information
-        - Format: Style compliance, consistency
-        - Quality: Relevance, recency, diversity
+        For each aspect, provide at least 2-3 improvement suggestions. Consider these categories:
+        - Completeness: Are all necessary details present for each reference?
+        - Format: Is the reference list formatted consistently and according to the required style?
+        - Quality: Are the sources relevant, recent, and diverse?
+        - Organization: Is the reference list well-organized and correctly ordered?
 
         Text to analyze: {text}
         Research type: {research_type}
@@ -37,43 +34,37 @@ class ReferencesAgentS9(BaseReviewerAgent):
         Provide a detailed analysis in the following JSON format:
         {{
             "score": int,  # Single comprehensive score (1-5)
-            # IMPORTANT: The score MUST be between 1 and 5, where:
             # 1 = Poor: Major issues that significantly impact quality
             # 2 = Below Average: Several notable issues that need attention
             # 3 = Average: Some issues but generally acceptable
             # 4 = Good: Minor issues that don't significantly impact quality
             # 5 = Excellent: Very few or no issues, high quality
-            
             "critical_remarks": [{{
-                "category": str,  # "accuracy", "completeness", "format", "quality"
-                "location": str,  # Section reference
+                "category": str,  # "completeness", "format", "quality", "organization"
+                "location": str,  # Reference number or section
                 "issue": str,  # Detailed description of the issue
                 "severity": str,  # "high", "medium", "low"
                 "impact": str  # How this affects manuscript quality
             }}],
-            
             "improvement_suggestions": [{{
-                "original_text": str,  # The problematic text
+                "original_text": str,  # The problematic reference
                 "improved_version": str,  # AI-generated improvement
                 "explanation": str,  # Why this improvement helps
                 "location": str,  # Where to apply this change
-                "category": str,  # "accuracy", "completeness", "format", "quality"
-                "focus": str  # "citation", "reference", "format", "style", "relevance", "recency", "diversity"
+                "category": str,  # "completeness", "format", "quality", "organization"
+                "focus": str  # "reference", "format", "style", "relevance", "recency", "diversity"
             }}],
-            
             "detailed_feedback": {{
-                "accuracy_analysis": str,  # Detailed paragraph about citation accuracy
                 "completeness_analysis": str,  # Detailed paragraph about reference completeness
                 "format_analysis": str,  # Detailed paragraph about format consistency
                 "quality_analysis": str,  # Detailed paragraph about source quality
                 "organization_analysis": str  # Detailed paragraph about reference organization
             }},
-            
             "summary": str  # Overall assessment paragraph
         }}
 
-        Important: Generate at least 10-15 improvement suggestions across different categories.
-        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the references.
+        Focus on 3-5 highest-impact improvements that would significantly enhance the research value.
+        Each suggestion should be specific, actionable, and include clear explanations of how it enhances the reference list.
         """
         
         try:
@@ -90,7 +81,6 @@ class ReferencesAgentS9(BaseReviewerAgent):
             "critical_remarks": [],
             "improvement_suggestions": [],
             "detailed_feedback": {
-                "accuracy_analysis": "",
                 "completeness_analysis": "",
                 "format_analysis": "",
                 "quality_analysis": "",

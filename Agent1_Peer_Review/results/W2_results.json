@@ -1,186 +1,171 @@
 {
-  "narrative_structure_score": 3,
+  "narrative_structure_score": 4,
   "critical_remarks": [
     {
-      "category": "narrative_coherence",
-      "location": "Abstract and Introduction",
-      "issue": "The abstract provides a comprehensive overview but lacks a clear linkage to the specific research questions or hypotheses, which are only fully elaborated later in the introduction. This creates a disconnect in the narrative flow from broad context to specific aims.",
+      "category": "abstract",
+      "location": "Abstract",
+      "issue": "The abstract provides a comprehensive overview but lacks explicit mention of the research gap and the specific contribution of this review compared to prior work.",
       "severity": "medium",
-      "impact": "This affects the reader\u2019s ability to immediately grasp the core research focus and its significance, potentially reducing engagement and clarity."
+      "impact": "This limits clarity on the novelty and significance of the review, potentially reducing reader engagement and understanding of its unique value."
     },
     {
-      "category": "logical_progression",
-      "location": "Results and Discussion",
-      "issue": "Results are presented with detailed statistical metrics but without explicit interpretation or connection to the hypotheses, which hampers understanding of how findings support or refute initial assumptions.",
-      "severity": "high",
-      "impact": "This diminishes the logical flow from data to interpretation, making it harder for readers to follow the narrative of evidence supporting the study\u2019s claims."
-    },
-    {
-      "category": "transitions",
-      "location": "Between sections (e.g., Methods to Results, Results to Discussion)",
-      "issue": "Transitions are abrupt; sections often end with data or technical details without guiding the reader into the next section\u2019s purpose or implications.",
+      "category": "introduction",
+      "location": "Introduction, paragraphs 1-4",
+      "issue": "While the introduction covers background and motivation, the flow between general churn concepts and the specific focus on mobile apps could be more seamless, with clearer signposting of the research gap.",
       "severity": "medium",
-      "impact": "This hampers smooth reading flow and can cause confusion about how sections relate, reducing overall narrative cohesion."
+      "impact": "This affects the narrative coherence, making it harder for readers to follow the rationale for the review."
     },
     {
-      "category": "paragraph_organization",
-      "location": "Methods and Results",
-      "issue": "Some paragraphs contain dense technical details or multiple ideas without clear topic sentences or logical segmentation, leading to difficulty in following the argument or process.",
+      "category": "literature review",
+      "location": "Literature review, sections 2-3",
+      "issue": "The review synthesizes a large body of evidence but sometimes jumps between topics (e.g., algorithms, features, datasets) without clear transitions, leading to fragmented flow.",
       "severity": "medium",
-      "impact": "This affects clarity and makes it harder for readers to identify key points or follow the progression of ideas."
+      "impact": "This hampers logical progression and makes it challenging for readers to connect related themes and understand the overall landscape."
     },
     {
-      "category": "topic_sentences",
-      "location": "Multiple sections",
-      "issue": "Many paragraphs lack explicit topic sentences that clearly state their purpose or main idea, especially in the Methods and Results sections.",
-      "severity": "high",
-      "impact": "This reduces paragraph focus and hampers the reader\u2019s ability to quickly grasp the purpose of each paragraph, weakening overall coherence."
-    },
-    {
-      "category": "evidence_integration",
-      "location": "Introduction and Discussion",
-      "issue": "Supporting evidence is often listed with citations but not integrated into the narrative with critical analysis or synthesis, leading to a fragmented presentation of background and implications.",
-      "severity": "medium",
-      "impact": "This limits the development of a compelling, cohesive argument and diminishes reader engagement."
-    },
-    {
-      "category": "conclusion_alignment",
-      "location": "Conclusion",
-      "issue": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions, missing an opportunity to reinforce the narrative arc.",
+      "category": "methodology",
+      "location": "Methods section",
+      "issue": "The description of the search strategy and inclusion criteria is detailed but could benefit from clearer subheadings or stepwise explanation to improve readability.",
       "severity": "low",
-      "impact": "This affects the sense of closure and coherence of the research story."
+      "impact": "This affects paragraph organization, potentially making it harder for readers to quickly grasp the methodological rigor."
     },
     {
-      "category": "hypothesis_tracking",
-      "location": "Throughout the paper",
-      "issue": "The research questions or hypotheses are not explicitly restated or tracked throughout the Results and Discussion, making it difficult to see how evidence addresses initial aims.",
-      "severity": "high",
-      "impact": "This hampers the logical flow from research questions to conclusions, reducing clarity of the research narrative."
+      "category": "results",
+      "location": "Results, sections 3.1-3.4",
+      "issue": "The presentation of findings, especially in tables and figures, is dense; some key points could be better highlighted through summaries or thematic grouping.",
+      "severity": "medium",
+      "impact": "This impacts reader engagement and the clarity of the narrative flow of results."
+    },
+    {
+      "category": "discussion",
+      "location": "Discussion section",
+      "issue": "The discussion effectively interprets findings but occasionally repeats points from earlier sections without synthesizing insights into a cohesive narrative.",
+      "severity": "low",
+      "impact": "This diminishes the narrative coherence and the development of an overarching argument."
+    },
+    {
+      "category": "conclusion",
+      "location": "Conclusion",
+      "issue": "The conclusion summarizes key findings but could more explicitly tie back to the initial research questions and highlight the implications for future research and practice.",
+      "severity": "low",
+      "impact": "This affects conclusion alignment and leaves the narrative somewhat open-ended."
     },
     {
       "category": "visual_integration",
-      "location": "Figures and Tables",
-      "issue": "Figures and tables are detailed but lack explicit references or explanations within the text that guide interpretation, making it harder for readers to connect visual data with narrative points.",
-      "severity": "medium",
-      "impact": "This weakens visual storytelling and can cause disconnects between data and interpretation."
+      "location": "Throughout the paper",
+      "issue": "Figures and tables are informative but could be better integrated into the text with explicit references and explanations of their relevance.",
+      "severity": "low",
+      "impact": "Improving visual integration would enhance the visual narrative and support reader comprehension."
     },
     {
       "category": "reader_engagement",
-      "location": "Entire document",
-      "issue": "The dense technical language and extensive data presentation, without narrative framing or storytelling elements, reduce overall engagement and accessibility.",
-      "severity": "high",
-      "impact": "This may discourage broader readership and make the complex data less approachable."
+      "location": "Throughout the paper",
+      "issue": "The dense technical language and extensive detail may challenge reader engagement, especially for non-specialist audiences.",
+      "severity": "medium",
+      "impact": "This could limit accessibility and reduce overall engagement with the narrative."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "The rising prevalence and economic burden of noncommunicable diseases (NCDs) present a significant challenge to patients and healthcare systems, calling for innovative, scalable, and cost-effective solutions.",
-      "improved_version": "Given the increasing prevalence and economic impact of noncommunicable diseases (NCDs), this study aims to explore whether machine learning models can predict nonadherence to mobile health interventions, thereby informing targeted strategies to improve health outcomes.",
-      "explanation": "This revision explicitly states the research aim, linking background context to the study\u2019s purpose, enhancing narrative coherence.",
+      "original_text": "This systematic literature review investigates applied machine learning (ML) algorithms and features for predicting churn in mobile apps by synthesizing methodologies and outcomes of 50 selected studies from an initial pool of 1,502 screened articles.",
+      "improved_version": "This systematic review synthesizes methodologies and outcomes from 50 studies on machine learning-based churn prediction in mobile apps, filling a notable gap in the literature.",
+      "explanation": "Clarifies the contribution and scope of the review, emphasizing its novelty and significance.",
       "location": "Abstract",
       "category": "abstract",
-      "focus": "hypothesis_tracking"
-    },
-    {
-      "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95), defined as completing fewer than eight therapeutic exercises per week.",
-      "improved_version": "The models achieved high accuracy, correctly identifying an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira, where nonadherence was defined as completing fewer than eight exercises weekly. This demonstrates the models\u2019 effectiveness in early detection.",
-      "explanation": "Adding interpretative context clarifies the significance of the metrics, improving evidence integration and reader understanding.",
-      "location": "Results",
-      "category": "evidence_integration",
-      "focus": "supporting_evidence_integration"
-    },
-    {
-      "original_text": "The introduction highlights the potential of mHealth interventions but does not clearly connect to the specific hypotheses or research questions.",
-      "improved_version": "Building on the established potential of mHealth interventions, this study investigates whether behavioral engagement data can reliably predict nonadherence and user churn, addressing a critical gap in the literature.",
-      "explanation": "This explicitly links background to research questions, improving logical progression and hypothesis tracking.",
-      "location": "Introduction",
-      "category": "introduction",
-      "focus": "hypothesis_tracking"
-    },
-    {
-      "original_text": "Results are presented with detailed statistical metrics but without explicit interpretation or connection to the hypotheses.",
-      "improved_version": "The results show that models can predict nonadherence with high accuracy over extended periods, supporting the hypothesis that behavioral app data are predictive of user engagement patterns.",
-      "explanation": "Connecting data to hypotheses clarifies how findings support the research aims, improving narrative coherence.",
-      "location": "Results",
-      "category": "results",
-      "focus": "hypothesis_tracking"
-    },
-    {
-      "original_text": "Many paragraphs contain dense technical details or multiple ideas without clear topic sentences.",
-      "improved_version": "This paragraph introduces the predictive modeling approach, focusing on the choice of algorithms and feature selection to ensure clarity.",
-      "explanation": "Adding clear topic sentences helps organize content and guides the reader through complex technical details.",
-      "location": "Methodology",
-      "category": "paragraph_organization",
-      "focus": "topic_sentences"
-    },
-    {
-      "original_text": "Figures and tables are detailed but lack explicit references or explanations within the text.",
-      "improved_version": "In Figure 6.5, the trend of increasing AUC over weeks illustrates the models\u2019 improving predictive performance, highlighting their robustness over time.",
-      "explanation": "Explicitly referencing figures and explaining their significance enhances visual integration and narrative flow.",
-      "location": "Results",
-      "category": "visual_integration",
-      "focus": "visual_element_integration"
-    },
-    {
-      "original_text": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions.",
-      "improved_version": "In conclusion, our findings confirm that behavioral app engagement data can reliably predict nonadherence and churn, aligning with our initial hypotheses and underscoring the potential for targeted intervention strategies.",
-      "explanation": "Restating hypotheses and linking findings to initial aims reinforces narrative closure and coherence.",
-      "location": "Conclusion",
-      "category": "conclusion",
       "focus": "conclusion_alignment"
     },
     {
-      "original_text": "The discussion does not explicitly track the initial research questions or hypotheses.",
-      "improved_version": "This discussion explicitly revisits the research questions, evaluating how the results support the hypothesis that behavioral data can predict nonadherence and user disengagement.",
-      "explanation": "Explicitly tracking hypotheses throughout the discussion maintains narrative focus and clarity.",
-      "location": "Discussion",
-      "category": "hypothesis_tracking",
-      "focus": "hypothesis_tracking"
+      "original_text": "User churn, also referred to as user attrition, loss, abandonment, or dropout, is a well-recognized phenomenon characterized by users' discontinuation of a product or service.",
+      "improved_version": "User churn, often termed attrition, loss, abandonment, or dropout, refers to users discontinuing a product or service, posing significant challenges across industries.",
+      "explanation": "Provides clearer signposting and smoother flow into the specific focus on industry relevance.",
+      "location": "Introduction, paragraph 1",
+      "category": "paragraph_organization",
+      "focus": "logical_progression"
     },
     {
-      "original_text": "The extensive technical data presentation can be overwhelming without guiding narrative elements.",
-      "improved_version": "Integrate brief summaries of key data points within the narrative, such as: 'The high AUC values across weeks indicate consistent model performance, supporting the feasibility of real-time prediction.'",
-      "explanation": "Embedding summaries within the text improves engagement and comprehension, making complex data accessible.",
-      "location": "Results",
-      "category": "reader_engagement",
-      "focus": "reader_engagement"
-    },
-    {
-      "original_text": "The paper\u2019s dense technical language and data-heavy presentation reduce overall engagement.",
-      "improved_version": "Incorporate storytelling elements, such as case examples or user scenarios, to illustrate how predictions could be applied in real-world settings, thereby increasing engagement.",
-      "explanation": "Storytelling makes the technical content more relatable and engaging for a broader audience.",
-      "location": "Discussion",
-      "category": "reader_engagement",
-      "focus": "reader_engagement"
-    },
-    {
-      "original_text": "The paper lacks explicit signposting between sections, making navigation challenging.",
-      "improved_version": "Add transition sentences at the end of each section, e.g., 'Having established the predictive performance of our models, we now explore their implications for intervention strategies.'",
-      "explanation": "Clear transitions guide the reader smoothly through the narrative, enhancing structural coherence.",
-      "location": "Between sections",
-      "category": "transitions",
+      "original_text": "The review also explores additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
+      "improved_version": "Additionally, the review examines factors influencing churn prediction outcomes and evaluates the effectiveness of prevention strategies integrated with prediction models.",
+      "explanation": "Streamlines the sentence for clarity and better flow, linking related themes more cohesively.",
+      "location": "Abstract",
+      "category": "paragraph_organization",
       "focus": "transitions"
     },
     {
-      "original_text": "The hypotheses are not explicitly restated or revisited throughout the paper.",
-      "improved_version": "Restate the research hypotheses at the end of the introduction and explicitly evaluate how each is addressed in the results and discussion sections.",
-      "explanation": "Explicit hypothesis tracking clarifies the research narrative and helps readers assess how evidence supports initial aims.",
+      "original_text": "The literature search and selection was conducted per the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines.",
+      "improved_version": "Following PRISMA guidelines, we conducted a comprehensive literature search and selection process to ensure methodological rigor.",
+      "explanation": "Provides context and emphasizes the systematic approach, improving logical flow.",
+      "location": "Methods section",
+      "category": "paragraph_organization",
+      "focus": "transitions"
+    },
+    {
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
+      "improved_version": "The datasets' sample sizes varied dramatically, from as few as 61 users to over 37 million, with a median of 25,000 users (IQR: 4,089\u201379,436), reflecting diverse data sources and scales.",
+      "explanation": "Adds clarity and context, aiding understanding of dataset heterogeneity.",
+      "location": "Results, section 3.1",
+      "category": "paragraph_organization",
+      "focus": "evidence_integration"
+    },
+    {
+      "original_text": "Most studies evaluated and compared multiple different ML models with mixed results, and no particular model emerged as a single best-performing model across a broad range of studies.",
+      "improved_version": "While most studies evaluated multiple ML models, no single algorithm consistently outperformed others across different contexts, highlighting the importance of context-specific model selection.",
+      "explanation": "Clarifies the nuance and emphasizes the variability, enhancing narrative coherence.",
+      "location": "Results, section 3.2",
+      "category": "topic_sentences",
+      "focus": "logical_progression"
+    },
+    {
+      "original_text": "The review synthesizes evidence around these research questions, this review aims to identify studies that quantitatively evaluate user churn prediction models and to synthesize effective ML algorithms and features by comparing performance metrics and reported feature importances.",
+      "improved_version": "This review systematically addresses key research questions by identifying studies that quantitatively evaluate churn prediction models, synthesizing effective algorithms and features through performance comparisons and feature importance analyses.",
+      "explanation": "Improves clarity and reduces redundancy, strengthening the narrative flow.",
+      "location": "Introduction, paragraph 4",
+      "category": "topic_sentences",
+      "focus": "narrative_coherence"
+    },
+    {
+      "original_text": "Figures and tables are informative but could be better integrated into the text with explicit references and explanations of their relevance.",
+      "improved_version": "Figures and tables are well-constructed; however, explicitly referencing and discussing them within the text would enhance their integration, guiding readers to interpret visual data in context.",
+      "explanation": "Provides actionable advice to improve visual narrative and reader guidance.",
       "location": "Throughout the paper",
-      "category": "hypothesis_tracking",
-      "focus": "hypothesis_tracking"
+      "category": "visual_integration",
+      "focus": "visual_integration"
+    },
+    {
+      "original_text": "The dense technical language and extensive detail may challenge reader engagement, especially for non-specialist audiences.",
+      "improved_version": "Simplifying complex terminology where possible and including summaries or highlights of key points would make the content more accessible and engaging for a broader audience.",
+      "explanation": "Enhances reader engagement by improving accessibility without sacrificing content depth.",
+      "location": "Throughout the paper",
+      "category": "reader_engagement",
+      "focus": "reader_engagement"
+    },
+    {
+      "original_text": "The discussion effectively interprets findings but occasionally repeats points from earlier sections without synthesizing insights into a cohesive narrative.",
+      "improved_version": "The discussion synthesizes key findings, integrating insights across themes to develop a cohesive narrative that highlights implications, limitations, and future directions.",
+      "explanation": "Strengthens narrative coherence by emphasizing synthesis and overarching insights.",
+      "location": "Discussion",
+      "category": "narrative_coherence",
+      "focus": "narrative_coherence"
+    },
+    {
+      "original_text": "The conclusion summarizes key findings but could more explicitly tie back to the initial research questions and highlight the implications for future research and practice.",
+      "improved_version": "The conclusion revisits the initial research questions, explicitly summarizing how the findings address each and outlining practical and research implications for advancing churn prediction in mobile apps.",
+      "explanation": "Ensures closure aligns with initial aims, reinforcing the narrative arc.",
+      "location": "Conclusion",
+      "category": "conclusion",
+      "focus": "conclusion_alignment"
     }
   ],
   "detailed_feedback": {
-    "narrative_coherence": "The paper begins with a broad overview of the importance of mHealth interventions and their challenges, but the connection to specific research questions is only implied rather than explicitly articulated early on. Clarifying the central aims upfront would strengthen coherence.",
-    "logical_progression": "The progression from background to methods, results, and discussion generally follows a logical sequence, but the absence of explicit hypothesis statements and their subsequent testing weakens the narrative flow. Explicitly linking each result back to the initial questions would improve this.",
-    "section_transitions": "Transitions between sections are often abrupt, with minimal guiding sentences. Incorporating signposting and linking sentences at the end of sections can improve flow and reader orientation.",
-    "paragraph_organization": "Many paragraphs are dense with technical details or multiple ideas, reducing clarity. Using topic sentences and breaking complex paragraphs into smaller, focused units would enhance readability.",
-    "topic_sentence_effectiveness": "Several paragraphs lack clear topic sentences, which hampers quick understanding of their purpose. Adding explicit topic sentences at the start of each paragraph would clarify their main idea.",
-    "supporting_evidence_integration": "Evidence is often presented as lists of metrics and citations without critical interpretation. Embedding explanations of what these metrics imply about model performance would strengthen argumentation.",
-    "conclusion_alignment": "The conclusion summarizes findings but does not explicitly revisit the initial hypotheses or research questions, missing an opportunity to reinforce the narrative arc and provide closure.",
-    "hypothesis_tracking": "The initial hypotheses are not explicitly restated or systematically revisited, which diminishes clarity about how the evidence supports or refutes the research aims. Restating and tracking them would improve coherence.",
-    "visual_element_integration": "Figures and tables are detailed but lack explicit references within the text that explain their relevance. Incorporating interpretative commentary would enhance visual storytelling.",
-    "reader_engagement": "The technical density and extensive data presentation can be overwhelming. Using storytelling techniques, case examples, or simplified summaries would make the content more engaging and accessible."
+    "narrative_coherence": "The overall narrative flows logically from background, through methodology and results, to discussion and conclusion. However, some sections, especially the literature review, could benefit from clearer thematic grouping and signposting to improve coherence.",
+    "logical_progression": "The paper generally progresses logically, with each section building on the previous. Nonetheless, transitions between topics within sections, such as from algorithms to features, could be smoother with explicit linking sentences.",
+    "section_transitions": "Transitions between major sections are adequate but could be improved by summarizing key points at the end of sections and previewing upcoming content, aiding reader navigation.",
+    "paragraph_organization": "Most paragraphs focus on a single idea, but some are overly dense with information. Breaking complex paragraphs into smaller units with clear topic sentences would enhance readability.",
+    "topic_sentence_effectiveness": "Topic sentences are present but sometimes too broad or generic. Making them more specific to the paragraph content would help orient the reader.",
+    "supporting_evidence_integration": "Evidence is well-cited and detailed, but integrating key findings into the narrative with interpretive commentary would strengthen the argument and guide reader understanding.",
+    "conclusion_alignment": "The conclusion effectively summarizes but could more explicitly relate findings back to the initial research questions, emphasizing contributions and future directions.",
+    "hypothesis_tracking": "The review clearly states research questions but could improve by explicitly indicating how each section addresses these questions, maintaining a stronger hypothesis thread.",
+    "visual_element_integration": "Figures and tables are useful but under-referenced. Explicitly discussing them within the text would improve their contribution to the narrative.",
+    "reader_engagement": "The technical density may challenge engagement; incorporating summaries, visual highlights, and accessible language would broaden appeal."
   },
-  "summary": "Overall, the manuscript demonstrates solid technical rigor and comprehensive data presentation, but its narrative structure could benefit from clearer signposting, explicit hypothesis tracking, and improved paragraph and section organization. Enhancing coherence through explicit linking of sections, integrating visual data with narrative explanations, and adopting storytelling elements would significantly improve readability and engagement, making the complex findings more accessible and compelling for diverse audiences."
+  "summary": "This review demonstrates strong overall narrative structure with clear sections and logical flow. To further enhance coherence and engagement, the authors should improve signposting, transition clarity, and visual integration. Addressing these aspects will make the complex content more accessible and the narrative more cohesive, ultimately strengthening the impact and readability of the paper."
 }

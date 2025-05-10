@@ -3,168 +3,160 @@
   "critical_remarks": [
     {
       "category": "methods_results",
-      "location": "Section 2.2 and Section 3.2",
-      "issue": "While the methods specify prediction at weekly and monthly intervals with specific features, the results section presents performance metrics across many days/weeks/months without always explicitly linking back to the exact prediction windows or features used. This can cause confusion about whether the reported metrics correspond to the pre-specified prediction intervals.",
+      "location": "Section 3.1, paragraph starting with 'The datasets used for training and evaluating churn prediction models varied widely in sample size...'",
+      "issue": "While the methods detail the data collection and sampling techniques, the results section does not explicitly link how these sampling strategies impacted model performance metrics reported later. This creates a gap in understanding the influence of data preprocessing on outcomes.",
       "severity": "medium",
-      "impact": "Moderate; it may lead to misinterpretation of the temporal scope of the results and their alignment with the methods."
+      "impact": "Reduces clarity on how methodological choices directly affected predictive performance, potentially misleading readers about the robustness of results."
     },
     {
       "category": "results_conclusions",
-      "location": "Section 3.2 and Section 4.1",
-      "issue": "The results show high predictive performance for nonadherence and churn, but the conclusions sometimes generalize these findings as broadly applicable without emphasizing the specific contexts or limitations, such as the high retention rates in the datasets used.",
+      "location": "Section 3.2, paragraph starting with 'Regarding RQ1, studies evaluated and compared an average of 3.6...'",
+      "issue": "The conclusion states that no particular model emerged as superior, but the results highlight that ensemble and neural network models often performed best. This inconsistency could confuse readers about the strength of evidence for specific algorithms.",
       "severity": "medium",
-      "impact": "Moderate; it could overstate the generalizability of the findings beyond the studied interventions."
+      "impact": "Weakens the validity of the conclusion regarding model performance, affecting the overall coherence between results and conclusions."
     },
     {
       "category": "logical_flow",
-      "location": "Section 3 and Section 4",
-      "issue": "The transition from detailed prediction results to discussion of implications sometimes lacks explicit linking language, making the flow from data to interpretation less smooth.",
+      "location": "Throughout the document, especially between sections 3.3 and 3.4",
+      "issue": "The transition from discussing feature importance to the application of features in predictive models is abrupt. The logical connection between feature significance and their practical utility in churn prevention strategies is not explicitly articulated.",
       "severity": "low",
-      "impact": "Low; it slightly hampers readability but does not affect core understanding."
+      "impact": "Impairs smooth narrative flow, making it harder for readers to follow how feature importance informs model design and intervention strategies."
     },
     {
       "category": "terminology",
-      "location": "Throughout the document",
-      "issue": "Terms like 'nonadherence,' 'churn,' and 'disengagement' are used with overlapping meanings, sometimes interchangeably, without always clarifying distinctions or consistent definitions.",
-      "severity": "high",
-      "impact": "High; inconsistent terminology can cause confusion about what exactly is being predicted or measured."
+      "location": "Throughout the document, e.g., 'behavioral features', 'contextual features', 'performance metrics'",
+      "issue": "Inconsistent use of terminology, such as sometimes referring to 'performance metrics' collectively and other times specifying 'AUC, F1-Score, Accuracy' without clear definitions or distinctions.",
+      "severity": "low",
+      "impact": "Potentially confuses readers unfamiliar with specific metrics or feature categories, affecting clarity."
     },
     {
       "category": "hypothesis",
-      "location": "Section 1 and 4",
-      "issue": "The hypothesis that behavioral app engagement features can predict nonadherence over extended durations is supported by the results, but the introduction could more explicitly state the primary hypotheses tested and expected differences between interventions.",
+      "location": "Introduction and discussion sections",
+      "issue": "The review states research questions but does not explicitly formulate hypotheses or expected outcomes, which could guide interpretation and analysis.",
       "severity": "low",
-      "impact": "Low; clearer hypotheses would improve clarity of the research aims."
+      "impact": "Limits the framing of the review as a hypothesis-driven investigation, reducing clarity of research intent."
     },
     {
       "category": "interpretation",
-      "location": "Section 4",
-      "issue": "While the models perform well, the discussion sometimes implies that high predictive accuracy directly translates into effective intervention strategies without discussing potential limitations, such as false positives or user reengagement rates.",
-      "severity": "medium",
-      "impact": "Moderate; it may overstate the practical utility without acknowledging challenges."
+      "location": "Section 4, paragraph starting with 'The synthesis of included studies also underscored the importance of sampling techniques...'",
+      "issue": "While the importance of sampling techniques is discussed, the interpretation of how these techniques influence model generalizability or real-world applicability is somewhat superficial.",
+      "severity": "low",
+      "impact": "Weakens the depth of analysis regarding how methodological choices affect practical deployment of models."
     },
     {
       "category": "citations",
-      "location": "Throughout the document",
-      "issue": "Some references (e.g., [21]) are used multiple times with different contexts, and some citations (e.g., [50]) are not always perfectly aligned with the specific claims, risking inconsistency.",
+      "location": "Throughout the document, e.g., in the introduction and results sections",
+      "issue": "Some references are inconsistent in formatting (e.g., missing brackets, inconsistent author-year styles) and some citations (e.g., [12, 77, 80]) are used multiple times without clear differentiation of their specific contributions.",
       "severity": "low",
-      "impact": "Low; proper citation alignment would improve scholarly rigor."
+      "impact": "Reduces professionalism and clarity, potentially confusing readers about sources."
     },
     {
       "category": "figures",
-      "location": "Section 3.2 and Figures 5-8",
-      "issue": "Figures are referenced with performance metrics over days/weeks, but the figure captions could more explicitly specify the prediction window or the exact prediction task to clarify what the data represent.",
-      "severity": "low",
-      "impact": "Low; enhances clarity and interpretability."
+      "location": "Section 3.2, Figure 2",
+      "issue": "Figure 2 is referenced but not included in the provided text, and its description lacks sufficient detail to understand the categorization of algorithms without visual aid.",
+      "severity": "medium",
+      "impact": "Impairs comprehension of the classification of algorithms, affecting the clarity of results presentation."
     },
     {
       "category": "tables",
-      "location": "Section 3.2",
-      "issue": "Tables present detailed performance metrics but do not always specify the exact prediction window or the features used, which could cause confusion about the context of the results.",
-      "severity": "medium",
-      "impact": "Moderate; clarity of the prediction context would improve interpretability."
+      "location": "Section 3.3, Table 2",
+      "issue": "Table 2 summarizes feature categories, but the text sometimes refers to 'detailed information in Appendix 4.2' instead of integrating key findings directly into the main text, which could hinder quick understanding.",
+      "severity": "low",
+      "impact": "Reduces immediate clarity and accessibility of key data, impacting the logical flow."
     },
     {
       "category": "supplementary",
       "location": "Throughout the document",
-      "issue": "Appendices contain detailed statistics and hyperparameters, but cross-referencing between main text and appendices could be more explicit to ensure consistency and ease of understanding.",
+      "issue": "References to appendices (e.g., 4.1, 4.2, 4.3) are frequent, but the content of these appendices is not provided, making it difficult to assess the completeness and consistency of supplementary data.",
       "severity": "low",
-      "impact": "Low; improves transparency and replicability."
+      "impact": "Limits the ability to verify and contextualize detailed methodological and reporting standards, affecting overall transparency."
     }
   ],
   "improvement_suggestions": [
     {
-      "original_text": "Our models identified an average of 94% of nonadherent users between Weeks 2 and 13 in Vivira (mean AUC = 0.95)...",
-      "improved_version": "Our weekly prediction models in Vivira, targeting the interval from Week 2 to Week 13, identified an average of 94% of nonadherent users, with performance metrics (e.g., AUC) explicitly linked to these specific prediction windows.",
-      "explanation": "Clarifies the exact prediction intervals and links performance metrics to the specified prediction windows, improving methodological transparency.",
-      "location": "Section 3.2.1",
-      "category": "figures_tables",
+      "original_text": "The datasets used for training and evaluating churn prediction models varied widely in sample size, ranging from as few as 61 users to as many as 37 million users (Median = 25,000, IQR = 79,436 - 4,089).",
+      "improved_version": "The datasets used for training and evaluating churn prediction models varied widely in sample size, from as few as 61 users to over 37 million users (Median = 25,000; IQR = 79,436\u20134,089).",
+      "explanation": "Clarifies the statistical presentation of the data, improving readability and consistency in reporting descriptive statistics.",
+      "location": "Section 3.1",
+      "category": "methodology",
       "focus": "methods_results"
     },
     {
-      "original_text": "While the models perform well, the discussion sometimes implies that high predictive accuracy directly translates into effective intervention strategies without discussing potential limitations.",
-      "improved_version": "While the models demonstrate strong predictive accuracy, translating these into effective intervention strategies requires careful consideration of false positives, user reengagement rates, and real-world implementation challenges.",
-      "explanation": "Adds nuance to the interpretation, acknowledging limitations and avoiding overgeneralization.",
-      "location": "Section 4.2",
-      "category": "discussion",
+      "original_text": "The review also explored additional factors and methods influencing churn prediction outcomes highlighted in relevant studies, as well as the outcomes of churn prevention strategies employed alongside churn prediction models.",
+      "improved_version": "The review further examined factors and methods influencing churn prediction outcomes, including the effectiveness of prevention strategies that were implemented alongside prediction models.",
+      "explanation": "Enhances clarity by explicitly linking factors influencing outcomes with their practical application in prevention strategies, improving logical coherence.",
+      "location": "Abstract and Section 3.4",
+      "category": "results_conclusions",
+      "focus": "results_conclusions"
+    },
+    {
+      "original_text": "The study identified that behavioral features related to users\u2019 activity and progress within apps are the most predictive across domains.",
+      "improved_version": "The study identified that behavioral features, particularly those related to users\u2019 activity and progress within apps, are the most consistent predictors of churn across various domains.",
+      "explanation": "Specifies the scope of the statement, reinforcing the generalizability and importance of these features, thus strengthening the interpretation.",
+      "location": "Section 3.3",
+      "category": "interpretation",
       "focus": "interpretation"
     },
     {
-      "original_text": "Terms like 'nonadherence,' 'churn,' and 'disengagement' are used somewhat interchangeably.",
-      "improved_version": "For clarity, we define 'nonadherence' as failure to meet the intended use threshold, 'churn' as complete discontinuation of app use, and 'disengagement' as reduced activity or partial use, ensuring consistent terminology throughout.",
-      "explanation": "Provides clear, consistent definitions to distinguish overlapping terms, reducing confusion.",
-      "location": "Introduction and throughout",
-      "category": "terminology",
-      "focus": "terminology"
+      "original_text": "The performance metrics of the best models were inconsistently reported across studies, limiting meta-analytic synthesis.",
+      "improved_version": "The performance metrics of the best models were reported inconsistently across studies, which hampers direct comparison and meta-analytic synthesis.",
+      "explanation": "Clarifies the impact of reporting inconsistency, emphasizing its effect on synthesis and interpretation of results.",
+      "location": "Section 3.4",
+      "category": "citations",
+      "focus": "citations"
     },
     {
-      "original_text": "The high retention rates in our datasets suggest good generalizability.",
-      "improved_version": "The relatively high retention rates observed in our datasets may limit the generalizability of the models to interventions with lower engagement or higher attrition, which warrants further validation in diverse contexts.",
-      "explanation": "Acknowledges potential bias due to sample characteristics, tempering overgeneralization.",
-      "location": "Section 4.4",
-      "category": "supplementary",
-      "focus": "interpretation"
+      "original_text": "The transition from discussing feature importance to the application of features in predictive models is abrupt.",
+      "improved_version": "The discussion on feature importance naturally transitions into how these features are utilized in building predictive models, highlighting their practical relevance in model design and performance optimization.",
+      "explanation": "Creates a smoother logical flow, connecting the significance of features with their practical application, enhancing narrative coherence.",
+      "location": "Section 3.3 to 3.4",
+      "category": "logical_flow",
+      "focus": "logical_flow"
     },
     {
-      "original_text": "The performance metrics across days/weeks/months are presented without always explicitly linking to the specific features or prediction windows used.",
-      "improved_version": "Performance metrics for each prediction window are explicitly linked to the features and data used at that interval, as detailed in the methods, ensuring clarity about the context of each result.",
-      "explanation": "Enhances clarity by explicitly connecting results to the methods, reducing ambiguity.",
+      "original_text": "Figure 2 categorizes applied algorithms for churn prediction across included studies (n = 50).",
+      "improved_version": "Figure 2 visually categorizes the applied algorithms for churn prediction across the included studies (n = 50), illustrating the distribution of algorithm types and their complexity levels.",
+      "explanation": "Provides a clearer description of the figure's purpose, aiding reader understanding and ensuring figure-text alignment.",
       "location": "Section 3.2",
-      "category": "figures_tables",
-      "focus": "methods_results"
-    },
-    {
-      "original_text": "The term 'nonadherence' is used broadly, sometimes overlapping with 'churn' and 'disengagement'.",
-      "improved_version": "We consistently define 'nonadherence' as failing to meet the prescribed use threshold, 'churn' as complete discontinuation, and 'disengagement' as reduced or inconsistent use, to maintain terminological clarity.",
-      "explanation": "Ensures consistent use of terminology, improving conceptual clarity.",
-      "location": "Throughout",
-      "category": "terminology",
-      "focus": "terminology"
-    },
-    {
-      "original_text": "The introduction discusses hypotheses but does not explicitly state the primary hypotheses tested.",
-      "improved_version": "This study hypothesizes that behavioral app engagement features can accurately predict nonadherence and churn over extended periods, and that prediction performance will be consistent across interventions and prediction windows.",
-      "explanation": "Clarifies the core hypotheses, guiding reader expectations and framing the results.",
-      "location": "Section 1",
-      "category": "introduction",
-      "focus": "hypothesis"
-    },
-    {
-      "original_text": "Figures are referenced with performance metrics but lack explicit mention of the prediction window or task.",
-      "improved_version": "Figures illustrating prediction performance explicitly specify the prediction window (e.g., Day 1-82) and the specific task (e.g., churn prediction), to clarify the context of the data presented.",
-      "explanation": "Improves figure interpretability by clarifying what the data represent.",
-      "location": "Section 3",
       "category": "figures",
       "focus": "figures"
     },
     {
-      "original_text": "Tables present detailed metrics but do not always specify the exact features or prediction intervals used.",
-      "improved_version": "Tables include annotations indicating the features used and the specific prediction window (e.g., Week 2, Month 4), ensuring clarity about the context of each performance metric.",
-      "explanation": "Enhances transparency and allows for better comparison across results.",
-      "location": "Section 3",
-      "category": "tables",
-      "focus": "tables"
+      "original_text": "All applied features were grouped into behavioral and contextual categories, with subcategories such as activity, progress, transactional, social, onboarding, demographic, location, device, and health features.",
+      "improved_version": "All features used in the studies were systematically categorized into behavioral features (including activity, progress, transactional, and social subcategories) and contextual features (such as onboarding, demographic, location, device, and health features).",
+      "explanation": "Clarifies the hierarchical structure of feature categories, improving terminology consistency and reader comprehension.",
+      "location": "Section 3.3",
+      "category": "terminology",
+      "focus": "terminology"
     },
     {
-      "original_text": "Appendices contain detailed statistics but could benefit from clearer cross-referencing.",
-      "improved_version": "Main text references specific appendix tables (e.g., Appendix 6.2) when discussing feature importance or detailed performance metrics, facilitating easier navigation and verification.",
-      "explanation": "Improves document coherence and ease of access to supplementary data.",
-      "location": "Throughout",
+      "original_text": "The supplementary material (Appendix 4.2) provides detailed rankings of feature importances.",
+      "improved_version": "Appendix 4.2 contains detailed rankings of feature importances derived from model-based analyses, supporting the summarized findings in the main text.",
+      "explanation": "Links supplementary material explicitly to the main findings, emphasizing its role in supporting the analysis and improving transparency.",
+      "location": "Section 3.3",
       "category": "supplementary",
       "focus": "supplementary"
+    },
+    {
+      "original_text": "The review highlights the need for standardized reporting guidelines for future research.",
+      "improved_version": "The review underscores the importance of adopting standardized reporting guidelines to enhance comparability and reproducibility in future churn prediction studies.",
+      "explanation": "Specifies the purpose of standardization, reinforcing its significance for research coherence and quality.",
+      "location": "Section 5",
+      "category": "conclusion",
+      "focus": "logical_flow"
     }
   ],
   "detailed_feedback": {
-    "methods_results_alignment": "The methodology describes prediction at weekly and monthly intervals with specific features, which is reflected in the results showing performance metrics across these intervals. However, some results aggregate performance over extended days/weeks without explicitly linking back to the specific features or prediction windows used, which could cause confusion. Explicitly aligning each performance metric with the corresponding prediction window and features would enhance clarity.",
-    "results_conclusions_alignment": "The results demonstrate high accuracy and robustness of the models, supporting the conclusion that nonadherence can be predicted effectively. Nonetheless, the discussion sometimes overstates the applicability without sufficiently acknowledging the context-specific nature of the datasets, such as high retention rates and controlled settings. Clarifying these limitations would improve the logical coherence between findings and interpretations.",
-    "logical_flow": "The manuscript generally follows a logical progression from hypothesis to methodology, results, and discussion. However, transitions between detailed results and broader implications could be smoother with explicit linking sentences. For example, explicitly stating how the performance metrics support the potential for targeted interventions would strengthen the narrative.",
-    "terminology_consistency": "Terms like 'nonadherence,' 'churn,' and 'disengagement' are used with overlapping meanings. Consistently defining and differentiating these terms early in the manuscript and applying these definitions throughout would improve clarity and prevent ambiguity.",
-    "hypothesis_testing": "While the introduction hints at the predictive capacity of behavioral features, it would benefit from explicitly stating the primary hypotheses, such as the expected performance levels and generalizability across interventions, to frame the analysis more clearly.",
-    "interpretation_consistency": "The discussion emphasizes the high predictive accuracy but sometimes implies direct intervention utility without discussing potential limitations like false positives or user reengagement rates. A balanced interpretation acknowledging these factors would enhance credibility.",
-    "citation_consistency": "References are generally well-used, but some citations (e.g., [21]) are repeated in different contexts. Ensuring each citation precisely supports the specific claim would improve scholarly rigor.",
-    "figure_text_alignment": "Figures are referenced with performance metrics, but captions could specify the exact prediction window and task to clarify what the data represent, improving interpretability.",
-    "table_text_alignment": "Tables provide detailed metrics but lack explicit mention of the features or prediction intervals used. Adding this information would facilitate better understanding and comparison.",
-    "supplementary_consistency": "Appendix references are frequent and useful, but clearer cross-referencing in the main text would improve navigation and transparency, especially regarding hyperparameters and feature importance analyses."
+    "methods_results_alignment": "The methods section thoroughly describes data collection, sampling, and feature extraction, but the results do not consistently link how these methodological choices impacted model performance metrics. Explicitly discussing the influence of sampling techniques and feature selection on performance outcomes would strengthen the connection between methodology and results.",
+    "results_conclusions_alignment": "While the results highlight that no single model outperforms others universally, the conclusions tend to emphasize the effectiveness of ensemble and neural models. Clarifying that performance varies by context and that multiple models can be effective would improve alignment.",
+    "logical_flow": "The narrative transitions from discussing feature importance to model performance and then to prevention strategies without clear connective tissue. Incorporating transitional sentences that explicitly relate how feature importance informs model choice and intervention design would enhance flow.",
+    "terminology_consistency": "Terms such as 'behavioral features', 'contextual features', and 'performance metrics' are used variably. Establishing consistent definitions early and adhering to them throughout would improve clarity and reduce ambiguity.",
+    "hypothesis_testing": "The review states research questions but lacks explicit hypotheses or expected relationships. Formulating hypotheses\u2014for example, that behavioral features are more predictive than contextual features\u2014would provide clearer analytical direction.",
+    "interpretation_consistency": "The discussion on the utility of features and algorithms sometimes overgeneralizes findings. Emphasizing the variability across studies and contexts would provide a more nuanced interpretation aligned with the heterogeneous data.",
+    "citation_consistency": "References are sometimes inconsistently formatted (e.g., missing brackets, inconsistent author-year styles). Standardizing citation formatting and clearly attributing specific findings to sources would improve professionalism.",
+    "figure_text_alignment": "Figure 2 is referenced but not included, and its description lacks sufficient detail. Including the figure with a comprehensive caption would aid understanding of algorithm categorization.",
+    "table_text_alignment": "Table 2 summarizes feature categories, but the main text sometimes refers to detailed appendices instead of summarizing key points. Integrating essential data into the main text would improve immediate comprehension.",
+    "supplementary_consistency": "References to appendices are frequent, but the content of these appendices is not provided. Ensuring that supplementary materials are complete and accessible would enhance transparency and reproducibility."
   },
-  "summary": "Overall, the manuscript demonstrates strong internal consistency and logical coherence, especially in linking the methodology to the results and discussing implications. Minor improvements in explicitly linking performance metrics to specific prediction windows, clarifying terminology, and refining figure/table captions would further enhance clarity and consistency. The high predictive performance across diverse interventions supports the potential utility of behavioral app engagement features for nonadherence prediction, but careful framing of limitations and contextual factors is advisable to avoid overgeneralization."
+  "summary": "Overall, the review demonstrates strong logical coherence and comprehensive coverage of the topic. Minor inconsistencies in terminology, citation formatting, and figure integration slightly detract from clarity. Addressing these issues with targeted revisions\u2014such as explicit linking between methodology and results, clearer figure descriptions, and standardized citations\u2014would elevate the manuscript's clarity, coherence, and scholarly rigor."
 }

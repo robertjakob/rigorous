@@ -80,7 +80,7 @@ def main():
     print("Created category-specific files:")
     print("- section_results.json (S1-S10)")
     print("- rigor_results.json (R1-R7)")
-    print("- writing_results.json (W1-W8)")
+    print("- writing_results.json (W1-W7)")
 
 if __name__ == "__main__":
     main() 

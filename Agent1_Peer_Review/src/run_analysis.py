@@ -6,7 +6,7 @@ This script runs the manuscript analysis using all agents and saves the results
 in three category-specific JSON files:
 - section_results.json: Results from section agents (S1-S10)
 - rigor_results.json: Results from rigor agents (R1-R7)
-- writing_results.json: Results from writing agents (W1-W8)
+- writing_results.json: Results from writing agents (W1-W7)
 """
 
 import argparse
