@@ -1,4 +1,4 @@
-# AS Peer Reviewer
+# AI Peer Reviewer
 
 > **Note:** This repository is currently private but is intended to be released as open source once the first functional version is made public on [https://www.rigorous.company/](https://www.rigorous.company/). We believe in transparency for how ratings and reviews are conducted, and we encourage others to experiment with and improve the code to advance open, rigorous peer review in science.
 
