@@ -25,7 +25,7 @@ wheels/
 
 # Analysis results
 **/analysis_results/
-
+**/results/
 # PDF files
 **/manuscripts/*.pdf
 
