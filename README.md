@@ -5,7 +5,7 @@ We want to change how scientific work is created, evaluated, and shared. This re
 ## Project Structure
 
 - **Agent1_Peer_Review**: Advanced peer review system with specialized agents for comprehensive manuscript analysis, detailed feedback, and professional PDF report generation.
-- **Agent2_Outlet_Fit**: (In Planning) Tool for evaluating manuscript fit with target journals/conferences.
+- **Agent2_Outlet_Fit**: (In Development) Tool for evaluating manuscript fit with target journals/conferences.
 
 ## Current Status
 
@@ -17,7 +17,7 @@ We want to change how scientific work is created, evaluated, and shared. This re
   - PDF report generation (see below)
 
 ### In Development
-- **Agent2_Outlet_Fit**: 🚧 In Planning Phase
+- **Agent2_Outlet_Fit**: 🚧 In Development
   - Will help reviewers evaluate manuscripts against specific criteria
   - Support journals/conferences in desk rejection decisions
   - Enable researchers to pre-check manuscripts before submission
