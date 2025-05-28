@@ -1,3 +1,25 @@
+# Agent2_Outlet_Fit
+
+> **Note:** This module is currently in active development. It will help reviewers evaluate manuscripts against specific journal/conference criteria and support desk rejection decisions.
+
+## Purpose
+
+Agent2_Outlet_Fit is designed to:
+- Evaluate manuscript fit with target journals/conferences
+- Support journals/conferences in desk rejection decisions
+- Enable researchers to pre-check manuscripts before submission
+
+## Status
+
+🚧 **In Development**
+- Core functionality being implemented
+- Integration with Agent1_Peer_Review in progress
+- Testing and validation ongoing
+
+## Contributing
+
+This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
+
 ## STATUS: 🚧 IN PLANNING PHASE
 This tool is currently in the planning and development phase. It aims to serve two key purposes:
 1. Help reviewers evaluate manuscripts against specific journal/conference criteria
@@ -78,7 +100,7 @@ A JSON report that includes:
 Build a multiagent pipeline that automatically reverse-engineers a target outlet's expectations and assesses a manuscript's fit. The tool serves three key purposes:
 
 1. **For Reviewers**: Streamline the review process by automatically checking manuscripts against journal/conference criteria
-2. **For Journals/Conferences**: Support desk rejection decisions by providing automated preliminary screening
+2. **For Journals/Conferences**: Support faster desk rejection decisions by providing automated preliminary screening and fast feedback to authors
 3. **For Researchers**: Enable pre-submission self-assessment to identify potential issues before formal submission
 
 This comprehensive approach aims to reduce desk rejection risk, improve submission strategy, and make the peer review process more efficient for all stakeholders.

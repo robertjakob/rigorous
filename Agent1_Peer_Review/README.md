@@ -1,4 +1,8 @@
-# AI Peer Reviewer
+# Agent1_Peer_Review
+
+> **Note:** This is an open-source project under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
+
+> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is now available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. The cloud version is currently free for testing purposes.
 
 A multi-agent system for comprehensive manuscript analysis and review.
 
@@ -198,13 +202,7 @@ MIT License
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request 
-
-For detailed guidelines on how to contribute, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
 
 ## Join the Project
 
