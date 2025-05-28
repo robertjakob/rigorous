@@ -325,7 +325,6 @@ All results are saved in the `results` directory:
    - Confidence scoring for each assessment
 
 3. **Interactive Review Interface**
-   - Web-based interface for manuscript submission
    - Real-time progress tracking
    - Customizable review criteria
 
