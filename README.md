@@ -66,7 +66,7 @@ For more details, see the comments in `Agent1_Peer_Review/pdf_generator.py`.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Contributing
 
