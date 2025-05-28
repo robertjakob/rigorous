@@ -1,6 +1,8 @@
 # Rigorous - AI-Powered Scientific Manuscript Analysis
 
-We want to change how scientific work is created, evaluated, and shared. This repository intends to provide the tools to make scientific publishing more transparent, affordable, and agile.
+> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is now available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. The cloud version is currently free for testing purposes.
+
+This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous peer and AI review.
 
 ## Project Structure
 
@@ -18,9 +20,9 @@ We want to change how scientific work is created, evaluated, and shared. This re
 
 ### In Development
 - **Agent2_Outlet_Fit**: 🚧 In Development
-  - Will help reviewers evaluate manuscripts against specific criteria
-  - Support journals/conferences in desk rejection decisions
-  - Enable researchers to pre-check manuscripts before submission
+  - Core functionality being implemented
+  - Integration with Agent1_Peer_Review in progress
+  - Testing and validation ongoing
 
 ## PDF Report Generation
 
@@ -54,16 +56,6 @@ This project includes a PDF report generator that creates a professional peer re
 - Professional layout, color coding, and consistent formatting
 
 For more details, see the comments in `Agent1_Peer_Review/pdf_generator.py`.
-
-## Earlier Iterations
-
-Earlier iterations of the peer review system can be found in the `backup` folder:
-- **V2_Editorial_First_Decision_Support**: Tool for checking manuscripts against editorial requirements.
-- **V3_Peer_Review**: Enhanced tool for comprehensive peer review of academic manuscripts.
-- **V4_Multi-Agent**: Advanced multi-agent system for collaborative peer review with specialized AI reviewers.
-- **V5_Multi-Agent2**: Comprehensive multi-agent system with 25 specialized agents for more detailed, reliable, and specific feedback.
-
-These are provided for reference only and are not part of the current production workflow.
 
 ## Requirements
 
