@@ -1,12 +1,12 @@
 # Rigorous - AI-Powered Scientific Manuscript Analysis
 
-> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. We'll provide feedback **free of charge** — however, we would greatly appreciate your feedback in return via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) to help us improve the AI Peer Reviewer.
+> **Cloud Version Available:** A cloud version of the AI Reviewer is available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. We'll provide feedback **free of charge** — however, we would greatly appreciate your feedback in return via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) to help us improve the AI Reviewer.
 
-This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous peer and AI review.
+This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous AI review.
 
 ## Project Structure
 
-- **Agent1_Peer_Review**: Advanced peer review system with specialized agents for comprehensive manuscript analysis, detailed feedback, and professional PDF report generation.
+- **Agent1_Peer_Review**: Advanced AI review system with specialized agents for comprehensive manuscript analysis, detailed feedback, and professional PDF report generation.
 - **Agent2_Outlet_Fit**: (In Development) Tool for evaluating manuscript fit with target journals/conferences.
 
 ## Current Status
@@ -26,7 +26,7 @@ This repository contains tools for making scientific publishing more transparent
 
 ## PDF Report Generation
 
-This project includes a PDF report generator that creates a professional peer review report based on the outputs of the review agents.
+This project includes a PDF report generator that creates a professional AI review report based on the outputs of the review agents.
 
 ### How to Generate the PDF Report
 
