@@ -202,7 +202,7 @@ MIT License
 
 ## Contributing
 
-This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
+This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
 
 ## Join the Project
 
