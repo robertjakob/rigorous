@@ -1,6 +1,6 @@
 # Rigorous - AI-Powered Scientific Manuscript Analysis
 
-> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. We'll provide feedback **free of charge** — however, we would greatly appreciate your feedback via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) to help us improve the AI Peer Reviewer.
+> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. We'll provide feedback **free of charge** — however, we would greatly appreciate your feedback in return via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) to help us improve the AI Peer Reviewer.
 
 This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous peer and AI review.
 
