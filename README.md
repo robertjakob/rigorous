@@ -2,11 +2,11 @@
 
 > **Cloud Version Available:** A cloud version of the AI Reviewer is available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. We'll provide feedback **free of charge** — however, we would greatly appreciate your feedback in return via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) to help us improve the AI Reviewer.
 
-This repository contains tools for making scientific publishing more transparent, cheaper, faster, and ensuring rigorous AI review.
+This repository is intended for tools that make scientific publishing more transparent, cheaper, faster, and better. Let's build this future together.
 
 ## Project Structure
 
-- **Agent1_Peer_Review**: Advanced AI review system with specialized agents for comprehensive manuscript analysis, detailed feedback, and professional PDF report generation.
+- **Agent1_Peer_Review**: Multiagent AI review system for comprehensive manuscript analysis, detailed feedback, and professional PDF report generation.
 - **Agent2_Outlet_Fit**: (In Development) Tool for evaluating manuscript fit with target journals/conferences.
 
 ## Current Status
