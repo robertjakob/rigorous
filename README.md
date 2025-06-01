@@ -57,3 +57,23 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
   publisher = {GitHub},
   url = {https://github.com/robertjakob/rigorous}
 }
+
+<p align="center">
+  <img src="your-image-url.png" width="400px" alt="Team Image"/>
+</p>
+
+<p align="center">
+  <a href="https://x.com/robertjakob" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/robertjakob?style=social" alt="Follow @robertjakob on X">
+  </a>
+  <a href="https://www.linkedin.com/in/robertjakob/" target="_blank">
+    <img src="https://img.shields.io/badge/Follow-Robert-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
+  </a>
+  <a href="https://www.linkedin.com/in/kevosull/" target="_blank">
+    <img src="https://img.shields.io/badge/Follow-Kevin-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
+  </a>
+</p>
+
+<p align="center">
+  Made with ❤️ in Zurich
+</p>
