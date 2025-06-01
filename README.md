@@ -65,6 +65,10 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 ``` 
 
 <p align="center">
+  <img src="https://your-image-url.com/team.png" width="400px" alt="Team Image"/>
+</p>
+
+<p align="center">
   <strong>Follow Robert</strong><br>
   <a href="https://www.linkedin.com/in/robertjakob/" style="margin-right: 10px;">
     <img src="https://img.shields.io/badge/LinkedIn-Robert-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
