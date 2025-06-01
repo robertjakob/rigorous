@@ -65,23 +65,19 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 ``` 
 
 <p align="center">
-  <img src="https://your-image-url.com/team.png" width="400px" alt="Team Image"/>
-</p>
-
-<p align="center">
   <strong>Follow Robert</strong><br>
   <a href="https://www.linkedin.com/in/robertjakob/" style="margin-right: 10px;">
-    <img src="https://img.shields.io/badge/LinkedIn-Robert-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
+    <img src="https://img.shields.io/badge/Follow-blue?logo=linkedin&style=social" alt="LinkedIn">
   </a>
   <a href="https://x.com/robertjakob">
-    <img src="https://img.shields.io/twitter/follow/robertjakob?style=social" alt="Follow @robertjakob on X">
+    <img src="https://img.shields.io/twitter/follow/robertjakob?style=social" alt="X (Twitter)">
   </a>
 </p>
 
 <p align="center">
   <strong>Follow Kevin</strong><br>
   <a href="https://www.linkedin.com/in/kevosull/">
-    <img src="https://img.shields.io/badge/LinkedIn-Kevin-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
+    <img src="https://img.shields.io/badge/Follow-blue?logo=linkedin&style=social" alt="LinkedIn">
   </a>
 </p>
 
