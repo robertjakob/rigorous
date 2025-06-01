@@ -49,7 +49,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 If you use the Rigorous AI Reviewers in your research or project, please cite:
 
-``bibtex
+```bibtex
 @software{rigorous_ai2025,
   author = {Jakob, Robert and O'Sullivan, Kevin},
   title = {Rigorous AI Reviewer: Enabling AI for Scientific Manuscript Analysis},
@@ -58,4 +58,4 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
   url = {https://github.com/robertjakob/rigorous}
 }```
 
-dfgfgdfg
+fghjghjf
