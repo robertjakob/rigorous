@@ -93,18 +93,6 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
   </a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/robertjakob/">
-    <img src="https://img.shields.io/badge/Follow_on-LinkedIn-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kevosull/">
-    <img src="https://img.shields.io/badge/Follow_on-LinkedIn-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
-  </a>
-</p>
-
 
 
 
