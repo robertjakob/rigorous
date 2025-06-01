@@ -37,10 +37,6 @@ This repository is intended for tools that make the creation, evaluation, and di
 - PDF manuscripts to analyze
 - Dependencies listed in each tool's requirements.txt
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
