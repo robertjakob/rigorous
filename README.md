@@ -24,39 +24,6 @@ This repository is intended for tools that make scientific publishing more trans
   - Integration with Agent1_Peer_Review in progress
   - Testing and validation ongoing
 
-## PDF Report Generation
-
-This project includes a PDF report generator that creates a professional AI review report based on the outputs of the review agents.
-
-### How to Generate the PDF Report
-
-1. Ensure you have the required dependencies installed:
-   - `reportlab`
-   - `pillow`
-   - (Other dependencies as listed in requirements.txt)
-
-2. Make sure the following files are present and up to date:
-   - `executive_summary.json` (executive summary and overall scores)
-   - `quality_control_results.json` (detailed section, rigor, and writing results)
-   - `logo.png` (logo for the report header)
-
-3. Run the PDF generator script:
-
-   ```bash
-   python Agent1_Peer_Review/pdf_generator.py
-   ```
-
-4. The generated PDF will be saved to:
-   - `Agent1_Peer_Review/results/review_report.pdf`
-
-### Features
-- Cover page with logo, manuscript title, and overall scores
-- Executive summary and detailed analysis pages for all assessment items (S1–S10, R1–R7, W1–W7)
-- Visually appealing tables for scores and suggestions
-- Professional layout, color coding, and consistent formatting
-
-For more details, see the comments in `Agent1_Peer_Review/pdf_generator.py`.
-
 ## Requirements
 
 - Python 3.7+
