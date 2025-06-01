@@ -5,8 +5,6 @@ from src.utils.pdf_parser import PDFParser
 from src.reviewer_agents.controller_agent import ControllerAgent
 from src.core.config import DEFAULT_MODEL
 from src.utils.combine_results import combine_results_by_category
-from pymongo import MongoClient
-from bson.objectid import ObjectId
 from dotenv import load_dotenv
 import pathlib
 
