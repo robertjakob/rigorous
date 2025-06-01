@@ -52,7 +52,7 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 ```bibtex
 @software{Rigorous_AI_Reviewer2025,
   author = {Jakob, Robert and O'Sullivan, Kevin},
-  title = {Rigorous AI Reviewer: Enabling AI for Scientific Manuscript Analysis},
+  title = {Rigorous AI Reviewer: An AI Tool for Scientific Manuscript Analysis},
   year = {2025},
   publisher = {GitHub},
   url = {https://github.com/robertjakob/rigorous}
