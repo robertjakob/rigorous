@@ -14,15 +14,18 @@ This repository is intended for tools that make scientific publishing more trans
 ### Active Tools
 - **Agent1_Peer_Review**: ✅ Ready for use
   - Comprehensive manuscript analysis with specialized agents
-  - Detailed feedback on sections, scientific rigor, and writing quality
+  - Detailed feedback on sections, scientific rigor, and writing quality (including quality control loops)
   - JSON output with actionable recommendations
-  - PDF report generation (see below)
+  - PDF report generation
+  - [📄 Detailed Documentation](https://github.com/robertjakob/rigorous/tree/main/Agent1_Peer_Review#readme)
 
 ### In Development
 - **Agent2_Outlet_Fit**: 🚧 In Development
   - Core functionality being implemented
   - Integration with Agent1_Peer_Review in progress
   - Testing and validation ongoing
+  - [🛠️ Development Plan](https://github.com/robertjakob/rigorous/tree/main/Agent2_Outlet_Fit#readme)
+
 
 ## Requirements
 
