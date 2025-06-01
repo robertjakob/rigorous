@@ -82,6 +82,7 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 </p>
 
 <p align="center">
+  <strong>Follow Kevin</strong><br>
   <a href="https://www.linkedin.com/in/kevosull/">
     <img src="https://img.shields.io/badge/Follow-Kevin-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
   </a>
