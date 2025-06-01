@@ -65,7 +65,7 @@ class CitationFormattingAgent(BaseReviewerAgent):
             "summary": str  # Overall assessment paragraph
         }}
 
-        Important: Generate at least 10-15 improvement suggestions across different categories, focusing only on in-text citations.
+        Important: Generate at least 5-10 improvement suggestions across different categories, focusing only on in-text citations.
         Each suggestion should be specific, actionable, and include clear explanations of how it enhances in-text citation formatting and consistency.
         """
         

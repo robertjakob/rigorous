@@ -64,7 +64,7 @@ class OriginalityContributionAgent(BaseReviewerAgent):
             "summary": str  # Overall assessment paragraph
         }}
 
-        Important: Generate at least 10-15 improvement suggestions across different sections and categories.
+        Important: Generate at least 5-10 improvement suggestions across different sections and categories.
         Each suggestion should be specific, actionable, and include clear explanations of how it enhances the research.
         """
         
