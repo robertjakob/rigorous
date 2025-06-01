@@ -44,26 +44,28 @@ The system currently includes 24 spezialized agents focusing on the following re
 - W6: Citation Formatting
 - W7: Target Audience Alignment
 
-### Quality Control Agent
-The Quality Control Agent serves as a final validation layer that:
-- Reviews and validates outputs from all other agents
-- Ensures consistency and quality across all analyses
-- Provides a comprehensive final report with:
+Per default spezialised agents use GPT-4.1-nano (long-context, cost-efficient model). You can also choose another (local) model.
+
+### Quality Control Agents
+Quality Control Agent serve as a validation layer across each category, they..
+- Review and validate outputs from spezialized agents
+- Ensure consistency and quality across analyses
+- Provide a comprehensive final report with:
   - Validated scores and feedback
   - Critical remarks and improvement suggestions
   - Detailed explanations for each suggestion
   - Overall quality assessment
-- Uses GPT-4.1 for high-quality structured output
+- Per default Quality Control Agents use GPT-4.1 for high-quality structured output. You can also choose another (local) model.
 
 ### Executive Summary Agent
 The Executive Summary Agent provides a high-level synthesis through a two-step reasoning process:
 1. Independent Review Generation
-   - Analyzes the manuscript without bias
+   - Analyzes the manuscript independently
    - Generates comprehensive review including summary, strengths/weaknesses, and suggestions
    - Focuses on target journal requirements and user priorities
 
 2. Balanced Summary Generation
-   - Synthesizes insights from both independent review and quality control results
+   - Synthesizes insights from both independent review and quality controlled results
    - Creates a unified executive summary in three paragraphs:
      * Overview of content and contribution
      * Balanced assessment of strengths and weaknesses
