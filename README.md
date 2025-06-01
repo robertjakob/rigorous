@@ -52,7 +52,7 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 
 ## Citation
 
-If you use the Rigorous AI Reviewers in your research or project, please cite:
+If you use the Rigorous AI Reviewer in your research or project, please cite:
 
 ```bibtex
 @software{rigorous_ai_reviewer2025,
