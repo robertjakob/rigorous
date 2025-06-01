@@ -98,6 +98,13 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
   </a>
 </p>
 
+<p align="center">
+  <strong>Follow Robert on LinkedIn</strong><br>
+  <a href="https://www.linkedin.com/in/robertjakob/">
+    <img src="https://img.shields.io/badge/LinkedIn-Robert-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
+  </a>
+</p>
+
 
 <p align="center">
   Made with ❤️ in Zurich
