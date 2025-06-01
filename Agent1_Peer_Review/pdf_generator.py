@@ -468,7 +468,7 @@ if __name__ == "__main__":
     inputs = {
         'executive_summary_results': executive_summary,
         'quality_control_results': quality_control_results,
-        'output_path': os.path.join(base_dir, 'results', 'review_report.pdf')
+        'output_path': os.path.join(base_dir, 'reports', 'review_report.pdf')
     }
             
     generate_pdf(inputs)
