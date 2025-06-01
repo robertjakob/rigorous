@@ -56,6 +56,4 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
   year = {2025},
   publisher = {GitHub},
   url = {https://github.com/robertjakob/rigorous}
-}```
-
-fghjghjf
+}
