@@ -30,7 +30,7 @@ This repository is intended for tools that make scientific publishing more trans
 ## Requirements
 
 - Python 3.7+
-- OpenAI API key
+- OpenAI API key (the system can be adapted to alternative LLMs, including locally hosted ones)
 - PDF manuscripts to analyze
 - Dependencies listed in each tool's requirements.txt
 
