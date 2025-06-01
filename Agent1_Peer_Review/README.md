@@ -81,19 +81,27 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Place your manuscript PDF in the `manuscripts/` directory
+1. Configure your manuscript details in `manuscript.json`:
+```json
+{
+    "manuscript_src": "path/to/your/manuscript.pdf",
+    "publicationOutlets" : "e.g. Nature Medicine",
+    "reviewFocus" : "e.g. Statistics and Writing"
+}
+```
+
 2. Run the analysis:
 ```bash
-python run_analysis.py
+python run_local_aipeer_review.py
 ```
-3. Run quality control:
-```bash
-python run_quality_control.py
-```
-4. Generate executive summary:
-```bash
-python run_executive_summary.py
-```
+
+The script will:
+- Process your manuscript using all specialized agents
+- Generate a comprehensive analysis
+- Create a detailed PDF report
+- Save the report in the `reports/` directory
+
+Note: The analysis typically takes about 15 minutes to complete.
 
 ## Output
 
@@ -178,8 +186,8 @@ Agent1_Peer_Review/
 │   ├── core/            # Core functionality and configuration
 │   └── utils/           # Utility functions
 ├── manuscripts/         # Input manuscripts
-├── results/            # Analysis results
-├── context/           # User context and preferences
+├── reports/            # Generated PDF reports
+├── manuscript.json     # Manuscript configuration
 └── tests/             # Test suite
 ```
 
@@ -261,83 +269,17 @@ For more details on how to use this system, please refer to the main project REA
      DEFAULT_MODEL=gpt-4.1-nano
      ```
 
-3. **Manuscript Preparation**
-   - Place your PDF manuscript in the `manuscripts` folder
-   - The system will automatically use the first PDF file it finds
+3. **Manuscript Configuration**
+   - Create or update `manuscript.json` with your manuscript details
+   - Specify the PDF path and publication context
+   - Define target journal and review focus areas
 
-4. **Context Configuration**
-   - Review and update `context/context.json` with your specific requirements
-   - This file contains target journal information and review focus areas
-
-## Running the Analysis
-
-1. **Initial Analysis**
+4. **Running the Analysis**
    ```bash
-   python run_analysis.py
+   python run_local_aipeer_review.py
    ```
-   This generates:
-   - Section results (S1-S10)
-   - Rigor results (R1-R7)
-   - Writing results (W1-W7)
-
-2. **Quality Control**
-   ```bash
-   python run_quality_control.py
-   ```
-   Validates and processes the analysis results
-
-3. **Executive Summary**
-   ```bash
-   python run_executive_summary.py
-   ```
-   Creates a high-level synthesis of the review
-
-4. **PDF Report Generation**
-   ```bash
-   python pdf_generator.py
-   ```
-   Generates a professional PDF report at `results/review_report.pdf`
+   The script will process your manuscript and generate a PDF report in the `reports/` directory.
 
 ## Results
 
-All results are saved in the `results` directory:
-- `section_results.json`: Detailed section analysis
-- `rigor_results.json`: Scientific rigor assessment
-- `writing_results.json`: Writing quality evaluation
-- `quality_control_results.json`: Validated results
-- `executive_summary.json`: High-level synthesis
-- `review_report.pdf`: Professional PDF report
-
-## Future Improvements
-
-1. **Visual Content Analysis**
-   - New agent category for figures and tables (F1-F5)
-   - Assessment criteria:
-     - F1: Figure clarity and readability
-     - F2: Data visualization best practices
-     - F3: Statistical representation accuracy
-     - F4: Figure-text consistency
-     - F5: Accessibility and color scheme
-
-2. **Enhanced Quality Control**
-   - Cross-validation between different agent categories
-   - Automated consistency checks for scoring
-   - Confidence scoring for each assessment
-
-3. **Interactive Review Interface**
-   - Real-time progress tracking
-   - Customizable review criteria
-
-4. **Advanced Analytics**
-   - Comparative analysis against similar manuscripts
-   - Trend analysis for specific research areas
-   - Automated recommendation engine for improvements
-
-5. **Integration Capabilities**
-   - Direct submission to journal systems
-   - Integration with reference management software
-   - Export to various academic formats
-
-## Additional Information
-
-For more details on how to use this system, please refer to the main project README.
+All results are saved in the `results`

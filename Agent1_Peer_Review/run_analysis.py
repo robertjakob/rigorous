@@ -5,10 +5,21 @@ from src.utils.pdf_parser import PDFParser
 from src.reviewer_agents.controller_agent import ControllerAgent
 from src.core.config import DEFAULT_MODEL
 from src.utils.combine_results import combine_results_by_category
+from pymongo import MongoClient
+from bson.objectid import ObjectId
+from dotenv import load_dotenv
+import pathlib
 
-def process_pdf(pdf_path):
-    """Process PDF and extract text, figures, and tables."""
-    parser = PDFParser(pdf_path)
+# Load environment variables
+env_path = pathlib.Path(__file__).parent.parent / '.env'
+load_dotenv(env_path)
+
+
+def process_pdf(pdf_url):
+    """Process PDF and extract text, figures, and tables."""   
+
+    # Pass to PDFParser  
+    parser = PDFParser(pdf_url)
     
     # Extract all components
     text = parser.extract_text()
@@ -23,25 +34,10 @@ def process_pdf(pdf_path):
         'tables': tables
     }
 
-def find_pdf_in_directory(directory):
-    """Find the first PDF file in the specified directory."""
-    pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
-    if not pdf_files:
-        raise FileNotFoundError(f"No PDF files found in {directory}")
-    return pdf_files[0]  # Return the first PDF file found
-
-def main():
-    # Find PDF in manuscripts directory
-    manuscripts_dir = "manuscripts"
-    try:
-        manuscript_path = find_pdf_in_directory(manuscripts_dir)
-        print(f"Found PDF: {os.path.basename(manuscript_path)}")
-    except FileNotFoundError as e:
-        print(f"Error: {e}")
-        return
+def run_analysis(manuscript):    # Find PDF in manuscripts directory   
     
     # Process the manuscript
-    manuscript_data = process_pdf(manuscript_path)
+    manuscript_data = process_pdf(manuscript['manuscript_src'])   
     
     # Initialize controller agent
     controller = ControllerAgent(model=DEFAULT_MODEL)
@@ -74,13 +70,14 @@ def main():
         json.dump(results, f, indent=2)
     
     # Combine results into category-specific files
-    combine_results_by_category(output_dir, output_dir)
-    
-    print(f"Analysis complete. Results saved to {output_dir}/")
-    print("Created category-specific files:")
-    print("- section_results.json (S1-S10)")
-    print("- rigor_results.json (R1-R7)")
-    print("- writing_results.json (W1-W7)")
+    combined_results = combine_results_by_category(output_dir, output_dir)
 
-if __name__ == "__main__":
-    main() 
+    return combined_results
+
+if __name__ == "__main__":   
+    
+    with open('manuscript.json', "r") as f:
+        manuscript = json.load(f)
+        
+    # Run the analysis
+    run_analysis(manuscript)

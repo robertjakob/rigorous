@@ -30,8 +30,7 @@ class BaseReviewerAgent:
             raise ValueError(f"OPENAI_API_KEY environment variable not set. Please check {env_path}")
         
         # Print debug info
-        print(f"Using model: {model}")
-        print(f"API key found: {'Yes' if api_key else 'No'}")
+        print(f"{self.name} using model: {model}", f"API key found: {'Yes' if api_key else 'No'}")
         
         self.client = OpenAI(api_key=api_key)
         

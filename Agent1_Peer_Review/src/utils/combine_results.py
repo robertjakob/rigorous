@@ -76,6 +76,8 @@ def combine_results_by_category(results_dir: str, output_dir: str) -> None:
     save_json_file(section_results, os.path.join(output_dir, 'section_results.json'))
     save_json_file(rigor_results, os.path.join(output_dir, 'rigor_results.json'))
     save_json_file(writing_results, os.path.join(output_dir, 'writing_results.json'))
+    
+    return {"section_results": section_results, "rigor_results": rigor_results, "writing_results": writing_results}
 
 
 def main():

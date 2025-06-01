@@ -14,10 +14,10 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT, TA_JUSTIFY
 import os
 
 class PDFReportGenerator:
-    def __init__(self, executive_summary_path, quality_control_path, output_path):
+    def __init__(self, executive_summary, quality_control, output_path):
         """Initialize the PDF generator with input and output paths."""
-        self.executive_summary = self.load_json(executive_summary_path)
-        self.quality_control = self.load_json(quality_control_path)
+        self.executive_summary = executive_summary
+        self.quality_control = quality_control
         self.output_path = output_path
         self.styles = getSampleStyleSheet()
         self.setup_styles()
@@ -213,6 +213,31 @@ class PDFReportGenerator:
                 spaceAfter=24,
                 textColor=colors.black,
                 fontName='Helvetica-Bold'
+            )
+        ))
+        
+        elements.append(Paragraph(
+            f"Publication Outlets: {self.executive_summary['publication_outlets']}",
+            ParagraphStyle(
+                name='PublicationOutlets',
+                parent=self.styles['Normal'],
+                fontSize=10,
+                alignment=TA_CENTER,
+                spaceAfter=2,
+                textColor=colors.black,
+                fontName='Helvetica'
+            )
+        ))
+        elements.append(Paragraph(
+            f"Review Focus: {self.executive_summary['review_focus']}",
+            ParagraphStyle(
+                name='PublicationOutlets',
+                parent=self.styles['Normal'],
+                fontSize=10,
+                alignment=TA_CENTER,
+                spaceAfter=2,
+                textColor=colors.black,
+                fontName='Helvetica'
             )
         ))
         elements.append(Spacer(1, 0.4*inch))
@@ -425,17 +450,25 @@ class PDFReportGenerator:
                  onFirstPage=lambda c, d: (self.create_header(c, d), self.create_footer(c, d)),
                  onLaterPages=lambda c, d: (self.create_header(c, d), self.create_footer(c, d)))
 
-def main():
-    # Define paths
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    executive_summary_path = os.path.join(base_dir, 'results', 'executive_summary.json')
-    quality_control_path = os.path.join(base_dir, 'results', 'quality_control_results.json')
-    output_path = os.path.join(base_dir, 'results', 'review_report.pdf')
-    
-    # Create and generate PDF
-    generator = PDFReportGenerator(executive_summary_path, quality_control_path, output_path)
+def generate_pdf(inputs):      
+    # Generate PDF
+    generator = PDFReportGenerator(inputs['executive_summary_results'], inputs['quality_control_results'], inputs['output_path'])
     generator.generate_pdf()
-    print(f"PDF report generated successfully at: {output_path}")
+    print(f"PDF report generated successfully at: {inputs['output_path']}")
 
 if __name__ == "__main__":
-    main() 
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    with open(os.path.join(base_dir, 'results', 'executive_summary.json'), "r") as f:
+        executive_summary = json.load(f)
+        
+    with open(os.path.join(base_dir, 'results', 'quality_control_results.json'), "r") as f:
+        quality_control_results = json.load(f)    
+    
+    inputs = {
+        'executive_summary_results': executive_summary,
+        'quality_control_results': quality_control_results,
+        'output_path': os.path.join(base_dir, 'results', 'review_report.pdf')
+    }
+            
+    generate_pdf(inputs)

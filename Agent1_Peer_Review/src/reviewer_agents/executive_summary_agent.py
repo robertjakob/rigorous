@@ -2,6 +2,8 @@ import json
 import os
 from typing import Dict, Any
 import PyPDF2
+import requests
+from io import BytesIO
 from ..core.base_agent import BaseReviewerAgent
 
 class ExecutiveSummaryAgent(BaseReviewerAgent):
@@ -17,26 +19,35 @@ class ExecutiveSummaryAgent(BaseReviewerAgent):
             'context_path': str,
             'quality_control_results_path': str
         }
-    
-    def validate_inputs(self, inputs: Dict[str, Any]) -> bool:
-        """Validate that all required input files exist and are accessible."""
-        for key, path in inputs.items():
-            if not os.path.exists(path):
-                raise FileNotFoundError(f"Required input file not found: {path}")
-        return True
 
     def load_json_file(self, file_path: str) -> Dict:
         """Load and parse a JSON file."""
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
-    def extract_pdf_text(self, pdf_path: str) -> str:
-        """Extract text from PDF file."""
+    def extract_pdf_text(self, pdf_source: str) -> str:
+        """Extract text from a PDF file or URL."""
         text = ""
-        with open(pdf_path, 'rb') as file:
-            pdf_reader = PyPDF2.PdfReader(file)
+    
+        if pdf_source.startswith("http://") or pdf_source.startswith("https://"):
+            # Source is a URL
+            response = requests.get(pdf_source)
+            response.raise_for_status()  # Raises error if the download failed
+            pdf_file = BytesIO(response.content)
+        else:
+            # Source is a local file path
+            pdf_file = open(pdf_source, 'rb')
+        
+        try:
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
             for page in pdf_reader.pages:
-                text += page.extract_text() + "\n"
+                extracted_text = page.extract_text()
+                if extracted_text:
+                    text += extracted_text + "\n"
+        finally:
+            if not isinstance(pdf_file, BytesIO):
+                pdf_file.close()
+        
         return text
 
     def extract_title(self, pdf_path: str) -> str:
@@ -200,29 +211,14 @@ Keep the summary within half a page (about 250 words), use professional language
         4. Synthesizes a balanced executive summary
         5. Calculates scores
         6. Produces final output
-        """
-        # Validate inputs
-        self.validate_inputs(inputs)
+        """        
         
-        try:
-            # Load input data
-            context = self.load_json_file(inputs['context_path'])
-        except (json.JSONDecodeError, FileNotFoundError, PermissionError) as e:
-            print(f"Warning: Could not load context file: {str(e)}. Using default values.")
-            context = {}
         
-        try:
-            quality_control_results = self.load_json_file(inputs['quality_control_results_path'])
-        except (json.JSONDecodeError, FileNotFoundError, PermissionError) as e:
-            raise RuntimeError(f"Failed to load quality control results: {str(e)}")
+        context = inputs['context']
+        quality_control_results = inputs['quality_control_results']
         
-        # Extract manuscript text
-        manuscript_dir = os.path.join("manuscripts")
-        pdf_files = [f for f in os.listdir(manuscript_dir) if f.lower().endswith('.pdf')]
-        if not pdf_files:
-            raise FileNotFoundError("No PDF files found in the manuscripts folder.")
-        manuscript_path = os.path.join(manuscript_dir, pdf_files[0])
-        manuscript_text = self.extract_pdf_text(manuscript_path)
+        # Extract manuscript text       
+        manuscript_text = self.extract_pdf_text(inputs['manuscript_src'])
         
         # Step 1: Generate independent review
         independent_review = self.generate_independent_review(manuscript_text, context)
@@ -245,6 +241,8 @@ Keep the summary within half a page (about 250 words), use professional language
         output = {
             'manuscript_title': title,
             'executive_summary': summary,
+            'publication_outlets': context['target_publication_outlets']['user_input'],
+            'review_focus': context['review_focus_areas']['user_input'],
             'independent_review': independent_review,
             'scores': scores
         }

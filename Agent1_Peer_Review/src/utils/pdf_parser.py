@@ -7,22 +7,29 @@ import pytesseract
 from PIL import Image
 import io
 import numpy as np
+import requests
+from io import BytesIO
 
 class PDFParser:
     """Enhanced PDF parser with figure and table detection capabilities."""
     
-    def __init__(self, pdf_path: str):
+    def __init__(self, pdf_source: str):
         """Initialize the PDF parser.
         
         Args:
             pdf_path (str): Path to the PDF file
         """
-        self.pdf_path = pdf_path
-        if not os.path.exists(pdf_path):
-            raise FileNotFoundError(f"PDF file not found: {pdf_path}")
-        
-        # Open the document once and keep it open
-        self.doc = fitz.open(pdf_path)
+        if pdf_source.startswith("http://") or pdf_source.startswith("https://"):
+            # Source is a URL
+            response = requests.get(pdf_source)
+            response.raise_for_status()
+            pdf_file = BytesIO(response.content)
+            self.doc = fitz.open("pdf", pdf_file)  # Open from bytes
+        else:
+            # Source is a local file path
+            if not os.path.exists(pdf_source):
+                raise FileNotFoundError(f"PDF file not found: {pdf_source}")
+            self.doc = fitz.open(pdf_source)  # Open from file path
     
     def __del__(self):
         """Clean up by closing the document."""
@@ -43,13 +50,15 @@ class PDFParser:
         """Extract metadata from the PDF."""
         try:
             metadata = self.doc.metadata
-            
-            return {
+
+            metadata_res = {
                 'title': metadata.get('title', 'Unknown'),
                 'author': metadata.get('author', 'Unknown'),
                 'creation_date': metadata.get('creationDate', 'Unknown'),
                 'page_count': str(self.doc.page_count)
-            }
+            }            
+            
+            return metadata_res
         except Exception as e:
             raise Exception(f"Failed to extract metadata from PDF: {str(e)}")
     

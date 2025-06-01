@@ -3,6 +3,8 @@ import os
 from typing import Dict, List, Any
 import openai
 import PyPDF2
+import requests
+from io import BytesIO
 from ...core.base_agent import BaseReviewerAgent
 
 class QualityControlAgent(BaseReviewerAgent):
@@ -55,26 +57,35 @@ class QualityControlAgent(BaseReviewerAgent):
                 'W7': 'Target Audience Alignment'
             }
         }
-        
-    def validate_inputs(self, inputs: Dict[str, Any]) -> bool:
-        """Validate that all required input files exist and are accessible."""
-        for key, path in inputs.items():
-            if not os.path.exists(path):
-                raise FileNotFoundError(f"Required input file not found: {path}")
-        return True
 
     def load_json_file(self, file_path: str) -> Dict:
         """Load and parse a JSON file."""
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
-    def extract_pdf_text(self, pdf_path: str) -> str:
-        """Extract text from PDF file."""
+    def extract_pdf_text(self, pdf_source: str) -> str:
+        """Extract text from a PDF file or URL."""
         text = ""
-        with open(pdf_path, 'rb') as file:
-            pdf_reader = PyPDF2.PdfReader(file)
+    
+        if pdf_source.startswith("http://") or pdf_source.startswith("https://"):
+            # Source is a URL
+            response = requests.get(pdf_source)
+            response.raise_for_status()  # Raises error if the download failed
+            pdf_file = BytesIO(response.content)
+        else:
+            # Source is a local file path
+            pdf_file = open(pdf_source, 'rb')
+        
+        try:
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
             for page in pdf_reader.pages:
-                text += page.extract_text() + "\n"
+                extracted_text = page.extract_text()
+                if extracted_text:
+                    text += extracted_text + "\n"
+        finally:
+            if not isinstance(pdf_file, BytesIO):
+                pdf_file.close()
+        
         return text
 
     def process(self, inputs: Dict[str, Any]) -> Dict[str, Any]:
@@ -83,23 +94,21 @@ class QualityControlAgent(BaseReviewerAgent):
         1. Validates inputs
         2. Loads and analyzes all review outputs
         3. Produces a quality-controlled final report
-        """
-        # Validate inputs
-        self.validate_inputs(inputs)
+        """              
         
         # Load all input data
-        context = self.load_json_file(inputs['context_path'])
-        rigor_results = self.load_json_file(inputs['rigor_results_path'])
-        section_results = self.load_json_file(inputs['section_results_path'])
-        writing_results = self.load_json_file(inputs['writing_results_path'])
-        
+        context = inputs['context']
+        rigor_results = inputs['rigor_results']
+        section_results = inputs['section_results']
+        writing_results = inputs['writing_results']
+                
         # Extract manuscript text
-        manuscript_text = self.extract_pdf_text(inputs['manuscript_path'])
+        manuscript_text = self.extract_pdf_text(inputs['manuscript_src'])       
         
         # Process each category separately
         final_results = {}
         
-        # Process section results
+        # Process section results        
         print("Processing section results...")
         section_prompt = self.generate_category_prompt(
             'section_results',

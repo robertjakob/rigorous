@@ -3,8 +3,7 @@ Executive Summary Agent Implementation:
 The Executive Summary Agent creates a comprehensive executive review summary through a two-step reasoning process:
 
 Inputs:
-- Original PDF manuscript in /manuscripts/ (user-submitted manuscript)
-- User context in /context/context.json (user priorities and focus areas)
+- Path to original pdf and review context in manuscript.json 
 - Quality controlled JSON in /results/quality_control_results.json (AI review pipeline output)
 
 Process:
