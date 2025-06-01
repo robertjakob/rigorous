@@ -18,7 +18,7 @@ This repository is intended for tools that make scientific publishing more trans
   - JSON output with actionable recommendations
   - PDF report generation
   - [📄 Detailed Documentation](https://github.com/robertjakob/rigorous/tree/main/Agent1_Peer_Review#readme)
-  - We need your help improve the system. You can provide feedback on AI review via [this short feedback form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds)
+  - We need your help improve the system. You can provide feedback on AI reviews via [this short feedback form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds)
 
 ### In Development
 - **Agent2_Outlet_Fit**: 🚧 In Development
