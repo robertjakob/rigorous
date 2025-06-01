@@ -4,7 +4,7 @@
 
 ## Vision
 
-This repository is intended for tools that make scientific publishing more transparent, cheaper, faster, and better. Let's build this future together.
+This repository is intended for tools that make the creation, evaluation, and distribution of scientific knowledge more transparent, cheaper, faster, and better. Let's build this future together.
 
 ## Project Structure
 
