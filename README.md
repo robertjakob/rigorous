@@ -65,7 +65,7 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 ``` 
 
 <p align="center">
-  <img src="https://your-image-url.com/team.png" width="400px" alt="Team Image"/>
+  <img src="https://i.imgur.com/2n039Me.png" width="400px" alt="Team Image"/>
 </p>
 
 <p align="center">
