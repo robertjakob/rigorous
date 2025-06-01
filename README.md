@@ -47,11 +47,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Citation
 
-If you use the Rigorous AI Reviewers in your research or project, please cite:
-
-
-## Citation
-
 If you use the Rigorous AI Reviewer in your research or project, please cite:
 
 ```bibtex
