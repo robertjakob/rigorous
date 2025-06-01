@@ -12,7 +12,7 @@ This project implements a sophisticated multi-agent system for analyzing academi
 
 ## Agent Structure
 
-The system consists of 24 spezialized agents across three main categories:
+The system currently includes 24 spezialized agents focusing on specific review criteria across three main categories:
 
 ### Section Agents (S1-S10)
 - S1: Title and Keywords Analysis
