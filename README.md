@@ -70,12 +70,9 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 
 <p align="center">
   <strong>Follow Robert</strong><br>
-  <a href="https://www.linkedin.com/in/robertjakob/">
+  <a href="https://www.linkedin.com/in/robertjakob/" style="margin-right: 10px;">
     <img src="https://img.shields.io/badge/LinkedIn-Robert-blue?logo=linkedin&style=social" alt="Follow Robert on LinkedIn">
   </a>
-</p>
-
-<p align="center">
   <a href="https://x.com/robertjakob">
     <img src="https://img.shields.io/twitter/follow/robertjakob?style=social" alt="Follow @robertjakob on X">
   </a>
@@ -84,12 +81,9 @@ If you use the Rigorous AI Reviewers in your research or project, please cite:
 <p align="center">
   <strong>Follow Kevin</strong><br>
   <a href="https://www.linkedin.com/in/kevosull/">
-    <img src="https://img.shields.io/badge/Follow-Kevin-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Kevin-blue?logo=linkedin&style=social" alt="Follow Kevin on LinkedIn">
   </a>
 </p>
-
-
-
 
 <p align="center">
   Made with ❤️ in Zurich
