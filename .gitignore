@@ -46,3 +46,5 @@ venv/
 ehthumbs.db
 Thumbs.db 
 Agent1_Peer_Review/run_cloud_aipeer_review.py
+Agent1_Peer_Review/find_ids.py
+Agent1_Peer_Review/tmp.py
