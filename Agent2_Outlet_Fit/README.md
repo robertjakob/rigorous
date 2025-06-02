@@ -103,4 +103,4 @@ Build a multiagent pipeline that automatically reverse-engineers a target outlet
 2. **For Journals/Conferences**: Support faster desk rejection decisions by providing automated preliminary screening and fast feedback to authors
 3. **For Researchers**: Enable pre-submission self-assessment to identify potential issues before formal submission
 
-This comprehensive approach aims to reduce desk rejection risk, improve submission strategy, and make the peer review process more efficient for all stakeholders.
+This comprehensive approach aims to reduce desk rejection risk, improve submission strategy, and make the peer review process faster more efficient for all stakeholders.
