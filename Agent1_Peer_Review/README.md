@@ -1,10 +1,10 @@
 # Agent1_Peer_Review
-
-> **Note:** This is an open-source project under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
-
-> **Cloud Version Available:** A cloud version of the AI Peer Reviewer is now available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. The cloud version is currently free for testing purposes.
-
 A multi-agent system for comprehensive manuscript analysis and review.
+
+> **Note:** This is an open-source project under the MIT License. We welcome contributions from the community to help improve the AI Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
+
+> **Cloud Version Available:** A cloud version of the AI Reviewer is now available at [https://www.rigorous.company/](https://www.rigorous.company/). Simply upload your manuscript, provide context on target journal and review focus, and receive a comprehensive PDF report via email within 1-2 working days. The cloud version is currently free for testing purposes. We would greatly appreciate your feedback in return via [this short form](https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds) 
+
 
 ## Overview
 
@@ -12,7 +12,7 @@ This project implements a sophisticated multi-agent system for analyzing academi
 
 ## Agent Structure
 
-The system consists of three main categories of agents:
+The system currently includes 24 spezialized agents focusing on the following review criteria across three main categories:
 
 ### Section Agents (S1-S10)
 - S1: Title and Keywords Analysis
@@ -44,26 +44,28 @@ The system consists of three main categories of agents:
 - W6: Citation Formatting
 - W7: Target Audience Alignment
 
-### Quality Control Agent
-The Quality Control Agent serves as a final validation layer that:
-- Reviews and validates outputs from all other agents
-- Ensures consistency and quality across all analyses
-- Provides a comprehensive final report with:
+Per default spezialised agents use GPT-4.1-nano (long-context, cost-efficient model). You can also choose another (local) model.
+
+### Quality Control Agents
+Quality Control Agent serve as a validation layer across each category, they..
+- Review and validate outputs from spezialized agents
+- Ensure consistency and quality across analyses
+- Provide a comprehensive final report with:
   - Validated scores and feedback
   - Critical remarks and improvement suggestions
   - Detailed explanations for each suggestion
   - Overall quality assessment
-- Uses GPT-4.1 for high-quality structured output
+- Per default Quality Control Agents use GPT-4.1 for high-quality structured output. You can also choose another (local) model.
 
 ### Executive Summary Agent
 The Executive Summary Agent provides a high-level synthesis through a two-step reasoning process:
 1. Independent Review Generation
-   - Analyzes the manuscript without bias
+   - Analyzes the manuscript independently
    - Generates comprehensive review including summary, strengths/weaknesses, and suggestions
    - Focuses on target journal requirements and user priorities
 
 2. Balanced Summary Generation
-   - Synthesizes insights from both independent review and quality control results
+   - Synthesizes insights from both independent review and quality controlled results
    - Creates a unified executive summary in three paragraphs:
      * Overview of content and contribution
      * Balanced assessment of strengths and weaknesses
@@ -210,7 +212,7 @@ MIT License
 
 ## Contributing
 
-This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Peer Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
+This project is open source under the MIT License. We welcome contributions from the community to help improve the AI Reviewer system. Please feel free to submit issues, pull requests, or suggestions for improvements.
 
 ## Join the Project
 
