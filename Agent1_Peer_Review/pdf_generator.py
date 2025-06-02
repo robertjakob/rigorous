@@ -187,7 +187,7 @@ class PDFReportGenerator:
         elements = []
         
         # Add title
-        elements.append(Paragraph("AI Peer Review Report", self.styles['CoverTitle']))
+        elements.append(Paragraph("AI Review Report", self.styles['CoverTitle']))
         elements.append(Spacer(1, 0.25*inch))
         
         # Add subtitle with manuscript title
@@ -242,54 +242,54 @@ class PDFReportGenerator:
         ))
         elements.append(Spacer(1, 0.4*inch))
         
-        # Add scores with star ratings
-        scores = self.executive_summary['scores']
-        score_data = [
-            ['Category', 'Score', 'Rating'],
-            ['Section Assessment', f"{scores['section_score']:.1f}/5", '⭐' * int(round(scores['section_score']))],
-            ['Rigor Assessment', f"{scores['rigor_score']:.1f}/5", '⭐' * int(round(scores['rigor_score']))],
-            ['Writing Assessment', f"{scores['writing_score']:.1f}/5", '⭐' * int(round(scores['writing_score']))],
-            ['Final Score', f"{scores['final_score']:.1f}/5", '⭐' * int(round(scores['final_score']))]
-        ]
-        
-        # Create table with scores
-        score_table = Table(score_data, colWidths=[2*inch, 1.2*inch, 1.2*inch])
-        score_table.setStyle(TableStyle([
-            ('BACKGROUND', (0, 0), (-1, 0), self.colors['header_bg']),
-            ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
-            ('ALIGN', (0, 0), (-1, 0), 'CENTER'),
-            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-            ('FONTSIZE', (0, 0), (-1, 0), 11),
-            ('TOPPADDING', (0, 0), (-1, 0), 8),
-            ('BOTTOMPADDING', (0, 0), (-1, 0), 8),
-            ('LINEBELOW', (0, 0), (-1, 0), 1.2, self.colors['header_bg']),
-            ('BACKGROUND', (0, 1), (-1, -1), self.colors['table_alt']),
-            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [self.colors['table_alt'], colors.white]),
-            ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
-            ('ALIGN', (0, 1), (-1, -1), 'LEFT'),
-            ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
-            ('FONTSIZE', (0, 1), (-1, -1), 11),
-            ('LEFTPADDING', (0, 0), (-1, -1), 10),
-            ('RIGHTPADDING', (0, 0), (-1, -1), 10),
-            ('TOPPADDING', (0, 1), (-1, -1), 2),
-            ('BOTTOMPADDING', (0, 1), (-1, -1), 2),
-            ('FONTNAME', (0, -1), (-1, -1), 'Helvetica-Bold'),
-            ('GRID', (0, 0), (-1, -1), 0.7, colors.HexColor('#B0BEC5')),
-            ('BOX', (0, 0), (-1, -1), 1.2, self.colors['header_bg']),
-            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-        ]))
-        elements.append(score_table)
-        elements.append(Spacer(1, 0.3*inch))
-        
         # Add thank you note
         thank_you = """
-        Thank you for using the Rigorous AI Peer Reviewer!<br/><br/>
+        Thank you for using the Rigorous AI Reviewer!<br/><br/>
         We're dedicated to providing actionable, high-quality feedback that accelerates your revision process and boosts your chances of publication. To help us improve the system, please consider completing our short feedback survey. Your input directly contributes to making this tool more useful, accurate, and impactful for the research community. All responses are confidential and sincerely appreciated.<br/><br/>
         <b>Feedback Link:</b> <a href='https://docs.google.com/forms/d/1EhQvw-HdGRqfL01jZaayoaiTWLSydZTI4V0lJSvNpds/edit'><font color='#1976D2'><u>Feedback Form</u></font></a><br/><br/>
-        <b>Important Note:</b> Like real peer reviews, this AI-generated feedback may occasionally include hallucinations, overconfident statements, vague suggestions, or simply a false statement. Still, we hope you find it insightful and helpful in improving your manuscript for publication.
+        <b>Important Note:</b> Like real human reviews, this AI-generated feedback may occasionally include hallucinations, overconfident statements, vague suggestions, or simply a false statement. Still, we hope you find it insightful and helpful in improving your manuscript for publication. This is very much an MVP (Minimum Viable Product) and is far from being the best version it can be. We are committed to making it truly excellent, and your feedback is essential to help us get there.
         """
         elements.append(Paragraph(thank_you, self.styles['Justified']))
-        elements.append(Spacer(1, 0.5*inch))
+        elements.append(Spacer(1, 0.3*inch))
+
+        # Add CTAs as separate, left-aligned paragraphs
+        cta_style = ParagraphStyle(
+            name='CTA',
+            parent=self.styles['Normal'],
+            fontSize=11,
+            alignment=TA_LEFT,
+            spaceAfter=6,
+            textColor=colors.black,
+            fontName='Helvetica-Bold'
+        )
+        link_style = ParagraphStyle(
+            name='CTALink',
+            parent=self.styles['Normal'],
+            fontSize=11,
+            alignment=TA_LEFT,
+            spaceAfter=2,
+            textColor=colors.HexColor('#1976D2'),
+            fontName='Helvetica',
+        )
+        note_style = ParagraphStyle(
+            name='CTANote',
+            parent=self.styles['Normal'],
+            fontSize=10,
+            alignment=TA_LEFT,
+            spaceAfter=12,
+            textColor=colors.black,
+            fontName='Helvetica',
+        )
+        # Website CTA
+        elements.append(Paragraph("Want to submit more manuscripts for review?", cta_style))
+        elements.append(Paragraph("<a href='https://www.rigorous.company'><u>https://www.rigorous.company</u></a>", link_style))
+        elements.append(Paragraph("...We process new submissions for free upon receiving your feedback", note_style))
+        # GitHub CTA
+        elements.append(Paragraph("Want to help improve the AI Reviewer?", cta_style))
+        elements.append(Paragraph("<a href='https://github.com/robertjakob/rigorous'><u>https://github.com/robertjakob/rigorous</u></a>", link_style))
+        # Star CTA (single normal black sentence)
+        elements.append(Paragraph("...Give us a Star to stay up to date on future improvements and new features of the AI Reviewer!", note_style))
+        elements.append(Spacer(1, 0.2*inch))
         
         return elements
     
@@ -304,7 +304,7 @@ class PDFReportGenerator:
         elements.append(Spacer(1, 0.3*inch))
         
         # Merge Section, Rigor, and Writing Scores into one grouped table with vertical spans
-        merged_table_data = [["Category", "Sub-Category", "Score"]]
+        merged_table_data = [["Category", "Sub-Category"]]
         spans = []
         row_idx = 1
         for cat_label, scores in [
@@ -314,20 +314,17 @@ class PDFReportGenerator:
         ]:
             group_start = row_idx
             for i, (key, data) in enumerate(scores.items()):
-                score = data['score']
-                color = self.get_score_color(score)
                 # Prepend code (key) to sub-category name
                 subcat = f"{key} - {data['section_name']}"
                 merged_table_data.append([
                     Paragraph(cat_label if i == 0 else "", self.styles['TableCell']),
-                    Paragraph(subcat, self.styles['TableCell']),
-                    Paragraph(f"<font color='{color}'> {int(round(score))}/5 </font>", self.styles['TableCell'])
+                    Paragraph(subcat, self.styles['TableCell'])
                 ])
                 row_idx += 1
             # Add span for this group if more than one row
             if row_idx - group_start > 1:
                 spans.append(('SPAN', (0, group_start), (0, row_idx - 1)))
-        merged_table = Table(merged_table_data, colWidths=[1.7*inch, 3.1*inch, 1.1*inch], repeatRows=1)
+        merged_table = Table(merged_table_data, colWidths=[1.7*inch, 4.2*inch], repeatRows=1)
         table_style = [
             ('BACKGROUND', (0, 0), (-1, 0), self.colors['header_bg']),
             ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
@@ -374,9 +371,6 @@ class PDFReportGenerator:
                 # Add code prefix to section header
                 section_title = f"{section_id} - {section_data['section_name']}"
                 elements.append(Paragraph(section_title, self.styles['SectionHeader']))
-                score = section_data['score']
-                score_color = self.get_score_color(score)
-                elements.append(Paragraph(f"<b>Score:</b> <font color='{score_color}'>{int(round(score))}/5</font>", self.styles['SubHeader']))
                 # Add summary
                 elements.append(Paragraph(section_data['summary'], self.styles['Justified']))
                 elements.append(Spacer(1, 0.2*inch))
